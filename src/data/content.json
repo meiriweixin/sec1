@@ -1,0 +1,355 @@
+{
+  "subjects": [
+    {
+      "id": "math",
+      "title": "Mathematics",
+      "title_zh": "数学",
+      "description": "Master mathematical concepts and problem-solving",
+      "description_zh": "掌握数学概念和解题技巧",
+      "color": "primary",
+      "chapters": [
+        {
+          "id": "integers-rational",
+          "title": "Integers & Rational Numbers",
+          "title_zh": "整数与有理数",
+          "description": "Learn integer operations and rational number representations",
+          "description_zh": "学习整数运算和有理数表示",
+          "objectives": [
+            "Understand integer operations",
+            "Represent rational numbers on the number line",
+            "Compare and order rational numbers"
+          ],
+          "objectives_zh": [
+            "理解整数运算",
+            "在数轴上表示有理数",
+            "比较和排序有理数"
+          ],
+          "sections": [
+            {
+              "id": "intro",
+              "type": "text",
+              "title": "Introduction to Integers",
+              "title_zh": "整数简介",
+              "content": "Integers include all positive numbers, negative numbers, and zero. They extend our number system beyond just counting numbers.",
+              "content_zh": "整数包括所有正数、负数和零。它们将我们的数字系统扩展到计数以外。"
+            },
+            {
+              "id": "animation1",
+              "type": "animation",
+              "title": "Number Line Visualization",
+              "title_zh": "数轴可视化",
+              "content": "NumberLineReveal",
+              "props": {
+                "start": -10,
+                "end": 10,
+                "highlight": [-7, 12]
+              }
+            },
+            {
+              "id": "formula",
+              "type": "math",
+              "title": "Subtraction Rule",
+              "title_zh": "减法规则",
+              "content": "a - b = a + (-b)",
+              "explanation": "Subtracting a number is the same as adding its opposite.",
+              "explanation_zh": "减去一个数等于加上它的相反数。"
+            }
+          ],
+          "exercises": [
+            {
+              "id": "q1",
+              "type": "mcq",
+              "prompt": "What is (-7) + 12?",
+              "prompt_zh": "(-7) + 12 等于多少？",
+              "choices": ["-19", "5", "-5", "19"],
+              "choices_zh": ["-19", "5", "-5", "19"],
+              "answer": 1,
+              "hint": "Add 12 to -7. Think of moving right 12 spaces on the number line from -7.",
+              "hint_zh": "将12加到-7。想象在数轴上从-7向右移动12个位置。",
+              "explanation": "(-7) + 12 = 5. Starting at -7 and adding 12 takes us to positive 5.",
+              "explanation_zh": "(-7) + 12 = 5。从-7开始加12，我们到达正5。"
+            },
+            {
+              "id": "q2",
+              "type": "short",
+              "prompt": "Express 0.2 as a fraction in simplest form.",
+              "prompt_zh": "将0.2表示为最简分数形式。",
+              "answer": "1/5",
+              "validator": "fraction",
+              "hint": "Think about what 0.2 means: 2 tenths.",
+              "hint_zh": "想想0.2的含义：2个十分之一。",
+              "explanation": "0.2 = 2/10 = 1/5 (dividing both numerator and denominator by 2)",
+              "explanation_zh": "0.2 = 2/10 = 1/5（分子分母同时除以2）"
+            },
+            {
+              "id": "q3",
+              "type": "drag-order",
+              "prompt": "Order from smallest to largest: -2, 1/3, -1/2, 0.75",
+              "prompt_zh": "从小到大排序：-2, 1/3, -1/2, 0.75",
+              "items": ["-2", "-1/2", "1/3", "0.75"],
+              "answer": ["-2", "-1/2", "1/3", "0.75"],
+              "hint": "Convert everything to decimals or place them on a number line.",
+              "hint_zh": "将所有数转换为小数或在数轴上标出它们的位置。"
+            }
+          ]
+        },
+        {
+          "id": "algebraic-expressions",
+          "title": "Algebraic Expressions",
+          "title_zh": "代数表达式",
+          "description": "Learn to simplify and manipulate algebraic expressions",
+          "description_zh": "学习简化和操作代数表达式",
+          "objectives": [
+            "Combine like terms",
+            "Expand brackets",
+            "Factorize simple expressions"
+          ],
+          "objectives_zh": [
+            "合并同类项",
+            "展开括号",
+            "分解简单表达式"
+          ],
+          "sections": [
+            {
+              "id": "like-terms",
+              "type": "text",
+              "title": "Like Terms",
+              "title_zh": "同类项",
+              "content": "Like terms have the same variables raised to the same powers. Combine coefficients of like terms.",
+              "content_zh": "同类项具有相同的变量和相同的幂。合并同类项的系数。"
+            },
+            {
+              "id": "animation2",
+              "type": "animation",
+              "title": "Combining Like Terms",
+              "title_zh": "合并同类项",
+              "content": "TileCombine",
+              "props": {
+                "expression": "x + x + x",
+                "result": "3x"
+              }
+            },
+            {
+              "id": "example",
+              "type": "math",
+              "title": "Example",
+              "title_zh": "例子",
+              "content": "2x + 3x - x = 4x",
+              "explanation": "Collect all the x terms: (2 + 3 - 1)x = 4x",
+              "explanation_zh": "收集所有x项：(2 + 3 - 1)x = 4x"
+            }
+          ],
+          "exercises": [
+            {
+              "id": "q1",
+              "type": "short",
+              "prompt": "Simplify: 4x + 2y - 3x + y",
+              "prompt_zh": "化简：4x + 2y - 3x + y",
+              "answer": "x + 3y",
+              "hint": "Group the x terms together and the y terms together.",
+              "hint_zh": "将x项和y项分别组合。"
+            },
+            {
+              "id": "q2",
+              "type": "mcq",
+              "prompt": "Expand: 3(x + 2)",
+              "prompt_zh": "展开：3(x + 2)",
+              "choices": ["3x + 2", "3x + 6", "x + 6", "6x + 2"],
+              "choices_zh": ["3x + 2", "3x + 6", "x + 6", "6x + 2"],
+              "answer": 1,
+              "hint": "Multiply 3 by each term inside the brackets.",
+              "hint_zh": "将3与括号内的每一项相乘。"
+            },
+            {
+              "id": "q3",
+              "type": "multi",
+              "prompt": "Which are like terms with 2x?",
+              "prompt_zh": "哪些是2x的同类项？",
+              "choices": ["5x", "3y", "-x", "x²"],
+              "choices_zh": ["5x", "3y", "-x", "x²"],
+              "answer": [0, 2],
+              "hint": "Like terms have the same variable with the same power.",
+              "hint_zh": "同类项具有相同的变量和相同的幂。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "title": "Science",
+      "title_zh": "科学",
+      "description": "Explore the natural world through scientific inquiry",
+      "description_zh": "通过科学探究探索自然世界",
+      "color": "accent",
+      "chapters": [
+        {
+          "id": "lab-safety-measurement",
+          "title": "Lab Safety & Measurement",
+          "title_zh": "实验室安全与测量",
+          "description": "Learn essential lab safety rules and measurement techniques",
+          "description_zh": "学习基本的实验室安全规则和测量技术",
+          "objectives": [
+            "Recall key lab safety rules",
+            "Use SI units correctly",
+            "Read measuring instruments accurately"
+          ],
+          "objectives_zh": [
+            "记住关键的实验室安全规则",
+            "正确使用国际单位制",
+            "准确读取测量仪器"
+          ],
+          "sections": [
+            {
+              "id": "safety",
+              "type": "text",
+              "title": "Laboratory Safety",
+              "title_zh": "实验室安全",
+              "content": "Always wear safety goggles, tie back long hair, no food or drink in the lab, and report accidents immediately.",
+              "content_zh": "始终佩戴安全护目镜，束起长发，实验室内禁止饮食，发生事故立即报告。"
+            },
+            {
+              "id": "animation1",
+              "type": "animation",
+              "title": "Safety Rules",
+              "title_zh": "安全规则",
+              "content": "SafetyIcons",
+              "props": {
+                "rules": ["goggles", "hair", "no-food", "report"]
+              }
+            },
+            {
+              "id": "units",
+              "type": "text",
+              "title": "SI Base Units",
+              "title_zh": "国际单位制基本单位",
+              "content": "The seven SI base units are: meter (m), kilogram (kg), second (s), ampere (A), kelvin (K), mole (mol), and candela (cd).",
+              "content_zh": "七个国际单位制基本单位是：米(m)、千克(kg)、秒(s)、安培(A)、开尔文(K)、摩尔(mol)和坎德拉(cd)。"
+            }
+          ],
+          "exercises": [
+            {
+              "id": "q1",
+              "type": "mcq",
+              "prompt": "What is the SI unit for temperature?",
+              "prompt_zh": "温度的国际单位制单位是什么？",
+              "choices": ["°C", "K", "°F", "Pa"],
+              "choices_zh": ["°C", "K", "°F", "Pa"],
+              "answer": 1,
+              "hint": "Think about absolute temperature scale.",
+              "hint_zh": "想想绝对温度标度。"
+            },
+            {
+              "id": "q2",
+              "type": "short",
+              "prompt": "Convert 2.5 kg to grams.",
+              "prompt_zh": "将2.5千克转换为克。",
+              "answer": "2500",
+              "validator": "numeric",
+              "hint": "1 kg = 1000 g",
+              "hint_zh": "1千克 = 1000克"
+            },
+            {
+              "id": "q3",
+              "type": "match",
+              "prompt": "Match the instrument to the quantity it measures:",
+              "prompt_zh": "将仪器与其测量的物理量匹配：",
+              "pairs": [
+                ["Ruler", "Length"],
+                ["Stopwatch", "Time"],
+                ["Thermometer", "Temperature"],
+                ["Balance", "Mass"]
+              ],
+              "pairs_zh": [
+                ["尺子", "长度"],
+                ["秒表", "时间"],
+                ["温度计", "温度"],
+                ["天平", "质量"]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "particle-model",
+          "title": "Particulate Model of Matter",
+          "title_zh": "物质的粒子模型",
+          "description": "Understand how particles behave in different states of matter",
+          "description_zh": "理解粒子在不同物质状态中的行为",
+          "objectives": [
+            "Describe particle arrangement in solids, liquids, and gases",
+            "Explain diffusion and Brownian motion",
+            "Relate particle motion to temperature"
+          ],
+          "objectives_zh": [
+            "描述固体、液体和气体中的粒子排列",
+            "解释扩散和布朗运动",
+            "将粒子运动与温度联系起来"
+          ],
+          "sections": [
+            {
+              "id": "states",
+              "type": "animation",
+              "title": "States of Matter",
+              "title_zh": "物质状态",
+              "content": "ParticlesInStates",
+              "props": {
+                "states": ["solid", "liquid", "gas"]
+              }
+            },
+            {
+              "id": "diffusion",
+              "type": "text",
+              "title": "Diffusion",
+              "title_zh": "扩散",
+              "content": "Random motion of particles leads to mixing without stirring. Particles move from high to low concentration.",
+              "content_zh": "粒子的随机运动导致不需搅拌就能混合。粒子从高浓度区域移动到低浓度区域。"
+            }
+          ],
+          "exercises": [
+            {
+              "id": "q1",
+              "type": "mcq",
+              "prompt": "In solids, particles mainly...",
+              "prompt_zh": "在固体中，粒子主要...",
+              "choices": [
+                "are fixed in position and vibrate",
+                "flow freely past each other",
+                "are far apart with weak forces",
+                "move very rapidly in all directions"
+              ],
+              "choices_zh": [
+                "固定在位置上并振动",
+                "自由地相互流动",
+                "相距很远且受力很弱",
+                "在所有方向上快速移动"
+              ],
+              "answer": 0,
+              "hint": "Think about the structure and movement in solids.",
+              "hint_zh": "想想固体的结构和运动。"
+            },
+            {
+              "id": "q2",
+              "type": "short",
+              "prompt": "Name the process when perfume spreads across a room.",
+              "prompt_zh": "香水在房间里扩散的过程叫什么？",
+              "answer": "diffusion",
+              "answer_zh": "扩散",
+              "hint": "It's the spreading of particles due to random motion.",
+              "hint_zh": "这是由于随机运动导致的粒子扩散。"
+            },
+            {
+              "id": "q3",
+              "type": "drag-order",
+              "prompt": "Arrange by average particle spacing (closest to furthest):",
+              "prompt_zh": "按平均粒子间距排列（从最近到最远）：",
+              "items": ["solid", "liquid", "gas"],
+              "items_zh": ["固体", "液体", "气体"],
+              "answer": ["solid", "liquid", "gas"],
+              "answer_zh": ["固体", "液体", "气体"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
