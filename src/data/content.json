@@ -3555,71 +3555,414 @@
         },
         {
           "id": "coordinates-graphs",
-          "title": "Coordinates & Linear Graphs",
-          "title_zh": "坐标与线性图",
-          "description": "Plot points and graph linear functions",
-          "description_zh": "绘制点和线性函数图",
+          "title": "Linear Graphs (y = mx + c)",
+          "title_zh": "线性图 (y = mx + c)",
+          "description": "Master linear equations, gradients, and graphing techniques",
+          "description_zh": "掌握线性方程、斜率和绘图技巧",
           "objectives": [
-            "Plot points on coordinate plane",
-            "Find coordinates of points",
-            "Graph linear functions y = mx + c",
-            "Interpret gradients and y-intercepts"
+            "Understand the equation y = mx + c and its components",
+            "Calculate and interpret gradients (slope)",
+            "Identify y-intercepts from equations and graphs",
+            "Graph linear equations using different methods",
+            "Find equations of lines from graphs",
+            "Recognize parallel and perpendicular lines"
           ],
           "objectives_zh": [
-            "在坐标平面上绘制点",
-            "找出点的坐标",
-            "绘制线性函数y = mx + c",
-            "解释斜率和y截距"
+            "理解方程y = mx + c及其组成部分",
+            "计算和解释斜率（梯度）",
+            "从方程和图形识别y截距",
+            "使用不同方法绘制线性方程",
+            "从图形找到直线方程",
+            "识别平行线和垂直线"
           ],
           "sections": [
             {
               "id": "intro",
               "type": "text",
-              "title": "Coordinate System",
-              "title_zh": "坐标系统",
-              "content": "The coordinate plane has two perpendicular axes: horizontal x-axis (left-right) and vertical y-axis (up-down). They intersect at the ORIGIN (0,0). Every point is identified by coordinates (x, y) where x = horizontal distance, y = vertical distance. Four QUADRANTS: Quadrant I (+,+), II (-,+), III (-,-), IV (+,-). Example: Point (3, 2) means 3 units right, 2 units up from origin.",
-              "content_zh": "坐标平面有两条垂直的轴：水平的x轴（左右）和垂直的y轴（上下）。它们在原点(0,0)相交。每个点由坐标(x, y)标识，其中x = 水平距离，y = 垂直距离。四个象限：第一象限(+,+)，第二象限(-,+)，第三象限(-,-)，第四象限(+,-)。例子：点(3, 2)表示从原点向右3个单位，向上2个单位。"
+              "title": "Understanding y = mx + c",
+              "title_zh": "理解y = mx + c",
+              "content": "The equation **y = mx + c** is the STANDARD FORM of a linear equation. It represents a straight line on a coordinate plane.\n\n## COMPONENTS:\n\n- **y** = dependent variable (output, vertical position)\n- **x** = independent variable (input, horizontal position)\n- **m** = GRADIENT (slope, steepness of the line)\n- **c** = Y-INTERCEPT (where the line crosses the y-axis)\n\n## Examples:\n\n- y = 2x + 3: gradient = 2, y-intercept = 3\n- y = -x + 5: gradient = -1, y-intercept = 5\n- y = 0.5x - 2: gradient = 0.5, y-intercept = -2\n- y = 4x: gradient = 4, y-intercept = 0 (passes through origin)\n\n## Why is it called LINEAR?\n\nBecause the graph is always a straight line. Every point (x, y) on the line satisfies the equation.",
+              "content_zh": "方程 **y = mx + c** 是线性方程的标准形式。它表示坐标平面上的一条直线。\n\n## 组成部分：\n\n- **y** = 因变量（输出，垂直位置）\n- **x** = 自变量（输入，水平位置）\n- **m** = 斜率（梯度，直线的陡度）\n- **c** = Y截距（直线与y轴的交点）\n\n## 例子：\n\n- y = 2x + 3：斜率 = 2，y截距 = 3\n- y = -x + 5：斜率 = -1，y截距 = 5\n- y = 0.5x - 2：斜率 = 0.5，y截距 = -2\n- y = 4x：斜率 = 4，y截距 = 0（通过原点）\n\n## 为什么叫线性？\n\n因为图形总是一条直线。直线上的每个点(x, y)都满足方程。"
             },
             {
-              "id": "coordinate-example",
-              "type": "example",
-              "title": "Example: Plotting Points",
-              "title_zh": "例子：绘制点",
-              "content": "Let's plot these points on a coordinate plane:\n\nA(2, 3): Start at origin, move 2 right, 3 up → Quadrant I\nB(-4, 1): Start at origin, move 4 left, 1 up → Quadrant II  \nC(-3, -2): Start at origin, move 3 left, 2 down → Quadrant III\nD(5, -1): Start at origin, move 5 right, 1 down → Quadrant IV\nE(0, 4): On y-axis (x = 0), 4 units up\nF(3, 0): On x-axis (y = 0), 3 units right\n\nSingapore Context: Think of Singapore as a coordinate map!\n- Origin (0,0) = City Hall MRT\n- Point (5, 3) could represent Orchard (5 km east, 3 km north)\n- Point (-2, 4) could represent location (2 km west, 4 km north)\n\nDistance between two points: Use Pythagoras! Distance from A(2,3) to B(5,7):\nHorizontal distance = 5-2 = 3\nVertical distance = 7-3 = 4  \nDistance = √(3² + 4²) = √(9 + 16) = √25 = 5 units",
-              "content_zh": "让我们在坐标平面上绘制这些点：\n\nA(2, 3)：从原点开始，向右移动2，向上移动3 → 第一象限\nB(-4, 1)：从原点开始，向左移动4，向上移动1 → 第二象限\nC(-3, -2)：从原点开始，向左移动3，向下移动2 → 第三象限\nD(5, -1)：从原点开始，向右移动5，向下移动1 → 第四象限\nE(0, 4)：在y轴上(x = 0)，向上4个单位\nF(3, 0)：在x轴上(y = 0)，向右3个单位\n\n新加坡情境：把新加坡想象成坐标图！\n- 原点(0,0) = 政府大厦地铁站\n- 点(5, 3)可以表示乌节路（东5公里，北3公里）\n- 点(-2, 4)可以表示位置（西2公里，北4公里）\n\n两点间距离：使用勾股定理！从A(2,3)到B(5,7)的距离：\n水平距离 = 5-2 = 3\n垂直距离 = 7-3 = 4\n距离 = √(3² + 4²) = √(9 + 16) = √25 = 5个单位"
+              "id": "interactive-graph",
+              "type": "animation",
+              "title": "Interactive Linear Graph Explorer",
+              "title_zh": "交互式线性图探索器",
+              "content": "LinearGraphInteractive",
+              "props": {
+                "defaultM": 2,
+                "defaultC": 1
+              }
             },
             {
-              "id": "linear-graphs",
+              "id": "gradient",
               "type": "text",
-              "title": "Linear Graphs y = mx + c",
-              "title_zh": "线性图 y = mx + c",
-              "content": "LINEAR EQUATION y = mx + c creates a straight line graph. m = GRADIENT (slope/steepness), c = Y-INTERCEPT (where line crosses y-axis). Positive m: line goes up (↗), Negative m: line goes down (↘), Larger |m|: steeper line. To graph: 1) Find y-intercept (0, c), 2) Use gradient to find more points, 3) Draw straight line through points. Example: y = 2x + 1 has gradient 2 (up 2, right 1) and y-intercept (0, 1).",
-              "content_zh": "线性方程y = mx + c创建直线图。m = 斜率（倾斜度），c = y截距（直线与y轴的交点）。正m：线向上(↗)，负m：线向下(↘)，|m|越大：线越陡。绘制：1）找y截距(0, c)，2）使用斜率找更多点，3）通过点画直线。例子：y = 2x + 1有斜率2（向上2，向右1）和y截距(0, 1)。"
+              "title": "Understanding Gradient (m)",
+              "title_zh": "理解斜率(m)",
+              "content": "The GRADIENT (m) measures how steep a line is. It's the RATE OF CHANGE of y with respect to x.\n\nFORMULA: Gradient = Rise / Run = (Change in y) / (Change in x)\n\nFor two points (x₁, y₁) and (x₂, y₂):\nm = (y₂ - y₁) / (x₂ - x₁)\n\nINTERPRETING GRADIENT:\n• m > 0: Line slopes UPWARD (↗) from left to right (positive relationship)\n• m < 0: Line slopes DOWNWARD (↘) from left to right (negative relationship)\n• m = 0: HORIZONTAL line (→) (y stays constant)\n• m undefined: VERTICAL line (↕) (x stays constant, not in y=mx+c form)\n\nSTEEPNESS:\n• |m| < 1: Gentle slope\n• |m| = 1: 45° angle\n• |m| > 1: Steep slope\n• Larger |m|: Steeper the line\n\nExample: m = 3 means for every 1 unit right, go 3 units up.\nExample: m = -0.5 means for every 1 unit right, go 0.5 units down.",
+              "content_zh": "斜率(m)衡量直线的陡度。它是y相对于x的变化率。\n\n公式：斜率 = 上升/前进 = (y的变化)/(x的变化)\n\n对于两点(x₁, y₁)和(x₂, y₂)：\nm = (y₂ - y₁) / (x₂ - x₁)\n\n解释斜率：\n• m > 0：线从左到右向上倾斜(↗)（正相关）\n• m < 0：线从左到右向下倾斜(↘)（负相关）\n• m = 0：水平线(→)（y保持不变）\n• m未定义：垂直线(↕)（x保持不变，不是y=mx+c形式）\n\n陡度：\n• |m| < 1：缓坡\n• |m| = 1：45°角\n• |m| > 1：陡坡\n• |m|越大：线越陡\n\n例子：m = 3表示每向右1个单位，向上3个单位。\n例子：m = -0.5表示每向右1个单位，向下0.5个单位。"
             },
             {
-              "id": "linear-graph-example",
-              "type": "example",
-              "title": "Example: Graphing Linear Equations",
-              "title_zh": "例子：绘制线性方程",
-              "content": "Graph y = 3x - 2:\n\nStep 1: Identify m and c\n- Gradient m = 3 (for every 1 right, go 3 up)\n- Y-intercept c = -2 (crosses y-axis at (0, -2))\n\nStep 2: Plot y-intercept\n- Start with point (0, -2)\n\nStep 3: Use gradient to find more points\n- From (0, -2): move 1 right, 3 up → (1, 1)\n- From (1, 1): move 1 right, 3 up → (2, 4)\n- Can also go backwards: 1 left, 3 down → (-1, -5)\n\nStep 4: Draw straight line through all points\n\nAlternative method - Make a table:\nx  | -1 | 0  | 1 | 2\ny  | -5 | -2 | 1 | 4\n\nReal-world: Taxi fare in Singapore\n- Fare = $3.50 + $0.50 per km\n- Equation: y = 0.5x + 3.5\n- Graph shows: Start at $3.50, increases $0.50 per km\n- For 10km: y = 0.5(10) + 3.5 = $8.50",
-              "content_zh": "绘制y = 3x - 2：\n\n步骤1：识别m和c\n- 斜率m = 3（每向右1，向上3）\n- y截距c = -2（在(0, -2)与y轴相交）\n\n步骤2：绘制y截距\n- 从点(0, -2)开始\n\n步骤3：使用斜率找更多点\n- 从(0, -2)：向右移动1，向上移动3 → (1, 1)\n- 从(1, 1)：向右移动1，向上移动3 → (2, 4)\n- 也可以向后：向左1，向下3 → (-1, -5)\n\n步骤4：通过所有点画直线\n\n替代方法 - 制作表格：\nx  | -1 | 0  | 1 | 2\ny  | -5 | -2 | 1 | 4\n\n实际应用：新加坡出租车费用\n- 费用 = $3.50 + 每公里$0.50\n- 方程：y = 0.5x + 3.5\n- 图表显示：从$3.50开始，每公里增加$0.50\n- 10公里：y = 0.5(10) + 3.5 = $8.50"
+              "id": "y-intercept",
+              "type": "text",
+              "title": "Understanding Y-Intercept (c)",
+              "title_zh": "理解Y截距(c)",
+              "content": "The Y-INTERCEPT (c) is where the line crosses the y-axis. At this point, x = 0.\n\nFINDING Y-INTERCEPT:\n1) From equation y = mx + c: The value of c is the y-intercept\n2) From graph: Look where the line crosses the y-axis\n3) Substitute x = 0 into equation: y = m(0) + c = c\n\nCOORDINATE OF Y-INTERCEPT: (0, c)\n\nExamples:\n• y = 2x + 5: y-intercept = 5, point (0, 5)\n• y = 3x - 4: y-intercept = -4, point (0, -4)\n• y = -x: y-intercept = 0, point (0, 0) - passes through origin\n\nREAL-WORLD MEANING:\nThe y-intercept is the STARTING VALUE or INITIAL AMOUNT when x = 0.\n\nExample (Singapore context): Phone plan costs\ny = 0.10x + 15\n• m = 0.10 (10 cents per minute)\n• c = 15 ($15 monthly base fee)\n• Y-intercept (0, 15) means even with 0 minutes, you pay $15",
+              "content_zh": "Y截距(c)是直线与y轴的交点。在这一点，x = 0。\n\n找Y截距：\n1) 从方程y = mx + c：c的值就是y截距\n2) 从图形：看直线在哪里与y轴相交\n3) 将x = 0代入方程：y = m(0) + c = c\n\nY截距的坐标：(0, c)\n\n例子：\n• y = 2x + 5：y截距 = 5，点(0, 5)\n• y = 3x - 4：y截距 = -4，点(0, -4)\n• y = -x：y截距 = 0，点(0, 0) - 通过原点\n\n实际意义：\nY截距是当x = 0时的起始值或初始量。\n\n例子（新加坡背景）：电话套餐费用\ny = 0.10x + 15\n• m = 0.10（每分钟10分）\n• c = 15（每月$15基本费）\n• Y截距(0, 15)意味着即使0分钟，你也要付$15"
+            },
+            {
+              "id": "graphing-methods",
+              "type": "text",
+              "title": "Methods for Graphing Linear Equations",
+              "title_zh": "绘制线性方程的方法",
+              "content": "There are several methods to graph y = mx + c:\n\nMETHOD 1: Using Gradient and Y-Intercept\nStep 1: Plot y-intercept (0, c)\nStep 2: Use gradient m = rise/run to find another point\nStep 3: Draw straight line through both points\n\nExample: y = 2x + 1\n- Plot (0, 1)\n- From (0,1): rise 2, run 1 → plot (1, 3)\n- Draw line through (0,1) and (1,3)\n\nMETHOD 2: Table of Values\nStep 1: Choose x-values (usually -2, -1, 0, 1, 2)\nStep 2: Calculate corresponding y-values\nStep 3: Plot all points\nStep 4: Draw straight line through points\n\nExample: y = -x + 3\nx | -1 | 0 | 1 | 2\ny |  4 | 3 | 2 | 1\n\nMETHOD 3: X and Y Intercepts\nStep 1: Find y-intercept (set x = 0)\nStep 2: Find x-intercept (set y = 0)\nStep 3: Draw line through both intercepts\n\nExample: y = 2x - 4\n- Y-intercept: x=0 → y = -4, point (0, -4)\n- X-intercept: y=0 → 0 = 2x - 4 → x = 2, point (2, 0)\n- Draw line through (0, -4) and (2, 0)\n\nTIP: Always use a ruler for straight lines!",
+              "content_zh": "绘制y = mx + c有几种方法：\n\n方法1：使用斜率和Y截距\n步骤1：绘制y截距(0, c)\n步骤2：使用斜率m = 上升/前进找另一个点\n步骤3：通过两点画直线\n\n例子：y = 2x + 1\n- 绘制(0, 1)\n- 从(0,1)：上升2，前进1 → 绘制(1, 3)\n- 通过(0,1)和(1,3)画线\n\n方法2：数值表\n步骤1：选择x值（通常-2, -1, 0, 1, 2）\n步骤2：计算对应的y值\n步骤3：绘制所有点\n步骤4：通过点画直线\n\n例子：y = -x + 3\nx | -1 | 0 | 1 | 2\ny |  4 | 3 | 2 | 1\n\n方法3：X和Y截距\n步骤1：找y截距（令x = 0）\n步骤2：找x截距（令y = 0）\n步骤3：通过两个截距画线\n\n例子：y = 2x - 4\n- Y截距：x=0 → y = -4，点(0, -4)\n- X截距：y=0 → 0 = 2x - 4 → x = 2，点(2, 0)\n- 通过(0, -4)和(2, 0)画线\n\n提示：总是使用尺子画直线！"
+            },
+            {
+              "id": "finding-equation",
+              "type": "text",
+              "title": "Finding Equation from Graph or Points",
+              "title_zh": "从图形或点找方程",
+              "content": "To find the equation y = mx + c from a graph or two points:\n\nSTEP 1: Find the GRADIENT (m)\nMethod A: From graph - count rise/run\nMethod B: From two points (x₁, y₁) and (x₂, y₂):\nm = (y₂ - y₁) / (x₂ - x₁)\n\nSTEP 2: Find the Y-INTERCEPT (c)\nMethod A: From graph - read where line crosses y-axis\nMethod B: Substitute a point and m into y = mx + c, solve for c\n\nSTEP 3: Write the equation y = mx + c\n\nExample 1: Find equation of line through (1, 5) and (3, 11)\nStep 1: Find m\nm = (11 - 5) / (3 - 1) = 6 / 2 = 3\n\nStep 2: Find c using point (1, 5)\n5 = 3(1) + c\n5 = 3 + c\nc = 2\n\nStep 3: Equation is y = 3x + 2\n\nExample 2: Find equation with gradient -2 passing through (4, 3)\nm = -2, point (4, 3)\n3 = -2(4) + c\n3 = -8 + c\nc = 11\nEquation: y = -2x + 11\n\nCHECK YOUR ANSWER: Substitute both original points to verify!",
+              "content_zh": "从图形或两点找方程y = mx + c：\n\n步骤1：找斜率(m)\n方法A：从图形 - 数上升/前进\n方法B：从两点(x₁, y₁)和(x₂, y₂)：\nm = (y₂ - y₁) / (x₂ - x₁)\n\n步骤2：找Y截距(c)\n方法A：从图形 - 读取直线与y轴交点\n方法B：将一个点和m代入y = mx + c，求解c\n\n步骤3：写出方程y = mx + c\n\n例1：找通过(1, 5)和(3, 11)的直线方程\n步骤1：找m\nm = (11 - 5) / (3 - 1) = 6 / 2 = 3\n\n步骤2：用点(1, 5)找c\n5 = 3(1) + c\n5 = 3 + c\nc = 2\n\n步骤3：方程是y = 3x + 2\n\n例2：找斜率为-2且通过(4, 3)的方程\nm = -2，点(4, 3)\n3 = -2(4) + c\n3 = -8 + c\nc = 11\n方程：y = -2x + 11\n\n检查答案：代入两个原始点验证！"
+            },
+            {
+              "id": "parallel-perpendicular",
+              "type": "text",
+              "title": "Parallel and Perpendicular Lines",
+              "title_zh": "平行线和垂直线",
+              "content": "PARALLEL LINES have special relationships with their gradients:\n\nPARALLEL LINES:\n• Have the SAME gradient (m₁ = m₂)\n• Never intersect (same steepness, different position)\n• Different y-intercepts (c₁ ≠ c₂)\n\nExamples of parallel lines:\n• y = 2x + 3 and y = 2x - 5 (both have m = 2)\n• y = -x + 1 and y = -x + 7 (both have m = -1)\n\nPERPENDICULAR LINES:\n• Have gradients that MULTIPLY to give -1\n• If line 1 has gradient m₁, line 2 has gradient m₂\n• Rule: m₁ × m₂ = -1\n• Or: m₂ = -1/m₁ (negative reciprocal)\n\nExamples of perpendicular lines:\n• y = 2x + 1 and y = -½x + 3\n  (m₁ = 2, m₂ = -½, check: 2 × (-½) = -1 ✓)\n• y = 3x - 2 and y = -⅓x + 5\n  (m₁ = 3, m₂ = -⅓, check: 3 × (-⅓) = -1 ✓)\n• y = -x + 4 and y = x - 2\n  (m₁ = -1, m₂ = 1, check: -1 × 1 = -1 ✓)\n\nSPECIAL CASES:\n• Horizontal line (y = c) is perpendicular to vertical line (x = k)\n• x-axis (y = 0) perpendicular to y-axis (x = 0)\n\nSingapore Context: MRT lines\n• North-South Line and East-West Line intersect at perpendicular angles at City Hall and Raffles Place!",
+              "content_zh": "平行线与它们的斜率有特殊关系：\n\n平行线：\n• 有相同的斜率(m₁ = m₂)\n• 永不相交（相同陡度，不同位置）\n• 不同的y截距(c₁ ≠ c₂)\n\n平行线例子：\n• y = 2x + 3和y = 2x - 5（都有m = 2）\n• y = -x + 1和y = -x + 7（都有m = -1）\n\n垂直线：\n• 斜率相乘等于-1\n• 如果直线1有斜率m₁，直线2有斜率m₂\n• 规则：m₁ × m₂ = -1\n• 或：m₂ = -1/m₁（负倒数）\n\n垂直线例子：\n• y = 2x + 1和y = -½x + 3\n  (m₁ = 2, m₂ = -½，检查：2 × (-½) = -1 ✓)\n• y = 3x - 2和y = -⅓x + 5\n  (m₁ = 3, m₂ = -⅓，检查：3 × (-⅓) = -1 ✓)\n• y = -x + 4和y = x - 2\n  (m₁ = -1, m₂ = 1，检查：-1 × 1 = -1 ✓)\n\n特殊情况：\n• 水平线(y = c)垂直于垂直线(x = k)\n• x轴(y = 0)垂直于y轴(x = 0)\n\n新加坡背景：地铁线\n• 南北线和东西线在政府大厦和莱佛士坊以垂直角相交！"
+            },
+            {
+              "id": "real-world-applications",
+              "type": "text",
+              "title": "Real-World Applications",
+              "title_zh": "实际应用",
+              "content": "Linear equations model many real-world situations where there's a CONSTANT RATE OF CHANGE:\n\nCOMMON APPLICATIONS:\n\n1. COST CALCULATIONS\nTotal cost = Fixed cost + (Rate × Quantity)\ny = c + mx\n\nExample: Taxi fare in Singapore\ny = 3.50 + 0.50x\n• y = total fare ($)\n• x = distance (km)\n• m = 0.50 (rate per km)\n• c = 3.50 (base fare)\n\n2. CONVERSION FORMULAS\nExample: Temperature Fahrenheit to Celsius\nF = 1.8C + 32\n• m = 1.8 (conversion rate)\n• c = 32 (freezing point difference)\n\n3. PHONE PLANS\ny = Monthly fee + (Rate per minute × Minutes)\n\nExample: Plan costs $25/month + $0.10/minute\ny = 0.10x + 25\n\n4. SALARY WITH COMMISSION\nPay = Base salary + (Commission rate × Sales)\n\nExample: $2000/month + 5% of sales\ny = 0.05x + 2000\n\n5. WATER TANK FILLING/DRAINING\nVolume = Initial volume + (Rate × Time)\n\nExample: Tank starts with 500L, fills at 20L/min\ny = 20x + 500\n\nKEY SKILL: Identify what m and c represent in context!\n• m = rate of change (per unit)\n• c = starting value (when x = 0)",
+              "content_zh": "线性方程模拟许多有恒定变化率的实际情况：\n\n常见应用：\n\n1. 成本计算\n总成本 = 固定成本 + (费率 × 数量)\ny = c + mx\n\n例子：新加坡出租车费\ny = 3.50 + 0.50x\n• y = 总费用($)\n• x = 距离(公里)\n• m = 0.50(每公里费率)\n• c = 3.50(起步价)\n\n2. 转换公式\n例子：华氏温度到摄氏温度\nF = 1.8C + 32\n• m = 1.8(转换率)\n• c = 32(冰点差异)\n\n3. 电话套餐\ny = 月费 + (每分钟费率 × 分钟数)\n\n例子：套餐每月$25 + 每分钟$0.10\ny = 0.10x + 25\n\n4. 带佣金的工资\n工资 = 基本工资 + (佣金率 × 销售额)\n\n例子：每月$2000 + 销售额的5%\ny = 0.05x + 2000\n\n5. 水箱加水/排水\n体积 = 初始体积 + (速率 × 时间)\n\n例子：水箱从500升开始，以每分钟20升加水\ny = 20x + 500\n\n关键技能：识别m和c在情境中代表什么！\n• m = 变化率（每单位）\n• c = 起始值（当x = 0时）"
             }
           ],
           "exercises": [
             {
-              "id": "q1",
+              "id": "ex1",
               "type": "mcq",
-              "prompt": "What is the gradient of the line y = 3x + 2?",
-              "prompt_zh": "直线y = 3x + 2的斜率是多少？",
+              "difficulty": "easy",
+              "prompt": "What is the gradient of y = 5x - 3?",
+              "prompt_zh": "y = 5x - 3的斜率是多少？",
+              "choices": [
+                "5",
+                "-3",
+                "2",
+                "5x"
+              ],
+              "choices_zh": [
+                "5",
+                "-3",
+                "2",
+                "5x"
+              ],
+              "answer": 0,
+              "explanation": "In y = mx + c, m = 5 is the gradient",
+              "explanation_zh": "在y = mx + c中，m = 5是斜率"
+            },
+            {
+              "id": "ex2",
+              "type": "mcq",
+              "difficulty": "easy",
+              "prompt": "What is the y-intercept of y = 2x + 7?",
+              "prompt_zh": "y = 2x + 7的y截距是多少？",
               "choices": [
                 "2",
-                "3",
-                "5",
-                "3x"
+                "7",
+                "(0, 7)",
+                "(7, 0)"
+              ],
+              "choices_zh": [
+                "2",
+                "7",
+                "(0, 7)",
+                "(7, 0)"
               ],
               "answer": 1,
-              "hint": "In y = mx + c, m is the gradient.",
-              "hint_zh": "在y = mx + c中，m是斜率。"
+              "explanation": "In y = mx + c, c = 7 is the y-intercept",
+              "explanation_zh": "在y = mx + c中，c = 7是y截距"
+            },
+            {
+              "id": "ex3",
+              "type": "mcq",
+              "difficulty": "easy",
+              "prompt": "Which line slopes downward from left to right?",
+              "prompt_zh": "哪条线从左到右向下倾斜？",
+              "choices": [
+                "y = 3x + 2",
+                "y = -2x + 5",
+                "y = x - 1",
+                "y = 4"
+              ],
+              "choices_zh": [
+                "y = 3x + 2",
+                "y = -2x + 5",
+                "y = x - 1",
+                "y = 4"
+              ],
+              "answer": 1,
+              "explanation": "Negative gradient (m = -2) means line slopes downward",
+              "explanation_zh": "负斜率(m = -2)意味着线向下倾斜"
+            },
+            {
+              "id": "ex4",
+              "type": "mcq",
+              "difficulty": "easy",
+              "prompt": "At what point does y = 3x - 6 cross the y-axis?",
+              "prompt_zh": "y = 3x - 6在哪一点与y轴相交？",
+              "choices": [
+                "(0, 3)",
+                "(0, -6)",
+                "(-6, 0)",
+                "(3, 0)"
+              ],
+              "choices_zh": [
+                "(0, 3)",
+                "(0, -6)",
+                "(-6, 0)",
+                "(3, 0)"
+              ],
+              "answer": 1,
+              "explanation": "Y-intercept is (0, c) = (0, -6)",
+              "explanation_zh": "Y截距是(0, c) = (0, -6)"
+            },
+            {
+              "id": "ex5",
+              "type": "mcq",
+              "difficulty": "medium",
+              "prompt": "Find the gradient of the line through (1, 3) and (4, 12)",
+              "prompt_zh": "找通过(1, 3)和(4, 12)的直线的斜率",
+              "choices": [
+                "3",
+                "9",
+                "4",
+                "1/3"
+              ],
+              "choices_zh": [
+                "3",
+                "9",
+                "4",
+                "1/3"
+              ],
+              "answer": 0,
+              "explanation": "m = (12-3)/(4-1) = 9/3 = 3",
+              "explanation_zh": "m = (12-3)/(4-1) = 9/3 = 3"
+            },
+            {
+              "id": "ex6",
+              "type": "mcq",
+              "difficulty": "medium",
+              "prompt": "Which line is parallel to y = 4x + 1?",
+              "prompt_zh": "哪条线与y = 4x + 1平行？",
+              "choices": [
+                "y = 4x - 3",
+                "y = -4x + 1",
+                "y = ¼x + 1",
+                "y = 2x + 1"
+              ],
+              "choices_zh": [
+                "y = 4x - 3",
+                "y = -4x + 1",
+                "y = ¼x + 1",
+                "y = 2x + 1"
+              ],
+              "answer": 0,
+              "explanation": "Parallel lines have same gradient m = 4",
+              "explanation_zh": "平行线有相同的斜率m = 4"
+            },
+            {
+              "id": "ex7",
+              "type": "mcq",
+              "difficulty": "medium",
+              "prompt": "Which line is perpendicular to y = 2x + 3?",
+              "prompt_zh": "哪条线与y = 2x + 3垂直？",
+              "choices": [
+                "y = 2x - 1",
+                "y = -2x + 3",
+                "y = ½x + 1",
+                "y = -½x + 5"
+              ],
+              "choices_zh": [
+                "y = 2x - 1",
+                "y = -2x + 3",
+                "y = ½x + 1",
+                "y = -½x + 5"
+              ],
+              "answer": 3,
+              "explanation": "Perpendicular gradient = -1/m = -1/2. Check: 2 × (-½) = -1 ✓",
+              "explanation_zh": "垂直斜率 = -1/m = -1/2。检查：2 × (-½) = -1 ✓"
+            },
+            {
+              "id": "ex8",
+              "type": "mcq",
+              "difficulty": "medium",
+              "prompt": "A line has gradient 3 and passes through (2, 10). Find its equation.",
+              "prompt_zh": "一条线斜率为3且通过(2, 10)。找它的方程。",
+              "choices": [
+                "y = 3x + 4",
+                "y = 3x + 10",
+                "y = 3x - 4",
+                "y = 3x + 16"
+              ],
+              "choices_zh": [
+                "y = 3x + 4",
+                "y = 3x + 10",
+                "y = 3x - 4",
+                "y = 3x + 16"
+              ],
+              "answer": 0,
+              "explanation": "10 = 3(2) + c, so c = 4. Equation: y = 3x + 4",
+              "explanation_zh": "10 = 3(2) + c，所以c = 4。方程：y = 3x + 4"
+            },
+            {
+              "id": "ex9",
+              "type": "short",
+              "difficulty": "hard",
+              "prompt": "Find equation of line through (0, -2) and (3, 7). Answer in form y=mx+c",
+              "prompt_zh": "找通过(0, -2)和(3, 7)的直线方程。以y=mx+c形式回答",
+              "answer": "y=3x-2",
+              "validator": "equation",
+              "explanation": "m = (7-(-2))/(3-0) = 9/3 = 3, c = -2, so y = 3x - 2",
+              "explanation_zh": "m = (7-(-2))/(3-0) = 9/3 = 3，c = -2，所以y = 3x - 2"
+            },
+            {
+              "id": "ex10",
+              "type": "mcq",
+              "difficulty": "hard",
+              "prompt": "Taxi fare: $3.50 + $0.60/km. Which equation models cost y for x km?",
+              "prompt_zh": "出租车费：$3.50 + 每公里$0.60。哪个方程模拟x公里的成本y？",
+              "choices": [
+                "y = 3.50x + 0.60",
+                "y = 0.60x + 3.50",
+                "y = 4.10x",
+                "y = 3.50 + 0.60"
+              ],
+              "choices_zh": [
+                "y = 3.50x + 0.60",
+                "y = 0.60x + 3.50",
+                "y = 4.10x",
+                "y = 3.50 + 0.60"
+              ],
+              "answer": 1,
+              "explanation": "y = (rate per km)x + (base fare) = 0.60x + 3.50",
+              "explanation_zh": "y = (每公里费率)x + (起步价) = 0.60x + 3.50"
+            },
+            {
+              "id": "ex11",
+              "type": "mcq",
+              "difficulty": "hard",
+              "prompt": "Water tank has 800L, drains at 15L/min. Which equation gives volume y after x min?",
+              "prompt_zh": "水箱有800升，以每分钟15升排水。哪个方程给出x分钟后的体积y？",
+              "choices": [
+                "y = 15x + 800",
+                "y = 800 - 15x",
+                "y = -15x + 800",
+                "Both B and C"
+              ],
+              "choices_zh": [
+                "y = 15x + 800",
+                "y = 800 - 15x",
+                "y = -15x + 800",
+                "B和C都对"
+              ],
+              "answer": 3,
+              "explanation": "Draining means negative rate: y = -15x + 800 (same as 800 - 15x)",
+              "explanation_zh": "排水意味着负速率：y = -15x + 800（与800 - 15x相同）"
+            },
+            {
+              "id": "ex12",
+              "type": "mcq",
+              "difficulty": "hard",
+              "prompt": "Line passes through (2, 5) and is parallel to y = -3x + 1. Find equation.",
+              "prompt_zh": "直线通过(2, 5)且与y = -3x + 1平行。找方程。",
+              "choices": [
+                "y = -3x + 11",
+                "y = -3x + 5",
+                "y = 3x - 1",
+                "y = -3x - 1"
+              ],
+              "choices_zh": [
+                "y = -3x + 11",
+                "y = -3x + 5",
+                "y = 3x - 1",
+                "y = -3x - 1"
+              ],
+              "answer": 0,
+              "explanation": "Parallel means same m = -3. Using (2,5): 5 = -3(2) + c, c = 11. y = -3x + 11",
+              "explanation_zh": "平行意味着相同的m = -3。使用(2,5)：5 = -3(2) + c，c = 11。y = -3x + 11"
+            },
+            {
+              "id": "ex13",
+              "type": "mcq",
+              "difficulty": "hard",
+              "prompt": "Line perpendicular to y = ½x - 2 and passes through origin. Find equation.",
+              "prompt_zh": "与y = ½x - 2垂直且通过原点的直线。找方程。",
+              "choices": [
+                "y = -2x",
+                "y = 2x",
+                "y = -½x",
+                "y = ½x"
+              ],
+              "choices_zh": [
+                "y = -2x",
+                "y = 2x",
+                "y = -½x",
+                "y = ½x"
+              ],
+              "answer": 0,
+              "explanation": "Perpendicular gradient = -1/(½) = -2. Through origin means c = 0. y = -2x",
+              "explanation_zh": "垂直斜率 = -1/(½) = -2。通过原点意味着c = 0。y = -2x"
+            },
+            {
+              "id": "ex14",
+              "type": "mcq",
+              "difficulty": "hard",
+              "prompt": "Convert Celsius to Fahrenheit: F = 1.8C + 32. What is 25°C in °F?",
+              "prompt_zh": "摄氏转华氏：F = 1.8C + 32。25°C是多少°F？",
+              "choices": [
+                "57°F",
+                "77°F",
+                "45°F",
+                "93°F"
+              ],
+              "choices_zh": [
+                "57°F",
+                "77°F",
+                "45°F",
+                "93°F"
+              ],
+              "answer": 1,
+              "explanation": "F = 1.8(25) + 32 = 45 + 32 = 77°F",
+              "explanation_zh": "F = 1.8(25) + 32 = 45 + 32 = 77°F"
+            },
+            {
+              "id": "ex15",
+              "type": "mcq",
+              "difficulty": "hard",
+              "prompt": "Which statement about y = -4x + 10 is FALSE?",
+              "prompt_zh": "关于y = -4x + 10哪个陈述是错误的？",
+              "choices": [
+                "Gradient is -4",
+                "Line slopes downward",
+                "Y-intercept is 10",
+                "Line passes through (0, -4)"
+              ],
+              "choices_zh": [
+                "斜率是-4",
+                "线向下倾斜",
+                "Y截距是10",
+                "线通过(0, -4)"
+              ],
+              "answer": 3,
+              "explanation": "Y-intercept is (0, 10), not (0, -4)",
+              "explanation_zh": "Y截距是(0, 10)，不是(0, -4)"
             }
           ]
         },
