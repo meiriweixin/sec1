@@ -2527,6 +2527,54 @@
                 "rightSide": "11",
                 "solution": 4
               }
+            },
+            {
+              "id": "addition-subtraction",
+              "type": "text",
+              "title": "Solving with Addition/Subtraction",
+              "title_zh": "用加减法求解",
+              "content": "ADDITION PROPERTY: Add the same value to both sides. SUBTRACTION PROPERTY: Subtract the same value from both sides. Goal: Isolate the variable on one side.\n\nExample 1: x + 5 = 12\nSubtract 5 from both sides: x + 5 - 5 = 12 - 5\nSimplify: x = 7\n\nExample 2: x - 8 = 15\nAdd 8 to both sides: x - 8 + 8 = 15 + 8\nSimplify: x = 23\n\nKEY TIP: Whatever operation is done to the variable, do the OPPOSITE operation to both sides to isolate it.",
+              "content_zh": "加法性质：在两边加相同的值。减法性质：在两边减相同的值。目标：在一边隔离变量。\n\n例1：x + 5 = 12\n两边减5：x + 5 - 5 = 12 - 5\n简化：x = 7\n\n例2：x - 8 = 15\n两边加8：x - 8 + 8 = 15 + 8\n简化：x = 23\n\n关键提示：对变量进行的运算，在两边进行相反运算来隔离它。"
+            },
+            {
+              "id": "multiplication-division",
+              "type": "text",
+              "title": "Solving with Multiplication/Division",
+              "title_zh": "用乘除法求解",
+              "content": "MULTIPLICATION PROPERTY: Multiply both sides by the same value. DIVISION PROPERTY: Divide both sides by the same value (never by zero!).\n\nExample 1: 3x = 15\nDivide both sides by 3: 3x ÷ 3 = 15 ÷ 3\nSimplify: x = 5\n\nExample 2: x/4 = 7\nMultiply both sides by 4: (x/4) × 4 = 7 × 4\nSimplify: x = 28\n\nExample 3: -2x = 10\nDivide both sides by -2: -2x ÷ (-2) = 10 ÷ (-2)\nSimplify: x = -5\n\nKEY TIP: If x is multiplied by a number, divide both sides by that number. If x is divided by a number, multiply both sides by that number.",
+              "content_zh": "乘法性质：在两边乘相同的值。除法性质：在两边除以相同的值（永不除以零！）。\n\n例1：3x = 15\n两边除以3：3x ÷ 3 = 15 ÷ 3\n简化：x = 5\n\n例2：x/4 = 7\n两边乘以4：(x/4) × 4 = 7 × 4\n简化：x = 28\n\n例3：-2x = 10\n两边除以-2：-2x ÷ (-2) = 10 ÷ (-2)\n简化：x = -5\n\n关键提示：如果x乘以一个数，就在两边除以那个数。如果x除以一个数，就在两边乘以那个数。"
+            },
+            {
+              "id": "multi-step",
+              "type": "text",
+              "title": "Multi-Step Equations",
+              "title_zh": "多步方程",
+              "content": "For equations with multiple operations, solve step-by-step using REVERSE ORDER OF OPERATIONS (opposite of BODMAS/PEMDAS):\n\nSTEPS:\n1) Simplify each side (combine like terms)\n2) Remove addition/subtraction (move constants to one side)\n3) Remove multiplication/division (isolate the variable)\n\nExample: 2x + 3 = 11\nStep 1: Subtract 3 from both sides → 2x = 8\nStep 2: Divide both sides by 2 → x = 4\n\nExample with brackets: 3(x - 2) + 4 = 19\nStep 1: Subtract 4 from both sides → 3(x - 2) = 15\nStep 2: Divide both sides by 3 → x - 2 = 5\nStep 3: Add 2 to both sides → x = 7\n\nAlternatively, you can expand brackets first:\n3x - 6 + 4 = 19\n3x - 2 = 19\n3x = 21\nx = 7",
+              "content_zh": "对于有多个运算的方程，使用相反的运算顺序（BODMAS/PEMDAS的反向）逐步求解：\n\n步骤：\n1) 简化两边（合并同类项）\n2) 去除加减（将常数移到一边）\n3) 去除乘除（隔离变量）\n\n例：2x + 3 = 11\n步骤1：两边减3 → 2x = 8\n步骤2：两边除以2 → x = 4\n\n带括号的例子：3(x - 2) + 4 = 19\n步骤1：两边减4 → 3(x - 2) = 15\n步骤2：两边除以3 → x - 2 = 5\n步骤3：两边加2 → x = 7\n\n或者，你可以先展开括号：\n3x - 6 + 4 = 19\n3x - 2 = 19\n3x = 21\nx = 7"
+            },
+            {
+              "id": "variables-both-sides",
+              "type": "text",
+              "title": "Variables on Both Sides",
+              "title_zh": "两边都有变量",
+              "content": "When the variable appears on BOTH sides, move all variable terms to one side and all constants to the other side.\n\nSTRATEGY: Collect all x terms on the LEFT, all numbers on the RIGHT.\n\nExample 1: 3x + 2 = 2x + 7\nStep 1: Subtract 2x from both sides → 3x - 2x + 2 = 7\nStep 2: Simplify → x + 2 = 7\nStep 3: Subtract 2 from both sides → x = 5\n\nExample 2: 5x - 3 = 2x + 9\nStep 1: Subtract 2x from both sides → 3x - 3 = 9\nStep 2: Add 3 to both sides → 3x = 12\nStep 3: Divide by 3 → x = 4\n\nExample 3: 7x + 4 = 3x + 20\nStep 1: Subtract 3x from both sides → 4x + 4 = 20\nStep 2: Subtract 4 from both sides → 4x = 16\nStep 3: Divide by 4 → x = 4\n\nKEY TIP: Always move the smaller variable term to keep the coefficient positive.",
+              "content_zh": "当变量出现在两边时，将所有变量项移到一边，所有常数移到另一边。\n\n策略：将所有x项收集到左边，所有数字收集到右边。\n\n例1：3x + 2 = 2x + 7\n步骤1：两边减2x → 3x - 2x + 2 = 7\n步骤2：简化 → x + 2 = 7\n步骤3：两边减2 → x = 5\n\n例2：5x - 3 = 2x + 9\n步骤1：两边减2x → 3x - 3 = 9\n步骤2：两边加3 → 3x = 12\n步骤3：除以3 → x = 4\n\n例3：7x + 4 = 3x + 20\n步骤1：两边减3x → 4x + 4 = 20\n步骤2：两边减4 → 4x = 16\n步骤3：除以4 → x = 4\n\n关键提示：总是移动较小的变量项以保持系数为正。"
+            },
+            {
+              "id": "checking-solutions",
+              "type": "text",
+              "title": "Checking Your Solution",
+              "title_zh": "检查你的解",
+              "content": "ALWAYS check your answer by SUBSTITUTION - replace the variable with your solution in the original equation and verify both sides are equal.\n\nExample: Solve 2x + 3 = 11\nSolution: x = 4\n\nCHECK:\nSubstitute x = 4 into the original equation:\nLeft side: 2(4) + 3 = 8 + 3 = 11\nRight side: 11\nBoth sides equal 11 ✓ Solution is CORRECT!\n\nExample: Is x = 6 a solution to 3x - 5 = 13?\nCHECK:\nLeft side: 3(6) - 5 = 18 - 5 = 13\nRight side: 13\nBoth sides equal 13 ✓ YES, x = 6 is the solution!\n\nWhy check? To catch calculation errors and confirm your answer is right.",
+              "content_zh": "总是通过代入检查你的答案 - 在原方程中用你的解替换变量，验证两边是否相等。\n\n例：解 2x + 3 = 11\n解：x = 4\n\n检查：\n将x = 4代入原方程：\n左边：2(4) + 3 = 8 + 3 = 11\n右边：11\n两边都等于11 ✓ 解是正确的！\n\n例：x = 6是3x - 5 = 13的解吗？\n检查：\n左边：3(6) - 5 = 18 - 5 = 13\n右边：13\n两边都等于13 ✓ 是的，x = 6是解！\n\n为什么要检查？为了发现计算错误并确认你的答案是正确的。"
+            },
+            {
+              "id": "word-problems",
+              "type": "text",
+              "title": "Word Problem Applications",
+              "title_zh": "文字题应用",
+              "content": "Real-world problems can be solved using equations. Follow these steps:\n\n5 STEPS TO SOLVE WORD PROBLEMS:\n1) READ carefully and identify what you need to find\n2) CHOOSE a variable (let x = the unknown)\n3) WRITE an equation using the given information\n4) SOLVE the equation\n5) CHECK if the answer makes sense in context\n\nExample 1 (Singapore context): A book costs $x. After a 20% discount (0.8x), it costs $12. Find the original price.\nEquation: 0.8x = 12\nSolve: x = 12 ÷ 0.8 = 15\nAnswer: The book originally cost $15.\n\nExample 2: Sarah has 3 more apples than Tom. Together they have 15 apples. How many does Tom have?\nLet x = Tom's apples\nSarah has x + 3 apples\nEquation: x + (x + 3) = 15\nSimplify: 2x + 3 = 15\nSolve: 2x = 12, x = 6\nAnswer: Tom has 6 apples, Sarah has 9 apples.\n\nExample 3 (GST): An item costs $x before 9% GST. Total price with GST is $32.70. Find x.\nEquation: x + 0.09x = 32.70\nSimplify: 1.09x = 32.70\nSolve: x = 32.70 ÷ 1.09 = 30\nAnswer: The item costs $30 before GST.",
+              "content_zh": "现实世界的问题可以用方程求解。遵循以下步骤：\n\n解文字题的5个步骤：\n1) 仔细阅读并确定你需要找到什么\n2) 选择一个变量（设x =未知数）\n3) 使用给定信息写方程\n4) 求解方程\n5) 检查答案在上下文中是否合理\n\n例1（新加坡背景）：一本书价格为$x。打8折（0.8x）后价格为$12。求原价。\n方程：0.8x = 12\n求解：x = 12 ÷ 0.8 = 15\n答案：书的原价是$15。\n\n例2：莎拉比汤姆多3个苹果。他们一共有15个苹果。汤姆有多少个？\n设x =汤姆的苹果数\n莎拉有x + 3个苹果\n方程：x + (x + 3) = 15\n简化：2x + 3 = 15\n求解：2x = 12，x = 6\n答案：汤姆有6个苹果，莎拉有9个苹果。\n\n例3（消费税）：一件商品加9%消费税前价格为$x。含税总价为$32.70。求x。\n方程：x + 0.09x = 32.70\n简化：1.09x = 32.70\n求解：x = 32.70 ÷ 1.09 = 30\n答案：商品税前价格为$30。"
             }
           ],
           "exercises": [
@@ -2782,6 +2830,72 @@
               "explanation_zh": "0.8x=12，x=15",
               "prompt": "Book $x, 20% off = $12. Find x",
               "prompt_zh": "书原价$x，8折后$12，求x"
+            },
+            {
+              "id": "ex13",
+              "type": "mcq",
+              "difficulty": "hard",
+              "choices": [
+                "15 years old",
+                "12 years old",
+                "18 years old",
+                "10 years old"
+              ],
+              "choices_zh": [
+                "15岁",
+                "12岁",
+                "18岁",
+                "10岁"
+              ],
+              "answer": 1,
+              "explanation": "Let x = son's age. Father is 3x. x + 3x = 48, 4x = 48, x = 12",
+              "explanation_zh": "设x =儿子的年龄。父亲是3x。x + 3x = 48，4x = 48，x = 12",
+              "prompt": "A father is 3 times as old as his son. Their combined age is 48. How old is the son?",
+              "prompt_zh": "一位父亲的年龄是儿子的3倍。他们的年龄总和是48岁。儿子多大？"
+            },
+            {
+              "id": "ex14",
+              "type": "mcq",
+              "difficulty": "hard",
+              "choices": [
+                "$30",
+                "$25",
+                "$35",
+                "$40"
+              ],
+              "choices_zh": [
+                "$30",
+                "$25",
+                "$35",
+                "$40"
+              ],
+              "answer": 0,
+              "explanation": "Let x = original price. With 9% GST: 1.09x = 32.70, x = 32.70 ÷ 1.09 = 30",
+              "explanation_zh": "设x =原价。加9%消费税：1.09x = 32.70，x = 32.70 ÷ 1.09 = 30",
+              "prompt": "An item costs $32.70 including 9% GST. What was the price before GST?",
+              "prompt_zh": "一件商品含9%消费税后价格为$32.70。税前价格是多少？"
+            },
+            {
+              "id": "ex15",
+              "type": "mcq",
+              "difficulty": "hard",
+              "choices": [
+                "24 students",
+                "20 students",
+                "28 students",
+                "32 students"
+              ],
+              "choices_zh": [
+                "24名学生",
+                "20名学生",
+                "28名学生",
+                "32名学生"
+              ],
+              "answer": 0,
+              "explanation": "Let x = number of students. After 6 leave: x - 6 = 18, x = 24",
+              "explanation_zh": "设x =学生人数。6人离开后：x - 6 = 18，x = 24",
+              "prompt": "A class has x students. After 6 students leave for CCA, 18 remain. Find x.",
+              "prompt_zh": "一个班有x名学生。6名学生去参加CCA后，剩下18名。求x。"
             }
           ]
         },
