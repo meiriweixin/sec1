@@ -12,6 +12,7 @@ import { ParticlesInStates } from "@/components/animations/particles-in-states";
 import { EquationBalance } from "@/components/animations/equation-balance";
 import { FractionVisual } from "@/components/animations/fraction-visual";
 import { ForceMotion } from "@/components/animations/force-motion";
+import ParabolaGraph from "@/components/animations/ParabolaGraph";
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 
@@ -143,6 +144,8 @@ export function LessonPlayer({ sections, onComplete, chapterId, subjectId }: Les
         return <FractionVisual {...section.props} />;
       case "ForceMotion":
         return <ForceMotion {...section.props} />;
+      case "ParabolaGraph":
+        return <ParabolaGraph {...section.props} />;
       default:
         return (
           <div className="text-center p-8 bg-muted/30 rounded-lg">
