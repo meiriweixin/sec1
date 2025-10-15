@@ -1,0 +1,269 @@
+{
+  "id": "algebraic-expressions",
+  "title": "Algebraic Expressions",
+  "title_zh": "代数表达式",
+  "description": "Master simplification, expansion, and factorization of algebraic expressions",
+  "description_zh": "掌握代数表达式的简化、展开和因式分解",
+  "objectives": [
+    "Understand algebraic notation and terminology",
+    "Combine like terms to simplify expressions",
+    "Expand brackets using the distributive law",
+    "Factorize simple algebraic expressions",
+    "Evaluate algebraic expressions by substitution"
+  ],
+  "objectives_zh": [
+    "理解代数符号和术语",
+    "合并同类项以简化表达式",
+    "使用分配律展开括号",
+    "因式分解简单的代数表达式",
+    "通过代入求值代数表达式"
+  ],
+  "sections": [
+    {
+      "id": "intro-algebra",
+      "type": "text",
+      "title": "Introduction to Algebraic Expressions",
+      "title_zh": "代数表达式简介",
+      "content": "An algebraic expression uses letters (variables) to represent unknown numbers. Examples: 2x + 3, 5a - 2b, x² + 4.\n\nKey Terms:\n• VARIABLE: A letter representing a number (e.g., x, y, a, b)\n• COEFFICIENT: Number multiplied by a variable (in 5x, coefficient is 5)\n• CONSTANT: A number on its own (in x + 7, constant is 7)\n• TERM: Parts of expression separated by + or - (in 3x + 2y - 5, there are 3 terms)\n\nExample: In 4x² + 3x - 7\n• Terms: 4x², 3x, -7\n• Coefficients: 4 (for x²), 3 (for x)\n• Constant: -7\n• Variables: x\n\nWhy use algebra? To write general rules, solve problems with unknowns, and describe patterns.",
+      "content_zh": "代数表达式使用字母（变量）来表示未知数。例子：2x + 3，5a - 2b，x² + 4。\n\n关键术语：\n• 变量：表示数字的字母（例如，x，y，a，b）\n• 系数：与变量相乘的数字（在5x中，系数是5）\n• 常数：单独的数字（在x + 7中，常数是7）\n• 项：用+或-分隔的表达式部分（在3x + 2y - 5中，有3项）\n\n例子：在4x² + 3x - 7中\n• 项：4x²，3x，-7\n• 系数：4（x²的），3（x的）\n• 常数：-7\n• 变量：x\n\n为什么使用代数？编写一般规则，解决未知数问题，描述模式。"
+    },
+    {
+      "id": "like-terms",
+      "type": "text",
+      "title": "Like Terms",
+      "title_zh": "同类项",
+      "content": "LIKE TERMS have the same variables raised to the same powers. Only like terms can be combined by adding/subtracting their coefficients.\n\nExamples of LIKE terms:\n• 2x and 5x (both have x to power 1)\n• 3a² and -7a² (both have a²)\n• 4xy and 8xy (both have xy)\n\nExamples of UNLIKE terms:\n• 2x and 3y (different variables)\n• 4x and 5x² (different powers)\n• 3ab and 2a (different combinations)\n\nCombining Like Terms:\n• 3x + 5x = 8x (add coefficients: 3 + 5 = 8)\n• 7y - 2y = 5y (subtract coefficients: 7 - 2 = 5)\n• 4a + 2b + 3a = 7a + 2b (combine only like terms)\n• 2x² + 5x + 3x² - 2x = 5x² + 3x (combine x² terms, combine x terms)\n\nRule: When combining like terms, add or subtract the coefficients and keep the variable part the same.",
+      "content_zh": "同类项具有相同的变量和相同的幂。只有同类项可以通过加减其系数来合并。\n\n同类项的例子：\n• 2x和5x（都有x的1次方）\n• 3a²和-7a²（都有a²）\n• 4xy和8xy（都有xy）\n\n不同类项的例子：\n• 2x和3y（不同变量）\n• 4x和5x²（不同幂次）\n• 3ab和2a（不同组合）\n\n合并同类项：\n• 3x + 5x = 8x（加系数：3 + 5 = 8）\n• 7y - 2y = 5y（减系数：7 - 2 = 5）\n• 4a + 2b + 3a = 7a + 2b（只合并同类项）\n• 2x² + 5x + 3x² - 2x = 5x² + 3x（合并x²项，合并x项）\n\n规则：合并同类项时，对系数进行加减，变量部分保持不变。"
+    },
+    {
+      "id": "tile-animation",
+      "type": "animation",
+      "title": "Visualizing Like Terms",
+      "title_zh": "可视化同类项",
+      "content": "TileCombine",
+      "props": {
+        "expression": "x + x + x",
+        "result": "3x"
+      }
+    },
+    {
+      "id": "simplifying",
+      "type": "text",
+      "title": "Simplifying Expressions",
+      "title_zh": "简化表达式",
+      "content": "Simplifying means combining like terms and writing in simplest form.\n\nSteps to Simplify:\n1. Identify like terms (same variable with same power)\n2. Combine coefficients of like terms\n3. Write in standard form (highest power first)\n\nExamples:\n\nExample 1: Simplify 5x + 3 - 2x + 7\nStep 1: Group like terms: (5x - 2x) + (3 + 7)\nStep 2: Combine: 3x + 10\nAnswer: 3x + 10\n\nExample 2: Simplify 4a + 2b - 3a + 5b - 1\nStep 1: Group: (4a - 3a) + (2b + 5b) - 1\nStep 2: Combine: 1a + 7b - 1\nAnswer: a + 7b - 1\n\nExample 3: Simplify 3x² + 5x - 2x² + 4 - 3x\nStep 1: Group: (3x² - 2x²) + (5x - 3x) + 4\nStep 2: Combine: x² + 2x + 4\nAnswer: x² + 2x + 4\n\nCommon Mistakes:\n• DON'T combine unlike terms: 2x + 3y ≠ 5xy\n• DON'T change the variable: 2x + 3x ≠ 5x²\n• DON'T forget negative signs: 5x - 2x = 3x (not 7x)",
+      "content_zh": "简化意味着合并同类项并写成最简形式。\n\n简化步骤：\n1. 识别同类项（相同变量相同幂）\n2. 合并同类项的系数\n3. 写成标准形式（最高次幂优先）\n\n例子：\n\n例1：简化5x + 3 - 2x + 7\n步骤1：分组：(5x - 2x) + (3 + 7)\n步骤2：合并：3x + 10\n答案：3x + 10\n\n例2：简化4a + 2b - 3a + 5b - 1\n步骤1：分组：(4a - 3a) + (2b + 5b) - 1\n步骤2：合并：1a + 7b - 1\n答案：a + 7b - 1\n\n例3：简化3x² + 5x - 2x² + 4 - 3x\n步骤1：分组：(3x² - 2x²) + (5x - 3x) + 4\n步骤2：合并：x² + 2x + 4\n答案：x² + 2x + 4\n\n常见错误：\n• 不要合并不同类项：2x + 3y ≠ 5xy\n• 不要改变变量：2x + 3x ≠ 5x²\n• 不要忘记负号：5x - 2x = 3x（不是7x）"
+    },
+    {
+      "id": "expanding",
+      "type": "math",
+      "title": "Expanding Brackets",
+      "title_zh": "展开括号",
+      "content": "a(b + c) = ab + ac",
+      "explanation": "DISTRIBUTIVE LAW: Multiply the term outside the bracket by EACH term inside.\n\nSteps:\n1. Multiply outside term by first term inside\n2. Multiply outside term by second term inside\n3. Combine if needed\n\nExamples:\n\n1) 3(x + 2) = 3×x + 3×2 = 3x + 6\n\n2) 5(2a - 3) = 5×2a + 5×(-3) = 10a - 15\n\n3) -2(x + 4) = -2×x + (-2)×4 = -2x - 8\n\n4) x(x + 3) = x×x + x×3 = x² + 3x\n\n5) 2a(3a - 4) = 2a×3a + 2a×(-4) = 6a² - 8a\n\nDouble Brackets (Preview for later):\n(x + 2)(x + 3) = x² + 3x + 2x + 6 = x² + 5x + 6\n\nRemember: The sign outside affects ALL terms inside!",
+      "explanation_zh": "分配律：将括号外的项乘以括号内的每一项。\n\n步骤：\n1. 括号外的项乘以括号内第一项\n2. 括号外的项乘以括号内第二项\n3. 如需要则合并\n\n例子：\n\n1) 3(x + 2) = 3×x + 3×2 = 3x + 6\n\n2) 5(2a - 3) = 5×2a + 5×(-3) = 10a - 15\n\n3) -2(x + 4) = -2×x + (-2)×4 = -2x - 8\n\n4) x(x + 3) = x×x + x×3 = x² + 3x\n\n5) 2a(3a - 4) = 2a×3a + 2a×(-4) = 6a² - 8a\n\n双括号（后续预习）：\n(x + 2)(x + 3) = x² + 3x + 2x + 6 = x² + 5x + 6\n\n记住：外面的符号影响里面所有的项！"
+    },
+    {
+      "id": "factorizing",
+      "type": "text",
+      "title": "Factorizing Expressions",
+      "title_zh": "因式分解",
+      "content": "Factorizing is the REVERSE of expanding - take out common factors.\n\nSteps:\n1. Find the highest common factor (HCF) of all terms\n2. Write HCF outside brackets\n3. Divide each term by HCF to find what goes inside\n4. Check by expanding back\n\nExamples:\n\n1) Factorize 6x + 9\nHCF of 6 and 9 = 3\n6x ÷ 3 = 2x, 9 ÷ 3 = 3\nAnswer: 3(2x + 3)\nCheck: 3(2x + 3) = 6x + 9 ✓\n\n2) Factorize 5a - 10\nHCF = 5\n5a ÷ 5 = a, 10 ÷ 5 = 2\nAnswer: 5(a - 2)\n\n3) Factorize 4x² + 6x\nHCF = 2x (both number and variable)\n4x² ÷ 2x = 2x, 6x ÷ 2x = 3\nAnswer: 2x(2x + 3)\n\n4) Factorize 3ab + 6a\nHCF = 3a\n3ab ÷ 3a = b, 6a ÷ 3a = 2\nAnswer: 3a(b + 2)\n\nCommon Mistakes:\n• Missing the variable in HCF\n• Forgetting to check by expanding\n• Taking out wrong HCF (not the highest)",
+      "content_zh": "因式分解是展开的逆过程 - 提取公因数。\n\n步骤：\n1. 找出所有项的最大公因数（HCF）\n2. 将HCF写在括号外\n3. 每项除以HCF得到括号内的内容\n4. 通过展开回去检查\n\n例子：\n\n1) 因式分解6x + 9\n6和9的HCF = 3\n6x ÷ 3 = 2x，9 ÷ 3 = 3\n答案：3(2x + 3)\n检查：3(2x + 3) = 6x + 9 ✓\n\n2) 因式分解5a - 10\nHCF = 5\n5a ÷ 5 = a，10 ÷ 5 = 2\n答案：5(a - 2)\n\n3) 因式分解4x² + 6x\nHCF = 2x（数字和变量都要考虑）\n4x² ÷ 2x = 2x，6x ÷ 2x = 3\n答案：2x(2x + 3)\n\n4) 因式分解3ab + 6a\nHCF = 3a\n3ab ÷ 3a = b，6a ÷ 3a = 2\n答案：3a(b + 2)\n\n常见错误：\n• 遗漏HCF中的变量\n• 忘记通过展开检查\n• 提取错误的HCF（不是最大的）"
+    },
+    {
+      "id": "substitution",
+      "type": "text",
+      "title": "Substitution and Evaluation",
+      "title_zh": "代入和求值",
+      "content": "Substitution means replacing variables with given numbers to find the value.\n\nSteps:\n1. Write the expression\n2. Replace each variable with its given value (use brackets!)\n3. Follow order of operations (BODMAS/PEMDAS)\n4. Calculate the result\n\nExamples:\n\n1) Evaluate 3x + 5 when x = 4\n= 3(4) + 5\n= 12 + 5\n= 17\n\n2) Evaluate 2a - 3b when a = 5, b = 2\n= 2(5) - 3(2)\n= 10 - 6\n= 4\n\n3) Evaluate x² + 2x when x = -3\n= (-3)² + 2(-3)\n= 9 + (-6)\n= 3\n\n4) Evaluate (a + b)² when a = 3, b = 2\n= (3 + 2)²\n= (5)²\n= 25\n\n5) Evaluate 5xy - 2y when x = 4, y = 3\n= 5(4)(3) - 2(3)\n= 60 - 6\n= 54\n\nIMPORTANT: Always use brackets when substituting negative numbers!\nExample: If x = -2, write 3x as 3(-2), not 3-2",
+      "content_zh": "代入意味着用给定的数字替换变量以找出值。\n\n步骤：\n1. 写出表达式\n2. 用给定值替换每个变量（使用括号！）\n3. 遵循运算顺序（括号、乘方、乘除、加减）\n4. 计算结果\n\n例子：\n\n1) 当x = 4时求值3x + 5\n= 3(4) + 5\n= 12 + 5\n= 17\n\n2) 当a = 5，b = 2时求值2a - 3b\n= 2(5) - 3(2)\n= 10 - 6\n= 4\n\n3) 当x = -3时求值x² + 2x\n= (-3)² + 2(-3)\n= 9 + (-6)\n= 3\n\n4) 当a = 3，b = 2时求值(a + b)²\n= (3 + 2)²\n= (5)²\n= 25\n\n5) 当x = 4，y = 3时求值5xy - 2y\n= 5(4)(3) - 2(3)\n= 60 - 6\n= 54\n\n重要：代入负数时始终使用括号！\n例子：如果x = -2，将3x写成3(-2)，而不是3-2"
+    },
+    {
+      "id": "real-world",
+      "type": "text",
+      "title": "Real-World Applications",
+      "title_zh": "实际应用",
+      "content": "Algebra helps solve real-world problems by using formulas and expressions.\n\nExamples:\n\n1) PERIMETER of rectangle: P = 2(l + w)\n   If l = 5m, w = 3m: P = 2(5 + 3) = 16m\n\n2) COST calculation: Total = price per item × quantity\n   If items cost $x each and you buy 5: Total = 5x\n   If x = 3: Total = 5(3) = $15\n\n3) TEMPERATURE conversion: °F = (9/5)°C + 32\n   Convert 20°C to Fahrenheit:\n   = (9/5)(20) + 32 = 36 + 32 = 68°F\n\n4) DISTANCE formula: d = speed × time\n   If speed = v km/h for t hours: d = vt\n   If v = 60, t = 2.5: d = 60(2.5) = 150km\n\n5) DISCOUNT: Sale price = Original - (Original × discount%)\n   If original = $p, discount = 20%\n   Sale price = p - 0.2p = 0.8p\n   If p = 50: Sale = 0.8(50) = $40\n\nAlgebra lets us write formulas once and use them for any values!",
+      "content_zh": "代数通过使用公式和表达式帮助解决实际问题。\n\n例子：\n\n1) 矩形周长：P = 2(l + w)\n   如果l = 5m，w = 3m：P = 2(5 + 3) = 16m\n\n2) 成本计算：总计 = 单价 × 数量\n   如果物品每个$x，买5个：总计 = 5x\n   如果x = 3：总计 = 5(3) = $15\n\n3) 温度转换：°F = (9/5)°C + 32\n   将20°C转换为华氏度：\n   = (9/5)(20) + 32 = 36 + 32 = 68°F\n\n4) 距离公式：d = 速度 × 时间\n   如果速度 = v km/h，时间t小时：d = vt\n   如果v = 60，t = 2.5：d = 60(2.5) = 150km\n\n5) 折扣：售价 = 原价 - (原价 × 折扣%)\n   如果原价 = $p，折扣 = 20%\n   售价 = p - 0.2p = 0.8p\n   如果p = 50：售价 = 0.8(50) = $40\n\n代数让我们可以写一次公式，然后用于任何值！"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Which of the following are like terms?",
+      "prompt_zh": "以下哪些是同类项？",
+      "choices": ["2x and 3x", "4a and 5b", "x² and x", "2xy and 3x"],
+      "answer": 0,
+      "hint": "Like terms have the same variable(s) with the same power.",
+      "hint_zh": "同类项具有相同的变量和相同的幂。",
+      "explanation": "2x and 3x are like terms because both have 'x' to the power of 1. The others have different variables or different powers.",
+      "explanation_zh": "2x和3x是同类项，因为两者都有x的1次方。其他选项有不同的变量或不同的幂。"
+    },
+    {
+      "id": "q2",
+      "type": "short",
+      "prompt": "Simplify: 4x + 2y - 3x + y",
+      "prompt_zh": "化简：4x + 2y - 3x + y",
+      "answer": "x + 3y",
+      "hint": "Group x terms: (4x - 3x), Group y terms: (2y + y)",
+      "hint_zh": "分组x项：(4x - 3x)，分组y项：(2y + y)",
+      "explanation": "Combine like terms: (4x - 3x) + (2y + y) = x + 3y. Note that 1x is written as x.",
+      "explanation_zh": "合并同类项：(4x - 3x) + (2y + y) = x + 3y。注意1x写作x。"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Expand: 3(x + 2)",
+      "prompt_zh": "展开：3(x + 2)",
+      "choices": ["3x + 2", "3x + 6", "x + 6", "3x + 5"],
+      "answer": 1,
+      "hint": "Multiply 3 by both terms inside: 3×x and 3×2",
+      "hint_zh": "将3与括号内的两项相乘：3×x和3×2",
+      "explanation": "Using distributive law: 3(x + 2) = 3×x + 3×2 = 3x + 6",
+      "explanation_zh": "使用分配律：3(x + 2) = 3×x + 3×2 = 3x + 6"
+    },
+    {
+      "id": "q4",
+      "type": "short",
+      "prompt": "Expand: 5(2a - 3)",
+      "prompt_zh": "展开：5(2a - 3)",
+      "answer": "10a - 15",
+      "hint": "Multiply 5 by each term: 5×2a and 5×(-3)",
+      "hint_zh": "将5与每项相乘：5×2a和5×(-3)",
+      "explanation": "5(2a - 3) = 5×2a + 5×(-3) = 10a - 15. Don't forget the negative sign!",
+      "explanation_zh": "5(2a - 3) = 5×2a + 5×(-3) = 10a - 15。不要忘记负号！"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Factorize: 6x + 9",
+      "prompt_zh": "因式分解：6x + 9",
+      "choices": ["3(2x + 3)", "6(x + 9)", "3(2x + 6)", "2(3x + 9)"],
+      "answer": 0,
+      "hint": "Find HCF of 6 and 9. What's the highest number that divides both?",
+      "hint_zh": "找6和9的最大公因数。能同时整除两者的最大数是多少？",
+      "explanation": "HCF of 6 and 9 is 3. Divide each term: 6x÷3 = 2x, 9÷3 = 3. Answer: 3(2x + 3)",
+      "explanation_zh": "6和9的最大公因数是3。每项除以3：6x÷3 = 2x，9÷3 = 3。答案：3(2x + 3)"
+    },
+    {
+      "id": "q6",
+      "type": "short",
+      "prompt": "Factorize: 4a² + 6a",
+      "prompt_zh": "因式分解：4a² + 6a",
+      "answer": "2a(2a + 3)",
+      "hint": "HCF includes both the number AND the variable. What divides both 4a² and 6a?",
+      "hint_zh": "最大公因数包括数字和变量。什么能同时整除4a²和6a？",
+      "explanation": "HCF is 2a (number 2 and variable a). 4a²÷2a = 2a, 6a÷2a = 3. Answer: 2a(2a + 3)",
+      "explanation_zh": "最大公因数是2a（数字2和变量a）。4a²÷2a = 2a，6a÷2a = 3。答案：2a(2a + 3)"
+    },
+    {
+      "id": "q7",
+      "type": "short",
+      "prompt": "Evaluate 3x + 5 when x = 4",
+      "prompt_zh": "当x = 4时求值3x + 5",
+      "answer": "17",
+      "validator": "numeric",
+      "hint": "Substitute 4 for x: 3(4) + 5",
+      "hint_zh": "用4代替x：3(4) + 5",
+      "explanation": "3x + 5 = 3(4) + 5 = 12 + 5 = 17",
+      "explanation_zh": "3x + 5 = 3(4) + 5 = 12 + 5 = 17"
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Evaluate x² - 2x when x = -3",
+      "prompt_zh": "当x = -3时求值x² - 2x",
+      "choices": ["3", "15", "-15", "9"],
+      "answer": 1,
+      "hint": "Use brackets for negative: (-3)² - 2(-3). Remember (-3)² = 9",
+      "hint_zh": "负数用括号：(-3)² - 2(-3)。记住(-3)² = 9",
+      "explanation": "x² - 2x = (-3)² - 2(-3) = 9 - (-6) = 9 + 6 = 15",
+      "explanation_zh": "x² - 2x = (-3)² - 2(-3) = 9 - (-6) = 9 + 6 = 15"
+    },
+    {
+      "id": "q9",
+      "type": "multi",
+      "prompt": "Which expressions equal 2x + 10 when expanded or simplified?",
+      "prompt_zh": "展开或简化后哪些表达式等于2x + 10？",
+      "choices": ["2(x + 5)", "5x + 3 - 3x + 7", "x + 5 + x + 5", "10(x + 2)"],
+      "answer": [0, 1, 2],
+      "hint": "Try expanding or simplifying each option.",
+      "hint_zh": "尝试展开或简化每个选项。",
+      "explanation": "2(x+5)=2x+10✓, 5x+3-3x+7=2x+10✓, x+5+x+5=2x+10✓, but 10(x+2)=10x+20✗",
+      "explanation_zh": "2(x+5)=2x+10✓，5x+3-3x+7=2x+10✓，x+5+x+5=2x+10✓，但10(x+2)=10x+20✗"
+    },
+    {
+      "id": "q10",
+      "type": "short",
+      "prompt": "Simplify: 3x² + 5x - 2x² + 3 - 4x",
+      "prompt_zh": "化简：3x² + 5x - 2x² + 3 - 4x",
+      "answer": "x² + x + 3",
+      "hint": "Group like terms: x² terms, x terms, and constants separately.",
+      "hint_zh": "分组同类项：x²项、x项和常数分别分组。",
+      "explanation": "(3x² - 2x²) + (5x - 4x) + 3 = x² + x + 3",
+      "explanation_zh": "(3x² - 2x²) + (5x - 4x) + 3 = x² + x + 3"
+    },
+    {
+      "id": "q11",
+      "type": "drag-order",
+      "prompt": "Arrange these steps in the correct order to expand 4(x - 3):",
+      "prompt_zh": "按正确顺序排列展开4(x - 3)的步骤：",
+      "items": [
+        "Write: 4(x - 3)",
+        "Multiply 4 by x: 4x",
+        "Multiply 4 by -3: -12",
+        "Combine: 4x - 12"
+      ],
+      "items_zh": [
+        "写：4(x - 3)",
+        "4乘以x：4x",
+        "4乘以-3：-12",
+        "合并：4x - 12"
+      ],
+      "answer": [
+        "Write: 4(x - 3)",
+        "Multiply 4 by x: 4x",
+        "Multiply 4 by -3: -12",
+        "Combine: 4x - 12"
+      ],
+      "answer_zh": [
+        "写：4(x - 3)",
+        "4乘以x：4x",
+        "4乘以-3：-12",
+        "合并：4x - 12"
+      ]
+    },
+    {
+      "id": "q12",
+      "type": "match",
+      "prompt": "Match each expression with its simplified form:",
+      "prompt_zh": "将每个表达式与其简化形式匹配：",
+      "pairs": [
+        ["2x + 3x", "5x"],
+        ["7y - 4y", "3y"],
+        ["5a + 2 - 2a", "3a + 2"],
+        ["4(x + 1)", "4x + 4"]
+      ],
+      "pairs_zh": [
+        ["2x + 3x", "5x"],
+        ["7y - 4y", "3y"],
+        ["5a + 2 - 2a", "3a + 2"],
+        ["4(x + 1)", "4x + 4"]
+      ]
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+

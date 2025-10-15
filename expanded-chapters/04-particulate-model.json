@@ -1,0 +1,341 @@
+{
+  "id": "particle-model",
+  "title": "Particulate Model of Matter",
+  "title_zh": "物质的粒子模型",
+  "description": "Understand particle behavior in solids, liquids and gases with interactive visualizations",
+  "description_zh": "通过互动可视化理解固体、液体和气体中的粒子行为",
+  "objectives": [
+    "Describe particle arrangement in the three states of matter",
+    "Explain particle motion and energy in different states",
+    "Understand diffusion and Brownian motion",
+    "Relate particle behavior to macroscopic properties",
+    "Explain changes of state using particle model",
+    "Apply kinetic particle theory to real phenomena"
+  ],
+  "objectives_zh": [
+    "描述三种物质状态中的粒子排列",
+    "解释不同状态下的粒子运动和能量",
+    "理解扩散和布朗运动",
+    "将粒子行为与宏观性质联系起来",
+    "使用粒子模型解释状态变化",
+    "将动理论应用于实际现象"
+  ],
+  "sections": [
+    {
+      "id": "intro-particle-theory",
+      "type": "text",
+      "title": "Kinetic Particle Theory",
+      "title_zh": "动理论",
+      "content": "The KINETIC PARTICLE THEORY states that:\n\n1. All matter is made up of tiny particles (atoms, molecules, ions)\n2. These particles are in constant, random motion\n3. Particles have spaces between them\n4. The motion of particles increases with temperature\n5. Forces of attraction exist between particles\n\nThis theory helps explain:\n• Why substances exist in different states\n• How matter behaves when heated or cooled\n• Why substances expand or contract\n• How diffusion and dissolving occur\n• Properties like density, compressibility, and flow\n\nKey Terms:\n• PARTICLE: Tiny unit of matter (too small to see)\n• KINETIC ENERGY: Energy due to motion\n• ATTRACTION: Force pulling particles together\n• RANDOM MOTION: Movement in all directions with no pattern",
+      "content_zh": "动理论指出：\n\n1. 所有物质都由微小粒子（原子、分子、离子）组成\n2. 这些粒子处于持续的随机运动中\n3. 粒子之间有间隙\n4. 粒子的运动随温度增加而增加\n5. 粒子之间存在吸引力\n\n这个理论有助于解释：\n• 为什么物质以不同状态存在\n• 物质加热或冷却时如何表现\n• 为什么物质膨胀或收缩\n• 扩散和溶解如何发生\n• 密度、可压缩性和流动性等性质\n\n关键术语：\n• 粒子：物质的微小单位（太小而看不见）\n• 动能：由于运动而产生的能量\n• 吸引力：将粒子拉在一起的力\n• 随机运动：向所有方向无规律的移动"
+    },
+    {
+      "id": "states-animation",
+      "type": "animation",
+      "title": "Three States of Matter",
+      "title_zh": "三种物质状态",
+      "content": "ParticlesInStates",
+      "props": {
+        "states": ["solid", "liquid", "gas"]
+      }
+    },
+    {
+      "id": "solid-state",
+      "type": "text",
+      "title": "Solids - Particle Model",
+      "title_zh": "固体 - 粒子模型",
+      "content": "SOLIDS - Particle Characteristics:\n\nARRANGEMENT:\n• Particles packed very closely together in fixed, regular pattern\n• Very little space between particles\n• Particles arranged in orderly rows (crystalline structure)\n\nMOTION:\n• Particles vibrate about fixed positions\n• Cannot move from place to place\n• Vibration increases with temperature\n\nFORCES:\n• Very strong forces of attraction between particles\n• Forces hold particles rigidly in place\n\nThis explains SOLID properties:\n✓ FIXED SHAPE - particles can't move around\n✓ FIXED VOLUME - particles already very close\n✓ CANNOT BE COMPRESSED - no space to push closer\n✓ CANNOT FLOW - particles locked in position\n✓ HIGH DENSITY - particles tightly packed\n\nExamples: Ice, wood, metal, plastic, salt crystals\n\nReal-world observation:\n• A block of ice keeps its shape\n• You can't squeeze a solid much smaller\n• A metal rod doesn't flow like liquid",
+      "content_zh": "固体 - 粒子特征：\n\n排列：\n• 粒子以固定的规则模式紧密堆积\n• 粒子之间间隙很小\n• 粒子排列成有序的行（晶体结构）\n\n运动：\n• 粒子在固定位置振动\n• 不能从一个地方移动到另一个地方\n• 振动随温度增加\n\n作用力：\n• 粒子之间有很强的吸引力\n• 力量将粒子刚性地固定在位置上\n\n这解释了固体性质：\n✓ 固定形状 - 粒子不能四处移动\n✓ 固定体积 - 粒子已经非常接近\n✓ 不能压缩 - 没有空间推得更近\n✓ 不能流动 - 粒子锁定在位置上\n✓ 高密度 - 粒子紧密堆积\n\n例子：冰、木头、金属、塑料、盐晶体\n\n实际观察：\n• 一块冰保持其形状\n• 你不能把固体压得更小\n• 金属棒不像液体那样流动"
+    },
+    {
+      "id": "liquid-state",
+      "type": "text",
+      "title": "Liquids - Particle Model",
+      "title_zh": "液体 - 粒子模型",
+      "content": "LIQUIDS - Particle Characteristics:\n\nARRANGEMENT:\n• Particles close together but not in fixed positions\n• Small spaces between particles\n• Random arrangement (no regular pattern)\n\nMOTION:\n• Particles can move around and slide past each other\n• Particles move more freely than in solids\n• Motion increases with temperature\n• Move in random directions\n\nFORCES:\n• Moderate forces of attraction between particles\n• Strong enough to keep particles close\n• Weak enough to allow movement\n\nThis explains LIQUID properties:\n✓ NO FIXED SHAPE - particles can move around, takes shape of container\n✓ FIXED VOLUME - particles stay close together\n✓ DIFFICULT TO COMPRESS - particles already quite close\n✓ CAN FLOW - particles slide past each other\n✓ MEDIUM DENSITY - particles fairly close but not as tight as solid\n\nExamples: Water, juice, oil, alcohol, mercury\n\nReal-world observation:\n• Water takes the shape of its container\n• You can pour liquids\n• Liquids have a flat surface (due to gravity)\n• Hard to squeeze water in a syringe",
+      "content_zh": "液体 - 粒子特征：\n\n排列：\n• 粒子紧密但不在固定位置\n• 粒子之间有小间隙\n• 随机排列（无规则模式）\n\n运动：\n• 粒子可以四处移动并相互滑过\n• 粒子比固体中移动更自由\n• 运动随温度增加\n• 向随机方向移动\n\n作用力：\n• 粒子之间有中等吸引力\n• 足够强以保持粒子接近\n• 足够弱以允许移动\n\n这解释了液体性质：\n✓ 无固定形状 - 粒子可以移动，采取容器的形状\n✓ 固定体积 - 粒子保持接近\n✓ 难以压缩 - 粒子已经相当接近\n✓ 可以流动 - 粒子相互滑过\n✓ 中等密度 - 粒子相当接近但不如固体紧密\n\n例子：水、果汁、油、酒精、汞\n\n实际观察：\n• 水采取其容器的形状\n• 你可以倒液体\n• 液体有平坦的表面（由于重力）\n• 难以在注射器中压缩水"
+    },
+    {
+      "id": "gas-state",
+      "type": "text",
+      "title": "Gases - Particle Model",
+      "title_zh": "气体 - 粒子模型",
+      "content": "GASES - Particle Characteristics:\n\nARRANGEMENT:\n• Particles very far apart\n• Large spaces between particles\n• Completely random arrangement\n\nMOTION:\n• Particles move very fast in all directions\n• Particles move freely and independently\n• Frequent collisions with container walls and each other\n• Motion increases significantly with temperature\n\nFORCES:\n• Very weak or negligible forces of attraction\n• Particles essentially independent\n• Forces only significant during collisions\n\nThis explains GAS properties:\n✓ NO FIXED SHAPE - particles move freely, fills entire container\n✓ NO FIXED VOLUME - expands to fill available space\n✓ EASILY COMPRESSED - lots of empty space between particles\n✓ CAN FLOW - particles move freely\n✓ LOW DENSITY - particles very far apart\n✓ EXERTS PRESSURE - particles collide with container walls\n\nExamples: Air (oxygen, nitrogen), helium, carbon dioxide, water vapor\n\nReal-world observation:\n• Smell of perfume spreads across room\n• Balloons can be squeezed smaller\n• Gas escapes if container is opened\n• Air fills an empty bottle completely\n• Pumping adds more air particles to tire",
+      "content_zh": "气体 - 粒子特征：\n\n排列：\n• 粒子相距很远\n• 粒子之间有大间隙\n• 完全随机排列\n\n运动：\n• 粒子向所有方向快速移动\n• 粒子自由独立移动\n• 频繁与容器壁和彼此碰撞\n• 运动随温度显著增加\n\n作用力：\n• 吸引力非常弱或可忽略\n• 粒子基本上是独立的\n• 力只在碰撞期间显著\n\n这解释了气体性质：\n✓ 无固定形状 - 粒子自由移动，充满整个容器\n✓ 无固定体积 - 膨胀以填充可用空间\n✓ 易于压缩 - 粒子之间有大量空隙\n✓ 可以流动 - 粒子自由移动\n✓ 低密度 - 粒子相距很远\n✓ 施加压力 - 粒子与容器壁碰撞\n\n例子：空气（氧气、氮气）、氦气、二氧化碳、水蒸气\n\n实际观察：\n• 香水的气味在房间里传播\n• 气球可以被压缩得更小\n• 如果容器打开，气体会逸出\n• 空气完全充满空瓶\n• 打气向轮胎中添加更多空气粒子"
+    },
+    {
+      "id": "comparison-table",
+      "type": "text",
+      "title": "Comparing the Three States",
+      "title_zh": "比较三种状态",
+      "content": "SUMMARY COMPARISON:\n\n┌─────────────┬──────────────┬──────────────┬──────────────┐\n│  Property   │    SOLID     │    LIQUID    │     GAS      │\n├─────────────┼──────────────┼──────────────┼──────────────┤\n│ Arrangement │ Regular,     │ Random,      │ Random,      │\n│             │ close        │ close        │ far apart    │\n├─────────────┼──────────────┼──────────────┼──────────────┤\n│ Motion      │ Vibrate in   │ Move around, │ Move fast in │\n│             │ fixed        │ slide past   │ all          │\n│             │ position     │ each other   │ directions   │\n├─────────────┼──────────────┼──────────────┼──────────────┤\n│ Forces      │ Very strong  │ Moderate     │ Very weak/   │\n│             │              │              │ negligible   │\n├─────────────┼──────────────┼──────────────┼──────────────┤\n│ Shape       │ Fixed        │ Takes shape  │ Fills entire │\n│             │              │ of container │ container    │\n├─────────────┼──────────────┼──────────────┼──────────────┤\n│ Volume      │ Fixed        │ Fixed        │ Not fixed    │\n├─────────────┼──────────────┼──────────────┼──────────────┤\n│Compressible │ No           │ Very little  │ Yes, easily  │\n├─────────────┼──────────────┼──────────────┼──────────────┤\n│ Flow        │ No           │ Yes          │ Yes          │\n├─────────────┼──────────────┼──────────────┼──────────────┤\n│ Density     │ High         │ Medium       │ Low          │\n└─────────────┴──────────────┴──────────────┴──────────────┘\n\nKEY TREND:\nSolid → Liquid → Gas\n• Particle spacing INCREASES\n• Particle motion INCREASES\n• Forces between particles DECREASE\n• Energy of particles INCREASES",
+      "content_zh": "总结比较：\n\n┌─────────────┬──────────────┬──────────────┬──────────────┐\n│   性质      │    固体      │    液体      │    气体      │\n├─────────────┼──────────────┼──────────────┼──────────────┤\n│ 排列        │ 规则，       │ 随机，       │ 随机，       │\n│             │ 紧密         │ 紧密         │ 相距很远     │\n├─────────────┼──────────────┼──────────────┼──────────────┤\n│ 运动        │ 在固定位置   │ 四处移动，   │ 向所有方向   │\n│             │ 振动         │ 相互滑过     │ 快速移动     │\n├─────────────┼──────────────┼──────────────┼──────────────┤\n│ 作用力      │ 非常强       │ 中等         │ 非常弱/      │\n│             │              │              │ 可忽略       │\n├─────────────┼──────────────┼──────────────┼──────────────┤\n│ 形状        │ 固定         │ 采取容器     │ 填满整个     │\n│             │              │ 形状         │ 容器         │\n├─────────────┼──────────────┼──────────────┼──────────────┤\n│ 体积        │ 固定         │ 固定         │ 不固定       │\n├─────────────┼──────────────┼──────────────┼──────────────┤\n│可压缩性     │ 否           │ 很少         │ 是，容易     │\n├─────────────┼──────────────┼──────────────┼──────────────┤\n│ 流动        │ 否           │ 是           │ 是           │\n├─────────────┼──────────────┼──────────────┼──────────────┤\n│ 密度        │ 高           │ 中等         │ 低           │\n└─────────────┴──────────────┴──────────────┴──────────────┘\n\n关键趋势：\n固体 → 液体 → 气体\n• 粒子间距增加\n• 粒子运动增加\n• 粒子间作用力减少\n• 粒子能量增加"
+    },
+    {
+      "id": "diffusion",
+      "type": "text",
+      "title": "Diffusion",
+      "title_zh": "扩散",
+      "content": "DIFFUSION is the net movement of particles from a region of higher concentration to a region of lower concentration due to random motion.\n\nKey Points:\n• Occurs in liquids and gases (particles can move)\n• Does NOT require stirring or mixing\n• Continues until evenly distributed\n• Due to random particle motion\n• Faster at higher temperatures\n\nExamples:\n\n1. PERFUME IN AIR:\n• Perfume particles spread from bottle throughout room\n• You smell it even far from source\n• Eventually uniform smell everywhere\n\n2. FOOD COLORING IN WATER:\n• Drop of dye spreads through water\n• Color gradually becomes uniform\n• No need to stir (though stirring speeds it up)\n\n3. TEA BAG IN HOT WATER:\n• Tea particles diffuse out of bag\n• Water changes color uniformly\n• Happens faster in hot water than cold\n\nFactors Affecting Diffusion Rate:\n\n1. TEMPERATURE:\n   ↑ Temperature → ↑ Particle speed → ↑ Diffusion rate\n   Example: Sugar dissolves faster in hot tea\n\n2. PARTICLE SIZE:\n   Smaller particles → Faster diffusion\n   Example: Perfume (small molecules) diffuses faster than dust\n\n3. STATE OF MATTER:\n   Gases > Liquids >> Solids\n   (Gas particles move fastest)\n\n4. CONCENTRATION DIFFERENCE:\n   Greater difference → Faster initial diffusion",
+      "content_zh": "扩散是由于随机运动，粒子从高浓度区域向低浓度区域的净移动。\n\n关键点：\n• 发生在液体和气体中（粒子可以移动）\n• 不需要搅拌或混合\n• 持续直到均匀分布\n• 由于粒子的随机运动\n• 温度越高越快\n\n例子：\n\n1. 空气中的香水：\n• 香水粒子从瓶子扩散到整个房间\n• 即使远离源头也能闻到\n• 最终到处气味均匀\n\n2. 水中的食用色素：\n• 一滴染料在水中扩散\n• 颜色逐渐变得均匀\n• 无需搅拌（虽然搅拌会加速）\n\n3. 热水中的茶包：\n• 茶粒子从茶包中扩散出来\n• 水的颜色均匀变化\n• 在热水中比冷水中更快\n\n影响扩散速率的因素：\n\n1. 温度：\n   ↑ 温度 → ↑ 粒子速度 → ↑ 扩散速率\n   例子：糖在热茶中溶解更快\n\n2. 粒子大小：\n   较小粒子 → 更快扩散\n   例子：香水（小分子）比灰尘扩散更快\n\n3. 物质状态：\n   气体 > 液体 >> 固体\n   （气体粒子移动最快）\n\n4. 浓度差：\n   差异越大 → 初始扩散越快"
+    },
+    {
+      "id": "brownian-motion",
+      "type": "text",
+      "title": "Brownian Motion",
+      "title_zh": "布朗运动",
+      "content": "BROWNIAN MOTION is the random, zigzag movement of small particles suspended in a fluid (liquid or gas).\n\nDiscovered by: Robert Brown (1827) while observing pollen grains in water under a microscope.\n\nWhat causes it?\n• Small visible particles (like smoke or pollen) are constantly bombarded by invisible air or water molecules\n• Collisions from all directions are unequal at any instant\n• This causes the visible particle to move randomly\n• Provides EVIDENCE for particle theory\n\nClassic Demonstration:\n\nSMOKE CELL EXPERIMENT:\n1. Trap smoke particles in a sealed glass cell\n2. Shine bright light from the side\n3. View through microscope\n4. Observe: Bright specks (smoke particles) moving randomly in zigzag paths\n5. Conclusion: Air molecules are hitting smoke particles\n\nKey Observations:\n• Smoke particles move randomly, not in straight lines\n• Motion never stops (as long as temperature above absolute zero)\n• Cannot see air molecules (too small), only their effect\n• Faster movement at higher temperature\n\nImportance:\n• Provides direct evidence that:\n  - Particles exist and are in constant motion\n  - Even 'still' air has moving molecules\n  - Temperature relates to particle motion\n• Helped convince scientists of atomic theory\n\nReal-world examples:\n• Dust particles dancing in a sunbeam\n• Pollen grains jiggling in water under microscope\n• Milk particles moving in water",
+      "content_zh": "布朗运动是悬浮在流体（液体或气体）中的小粒子的随机锯齿形运动。\n\n发现者：罗伯特·布朗（1827年）在显微镜下观察水中的花粉粒时发现。\n\n是什么原因？\n• 小的可见粒子（如烟雾或花粉）不断被看不见的空气或水分子轰击\n• 来自各个方向的碰撞在任何时刻都是不相等的\n• 这导致可见粒子随机移动\n• 为粒子理论提供证据\n\n经典演示：\n\n烟雾室实验：\n1. 将烟雾粒子困在密封玻璃室中\n2. 从侧面照射强光\n3. 通过显微镜观察\n4. 观察：明亮的斑点（烟雾粒子）以锯齿形路径随机移动\n5. 结论：空气分子正在撞击烟雾粒子\n\n关键观察：\n• 烟雾粒子随机移动，不是直线\n• 运动永不停止（只要温度高于绝对零度）\n• 看不见空气分子（太小），只能看到它们的效果\n• 温度越高运动越快\n\n重要性：\n• 提供直接证据：\n  - 粒子存在并处于持续运动中\n  - 即使"静止"的空气也有移动的分子\n  - 温度与粒子运动相关\n• 帮助说服科学家接受原子理论\n\n实际例子：\n• 阳光束中跳舞的灰尘粒子\n• 显微镜下水中抖动的花粉粒\n• 水中移动的牛奶粒子"
+    },
+    {
+      "id": "temperature-energy",
+      "type": "text",
+      "title": "Temperature and Particle Energy",
+      "title_zh": "温度和粒子能量",
+      "content": "TEMPERATURE is a measure of the average kinetic energy of particles in a substance.\n\nKey Relationships:\n\n↑ TEMPERATURE → ↑ Particle Speed/Energy\n• Particles move faster\n• Vibrations/collisions more vigorous\n• More energy transferred in collisions\n\n↓ TEMPERATURE → ↓ Particle Speed/Energy\n• Particles move slower\n• Less vigorous motion\n• At absolute zero (-273°C), particles would stop moving\n\nObservable Effects:\n\n1. EXPANSION:\n   • Heating → particles move faster → need more space → substance expands\n   • Examples: Hot air rises, thermometer liquid rises, metal bridge expands in heat\n\n2. STATES OF MATTER:\n   • Add heat energy → particles move faster → can overcome forces\n   • Ice (solid) → Water (liquid) → Steam (gas)\n\n3. DIFFUSION RATE:\n   • Hot substances → particles move faster → diffuse quicker\n   • Cold substances → particles move slower → diffuse slower\n\n4. PRESSURE (for gases):\n   • Higher temperature → faster particles → more forceful collisions → higher pressure\n   • Example: Tire pressure increases on hot days\n\nImportant Distinction:\n• HEAT is energy transferred between substances\n• TEMPERATURE is measure of how hot something is\n• Adding heat increases temperature (usually) by increasing particle motion\n\nReal Applications:\n• Refrigerators slow down bacteria by reducing particle motion\n• Pressure cookers use high temperature/pressure to cook faster\n• Metal expands in heat - why railway tracks have gaps",
+      "content_zh": "温度是物质中粒子平均动能的度量。\n\n关键关系：\n\n↑ 温度 → ↑ 粒子速度/能量\n• 粒子移动更快\n• 振动/碰撞更剧烈\n• 碰撞中传递更多能量\n\n↓ 温度 → ↓ 粒子速度/能量\n• 粒子移动更慢\n• 运动不那么剧烈\n• 在绝对零度（-273°C）时，粒子将停止移动\n\n可观察的效果：\n\n1. 膨胀：\n   • 加热 → 粒子移动更快 → 需要更多空间 → 物质膨胀\n   • 例子：热空气上升，温度计液体上升，金属桥在热中膨胀\n\n2. 物质状态：\n   • 添加热能 → 粒子移动更快 → 可以克服作用力\n   • 冰（固体）→ 水（液体）→ 蒸汽（气体）\n\n3. 扩散速率：\n   • 热物质 → 粒子移动更快 → 扩散更快\n   • 冷物质 → 粒子移动更慢 → 扩散更慢\n\n4. 压力（对气体）：\n   • 温度越高 → 粒子越快 → 碰撞更有力 → 压力越高\n   • 例子：炎热天气轮胎压力增加\n\n重要区别：\n• 热是物质间传递的能量\n• 温度是衡量某物有多热的度量\n• 添加热量通常通过增加粒子运动来增加温度\n\n实际应用：\n• 冰箱通过减少粒子运动来减慢细菌\n• 高压锅使用高温/压力更快烹饪\n• 金属在热中膨胀 - 这就是铁轨有间隙的原因"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "In solids, particles mainly...",
+      "prompt_zh": "在固体中，粒子主要...",
+      "choices": [
+        "are fixed in position and vibrate",
+        "flow freely past each other",
+        "are far apart with weak forces",
+        "move very rapidly in all directions"
+      ],
+      "choices_zh": [
+        "固定在位置上并振动",
+        "自由地相互流动",
+        "相距很远且受力很弱",
+        "在所有方向上快速移动"
+      ],
+      "answer": 0,
+      "hint": "Think about why solids have fixed shape and can't be compressed.",
+      "hint_zh": "想想为什么固体有固定形状且不能被压缩。",
+      "explanation": "In solids, strong forces hold particles in fixed positions where they can only vibrate. This gives solids their fixed shape and volume.",
+      "explanation_zh": "在固体中，强大的力将粒子固定在位置上，它们只能振动。这使固体具有固定的形状和体积。"
+    },
+    {
+      "id": "q2",
+      "type": "multi",
+      "prompt": "Which properties apply to liquids?",
+      "prompt_zh": "哪些性质适用于液体？",
+      "choices": [
+        "Fixed volume",
+        "Takes shape of container",
+        "Easily compressed",
+        "Can flow"
+      ],
+      "choices_zh": [
+        "固定体积",
+        "采取容器形状",
+        "易于压缩",
+        "可以流动"
+      ],
+      "answer": [0, 1, 3],
+      "hint": "Liquids have particles close together (so fixed volume) but can move around.",
+      "hint_zh": "液体粒子紧密（所以体积固定）但可以四处移动。",
+      "explanation": "Liquids have fixed volume (particles close), take container shape (particles move around), and can flow (particles slide past each other). They're NOT easily compressed because particles are already close.",
+      "explanation_zh": "液体有固定体积（粒子紧密）、采取容器形状（粒子四处移动）、可以流动（粒子相互滑过）。它们不容易被压缩，因为粒子已经很接近。"
+    },
+    {
+      "id": "q3",
+      "type": "short",
+      "prompt": "Name the process when perfume smell spreads across a room.",
+      "prompt_zh": "当香水气味在房间里扩散时的过程叫什么？",
+      "answer": "diffusion",
+      "answer_zh": "扩散",
+      "hint": "It's the spreading of particles due to random motion from high to low concentration.",
+      "hint_zh": "这是由于从高浓度到低浓度的随机运动导致的粒子扩散。",
+      "explanation": "This is diffusion - the net movement of particles from higher concentration (near perfume bottle) to lower concentration (rest of room) due to random particle motion.",
+      "explanation_zh": "这是扩散 - 由于随机粒子运动，粒子从高浓度（香水瓶附近）向低浓度（房间其余部分）的净移动。"
+    },
+    {
+      "id": "q4",
+      "type": "drag-order",
+      "prompt": "Arrange by average particle spacing (closest to furthest apart):",
+      "prompt_zh": "按平均粒子间距排列（从最近到最远）：",
+      "items": ["Solid", "Liquid", "Gas"],
+      "items_zh": ["固体", "液体", "气体"],
+      "answer": ["Solid", "Liquid", "Gas"],
+      "answer_zh": ["固体", "液体", "气体"],
+      "hint": "Which state has particles packed tightest? Which has most space between particles?",
+      "hint_zh": "哪种状态的粒子堆积最紧密？哪个粒子之间间隙最大？"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "What does Brownian motion provide evidence for?",
+      "prompt_zh": "布朗运动为什么提供证据？",
+      "choices": [
+        "Particles exist and are in constant random motion",
+        "Solids are denser than liquids",
+        "Temperature measures heat",
+        "Gases can be compressed"
+      ],
+      "choices_zh": [
+        "粒子存在并处于持续随机运动中",
+        "固体比液体密度大",
+        "温度测量热量",
+        "气体可以被压缩"
+      ],
+      "answer": 0,
+      "hint": "Brownian motion is the random zigzag movement of visible particles being hit by invisible particles.",
+      "hint_zh": "布朗运动是可见粒子被看不见的粒子撞击产生的随机锯齿形运动。",
+      "explanation": "Brownian motion shows small visible particles (like smoke) being randomly pushed by invisible air molecules. This proves particles exist and are constantly moving randomly.",
+      "explanation_zh": "布朗运动显示小的可见粒子（如烟雾）被看不见的空气分子随机推动。这证明粒子存在并不断随机移动。"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Why does diffusion happen faster at higher temperatures?",
+      "prompt_zh": "为什么扩散在更高温度下发生得更快？",
+      "choices": [
+        "Particles become larger",
+        "Particles move faster with more kinetic energy",
+        "There's more space between particles",
+        "Forces between particles become stronger"
+      ],
+      "choices_zh": [
+        "粒子变大",
+        "粒子移动更快，动能更大",
+        "粒子之间有更多空间",
+        "粒子之间的力变得更强"
+      ],
+      "answer": 1,
+      "hint": "Think about what temperature actually measures - average kinetic energy.",
+      "hint_zh": "想想温度实际测量什么 - 平均动能。",
+      "explanation": "Higher temperature means particles have more kinetic energy and move faster. Faster moving particles spread out more quickly, so diffusion rate increases.",
+      "explanation_zh": "更高的温度意味着粒子有更多的动能并移动更快。移动更快的粒子扩散得更快，所以扩散速率增加。"
+    },
+    {
+      "id": "q7",
+      "type": "match",
+      "prompt": "Match each state with its particle arrangement:",
+      "prompt_zh": "将每种状态与其粒子排列匹配：",
+      "pairs": [
+        ["Solid", "Regular pattern, very close"],
+        ["Liquid", "Random arrangement, close together"],
+        ["Gas", "Random, very far apart"]
+      ],
+      "pairs_zh": [
+        ["固体", "规则模式，非常接近"],
+        ["液体", "随机排列，紧密"],
+        ["气体", "随机，非常远"]
+      ],
+      "hint": "Solids are orderly, liquids are close but random, gases are far apart.",
+      "hint_zh": "固体有序，液体紧密但随机，气体相距很远。"
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Which state of matter can be compressed easily?",
+      "prompt_zh": "哪种物质状态可以轻易被压缩？",
+      "choices": ["Solid", "Liquid", "Gas", "All three equally"],
+      "choices_zh": ["固体", "液体", "气体", "三者相同"],
+      "answer": 2,
+      "hint": "Think about where there's the most empty space between particles.",
+      "hint_zh": "想想哪里粒子之间有最多的空隙。",
+      "explanation": "Gases can be compressed easily because there's lots of empty space between particles. Solids and liquids have particles already close together, so can't be compressed much.",
+      "explanation_zh": "气体可以轻易被压缩，因为粒子之间有大量空隙。固体和液体的粒子已经很接近，所以不能被压缩太多。"
+    },
+    {
+      "id": "q9",
+      "type": "short",
+      "prompt": "What happens to particle motion when temperature increases?",
+      "prompt_zh": "当温度增加时，粒子运动会发生什么？",
+      "answer": "increases",
+      "answer_zh": "增加",
+      "hint": "Temperature is a measure of average kinetic energy of particles.",
+      "hint_zh": "温度是粒子平均动能的度量。",
+      "explanation": "When temperature increases, particles gain kinetic energy and move faster (vibrate more in solids, move faster in liquids and gases).",
+      "explanation_zh": "当温度增加时，粒子获得动能并移动更快（固体中振动更多，液体和气体中移动更快）。"
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Why do gases have no fixed shape?",
+      "prompt_zh": "为什么气体没有固定形状？",
+      "choices": [
+        "Particles are too small",
+        "Particles move freely and spread to fill container",
+        "Forces between particles are too strong",
+        "Temperature is too low"
+      ],
+      "choices_zh": [
+        "粒子太小",
+        "粒子自由移动并扩散以填充容器",
+        "粒子之间的力太强",
+        "温度太低"
+      ],
+      "answer": 1,
+      "hint": "Think about how gas particles move and where they can go.",
+      "hint_zh": "想想气体粒子如何移动以及它们可以去哪里。",
+      "explanation": "Gas particles move very fast in all directions with weak forces between them, so they spread out to fill whatever container they're in. This means no fixed shape.",
+      "explanation_zh": "气体粒子向所有方向快速移动，粒子之间作用力很弱，所以它们扩散以填充所在的容器。这意味着没有固定形状。"
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "In a smoke cell experiment, we observe smoke particles moving randomly in zigzag paths. What causes this?",
+      "prompt_zh": "在烟雾室实验中，我们观察到烟雾粒子以锯齿形路径随机移动。是什么导致的？",
+      "choices": [
+        "Gravity pulling particles down",
+        "Air molecules colliding with smoke particles",
+        "Light from the microscope",
+        "Static electricity"
+      ],
+      "choices_zh": [
+        "重力将粒子向下拉",
+        "空气分子与烟雾粒子碰撞",
+        "显微镜的光",
+        "静电"
+      ],
+      "answer": 1,
+      "hint": "This is evidence for particle theory - invisible particles hitting visible ones.",
+      "hint_zh": "这是粒子理论的证据 - 看不见的粒子撞击可见的粒子。",
+      "explanation": "The random zigzag motion (Brownian motion) is caused by invisible air molecules constantly bombarding the smoke particles from different directions. This is direct evidence that air particles exist and are in constant random motion.",
+      "explanation_zh": "随机锯齿形运动（布朗运动）是由看不见的空气分子从不同方向不断轰击烟雾粒子引起的。这是空气粒子存在并处于持续随机运动的直接证据。"
+    },
+    {
+      "id": "q12",
+      "type": "multi",
+      "prompt": "Which statements about diffusion are correct?",
+      "prompt_zh": "关于扩散的哪些陈述是正确的？",
+      "choices": [
+        "It occurs due to random particle motion",
+        "It only happens in gases",
+        "It continues until particles are evenly spread",
+        "It requires stirring or shaking"
+      ],
+      "choices_zh": [
+        "它由于随机粒子运动而发生",
+        "它只发生在气体中",
+        "它持续直到粒子均匀扩散",
+        "它需要搅拌或摇晃"
+      ],
+      "answer": [0, 2],
+      "hint": "Diffusion happens in both liquids and gases, and doesn't need external mixing.",
+      "hint_zh": "扩散在液体和气体中都会发生，不需要外部混合。",
+      "explanation": "Diffusion occurs due to random particle motion (✓) and continues until evenly distributed (✓). It happens in BOTH liquids and gases (not only gases ✗), and does NOT require stirring (✗) - it happens naturally.",
+      "explanation_zh": "扩散由于随机粒子运动而发生（✓）并持续直到均匀分布（✓）。它在液体和气体中都发生（不仅仅是气体✗），并且不需要搅拌（✗） - 它自然发生。"
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+

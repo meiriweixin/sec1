@@ -1,0 +1,68 @@
+{
+  "id": "chinese-composition-writing",
+  "title": "Composition Writing (作文写作)",
+  "title_zh": "作文写作",
+  "description": "Master narrative essay writing, descriptive techniques, and composition structure",
+  "description_zh": "掌握记叙文写作、描写技巧和作文结构",
+  "objectives": [
+    "Write narrative essays (记叙文)",
+    "Use descriptive techniques",
+    "Apply 5W1H method",
+    "Structure paragraphs effectively"
+  ],
+  "objectives_zh": [
+    "写记叙文",
+    "使用描写技巧",
+    "应用5W1H方法",
+    "有效组织段落"
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "type": "text",
+      "title": "Narrative Essays",
+      "title_zh": "记叙文",
+      "content": "Narrative essays tell a story with beginning, middle, and end. Include characters, setting, plot.",
+      "content_zh": "记叙文讲述一个有开头、中间和结尾的故事。包括人物、环境、情节。"
+    },
+    {
+      "id": "s2",
+      "type": "text",
+      "title": "5W1H Method",
+      "title_zh": "5W1H方法",
+      "content": "Who, What, When, Where, Why, How - answer these questions in your writing.",
+      "content_zh": "谁、什么、何时、何地、为什么、如何 - 在写作中回答这些问题。"
+    },
+    {
+      "id": "s3",
+      "type": "text",
+      "title": "Descriptive Techniques",
+      "title_zh": "描写技巧",
+      "content": "Use 外貌描写 (appearance), 动作描写 (actions), 心理描写 (thoughts), 语言描写 (dialogue).",
+      "content_zh": "使用外貌描写、动作描写、心理描写、语言描写。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "mcq",
+      "question": "What does 5W1H stand for?",
+      "question_zh": "5W1H代表什么？",
+      "choices": [
+        "5 words, 1 hour",
+        "Who, What, When, Where, Why, How",
+        "5 ways, 1 habit",
+        "5 weeks, 1 homework"
+      ],
+      "choices_zh": [
+        "5个词，1小时",
+        "谁、什么、何时、何地、为什么、如何",
+        "5种方法，1个习惯",
+        "5周，1个作业"
+      ],
+      "answer": 1,
+      "explanation": "The 6 key questions to answer in narrative writing",
+      "explanation_zh": "记叙文中要回答的6个关键问题"
+    }
+  ]
+}

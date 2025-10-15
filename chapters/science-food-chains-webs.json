@@ -1,0 +1,54 @@
+{
+  "id": "food-chains-webs",
+  "title": "Food Chains & Food Webs",
+  "title_zh": "食物链与食物网",
+  "description": "Understand energy flow in ecosystems through food chains and food webs",
+  "description_zh": "通过食物链和食物网理解生态系统中的能量流动",
+  "tag": "Biology",
+  "tag_zh": "生物",
+  "objectives": [
+    "Understand producers, consumers, and decomposers",
+    "Construct food chains",
+    "Interpret food webs",
+    "Understand energy flow in ecosystems"
+  ],
+  "objectives_zh": [
+    "理解生产者、消费者和分解者",
+    "构建食物链",
+    "解释食物网",
+    "理解生态系统中的能量流动"
+  ],
+  "sections": [
+    {
+      "id": "food-chain-basics",
+      "type": "text",
+      "title": "Food Chains",
+      "title_zh": "食物链",
+      "content": "**Food Chain** shows how energy passes from one organism to another.\n\n**Key Terms:**\n- **Producer** - Makes own food (plants)\n- **Consumer** - Eats other organisms (animals)\n- **Decomposer** - Breaks down dead matter (bacteria, fungi)\n\n**Example:** Grass → Grasshopper → Bird → Snake\n\n**Singapore Example:** Algae → Small fish → Larger fish → Otter (at Marina Reservoir)",
+      "content_zh": "**食物链**显示能量如何从一个生物传递到另一个生物。\n\n**关键术语：**\n- **生产者** - 制造自己的食物（植物）\n- **消费者** - 吃其他生物（动物）\n- **分解者** - 分解死物质（细菌、真菌）\n\n**例子：**草 → 蚱蜢 → 鸟 → 蛇\n\n**新加坡例子：**藻类 → 小鱼 → 大鱼 → 水獭（在滨海蓄水池）"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "mcq",
+      "question": "What is a producer?",
+      "question_zh": "什么是生产者？",
+      "choices": [
+        "An animal that eats plants",
+        "An organism that makes its own food",
+        "An organism that breaks down dead matter",
+        "A predator"
+      ],
+      "choices_zh": [
+        "吃植物的动物",
+        "制造自己食物的生物",
+        "分解死物质的生物",
+        "捕食者"
+      ],
+      "answer": 1,
+      "explanation": "Producers make their own food through photosynthesis",
+      "explanation_zh": "生产者通过光合作用制造自己的食物"
+    }
+  ]
+}

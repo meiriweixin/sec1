@@ -1,0 +1,68 @@
+{
+  "id": "chinese-reading-comprehension",
+  "title": "Reading Comprehension (阅读理解)",
+  "title_zh": "阅读理解",
+  "description": "Develop Chinese reading comprehension skills: main ideas, inference, and text analysis",
+  "description_zh": "培养中文阅读理解技能：主旨、推理和文本分析",
+  "objectives": [
+    "Identify main ideas in Chinese texts",
+    "Make inferences from context",
+    "Understand transition words",
+    "Analyze text structure"
+  ],
+  "objectives_zh": [
+    "识别中文文本的主旨",
+    "从上下文推理",
+    "理解过渡词",
+    "分析文本结构"
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "type": "text",
+      "title": "Finding Main Ideas",
+      "title_zh": "寻找主旨",
+      "content": "Look for topic sentences (主题句), usually at the beginning or end of paragraphs.",
+      "content_zh": "寻找主题句，通常在段落的开头或结尾。"
+    },
+    {
+      "id": "s2",
+      "type": "text",
+      "title": "Context Inference",
+      "title_zh": "上下文推理",
+      "content": "Use surrounding sentences to understand unfamiliar words and implied meanings.",
+      "content_zh": "使用周围的句子来理解生词和隐含的意思。"
+    },
+    {
+      "id": "s3",
+      "type": "text",
+      "title": "Transition Words",
+      "title_zh": "过渡词",
+      "content": "Recognize words like 首先、其次、然后、因此、但是、虽然 that show relationships.",
+      "content_zh": "识别首先、其次、然后、因此、但是、虽然等表示关系的词。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "mcq",
+      "question": "Where is the topic sentence usually found?",
+      "question_zh": "主题句通常在哪里找到？",
+      "choices": [
+        "In the middle only",
+        "At beginning or end",
+        "Never stated",
+        "In footnotes"
+      ],
+      "choices_zh": [
+        "只在中间",
+        "在开头或结尾",
+        "从不陈述",
+        "在脚注中"
+      ],
+      "answer": 1,
+      "explanation": "Topic sentences are usually at the beginning or end of paragraphs",
+      "explanation_zh": "主题句通常在段落的开头或结尾"
+    }
+  ]
+}

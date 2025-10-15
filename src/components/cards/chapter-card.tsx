@@ -14,6 +14,8 @@ interface Chapter {
   title_zh?: string;
   description: string;
   description_zh?: string;
+  tag?: string;
+  tag_zh?: string;
   objectives: string[];
   objectives_zh?: string[];
   sections: any[];
@@ -44,6 +46,7 @@ export function ChapterCard({ chapter, subjectId, index }: ChapterCardProps) {
   const title = language === 'zh' && chapter.title_zh ? chapter.title_zh : chapter.title;
   const description = language === 'zh' && chapter.description_zh ? chapter.description_zh : chapter.description;
   const objectives = language === 'zh' && chapter.objectives_zh ? chapter.objectives_zh : chapter.objectives;
+  const tag = language === 'zh' && chapter.tag_zh ? chapter.tag_zh : chapter.tag;
 
   const getStatus = () => {
     if (progress?.completed) return 'completed';
@@ -75,6 +78,20 @@ export function ChapterCard({ chapter, subjectId, index }: ChapterCardProps) {
     }
   };
 
+  const getTagColor = () => {
+    const tagLower = (chapter.tag || '').toLowerCase();
+    if (tagLower === 'physics' || tagLower === '物理') {
+      return 'border-blue-500 text-blue-700 dark:text-blue-400';
+    }
+    if (tagLower === 'chemistry' || tagLower === '化学') {
+      return 'border-green-500 text-green-700 dark:text-green-400';
+    }
+    if (tagLower === 'biology' || tagLower === '生物') {
+      return 'border-purple-500 text-purple-700 dark:text-purple-400';
+    }
+    return 'border-gray-500 text-gray-700 dark:text-gray-400';
+  };
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -90,6 +107,11 @@ export function ChapterCard({ chapter, subjectId, index }: ChapterCardProps) {
               <div className="flex items-center space-x-2 mb-2">
                 {getStatusIcon()}
                 {getStatusBadge()}
+                {tag && (
+                  <Badge variant="outline" className={`text-xs font-medium ${getTagColor()}`}>
+                    {tag}
+                  </Badge>
+                )}
               </div>
               <CardTitle className="text-lg font-semibold mb-1">{title}</CardTitle>
               <CardDescription className="text-sm text-muted-foreground">

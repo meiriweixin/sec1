@@ -1,0 +1,182 @@
+{
+  "id": "acids-bases",
+  "title": "Acids & Bases",
+  "title_zh": "酸和碱",
+  "tag": "Chemistry",
+  "tag_zh": "化学",
+  "description": "Understand the properties of acids and bases and how to identify them",
+  "description_zh": "理解酸和碱的性质以及如何识别它们",
+  "objectives": [
+    "Define acids and bases",
+    "Understand the pH scale",
+    "Identify common acids and bases",
+    "Learn about neutralization reactions",
+    "Recognize indicators and their color changes"
+  ],
+  "objectives_zh": [
+    "定义酸和碱",
+    "理解pH值",
+    "识别常见的酸和碱",
+    "学习中和反应",
+    "识别指示剂及其颜色变化"
+  ],
+  "sections": [
+    {
+      "id": "acids-intro",
+      "type": "text",
+      "title": "What are Acids?",
+      "title_zh": "什么是酸？",
+      "content": "**Acids** are substances that produce hydrogen ions (H⁺) when dissolved in water.\n\n**Properties of Acids:**\n- Taste sour (but NEVER taste chemicals in a lab!)\n- Turn blue litmus paper red\n- pH less than 7\n- React with metals to produce hydrogen gas\n- Conduct electricity when dissolved in water (electrolytes)\n- Corrosive (can damage skin and materials)\n\n**Common Acids in Daily Life:**\n\n**1. Hydrochloric Acid (HCl)**\n- Produced in your stomach (stomach acid)\n- Helps digest food\n- Concentration in stomach: pH 1-2\n\n**2. Citric Acid (C₆H₈O₇)**\n- Found in citrus fruits (oranges, lemons, limes)\n- Gives sour taste\n- Used as food preservative\n\n**3. Acetic Acid (CH₃COOH)**\n- Main component of vinegar\n- Used in cooking and cleaning\n- pH around 2.5\n\n**4. Sulfuric Acid (H₂SO₄)**\n- Used in car batteries\n- Industrial chemical\n- Very corrosive - handle with extreme care\n\n**5. Carbonic Acid (H₂CO₃)**\n- In fizzy drinks (carbonated beverages)\n- Formed when CO₂ dissolves in water\n- Gives drinks their \"fizz\"\n\n**Singapore Context:**\nMany local foods contain acids:\n- **Lime juice** in laksa (citric acid)\n- **Tamarind** in assam laksa (tartaric acid)\n- **Vinegar** in achar (acetic acid)\n- **Vitamin C drinks** (ascorbic acid)\n\nThe tangy taste you enjoy in these foods comes from acids!",
+      "content_zh": "**酸**是溶于水时产生氢离子（H⁺）的物质。\n\n**酸的性质：**\n- 味道酸（但绝不要在实验室里品尝化学物质！）\n- 使蓝色石蕊试纸变红\n- pH值小于7\n- 与金属反应产生氢气\n- 溶于水时导电（电解质）\n- 腐蚀性（可以损坏皮肤和材料）\n\n**日常生活中的常见酸：**\n\n**1. 盐酸 (HCl)**\n- 在你的胃中产生（胃酸）\n- 帮助消化食物\n- 胃中浓度：pH 1-2\n\n**2. 柠檬酸 (C₆H₈O₇)**\n- 存在于柑橘类水果（橙子、柠檬、酸橙）\n- 提供酸味\n- 用作食品防腐剂\n\n**3. 乙酸 (CH₃COOH)**\n- 醋的主要成分\n- 用于烹饪和清洁\n- pH约2.5\n\n**4. 硫酸 (H₂SO₄)**\n- 用于汽车电池\n- 工业化学品\n- 非常腐蚀性 - 需要极其小心处理\n\n**5. 碳酸 (H₂CO₃)**\n- 存在于汽水中（碳酸饮料）\n- 当CO₂溶于水时形成\n- 使饮料\"起泡\"\n\n**新加坡背景：**\n许多本地食物含有酸：\n- 叻沙中的**青柠汁**（柠檬酸）\n- 亚参叻沙中的**罗望子**（酒石酸）\n- 亚查中的**醋**（乙酸）\n- **维生素C饮料**（抗坏血酸）\n\n你在这些食物中享受的酸味来自酸！"
+    },
+    {
+      "id": "bases-intro",
+      "type": "text",
+      "title": "What are Bases?",
+      "title_zh": "什么是碱？",
+      "content": "**Bases** are substances that produce hydroxide ions (OH⁻) when dissolved in water. Alkalis are bases that dissolve in water.\n\n**Properties of Bases:**\n- Taste bitter (but NEVER taste chemicals!)\n- Feel slippery/soapy to touch\n- Turn red litmus paper blue\n- pH greater than 7\n- Conduct electricity when dissolved in water\n- Corrosive in high concentrations\n\n**Common Bases in Daily Life:**\n\n**1. Sodium Hydroxide (NaOH)**\n- Also called caustic soda or lye\n- Used in soap making\n- Used in drain cleaners\n- Very corrosive - pH 14\n\n**2. Calcium Hydroxide (Ca(OH)₂)**\n- Also called slaked lime\n- Used in construction (cement, mortar)\n- Used to neutralize acidic soil\n\n**3. Ammonia (NH₃)**\n- Found in cleaning products\n- Strong smell\n- Used in window cleaners\n- pH around 11\n\n**4. Sodium Bicarbonate (NaHCO₃)**\n- Also called baking soda\n- Used in baking (makes cakes rise)\n- Mild antacid (treats heartburn)\n- Used for cleaning\n\n**5. Magnesium Hydroxide (Mg(OH)₂)**\n- Main ingredient in \"Milk of Magnesia\"\n- Used as antacid medicine\n- Neutralizes excess stomach acid\n\n**Singapore Context:**\nYou encounter bases daily:\n- **Soap and shampoo** (sodium hydroxide base)\n- **Toothpaste** (contains mild bases to neutralize mouth acids)\n- **Baking kuehs** (baking soda makes them fluffy)\n- **Antacid tablets** at pharmacies (neutralize stomach acid)\n- **Cleaning products** for toilets and kitchens\n\n**Important Safety Note:**\nStrong acids and strong bases are both dangerous! Always handle with care, wear gloves, and never mix chemicals unless you know it's safe.",
+      "content_zh": "**碱**是溶于水时产生氢氧根离子（OH⁻）的物质。碱是溶于水的碱。\n\n**碱的性质：**\n- 味道苦（但绝不要品尝化学物质！）\n- 触摸时感觉滑腻/肥皂状\n- 使红色石蕊试纸变蓝\n- pH值大于7\n- 溶于水时导电\n- 高浓度时具有腐蚀性\n\n**日常生活中的常见碱：**\n\n**1. 氢氧化钠 (NaOH)**\n- 也称为苛性钠或碱液\n- 用于制皂\n- 用于排水管清洁剂\n- 非常腐蚀性 - pH 14\n\n**2. 氢氧化钙 (Ca(OH)₂)**\n- 也称为熟石灰\n- 用于建筑（水泥、砂浆）\n- 用于中和酸性土壤\n\n**3. 氨 (NH₃)**\n- 存在于清洁产品中\n- 强烈气味\n- 用于玻璃清洁剂\n- pH约11\n\n**4. 碳酸氢钠 (NaHCO₃)**\n- 也称为小苏打\n- 用于烘焙（使蛋糕膨胀）\n- 温和的抗酸剂（治疗胃灼热）\n- 用于清洁\n\n**5. 氢氧化镁 (Mg(OH)₂)**\n- \"镁乳\"的主要成分\n- 用作抗酸药\n- 中和过量胃酸\n\n**新加坡背景：**\n你每天都会遇到碱：\n- **肥皂和洗发水**（氢氧化钠碱）\n- **牙膏**（含有温和的碱以中和口腔酸）\n- **烘焙糕点**（小苏打使它们蓬松）\n- **药店的抗酸片**（中和胃酸）\n- **厕所和厨房的清洁产品**\n\n**重要安全提示：**\n强酸和强碱都很危险！始终小心处理，戴手套，绝不要混合化学品，除非你知道这是安全的。"
+    },
+    {
+      "id": "ph-scale",
+      "type": "text",
+      "title": "The pH Scale",
+      "title_zh": "pH值",
+      "content": "The **pH scale** measures how acidic or basic a solution is. It ranges from 0 to 14.\n\n**Understanding pH:**\n\n**pH < 7: ACIDIC**\n- 0-2: Strong acids (battery acid, stomach acid)\n- 3-6: Weak acids (vinegar, orange juice, rain)\n\n**pH = 7: NEUTRAL**\n- Pure water\n- Neither acidic nor basic\n\n**pH > 7: BASIC (ALKALINE)**\n- 8-10: Weak bases (baking soda, seawater)\n- 11-14: Strong bases (ammonia, drain cleaner)\n\n**pH Scale Visual:**\n```\n0 ← ACIDIC | NEUTRAL | BASIC → 14\n    (H⁺ ions)    7    (OH⁻ ions)\n```\n\n**Common Substances and their pH:**\n\n| Substance | pH | Type |\n|-----------|-----|------|\n| Battery acid | 0-1 | Strong acid |\n| Stomach acid | 1-2 | Strong acid |\n| Lemon juice | 2 | Acid |\n| Vinegar | 2.5 | Acid |\n| Orange juice | 3-4 | Weak acid |\n| Tomato juice | 4 | Weak acid |\n| Black coffee | 5 | Weak acid |\n| Milk | 6.5 | Weak acid |\n| **Pure water** | **7** | **Neutral** |\n| Blood | 7.4 | Slightly basic |\n| Seawater | 8 | Slightly basic |\n| Baking soda | 9 | Base |\n| Milk of Magnesia | 10 | Base |\n| Ammonia | 11-12 | Strong base |\n| Bleach | 12-13 | Strong base |\n| Drain cleaner | 14 | Strong base |\n\n**Key Points:**\n- Each pH unit represents a 10× change in acidity\n- pH 2 is 10 times more acidic than pH 3\n- pH 2 is 100 times more acidic than pH 4\n- Lower pH = more H⁺ ions = more acidic\n- Higher pH = more OH⁻ ions = more basic\n\n**Singapore Examples:**\n- **Kopi (coffee)**: pH ~5 (slightly acidic)\n- **Teh (tea)**: pH ~6 (slightly acidic)\n- **Tap water**: pH ~7 (neutral, safe to drink)\n- **Swimming pool water**: pH 7.2-7.8 (slightly basic, chlorine added)",
+      "content_zh": "**pH值**测量溶液的酸性或碱性。范围从0到14。\n\n**理解pH值：**\n\n**pH < 7：酸性**\n- 0-2：强酸（电池酸、胃酸）\n- 3-6：弱酸（醋、橙汁、雨水）\n\n**pH = 7：中性**\n- 纯水\n- 既不酸也不碱\n\n**pH > 7：碱性（碱性）**\n- 8-10：弱碱（小苏打、海水）\n- 11-14：强碱（氨、排水管清洁剂）\n\n**pH值可视化：**\n```\n0 ← 酸性 | 中性 | 碱性 → 14\n    (H⁺离子)   7   (OH⁻离子)\n```\n\n**常见物质及其pH值：**\n\n| 物质 | pH | 类型 |\n|------|-----|------|\n| 电池酸 | 0-1 | 强酸 |\n| 胃酸 | 1-2 | 强酸 |\n| 柠檬汁 | 2 | 酸 |\n| 醋 | 2.5 | 酸 |\n| 橙汁 | 3-4 | 弱酸 |\n| 番茄汁 | 4 | 弱酸 |\n| 黑咖啡 | 5 | 弱酸 |\n| 牛奶 | 6.5 | 弱酸 |\n| **纯水** | **7** | **中性** |\n| 血液 | 7.4 | 微碱 |\n| 海水 | 8 | 微碱 |\n| 小苏打 | 9 | 碱 |\n| 镁乳 | 10 | 碱 |\n| 氨 | 11-12 | 强碱 |\n| 漂白剂 | 12-13 | 强碱 |\n| 排水管清洁剂 | 14 | 强碱 |\n\n**要点：**\n- 每个pH单位代表酸度的10倍变化\n- pH 2比pH 3酸10倍\n- pH 2比pH 4酸100倍\n- 较低的pH值 = 更多H⁺离子 = 更酸\n- 较高的pH值 = 更多OH⁻离子 = 更碱\n\n**新加坡例子：**\n- **咖啡**：pH ~5（微酸）\n- **茶**：pH ~6（微酸）\n- **自来水**：pH ~7（中性，安全饮用）\n- **游泳池水**：pH 7.2-7.8（微碱，添加了氯）"
+    },
+    {
+      "id": "indicators",
+      "type": "text",
+      "title": "Indicators and Testing",
+      "title_zh": "指示剂和测试",
+      "content": "**Indicators** are substances that change color depending on whether they're in an acid or a base.\n\n**Common Indicators:**\n\n**1. Litmus Paper**\n- Most commonly used indicator\n- **Blue litmus paper**: Turns RED in acid, stays blue in base\n- **Red litmus paper**: Turns BLUE in base, stays red in acid\n- Cannot tell exact pH, only if acid or base\n\n**2. Universal Indicator**\n- Changes through a range of colors\n- Shows approximate pH value\n- Color chart:\n  - **Red/Orange**: pH 0-4 (Strong/weak acid)\n  - **Yellow**: pH 5-6 (Weak acid)\n  - **Green**: pH 7 (Neutral)\n  - **Blue**: pH 8-10 (Weak base)\n  - **Purple**: pH 11-14 (Strong base)\n\n**3. Phenolphthalein**\n- **Colorless** in acid and neutral (pH < 8)\n- **Pink** in base (pH > 8)\n- Used in titrations\n\n**4. Methyl Orange**\n- **Red** in acid (pH < 3)\n- **Yellow** in base and neutral (pH > 4)\n- **Orange** at transition point\n\n**Natural Indicators:**\nMany plant materials can act as indicators!\n\n**Red Cabbage Juice:**\n- Red/Pink in acid\n- Purple in neutral\n- Green/Yellow in base\n- Can make this at home!\n\n**Turmeric:**\n- Yellow in acid and neutral\n- Red/Brown in base\n- Common in curry\n\n**How to Test pH:**\n\n**Method 1: Litmus Paper**\n1. Dip litmus paper in solution\n2. Observe color change\n3. Determine if acid or base\n\n**Method 2: Universal Indicator**\n1. Add a few drops to solution\n2. Observe color\n3. Compare to color chart\n4. Read approximate pH\n\n**Method 3: pH Meter (Digital)**\n1. Calibrate meter\n2. Dip probe in solution\n3. Read exact pH on screen\n4. Most accurate method\n\n**Singapore Context:**\nYou can test household items:\n- **Lemon juice** (should turn litmus red - acidic)\n- **Baking soda solution** (should turn litmus blue - basic)\n- **Vinegar** (acidic - red litmus)\n- **Soap water** (basic - blue litmus)\n- **Tap water** (neutral - no change)\n\n**Fun Experiment at Home:**\nBoil red cabbage, collect the purple juice, and test it with vinegar (turns red), water (stays purple), and baking soda solution (turns green)!",
+      "content_zh": "**指示剂**是根据它们在酸或碱中而改变颜色的物质。\n\n**常见指示剂：**\n\n**1. 石蕊试纸**\n- 最常用的指示剂\n- **蓝色石蕊试纸**：在酸中变红，在碱中保持蓝色\n- **红色石蕊试纸**：在碱中变蓝，在酸中保持红色\n- 不能告诉确切的pH值，只能判断是酸还是碱\n\n**2. 通用指示剂**\n- 通过一系列颜色变化\n- 显示大约的pH值\n- 颜色表：\n  - **红色/橙色**：pH 0-4（强/弱酸）\n  - **黄色**：pH 5-6（弱酸）\n  - **绿色**：pH 7（中性）\n  - **蓝色**：pH 8-10（弱碱）\n  - **紫色**：pH 11-14（强碱）\n\n**3. 酚酞**\n- 在酸和中性中**无色**（pH < 8）\n- 在碱中**粉红色**（pH > 8）\n- 用于滴定\n\n**4. 甲基橙**\n- 在酸中**红色**（pH < 3）\n- 在碱和中性中**黄色**（pH > 4）\n- 在过渡点**橙色**\n\n**天然指示剂：**\n许多植物材料可以充当指示剂！\n\n**紫甘蓝汁：**\n- 在酸中红色/粉红色\n- 在中性中紫色\n- 在碱中绿色/黄色\n- 可以在家制作！\n\n**姜黄：**\n- 在酸和中性中黄色\n- 在碱中红色/棕色\n- 常见于咖喱中\n\n**如何测试pH值：**\n\n**方法1：石蕊试纸**\n1. 将石蕊试纸浸入溶液中\n2. 观察颜色变化\n3. 确定是酸还是碱\n\n**方法2：通用指示剂**\n1. 向溶液中添加几滴\n2. 观察颜色\n3. 与颜色表比较\n4. 读取大约的pH值\n\n**方法3：pH计（数字）**\n1. 校准仪表\n2. 将探头浸入溶液中\n3. 在屏幕上读取确切的pH值\n4. 最准确的方法\n\n**新加坡背景：**\n你可以测试家庭用品：\n- **柠檬汁**（应使石蕊试纸变红 - 酸性）\n- **小苏打溶液**（应使石蕊试纸变蓝 - 碱性）\n- **醋**（酸性 - 红色石蕊）\n- **肥皂水**（碱性 - 蓝色石蕊）\n- **自来水**（中性 - 无变化）\n\n**在家的有趣实验：**\n煮紫甘蓝，收集紫色汁液，用醋（变红）、水（保持紫色）和小苏打溶液（变绿）测试它！"
+    },
+    {
+      "id": "neutralization",
+      "type": "text",
+      "title": "Neutralization Reactions",
+      "title_zh": "中和反应",
+      "content": "**Neutralization** is a chemical reaction between an acid and a base that produces salt and water.\n\n**General Formula:**\n```\nAcid + Base → Salt + Water\n```\n\n**Example Reactions:**\n\n**1. Hydrochloric Acid + Sodium Hydroxide**\n```\nHCl + NaOH → NaCl + H₂O\n(Acid + Base → Salt + Water)\n```\n- Products: Sodium chloride (table salt) + water\n- The solution becomes neutral (pH 7)\n\n**2. Sulfuric Acid + Magnesium Hydroxide**\n```\nH₂SO₄ + Mg(OH)₂ → MgSO₄ + 2H₂O\n```\n- Products: Magnesium sulfate (Epsom salt) + water\n- Used in antacid medicine!\n\n**3. Nitric Acid + Potassium Hydroxide**\n```\nHNO₃ + KOH → KNO₃ + H₂O\n```\n- Products: Potassium nitrate (fertilizer) + water\n\n**What Happens During Neutralization:**\n- H⁺ ions from acid + OH⁻ ions from base → H₂O (water)\n- The remaining ions form a salt\n- Heat is released (exothermic reaction)\n- pH moves toward 7 (neutral)\n\n**Real-Life Applications:**\n\n**1. Treating Stomach Acidity (Heartburn)**\n- Problem: Excess stomach acid (HCl) causes pain\n- Solution: Take antacid tablet (contains base like Mg(OH)₂)\n- Reaction: HCl + Mg(OH)₂ → MgCl₂ + H₂O\n- Result: Acid neutralized, pain relief\n\n**2. Treating Insect Stings**\n\n**Bee Sting** (acidic venom):\n- Apply baking soda paste (base)\n- Base neutralizes the acid\n- Reduces pain and swelling\n\n**Wasp Sting** (basic venom):\n- Apply vinegar (acid)\n- Acid neutralizes the base\n- Reduces pain and swelling\n\n**3. Agriculture - Soil Treatment**\n\n**Acidic Soil** (bad for some plants):\n- Add lime (calcium hydroxide - base)\n- Neutralizes excess acid\n- Improves plant growth\n\n**Basic Soil** (bad for other plants):\n- Add sulfur (forms acid when wet)\n- Neutralizes excess base\n- Better growing conditions\n\n**4. Industrial Waste Treatment**\n- Factory waste may be very acidic or basic\n- Add opposite substance to neutralize\n- Make waste safe before releasing to environment\n\n**5. Toothpaste**\n- Bacteria in mouth produce acids\n- Acids damage tooth enamel\n- Toothpaste contains mild bases\n- Neutralizes acids, protects teeth\n\n**Singapore Context:**\n\n**1. PUB Water Treatment**\n- Adjusts pH of water supply\n- Uses bases to neutralize acidic water\n- Ensures safe drinking water (pH ~7)\n\n**2. Swimming Pools**\n- Need to maintain pH 7.2-7.8\n- Add acid if too basic\n- Add base if too acidic\n- Keeps water safe and comfortable\n\n**3. Cooking**\n- If curry is too sour (acidic), add a pinch of baking soda (base)\n- Neutralizes excess acid\n- Balances flavor\n\n**Signs of Neutralization:**\n- Temperature increases (gets warmer)\n- Bubbling may occur\n- Color change if indicator present\n- pH moves toward 7",
+      "content_zh": "**中和**是酸和碱之间的化学反应，产生盐和水。\n\n**通式：**\n```\n酸 + 碱 → 盐 + 水\n```\n\n**反应例子：**\n\n**1. 盐酸 + 氢氧化钠**\n```\nHCl + NaOH → NaCl + H₂O\n(酸 + 碱 → 盐 + 水)\n```\n- 产物：氯化钠（食盐）+ 水\n- 溶液变为中性（pH 7）\n\n**2. 硫酸 + 氢氧化镁**\n```\nH₂SO₄ + Mg(OH)₂ → MgSO₄ + 2H₂O\n```\n- 产物：硫酸镁（泻盐）+ 水\n- 用于抗酸药！\n\n**3. 硝酸 + 氢氧化钾**\n```\nHNO₃ + KOH → KNO₃ + H₂O\n```\n- 产物：硝酸钾（肥料）+ 水\n\n**中和过程中发生的事情：**\n- 酸的H⁺离子 + 碱的OH⁻离子 → H₂O（水）\n- 剩余离子形成盐\n- 释放热量（放热反应）\n- pH值向7（中性）移动\n\n**实际应用：**\n\n**1. 治疗胃酸（胃灼热）**\n- 问题：过量胃酸（HCl）引起疼痛\n- 解决方案：服用抗酸片（含有碱，如Mg(OH)₂）\n- 反应：HCl + Mg(OH)₂ → MgCl₂ + H₂O\n- 结果：酸被中和，疼痛缓解\n\n**2. 治疗昆虫叮咬**\n\n**蜜蜂叮咬**（酸性毒液）：\n- 涂抹小苏打膏（碱）\n- 碱中和酸\n- 减少疼痛和肿胀\n\n**黄蜂叮咬**（碱性毒液）：\n- 涂抹醋（酸）\n- 酸中和碱\n- 减少疼痛和肿胀\n\n**3. 农业 - 土壤处理**\n\n**酸性土壤**（对某些植物不利）：\n- 添加石灰（氢氧化钙 - 碱）\n- 中和过量酸\n- 改善植物生长\n\n**碱性土壤**（对其他植物不利）：\n- 添加硫（湿时形成酸）\n- 中和过量碱\n- 更好的生长条件\n\n**4. 工业废物处理**\n- 工厂废物可能非常酸性或碱性\n- 添加相反物质进行中和\n- 在释放到环境前使废物安全\n\n**5. 牙膏**\n- 口腔中的细菌产生酸\n- 酸损害牙釉质\n- 牙膏含有温和的碱\n- 中和酸，保护牙齿\n\n**新加坡背景：**\n\n**1. 公用事业局水处理**\n- 调整供水的pH值\n- 使用碱中和酸性水\n- 确保安全饮用水（pH ~7）\n\n**2. 游泳池**\n- 需要维持pH 7.2-7.8\n- 如果太碱性则添加酸\n- 如果太酸性则添加碱\n- 保持水安全舒适\n\n**3. 烹饪**\n- 如果咖喱太酸（酸性），加一撮小苏打（碱）\n- 中和过量酸\n- 平衡味道\n\n**中和的迹象：**\n- 温度升高（变暖）\n- 可能出现冒泡\n- 如果存在指示剂，颜色会改变\n- pH值向7移动"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "mcq",
+      "question": "Which of the following is a property of acids?",
+      "question_zh": "以下哪项是酸的性质？",
+      "choices": [
+        "Turn red litmus paper blue",
+        "Feel slippery to touch",
+        "Have pH greater than 7",
+        "Turn blue litmus paper red"
+      ],
+      "choices_zh": [
+        "使红色石蕊试纸变蓝",
+        "触摸时感觉滑腻",
+        "pH值大于7",
+        "使蓝色石蕊试纸变红"
+      ],
+      "answer": 3,
+      "explanation": "Acids turn blue litmus paper red. The other options are properties of bases.",
+      "explanation_zh": "酸使蓝色石蕊试纸变红。其他选项是碱的性质。"
+    },
+    {
+      "id": "ex2",
+      "type": "mcq",
+      "question": "What is the pH of a neutral solution?",
+      "question_zh": "中性溶液的pH值是多少？",
+      "choices": [
+        "0",
+        "7",
+        "14",
+        "1"
+      ],
+      "choices_zh": [
+        "0",
+        "7",
+        "14",
+        "1"
+      ],
+      "answer": 1,
+      "explanation": "A neutral solution has a pH of 7. Pure water is an example of a neutral substance.",
+      "explanation_zh": "中性溶液的pH值为7。纯水是中性物质的一个例子。"
+    },
+    {
+      "id": "ex3",
+      "type": "mcq",
+      "question": "What are the products of a neutralization reaction between an acid and a base?",
+      "question_zh": "酸和碱之间的中和反应的产物是什么？",
+      "choices": [
+        "Salt and hydrogen gas",
+        "Salt and water",
+        "Water and carbon dioxide",
+        "Only salt"
+      ],
+      "choices_zh": [
+        "盐和氢气",
+        "盐和水",
+        "水和二氧化碳",
+        "只有盐"
+      ],
+      "answer": 1,
+      "explanation": "Neutralization reactions between acids and bases produce salt and water. The general equation is: Acid + Base → Salt + Water",
+      "explanation_zh": "酸和碱之间的中和反应产生盐和水。通式为：酸 + 碱 → 盐 + 水"
+    },
+    {
+      "id": "ex4",
+      "type": "mcq",
+      "question": "A solution has a pH of 3. How would you describe this solution?",
+      "question_zh": "一个溶液的pH值为3。你会如何描述这个溶液？",
+      "choices": [
+        "Strongly basic",
+        "Weakly basic",
+        "Neutral",
+        "Acidic"
+      ],
+      "choices_zh": [
+        "强碱性",
+        "弱碱性",
+        "中性",
+        "酸性"
+      ],
+      "answer": 3,
+      "explanation": "Any solution with pH less than 7 is acidic. pH 3 is acidic (common examples: vinegar, lemon juice).",
+      "explanation_zh": "任何pH值小于7的溶液都是酸性的。pH 3是酸性的（常见例子：醋、柠檬汁）。"
+    },
+    {
+      "id": "ex5",
+      "type": "mcq",
+      "question": "Why do we use antacid medicine to treat heartburn?",
+      "question_zh": "为什么我们使用抗酸药治疗胃灼热？",
+      "choices": [
+        "Antacids increase stomach acid",
+        "Antacids are acidic and add more acid",
+        "Antacids are basic and neutralize excess stomach acid",
+        "Antacids have no effect on stomach acid"
+      ],
+      "choices_zh": [
+        "抗酸药增加胃酸",
+        "抗酸药是酸性的，增加更多酸",
+        "抗酸药是碱性的，中和过量胃酸",
+        "抗酸药对胃酸没有影响"
+      ],
+      "answer": 2,
+      "explanation": "Antacids contain bases (like magnesium hydroxide) that neutralize excess stomach acid through a neutralization reaction, relieving heartburn symptoms.",
+      "explanation_zh": "抗酸药含有碱（如氢氧化镁），通过中和反应中和过量胃酸，缓解胃灼热症状。"
+    },
+    {
+      "id": "ex6",
+      "type": "short",
+      "question": "Complete this neutralization equation: HCl + NaOH → ___ + H₂O",
+      "question_zh": "完成这个中和方程：HCl + NaOH → ___ + H₂O",
+      "answer": "NaCl",
+      "validator": "exact",
+      "explanation": "When hydrochloric acid (HCl) reacts with sodium hydroxide (NaOH), they form sodium chloride (NaCl - table salt) and water (H₂O).",
+      "explanation_zh": "当盐酸（HCl）与氢氧化钠（NaOH）反应时，它们形成氯化钠（NaCl - 食盐）和水（H₂O）。"
+    }
+  ]
+}

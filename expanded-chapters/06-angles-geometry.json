@@ -1,0 +1,244 @@
+{
+  "id": "angles-geometry",
+  "title": "Angles and Basic Geometry",
+  "title_zh": "角度和基础几何",
+  "description": "Master angles, triangles, and polygon properties with visual demonstrations",
+  "description_zh": "通过可视化演示掌握角度、三角形和多边形性质",
+  "objectives": [
+    "Identify and measure different types of angles",
+    "Calculate unknown angles using angle properties",
+    "Understand angles on parallel lines with transversals",
+    "Apply angle properties of triangles",
+    "Solve problems involving polygons and their angle sums",
+    "Recognize properties of special quadrilaterals",
+    "Use geometric reasoning to solve multi-step problems"
+  ],
+  "objectives_zh": [
+    "识别和测量不同类型的角",
+    "使用角的性质计算未知角",
+    "理解平行线与横截线的角",
+    "应用三角形的角性质",
+    "解决涉及多边形及其角和的问题",
+    "识别特殊四边形的性质",
+    "使用几何推理解决多步骤问题"
+  ],
+  "sections": [
+    {
+      "id": "intro-angles",
+      "type": "text",
+      "title": "Introduction to Angles",
+      "title_zh": "角的介绍",
+      "content": "An ANGLE is formed when two rays meet at a common point called the VERTEX.\n\nKey Terms:\n• VERTEX: The point where two rays meet\n• ARMS: The two rays forming the angle\n• Measured in DEGREES (°)\n• Symbol: ∠ABC or ∠B (vertex letter in middle)\n\nTypes of Angles by Size:\n\n1. ACUTE ANGLE:\n   • Between 0° and 90°\n   • Sharp, pointed\n   • Example: 45°, 60°, 30°\n\n2. RIGHT ANGLE:\n   • Exactly 90°\n   • Marked with small square □\n   • Forms perfect \"L\" shape\n   • Example: Corner of book\n\n3. OBTUSE ANGLE:\n   • Between 90° and 180°\n   • Wider than right angle\n   • Example: 120°, 150°, 95°\n\n4. STRAIGHT ANGLE:\n   • Exactly 180°\n   • Forms a straight line\n   • Example: Flat surface\n\n5. REFLEX ANGLE:\n   • Between 180° and 360°\n   • Greater than straight angle\n   • Example: 270°, 200°, 315°\n\n6. COMPLETE/FULL ROTATION:\n   • Exactly 360°\n   • Full circle\n   • Back to starting position\n\nMeasuring Angles:\n• Use a PROTRACTOR\n• Place center point on vertex\n• Align one arm with 0° line\n• Read where other arm crosses scale\n• Always specify unit: degrees (°)\n\nAngles in Daily Life:\n• Clock hands form different angles\n• Door opening creates angles\n• Ramps and slopes\n• Corners of shapes\n• Turning directions",
+      "content_zh": "角是当两条射线在一个称为顶点的公共点相遇时形成的。\n\n关键术语：\n• 顶点：两条射线相遇的点\n• 边：形成角的两条射线\n• 以度（°）为单位测量\n• 符号：∠ABC或∠B（顶点字母在中间）\n\n按大小分类的角：\n\n1. 锐角：\n   • 在0°和90°之间\n   • 尖锐，尖的\n   • 例子：45°，60°，30°\n\n2. 直角：\n   • 正好90°\n   • 用小正方形□标记\n   • 形成完美的"L"形\n   • 例子：书的角\n\n3. 钝角：\n   • 在90°和180°之间\n   • 比直角宽\n   • 例子：120°，150°，95°\n\n4. 平角：\n   • 正好180°\n   • 形成直线\n   • 例子：平坦表面\n\n5. 优角：\n   • 在180°和360°之间\n   • 大于平角\n   • 例子：270°，200°，315°\n\n6. 完整/全旋转：\n   • 正好360°\n   • 完整的圆\n   • 回到起始位置\n\n测量角：\n• 使用量角器\n• 将中心点放在顶点上\n• 将一条边与0°线对齐\n• 读取另一条边穿过刻度的位置\n• 始终指定单位：度（°）\n\n日常生活中的角：\n• 时钟指针形成不同的角\n• 门打开产生角\n• 坡道和斜坡\n• 形状的角\n• 转向方向"
+    },
+    {
+      "id": "angle-properties",
+      "type": "text",
+      "title": "Angle Properties at a Point",
+      "title_zh": "一点的角性质",
+      "content": "ANGLES AT A POINT:\nAngles around a single point add up to 360°.\n\nWhy? Because going all the way around makes a full rotation (360°).\n\nExample 1:\nThree angles meet at point O: 120°, 150°, and x°\n120° + 150° + x° = 360°\n270° + x° = 360°\nx° = 360° - 270° = 90°\n\nANGLES ON A STRAIGHT LINE:\nAngles on a straight line add up to 180°.\n\nWhy? Because a straight line is a 180° angle.\n\nExample 2:\nTwo angles form a straight line: 70° and y°\n70° + y° = 180°\ny° = 180° - 70° = 110°\n\nVERTICALLY OPPOSITE ANGLES:\nWhen two straight lines cross, opposite angles are equal.\n\nWhy? Because angles on a line = 180°, so opposite angles must be equal.\n\nExample 3:\nTwo lines cross. One angle is 65°.\nVertically opposite angle = 65° (equal)\nAdjacent angles = 180° - 65° = 115° each\n\nADJACENT ANGLES:\nAngles next to each other, sharing a common arm.\n\nCOMPLEMENTARY ANGLES:\nTwo angles that add up to 90° (form a right angle).\n\nExample: 30° and 60° are complementary\n30° + 60° = 90°\n\nSUPPLEMENTARY ANGLES:\nTwo angles that add up to 180° (form a straight line).\n\nExample: 110° and 70° are supplementary\n110° + 70° = 180°\n\nProblem-Solving Strategy:\n1. Identify which angle property applies\n2. Write an equation\n3. Solve for unknown angle\n4. Check: Do angles add up correctly?",
+      "content_zh": "一点的角：\n围绕单个点的角加起来等于360°。\n\n为什么？因为绕一整圈形成完整旋转（360°）。\n\n例1：\n三个角在点O相遇：120°，150°和x°\n120° + 150° + x° = 360°\n270° + x° = 360°\nx° = 360° - 270° = 90°\n\n直线上的角：\n直线上的角加起来等于180°。\n\n为什么？因为直线是180°角。\n\n例2：\n两个角形成直线：70°和y°\n70° + y° = 180°\ny° = 180° - 70° = 110°\n\n对顶角：\n当两条直线相交时，对角相等。\n\n为什么？因为直线上的角 = 180°，所以对角必须相等。\n\n例3：\n两条线相交。一个角是65°。\n对顶角 = 65°（相等）\n邻角 = 180° - 65° = 115°（每个）\n\n邻角：\n彼此相邻的角，共享一条公共边。\n\n互补角：\n两个加起来等于90°的角（形成直角）。\n\n例子：30°和60°互补\n30° + 60° = 90°\n\n补角：\n两个加起来等于180°的角（形成直线）。\n\n例子：110°和70°互补\n110° + 70° = 180°\n\n解题策略：\n1. 识别适用哪个角性质\n2. 写方程\n3. 求解未知角\n4. 检查：角加起来正确吗？"
+    },
+    {
+      "id": "parallel-lines",
+      "type": "text",
+      "title": "Parallel Lines and Transversals",
+      "title_zh": "平行线和横截线",
+      "content": "PARALLEL LINES: Lines that never meet, always same distance apart.\nSymbol: ||  (e.g., line AB || line CD)\n\nTRANSVERSAL: A line that crosses two or more parallel lines.\n\nWhen a transversal crosses parallel lines, special angle relationships form:\n\n1. CORRESPONDING ANGLES (F-pattern):\n   • In same position at each intersection\n   • Equal when lines are parallel\n   • Form \"F\" shape\n   • Example: If one corresponding angle is 70°, the other is also 70°\n\n2. ALTERNATE INTERIOR ANGLES (Z-pattern):\n   • Inside the parallel lines, on opposite sides of transversal\n   • Equal when lines are parallel\n   • Form \"Z\" shape\n   • Example: If one is 110°, its alternate is also 110°\n\n3. ALTERNATE EXTERIOR ANGLES:\n   • Outside the parallel lines, on opposite sides\n   • Equal when lines are parallel\n\n4. INTERIOR ANGLES ON SAME SIDE (C-pattern):\n   • Inside parallel lines, same side of transversal\n   • Add up to 180° (supplementary)\n   • Form \"C\" or \"U\" shape\n   • Example: If one is 70°, the other is 180° - 70° = 110°\n\nHow to Identify:\n• Look for the letter patterns: F, Z, C\n• Corresponding: Same position = F pattern\n• Alternate interior: Opposite sides, between lines = Z pattern\n• Co-interior: Same side, between lines = C pattern\n\nExample Problem:\nTwo parallel lines cut by transversal.\nOne angle is 65°.\n\nFind:\n• Corresponding angle = 65° (equal)\n• Alternate interior = 65° (equal)\n• Co-interior = 180° - 65° = 115° (supplementary)\n• Vertically opposite = 65° (equal)\n\nCommon Mistake:\nDon't confuse co-interior (add to 180°) with alternate interior (equal)!\n\nReal Applications:\n• Railway tracks (parallel lines)\n• Ladder against wall\n• Road crossings\n• Architectural designs",
+      "content_zh": "平行线：永不相遇的线，始终保持相同距离。\n符号：|| （例如，线AB || 线CD）\n\n横截线：穿过两条或多条平行线的线。\n\n当横截线穿过平行线时，形成特殊的角关系：\n\n1. 同位角（F型）：\n   • 在每个交点处的相同位置\n   • 当线平行时相等\n   • 形成"F"形\n   • 例子：如果一个同位角是70°，另一个也是70°\n\n2. 内错角（Z型）：\n   • 在平行线内部，横截线的相对侧\n   • 当线平行时相等\n   • 形成"Z"形\n   • 例子：如果一个是110°，它的内错角也是110°\n\n3. 外错角：\n   • 在平行线外部，相对侧\n   • 当线平行时相等\n\n4. 同侧内角（C型）：\n   • 在平行线内部，横截线的同侧\n   • 加起来等于180°（补角）\n   • 形成"C"或"U"形\n   • 例子：如果一个是70°，另一个是180° - 70° = 110°\n\n如何识别：\n• 寻找字母模式：F、Z、C\n• 同位角：相同位置 = F型\n• 内错角：相对侧，在线之间 = Z型\n• 同侧内角：同侧，在线之间 = C型\n\n例题：\n两条平行线被横截线切割。\n一个角是65°。\n\n求：\n• 同位角 = 65°（相等）\n• 内错角 = 65°（相等）\n• 同侧内角 = 180° - 65° = 115°（补角）\n• 对顶角 = 65°（相等）\n\n常见错误：\n不要混淆同侧内角（加到180°）和内错角（相等）！\n\n实际应用：\n• 铁轨（平行线）\n• 靠墙的梯子\n• 道路交叉口\n• 建筑设计"
+    },
+    {
+      "id": "triangle-angles",
+      "type": "math",
+      "title": "Triangle Angle Sum",
+      "title_zh": "三角形内角和",
+      "content": "∠A + ∠B + ∠C = 180°",
+      "explanation": "ANGLE SUM OF TRIANGLE:\nThe three interior angles of ANY triangle always add up to 180°.\n\nWhy? You can prove this using parallel lines:\n• Draw a line parallel to the base through the top vertex\n• Alternate angles show that all three angles fit on a straight line (180°)\n\nExamples:\n\nExample 1:\nTriangle has angles 50°, 60°, and x°\n50° + 60° + x° = 180°\n110° + x° = 180°\nx° = 70°\n\nExample 2:\nIsosceles triangle (two equal angles)\nBase angles = 70° each, find apex angle\n70° + 70° + apex = 180°\n140° + apex = 180°\napex = 40°\n\nExample 3:\nRight-angled triangle (one angle = 90°)\nOne angle = 90°, another = 35°, find third\n90° + 35° + third = 180°\n125° + third = 180°\nthird = 55°\n\nEXTERIOR ANGLE OF TRIANGLE:\nAn exterior angle equals the sum of the two opposite interior angles.\n\nWhy?\n• Interior + Exterior on line = 180° (supplementary)\n• Sum of all three interior = 180°\n• Therefore, exterior = sum of two opposite interior\n\nExample 4:\nTriangle has interior angles 40° and 70°\nExterior angle at third vertex = 40° + 70° = 110°\n\nCheck: Third interior = 180° - 40° - 70° = 70°\nExterior = 180° - 70° = 110° ✓\n\nTypes of Triangles by Angles:\n• ACUTE: All three angles < 90°\n• RIGHT: One angle = 90°\n• OBTUSE: One angle > 90°\n\nTypes by Sides:\n• EQUILATERAL: All sides equal → all angles = 60°\n• ISOSCELES: Two sides equal → two angles equal\n• SCALENE: All sides different → all angles different",
+      "explanation_zh": "三角形内角和：\n任何三角形的三个内角总和总是等于180°。\n\n为什么？你可以用平行线证明这一点：\n• 通过顶点画一条平行于底边的线\n• 内错角表明所有三个角都在直线上（180°）\n\n例子：\n\n例1：\n三角形的角是50°，60°和x°\n50° + 60° + x° = 180°\n110° + x° = 180°\nx° = 70°\n\n例2：\n等腰三角形（两个相等的角）\n底角 = 每个70°，求顶角\n70° + 70° + 顶角 = 180°\n140° + 顶角 = 180°\n顶角 = 40°\n\n例3：\n直角三角形（一个角 = 90°）\n一个角 = 90°，另一个 = 35°，求第三个\n90° + 35° + 第三个 = 180°\n125° + 第三个 = 180°\n第三个 = 55°\n\n三角形外角：\n外角等于两个相对内角的和。\n\n为什么？\n• 内角 + 外角在线上 = 180°（补角）\n• 所有三个内角的和 = 180°\n• 因此，外角 = 两个相对内角的和\n\n例4：\n三角形的内角是40°和70°\n第三个顶点的外角 = 40° + 70° = 110°\n\n检查：第三个内角 = 180° - 40° - 70° = 70°\n外角 = 180° - 70° = 110° ✓\n\n按角分类的三角形：\n• 锐角：所有三个角 < 90°\n• 直角：一个角 = 90°\n• 钝角：一个角 > 90°\n\n按边分类：\n• 等边：所有边相等 → 所有角 = 60°\n• 等腰：两边相等 → 两角相等\n• 不等边：所有边不同 → 所有角不同"
+    },
+    {
+      "id": "polygon-angles",
+      "type": "text",
+      "title": "Angles in Polygons",
+      "title_zh": "多边形的角",
+      "content": "POLYGON: A closed figure with straight sides.\n\nTypes of Polygons:\n• Triangle: 3 sides\n• Quadrilateral: 4 sides\n• Pentagon: 5 sides\n• Hexagon: 6 sides\n• Heptagon: 7 sides\n• Octagon: 8 sides\n• Nonagon: 9 sides\n• Decagon: 10 sides\n• n-gon: n sides\n\nSUM OF INTERIOR ANGLES:\nFormula: (n - 2) × 180°\nwhere n = number of sides\n\nWhy? Any polygon can be divided into (n - 2) triangles from one vertex.\nEach triangle has 180°, so total = (n - 2) × 180°\n\nExamples:\n\nQuadrilateral (n = 4):\n(4 - 2) × 180° = 2 × 180° = 360°\n\nPentagon (n = 5):\n(5 - 2) × 180° = 3 × 180° = 540°\n\nHexagon (n = 6):\n(6 - 2) × 180° = 4 × 180° = 720°\n\nOctagon (n = 8):\n(8 - 2) × 180° = 6 × 180° = 1080°\n\nREGULAR POLYGONS:\nAll sides and angles are equal.\n\nEach interior angle of regular polygon:\n= [(n - 2) × 180°] / n\n\nExamples:\n\nEquilateral triangle (n = 3):\nEach angle = [(3 - 2) × 180°] / 3 = 180° / 3 = 60°\n\nSquare (n = 4):\nEach angle = [(4 - 2) × 180°] / 4 = 360° / 4 = 90°\n\nRegular hexagon (n = 6):\nEach angle = [(6 - 2) × 180°] / 6 = 720° / 6 = 120°\n\nRegular octagon (n = 8):\nEach angle = [(8 - 2) × 180°] / 8 = 1080° / 8 = 135°\n\nEXTERIOR ANGLES:\nSum of exterior angles of ANY polygon = 360° (always!)\n\nFor regular polygon:\nEach exterior angle = 360° / n\n\nExamples:\nRegular hexagon: Each exterior = 360° / 6 = 60°\nRegular pentagon: Each exterior = 360° / 5 = 72°\n\nRelationship:\nInterior angle + Exterior angle = 180° (on a straight line)\n\nProblem-Solving:\n\nQuestion: A regular polygon has each exterior angle = 40°. How many sides?\nSolution: \n360° / n = 40°\nn = 360° / 40° = 9 sides (nonagon)\n\nQuestion: Pentagon has angles 100°, 110°, 120°, 95°, and x°. Find x.\nSolution:\nSum = (5 - 2) × 180° = 540°\n100 + 110 + 120 + 95 + x = 540\n425 + x = 540\nx = 115°",
+      "content_zh": "多边形：由直边形成的封闭图形。\n\n多边形类型：\n• 三角形：3边\n• 四边形：4边\n• 五边形：5边\n• 六边形：6边\n• 七边形：7边\n• 八边形：8边\n• 九边形：9边\n• 十边形：10边\n• n边形：n边\n\n内角和：\n公式：(n - 2) × 180°\n其中n = 边数\n\n为什么？任何多边形都可以从一个顶点分成(n - 2)个三角形。\n每个三角形有180°，所以总和 = (n - 2) × 180°\n\n例子：\n\n四边形（n = 4）：\n(4 - 2) × 180° = 2 × 180° = 360°\n\n五边形（n = 5）：\n(5 - 2) × 180° = 3 × 180° = 540°\n\n六边形（n = 6）：\n(6 - 2) × 180° = 4 × 180° = 720°\n\n八边形（n = 8）：\n(8 - 2) × 180° = 6 × 180° = 1080°\n\n正多边形：\n所有边和角都相等。\n\n正多边形的每个内角：\n= [(n - 2) × 180°] / n\n\n例子：\n\n等边三角形（n = 3）：\n每个角 = [(3 - 2) × 180°] / 3 = 180° / 3 = 60°\n\n正方形（n = 4）：\n每个角 = [(4 - 2) × 180°] / 4 = 360° / 4 = 90°\n\n正六边形（n = 6）：\n每个角 = [(6 - 2) × 180°] / 6 = 720° / 6 = 120°\n\n正八边形（n = 8）：\n每个角 = [(8 - 2) × 180°] / 8 = 1080° / 8 = 135°\n\n外角：\n任何多边形的外角和 = 360°（总是！）\n\n对于正多边形：\n每个外角 = 360° / n\n\n例子：\n正六边形：每个外角 = 360° / 6 = 60°\n正五边形：每个外角 = 360° / 5 = 72°\n\n关系：\n内角 + 外角 = 180°（在直线上）\n\n解题：\n\n问题：正多边形的每个外角 = 40°。有多少边？\n解答：\n360° / n = 40°\nn = 360° / 40° = 9边（九边形）\n\n问题：五边形的角是100°，110°，120°，95°和x°。求x。\n解答：\n和 = (5 - 2) × 180° = 540°\n100 + 110 + 120 + 95 + x = 540\n425 + x = 540\nx = 115°"
+    },
+    {
+      "id": "quadrilaterals",
+      "type": "text",
+      "title": "Special Quadrilaterals",
+      "title_zh": "特殊四边形",
+      "content": "QUADRILATERAL: Any 4-sided polygon. Interior angles sum = 360°.\n\nSpecial Quadrilaterals and Their Properties:\n\n1. SQUARE:\n   • All 4 sides equal\n   • All 4 angles = 90°\n   • Diagonals equal, bisect each other at 90°\n   • 4 lines of symmetry\n\n2. RECTANGLE:\n   • Opposite sides equal and parallel\n   • All 4 angles = 90°\n   • Diagonals equal and bisect each other\n   • 2 lines of symmetry\n\n3. PARALLELOGRAM:\n   • Opposite sides equal and parallel\n   • Opposite angles equal\n   • Adjacent angles add to 180° (supplementary)\n   • Diagonals bisect each other (but not equal)\n\n4. RHOMBUS:\n   • All 4 sides equal\n   • Opposite angles equal\n   • Opposite sides parallel\n   • Diagonals bisect each other at 90° (but not equal)\n   • 2 lines of symmetry\n\n5. TRAPEZIUM:\n   • One pair of parallel sides (called bases)\n   • Other pair not parallel (called legs)\n   • No other special properties in general trapezium\n   • Isosceles trapezium: legs equal, base angles equal\n\n6. KITE:\n   • Two pairs of adjacent sides equal\n   • One pair of opposite angles equal (between unequal sides)\n   • Diagonals meet at 90°\n   • One diagonal bisects the other\n   • 1 line of symmetry\n\nAngle Properties in Parallelograms:\n• Opposite angles equal: ∠A = ∠C, ∠B = ∠D\n• Adjacent angles supplementary: ∠A + ∠B = 180°\n\nExample:\nParallelogram has one angle = 110°\n• Opposite angle = 110°\n• Adjacent angles = 180° - 110° = 70° each\n• Four angles: 110°, 70°, 110°, 70°\n• Check: 110 + 70 + 110 + 70 = 360° ✓\n\nHierarchy:\n• Square is a special rectangle (all sides equal)\n• Rectangle is a special parallelogram (right angles)\n• Rhombus is a special parallelogram (all sides equal)\n• Square is also a special rhombus (right angles)\n• All these are quadrilaterals\n\nIdentifying Quadrilaterals:\nAsk these questions:\n1. Are all sides equal? → Could be square or rhombus\n2. Are all angles 90°? → Could be square or rectangle\n3. Are opposite sides parallel? → Could be parallelogram or its special types\n4. Only one pair parallel? → Trapezium\n5. Two pairs of adjacent equal? → Kite",
+      "content_zh": "四边形：任何4边多边形。内角和 = 360°。\n\n特殊四边形及其性质：\n\n1. 正方形：\n   • 所有4边相等\n   • 所有4角 = 90°\n   • 对角线相等，以90°相互平分\n   • 4条对称轴\n\n2. 矩形：\n   • 对边相等且平行\n   • 所有4角 = 90°\n   • 对角线相等并相互平分\n   • 2条对称轴\n\n3. 平行四边形：\n   • 对边相等且平行\n   • 对角相等\n   • 邻角和为180°（补角）\n   • 对角线相互平分（但不相等）\n\n4. 菱形：\n   • 所有4边相等\n   • 对角相等\n   • 对边平行\n   • 对角线以90°相互平分（但不相等）\n   • 2条对称轴\n\n5. 梯形：\n   • 一对平行边（称为底）\n   • 另一对不平行（称为腰）\n   • 一般梯形无其他特殊性质\n   • 等腰梯形：腰相等，底角相等\n\n6. 风筝：\n   • 两对相邻边相等\n   • 一对对角相等（在不等边之间）\n   • 对角线以90°相交\n   • 一条对角线平分另一条\n   • 1条对称轴\n\n平行四边形的角性质：\n• 对角相等：∠A = ∠C，∠B = ∠D\n• 邻角互补：∠A + ∠B = 180°\n\n例子：\n平行四边形的一个角 = 110°\n• 对角 = 110°\n• 邻角 = 180° - 110° = 70°（每个）\n• 四个角：110°，70°，110°，70°\n• 检查：110 + 70 + 110 + 70 = 360° ✓\n\n层次结构：\n• 正方形是特殊的矩形（所有边相等）\n• 矩形是特殊的平行四边形（直角）\n• 菱形是特殊的平行四边形（所有边相等）\n• 正方形也是特殊的菱形（直角）\n• 所有这些都是四边形\n\n识别四边形：\n问这些问题：\n1. 所有边相等吗？→ 可能是正方形或菱形\n2. 所有角都是90°吗？→ 可能是正方形或矩形\n3. 对边平行吗？→ 可能是平行四边形或其特殊类型\n4. 只有一对平行吗？→ 梯形\n5. 两对相邻边相等吗？→ 风筝"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Which type of angle is 125°?",
+      "prompt_zh": "125°是哪种类型的角？",
+      "choices": ["Acute", "Right", "Obtuse", "Straight"],
+      "choices_zh": ["锐角", "直角", "钝角", "平角"],
+      "answer": 2,
+      "hint": "It's between 90° and 180°.",
+      "hint_zh": "它在90°和180°之间。",
+      "explanation": "125° is between 90° and 180°, so it's an obtuse angle.",
+      "explanation_zh": "125°在90°和180°之间，所以它是钝角。"
+    },
+    {
+      "id": "q2",
+      "type": "short",
+      "prompt": "Angles on a straight line: 75° and x°. Find x.",
+      "prompt_zh": "直线上的角：75°和x°。求x。",
+      "answer": "105",
+      "validator": "numeric",
+      "hint": "Angles on a straight line add up to 180°.",
+      "hint_zh": "直线上的角加起来等于180°。",
+      "explanation": "75° + x° = 180°, so x° = 180° - 75° = 105°",
+      "explanation_zh": "75° + x° = 180°，所以x° = 180° - 75° = 105°"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Two lines intersect. One angle is 50°. What is the vertically opposite angle?",
+      "prompt_zh": "两条线相交。一个角是50°。对顶角是多少？",
+      "choices": ["50°", "130°", "140°", "40°"],
+      "answer": 0,
+      "hint": "Vertically opposite angles are equal.",
+      "hint_zh": "对顶角相等。",
+      "explanation": "Vertically opposite angles are always equal, so it's also 50°.",
+      "explanation_zh": "对顶角总是相等，所以也是50°。"
+    },
+    {
+      "id": "q4",
+      "type": "short",
+      "prompt": "A triangle has angles 45°, 65°, and x°. Find x.",
+      "prompt_zh": "一个三角形的角是45°，65°和x°。求x。",
+      "answer": "70",
+      "validator": "numeric",
+      "hint": "Angles in a triangle add up to 180°.",
+      "hint_zh": "三角形内角和等于180°。",
+      "explanation": "45° + 65° + x° = 180°, so 110° + x° = 180°, therefore x° = 70°",
+      "explanation_zh": "45° + 65° + x° = 180°，所以110° + x° = 180°，因此x° = 70°"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "What is the sum of interior angles of a hexagon?",
+      "prompt_zh": "六边形的内角和是多少？",
+      "choices": ["540°", "720°", "900°", "1080°"],
+      "answer": 1,
+      "hint": "Use formula: (n - 2) × 180° where n = 6",
+      "hint_zh": "使用公式：(n - 2) × 180°其中n = 6",
+      "explanation": "(6 - 2) × 180° = 4 × 180° = 720°",
+      "explanation_zh": "(6 - 2) × 180° = 4 × 180° = 720°"
+    },
+    {
+      "id": "q6",
+      "type": "short",
+      "prompt": "Each interior angle of a regular pentagon is how many degrees?",
+      "prompt_zh": "正五边形的每个内角是多少度？",
+      "answer": "108",
+      "validator": "numeric",
+      "hint": "Sum = (5-2)×180° = 540°, then divide by 5.",
+      "hint_zh": "和 = (5-2)×180° = 540°，然后除以5。",
+      "explanation": "Sum = (5-2) × 180° = 540°. Each angle = 540° ÷ 5 = 108°",
+      "explanation_zh": "和 = (5-2) × 180° = 540°。每个角 = 540° ÷ 5 = 108°"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "In a parallelogram, one angle is 70°. What are the other three angles?",
+      "prompt_zh": "在平行四边形中，一个角是70°。其他三个角是多少？",
+      "choices": ["70°, 110°, 110°", "70°, 70°, 140°", "110°, 110°, 70°", "All 90°"],
+      "answer": 0,
+      "hint": "Opposite angles are equal, adjacent angles add to 180°.",
+      "hint_zh": "对角相等，邻角和为180°。",
+      "explanation": "Opposite angle = 70°. Adjacent angles = 180° - 70° = 110° each. So: 70°, 110°, 70°, 110°, but choice shows three others: 70°, 110°, 110°.",
+      "explanation_zh": "对角 = 70°。邻角 = 180° - 70° = 110°（每个）。所以：70°，110°，70°，110°，但选项显示其他三个：70°，110°，110°。"
+    },
+    {
+      "id": "q8",
+      "type": "multi",
+      "prompt": "Which quadrilaterals always have all angles equal to 90°?",
+      "prompt_zh": "哪些四边形的所有角总是等于90°？",
+      "choices": ["Square", "Rectangle", "Rhombus", "Parallelogram"],
+      "choices_zh": ["正方形", "矩形", "菱形", "平行四边形"],
+      "answer": [0, 1],
+      "hint": "Think about which shapes have right angles at all corners.",
+      "hint_zh": "想想哪些形状在所有角都是直角。",
+      "explanation": "Square and rectangle always have four 90° angles. Rhombus and parallelogram generally don't (unless they're also rectangles).",
+      "explanation_zh": "正方形和矩形总是有四个90°角。菱形和平行四边形通常没有（除非它们也是矩形）。"
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Parallel lines cut by transversal. One alternate interior angle is 65°. What is the other alternate interior angle?",
+      "prompt_zh": "平行线被横截线切割。一个内错角是65°。另一个内错角是多少？",
+      "choices": ["115°", "65°", "130°", "25°"],
+      "answer": 1,
+      "hint": "Alternate interior angles on parallel lines are equal.",
+      "hint_zh": "平行线上的内错角相等。",
+      "explanation": "Alternate interior angles are equal when lines are parallel, so both are 65°.",
+      "explanation_zh": "当线平行时内错角相等，所以两个都是65°。"
+    },
+    {
+      "id": "q10",
+      "type": "drag-order",
+      "prompt": "Order these angle types from smallest to largest degree range:",
+      "prompt_zh": "从最小到最大度数范围排列这些角类型：",
+      "items": ["Acute", "Right", "Obtuse", "Straight"],
+      "items_zh": ["锐角", "直角", "钝角", "平角"],
+      "answer": ["Acute", "Right", "Obtuse", "Straight"],
+      "answer_zh": ["锐角", "直角", "钝角", "平角"],
+      "hint": "Acute < 90°, Right = 90°, Obtuse 90°-180°, Straight = 180°",
+      "hint_zh": "锐角 < 90°，直角 = 90°，钝角90°-180°，平角 = 180°"
+    },
+    {
+      "id": "q11",
+      "type": "short",
+      "prompt": "A regular polygon has each exterior angle = 45°. How many sides does it have?",
+      "prompt_zh": "正多边形的每个外角 = 45°。它有多少边？",
+      "answer": "8",
+      "validator": "numeric",
+      "hint": "Use: 360° ÷ exterior angle = number of sides",
+      "hint_zh": "使用：360° ÷ 外角 = 边数",
+      "explanation": "n = 360° ÷ 45° = 8 sides (regular octagon)",
+      "explanation_zh": "n = 360° ÷ 45° = 8边（正八边形）"
+    },
+    {
+      "id": "q12",
+      "type": "match",
+      "prompt": "Match each polygon with its interior angle sum:",
+      "prompt_zh": "将每个多边形与其内角和匹配：",
+      "pairs": [
+        ["Triangle", "180°"],
+        ["Quadrilateral", "360°"],
+        ["Pentagon", "540°"],
+        ["Hexagon", "720°"]
+      ],
+      "pairs_zh": [
+        ["三角形", "180°"],
+        ["四边形", "360°"],
+        ["五边形", "540°"],
+        ["六边形", "720°"]
+      ],
+      "hint": "Use formula (n-2) × 180° where n is number of sides.",
+      "hint_zh": "使用公式(n-2) × 180°其中n是边数。"
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+

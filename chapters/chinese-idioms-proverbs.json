@@ -1,0 +1,68 @@
+{
+  "id": "chinese-idioms-proverbs",
+  "title": "Idioms & Proverbs (成语与俗语)",
+  "title_zh": "成语与俗语",
+  "description": "Master common Chinese idioms, their meanings, origins, and usage",
+  "description_zh": "掌握常见中文成语、其含义、来源和用法",
+  "objectives": [
+    "Learn common 4-character idioms",
+    "Understand idiom origins and stories",
+    "Use idioms in context",
+    "Distinguish idioms from proverbs"
+  ],
+  "objectives_zh": [
+    "学习常见四字成语",
+    "理解成语的来源和故事",
+    "在语境中使用成语",
+    "区分成语和俗语"
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "type": "text",
+      "title": "Common Idioms",
+      "title_zh": "常见成语",
+      "content": "Learn idioms like 画蛇添足 (drawing legs on a snake - doing something unnecessary), 亡羊补牢 (mend the pen after sheep are lost - better late than never).",
+      "content_zh": "学习成语如画蛇添足、亡羊补牢、守株待兔、掩耳盗铃等。"
+    },
+    {
+      "id": "s2",
+      "type": "text",
+      "title": "Idiom Origins",
+      "title_zh": "成语来源",
+      "content": "Many idioms come from ancient Chinese stories and fables.",
+      "content_zh": "许多成语来自古代中国故事和寓言。"
+    },
+    {
+      "id": "s3",
+      "type": "text",
+      "title": "Using Idioms",
+      "title_zh": "使用成语",
+      "content": "Use idioms to make your writing more vivid and expressive.",
+      "content_zh": "使用成语使你的写作更生动、更有表现力。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "mcq",
+      "question": "What does 画蛇添足 mean?",
+      "question_zh": "画蛇添足是什么意思？",
+      "choices": [
+        "Draw beautifully",
+        "Do something unnecessary",
+        "Be creative",
+        "Work hard"
+      ],
+      "choices_zh": [
+        "画得漂亮",
+        "做不必要的事",
+        "有创意",
+        "努力工作"
+      ],
+      "answer": 1,
+      "explanation": "It means doing something unnecessary, like adding legs to a snake",
+      "explanation_zh": "意思是做不必要的事，就像给蛇画腿"
+    }
+  ]
+}

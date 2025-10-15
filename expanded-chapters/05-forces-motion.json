@@ -1,0 +1,319 @@
+{
+  "id": "forces-motion",
+  "title": "Forces and Motion",
+  "title_zh": "力与运动",
+  "description": "Explore forces, friction, balanced and unbalanced forces with interactive simulations",
+  "description_zh": "通过互动模拟探索力、摩擦力、平衡力和不平衡力",
+  "objectives": [
+    "Understand what forces are and how they affect motion",
+    "Identify and measure forces using spring balances",
+    "Distinguish between balanced and unbalanced forces",
+    "Explain friction and its effects",
+    "Calculate resultant forces",
+    "Apply Newton's First Law of Motion",
+    "Analyze real-world applications of forces"
+  ],
+  "objectives_zh": [
+    "理解什么是力以及它们如何影响运动",
+    "使用弹簧秤识别和测量力",
+    "区分平衡力和不平衡力",
+    "解释摩擦力及其影响",
+    "计算合力",
+    "应用牛顿第一运动定律",
+    "分析力的实际应用"
+  ],
+  "sections": [
+    {
+      "id": "intro-forces",
+      "type": "text",
+      "title": "What is a Force?",
+      "title_zh": "什么是力？",
+      "content": "A FORCE is a push or pull that acts on an object.\n\nKey Characteristics:\n• Force is a VECTOR - it has both magnitude (size) and direction\n• Measured in NEWTONS (N)\n• Symbol: F\n• Can't see forces, but can see their EFFECTS\n\nEffects of Forces:\n\n1. CHANGE SPEED:\n   • Speed up (accelerate)\n   • Slow down (decelerate)\n   Example: Kicking a ball makes it move faster\n\n2. CHANGE DIRECTION:\n   • Make object turn or curve\n   Example: Hitting a tennis ball changes its direction\n\n3. CHANGE SHAPE:\n   • Stretch, compress, bend, twist\n   Example: Squeezing a sponge, stretching a rubber band\n\n4. START MOTION:\n   • Make stationary object move\n   Example: Pushing a parked car\n\n5. STOP MOTION:\n   • Bring moving object to rest\n   Example: Brakes stopping a bicycle\n\nTypes of Forces:\n• CONTACT forces: Push, pull, friction, tension, air resistance\n• NON-CONTACT forces: Gravity, magnetism, electrostatic (Sec 2)\n\nRepresenting Forces:\n• Use ARROWS in diagrams\n• Length of arrow = magnitude (size) of force\n• Direction of arrow = direction of force\n• Label with force name and value (e.g., \"10 N\")",
+      "content_zh": "力是作用在物体上的推或拉。\n\n关键特征：\n• 力是矢量 - 它有大小和方向\n• 以牛顿（N）为单位测量\n• 符号：F\n• 看不见力，但可以看到它们的效果\n\n力的效果：\n\n1. 改变速度：\n   • 加速（加快）\n   • 减速（变慢）\n   例子：踢球使其移动更快\n\n2. 改变方向：\n   • 使物体转动或弯曲\n   例子：击打网球改变其方向\n\n3. 改变形状：\n   • 拉伸、压缩、弯曲、扭曲\n   例子：挤压海绵，拉伸橡皮筋\n\n4. 开始运动：\n   • 使静止物体移动\n   例子：推动停放的汽车\n\n5. 停止运动：\n   • 使移动物体静止\n   例子：刹车使自行车停止\n\n力的类型：\n• 接触力：推、拉、摩擦、张力、空气阻力\n• 非接触力：重力、磁力、静电力（中二）\n\n表示力：\n• 在图表中使用箭头\n• 箭头的长度 = 力的大小\n• 箭头的方向 = 力的方向\n• 用力的名称和值标记（例如，"10 N"）"
+    },
+    {
+      "id": "measuring-forces",
+      "type": "text",
+      "title": "Measuring Forces",
+      "title_zh": "测量力",
+      "content": "Forces are measured using a SPRING BALANCE (or force meter).\n\nHow it Works:\n• Contains a spring that stretches when force is applied\n• Greater force → more stretch\n• Scale shows force in Newtons (N)\n\nUsing a Spring Balance:\n\n1. Check the balance reads ZERO when no force applied\n2. Attach object or apply force\n3. Hold balance still and vertical (for weight)\n4. Read scale at eye level\n5. Record value with unit (N)\n\nCommon Forces to Measure:\n\n1. WEIGHT:\n   • Force of gravity pulling object down\n   • Weight = mass × gravitational field strength\n   • On Earth: Weight (N) ≈ 10 × mass (kg)\n   • Example: 5 kg object weighs about 50 N\n\n2. FRICTION:\n   • Drag object horizontally at constant speed\n   • Reading on balance = friction force\n\n3. TENSION:\n   • Force in a stretched rope, string, or spring\n   • Pull on both ends, measure with balance\n\nImportant Distinctions:\n\nMASS vs WEIGHT:\n• Mass: Amount of matter, measured in kg, never changes\n• Weight: Force of gravity, measured in N, changes with location\n• On Moon: Same mass, but weight is about 1/6 of Earth weight\n\nExample:\nA student has mass 50 kg\n• Weight on Earth = 50 × 10 = 500 N\n• Weight on Moon = 50 × 1.6 = 80 N\n• Mass stays 50 kg everywhere!\n\nAccuracy Tips:\n• Avoid parallax error (read at eye level)\n• Zero balance before use\n• Keep balance vertical for weight measurements\n• Take multiple readings and find average",
+      "content_zh": "使用弹簧秤（或测力计）测量力。\n\n工作原理：\n• 包含施加力时会拉伸的弹簧\n• 力越大 → 拉伸越多\n• 刻度显示以牛顿（N）为单位的力\n\n使用弹簧秤：\n\n1. 检查没有施加力时平衡读数为零\n2. 连接物体或施加力\n3. 保持平衡静止和垂直（测量重量）\n4. 与眼睛水平读取刻度\n5. 记录带单位（N）的值\n\n常见要测量的力：\n\n1. 重量：\n   • 重力向下拉物体的力\n   • 重量 = 质量 × 重力场强度\n   • 在地球上：重量（N）≈ 10 × 质量（kg）\n   • 例子：5 kg物体重约50 N\n\n2. 摩擦力：\n   • 以恒定速度水平拖动物体\n   • 平衡上的读数 = 摩擦力\n\n3. 张力：\n   • 拉伸的绳索、绳子或弹簧中的力\n   • 两端拉动，用平衡测量\n\n重要区别：\n\n质量与重量：\n• 质量：物质的量，以kg为单位测量，从不改变\n• 重量：重力的力，以N为单位测量，随位置改变\n• 在月球上：相同质量，但重量约为地球重量的1/6\n\n例子：\n一个学生质量50 kg\n• 地球上的重量 = 50 × 10 = 500 N\n• 月球上的重量 = 50 × 1.6 = 80 N\n• 质量在任何地方都保持50 kg！\n\n准确性提示：\n• 避免视差错误（在眼睛水平读取）\n• 使用前将平衡归零\n• 测量重量时保持平衡垂直\n• 多次读取并求平均值"
+    },
+    {
+      "id": "balanced-forces",
+      "type": "text",
+      "title": "Balanced Forces",
+      "title_zh": "平衡力",
+      "content": "Forces are BALANCED when:\n• Forces acting on object are equal in size\n• Forces act in opposite directions\n• Resultant (net) force = 0 N\n\nEffect of Balanced Forces:\n• If object is STATIONARY → stays stationary\n• If object is MOVING → continues at constant speed in same direction\n• NO change in motion (no acceleration)\n\nExamples:\n\n1. BOOK ON TABLE:\n   • Weight (down) = 20 N\n   • Normal force from table (up) = 20 N\n   • Balanced → book stays still\n\n2. TUG OF WAR (equal pull):\n   • Team A pulls left: 500 N\n   • Team B pulls right: 500 N\n   • Balanced → rope doesn't move\n\n3. CAR AT CONSTANT SPEED:\n   • Engine force (forward) = 1000 N\n   • Friction + air resistance (backward) = 1000 N\n   • Balanced → car maintains 60 km/h (no acceleration)\n\n4. PARACHUTIST FALLING AT TERMINAL VELOCITY:\n   • Weight (down) = 700 N\n   • Air resistance (up) = 700 N\n   • Balanced → falls at constant speed, not accelerating\n\nCalculating Resultant Force:\n\nOpposite directions:\nResultant = Larger force - Smaller force\n\nExample: 50 N right, 30 N left\nResultant = 50 - 30 = 20 N to the right\n\nIf equal and opposite:\nResultant = 0 N (balanced)\n\nSame direction:\nResultant = Sum of all forces\n\nExample: 40 N right, 30 N right\nResultant = 40 + 30 = 70 N to the right\n\nKey Point:\nBalanced forces mean ZERO resultant force, which means NO CHANGE in motion!",
+      "content_zh": "力是平衡的当：\n• 作用在物体上的力大小相等\n• 力的方向相反\n• 合力（净力）= 0 N\n\n平衡力的效果：\n• 如果物体静止 → 保持静止\n• 如果物体运动 → 继续以恒定速度沿相同方向运动\n• 运动无变化（无加速度）\n\n例子：\n\n1. 桌上的书：\n   • 重量（向下）= 20 N\n   • 桌子的支持力（向上）= 20 N\n   • 平衡 → 书保持静止\n\n2. 拔河（平等拉力）：\n   • A队向左拉：500 N\n   • B队向右拉：500 N\n   • 平衡 → 绳子不移动\n\n3. 以恒定速度行驶的汽车：\n   • 发动机力（向前）= 1000 N\n   • 摩擦力+空气阻力（向后）= 1000 N\n   • 平衡 → 汽车保持60 km/h（无加速度）\n\n4. 以终端速度下落的跳伞者：\n   • 重量（向下）= 700 N\n   • 空气阻力（向上）= 700 N\n   • 平衡 → 以恒定速度下落，不加速\n\n计算合力：\n\n相反方向：\n合力 = 较大力 - 较小力\n\n例子：50 N向右，30 N向左\n合力 = 50 - 30 = 20 N向右\n\n如果相等且相反：\n合力 = 0 N（平衡）\n\n相同方向：\n合力 = 所有力的总和\n\n例子：40 N向右，30 N向右\n合力 = 40 + 30 = 70 N向右\n\n关键点：\n平衡力意味着零合力，这意味着运动无变化！"
+    },
+    {
+      "id": "unbalanced-forces",
+      "type": "text",
+      "title": "Unbalanced Forces",
+      "title_zh": "不平衡力",
+      "content": "Forces are UNBALANCED when:\n• Forces acting on object are NOT equal\n• There is a net/resultant force\n• Resultant force ≠ 0 N\n\nEffect of Unbalanced Forces:\n• Object ACCELERATES (changes speed or direction)\n• Larger resultant force → greater acceleration\n• Direction of acceleration = direction of resultant force\n\nExamples:\n\n1. PUSHING A STATIONARY BOX:\n   • Push force = 100 N (right)\n   • Friction = 40 N (left)\n   • Resultant = 100 - 40 = 60 N (right)\n   • Box accelerates to the right\n\n2. TUG OF WAR (unequal pull):\n   • Team A: 600 N (left)\n   • Team B: 500 N (right)\n   • Resultant = 100 N (left)\n   • Rope accelerates towards Team A\n\n3. ROCKET LAUNCHING:\n   • Thrust upward = 50,000 N\n   • Weight downward = 30,000 N\n   • Resultant = 20,000 N upward\n   • Rocket accelerates upward\n\n4. BRAKING CAR:\n   • Friction from brakes (backward) = 3000 N\n   • Engine off (no forward force) = 0 N\n   • Resultant = 3000 N backward\n   • Car decelerates (slows down)\n\n5. FALLING OBJECT (at start):\n   • Weight (down) = 80 N\n   • Air resistance (up) = 10 N (small at low speed)\n   • Resultant = 70 N down\n   • Object accelerates downward\n\nCalculating Motion Effects:\n\nResultant Force → Acceleration\n• Greater force → faster acceleration\n• Heavier object → slower acceleration (for same force)\n\nDirection Rule:\n• Resultant force RIGHT → accelerate RIGHT\n• Resultant force LEFT → accelerate LEFT\n• Resultant force UP → accelerate UP\n• Resultant force DOWN → accelerate DOWN\n\nKey Insight:\nUNBALANCED forces are needed to:\n✓ Start motion\n✓ Stop motion\n✓ Speed up\n✓ Slow down\n✓ Change direction",
+      "content_zh": "力是不平衡的当：\n• 作用在物体上的力不相等\n• 存在净力/合力\n• 合力 ≠ 0 N\n\n不平衡力的效果：\n• 物体加速（改变速度或方向）\n• 合力越大 → 加速度越大\n• 加速度方向 = 合力方向\n\n例子：\n\n1. 推动静止的箱子：\n   • 推力 = 100 N（向右）\n   • 摩擦力 = 40 N（向左）\n   • 合力 = 100 - 40 = 60 N（向右）\n   • 箱子向右加速\n\n2. 拔河（不平等拉力）：\n   • A队：600 N（左）\n   • B队：500 N（右）\n   • 合力 = 100 N（左）\n   • 绳子向A队加速\n\n3. 火箭发射：\n   • 向上推力 = 50,000 N\n   • 向下重量 = 30,000 N\n   • 合力 = 20,000 N向上\n   • 火箭向上加速\n\n4. 刹车汽车：\n   • 刹车摩擦力（向后）= 3000 N\n   • 发动机关闭（无向前力）= 0 N\n   • 合力 = 3000 N向后\n   • 汽车减速（变慢）\n\n5. 下落物体（开始时）：\n   • 重量（向下）= 80 N\n   • 空气阻力（向上）= 10 N（低速时小）\n   • 合力 = 70 N向下\n   • 物体向下加速\n\n计算运动效果：\n\n合力 → 加速度\n• 力越大 → 加速越快\n• 物体越重 → 加速越慢（对于相同的力）\n\n方向规则：\n• 合力向右 → 向右加速\n• 合力向左 → 向左加速\n• 合力向上 → 向上加速\n• 合力向下 → 向下加速\n\n关键见解：\n需要不平衡力来：\n✓ 开始运动\n✓ 停止运动\n✓ 加速\n✓ 减速\n✓ 改变方向"
+    },
+    {
+      "id": "force-animation",
+      "type": "animation",
+      "title": "Forces in Action",
+      "title_zh": "力的作用",
+      "content": "ForceMotion",
+      "props": {
+        "scenarios": ["balanced", "unbalanced-right", "unbalanced-up"]
+      }
+    },
+    {
+      "id": "friction",
+      "type": "text",
+      "title": "Friction",
+      "title_zh": "摩擦力",
+      "content": "FRICTION is a force that opposes motion between surfaces in contact.\n\nCharacteristics:\n• Always acts OPPOSITE to direction of motion (or attempted motion)\n• Caused by roughness of surfaces at microscopic level\n• Contact force (needs surfaces touching)\n• Measured in Newtons (N)\n\nTypes of Friction:\n\n1. STATIC FRICTION:\n   • When object is not moving yet\n   • Prevents object from starting to move\n   • Must overcome this to start motion\n   • Example: Push harder to start moving heavy box\n\n2. KINETIC (SLIDING) FRICTION:\n   • When object is already moving\n   • Opposes continued motion\n   • Usually less than static friction\n   • Example: Easier to keep box moving than to start it\n\n3. ROLLING FRICTION:\n   • When object rolls (wheels, balls)\n   • Much less than sliding friction\n   • Why we use wheels!\n   • Example: Rolling suitcase easier than dragging\n\nFactors Affecting Friction:\n\n1. SURFACE ROUGHNESS:\n   • Rougher surfaces → more friction\n   • Smooth surfaces → less friction\n   • Example: Ice (smooth) has less friction than concrete (rough)\n\n2. FORCE PRESSING SURFACES TOGETHER:\n   • Heavier object → more friction\n   • Lighter object → less friction\n   • Example: Empty box easier to push than full box\n\n3. TYPE OF MATERIALS:\n   • Some material combinations have high friction (rubber on road)\n   • Others have low friction (ice on ice, Teflon)\n\nFriction - USEFUL:\n✓ Walking (grip between shoes and ground)\n✓ Braking (tires on road)\n✓ Writing (pen/pencil on paper)\n✓ Holding objects (grip)\n✓ Climbing (hands/feet on surfaces)\n\nFriction - PROBLEMATIC:\n✗ Wastes energy (converts to heat)\n✗ Wears down surfaces (erosion)\n✗ Slows down machines\n✗ Reduces efficiency\n\nReducing Friction:\n• Use LUBRICANTS (oil, grease, water)\n• Make surfaces SMOOTHER (polishing)\n• Use WHEELS or ROLLERS\n• Reduce weight/pressure\n• Use materials with low friction (Teflon, graphite)\n\nIncreasing Friction:\n• Make surfaces ROUGHER (sandpaper, treads)\n• Increase weight/pressure\n• Use materials with high friction (rubber)\n• Remove lubricants",
+      "content_zh": "摩擦力是反对接触表面之间运动的力。\n\n特征：\n• 总是与运动方向（或企图运动）相反\n• 由微观层面的表面粗糙度引起\n• 接触力（需要表面接触）\n• 以牛顿（N）为单位测量\n\n摩擦力类型：\n\n1. 静摩擦力：\n   • 当物体还未移动时\n   • 防止物体开始移动\n   • 必须克服这个才能开始运动\n   • 例子：更用力推才能开始移动重箱子\n\n2. 动摩擦力（滑动摩擦）：\n   • 当物体已经在移动时\n   • 反对持续运动\n   • 通常小于静摩擦力\n   • 例子：保持箱子移动比开始移动更容易\n\n3. 滚动摩擦：\n   • 当物体滚动时（轮子、球）\n   • 远小于滑动摩擦\n   • 这就是我们使用轮子的原因！\n   • 例子：滚动行李箱比拖动更容易\n\n影响摩擦力的因素：\n\n1. 表面粗糙度：\n   • 表面越粗糙 → 摩擦力越大\n   • 表面越光滑 → 摩擦力越小\n   • 例子：冰（光滑）摩擦力小于混凝土（粗糙）\n\n2. 压紧表面的力：\n   • 物体越重 → 摩擦力越大\n   • 物体越轻 → 摩擦力越小\n   • 例子：空箱子比满箱子更容易推\n\n3. 材料类型：\n   • 一些材料组合摩擦力大（橡胶在路上）\n   • 其他摩擦力小（冰在冰上，特氟龙）\n\n摩擦力 - 有用：\n✓ 行走（鞋子和地面之间的抓地力）\n✓ 刹车（轮胎在路上）\n✓ 书写（笔/铅笔在纸上）\n✓ 握住物体（抓握）\n✓ 攀爬（手/脚在表面上）\n\n摩擦力 - 有问题：\n✗ 浪费能量（转化为热量）\n✗ 磨损表面（侵蚀）\n✗ 减慢机器速度\n✗ 降低效率\n\n减少摩擦力：\n• 使用润滑剂（油、润滑脂、水）\n• 使表面更光滑（抛光）\n• 使用轮子或滚轮\n• 减少重量/压力\n• 使用低摩擦材料（特氟龙、石墨）\n\n增加摩擦力：\n• 使表面更粗糙（砂纸、胎面）\n• 增加重量/压力\n• 使用高摩擦材料（橡胶）\n• 去除润滑剂"
+    },
+    {
+      "id": "newtons-first-law",
+      "type": "text",
+      "title": "Newton's First Law of Motion",
+      "title_zh": "牛顿第一运动定律",
+      "content": "NEWTON'S FIRST LAW (Law of Inertia):\n\n\"An object at rest stays at rest, and an object in motion stays in motion at constant velocity, unless acted upon by an unbalanced force.\"\n\nIn simpler terms:\n• Objects don't change their motion unless forced to\n• Stationary objects stay still (unless pushed/pulled)\n• Moving objects keep moving at same speed in same direction (unless something stops them)\n\nINERTIA:\nThe tendency of an object to resist changes in motion.\n• All objects have inertia\n• More mass → more inertia (harder to change motion)\n• Less mass → less inertia (easier to change motion)\n\nExamples of Newton's First Law:\n\n1. STATIONARY BOOK:\n   • Book on table stays there\n   • Balanced forces (weight down, normal force up)\n   • No unbalanced force → no motion\n\n2. SEATBELT IN CAR:\n   • Car brakes suddenly\n   • Car slows down (unbalanced force on car)\n   • You keep moving forward (your inertia)\n   • Seatbelt provides unbalanced force to stop you\n\n3. TABLECLOTH TRICK:\n   • Pull cloth quickly from under dishes\n   • Dishes' inertia keeps them in place\n   • Works because friction is small\n\n4. COIN AND CARD:\n   • Coin on card on cup\n   • Flick card quickly\n   • Coin's inertia keeps it in place\n   • Coin falls into cup\n\n5. PASSENGERS JERK FORWARD:\n   • Bus stops suddenly\n   • Bus stops (force applied)\n   • Passengers continue moving forward (inertia)\n   • Need to hold handrail\n\n6. BALL ON FRICTIONLESS SURFACE:\n   • If you could remove all friction/air resistance\n   • Rolling ball would roll forever\n   • Nothing to provide unbalanced force to stop it\n\nKey Points:\n• Need UNBALANCED force to change motion\n• Balanced forces → object continues current state\n• Inertia explains why we need forces to start, stop, or turn\n\nReal-world Safety:\n• Seatbelts overcome your inertia in crashes\n• Headrests prevent whiplash (head's inertia when car is hit from behind)\n• Anti-lock brakes help control stopping\n• Airbags provide cushioned force to stop your motion",
+      "content_zh": "牛顿第一定律（惯性定律）：\n\n"静止的物体保持静止，运动的物体以恒定速度保持运动，除非受到不平衡力的作用。"\n\n更简单地说：\n• 物体不会改变其运动，除非被迫\n• 静止物体保持静止（除非推/拉）\n• 运动物体以相同速度沿相同方向保持运动（除非某物阻止它们）\n\n惯性：\n物体抵抗运动变化的倾向。\n• 所有物体都有惯性\n• 质量越大 → 惯性越大（更难改变运动）\n• 质量越小 → 惯性越小（更容易改变运动）\n\n牛顿第一定律的例子：\n\n1. 静止的书：\n   • 桌上的书停在那里\n   • 平衡力（重量向下，支持力向上）\n   • 无不平衡力 → 无运动\n\n2. 汽车中的安全带：\n   • 汽车突然刹车\n   • 汽车减速（汽车上的不平衡力）\n   • 你继续向前移动（你的惯性）\n   • 安全带提供不平衡力来阻止你\n\n3. 桌布技巧：\n   • 从盘子下快速拉出桌布\n   • 盘子的惯性使它们保持在原位\n   • 有效是因为摩擦力小\n\n4. 硬币和卡片：\n   • 硬币在杯子上的卡片上\n   • 快速弹出卡片\n   • 硬币的惯性使其保持在原位\n   • 硬币掉进杯子\n\n5. 乘客向前猛冲：\n   • 公共汽车突然停止\n   • 公共汽车停止（施加力）\n   • 乘客继续向前移动（惯性）\n   • 需要抓住扶手\n\n6. 无摩擦表面上的球：\n   • 如果你能去除所有摩擦力/空气阻力\n   • 滚动的球将永远滚动\n   • 没有什么能提供不平衡力来阻止它\n\n关键点：\n• 需要不平衡力来改变运动\n• 平衡力 → 物体继续当前状态\n• 惯性解释了为什么我们需要力来启动、停止或转向\n\n实际安全：\n• 安全带在碰撞中克服你的惯性\n• 头枕防止鞭打伤（汽车被从后面撞击时头的惯性）\n• 防抱死制动系统帮助控制停止\n• 安全气囊提供缓冲力来停止你的运动"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "What is the SI unit for measuring force?",
+      "prompt_zh": "测量力的国际单位是什么？",
+      "choices": ["Kilogram (kg)", "Newton (N)", "Meter (m)", "Joule (J)"],
+      "choices_zh": ["千克（kg）", "牛顿（N）", "米（m）", "焦耳（J）"],
+      "answer": 1,
+      "hint": "This unit is named after a famous scientist who studied forces and motion.",
+      "hint_zh": "这个单位以一位研究力和运动的著名科学家命名。",
+      "explanation": "Force is measured in Newtons (N), named after Sir Isaac Newton.",
+      "explanation_zh": "力以牛顿（N）为单位测量，以艾萨克·牛顿爵士命名。"
+    },
+    {
+      "id": "q2",
+      "type": "short",
+      "prompt": "What is the weight on Earth of an object with mass 8 kg? (Use g = 10 N/kg)",
+      "prompt_zh": "质量为8 kg的物体在地球上的重量是多少？（使用g = 10 N/kg）",
+      "answer": "80",
+      "validator": "numeric",
+      "hint": "Weight = mass × gravitational field strength. Calculate 8 × 10.",
+      "hint_zh": "重量 = 质量 × 重力场强度。计算8 × 10。",
+      "explanation": "Weight = 8 kg × 10 N/kg = 80 N",
+      "explanation_zh": "重量 = 8 kg × 10 N/kg = 80 N"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "A box has forces of 50 N to the right and 50 N to the left. What is the resultant force?",
+      "prompt_zh": "一个箱子受到向右50 N和向左50 N的力。合力是多少？",
+      "choices": ["100 N to the right", "0 N (balanced)", "50 N to the right", "100 N total"],
+      "choices_zh": ["向右100 N", "0 N（平衡）", "向右50 N", "总共100 N"],
+      "answer": 1,
+      "hint": "Equal forces in opposite directions cancel out.",
+      "hint_zh": "相反方向的相等力相互抵消。",
+      "explanation": "50 N right - 50 N left = 0 N. The forces are balanced, resultant force is zero.",
+      "explanation_zh": "50 N向右 - 50 N向左 = 0 N。力是平衡的，合力为零。"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "What happens when balanced forces act on a moving object?",
+      "prompt_zh": "当平衡力作用在运动物体上时会发生什么？",
+      "choices": [
+        "It stops immediately",
+        "It accelerates",
+        "It continues at constant speed",
+        "It changes direction"
+      ],
+      "choices_zh": [
+        "它立即停止",
+        "它加速",
+        "它以恒定速度继续",
+        "它改变方向"
+      ],
+      "answer": 2,
+      "hint": "Think about Newton's First Law - objects keep their current motion when forces are balanced.",
+      "hint_zh": "想想牛顿第一定律 - 当力平衡时，物体保持其当前运动。",
+      "explanation": "Balanced forces mean no change in motion. A moving object continues at the same constant speed in the same direction.",
+      "explanation_zh": "平衡力意味着运动无变化。运动物体以相同的恒定速度沿相同方向继续。"
+    },
+    {
+      "id": "q5",
+      "type": "short",
+      "prompt": "Calculate the resultant force: 80 N forward and 30 N backward.",
+      "prompt_zh": "计算合力：80 N向前和30 N向后。",
+      "answer": "50",
+      "validator": "numeric",
+      "hint": "Subtract the opposing forces: larger - smaller.",
+      "hint_zh": "减去相反的力：较大 - 较小。",
+      "explanation": "Resultant = 80 N - 30 N = 50 N forward",
+      "explanation_zh": "合力 = 80 N - 30 N = 50 N向前"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Friction always acts...",
+      "prompt_zh": "摩擦力总是作用...",
+      "choices": [
+        "in the direction of motion",
+        "opposite to the direction of motion",
+        "perpendicular to motion",
+        "downward"
+      ],
+      "choices_zh": [
+        "在运动方向",
+        "与运动方向相反",
+        "垂直于运动",
+        "向下"
+      ],
+      "answer": 1,
+      "hint": "Friction opposes or resists motion.",
+      "hint_zh": "摩擦力反对或抵抗运动。",
+      "explanation": "Friction is a force that opposes motion, so it always acts in the opposite direction to movement or attempted movement.",
+      "explanation_zh": "摩擦力是反对运动的力，所以它总是作用在与运动或企图运动相反的方向。"
+    },
+    {
+      "id": "q7",
+      "type": "multi",
+      "prompt": "Which are ways to reduce friction?",
+      "prompt_zh": "哪些是减少摩擦力的方法？",
+      "choices": [
+        "Use lubricants like oil",
+        "Make surfaces rougher",
+        "Use wheels or rollers",
+        "Polish surfaces to make them smoother"
+      ],
+      "choices_zh": [
+        "使用润滑剂如油",
+        "使表面更粗糙",
+        "使用轮子或滚轮",
+        "抛光表面使其更光滑"
+      ],
+      "answer": [0, 2, 3],
+      "hint": "Think about what makes it easier for surfaces to slide past each other.",
+      "hint_zh": "想想什么使表面更容易相互滑过。",
+      "explanation": "To reduce friction: use lubricants (✓), use wheels/rollers (✓), and smooth/polish surfaces (✓). Making surfaces rougher INCREASES friction (✗).",
+      "explanation_zh": "减少摩擦力：使用润滑剂（✓），使用轮子/滚轮（✓），抛光/使表面光滑（✓）。使表面更粗糙会增加摩擦力（✗）。"
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "A car travels at constant speed on a straight road. What can you say about the forces?",
+      "prompt_zh": "一辆汽车在直路上以恒定速度行驶。关于力你能说什么？",
+      "choices": [
+        "No forces are acting",
+        "Forces are balanced",
+        "Forces are unbalanced forward",
+        "Only friction is acting"
+      ],
+      "choices_zh": [
+        "没有力作用",
+        "力是平衡的",
+        "力向前不平衡",
+        "只有摩擦力作用"
+      ],
+      "answer": 1,
+      "hint": "Constant speed means no acceleration, which means...",
+      "hint_zh": "恒定速度意味着无加速度，这意味着...",
+      "explanation": "Constant speed in a straight line means no acceleration, so forces must be balanced. Engine force forward equals friction/air resistance backward.",
+      "explanation_zh": "直线上的恒定速度意味着无加速度，所以力必须平衡。向前的发动机力等于向后的摩擦力/空气阻力。"
+    },
+    {
+      "id": "q9",
+      "type": "drag-order",
+      "prompt": "Order these friction types from least to greatest resistance:",
+      "prompt_zh": "从最小到最大阻力排列这些摩擦类型：",
+      "items": ["Rolling friction", "Sliding friction", "Static friction"],
+      "items_zh": ["滚动摩擦", "滑动摩擦", "静摩擦"],
+      "answer": ["Rolling friction", "Sliding friction", "Static friction"],
+      "answer_zh": ["滚动摩擦", "滑动摩擦", "静摩擦"],
+      "hint": "Rolling is easiest (wheels!), static is hardest to overcome (getting started).",
+      "hint_zh": "滚动最容易（轮子！），静摩擦最难克服（开始）。"
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "What is inertia?",
+      "prompt_zh": "什么是惯性？",
+      "choices": [
+        "A type of force",
+        "The tendency of objects to resist changes in motion",
+        "The speed of an object",
+        "Another word for friction"
+      ],
+      "choices_zh": [
+        "一种力",
+        "物体抵抗运动变化的倾向",
+        "物体的速度",
+        "摩擦力的另一个词"
+      ],
+      "answer": 1,
+      "hint": "It's related to Newton's First Law and why objects don't like to change what they're doing.",
+      "hint_zh": "它与牛顿第一定律有关，以及为什么物体不喜欢改变它们正在做的事情。",
+      "explanation": "Inertia is the tendency of an object to resist changes in its motion. More mass = more inertia.",
+      "explanation_zh": "惯性是物体抵抗其运动变化的倾向。质量越大 = 惯性越大。"
+    },
+    {
+      "id": "q11",
+      "type": "match",
+      "prompt": "Match each situation with the type of force interaction:",
+      "prompt_zh": "将每种情况与力相互作用类型匹配：",
+      "pairs": [
+        ["Book sitting still on table", "Balanced forces"],
+        ["Rocket launching upward", "Unbalanced forces upward"],
+        ["Car braking to stop", "Unbalanced forces backward"],
+        ["Ball rolling at constant speed", "Balanced forces"]
+      ],
+      "pairs_zh": [
+        ["书静静地放在桌上", "平衡力"],
+        ["火箭向上发射", "向上不平衡力"],
+        ["汽车刹车停止", "向后不平衡力"],
+        ["球以恒定速度滚动", "平衡力"]
+      ],
+      "hint": "Constant speed or stationary = balanced. Changing speed or direction = unbalanced.",
+      "hint_zh": "恒定速度或静止 = 平衡。改变速度或方向 = 不平衡。"
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Why do passengers jerk forward when a bus suddenly stops?",
+      "prompt_zh": "为什么当公共汽车突然停止时乘客会向前猛冲？",
+      "choices": [
+        "Due to friction from the seats",
+        "Due to their inertia - they keep moving forward",
+        "Due to gravity pulling them forward",
+        "Due to air resistance"
+      ],
+      "choices_zh": [
+        "由于座位的摩擦力",
+        "由于他们的惯性 - 他们继续向前移动",
+        "由于重力将他们向前拉",
+        "由于空气阻力"
+      ],
+      "answer": 1,
+      "hint": "Think about Newton's First Law - objects in motion tend to stay in motion.",
+      "hint_zh": "想想牛顿第一定律 - 运动中的物体倾向于保持运动。",
+      "explanation": "When the bus stops (unbalanced force on bus), passengers' bodies continue moving forward due to inertia (Newton's First Law) until something (seatbelt, seat in front) provides an unbalanced force to stop them.",
+      "explanation_zh": "当公共汽车停止时（公共汽车上的不平衡力），乘客的身体由于惯性（牛顿第一定律）继续向前移动，直到某物（安全带、前面的座位）提供不平衡力来阻止他们。"
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+

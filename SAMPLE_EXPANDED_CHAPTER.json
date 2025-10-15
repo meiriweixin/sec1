@@ -1,0 +1,267 @@
+{
+  "id": "integers-rational",
+  "title": "Integers & Rational Numbers",
+  "title_zh": "整数与有理数",
+  "description": "Master integer operations and rational number representations with comprehensive practice",
+  "description_zh": "通过全面练习掌握整数运算和有理数表示",
+  "objectives": [
+    "Understand positive and negative integers and their real-world applications",
+    "Perform addition, subtraction, multiplication and division with integers",
+    "Represent rational numbers on the number line accurately",
+    "Convert fluently between fractions, decimals and percentages",
+    "Compare and order rational numbers of different forms"
+  ],
+  "objectives_zh": [
+    "理解正整数和负整数及其实际应用",
+    "执行整数的加减乘除运算",
+    "准确地在数轴上表示有理数",
+    "流利地在分数、小数和百分数之间转换",
+    "比较和排序不同形式的有理数"
+  ],
+  "sections": [
+    {
+      "id": "intro-integers",
+      "type": "text",
+      "title": "Introduction to Integers",
+      "title_zh": "整数简介",
+      "content": "Integers are the set of whole numbers including positive numbers (1, 2, 3, ...), negative numbers (-1, -2, -3, ...), and zero. They extend our number system to represent quantities below zero. Real-world examples: temperatures below freezing (-5°C), debt ($-200), floors below ground level (B3), and points lost in a game (-10 points). The symbol ℤ represents the set of all integers.",
+      "content_zh": "整数是包括正数(1, 2, 3, ...)、负数(-1, -2, -3, ...)和零的整数集合。它们扩展了我们的数字系统以表示零以下的数量。实际例子：冰点以下的温度(-5°C)、债务($-200)、地下楼层(B3)和游戏中失去的分数(-10分)。符号ℤ表示所有整数的集合。"
+    },
+    {
+      "id": "number-line-visual",
+      "type": "animation",
+      "title": "Number Line Visualization",
+      "title_zh": "数轴可视化",
+      "content": "NumberLineReveal",
+      "props": {
+        "start": -10,
+        "end": 10,
+        "highlight": [-7, 3]
+      }
+    },
+    {
+      "id": "adding-integers",
+      "type": "text",
+      "title": "Adding Integers",
+      "title_zh": "整数加法",
+      "content": "Rules for adding integers:\n\n1. SAME SIGNS: Add the absolute values and keep the common sign.\n   • (+5) + (+3) = +8\n   • (-5) + (-3) = -8\n\n2. DIFFERENT SIGNS: Subtract the smaller absolute value from the larger, and take the sign of the number with larger absolute value.\n   • (-7) + (+12) = +5 (because 12 - 7 = 5, and 12 has larger absolute value with + sign)\n   • (+6) + (-10) = -4 (because 10 - 6 = 4, and 10 has larger absolute value with - sign)\n\nThink of a number line: adding a positive number means moving right, adding a negative number means moving left from your starting position.",
+      "content_zh": "整数加法规则：\n\n1. 同号：将绝对值相加并保留公共符号。\n   • (+5) + (+3) = +8\n   • (-5) + (-3) = -8\n\n2. 异号：从较大的绝对值中减去较小的，并取绝对值较大的数的符号。\n   • (-7) + (+12) = +5（因为12 - 7 = 5，而12的绝对值较大且为正号）\n   • (+6) + (-10) = -4（因为10 - 6 = 4，而10的绝对值较大且为负号）\n\n想象数轴：加正数意味着向右移动，加负数意味着从起点向左移动。"
+    },
+    {
+      "id": "subtracting-integers",
+      "type": "math",
+      "title": "Subtracting Integers",
+      "title_zh": "整数减法",
+      "content": "a - b = a + (-b)",
+      "explanation": "KEY RULE: Subtracting a number is the same as adding its opposite (additive inverse).\n\nExamples:\n• 5 - 8 = 5 + (-8) = -3\n• 3 - (-7) = 3 + (+7) = 10\n• (-4) - 6 = (-4) + (-6) = -10\n• (-2) - (-5) = (-2) + (+5) = 3\n\nMemory trick: \"Subtracting is adding the opposite\" - change the subtraction to addition and flip the sign of the second number.",
+      "explanation_zh": "关键规则：减去一个数等于加上它的相反数（加法逆元）。\n\n例子：\n• 5 - 8 = 5 + (-8) = -3\n• 3 - (-7) = 3 + (+7) = 10\n• (-4) - 6 = (-4) + (-6) = -10\n• (-2) - (-5) = (-2) + (+5) = 3\n\n记忆技巧：\"减法就是加相反数\" - 将减法改为加法，并翻转第二个数的符号。"
+    },
+    {
+      "id": "mult-div-integers",
+      "type": "text",
+      "title": "Multiplying & Dividing Integers",
+      "title_zh": "整数乘除法",
+      "content": "Sign Rules for Multiplication and Division:\n\n1. SAME SIGNS → POSITIVE result\n   • (+) × (+) = (+)    Example: 5 × 3 = 15\n   • (-) × (-) = (+)    Example: (-5) × (-3) = 15\n   • (+) ÷ (+) = (+)    Example: 20 ÷ 4 = 5\n   • (-) ÷ (-) = (+)    Example: (-20) ÷ (-4) = 5\n\n2. DIFFERENT SIGNS → NEGATIVE result\n   • (+) × (-) = (-)    Example: 5 × (-3) = -15\n   • (-) × (+) = (-)    Example: (-5) × 3 = -15\n   • (+) ÷ (-) = (-)    Example: 20 ÷ (-4) = -5\n   • (-) ÷ (+) = (-)    Example: (-20) ÷ 4 = -5\n\nMemory trick: \"Even number of negatives = Positive, Odd number of negatives = Negative\"\nExample: (-2) × (-3) × (-4) = -24 (three negatives = odd = negative result)",
+      "content_zh": "乘除法的符号规则：\n\n1. 同号 → 正结果\n   • (+) × (+) = (+)    例子：5 × 3 = 15\n   • (-) × (-) = (+)    例子：(-5) × (-3) = 15\n   • (+) ÷ (+) = (+)    例子：20 ÷ 4 = 5\n   • (-) ÷ (-) = (+)    例子：(-20) ÷ (-4) = 5\n\n2. 异号 → 负结果\n   • (+) × (-) = (-)    例子：5 × (-3) = -15\n   • (-) × (+) = (-)    例子：(-5) × 3 = -15\n   • (+) ÷ (-) = (-)    例子：20 ÷ (-4) = -5\n   • (-) ÷ (+) = (-)    例子：(-20) ÷ 4 = -5\n\n记忆技巧：\"偶数个负号=正数，奇数个负号=负数\"\n例子：(-2) × (-3) × (-4) = -24（三个负号=奇数=负结果）"
+    },
+    {
+      "id": "rational-numbers",
+      "type": "text",
+      "title": "Rational Numbers",
+      "title_zh": "有理数",
+      "content": "A rational number is any number that can be expressed as a fraction p/q where:\n• p and q are integers\n• q ≠ 0 (denominator cannot be zero)\n\nTypes of Rational Numbers:\n\n1. INTEGERS: All integers are rational (can write as fraction over 1)\n   • 5 = 5/1\n   • -3 = -3/1\n   • 0 = 0/1\n\n2. TERMINATING DECIMALS: Decimals that end\n   • 0.5 = 1/2\n   • 0.75 = 3/4\n   • 2.8 = 28/10 = 14/5\n\n3. REPEATING DECIMALS: Decimals with repeating pattern\n   • 0.333... = 1/3\n   • 0.666... = 2/3\n   • 0.142857142857... = 1/7\n\nNOTE: Numbers like √2, π, √3 are NOT rational (they are irrational) because they cannot be expressed as p/q.",
+      "content_zh": "有理数是可以表示为分数p/q的任何数，其中：\n• p和q是整数\n• q ≠ 0（分母不能为零）\n\n有理数的类型：\n\n1. 整数：所有整数都是有理数（可以写成分数除以1）\n   • 5 = 5/1\n   • -3 = -3/1\n   • 0 = 0/1\n\n2. 有限小数：有结束的小数\n   • 0.5 = 1/2\n   • 0.75 = 3/4\n   • 2.8 = 28/10 = 14/5\n\n3. 循环小数：具有重复模式的小数\n   • 0.333... = 1/3\n   • 0.666... = 2/3\n   • 0.142857142857... = 1/7\n\n注意：像√2、π、√3这样的数不是有理数（它们是无理数），因为它们不能表示为p/q。"
+    },
+    {
+      "id": "fractions-visual",
+      "type": "animation",
+      "title": "Fractions and Equivalents",
+      "title_zh": "分数和等值分数",
+      "content": "FractionVisual",
+      "props": {
+        "initialNumerator": 3,
+        "initialDenominator": 4,
+        "showEquivalent": true
+      }
+    },
+    {
+      "id": "converting-forms",
+      "type": "text",
+      "title": "Converting Between Forms",
+      "title_zh": "在不同形式之间转换",
+      "content": "CONVERSION METHODS:\n\n1. FRACTION → DECIMAL\n   Divide numerator by denominator\n   • 3/4 = 3 ÷ 4 = 0.75\n   • 5/8 = 5 ÷ 8 = 0.625\n\n2. DECIMAL → FRACTION\n   • Count decimal places\n   • Write as fraction over power of 10\n   • Simplify\n   Example: 0.6 = 6/10 = 3/5\n   Example: 0.125 = 125/1000 = 1/8\n\n3. FRACTION → PERCENTAGE\n   Convert to decimal, then multiply by 100\n   • 3/4 = 0.75 = 75%\n   • 2/5 = 0.4 = 40%\n\n4. PERCENTAGE → FRACTION\n   Write as fraction over 100, then simplify\n   • 30% = 30/100 = 3/10\n   • 75% = 75/100 = 3/4\n\n5. DECIMAL → PERCENTAGE\n   Multiply by 100 and add % symbol\n   • 0.85 = 85%\n   • 0.3 = 30%\n\n6. PERCENTAGE → DECIMAL\n   Divide by 100\n   • 45% = 45 ÷ 100 = 0.45\n   • 8% = 8 ÷ 100 = 0.08",
+      "content_zh": "转换方法：\n\n1. 分数 → 小数\n   分子除以分母\n   • 3/4 = 3 ÷ 4 = 0.75\n   • 5/8 = 5 ÷ 8 = 0.625\n\n2. 小数 → 分数\n   • 计算小数位数\n   • 写成10的幂次方的分数\n   • 简化\n   例子：0.6 = 6/10 = 3/5\n   例子：0.125 = 125/1000 = 1/8\n\n3. 分数 → 百分数\n   转换为小数，然后乘以100\n   • 3/4 = 0.75 = 75%\n   • 2/5 = 0.4 = 40%\n\n4. 百分数 → 分数\n   写成100的分数，然后简化\n   • 30% = 30/100 = 3/10\n   • 75% = 75/100 = 3/4\n\n5. 小数 → 百分数\n   乘以100并加上%符号\n   • 0.85 = 85%\n   • 0.3 = 30%\n\n6. 百分数 → 小数\n   除以100\n   • 45% = 45 ÷ 100 = 0.45\n   • 8% = 8 ÷ 100 = 0.08"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "What is (-7) + 12?",
+      "prompt_zh": "(-7) + 12 等于多少？",
+      "choices": ["-19", "5", "-5", "19"],
+      "answer": 1,
+      "hint": "Different signs: subtract smaller from larger (12 - 7 = 5), take sign of larger number (+).",
+      "hint_zh": "异号：从较大的减去较小的（12 - 7 = 5），取较大数字的符号（+）。",
+      "explanation": "(-7) + 12 = +5. Since signs are different, we subtract: 12 - 7 = 5, and keep the sign of 12 which is positive.",
+      "explanation_zh": "(-7) + 12 = +5。因为符号不同，我们做减法：12 - 7 = 5，并保留12的符号，即正号。"
+    },
+    {
+      "id": "q2",
+      "type": "short",
+      "prompt": "Calculate: (-5) - (-8)",
+      "prompt_zh": "计算：(-5) - (-8)",
+      "answer": "3",
+      "validator": "numeric",
+      "hint": "Use the rule: a - b = a + (-b). So (-5) - (-8) = (-5) + 8",
+      "hint_zh": "使用规则：a - b = a + (-b)。所以 (-5) - (-8) = (-5) + 8",
+      "explanation": "(-5) - (-8) = (-5) + 8 = 3. Subtracting negative 8 is the same as adding positive 8.",
+      "explanation_zh": "(-5) - (-8) = (-5) + 8 = 3。减去负8等于加上正8。"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "What is (-3) × (-6)?",
+      "prompt_zh": "(-3) × (-6) 等于多少？",
+      "choices": ["-18", "18", "-9", "9"],
+      "answer": 1,
+      "hint": "Same signs multiply to give positive result. Negative × Negative = Positive.",
+      "hint_zh": "同号相乘得正数。负数×负数=正数。",
+      "explanation": "(-3) × (-6) = 18. Two negative numbers multiplied together give a positive result.",
+      "explanation_zh": "(-3) × (-6) = 18。两个负数相乘得正数。"
+    },
+    {
+      "id": "q4",
+      "type": "short",
+      "prompt": "Calculate: (-24) ÷ 6",
+      "prompt_zh": "计算：(-24) ÷ 6",
+      "answer": "-4",
+      "validator": "numeric",
+      "hint": "Different signs divide to give negative result. Negative ÷ Positive = Negative.",
+      "hint_zh": "异号相除得负数。负数÷正数=负数。",
+      "explanation": "(-24) ÷ 6 = -4. Negative divided by positive gives negative.",
+      "explanation_zh": "(-24) ÷ 6 = -4。负数除以正数得负数。"
+    },
+    {
+      "id": "q5",
+      "type": "short",
+      "prompt": "Express 0.75 as a fraction in simplest form.",
+      "prompt_zh": "将0.75表示为最简分数形式。",
+      "answer": "3/4",
+      "validator": "fraction",
+      "hint": "0.75 has 2 decimal places, so write as 75/100, then simplify by dividing both by 25.",
+      "hint_zh": "0.75有2位小数，所以写成75/100，然后将分子和分母都除以25来简化。",
+      "explanation": "0.75 = 75/100. Find GCD(75,100) = 25. Divide both: 75÷25 = 3, 100÷25 = 4. Answer: 3/4",
+      "explanation_zh": "0.75 = 75/100。找最大公因数(75,100) = 25。两者都除：75÷25 = 3，100÷25 = 4。答案：3/4"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Convert 2/5 to a percentage.",
+      "prompt_zh": "将2/5转换为百分数。",
+      "choices": ["25%", "40%", "50%", "20%"],
+      "answer": 1,
+      "hint": "First convert to decimal: 2 ÷ 5 = 0.4, then multiply by 100 to get percentage.",
+      "hint_zh": "首先转换为小数：2 ÷ 5 = 0.4，然后乘以100得到百分数。",
+      "explanation": "2/5 = 2 ÷ 5 = 0.4 = 0.4 × 100% = 40%",
+      "explanation_zh": "2/5 = 2 ÷ 5 = 0.4 = 0.4 × 100% = 40%"
+    },
+    {
+      "id": "q7",
+      "type": "short",
+      "prompt": "Convert 65% to a fraction in simplest form.",
+      "prompt_zh": "将65%转换为最简分数形式。",
+      "answer": "13/20",
+      "validator": "fraction",
+      "hint": "65% = 65/100. Simplify by dividing both by 5.",
+      "hint_zh": "65% = 65/100。将分子分母都除以5来简化。",
+      "explanation": "65% = 65/100. GCD(65,100) = 5. So 65÷5 = 13, 100÷5 = 20. Answer: 13/20",
+      "explanation_zh": "65% = 65/100。最大公因数(65,100) = 5。所以 65÷5 = 13，100÷5 = 20。答案：13/20"
+    },
+    {
+      "id": "q8",
+      "type": "drag-order",
+      "prompt": "Order from smallest to largest: -2, 0.5, -0.5, 1.5",
+      "prompt_zh": "从小到大排序：-2, 0.5, -0.5, 1.5",
+      "items": ["-2", "-0.5", "0.5", "1.5"],
+      "answer": ["-2", "-0.5", "0.5", "1.5"],
+      "hint": "Negative numbers are smaller than positive. Among negatives, -2 is smaller than -0.5.",
+      "hint_zh": "负数小于正数。在负数中，-2小于-0.5。",
+      "explanation": "On the number line from left to right: -2, -0.5, 0.5, 1.5",
+      "explanation_zh": "在数轴上从左到右：-2，-0.5，0.5，1.5"
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Which statement is TRUE?",
+      "prompt_zh": "哪个陈述是正确的？",
+      "choices": [
+        "All integers are rational numbers",
+        "All rational numbers are integers",
+        "No integers are rational numbers",
+        "π is a rational number"
+      ],
+      "answer": 0,
+      "hint": "Think: can any integer be written as a fraction p/q?",
+      "hint_zh": "想想：任何整数都可以写成分数p/q吗？",
+      "explanation": "All integers can be written as fractions (e.g., 5 = 5/1), so all integers ARE rational numbers. But not all rational numbers are integers (e.g., 1/2 is rational but not an integer).",
+      "explanation_zh": "所有整数都可以写成分数（例如，5 = 5/1），所以所有整数都是有理数。但不是所有有理数都是整数（例如，1/2是有理数但不是整数）。"
+    },
+    {
+      "id": "q10",
+      "type": "short",
+      "prompt": "Simplify: (-3) + 7 - 5 + 2",
+      "prompt_zh": "化简：(-3) + 7 - 5 + 2",
+      "answer": "1",
+      "validator": "numeric",
+      "hint": "Work left to right: (-3 + 7) = 4, then (4 - 5) = -1, then (-1 + 2) = 1",
+      "hint_zh": "从左到右计算：(-3 + 7) = 4，然后(4 - 5) = -1，然后(-1 + 2) = 1",
+      "explanation": "(-3) + 7 - 5 + 2 = 4 - 5 + 2 = -1 + 2 = 1",
+      "explanation_zh": "(-3) + 7 - 5 + 2 = 4 - 5 + 2 = -1 + 2 = 1"
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "The temperature was -3°C in the morning. It rose by 8°C by afternoon. What is the afternoon temperature?",
+      "prompt_zh": "早上温度是-3°C。到下午上升了8°C。下午的温度是多少？",
+      "choices": ["-11°C", "5°C", "11°C", "-5°C"],
+      "answer": 1,
+      "hint": "'Rose by 8°C' means add 8: (-3) + 8 = ?",
+      "hint_zh": "'上升了8°C'意味着加8：(-3) + 8 = ?",
+      "explanation": "Starting temperature: -3°C. Rose by 8°C means add 8: (-3) + 8 = 5°C",
+      "explanation_zh": "起始温度：-3°C。上升8°C意味着加8：(-3) + 8 = 5°C"
+    },
+    {
+      "id": "q12",
+      "type": "match",
+      "prompt": "Match each number with its equivalent form:",
+      "prompt_zh": "将每个数字与其等效形式匹配：",
+      "pairs": [
+        ["1/2", "0.5"],
+        ["3/4", "75%"],
+        ["0.2", "1/5"],
+        ["60%", "0.6"]
+      ],
+      "pairs_zh": [
+        ["1/2", "0.5"],
+        ["3/4", "75%"],
+        ["0.2", "1/5"],
+        ["60%", "0.6"]
+      ],
+      "hint": "Convert each to the same form (e.g., all to decimals) to compare.",
+      "hint_zh": "将每个转换为相同形式（例如，全部转换为小数）进行比较。"
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+

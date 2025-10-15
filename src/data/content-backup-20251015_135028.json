@@ -1314,301 +1314,29 @@
           ],
           "exercises": [
             {
-              "id": "ex1",
+              "id": "q1",
               "type": "mcq",
-              "difficulty": "easy",
+              "prompt": "What is (-7) + 12?",
+              "prompt_zh": "(-7) + 12 等于多少？",
               "choices": [
-                "-8",
-                "-2",
-                "2",
-                "8"
-              ],
-              "choices_zh": [
-                "-8",
-                "-2",
-                "2",
-                "8"
+                "-19",
+                "5",
+                "-5",
+                "19"
               ],
               "answer": 1,
-              "explanation": "-5 + 3 = -2 (adding positive number makes it less negative)",
-              "explanation_zh": "-5 + 3 = -2（加正数使负数变小）",
-              "prompt": "What is -5 + 3?",
-              "prompt_zh": "-5 + 3 等于多少？"
+              "hint": "Add 12 to -7. Think of moving right 12 spaces on the number line from -7.",
+              "hint_zh": "将12加到-7。想象在数轴上从-7向右移动12个位置。"
             },
             {
-              "id": "ex2",
-              "type": "mcq",
-              "difficulty": "easy",
-              "choices": [
-                "3",
-                "-3",
-                "11",
-                "-11"
-              ],
-              "choices_zh": [
-                "3",
-                "-3",
-                "11",
-                "-11"
-              ],
-              "answer": 1,
-              "explanation": "4 - 7 = -3 (result is negative when subtracting larger from smaller)",
-              "explanation_zh": "4 - 7 = -3（小数减大数结果为负）",
-              "prompt": "What is 4 - 7?",
-              "prompt_zh": "4 - 7 等于多少？"
-            },
-            {
-              "id": "ex3",
-              "type": "mcq",
-              "difficulty": "easy",
-              "choices": [
-                "12",
-                "-12",
-                "8",
-                "-8"
-              ],
-              "choices_zh": [
-                "12",
-                "-12",
-                "8",
-                "-8"
-              ],
-              "answer": 1,
-              "explanation": "-2 × 6 = -12 (negative × positive = negative)",
-              "explanation_zh": "-2 × 6 = -12（负数 × 正数 = 负数）",
-              "prompt": "What is -2 × 6?",
-              "prompt_zh": "-2 × 6 等于多少？"
-            },
-            {
-              "id": "ex4",
-              "type": "mcq",
-              "difficulty": "easy",
-              "choices": [
-                "4",
-                "-4",
-                "9",
-                "-9"
-              ],
-              "choices_zh": [
-                "4",
-                "-4",
-                "9",
-                "-9"
-              ],
-              "answer": 1,
-              "explanation": "-12 ÷ 3 = -4 (negative ÷ positive = negative)",
-              "explanation_zh": "-12 ÷ 3 = -4（负数 ÷ 正数 = 负数）",
-              "prompt": "What is -12 ÷ 3?",
-              "prompt_zh": "-12 ÷ 3 等于多少？"
-            },
-            {
-              "id": "ex5",
-              "type": "mcq",
-              "difficulty": "medium",
-              "choices": [
-                "-6",
-                "-10",
-                "10",
-                "0"
-              ],
-              "choices_zh": [
-                "-6",
-                "-10",
-                "10",
-                "0"
-              ],
-              "answer": 0,
-              "explanation": "-3 + 5 - 8 = 2 - 8 = -6",
-              "explanation_zh": "-3 + 5 - 8 = 2 - 8 = -6",
-              "prompt": "What is -3 + 5 - 8?",
-              "prompt_zh": "-3 + 5 - 8 等于多少？"
-            },
-            {
-              "id": "ex6",
-              "type": "mcq",
-              "difficulty": "medium",
-              "choices": [
-                "-12",
-                "12",
-                "-7",
-                "7"
-              ],
-              "choices_zh": [
-                "-12",
-                "12",
-                "-7",
-                "7"
-              ],
-              "answer": 1,
-              "explanation": "(-3) × (-4) = 12 (negative × negative = positive)",
-              "explanation_zh": "(-3) × (-4) = 12（负数 × 负数 = 正数）",
-              "prompt": "What is (-3) × (-4)?",
-              "prompt_zh": "(-3) × (-4) 等于多少？"
-            },
-            {
-              "id": "ex7",
-              "type": "mcq",
-              "difficulty": "medium",
-              "choices": [
-                "4",
-                "-4",
-                "25",
-                "-25"
-              ],
-              "choices_zh": [
-                "4",
-                "-4",
-                "25",
-                "-25"
-              ],
-              "answer": 0,
-              "explanation": "-20 ÷ (-5) = 4 (negative ÷ negative = positive)",
-              "explanation_zh": "-20 ÷ (-5) = 4（负数 ÷ 负数 = 正数）",
-              "prompt": "What is -20 ÷ (-5)?",
-              "prompt_zh": "-20 ÷ (-5) 等于多少？"
-            },
-            {
-              "id": "ex8",
-              "type": "mcq",
-              "difficulty": "medium",
-              "choices": [
-                "3/4",
-                "7/5",
-                "15/20",
-                "75/100"
-              ],
-              "choices_zh": [
-                "3/4",
-                "7/5",
-                "15/20",
-                "75/100"
-              ],
-              "answer": 0,
-              "explanation": "0.75 = 75/100 = 3/4 (divide by 25)",
-              "explanation_zh": "0.75 = 75/100 = 3/4（除以25）",
-              "prompt": "Express 0.75 as a fraction in simplest form.",
-              "prompt_zh": "将 0.75 表示为最简分数。"
-            },
-            {
-              "id": "ex9",
-              "type": "mcq",
-              "difficulty": "medium",
-              "choices": [
-                "-2/3",
-                "-3/4",
-                "They are equal",
-                "Cannot determine"
-              ],
-              "choices_zh": [
-                "-2/3",
-                "-3/4",
-                "相等",
-                "无法确定"
-              ],
-              "answer": 0,
-              "explanation": "-2/3 ≈ -0.667 and -3/4 = -0.75, so -2/3 is greater (closer to 0)",
-              "explanation_zh": "-2/3 ≈ -0.667，-3/4 = -0.75，所以 -2/3 更大（更接近0）",
-              "prompt": "Which is greater: -2/3 or -3/4?",
-              "prompt_zh": "哪个更大：-2/3 还是 -3/4？"
-            },
-            {
-              "id": "ex10",
-              "type": "mcq",
-              "difficulty": "hard",
-              "choices": [
-                "-20",
-                "-8",
-                "4",
-                "20"
-              ],
-              "choices_zh": [
-                "-20",
-                "-8",
-                "4",
-                "20"
-              ],
-              "answer": 0,
-              "explanation": "(-2)³ = -8, then -8 + 3×(-4) = -8 + (-12) = -20",
-              "explanation_zh": "(-2)³ = -8，然后 -8 + 3×(-4) = -8 + (-12) = -20",
-              "prompt": "Calculate: (-2)³ + 3 × (-4)",
-              "prompt_zh": "计算：(-2)³ + 3 × (-4)"
-            },
-            {
-              "id": "ex11",
-              "type": "mcq",
-              "difficulty": "hard",
-              "choices": [
-                "-5/12",
-                "5/12",
-                "-7/12",
-                "7/12"
-              ],
-              "choices_zh": [
-                "-5/12",
-                "5/12",
-                "-7/12",
-                "7/12"
-              ],
-              "answer": 0,
-              "explanation": "LCD=12: 8/12 - 3/12 - 10/12 = -5/12",
-              "explanation_zh": "最小公倍数=12：8/12 - 3/12 - 10/12 = -5/12",
-              "prompt": "Simplify: 2/3 + (-1/4) - 5/6",
-              "prompt_zh": "化简：2/3 + (-1/4) - 5/6"
-            },
-            {
-              "id": "ex12",
-              "type": "mcq",
-              "difficulty": "hard",
-              "choices": [
-                "2°C decrease",
-                "8°C decrease",
-                "2°C increase",
-                "8°C increase"
-              ],
-              "choices_zh": [
-                "降低2°C",
-                "降低8°C",
-                "升高2°C",
-                "升高8°C"
-              ],
-              "answer": 1,
-              "explanation": "Change = -3 - 5 = -8, so 8°C decrease",
-              "explanation_zh": "变化 = -3 - 5 = -8，所以降低8°C",
-              "prompt": "If temperature drops from 5°C to -3°C, what is the change?",
-              "prompt_zh": "如果温度从5°C降至-3°C，变化是多少？"
-            },
-            {
-              "id": "ex13",
+              "id": "q2",
               "type": "short",
-              "difficulty": "hard",
-              "answer": "-4",
-              "validator": "numeric",
-              "explanation": "0 + 8 - 12 = -4 (4 floors below ground, basement level)",
-              "explanation_zh": "0 + 8 - 12 = -4（地下4层）",
-              "prompt": "A lift starts at ground floor (0). It goes up 8 floors, then down 12 floors. What floor is it on?",
-              "prompt_zh": "电梯从底层（0）开始。上升8层，然后下降12层。它在哪一层？"
-            },
-            {
-              "id": "ex14",
-              "type": "mcq",
-              "difficulty": "hard",
-              "choices": [
-                "-30m",
-                "-15m",
-                "-60m",
-                "0m"
-              ],
-              "choices_zh": [
-                "-30米",
-                "-15米",
-                "-60米",
-                "0米"
-              ],
-              "answer": 0,
-              "explanation": "-45 + 30 - 15 = -30m (30m below sea level)",
-              "explanation_zh": "-45 + 30 - 15 = -30米（海平面以下30米）",
-              "prompt": "Singapore context: A submarine is at -45m. It rises 30m then dives 15m. What is its final depth?",
-              "prompt_zh": "新加坡背景：潜艇在-45米。上升30米然后下潜15米。最终深度是多少？"
+              "prompt": "Express 0.75 as a fraction in simplest form.",
+              "prompt_zh": "将0.75表示为最简分数形式。",
+              "answer": "3/4",
+              "validator": "fraction",
+              "hint": "0.75 = 75/100. Simplify by dividing both by 25.",
+              "hint_zh": "0.75 = 75/100。将分子和分母都除以25来简化。"
             }
           ]
         },
@@ -1642,253 +1370,19 @@
           ],
           "exercises": [
             {
-              "id": "ex1",
+              "id": "q1",
               "type": "mcq",
-              "difficulty": "easy",
+              "prompt": "Which of the following is a prime number?",
+              "prompt_zh": "以下哪个是质数？",
               "choices": [
-                "5",
-                "4",
-                "7",
-                "8"
-              ],
-              "choices_zh": [
-                "5",
-                "4",
-                "7",
-                "8"
-              ],
-              "answer": 1,
-              "explanation": "4 × 3 = 12, so 4 is a factor of 12",
-              "explanation_zh": "4 × 3 = 12，所以4是12的因数",
-              "prompt": "Which is a factor of 12?",
-              "prompt_zh": "哪个是12的因数？"
-            },
-            {
-              "id": "ex2",
-              "type": "mcq",
-              "difficulty": "easy",
-              "choices": [
-                "0",
-                "1",
-                "2",
-                "3"
-              ],
-              "choices_zh": [
-                "0",
-                "1",
-                "2",
-                "3"
-              ],
-              "answer": 2,
-              "explanation": "2 is the smallest prime number",
-              "explanation_zh": "2是最小的质数",
-              "prompt": "What is the smallest prime number?",
-              "prompt_zh": "最小的质数是多少？"
-            },
-            {
-              "id": "ex3",
-              "type": "mcq",
-              "difficulty": "easy",
-              "choices": [
-                "Yes",
-                "No"
-              ],
-              "choices_zh": [
-                "是",
-                "否"
-              ],
-              "answer": 0,
-              "explanation": "15 = 3 × 5, so yes",
-              "explanation_zh": "15 = 3 × 5，所以是",
-              "prompt": "Is 15 a multiple of 3?",
-              "prompt_zh": "15是3的倍数吗？"
-            },
-            {
-              "id": "ex4",
-              "type": "mcq",
-              "difficulty": "easy",
-              "choices": [
-                "9",
-                "11",
                 "15",
-                "21"
-              ],
-              "choices_zh": [
-                "9",
-                "11",
-                "15",
-                "21"
-              ],
-              "answer": 1,
-              "explanation": "11 has only 2 factors: 1 and 11",
-              "explanation_zh": "11只有2个因数：1和11",
-              "prompt": "Which number is prime?",
-              "prompt_zh": "哪个数是质数？"
-            },
-            {
-              "id": "ex5",
-              "type": "mcq",
-              "difficulty": "medium",
-              "choices": [
-                "2",
-                "3",
-                "6",
-                "9"
-              ],
-              "choices_zh": [
-                "2",
-                "3",
-                "6",
-                "9"
+                "21",
+                "29",
+                "33"
               ],
               "answer": 2,
-              "explanation": "Factors of 12: 1,2,3,4,6,12. Factors of 18: 1,2,3,6,9,18. HCF = 6",
-              "explanation_zh": "12的因数：1,2,3,4,6,12。18的因数：1,2,3,6,9,18。最大公因数=6",
-              "prompt": "What is the HCF of 12 and 18?",
-              "prompt_zh": "12和18的最大公因数是多少？"
-            },
-            {
-              "id": "ex6",
-              "type": "mcq",
-              "difficulty": "medium",
-              "choices": [
-                "12",
-                "24",
-                "2",
-                "8"
-              ],
-              "choices_zh": [
-                "12",
-                "24",
-                "2",
-                "8"
-              ],
-              "answer": 0,
-              "explanation": "Multiples of 4: 4,8,12,16... Multiples of 6: 6,12,18... LCM = 12",
-              "explanation_zh": "4的倍数：4,8,12,16...。6的倍数：6,12,18...。最小公倍数=12",
-              "prompt": "What is the LCM of 4 and 6?",
-              "prompt_zh": "4和6的最小公倍数是多少？"
-            },
-            {
-              "id": "ex7",
-              "type": "mcq",
-              "difficulty": "medium",
-              "choices": [
-                "2 × 12",
-                "2³ × 3",
-                "4 × 6",
-                "2² × 6"
-              ],
-              "choices_zh": [
-                "2 × 12",
-                "2³ × 3",
-                "4 × 6",
-                "2² × 6"
-              ],
-              "answer": 1,
-              "explanation": "24 = 2 × 2 × 2 × 3 = 2³ × 3",
-              "explanation_zh": "24 = 2 × 2 × 2 × 3 = 2³ × 3",
-              "prompt": "Express 24 as a product of prime factors.",
-              "prompt_zh": "将24表示为质因数的乘积。"
-            },
-            {
-              "id": "ex8",
-              "type": "mcq",
-              "difficulty": "medium",
-              "choices": [
-                "2",
-                "3",
-                "4",
-                "5"
-              ],
-              "choices_zh": [
-                "2",
-                "3",
-                "4",
-                "5"
-              ],
-              "answer": 2,
-              "explanation": "Prime numbers: 11, 13, 17, 19 (4 numbers)",
-              "explanation_zh": "质数：11、13、17、19（4个数）",
-              "prompt": "How many prime numbers are between 10 and 20?",
-              "prompt_zh": "10到20之间有多少个质数？"
-            },
-            {
-              "id": "ex9",
-              "type": "mcq",
-              "difficulty": "hard",
-              "choices": [
-                "12",
-                "24",
-                "8",
-                "16"
-              ],
-              "choices_zh": [
-                "12",
-                "24",
-                "8",
-                "16"
-              ],
-              "answer": 1,
-              "explanation": "48 = 2⁴×3, 72 = 2³×3², 96 = 2⁵×3. HCF = 2³×3 = 24",
-              "explanation_zh": "48 = 2⁴×3，72 = 2³×3²，96 = 2⁵×3。最大公因数 = 2³×3 = 24",
-              "prompt": "What is the HCF of 48, 72, and 96?",
-              "prompt_zh": "48、72和96的最大公因数是多少？"
-            },
-            {
-              "id": "ex10",
-              "type": "mcq",
-              "difficulty": "hard",
-              "choices": [
-                "60",
-                "120",
-                "180",
-                "240"
-              ],
-              "choices_zh": [
-                "60",
-                "120",
-                "180",
-                "240"
-              ],
-              "answer": 0,
-              "explanation": "12 = 2²×3, 15 = 3×5, 20 = 2²×5. LCM = 2²×3×5 = 60",
-              "explanation_zh": "12 = 2²×3，15 = 3×5，20 = 2²×5。最小公倍数 = 2²×3×5 = 60",
-              "prompt": "What is the LCM of 12, 15, and 20?",
-              "prompt_zh": "12、15和20的最小公倍数是多少？"
-            },
-            {
-              "id": "ex11",
-              "type": "short",
-              "difficulty": "hard",
-              "answer": "6:36",
-              "validator": "exact",
-              "explanation": "LCM(12,18) = 36 minutes. 6:00 + 36 min = 6:36am",
-              "explanation_zh": "最小公倍数(12,18) = 36分钟。6:00 + 36分钟 = 6:36",
-              "prompt": "Two buses leave at 6am. Bus A comes every 12 minutes, Bus B every 18 minutes. When do they next leave together?",
-              "prompt_zh": "两辆公交车早上6点出发。A车每12分钟一班，B车每18分钟一班。它们下次同时出发是几点？"
-            },
-            {
-              "id": "ex12",
-              "type": "mcq",
-              "difficulty": "hard",
-              "choices": [
-                "9:12",
-                "9:24",
-                "9:36",
-                "9:48"
-              ],
-              "choices_zh": [
-                "9:12",
-                "9:24",
-                "9:36",
-                "9:48"
-              ],
-              "answer": 1,
-              "explanation": "LCM(6,8) = 24 minutes. 9:00 + 24 min = 9:24am",
-              "explanation_zh": "最小公倍数(6,8) = 24分钟。9:00 + 24分钟 = 9:24",
-              "prompt": "Singapore context: MRT trains on Line A come every 6 min, Line B every 8 min. If both arrive at 9:00am, when do they arrive together again?",
-              "prompt_zh": "新加坡背景：A线地铁每6分钟一班，B线每8分钟一班。如果两者都在9:00到达，下次同时到达是几点？"
+              "hint": "A prime number has exactly 2 factors: 1 and itself.",
+              "hint_zh": "质数只有两个因数：1和它本身。"
             }
           ]
         },
@@ -1922,224 +1416,14 @@
           ],
           "exercises": [
             {
-              "id": "ex1",
-              "type": "mcq",
-              "difficulty": "easy",
-              "choices": [
-                "40",
-                "50",
-                "45",
-                "60"
-              ],
-              "choices_zh": [
-                "40",
-                "50",
-                "45",
-                "60"
-              ],
-              "answer": 1,
-              "explanation": "47 is closer to 50",
-              "explanation_zh": "47更接近50",
-              "prompt": "Round 47 to nearest 10",
-              "prompt_zh": "将47四舍五入到最接近的10"
-            },
-            {
-              "id": "ex2",
-              "type": "mcq",
-              "difficulty": "easy",
-              "choices": [
-                "3.0",
-                "3.1",
-                "3.2",
-                "3"
-              ],
-              "choices_zh": [
-                "3.0",
-                "3.1",
-                "3.2",
-                "3"
-              ],
-              "answer": 1,
-              "explanation": "3.14 → 3.1",
-              "explanation_zh": "3.14 → 3.1",
-              "prompt": "Round 3.14 to 1 d.p.",
-              "prompt_zh": "将3.14四舍五入到1位小数"
-            },
-            {
-              "id": "ex3",
-              "type": "mcq",
-              "difficulty": "easy",
-              "choices": [
-                "100",
-                "500",
-                "1000",
-                "1500"
-              ],
-              "choices_zh": [
-                "100",
-                "500",
-                "1000",
-                "1500"
-              ],
-              "answer": 2,
-              "explanation": "50 × 20 = 1000",
-              "explanation_zh": "50 × 20 = 1000",
-              "prompt": "Estimate: 49 × 21",
-              "prompt_zh": "估算：49 × 21"
-            },
-            {
-              "id": "ex4",
-              "type": "mcq",
-              "difficulty": "medium",
-              "choices": [
-                "400",
-                "450",
-                "500",
-                "460"
-              ],
-              "choices_zh": [
-                "400",
-                "450",
-                "500",
-                "460"
-              ],
-              "answer": 2,
-              "explanation": "1 s.f. = 500",
-              "explanation_zh": "1位有效数字 = 500",
-              "prompt": "Round 456 to 1 s.f.",
-              "prompt_zh": "将456四舍五入到1位有效数字"
-            },
-            {
-              "id": "ex5",
-              "type": "mcq",
-              "difficulty": "medium",
-              "choices": [
-                "400",
-                "500",
-                "600",
-                "700"
-              ],
-              "choices_zh": [
-                "400",
-                "500",
-                "600",
-                "700"
-              ],
-              "answer": 1,
-              "explanation": "200 + 300 = 500",
-              "explanation_zh": "200 + 300 = 500",
-              "prompt": "Estimate: 198 + 304",
-              "prompt_zh": "估算：198 + 304"
-            },
-            {
-              "id": "ex6",
-              "type": "mcq",
-              "difficulty": "medium",
-              "choices": [
-                "0.04",
-                "0.045",
-                "0.046",
-                "0.05"
-              ],
-              "choices_zh": [
-                "0.04",
-                "0.045",
-                "0.046",
-                "0.05"
-              ],
-              "answer": 2,
-              "explanation": "2 s.f. = 0.046",
-              "explanation_zh": "2位有效数字 = 0.046",
-              "prompt": "Round 0.0456 to 2 s.f.",
-              "prompt_zh": "将0.0456四舍五入到2位有效数字"
-            },
-            {
-              "id": "ex7",
-              "type": "mcq",
-              "difficulty": "medium",
-              "choices": [
-                "$95",
-                "$100",
-                "$105",
-                "$110"
-              ],
-              "choices_zh": [
-                "$95",
-                "$100",
-                "$105",
-                "$110"
-              ],
-              "answer": 1,
-              "explanation": "$20 × 5 = $100",
-              "explanation_zh": "$20 × 5 = $100",
-              "prompt": "Estimate cost: $19.80 × 5",
-              "prompt_zh": "估算费用：$19.80 × 5"
-            },
-            {
-              "id": "ex8",
-              "type": "mcq",
-              "difficulty": "hard",
-              "choices": [
-                "$5",
-                "$6",
-                "$7",
-                "$8"
-              ],
-              "choices_zh": [
-                "$5",
-                "$6",
-                "$7",
-                "$8"
-              ],
-              "answer": 2,
-              "explanation": "12 × $0.55 ≈ 12 × $0.5 = $6",
-              "explanation_zh": "12 × $0.55 ≈ 12 × $0.5 = $6",
-              "prompt": "Singapore: Estimate taxi fare for 12.3km at $0.55/km",
-              "prompt_zh": "新加坡：估算12.3公里的出租车费，每公里$0.55"
-            },
-            {
-              "id": "ex9",
-              "type": "mcq",
-              "difficulty": "hard",
-              "choices": [
-                "150",
-                "200",
-                "250",
-                "300"
-              ],
-              "choices_zh": [
-                "150",
-                "200",
-                "250",
-                "300"
-              ],
-              "answer": 1,
-              "explanation": "4000 ÷ 20 = 200",
-              "explanation_zh": "4000 ÷ 20 = 200",
-              "prompt": "Estimate: 3978 ÷ 19",
-              "prompt_zh": "估算：3978 ÷ 19"
-            },
-            {
-              "id": "ex10",
-              "type": "mcq",
-              "difficulty": "hard",
-              "choices": [
-                "$48",
-                "$49",
-                "$50",
-                "$45"
-              ],
-              "choices_zh": [
-                "$48",
-                "$49",
-                "$50",
-                "$45"
-              ],
-              "answer": 1,
-              "explanation": "$48.75 → $49",
-              "explanation_zh": "$48.75 → $49",
-              "prompt": "Round $48.75 to nearest dollar",
-              "prompt_zh": "将$48.75四舍五入到最接近的元"
+              "id": "q1",
+              "type": "short",
+              "prompt": "Round 3.876 to 2 significant figures.",
+              "prompt_zh": "将3.876四舍五入到2位有效数字。",
+              "answer": "3.9",
+              "validator": "numeric",
+              "hint": "Count from the first non-zero digit.",
+              "hint_zh": "从第一个非零数字开始计数。"
             }
           ]
         },
@@ -2235,257 +1519,77 @@
           ],
           "exercises": [
             {
-              "id": "ex1",
+              "id": "q1",
               "type": "mcq",
-              "difficulty": "easy",
+              "prompt": "Which of the following are like terms?",
+              "prompt_zh": "以下哪些是同类项？",
               "choices": [
-                "5x",
-                "5x²",
-                "6x",
-                "x⁵"
-              ],
-              "choices_zh": [
-                "5x",
-                "5x²",
-                "6x",
-                "x⁵"
+                "2x and 3x",
+                "4a and 5b",
+                "x² and x",
+                "2xy and 3x"
               ],
               "answer": 0,
-              "explanation": "3x + 2x = 5x",
-              "explanation_zh": "3x + 2x = 5x",
-              "prompt": "Simplify: 3x + 2x",
-              "prompt_zh": "化简：3x + 2x"
+              "hint": "Like terms have the same variable(s) with the same power.",
+              "hint_zh": "同类项具有相同的变量和相同的幂。"
             },
             {
-              "id": "ex2",
-              "type": "mcq",
-              "difficulty": "easy",
-              "choices": [
-                "4y",
-                "10y",
-                "4",
-                "10"
-              ],
-              "choices_zh": [
-                "4y",
-                "10y",
-                "4",
-                "10"
-              ],
-              "answer": 0,
-              "explanation": "7y - 3y = 4y",
-              "explanation_zh": "7y - 3y = 4y",
-              "prompt": "Simplify: 7y - 3y",
-              "prompt_zh": "化简：7y - 3y"
-            },
-            {
-              "id": "ex3",
-              "type": "mcq",
-              "difficulty": "easy",
-              "choices": [
-                "5a",
-                "6a",
-                "23a",
-                "2a³"
-              ],
-              "choices_zh": [
-                "5a",
-                "6a",
-                "23a",
-                "2a³"
-              ],
-              "answer": 1,
-              "explanation": "2 × 3a = 6a",
-              "explanation_zh": "2 × 3a = 6a",
-              "prompt": "What is 2 × 3a?",
-              "prompt_zh": "2 × 3a 等于多少？"
-            },
-            {
-              "id": "ex4",
-              "type": "mcq",
-              "difficulty": "easy",
-              "choices": [
-                "3x + 2",
-                "3x + 6",
-                "x + 6",
-                "3x + 5"
-              ],
-              "choices_zh": [
-                "3x + 2",
-                "3x + 6",
-                "x + 6",
-                "3x + 5"
-              ],
-              "answer": 1,
-              "explanation": "3(x + 2) = 3x + 6",
-              "explanation_zh": "3(x + 2) = 3x + 6",
-              "prompt": "Expand: 3(x + 2)",
-              "prompt_zh": "展开：3(x + 2)"
-            },
-            {
-              "id": "ex5",
-              "type": "mcq",
-              "difficulty": "medium",
-              "choices": [
-                "3a + 4b",
-                "7a + 2b",
-                "3a + 2b",
-                "7a + 4b"
-              ],
-              "choices_zh": [
-                "3a + 4b",
-                "7a + 2b",
-                "3a + 2b",
-                "7a + 4b"
-              ],
-              "answer": 0,
-              "explanation": "5a - 2a = 3a, 3b + b = 4b",
-              "explanation_zh": "5a - 2a = 3a，3b + b = 4b",
-              "prompt": "Simplify: 5a + 3b - 2a + b",
-              "prompt_zh": "化简：5a + 3b - 2a + b"
-            },
-            {
-              "id": "ex6",
-              "type": "mcq",
-              "difficulty": "medium",
-              "choices": [
-                "6x - 4",
-                "6x - 8",
-                "5x - 6",
-                "6x - 6"
-              ],
-              "choices_zh": [
-                "6x - 4",
-                "6x - 8",
-                "5x - 6",
-                "6x - 6"
-              ],
-              "answer": 1,
-              "explanation": "2(3x - 4) = 6x - 8",
-              "explanation_zh": "2(3x - 4) = 6x - 8",
-              "prompt": "Expand: 2(3x - 4)",
-              "prompt_zh": "展开：2(3x - 4)"
-            },
-            {
-              "id": "ex7",
-              "type": "mcq",
-              "difficulty": "medium",
-              "choices": [
-                "3x² + 5x",
-                "5x² + 5x",
-                "3x² + x",
-                "4x² + 5x"
-              ],
-              "choices_zh": [
-                "3x² + 5x",
-                "5x² + 5x",
-                "3x² + x",
-                "4x² + 5x"
-              ],
-              "answer": 0,
-              "explanation": "4x² - x² = 3x², 2x + 3x = 5x",
-              "explanation_zh": "4x² - x² = 3x²，2x + 3x = 5x",
-              "prompt": "Simplify: 4x² + 2x - x² + 3x",
-              "prompt_zh": "化简：4x² + 2x - x² + 3x"
-            },
-            {
-              "id": "ex8",
-              "type": "mcq",
-              "difficulty": "medium",
-              "choices": [
-                "3(2x + 3)",
-                "6(x + 9)",
-                "3(2x + 9)",
-                "2(3x + 9)"
-              ],
-              "choices_zh": [
-                "3(2x + 3)",
-                "6(x + 9)",
-                "3(2x + 9)",
-                "2(3x + 9)"
-              ],
-              "answer": 0,
-              "explanation": "GCF is 3: 6x + 9 = 3(2x + 3)",
-              "explanation_zh": "最大公因数是3",
-              "prompt": "Factorize: 6x + 9",
-              "prompt_zh": "因式分解：6x + 9"
-            },
-            {
-              "id": "ex9",
-              "type": "mcq",
-              "difficulty": "hard",
-              "choices": [
-                "5x + 3",
-                "5x + 5",
-                "5x + 9",
-                "2x + 3"
-              ],
-              "choices_zh": [
-                "5x + 3",
-                "5x + 5",
-                "5x + 9",
-                "2x + 3"
-              ],
-              "answer": 0,
-              "explanation": "2x + 6 + 3x - 3 = 5x + 3",
-              "explanation_zh": "2x + 6 + 3x - 3 = 5x + 3",
-              "prompt": "Expand: 2(x + 3) + 3(x - 1)",
-              "prompt_zh": "展开：2(x + 3) + 3(x - 1)"
-            },
-            {
-              "id": "ex10",
-              "type": "mcq",
-              "difficulty": "hard",
-              "choices": [
-                "4a - 7b",
-                "4a + 7b",
-                "8a - 7b",
-                "4a - b"
-              ],
-              "choices_zh": [
-                "4a - 7b",
-                "4a + 7b",
-                "8a - 7b",
-                "4a - b"
-              ],
-              "answer": 0,
-              "explanation": "6a - 3b - 2a - 4b = 4a - 7b",
-              "explanation_zh": "6a - 3b - 2a - 4b = 4a - 7b",
-              "prompt": "Simplify: 3(2a - b) - 2(a + 2b)",
-              "prompt_zh": "化简：3(2a - b) - 2(a + 2b)"
-            },
-            {
-              "id": "ex11",
+              "id": "q2",
               "type": "short",
-              "difficulty": "hard",
-              "answer": "14",
-              "validator": "numeric",
-              "explanation": "6x - 4 = 2(3x - 2) = 2(7) = 14",
-              "explanation_zh": "6x - 4 = 2(3x - 2) = 2(7) = 14",
-              "prompt": "If 3x - 2 = 7, find 6x - 4",
-              "prompt_zh": "如果 3x - 2 = 7，求 6x - 4"
+              "prompt": "Simplify: 4x + 2y - 3x + y",
+              "prompt_zh": "化简：4x + 2y - 3x + y",
+              "answer": "x + 3y",
+              "hint": "Group x terms and y terms separately.",
+              "hint_zh": "分别分组x项和y项。"
             },
             {
-              "id": "ex12",
+              "id": "q3",
               "type": "mcq",
-              "difficulty": "hard",
+              "prompt": "Expand: 3(x + 2)",
+              "prompt_zh": "展开：3(x + 2)",
               "choices": [
-                "x + 5.5",
-                "x + 2.2",
-                "x + 8.8",
-                "x + 6.6"
+                "3x + 2",
+                "3x + 6",
+                "x + 6",
+                "3x + 5"
               ],
-              "choices_zh": [
-                "x + 5.5",
-                "x + 2.2",
-                "x + 8.8",
-                "x + 6.6"
+              "answer": 1,
+              "hint": "Multiply 3 by both terms inside.",
+              "hint_zh": "将3与括号内的两项相乘。"
+            },
+            {
+              "id": "q4",
+              "type": "short",
+              "prompt": "Expand: 5(2a - 3)",
+              "prompt_zh": "展开：5(2a - 3)",
+              "answer": "10a - 15",
+              "hint": "Multiply 5 by each term.",
+              "hint_zh": "将5与每项相乘。"
+            },
+            {
+              "id": "q5",
+              "type": "mcq",
+              "prompt": "Factorize: 6x + 9",
+              "prompt_zh": "因式分解：6x + 9",
+              "choices": [
+                "3(2x + 3)",
+                "6(x + 9)",
+                "3(2x + 6)",
+                "2(3x + 9)"
               ],
               "answer": 0,
-              "explanation": "Cost = x + 0.22(25) = x + 5.5",
-              "explanation_zh": "费用 = x + 0.22(25) = x + 5.5",
-              "prompt": "Taxi: $x + $0.22/km. Cost for 25km?",
-              "prompt_zh": "出租车：$x + 每公里$0.22。25公里费用？"
+              "hint": "Find HCF of 6 and 9.",
+              "hint_zh": "找6和9的最大公因数。"
+            },
+            {
+              "id": "q6",
+              "type": "short",
+              "prompt": "Evaluate 3x + 5 when x = 4",
+              "prompt_zh": "当x = 4时求值3x + 5",
+              "answer": "17",
+              "validator": "numeric",
+              "hint": "Substitute 4 for x: 3(4) + 5",
+              "hint_zh": "用4代替x：3(4) + 5"
             }
           ]
         },
@@ -2531,257 +1635,14 @@
           ],
           "exercises": [
             {
-              "id": "ex1",
-              "type": "mcq",
-              "difficulty": "easy",
-              "choices": [
-                "x = 7",
-                "x = 17",
-                "x = 5",
-                "x = 12"
-              ],
-              "choices_zh": [
-                "x = 7",
-                "x = 17",
-                "x = 5",
-                "x = 12"
-              ],
-              "answer": 0,
-              "explanation": "x = 12 - 5 = 7",
-              "explanation_zh": "x = 12 - 5 = 7",
-              "prompt": "Solve: x + 5 = 12",
-              "prompt_zh": "解：x + 5 = 12"
-            },
-            {
-              "id": "ex2",
-              "type": "mcq",
-              "difficulty": "easy",
-              "choices": [
-                "x = 5",
-                "x = 11",
-                "x = 8",
-                "x = 24"
-              ],
-              "choices_zh": [
-                "x = 5",
-                "x = 11",
-                "x = 8",
-                "x = 24"
-              ],
-              "answer": 1,
-              "explanation": "x = 8 + 3 = 11",
-              "explanation_zh": "x = 8 + 3 = 11",
-              "prompt": "Solve: x - 3 = 8",
-              "prompt_zh": "解：x - 3 = 8"
-            },
-            {
-              "id": "ex3",
-              "type": "mcq",
-              "difficulty": "easy",
-              "choices": [
-                "x = 5",
-                "x = 12",
-                "x = 18",
-                "x = 45"
-              ],
-              "choices_zh": [
-                "x = 5",
-                "x = 12",
-                "x = 18",
-                "x = 45"
-              ],
-              "answer": 0,
-              "explanation": "x = 15 ÷ 3 = 5",
-              "explanation_zh": "x = 15 ÷ 3 = 5",
-              "prompt": "Solve: 3x = 15",
-              "prompt_zh": "解：3x = 15"
-            },
-            {
-              "id": "ex4",
-              "type": "mcq",
-              "difficulty": "easy",
-              "choices": [
-                "x = 3",
-                "x = 8",
-                "x = 12",
-                "x = 4"
-              ],
-              "choices_zh": [
-                "x = 3",
-                "x = 8",
-                "x = 12",
-                "x = 4"
-              ],
-              "answer": 2,
-              "explanation": "x = 6 × 2 = 12",
-              "explanation_zh": "x = 6 × 2 = 12",
-              "prompt": "Solve: x/2 = 6",
-              "prompt_zh": "解：x/2 = 6"
-            },
-            {
-              "id": "ex5",
-              "type": "mcq",
-              "difficulty": "medium",
-              "choices": [
-                "x = 4",
-                "x = 7",
-                "x = 14",
-                "x = 5"
-              ],
-              "choices_zh": [
-                "x = 4",
-                "x = 7",
-                "x = 14",
-                "x = 5"
-              ],
-              "answer": 0,
-              "explanation": "2x = 8, x = 4",
-              "explanation_zh": "2x = 8，x = 4",
-              "prompt": "Solve: 2x + 3 = 11",
-              "prompt_zh": "解：2x + 3 = 11"
-            },
-            {
-              "id": "ex6",
-              "type": "mcq",
-              "difficulty": "medium",
-              "choices": [
-                "x = 3",
-                "x = 5",
-                "x = 11",
-                "x = 25"
-              ],
-              "choices_zh": [
-                "x = 3",
-                "x = 5",
-                "x = 11",
-                "x = 25"
-              ],
-              "answer": 1,
-              "explanation": "5x = 25, x = 5",
-              "explanation_zh": "5x = 25，x = 5",
-              "prompt": "Solve: 5x - 7 = 18",
-              "prompt_zh": "解：5x - 7 = 18"
-            },
-            {
-              "id": "ex7",
-              "type": "mcq",
-              "difficulty": "medium",
-              "choices": [
-                "x = 5",
-                "x = 9",
-                "x = 3",
-                "x = 7"
-              ],
-              "choices_zh": [
-                "x = 5",
-                "x = 9",
-                "x = 3",
-                "x = 7"
-              ],
-              "answer": 0,
-              "explanation": "x = 5",
-              "explanation_zh": "x = 5",
-              "prompt": "Solve: 3x + 2 = 2x + 7",
-              "prompt_zh": "解：3x + 2 = 2x + 7"
-            },
-            {
-              "id": "ex8",
-              "type": "mcq",
-              "difficulty": "medium",
-              "choices": [
-                "x = 7",
-                "x = 10",
-                "x = 13",
-                "x = 2"
-              ],
-              "choices_zh": [
-                "x = 7",
-                "x = 10",
-                "x = 13",
-                "x = 2"
-              ],
-              "answer": 0,
-              "explanation": "x + 3 = 10, x = 7",
-              "explanation_zh": "x + 3 = 10，x = 7",
-              "prompt": "Solve: (x+3)/2 = 5",
-              "prompt_zh": "解：(x+3)/2 = 5"
-            },
-            {
-              "id": "ex9",
-              "type": "mcq",
-              "difficulty": "hard",
-              "choices": [
-                "x = 4",
-                "x = 7",
-                "x = 10",
-                "x = 1"
-              ],
-              "choices_zh": [
-                "x = 4",
-                "x = 7",
-                "x = 10",
-                "x = 1"
-              ],
-              "answer": 0,
-              "explanation": "x + 3 = 7, x = 4",
-              "explanation_zh": "x + 3 = 7，x = 4",
-              "prompt": "Solve: 2(x+3) = 14",
-              "prompt_zh": "解：2(x+3) = 14"
-            },
-            {
-              "id": "ex10",
-              "type": "mcq",
-              "difficulty": "hard",
-              "choices": [
-                "x = 7",
-                "x = 5",
-                "x = 9",
-                "x = 3"
-              ],
-              "choices_zh": [
-                "x = 7",
-                "x = 5",
-                "x = 9",
-                "x = 3"
-              ],
-              "answer": 0,
-              "explanation": "3(x-2)=15, x=7",
-              "explanation_zh": "3(x-2)=15，x=7",
-              "prompt": "Solve: 3(x-2)+4 = 19",
-              "prompt_zh": "解：3(x-2)+4 = 19"
-            },
-            {
-              "id": "ex11",
+              "id": "q1",
               "type": "short",
-              "difficulty": "hard",
-              "answer": "9",
+              "prompt": "Solve: 2x + 5 = 13",
+              "prompt_zh": "求解：2x + 5 = 13",
+              "answer": "4",
               "validator": "numeric",
-              "explanation": "2x/3=6, x=9",
-              "explanation_zh": "2x/3=6，x=9",
-              "prompt": "Solve: 2x/3 + 5 = 11",
-              "prompt_zh": "解：2x/3 + 5 = 11"
-            },
-            {
-              "id": "ex12",
-              "type": "mcq",
-              "difficulty": "hard",
-              "choices": [
-                "$15",
-                "$14",
-                "$10",
-                "$18"
-              ],
-              "choices_zh": [
-                "$15",
-                "$14",
-                "$10",
-                "$18"
-              ],
-              "answer": 0,
-              "explanation": "0.8x=12, x=15",
-              "explanation_zh": "0.8x=12，x=15",
-              "prompt": "Book $x, 20% off = $12. Find x",
-              "prompt_zh": "书原价$x，8折后$12，求x"
+              "hint": "First subtract 5 from both sides, then divide by 2.",
+              "hint_zh": "首先从两边减去5，然后除以2。"
             }
           ]
         },
@@ -3720,6 +2581,8 @@
             {
               "id": "ex1",
               "type": "mcq",
+              "question": "Find the volume of a cube with side 6 cm.",
+              "question_zh": "求边长6厘米的立方体的体积。",
               "choices": [
                 "36 cm³",
                 "108 cm³",
@@ -3734,13 +2597,13 @@
               ],
               "answer": 2,
               "explanation": "Volume = side³ = 6³ = 216 cm³",
-              "explanation_zh": "体积 = 边³ = 6³ = 216 cm³",
-              "prompt": "Find the volume of a cube with side 6 cm.",
-              "prompt_zh": "求边长6厘米的立方体的体积。"
+              "explanation_zh": "体积 = 边³ = 6³ = 216 cm³"
             },
             {
               "id": "ex2",
               "type": "mcq",
+              "question": "A cuboid measures 10 cm × 4 cm × 5 cm. Find its volume.",
+              "question_zh": "一个长方体尺寸为10厘米 × 4厘米 × 5厘米。求其体积。",
               "choices": [
                 "200 cm³",
                 "180 cm³",
@@ -3755,13 +2618,13 @@
               ],
               "answer": 0,
               "explanation": "Volume = l × w × h = 10 × 4 × 5 = 200 cm³",
-              "explanation_zh": "体积 = 长 × 宽 × 高 = 10 × 4 × 5 = 200 cm³",
-              "prompt": "A cuboid measures 10 cm × 4 cm × 5 cm. Find its volume.",
-              "prompt_zh": "一个长方体尺寸为10厘米 × 4厘米 × 5厘米。求其体积。"
+              "explanation_zh": "体积 = 长 × 宽 × 高 = 10 × 4 × 5 = 200 cm³"
             },
             {
               "id": "ex3",
               "type": "mcq",
+              "question": "What is the surface area of a cube with side 3 cm?",
+              "question_zh": "边长3厘米的立方体的表面积是多少？",
               "choices": [
                 "27 cm²",
                 "36 cm²",
@@ -3776,23 +2639,23 @@
               ],
               "answer": 2,
               "explanation": "Surface Area = 6 × side² = 6 × 3² = 6 × 9 = 54 cm²",
-              "explanation_zh": "表面积 = 6 × 边² = 6 × 3² = 6 × 9 = 54 cm²",
-              "prompt": "What is the surface area of a cube with side 3 cm?",
-              "prompt_zh": "边长3厘米的立方体的表面积是多少？"
+              "explanation_zh": "表面积 = 6 × 边² = 6 × 3² = 6 × 9 = 54 cm²"
             },
             {
               "id": "ex4",
               "type": "short",
+              "question": "A cylinder has radius 5 cm and height 10 cm. Find its volume (use π ≈ 3.14).",
+              "question_zh": "一个圆柱体半径5厘米，高10厘米。求其体积（使用π ≈ 3.14）。",
               "answer": "785",
               "validator": "numeric",
               "explanation": "V = πr²h = 3.14 × 5² × 10 = 3.14 × 25 × 10 = 785 cm³",
-              "explanation_zh": "V = πr²h = 3.14 × 5² × 10 = 3.14 × 25 × 10 = 785 cm³",
-              "prompt": "A cylinder has radius 5 cm and height 10 cm. Find its volume (use π ≈ 3.14).",
-              "prompt_zh": "一个圆柱体半径5厘米，高10厘米。求其体积（使用π ≈ 3.14）。"
+              "explanation_zh": "V = πr²h = 3.14 × 5² × 10 = 3.14 × 25 × 10 = 785 cm³"
             },
             {
               "id": "ex5",
               "type": "mcq",
+              "question": "A water tank is 2 m³. How many litres of water can it hold?",
+              "question_zh": "一个水箱是2 m³。它能容纳多少升水？",
               "choices": [
                 "200 L",
                 "500 L",
@@ -3807,9 +2670,7 @@
               ],
               "answer": 3,
               "explanation": "1 m³ = 1000 litres, so 2 m³ = 2000 litres",
-              "explanation_zh": "1 m³ = 1000升，所以2 m³ = 2000升",
-              "prompt": "A water tank is 2 m³. How many litres of water can it hold?",
-              "prompt_zh": "一个水箱是2 m³。它能容纳多少升水？"
+              "explanation_zh": "1 m³ = 1000升，所以2 m³ = 2000升"
             }
           ]
         }

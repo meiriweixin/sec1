@@ -1,0 +1,142 @@
+{
+  "id": "chinese-grammar-fundamentals",
+  "title": "Grammar Fundamentals (语法基础)",
+  "title_zh": "语法基础",
+  "description": "Master fundamental Chinese grammar including sentence structure, measure words, and word order",
+  "description_zh": "掌握中文语法基础，包括句子结构、量词和词序",
+  "objectives": [
+    "Understand Subject-Verb-Object (主谓宾) sentence structure",
+    "Master the use of measure words (量词)",
+    "Apply correct word order in Chinese sentences",
+    "Recognize and use common sentence patterns"
+  ],
+  "objectives_zh": [
+    "理解主谓宾句子结构",
+    "掌握量词的使用",
+    "应用中文句子中的正确词序",
+    "识别和使用常见句型"
+  ],
+  "sections": [
+    {
+      "id": "sentence-structure",
+      "type": "text",
+      "title": "Sentence Structure (主谓宾)",
+      "title_zh": "句子结构（主谓宾）",
+      "content": "**Basic Chinese Sentence Pattern: Subject (主语) + Verb (谓语) + Object (宾语)**\n\nThe most basic sentence structure in Chinese follows the Subject-Verb-Object pattern.\n\n**Examples:**\n- 我 (I) + 吃 (eat) + 饭 (rice) = 我吃饭。\n- 他 (he) + 看 (read) + 书 (book) = 他看书。\n- 我们 (we) + 学 (study) + 中文 (Chinese) = 我们学中文。\n\n**With Time Expression:**\nTime words usually come after the subject or at the beginning.\n\n- 我**今天**吃饭。(I eat today.)\n- **今天**我吃饭。(Today I eat.)\n\n**With Place Expression:**\nPlace words come before the verb.\n\n- 我**在学校**学中文。(I study Chinese at school.)\n- 他**在图书馆**看书。(He reads books in the library.)\n\n**Singapore Context:**\n- 我在新加坡学习。(I study in Singapore.)\n- 我们在小贩中心吃饭。(We eat at the hawker centre.)",
+      "content_zh": "**基本中文句型：主语 + 谓语 + 宾语**\n\n中文最基本的句子结构遵循主谓宾模式。\n\n**例子：**\n- 我（主语）+ 吃（谓语）+ 饭（宾语）= 我吃饭。\n- 他（主语）+ 看（谓语）+ 书（宾语）= 他看书。\n- 我们（主语）+ 学（谓语）+ 中文（宾语）= 我们学中文。\n\n**带时间状语：**\n时间词通常放在主语后或句首。\n\n- 我**今天**吃饭。\n- **今天**我吃饭。\n\n**带地点状语：**\n地点词放在动词前。\n\n- 我**在学校**学中文。\n- 他**在图书馆**看书。\n\n**新加坡语境：**\n- 我在新加坡学习。\n- 我们在小贩中心吃饭。"
+    },
+    {
+      "id": "measure-words",
+      "type": "text",
+      "title": "Measure Words (量词)",
+      "title_zh": "量词",
+      "content": "**What are Measure Words?**\nIn Chinese, you cannot say \"one book\" directly. You must use a measure word between the number and the noun: \"一**本**书\" (one **[measure word]** book).\n\n**Common Measure Words:**\n\n**个 (gè)** - General measure word\n- 一个人 (one person)\n- 两个苹果 (two apples)\n- 三个问题 (three questions)\n\n**本 (běn)** - Books, notebooks\n- 一本书 (one book)\n- 两本杂志 (two magazines)\n\n**张 (zhāng)** - Flat objects (paper, tables, beds)\n- 一张纸 (one piece of paper)\n- 三张桌子 (three tables)\n- 一张床 (one bed)\n\n**件 (jiàn)** - Clothing, matters\n- 一件衣服 (one piece of clothing)\n- 两件事 (two matters)\n\n**支 (zhī)** - Long thin objects (pens, pencils)\n- 一支笔 (one pen)\n- 两支铅笔 (two pencils)\n\n**条 (tiáo)** - Long flexible objects (roads, rivers, fish)\n- 一条路 (one road)\n- 一条河 (one river)\n- 一条鱼 (one fish)\n\n**只 (zhī)** - Animals, one of a pair\n- 一只猫 (one cat)\n- 两只鸟 (two birds)\n- 一只手 (one hand)\n\n**Singapore Examples:**\n- 一**碗**叻沙 (one bowl of laksa)\n- 两**杯**咖啡 (two cups of coffee)\n- 三**张**组屋 (three HDB flats) - Note: In Singapore, we often say 三**个**组屋",
+      "content_zh": "**什么是量词？**\n在中文中，你不能直接说\"一书\"。你必须在数字和名词之间使用量词：\"一**本**书\"。\n\n**常用量词：**\n\n**个（gè）** - 通用量词\n- 一个人\n- 两个苹果\n- 三个问题\n\n**本（běn）** - 书、笔记本\n- 一本书\n- 两本杂志\n\n**张（zhāng）** - 扁平物体（纸、桌子、床）\n- 一张纸\n- 三张桌子\n- 一张床\n\n**件（jiàn）** - 衣服、事情\n- 一件衣服\n- 两件事\n\n**支（zhī）** - 细长物体（笔）\n- 一支笔\n- 两支铅笔\n\n**条（tiáo）** - 细长柔软物体（路、河、鱼）\n- 一条路\n- 一条河\n- 一条鱼\n\n**只（zhī）** - 动物、成对物体之一\n- 一只猫\n- 两只鸟\n- 一只手\n\n**新加坡例子：**\n- 一**碗**叻沙\n- 两**杯**咖啡\n- 三**个**组屋"
+    },
+    {
+      "id": "word-order",
+      "type": "text",
+      "title": "Word Order Rules",
+      "title_zh": "词序规则",
+      "content": "**Standard Word Order in Chinese:**\n\n**1. Time + Subject + Place + Manner + Verb + Object**\n\n- (今天) + 我 + (在学校) + (认真地) + 学习 + 中文\n- (Today) + I + (at school) + (seriously) + study + Chinese\n\n**2. Time Position:**\n- ✅ 我**昨天**去了图书馆。(I went to the library yesterday.)\n- ✅ **昨天**我去了图书馆。(Yesterday I went to the library.)\n- ❌ 我去了图书馆**昨天**。(WRONG in Chinese!)\n\n**3. Place Before Verb:**\n- ✅ 我**在家**吃饭。(I eat at home.)\n- ❌ 我吃饭**在家**。(WRONG!)\n\n**4. Manner Before Verb:**\n- ✅ 他**慢慢地**走。(He walks slowly.)\n- ❌ 他走**慢慢地**。(WRONG!)\n\n**5. Duration After Verb:**\n- ✅ 我学了**两年**中文。(I studied Chinese for two years.)\n- ❌ 我学中文**两年**了。(Less common)\n\n**Question Words Stay in Place:**\nUnlike English, question words don't move to the front.\n\n- English: **What** do you eat? (What moves to front)\n- Chinese: 你吃**什么**？(What stays in object position)\n\n**Singapore Context:**\n- 我**每天**在新加坡**坐地铁**。(I take the MRT in Singapore every day.)\n- 我们**通常**在小贩中心**吃午饭**。(We usually eat lunch at hawker centres.)",
+      "content_zh": "**中文标准词序：**\n\n**1. 时间 + 主语 + 地点 + 方式 + 动词 + 宾语**\n\n- （今天）+ 我 + （在学校）+ （认真地）+ 学习 + 中文\n\n**2. 时间位置：**\n- ✅ 我**昨天**去了图书馆。\n- ✅ **昨天**我去了图书馆。\n- ❌ 我去了图书馆**昨天**。（错误！）\n\n**3. 地点在动词前：**\n- ✅ 我**在家**吃饭。\n- ❌ 我吃饭**在家**。（错误！）\n\n**4. 方式在动词前：**\n- ✅ 他**慢慢地**走。\n- ❌ 他走**慢慢地**。（错误！）\n\n**5. 时量在动词后：**\n- ✅ 我学了**两年**中文。\n- ❌ 我学中文**两年**了。（较少用）\n\n**疑问词保持原位：**\n与英语不同，疑问词不移到句首。\n\n- 英语：**What** do you eat?（What移到前面）\n- 中文：你吃**什么**？（什么保持在宾语位置）\n\n**新加坡语境：**\n- 我**每天**在新加坡**坐地铁**。\n- 我们**通常**在小贩中心**吃午饭**。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "drag-order",
+      "question": "Arrange these words in correct order: 我 / 在学校 / 学习 / 认真地 / 中文",
+      "question_zh": "将这些词排列成正确的顺序：我 / 在学校 / 学习 / 认真地 / 中文",
+      "items": [
+        "我",
+        "在学校",
+        "认真地",
+        "学习",
+        "中文"
+      ],
+      "correctOrder": [
+        "我",
+        "在学校",
+        "认真地",
+        "学习",
+        "中文"
+      ],
+      "explanation": "Correct order: Subject + Place + Manner + Verb + Object",
+      "explanation_zh": "正确顺序：主语 + 地点 + 方式 + 动词 + 宾语"
+    },
+    {
+      "id": "ex2",
+      "type": "mcq",
+      "question": "Choose the correct measure word: 一___书",
+      "question_zh": "选择正确的量词：一___书",
+      "choices": [
+        "个",
+        "本",
+        "张",
+        "支"
+      ],
+      "choices_zh": [
+        "个",
+        "本",
+        "张",
+        "支"
+      ],
+      "answer": 1,
+      "explanation": "Books use the measure word '本' (běn)",
+      "explanation_zh": "书用量词'本'"
+    },
+    {
+      "id": "ex3",
+      "type": "mcq",
+      "question": "Which sentence has correct word order?",
+      "question_zh": "哪个句子的词序正确？",
+      "choices": [
+        "我去了图书馆昨天。",
+        "昨天我去了图书馆。",
+        "我昨天了去图书馆。",
+        "图书馆我去了昨天。"
+      ],
+      "choices_zh": [
+        "我去了图书馆昨天。",
+        "昨天我去了图书馆。",
+        "我昨天了去图书馆。",
+        "图书馆我去了昨天。"
+      ],
+      "answer": 1,
+      "explanation": "Time expressions can come at the beginning or after the subject, but not at the end.",
+      "explanation_zh": "时间状语可以放在句首或主语后，但不能放在句尾。"
+    },
+    {
+      "id": "ex4",
+      "type": "mcq",
+      "question": "Choose the correct sentence:",
+      "question_zh": "选择正确的句子：",
+      "choices": [
+        "我吃饭在家。",
+        "我在家吃饭。",
+        "在家我吃饭。",
+        "吃饭我在家。"
+      ],
+      "choices_zh": [
+        "我吃饭在家。",
+        "我在家吃饭。",
+        "在家我吃饭。",
+        "吃饭我在家。"
+      ],
+      "answer": 1,
+      "explanation": "Place expressions come before the verb: 我在家吃饭",
+      "explanation_zh": "地点状语放在动词前：我在家吃饭"
+    },
+    {
+      "id": "ex5",
+      "type": "short",
+      "question": "Fill in the correct measure word: 三___猫",
+      "question_zh": "填入正确的量词：三___猫",
+      "answer": "只",
+      "validator": "exact",
+      "explanation": "Animals use the measure word '只' (zhī)",
+      "explanation_zh": "动物用量词'只'"
+    }
+  ]
+}

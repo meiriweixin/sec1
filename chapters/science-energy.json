@@ -1,0 +1,83 @@
+{
+  "id": "energy",
+  "title": "Energy",
+  "title_zh": "能量",
+  "description": "Understand different forms of energy and energy transformations",
+  "description_zh": "理解不同形式的能量和能量转换",
+  "tag": "Physics",
+  "tag_zh": "物理",
+  "objectives": [
+    "Identify different forms of energy",
+    "Understand energy transformations",
+    "Apply law of conservation of energy",
+    "Recognize energy in daily life"
+  ],
+  "objectives_zh": [
+    "识别不同形式的能量",
+    "理解能量转换",
+    "应用能量守恒定律",
+    "识别日常生活中的能量"
+  ],
+  "sections": [
+    {
+      "id": "forms-of-energy",
+      "type": "text",
+      "title": "Forms of Energy",
+      "title_zh": "能量的形式",
+      "content": "**Main Forms of Energy:**\n\n**1. Kinetic Energy** - Energy of movement\n- Moving car, flowing water, flying bird\n\n**2. Potential Energy** - Stored energy\n- Object held high, stretched spring, compressed air\n\n**3. Heat (Thermal) Energy**\n- Hot water, fire, sun\n\n**4. Light Energy**\n- Sun, light bulbs, laser\n\n**5. Sound Energy**\n- Music, speech, thunder\n\n**6. Electrical Energy**\n- Batteries, power outlets\n\n**7. Chemical Energy**\n- Food, batteries, fuel\n\n**Singapore Example:** Solar panels on HDB roofs convert light energy to electrical energy.",
+      "content_zh": "**主要能量形式：**\n\n**1. 动能** - 运动的能量\n- 移动的汽车、流动的水、飞行的鸟\n\n**2. 势能** - 储存的能量\n- 高处的物体、拉伸的弹簧、压缩的空气\n\n**3. 热（热）能**\n- 热水、火、太阳\n\n**4. 光能**\n- 太阳、灯泡、激光\n\n**5. 声能**\n- 音乐、讲话、雷声\n\n**6. 电能**\n- 电池、电源插座\n\n**7. 化学能**\n- 食物、电池、燃料\n\n**新加坡例子：**组屋屋顶的太阳能板将光能转换为电能。"
+    },
+    {
+      "id": "energy-transformation",
+      "type": "text",
+      "title": "Energy Transformation",
+      "title_zh": "能量转换",
+      "content": "**Law of Conservation of Energy:** Energy cannot be created or destroyed, only transformed from one form to another.\n\n**Examples of Energy Transformations:**\n\n**Light bulb:**\nElectrical → Light + Heat\n\n**Microwave:**\nElectrical → Heat\n\n**Solar panel:**\nLight → Electrical\n\n**Hydroelectric dam:**\nPotential (water) → Kinetic → Electrical\n\n**Human eating:**\nChemical (food) → Heat + Kinetic + Sound\n\n**Singapore Context:** NEWater plants use electrical energy to treat water; MRT trains convert electrical energy to kinetic energy.",
+      "content_zh": "**能量守恒定律：**能量不能被创造或破坏，只能从一种形式转换为另一种形式。\n\n**能量转换的例子：**\n\n**灯泡：**\n电能 → 光能 + 热能\n\n**微波炉：**\n电能 → 热能\n\n**太阳能板：**\n光能 → 电能\n\n**水力发电大坝：**\n势能（水）→ 动能 → 电能\n\n**人类进食：**\n化学能（食物）→ 热能 + 动能 + 声能\n\n**新加坡语境：**新生水厂使用电能处理水；地铁列车将电能转换为动能。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "mcq",
+      "question": "What energy transformation occurs in a light bulb?",
+      "question_zh": "灯泡中发生什么能量转换？",
+      "choices": [
+        "Light to electrical",
+        "Electrical to light and heat",
+        "Heat to light",
+        "Chemical to electrical"
+      ],
+      "choices_zh": [
+        "光能到电能",
+        "电能到光能和热能",
+        "热能到光能",
+        "化学能到电能"
+      ],
+      "answer": 1,
+      "explanation": "Light bulbs convert electrical energy into light energy and heat energy",
+      "explanation_zh": "灯泡将电能转换为光能和热能"
+    },
+    {
+      "id": "ex2",
+      "type": "mcq",
+      "question": "A ball rolling down a hill demonstrates which energy transformation?",
+      "question_zh": "球滚下山丘展示了哪种能量转换？",
+      "choices": [
+        "Kinetic to potential",
+        "Potential to kinetic",
+        "Chemical to kinetic",
+        "Electrical to kinetic"
+      ],
+      "choices_zh": [
+        "动能到势能",
+        "势能到动能",
+        "化学能到动能",
+        "电能到动能"
+      ],
+      "answer": 1,
+      "explanation": "As the ball rolls down, potential energy (height) converts to kinetic energy (movement)",
+      "explanation_zh": "球滚下时，势能（高度）转换为动能（运动）"
+    }
+  ]
+}

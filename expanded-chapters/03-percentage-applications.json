@@ -1,0 +1,254 @@
+{
+  "id": "percentage",
+  "title": "Percentage Applications",
+  "title_zh": "百分比应用",
+  "description": "Master percentage calculations including GST, discounts, profit, loss and interest",
+  "description_zh": "掌握百分比计算，包括消费税、折扣、盈亏和利息",
+  "objectives": [
+    "Convert between percentages, fractions and decimals fluently",
+    "Calculate percentage of a quantity",
+    "Find percentage increase and decrease",
+    "Apply GST (Goods and Services Tax) at 9%",
+    "Calculate discounts, profit, loss and simple interest",
+    "Solve real-world percentage problems"
+  ],
+  "objectives_zh": [
+    "流利地在百分数、分数和小数之间转换",
+    "计算数量的百分比",
+    "求百分比增减",
+    "应用9%的消费税（商品及服务税）",
+    "计算折扣、盈亏和单利",
+    "解决实际的百分比问题"
+  ],
+  "sections": [
+    {
+      "id": "intro-percentage",
+      "type": "text",
+      "title": "Understanding Percentages",
+      "title_zh": "理解百分比",
+      "content": "PERCENTAGE means 'per hundred' or 'out of 100'. The symbol % represents 'per hundred'.\n\nKey Concepts:\n• 50% means 50 out of 100, or 50/100, or 0.5, or 1/2\n• 100% means the whole amount\n• 200% means twice the amount\n• 0% means nothing\n\nWhy Use Percentages?\n• Easy to compare different quantities\n• Standard way to express proportions\n• Universal understanding\n\nExamples in Daily Life:\n• Test scores: \"I got 85% in Math\"\n• Sales: \"50% off everything!\"\n• Taxes: \"GST is 9% in Singapore\"\n• Interest: \"Bank gives 2.5% interest per year\"\n• Statistics: \"60% of students prefer online learning\"",
+      "content_zh": "百分比意味着'每百'或'每100个中的'。符号%表示'每百'。\n\n关键概念：\n• 50%意味着100中的50，或50/100，或0.5，或1/2\n• 100%意味着整个数量\n• 200%意味着两倍的数量\n• 0%意味着什么都没有\n\n为什么使用百分比？\n• 易于比较不同数量\n• 表达比例的标准方式\n• 通用理解\n\n日常生活中的例子：\n• 考试分数："我数学考了85%"\n• 销售："所有商品50%折扣！"\n• 税收："新加坡消费税是9%"\n• 利息："银行每年给2.5%利息"\n• 统计："60%的学生喜欢在线学习""
+    },
+    {
+      "id": "converting",
+      "type": "text",
+      "title": "Converting Forms",
+      "title_zh": "转换形式",
+      "content": "CONVERSION METHODS:\n\n1. PERCENTAGE → DECIMAL\n   Divide by 100 (move decimal point 2 places left)\n   • 25% = 25 ÷ 100 = 0.25\n   • 8% = 8 ÷ 100 = 0.08\n   • 150% = 150 ÷ 100 = 1.50\n\n2. DECIMAL → PERCENTAGE\n   Multiply by 100 (move decimal point 2 places right)\n   • 0.6 = 0.6 × 100 = 60%\n   • 0.03 = 0.03 × 100 = 3%\n   • 1.25 = 1.25 × 100 = 125%\n\n3. PERCENTAGE → FRACTION\n   Write as fraction over 100, then simplify\n   • 40% = 40/100 = 2/5\n   • 75% = 75/100 = 3/4\n   • 12.5% = 12.5/100 = 125/1000 = 1/8\n\n4. FRACTION → PERCENTAGE\n   Convert to decimal, then to percentage\n   • 3/5 = 0.6 = 60%\n   • 7/8 = 0.875 = 87.5%\n   • 2/3 = 0.666... = 66.67% (rounded)\n\nCommon Percentages to Remember:\n• 1/2 = 50%\n• 1/4 = 25%, 3/4 = 75%\n• 1/5 = 20%, 2/5 = 40%, 3/5 = 60%, 4/5 = 80%\n• 1/10 = 10%, 3/10 = 30%, 7/10 = 70%",
+      "content_zh": "转换方法：\n\n1. 百分数→小数\n   除以100（小数点左移2位）\n   • 25% = 25 ÷ 100 = 0.25\n   • 8% = 8 ÷ 100 = 0.08\n   • 150% = 150 ÷ 100 = 1.50\n\n2. 小数→百分数\n   乘以100（小数点右移2位）\n   • 0.6 = 0.6 × 100 = 60%\n   • 0.03 = 0.03 × 100 = 3%\n   • 1.25 = 1.25 × 100 = 125%\n\n3. 百分数→分数\n   写成100的分数，然后简化\n   • 40% = 40/100 = 2/5\n   • 75% = 75/100 = 3/4\n   • 12.5% = 12.5/100 = 125/1000 = 1/8\n\n4. 分数→百分数\n   转换为小数，然后转换为百分数\n   • 3/5 = 0.6 = 60%\n   • 7/8 = 0.875 = 87.5%\n   • 2/3 = 0.666... = 66.67%（四舍五入）\n\n常用百分数记住：\n• 1/2 = 50%\n• 1/4 = 25%，3/4 = 75%\n• 1/5 = 20%，2/5 = 40%，3/5 = 60%，4/5 = 80%\n• 1/10 = 10%，3/10 = 30%，7/10 = 70%"
+    },
+    {
+      "id": "finding-percentage",
+      "type": "math",
+      "title": "Finding Percentage of a Quantity",
+      "title_zh": "求数量的百分比",
+      "content": "x% of y = (x/100) × y",
+      "explanation": "METHOD 1: Convert to decimal, then multiply\nFind 30% of 80:\n30% = 0.30\n0.30 × 80 = 24\n\nMETHOD 2: Use fraction\nFind 25% of 60:\n25% = 25/100 = 1/4\n1/4 × 60 = 15\n\nMETHOD 3: Break into parts\nFind 15% of 200:\n10% of 200 = 20\n5% of 200 = 10 (half of 10%)\n15% = 10% + 5% = 20 + 10 = 30\n\nMore Examples:\n• 20% of 50 = 0.2 × 50 = 10\n• 75% of 80 = 0.75 × 80 = 60\n• 5% of 300 = 0.05 × 300 = 15\n• 120% of 40 = 1.2 × 40 = 48\n\nQuick Mental Math Tricks:\n• 10% → divide by 10\n• 50% → divide by 2\n• 25% → divide by 4\n• 5% → find 10%, then halve it",
+      "explanation_zh": "方法1：转换为小数，然后相乘\n求80的30%：\n30% = 0.30\n0.30 × 80 = 24\n\n方法2：使用分数\n求60的25%：\n25% = 25/100 = 1/4\n1/4 × 60 = 15\n\n方法3：分解成部分\n求200的15%：\n200的10% = 20\n200的5% = 10（10%的一半）\n15% = 10% + 5% = 20 + 10 = 30\n\n更多例子：\n• 50的20% = 0.2 × 50 = 10\n• 80的75% = 0.75 × 80 = 60\n• 300的5% = 0.05 × 300 = 15\n• 40的120% = 1.2 × 40 = 48\n\n快速心算技巧：\n• 10% → 除以10\n• 50% → 除以2\n• 25% → 除以4\n• 5% → 求10%，然后减半"
+    },
+    {
+      "id": "percentage-change",
+      "type": "text",
+      "title": "Percentage Increase and Decrease",
+      "title_zh": "百分比增减",
+      "content": "PERCENTAGE INCREASE:\nNew Value = Original + (Percentage × Original)\n= Original × (1 + Percentage as decimal)\n\nExample 1: Increase $50 by 20%\nMethod 1: 20% of 50 = 10, so 50 + 10 = $60\nMethod 2: 50 × 1.20 = $60\n\nExample 2: Increase 80kg by 15%\n15% of 80 = 12kg\n80 + 12 = 92kg\nOR: 80 × 1.15 = 92kg\n\nPERCENTAGE DECREASE:\nNew Value = Original - (Percentage × Original)\n= Original × (1 - Percentage as decimal)\n\nExample 3: Decrease $200 by 30%\nMethod 1: 30% of 200 = 60, so 200 - 60 = $140\nMethod 2: 200 × 0.70 = $140\n\nExample 4: Decrease 150m by 12%\n12% of 150 = 18m\n150 - 18 = 132m\nOR: 150 × 0.88 = 132m\n\nFINDING PERCENTAGE CHANGE:\nPercentage Change = (Change/Original) × 100%\n\nExample 5: Price changes from $40 to $50\nChange = 50 - 40 = $10\nPercentage increase = (10/40) × 100% = 25%\n\nExample 6: Weight drops from 80kg to 72kg\nChange = 80 - 72 = 8kg\nPercentage decrease = (8/80) × 100% = 10%",
+      "content_zh": "百分比增加：\n新值 = 原值 + (百分比 × 原值)\n= 原值 × (1 + 百分比的小数形式)\n\n例1：$50增加20%\n方法1：50的20% = 10，所以50 + 10 = $60\n方法2：50 × 1.20 = $60\n\n例2：80kg增加15%\n80的15% = 12kg\n80 + 12 = 92kg\n或：80 × 1.15 = 92kg\n\n百分比减少：\n新值 = 原值 - (百分比 × 原值)\n= 原值 × (1 - 百分比的小数形式)\n\n例3：$200减少30%\n方法1：200的30% = 60，所以200 - 60 = $140\n方法2：200 × 0.70 = $140\n\n例4：150m减少12%\n150的12% = 18m\n150 - 18 = 132m\n或：150 × 0.88 = 132m\n\n求百分比变化：\n百分比变化 = (变化量/原值) × 100%\n\n例5：价格从$40变为$50\n变化 = 50 - 40 = $10\n百分比增加 = (10/40) × 100% = 25%\n\n例6：体重从80kg降至72kg\n变化 = 80 - 72 = 8kg\n百分比减少 = (8/80) × 100% = 10%"
+    },
+    {
+      "id": "gst-applications",
+      "type": "text",
+      "title": "GST (Goods and Services Tax)",
+      "title_zh": "消费税（商品及服务税）",
+      "content": "In Singapore, GST is 9% (as of 2024). It's added to most goods and services.\n\nCALCULATING PRICE WITH GST:\nFinal Price = Original Price + (9% of Original Price)\n= Original Price × 1.09\n\nExample 1: Item costs $100 before GST\nGST amount = 9% of 100 = $9\nPrice with GST = 100 + 9 = $109\nOR: 100 × 1.09 = $109\n\nExample 2: Meal costs $45 before GST\nGST = 9% of 45 = $4.05\nTotal = 45 + 4.05 = $49.05\nOR: 45 × 1.09 = $49.05\n\nFINDING ORIGINAL PRICE (Before GST):\nIf total price (with GST) is given:\nOriginal Price = Total Price ÷ 1.09\n\nExample 3: Total bill is $218 (including GST)\nOriginal price = 218 ÷ 1.09 = $200\nGST amount = 218 - 200 = $18\n\nExample 4: You paid $54.50 (with GST)\nOriginal = 54.50 ÷ 1.09 = $50\n\nREAL-WORLD TIP:\nWhen you see prices in Singapore:\n• \"Price excludes GST\" → need to add 9%\n• \"GST-inclusive\" or \"Inclusive of GST\" → already included\n• Always check the receipt to see GST breakdown!",
+      "content_zh": "在新加坡，消费税为9%（截至2024年）。它被添加到大多数商品和服务上。\n\n计算含消费税价格：\n最终价格 = 原价 + (原价的9%)\n= 原价 × 1.09\n\n例1：商品税前价格$100\n消费税金额 = 100的9% = $9\n含税价格 = 100 + 9 = $109\n或：100 × 1.09 = $109\n\n例2：餐费税前$45\n消费税 = 45的9% = $4.05\n总计 = 45 + 4.05 = $49.05\n或：45 × 1.09 = $49.05\n\n求原价（税前）：\n如果给出总价（含税）：\n原价 = 总价 ÷ 1.09\n\n例3：总账单是$218（含税）\n原价 = 218 ÷ 1.09 = $200\n消费税金额 = 218 - 200 = $18\n\n例4：你付了$54.50（含税）\n原价 = 54.50 ÷ 1.09 = $50\n\n实用提示：\n当你在新加坡看到价格时：\n• "不含消费税" → 需要加9%\n• "含消费税"或"包括消费税" → 已包含\n• 始终检查收据以查看消费税明细！"
+    },
+    {
+      "id": "discounts",
+      "type": "text",
+      "title": "Discounts and Sale Prices",
+      "title_zh": "折扣和促销价",
+      "content": "DISCOUNT means reduction in price, usually shown as a percentage.\n\nCALCULATING SALE PRICE:\nSale Price = Original - Discount\n= Original × (1 - Discount%)\n\nExample 1: $80 item with 25% discount\nDiscount = 25% of 80 = $20\nSale price = 80 - 20 = $60\nOR: 80 × 0.75 = $60 (since 100% - 25% = 75%)\n\nExample 2: $150 jacket, 40% off\nDiscount = 40% of 150 = $60\nSale = 150 - 60 = $90\nOR: 150 × 0.60 = $90\n\nMULTIPLE DISCOUNTS:\nApply one after another, NOT by adding percentages!\n\nExample 3: $100 item with \"20% off + additional 10% off\"\nAfter 1st discount: 100 × 0.80 = $80\nAfter 2nd discount: 80 × 0.90 = $72\nFinal price: $72\nNOTE: This is NOT 30% off! (that would be $70)\n\nSINGAPORE SALE TERMS:\n• \"50% off\" = half price\n• \"Buy 1 Get 1 Free\" = 50% off total\n• \"$50 off for purchases above $100\" = fixed amount discount\n• \"Additional 20% off marked price\" = apply to already reduced price\n\nFINDING DISCOUNT PERCENTAGE:\nDiscount% = (Discount Amount/Original Price) × 100%\n\nExample 4: Original $200, now $140\nDiscount = 200 - 140 = $60\nDiscount% = (60/200) × 100% = 30%",
+      "content_zh": "折扣意味着价格降低，通常以百分比显示。\n\n计算促销价：\n促销价 = 原价 - 折扣\n= 原价 × (1 - 折扣%)\n\n例1：$80商品享25%折扣\n折扣 = 80的25% = $20\n促销价 = 80 - 20 = $60\n或：80 × 0.75 = $60（因为100% - 25% = 75%）\n\n例2：$150夹克，40%折扣\n折扣 = 150的40% = $60\n促销价 = 150 - 60 = $90\n或：150 × 0.60 = $90\n\n多重折扣：\n逐个应用，不是相加百分比！\n\n例3：$100商品"20%折扣+额外10%折扣"\n第1次折扣后：100 × 0.80 = $80\n第2次折扣后：80 × 0.90 = $72\n最终价格：$72\n注意：这不是30%折扣！（那将是$70）\n\n新加坡促销术语：\n• "50%折扣" = 半价\n• "买一送一" = 总价50%折扣\n• "购买超过$100减$50" = 固定金额折扣\n• "标价额外20%折扣" = 应用于已降价的价格\n\n求折扣百分比：\n折扣% = (折扣金额/原价) × 100%\n\n例4：原价$200，现在$140\n折扣 = 200 - 140 = $60\n折扣% = (60/200) × 100% = 30%"
+    },
+    {
+      "id": "profit-loss",
+      "type": "text",
+      "title": "Profit, Loss and Markup",
+      "title_zh": "盈利、亏损和加价",
+      "content": "PROFIT: When selling price > cost price\nProfit = Selling Price - Cost Price\nProfit% = (Profit/Cost Price) × 100%\n\nExample 1: Buy for $60, sell for $80\nProfit = 80 - 60 = $20\nProfit% = (20/60) × 100% = 33.33%\n\nLOSS: When selling price < cost price\nLoss = Cost Price - Selling Price\nLoss% = (Loss/Cost Price) × 100%\n\nExample 2: Buy for $50, sell for $40\nLoss = 50 - 40 = $10\nLoss% = (10/50) × 100% = 20%\n\nFINDING SELLING PRICE:\nWith profit: SP = CP × (1 + Profit%)\nWith loss: SP = CP × (1 - Loss%)\n\nExample 3: Cost $120, want 25% profit\nSP = 120 × 1.25 = $150\n\nExample 4: Cost $80, willing to accept 15% loss\nSP = 80 × 0.85 = $68\n\nFINDING COST PRICE:\nFrom profit: CP = SP ÷ (1 + Profit%)\nFrom loss: CP = SP ÷ (1 - Loss%)\n\nExample 5: Sold for $90 at 20% profit\nCP = 90 ÷ 1.20 = $75\n\nMARKUP:\nRetailers add markup to cost to set selling price.\nMarked Price = Cost + (Markup% × Cost)\n\nExample 6: Shop buys at $40, adds 60% markup\nMarked price = 40 × 1.60 = $64",
+      "content_zh": "盈利：当售价>成本价\n盈利 = 售价 - 成本价\n盈利% = (盈利/成本价) × 100%\n\n例1：$60买入，$80卖出\n盈利 = 80 - 60 = $20\n盈利% = (20/60) × 100% = 33.33%\n\n亏损：当售价<成本价\n亏损 = 成本价 - 售价\n亏损% = (亏损/成本价) × 100%\n\n例2：$50买入，$40卖出\n亏损 = 50 - 40 = $10\n亏损% = (10/50) × 100% = 20%\n\n求售价：\n有盈利：售价 = 成本价 × (1 + 盈利%)\n有亏损：售价 = 成本价 × (1 - 亏损%)\n\n例3：成本$120，想要25%盈利\n售价 = 120 × 1.25 = $150\n\n例4：成本$80，愿意接受15%亏损\n售价 = 80 × 0.85 = $68\n\n求成本价：\n从盈利：成本价 = 售价 ÷ (1 + 盈利%)\n从亏损：成本价 = 售价 ÷ (1 - 亏损%)\n\n例5：以20%盈利卖出$90\n成本价 = 90 ÷ 1.20 = $75\n\n加价：\n零售商在成本上加价以设定售价。\n标价 = 成本 + (加价% × 成本)\n\n例6：商店以$40购入，加价60%\n标价 = 40 × 1.60 = $64"
+    },
+    {
+      "id": "simple-interest",
+      "type": "text",
+      "title": "Simple Interest",
+      "title_zh": "单利",
+      "content": "SIMPLE INTEREST: Money earned on savings or charged on loans.\n\nFormula: I = (P × R × T) / 100\nWhere:\n• I = Interest\n• P = Principal (initial amount)\n• R = Rate per year (%)\n• T = Time (in years)\n\nTotal Amount = Principal + Interest\n\nExample 1: Deposit $1000 at 3% per year for 2 years\nI = (1000 × 3 × 2) / 100\nI = 6000 / 100 = $60\nTotal = 1000 + 60 = $1060\n\nExample 2: Borrow $5000 at 5% per year for 3 years\nI = (5000 × 5 × 3) / 100\nI = 75000 / 100 = $750\nTotal to repay = 5000 + 750 = $5750\n\nExample 3: How long to earn $120 interest on $2000 at 4%?\nI = (P × R × T) / 100\n120 = (2000 × 4 × T) / 100\n120 = 80T\nT = 120 ÷ 80 = 1.5 years\n\nExample 4: What rate gives $150 interest on $1500 in 2 years?\n150 = (1500 × R × 2) / 100\n150 = 30R\nR = 150 ÷ 30 = 5%\n\nREAL APPLICATION:\nBanks in Singapore typically offer 0.05% to 3% interest on savings.\nCredit card interest can be 24% per year or more!\nAlways compare rates before borrowing or saving.",
+      "content_zh": "单利：储蓄赚取的钱或贷款收取的费用。\n\n公式：I = (P × R × T) / 100\n其中：\n• I = 利息\n• P = 本金（初始金额）\n• R = 年利率（%）\n• T = 时间（年）\n\n总金额 = 本金 + 利息\n\n例1：存入$1000，年利率3%，2年\nI = (1000 × 3 × 2) / 100\nI = 6000 / 100 = $60\n总计 = 1000 + 60 = $1060\n\n例2：借款$5000，年利率5%，3年\nI = (5000 × 5 × 3) / 100\nI = 75000 / 100 = $750\n需偿还总计 = 5000 + 750 = $5750\n\n例3：$2000以4%利率赚取$120利息需要多长时间？\nI = (P × R × T) / 100\n120 = (2000 × 4 × T) / 100\n120 = 80T\nT = 120 ÷ 80 = 1.5年\n\n例4：$1500在2年内获得$150利息需要什么利率？\n150 = (1500 × R × 2) / 100\n150 = 30R\nR = 150 ÷ 30 = 5%\n\n实际应用：\n新加坡的银行通常提供0.05%至3%的储蓄利息。\n信用卡利息可能是每年24%或更多！\n借款或储蓄前始终比较利率。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Convert 0.65 to a percentage.",
+      "prompt_zh": "将0.65转换为百分数。",
+      "choices": ["6.5%", "65%", "0.65%", "650%"],
+      "answer": 1,
+      "hint": "Multiply by 100 to convert decimal to percentage.",
+      "hint_zh": "乘以100将小数转换为百分数。",
+      "explanation": "0.65 × 100 = 65%",
+      "explanation_zh": "0.65 × 100 = 65%"
+    },
+    {
+      "id": "q2",
+      "type": "short",
+      "prompt": "Find 30% of 120.",
+      "prompt_zh": "求120的30%。",
+      "answer": "36",
+      "validator": "numeric",
+      "hint": "30% = 0.30, then multiply: 0.30 × 120",
+      "hint_zh": "30% = 0.30，然后相乘：0.30 × 120",
+      "explanation": "30% of 120 = 0.30 × 120 = 36",
+      "explanation_zh": "120的30% = 0.30 × 120 = 36"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "A $200 item is discounted by 15%. What is the sale price?",
+      "prompt_zh": "一件$200的商品打85折(15% off)。售价是多少？",
+      "choices": ["$170", "$180", "$185", "$190"],
+      "answer": 0,
+      "hint": "Sale price = Original × (1 - 0.15) = 200 × 0.85",
+      "hint_zh": "售价 = 原价 × (1 - 0.15) = 200 × 0.85",
+      "explanation": "15% of 200 = 30. Sale price = 200 - 30 = $170. OR: 200 × 0.85 = $170",
+      "explanation_zh": "200的15% = 30。售价 = 200 - 30 = $170。或：200 × 0.85 = $170"
+    },
+    {
+      "id": "q4",
+      "type": "short",
+      "prompt": "An item costs $80 before GST (9%). What is the final price including GST?",
+      "prompt_zh": "一件商品税前价格$80（消费税9%）。含税最终价格是多少？",
+      "answer": "87.20",
+      "validator": "numeric",
+      "hint": "Multiply by 1.09 to add 9% GST: 80 × 1.09",
+      "hint_zh": "乘以1.09来加9%消费税：80 × 1.09",
+      "explanation": "Price with GST = 80 × 1.09 = $87.20",
+      "explanation_zh": "含税价格 = 80 × 1.09 = $87.20"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "If the final bill is $109 (including 9% GST), what was the original price before GST?",
+      "prompt_zh": "如果最终账单是$109（含9%消费税），税前原价是多少？",
+      "choices": ["$95", "$100", "$105", "$98.19"],
+      "answer": 1,
+      "hint": "Divide by 1.09 to find original: 109 ÷ 1.09",
+      "hint_zh": "除以1.09求原价：109 ÷ 1.09",
+      "explanation": "Original price = 109 ÷ 1.09 = $100",
+      "explanation_zh": "原价 = 109 ÷ 1.09 = $100"
+    },
+    {
+      "id": "q6",
+      "type": "short",
+      "prompt": "A quantity increases from 80 to 100. What is the percentage increase?",
+      "prompt_zh": "数量从80增加到100。百分比增加是多少？",
+      "answer": "25",
+      "validator": "numeric",
+      "hint": "Change = 100 - 80 = 20. Percentage = (20/80) × 100%",
+      "hint_zh": "变化 = 100 - 80 = 20。百分比 = (20/80) × 100%",
+      "explanation": "Increase = 100 - 80 = 20. Percentage = (20/80) × 100% = 25%",
+      "explanation_zh": "增加 = 100 - 80 = 20。百分比 = (20/80) × 100% = 25%"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "An item bought for $60 is sold for $75. What is the profit percentage?",
+      "prompt_zh": "一件以$60购入的商品以$75卖出。盈利百分比是多少？",
+      "choices": ["15%", "20%", "25%", "30%"],
+      "answer": 2,
+      "hint": "Profit = 75 - 60 = 15. Profit% = (15/60) × 100%",
+      "hint_zh": "盈利 = 75 - 60 = 15。盈利% = (15/60) × 100%",
+      "explanation": "Profit = $15. Profit% = (15/60) × 100% = 25%",
+      "explanation_zh": "盈利 = $15。盈利% = (15/60) × 100% = 25%"
+    },
+    {
+      "id": "q8",
+      "type": "short",
+      "prompt": "Calculate simple interest on $2000 at 4% per year for 3 years.",
+      "prompt_zh": "计算$2000以年利率4%存3年的单利。",
+      "answer": "240",
+      "validator": "numeric",
+      "hint": "Use formula: I = (P × R × T) / 100 = (2000 × 4 × 3) / 100",
+      "hint_zh": "使用公式：I = (P × R × T) / 100 = (2000 × 4 × 3) / 100",
+      "explanation": "I = (2000 × 4 × 3) / 100 = 24000 / 100 = $240",
+      "explanation_zh": "I = (2000 × 4 × 3) / 100 = 24000 / 100 = $240"
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "A shop offers '20% off, then additional 10% off'. What is the final discount on a $100 item?",
+      "prompt_zh": "一家商店提供'20%折扣，然后额外10%折扣'。$100商品的最终折扣是多少？",
+      "choices": ["30%", "28%", "32%", "25%"],
+      "answer": 1,
+      "hint": "Apply discounts one by one: 100 × 0.80 × 0.90. Then compare to original.",
+      "hint_zh": "逐个应用折扣：100 × 0.80 × 0.90。然后与原价比较。",
+      "explanation": "After 1st: 100 × 0.80 = $80. After 2nd: 80 × 0.90 = $72. Total discount = 100 - 72 = $28, which is 28%.",
+      "explanation_zh": "第1次后：100 × 0.80 = $80。第2次后：80 × 0.90 = $72。总折扣 = 100 - 72 = $28，即28%。"
+    },
+    {
+      "id": "q10",
+      "type": "drag-order",
+      "prompt": "Arrange these percentages from smallest to largest:",
+      "prompt_zh": "从小到大排列这些百分数：",
+      "items": ["5%", "50%", "15%", "125%"],
+      "answer": ["5%", "15%", "50%", "125%"],
+      "hint": "Compare the numbers: 5, 15, 50, 125",
+      "hint_zh": "比较数字：5，15，50，125"
+    },
+    {
+      "id": "q11",
+      "type": "multi",
+      "prompt": "Which of the following are equivalent to 25%?",
+      "prompt_zh": "以下哪些等于25%？",
+      "choices": ["1/4", "0.25", "0.025", "25/100"],
+      "answer": [0, 1, 3],
+      "hint": "Convert each to decimal or fraction form to check.",
+      "hint_zh": "将每个转换为小数或分数形式来检查。",
+      "explanation": "25% = 0.25 = 1/4 = 25/100. But 0.025 = 2.5%.",
+      "explanation_zh": "25% = 0.25 = 1/4 = 25/100。但0.025 = 2.5%。"
+    },
+    {
+      "id": "q12",
+      "type": "match",
+      "prompt": "Match each scenario with its calculation:",
+      "prompt_zh": "将每个场景与其计算匹配：",
+      "pairs": [
+        ["Add 9% GST to $50", "$54.50"],
+        ["20% discount on $80", "$64"],
+        ["25% profit on $40", "$50 selling price"],
+        ["50% of $90", "$45"]
+      ],
+      "pairs_zh": [
+        ["$50加9%消费税", "$54.50"],
+        ["$80打八折(20%折扣)", "$64"],
+        ["$40成本25%盈利", "$50售价"],
+        ["$90的50%", "$45"]
+      ],
+      "hint": "Calculate each: (1) 50×1.09, (2) 80×0.80, (3) 40×1.25, (4) 90×0.50",
+      "hint_zh": "计算每个：(1) 50×1.09，(2) 80×0.80，(3) 40×1.25，(4) 90×0.50"
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+

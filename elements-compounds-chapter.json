@@ -1,0 +1,159 @@
+{
+  "id": "elements-compounds",
+  "title": "Elements, Compounds & Chemical Formulas",
+  "title_zh": "元素、化合物和化学式",
+  "tag": "Chemistry",
+  "tag_zh": "化学",
+  "description": "Learn about elements, compounds, and how to write chemical formulas",
+  "description_zh": "学习元素、化合物以及如何书写化学式",
+  "objectives": [
+    "Define elements and compounds",
+    "Understand the periodic table basics",
+    "Write chemical formulas correctly",
+    "Distinguish between elements, compounds, and mixtures"
+  ],
+  "objectives_zh": [
+    "定义元素和化合物",
+    "理解周期表基础知识",
+    "正确书写化学式",
+    "区分元素、化合物和混合物"
+  ],
+  "sections": [
+    {
+      "id": "elements-intro",
+      "type": "text",
+      "title": "What are Elements?",
+      "title_zh": "什么是元素？",
+      "content": "**Elements** are pure substances made of only one type of atom. They cannot be broken down into simpler substances by chemical means.\n\n**Key Points:**\n- Elements are the building blocks of all matter\n- Each element has unique properties\n- Elements are represented by chemical symbols (1-2 letters)\n- There are 118 known elements (92 occur naturally)\n\n**Common Elements in Daily Life:**\n- **Oxygen (O)** - In the air we breathe (21% of atmosphere)\n- **Hydrogen (H)** - Most abundant element in the universe\n- **Carbon (C)** - Found in all living things\n- **Nitrogen (N)** - Makes up 78% of Earth's atmosphere\n- **Iron (Fe)** - Used in construction, found in blood (hemoglobin)\n- **Gold (Au)** - Jewelry, electronics\n- **Silver (Ag)** - Jewelry, coins, antibacterial properties\n\n**Singapore Context:**\nSingapore imports many pure elements for its electronics and pharmaceutical industries, making chemistry knowledge essential for the local economy.",
+      "content_zh": "**元素**是仅由一种原子组成的纯净物质。它们不能通过化学方法分解成更简单的物质。\n\n**要点：**\n- 元素是所有物质的基本组成部分\n- 每种元素都有独特的性质\n- 元素用化学符号表示（1-2个字母）\n- 已知有118种元素（92种自然存在）\n\n**日常生活中的常见元素：**\n- **氧气 (O)** - 我们呼吸的空气中（占大气的21%）\n- **氢气 (H)** - 宇宙中最丰富的元素\n- **碳 (C)** - 存在于所有生物中\n- **氮气 (N)** - 占地球大气的78%\n- **铁 (Fe)** - 用于建筑，存在于血液中（血红蛋白）\n- **金 (Au)** - 珠宝、电子产品\n- **银 (Ag)** - 珠宝、硬币、抗菌性质\n\n**新加坡背景：**\n新加坡为其电子和制药行业进口许多纯元素，使化学知识对当地经济至关重要。"
+    },
+    {
+      "id": "periodic-table",
+      "type": "text",
+      "title": "The Periodic Table",
+      "title_zh": "元素周期表",
+      "content": "The **Periodic Table** organizes all known elements by their atomic number and properties.\n\n**Structure:**\n- **Rows = Periods** (7 periods)\n- **Columns = Groups** (18 groups)\n- Elements in the same group have similar chemical properties\n\n**Important Element Groups:**\n\n**1. Group 1 - Alkali Metals**\n- Lithium (Li), Sodium (Na), Potassium (K)\n- Very reactive, soft metals\n- React violently with water\n\n**2. Group 17 - Halogens**\n- Fluorine (F), Chlorine (Cl), Bromine (Br), Iodine (I)\n- Very reactive non-metals\n- Used in disinfection (chlorine in pools)\n\n**3. Group 18 - Noble Gases**\n- Helium (He), Neon (Ne), Argon (Ar)\n- Unreactive (stable)\n- Used in lighting (neon signs)\n\n**Metals vs Non-Metals:**\n- **Metals** (left side): Shiny, conduct electricity, malleable\n- **Non-metals** (right side): Dull, poor conductors, brittle\n- **Metalloids** (diagonal line): Properties of both\n\n**Reading the Periodic Table:**\nEach element box contains:\n- **Chemical Symbol** (e.g., Na)\n- **Atomic Number** (number of protons)\n- **Element Name** (Sodium)\n- **Atomic Mass** (average mass of atoms)",
+      "content_zh": "**元素周期表**按原子序数和性质组织所有已知元素。\n\n**结构：**\n- **行 = 周期**（7个周期）\n- **列 = 族**（18个族）\n- 同一族的元素具有相似的化学性质\n\n**重要元素族：**\n\n**1. 第1族 - 碱金属**\n- 锂 (Li)、钠 (Na)、钾 (K)\n- 非常活泼的软金属\n- 与水剧烈反应\n\n**2. 第17族 - 卤素**\n- 氟 (F)、氯 (Cl)、溴 (Br)、碘 (I)\n- 非常活泼的非金属\n- 用于消毒（游泳池中的氯）\n\n**3. 第18族 - 稀有气体**\n- 氦 (He)、氖 (Ne)、氩 (Ar)\n- 不活泼（稳定）\n- 用于照明（霓虹灯）\n\n**金属与非金属：**\n- **金属**（左侧）：有光泽、导电、可延展\n- **非金属**（右侧）：无光泽、不良导体、易碎\n- **类金属**（对角线）：两者的性质\n\n**阅读元素周期表：**\n每个元素框包含：\n- **化学符号**（例如，Na）\n- **原子序数**（质子数）\n- **元素名称**（钠）\n- **原子质量**（原子的平均质量）"
+    },
+    {
+      "id": "compounds-intro",
+      "type": "text",
+      "title": "What are Compounds?",
+      "title_zh": "什么是化合物？",
+      "content": "**Compounds** are pure substances made of two or more different elements chemically bonded together in fixed proportions.\n\n**Key Differences: Elements vs Compounds**\n\n| Feature | Element | Compound |\n|---------|---------|----------|\n| **Composition** | One type of atom | Two or more types of atoms |\n| **Can be broken down?** | No (by chemical means) | Yes (by chemical reactions) |\n| **Properties** | Unique to that element | Different from constituent elements |\n| **Symbol** | 1-2 letters (e.g., O) | Chemical formula (e.g., H₂O) |\n\n**Common Compounds:**\n\n**1. Water (H₂O)**\n- 2 Hydrogen + 1 Oxygen\n- Properties completely different from H₂ gas or O₂ gas\n- Essential for life\n\n**2. Carbon Dioxide (CO₂)**\n- 1 Carbon + 2 Oxygen\n- Produced by respiration\n- Used by plants in photosynthesis\n\n**3. Table Salt (NaCl)**\n- 1 Sodium + 1 Chlorine\n- Sodium alone: explosive metal\n- Chlorine alone: toxic gas\n- Together: safe to eat!\n\n**4. Sugar (C₁₂H₂₂O₁₁)**\n- 12 Carbon + 22 Hydrogen + 11 Oxygen\n- Complex compound\n- Provides energy\n\n**Singapore Example:**\nWhen you buy a packet drink at a kopitiam, you're consuming many compounds: water (H₂O), sugar (C₁₂H₂₂O₁₁), carbon dioxide (CO₂ for fizz), and various flavoring compounds!",
+      "content_zh": "**化合物**是由两种或多种不同元素以固定比例化学结合而成的纯净物质。\n\n**主要区别：元素与化合物**\n\n| 特征 | 元素 | 化合物 |\n|------|------|--------|\n| **组成** | 一种原子 | 两种或多种原子 |\n| **可以分解吗？** | 不能（通过化学方法） | 可以（通过化学反应） |\n| **性质** | 该元素特有 | 与组成元素不同 |\n| **符号** | 1-2个字母（例如，O） | 化学式（例如，H₂O） |\n\n**常见化合物：**\n\n**1. 水 (H₂O)**\n- 2个氢 + 1个氧\n- 性质与H₂气体或O₂气体完全不同\n- 生命必需\n\n**2. 二氧化碳 (CO₂)**\n- 1个碳 + 2个氧\n- 由呼吸产生\n- 植物光合作用使用\n\n**3. 食盐 (NaCl)**\n- 1个钠 + 1个氯\n- 单独的钠：爆炸性金属\n- 单独的氯：有毒气体\n- 在一起：可以安全食用！\n\n**4. 糖 (C₁₂H₂₂O₁₁)**\n- 12个碳 + 22个氢 + 11个氧\n- 复杂化合物\n- 提供能量\n\n**新加坡例子：**\n当你在咖啡店买一包饮料时，你正在消费许多化合物：水（H₂O）、糖（C₁₂H₂₂O₁₁）、二氧化碳（CO₂用于起泡）和各种调味化合物！"
+    },
+    {
+      "id": "chemical-formulas",
+      "type": "text",
+      "title": "Writing Chemical Formulas",
+      "title_zh": "书写化学式",
+      "content": "**Chemical formulas** show which elements are in a compound and how many atoms of each element.\n\n**Formula Rules:**\n\n**1. Element Symbols**\n- Always capitalize the first letter\n- Second letter (if any) is lowercase\n- Examples: H (not h), Ca (not CA or ca), Cl (not CL)\n\n**2. Subscript Numbers**\n- Written small and low (subscript)\n- Show how many atoms of that element\n- If no number shown, it means 1 atom\n- Examples:\n  - H₂O = 2 hydrogen, 1 oxygen\n  - CO₂ = 1 carbon, 2 oxygen\n  - H₂SO₄ = 2 hydrogen, 1 sulfur, 4 oxygen\n\n**3. Reading Formulas**\nRead from left to right, count all atoms:\n\n**Example: Ca(OH)₂** (Calcium hydroxide)\n- 1 Calcium (Ca)\n- 2 Oxygen (O) - because of the ₂ outside bracket\n- 2 Hydrogen (H) - because of the ₂ outside bracket\n- Total: 1 Ca + 2 O + 2 H = 5 atoms\n\n**Common Compounds to Know:**\n\n| Formula | Name | What it is |\n|---------|------|------------|\n| H₂O | Water | Essential for life |\n| CO₂ | Carbon dioxide | In fizzy drinks |\n| O₂ | Oxygen | Gas we breathe |\n| NaCl | Sodium chloride | Table salt |\n| CaCO₃ | Calcium carbonate | Chalk, limestone |\n| NH₃ | Ammonia | Cleaning products |\n| CH₄ | Methane | Natural gas |\n| C₆H₁₂O₆ | Glucose | Blood sugar |\n\n**Singapore Context:**\nThe tap water in Singapore (PUB's NEWater) is purified H₂O with small amounts of minerals like Ca²⁺ and Mg²⁺ ions added for taste and health!",
+      "content_zh": "**化学式**显示化合物中有哪些元素以及每种元素有多少个原子。\n\n**化学式规则：**\n\n**1. 元素符号**\n- 第一个字母始终大写\n- 第二个字母（如果有）小写\n- 例子：H（不是h），Ca（不是CA或ca），Cl（不是CL）\n\n**2. 下标数字**\n- 写得小而低（下标）\n- 显示该元素有多少个原子\n- 如果没有显示数字，表示1个原子\n- 例子：\n  - H₂O = 2个氢，1个氧\n  - CO₂ = 1个碳，2个氧\n  - H₂SO₄ = 2个氢，1个硫，4个氧\n\n**3. 阅读化学式**\n从左到右阅读，计算所有原子：\n\n**例子：Ca(OH)₂**（氢氧化钙）\n- 1个钙 (Ca)\n- 2个氧 (O) - 因为括号外的₂\n- 2个氢 (H) - 因为括号外的₂\n- 总共：1 Ca + 2 O + 2 H = 5个原子\n\n**需要知道的常见化合物：**\n\n| 化学式 | 名称 | 是什么 |\n|--------|------|--------|\n| H₂O | 水 | 生命必需 |\n| CO₂ | 二氧化碳 | 汽水中 |\n| O₂ | 氧气 | 我们呼吸的气体 |\n| NaCl | 氯化钠 | 食盐 |\n| CaCO₃ | 碳酸钙 | 粉笔、石灰石 |\n| NH₃ | 氨 | 清洁产品 |\n| CH₄ | 甲烷 | 天然气 |\n| C₆H₁₂O₆ | 葡萄糖 | 血糖 |\n\n**新加坡背景：**\n新加坡的自来水（公用事业局的新生水）是纯化的H₂O，添加了少量矿物质，如Ca²⁺和Mg²⁺离子，以改善口感和健康！"
+    },
+    {
+      "id": "element-compound-mixture",
+      "type": "text",
+      "title": "Elements, Compounds, and Mixtures",
+      "title_zh": "元素、化合物和混合物",
+      "content": "Understanding the differences between elements, compounds, and mixtures is crucial in chemistry.\n\n**Comparison Table:**\n\n| Property | Element | Compound | Mixture |\n|----------|---------|----------|---------|\n| **Composition** | One type of atom | Two or more atoms chemically bonded | Two or more substances physically mixed |\n| **Can be separated?** | No | Yes (by chemical reaction) | Yes (by physical methods) |\n| **Fixed ratio?** | N/A | Yes (always same ratio) | No (any proportion) |\n| **New properties?** | N/A | Yes (different from elements) | No (keeps original properties) |\n| **Examples** | O₂, Fe, Au | H₂O, NaCl, CO₂ | Air, seawater, salad |\n\n**Visual Analogy:**\n\n**Elements** = Pure ingredients\n- Like a bowl of only rice grains\n\n**Compounds** = Recipe (must follow exact proportions)\n- Like a cake (flour + eggs + sugar chemically changed by baking)\n- Can't separate back into flour, eggs, sugar easily\n\n**Mixtures** = Mixed ingredients (any proportion)\n- Like fried rice (rice + vegetables + egg mixed together)\n- Can pick out vegetables, rice stays rice\n\n**Singapore Food Examples:**\n\n**1. Laksa (混合物 - Mixture)**\n- Noodles + soup + prawns + eggs physically mixed\n- You can separate components\n- Each ingredient keeps its properties\n\n**2. Kaya Toast (化合物 - Compound)**\n- Kaya is made from eggs, sugar, coconut milk, and pandan\n- Chemical reactions during cooking create new substance\n- Can't easily separate back to original ingredients\n\n**3. Table Salt (化合物 - Compound)**\n- NaCl is sodium + chlorine chemically bonded\n- Properties completely different from pure sodium or chlorine\n- Cannot separate by filtering or boiling\n\n**4. Teh Tarik (混合物 - Mixture)**\n- Tea + milk + sugar physically mixed\n- Components can be separated (e.g., water evaporates, sugar crystals remain)\n\n**Key Test Questions:**\n- \"Is it chemically bonded?\" → Compound\n- \"Can you physically separate it?\" → Mixture\n- \"Only one type of atom?\" → Element",
+      "content_zh": "理解元素、化合物和混合物之间的区别在化学中至关重要。\n\n**比较表：**\n\n| 性质 | 元素 | 化合物 | 混合物 |\n|------|------|--------|--------|\n| **组成** | 一种原子 | 两种或多种原子化学结合 | 两种或多种物质物理混合 |\n| **可以分离吗？** | 不可以 | 可以（通过化学反应） | 可以（通过物理方法） |\n| **固定比例？** | 不适用 | 是（总是相同比例） | 不是（任何比例） |\n| **新性质？** | 不适用 | 是（与元素不同） | 不是（保持原有性质） |\n| **例子** | O₂, Fe, Au | H₂O, NaCl, CO₂ | 空气、海水、沙拉 |\n\n**视觉类比：**\n\n**元素** = 纯成分\n- 就像一碗只有米粒\n\n**化合物** = 食谱（必须遵循确切比例）\n- 就像蛋糕（面粉+鸡蛋+糖通过烘焙化学改变）\n- 不能轻易分离回面粉、鸡蛋、糖\n\n**混合物** = 混合成分（任何比例）\n- 就像炒饭（米饭+蔬菜+鸡蛋混合在一起）\n- 可以挑出蔬菜，米饭仍然是米饭\n\n**新加坡食物例子：**\n\n**1. 叻沙（混合物）**\n- 面条+汤+虾+鸡蛋物理混合\n- 你可以分离组成部分\n- 每种成分保持其性质\n\n**2. 咖椰吐司（化合物）**\n- 咖椰由鸡蛋、糖、椰奶和班兰制成\n- 烹饪过程中的化学反应产生新物质\n- 不能轻易分离回原始成分\n\n**3. 食盐（化合物）**\n- NaCl是钠+氯化学结合\n- 性质与纯钠或氯完全不同\n- 不能通过过滤或煮沸分离\n\n**4. 拉茶（混合物）**\n- 茶+牛奶+糖物理混合\n- 组分可以分离（例如，水蒸发，糖晶体保留）\n\n**关键测试问题：**\n- \"它是化学结合的吗？\" → 化合物\n- \"你能物理分离它吗？\" → 混合物\n- \"只有一种原子吗？\" → 元素"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "mcq",
+      "question": "Which of the following is an element?",
+      "question_zh": "以下哪项是元素？",
+      "choices": [
+        "Water (H₂O)",
+        "Oxygen (O₂)",
+        "Carbon dioxide (CO₂)",
+        "Salt (NaCl)"
+      ],
+      "choices_zh": [
+        "水 (H₂O)",
+        "氧气 (O₂)",
+        "二氧化碳 (CO₂)",
+        "盐 (NaCl)"
+      ],
+      "answer": 1,
+      "explanation": "Oxygen (O₂) is an element because it contains only one type of atom. Water, carbon dioxide, and salt are all compounds made of two or more different elements.",
+      "explanation_zh": "氧气（O₂）是元素，因为它只含有一种原子。水、二氧化碳和盐都是由两种或多种不同元素组成的化合物。"
+    },
+    {
+      "id": "ex2",
+      "type": "mcq",
+      "question": "How many total atoms are in one molecule of H₂SO₄ (sulfuric acid)?",
+      "question_zh": "一个H₂SO₄（硫酸）分子中总共有多少个原子？",
+      "choices": [
+        "4 atoms",
+        "5 atoms",
+        "6 atoms",
+        "7 atoms"
+      ],
+      "choices_zh": [
+        "4个原子",
+        "5个原子",
+        "6个原子",
+        "7个原子"
+      ],
+      "answer": 3,
+      "explanation": "H₂SO₄ contains 2 hydrogen atoms + 1 sulfur atom + 4 oxygen atoms = 7 atoms total.",
+      "explanation_zh": "H₂SO₄含有2个氢原子 + 1个硫原子 + 4个氧原子 = 总共7个原子。"
+    },
+    {
+      "id": "ex3",
+      "type": "mcq",
+      "question": "What is the main difference between a compound and a mixture?",
+      "question_zh": "化合物和混合物之间的主要区别是什么？",
+      "choices": [
+        "Compounds can be separated physically, mixtures cannot",
+        "Compounds have chemically bonded elements, mixtures do not",
+        "Mixtures have fixed ratios, compounds do not",
+        "Compounds are always liquids, mixtures can be any state"
+      ],
+      "choices_zh": [
+        "化合物可以物理分离，混合物不能",
+        "化合物具有化学结合的元素，混合物没有",
+        "混合物具有固定比例，化合物没有",
+        "化合物总是液体，混合物可以是任何状态"
+      ],
+      "answer": 1,
+      "explanation": "In compounds, elements are chemically bonded in fixed ratios and have new properties. In mixtures, substances are physically mixed and keep their original properties.",
+      "explanation_zh": "在化合物中，元素以固定比例化学结合并具有新性质。在混合物中，物质物理混合并保持其原有性质。"
+    },
+    {
+      "id": "ex4",
+      "type": "mcq",
+      "question": "Which group in the periodic table contains the most unreactive elements?",
+      "question_zh": "元素周期表中哪一族包含最不活泼的元素？",
+      "choices": [
+        "Group 1 (Alkali metals)",
+        "Group 17 (Halogens)",
+        "Group 18 (Noble gases)",
+        "Group 2 (Alkaline earth metals)"
+      ],
+      "choices_zh": [
+        "第1族（碱金属）",
+        "第17族（卤素）",
+        "第18族（稀有气体）",
+        "第2族（碱土金属）"
+      ],
+      "answer": 2,
+      "explanation": "Group 18 noble gases (He, Ne, Ar, Kr, Xe) are the most unreactive because they have stable electron configurations.",
+      "explanation_zh": "第18族稀有气体（He、Ne、Ar、Kr、Xe）最不活泼，因为它们具有稳定的电子构型。"
+    },
+    {
+      "id": "ex5",
+      "type": "short",
+      "question": "Sodium (Na) is a reactive metal and Chlorine (Cl) is a toxic gas. What compound do they form when chemically bonded?",
+      "question_zh": "钠（Na）是一种活泼金属，氯（Cl）是一种有毒气体。它们化学结合时形成什么化合物？",
+      "answer": "NaCl",
+      "validator": "exact",
+      "explanation": "Sodium and chlorine chemically bond to form NaCl (sodium chloride), commonly known as table salt. Despite the dangerous properties of the individual elements, the compound is safe to eat.",
+      "explanation_zh": "钠和氯化学结合形成NaCl（氯化钠），通常称为食盐。尽管单独元素具有危险性质，但化合物可以安全食用。"
+    }
+  ]
+}

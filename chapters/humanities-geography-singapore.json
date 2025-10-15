@@ -1,0 +1,68 @@
+{
+  "id": "geography-singapore",
+  "title": "Geography of Singapore",
+  "title_zh": "新加坡地理",
+  "description": "Explore Singapores physical geography, climate, and land use",
+  "description_zh": "探索新加坡的自然地理、气候和土地利用",
+  "objectives": [
+    "Understand Singapores location and climate",
+    "Learn about land reclamation",
+    "Explore urban planning",
+    "Study water resources"
+  ],
+  "objectives_zh": [
+    "了解新加坡的位置和气候",
+    "学习填海造地",
+    "探索城市规划",
+    "研究水资源"
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "type": "text",
+      "title": "Location and Climate",
+      "title_zh": "位置和气候",
+      "content": "Singapore is located 1°N of the Equator. Tropical rainforest climate with temperatures 25-32°C year-round, high humidity (80-90%), and monsoon seasons.",
+      "content_zh": "新加坡位于赤道以北1°。热带雨林气候，全年温度25-32°C，高湿度（80-90%），季风季节。"
+    },
+    {
+      "id": "s2",
+      "type": "text",
+      "title": "Land Reclamation",
+      "title_zh": "填海造地",
+      "content": "Singapore has grown from 581.5 km² (1960s) to over 730 km² (2023) through land reclamation. Major reclaimed areas include Marina Bay, Tuas, and Jurong Island.",
+      "content_zh": "新加坡通过填海造地从581.5平方公里（1960年代）增长到超过730平方公里（2023年）。主要填海区域包括滨海湾、大士和裕廊岛。"
+    },
+    {
+      "id": "s3",
+      "type": "text",
+      "title": "Water Resources",
+      "title_zh": "水资源",
+      "content": "Singapore has 4 National Taps: local catchment water, imported water from Malaysia, NEWater (recycled water), and desalinated water.",
+      "content_zh": "新加坡有四大水喉：本地集水区水、从马来西亚进口的水、新生水（循环水）和海水淡化水。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "mcq",
+      "question": "How many National Taps does Singapore have?",
+      "question_zh": "新加坡有几个国家水喉？",
+      "choices": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "choices_zh": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 2,
+      "explanation": "Singapore has 4 National Taps for water supply",
+      "explanation_zh": "新加坡有4个国家水喉供应水源"
+    }
+  ]
+}

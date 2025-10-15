@@ -19,11 +19,17 @@ export interface Progress {
   completed: boolean;
 }
 
+export interface AIModuleProgress {
+  done: boolean;
+  doneAt?: string;
+}
+
 export interface UserState {
   user: User | null;
   language: 'en' | 'zh';
   theme: 'light' | 'dark' | 'system';
   progress: Progress[];
+  aiProgress: Record<string, AIModuleProgress>;
   currentSubject: string | null;
   currentChapter: string | null;
   
@@ -37,6 +43,7 @@ export interface UserState {
   updateProgress: (progress: Partial<Progress> & { subjectId: string; chapterId: string }) => void;
   getChapterProgress: (subjectId: string, chapterId: string) => Progress | undefined;
   getSubjectProgress: (subjectId: string) => Progress[];
+  toggleAIModuleComplete: (moduleId: string) => void;
 }
 
 export const useStore = create<UserState>()(
@@ -46,6 +53,7 @@ export const useStore = create<UserState>()(
       language: 'en',
       theme: 'system',
       progress: [],
+      aiProgress: {},
       currentSubject: null,
       currentChapter: null,
 
@@ -104,6 +112,21 @@ export const useStore = create<UserState>()(
       getSubjectProgress: (subjectId) => {
         return get().progress.filter(p => p.subjectId === subjectId);
       },
+
+      toggleAIModuleComplete: (moduleId) => {
+        const state = get();
+        const currentProgress = state.aiProgress[moduleId];
+        
+        set({
+          aiProgress: {
+            ...state.aiProgress,
+            [moduleId]: {
+              done: !currentProgress?.done,
+              doneAt: !currentProgress?.done ? new Date().toISOString() : undefined,
+            },
+          },
+        });
+      },
     }),
     {
       name: 'sg-learning-app-storage',
@@ -112,7 +135,11 @@ export const useStore = create<UserState>()(
         language: state.language,
         theme: state.theme,
         progress: state.progress,
+        aiProgress: state.aiProgress,
       }),
     }
   )
 );
+
+// Create an alias for compatibility
+export const useUserStore = useStore;

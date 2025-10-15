@@ -1,0 +1,68 @@
+{
+  "id": "intro-social-studies",
+  "title": "Introduction to Social Studies",
+  "title_zh": "社会学简介",
+  "description": "Understanding citizenship, identity, and our role in society",
+  "description_zh": "了解公民身份、身份认同和我们在社会中的角色",
+  "objectives": [
+    "Understand what it means to be a Singaporean",
+    "Explore national identity and values",
+    "Learn about civic responsibilities",
+    "Understand social cohesion"
+  ],
+  "objectives_zh": [
+    "了解成为新加坡人的意义",
+    "探索国家认同和价值观",
+    "学习公民责任",
+    "理解社会凝聚力"
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "type": "text",
+      "title": "Being Singaporean",
+      "title_zh": "成为新加坡人",
+      "content": "Singapore is a multicultural society with 4 official languages: English, Chinese, Malay, and Tamil. Our national values include meritocracy, racial and religious harmony, and resilience.",
+      "content_zh": "新加坡是一个多元文化社会，拥有4种官方语言：英语、华语、马来语和淡米尔语。我们的国家价值观包括精英主义、种族和宗教和谐以及韧性。"
+    },
+    {
+      "id": "s2",
+      "type": "text",
+      "title": "National Symbols",
+      "title_zh": "国家象征",
+      "content": "National symbols include the Singapore Flag (red and white), National Anthem (Majulah Singapura), Lion and Merlion, and National Pledge.",
+      "content_zh": "国家象征包括新加坡国旗（红白色）、国歌（Majulah Singapura）、狮子和鱼尾狮以及国家信约。"
+    },
+    {
+      "id": "s3",
+      "type": "text",
+      "title": "Civic Responsibilities",
+      "title_zh": "公民责任",
+      "content": "As citizens, we have responsibilities: obeying laws, paying taxes, serving National Service (for males), voting in elections, and contributing to society.",
+      "content_zh": "作为公民，我们有责任：遵守法律、纳税、服兵役（男性）、在选举中投票以及为社会做贡献。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "mcq",
+      "question": "How many official languages does Singapore have?",
+      "question_zh": "新加坡有多少种官方语言？",
+      "choices": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "choices_zh": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 2,
+      "explanation": "Singapore has 4 official languages: English, Chinese, Malay, and Tamil",
+      "explanation_zh": "新加坡有4种官方语言：英语、华语、马来语和淡米尔语"
+    }
+  ]
+}

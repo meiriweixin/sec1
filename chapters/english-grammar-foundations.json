@@ -1,0 +1,121 @@
+{
+  "id": "grammar-foundations",
+  "title": "Grammar Foundations",
+  "title_zh": "语法基础",
+  "description": "Learn the building blocks of English grammar including parts of speech and sentence structure",
+  "description_zh": "学习英语语法的基本组成部分，包括词性和句子结构",
+  "objectives": [
+    "Identify and use the 8 parts of speech correctly",
+    "Understand basic sentence structure (Subject-Verb-Object)",
+    "Apply subject-verb agreement rules",
+    "Recognize and fix common grammar errors"
+  ],
+  "objectives_zh": [
+    "正确识别和使用8种词性",
+    "理解基本句子结构（主语-动词-宾语）",
+    "应用主谓一致规则",
+    "识别和修正常见语法错误"
+  ],
+  "sections": [
+    {
+      "id": "parts-of-speech",
+      "type": "text",
+      "title": "Parts of Speech",
+      "title_zh": "词性",
+      "content": "Understanding the **8 parts of speech** is essential for building strong grammar skills.\n\n**1. Nouns** - Names of people, places, things, or ideas\n- Common nouns: book, city, teacher\n- Proper nouns: Singapore, Maria, Monday\n- Abstract nouns: happiness, freedom, love\n\n**2. Pronouns** - Replace nouns\n- Personal: I, you, he, she, it, we, they\n- Possessive: my, your, his, her, its\n\n**3. Verbs** - Action or state of being\n- Action: run, eat, study, think\n- Linking: am, is, are, was, were\n\n**4. Adjectives** - Describe nouns\n- Example: The beautiful, tall building\n\n**5. Adverbs** - Describe verbs, adjectives, or other adverbs\n- Example: She carefully opened the door very quietly\n\n**6. Prepositions** - Show relationships\n- Place: in, on, at, under, above\n- Time: before, after, during, until\n\n**7. Conjunctions** - Connect words/phrases\n- Coordinating: and, but, or, so\n- Subordinating: because, although, if, when\n\n**8. Interjections** - Express emotions\n- Wow! Oh! Ouch! Hey!",
+      "content_zh": "理解**8种词性**对建立强大的语法技能至关重要。\n\n**1. 名词** - 人、地方、事物或想法的名称\n- 普通名词：book（书）、city（城市）、teacher（老师）\n- 专有名词：Singapore（新加坡）、Maria（玛丽亚）、Monday（星期一）\n- 抽象名词：happiness（幸福）、freedom（自由）、love（爱）\n\n**2. 代词** - 替换名词\n- 人称代词：I（我）、you（你）、he（他）、she（她）\n- 所有格代词：my（我的）、your（你的）、his（他的）\n\n**3. 动词** - 动作或状态\n- 动作：run（跑）、eat（吃）、study（学习）\n- 连系：am（是）、is（是）、are（是）\n\n**4. 形容词** - 描述名词\n- 例子：漂亮的、高的建筑\n\n**5. 副词** - 描述动词、形容词或其他副词\n- 例子：她小心地打开门，非常安静地\n\n**6. 介词** - 显示关系\n- 地点：in（在里面）、on（在上面）、at（在）\n- 时间：before（之前）、after（之后）、during（期间）\n\n**7. 连词** - 连接单词/短语\n- 并列连词：and（和）、but（但是）、or（或者）\n- 从属连词：because（因为）、although（尽管）、if（如果）\n\n**8. 感叹词** - 表达情感\n- Wow!（哇！）Oh!（哦！）Ouch!（哎哟！）"
+    },
+    {
+      "id": "sentence-structure",
+      "type": "text",
+      "title": "Basic Sentence Structure",
+      "title_zh": "基本句子结构",
+      "content": "Every complete sentence needs a **subject** and a **verb**.\n\n**Basic Pattern: Subject + Verb + Object**\n\n**Types of Sentences:**\n\n**1. Simple Sentences** - One independent clause\n- The cat sleeps.\n- My brother and I walked to school.\n\n**2. Compound Sentences** - Two independent clauses\n- I like laksa, but my friend prefers ramen.\n- The sun was shining, so we went to the beach.\n\n**3. Complex Sentences** - Independent + dependent clause\n- Because it was raining, we stayed indoors.\n- We went to the library after school ended.\n\n**4. Compound-Complex Sentences**\n- Although it was late, I called my friend, and we talked for an hour.\n\n**Common Errors:**\n\n**Sentence Fragment** - Incomplete thought\n- ❌ Because I was tired.\n- ✅ Because I was tired, I went to bed early.\n\n**Run-on Sentence**\n- ❌ I love reading books I go to the library often.\n- ✅ I love reading books, so I go to the library often.\n\n**Singapore Context:** Use proper sentences in formal writing like emails to teachers!",
+      "content_zh": "每个完整句子都需要**主语**和**动词**。\n\n**基本模式：主语 + 动词 + 宾语**\n\n**句子类型：**\n\n**1. 简单句** - 一个独立子句\n- 猫睡觉。\n- 我和我哥哥走到学校。\n\n**2. 并列句** - 两个独立子句\n- 我喜欢叻沙，但我的朋友更喜欢拉面。\n- 阳光明媚，所以我们去了海滩。\n\n**3. 复杂句** - 独立 + 从属子句\n- 因为下雨，我们待在室内。\n- 我们放学后去了图书馆。\n\n**4. 复合复杂句**\n- 虽然很晚了，我给我的朋友打了电话，我们聊了一个小时。\n\n**常见错误：**\n\n**句子片段** - 不完整的思想\n- ❌ 因为我很累。\n- ✅ 因为我很累，我早早睡了。\n\n**连写句**\n- ❌ 我喜欢读书我经常去图书馆。\n- ✅ 我喜欢读书，所以我经常去图书馆。\n\n**新加坡背景：**在给老师的正式写作中使用正确的句子！"
+    },
+    {
+      "id": "subject-verb-agreement",
+      "type": "text",
+      "title": "Subject-Verb Agreement",
+      "title_zh": "主谓一致",
+      "content": "The subject and verb must **match in number**.\n\n**Basic Rules:**\n\n**Singular subject → Singular verb**\n- The student walks to school. ✅\n\n**Plural subject → Plural verb**\n- The students walk to school. ✅\n\n**Tricky Situations:**\n\n**1. Compound Subjects with AND** → Plural\n- Tom and Sarah are friends. ✅\n\n**2. Subjects with OR/NOR** → Agrees with closest\n- Neither the teacher nor the students are ready. ✅\n\n**3. Indefinite Pronouns**\n\n**Always Singular:**\n- everyone, everyone, anybody, someone, nobody, either, neither\n- Everyone is ready. ✅\n- Somebody has my book. ✅\n\n**Always Plural:**\n- both, few, many, several\n- Both are correct. ✅\n\n**4. Words Between Subject and Verb**\n- The box of chocolates is on the table. ✅ (subject: box)\n- The students in my class are smart. ✅ (subject: students)\n\n**5. Collective Nouns** → Usually singular\n- The team is playing well. ✅\n- The family is happy. ✅\n\n**Common Errors:**\n- ❌ The list of items are on the table.\n- ✅ The list of items is on the table.\n\n- ❌ One of my friends are coming.\n- ✅ One of my friends is coming.\n\n**Singapore Tip:** For exams, always check subject-verb agreement!",
+      "content_zh": "主语和动词必须**在数量上匹配**。\n\n**基本规则：**\n\n**单数主语 → 单数动词**\n- 学生走到学校。✅\n\n**复数主语 → 复数动词**\n- 学生们走到学校。✅\n\n**棘手情况：**\n\n**1. 用AND连接的复合主语** → 复数\n- Tom和Sarah是朋友。✅\n\n**2. 用OR/NOR连接的主语** → 与最近的一致\n- 老师和学生们都没有准备好。✅\n\n**3. 不定代词**\n\n**总是单数：**\n- everyone（每个人）、anybody（任何人）、someone（某人）、nobody（没有人）\n- 每个人都准备好了。✅\n- 有人拿了我的书。✅\n\n**总是复数：**\n- both（两者）、few（少数）、many（许多）、several（几个）\n- 两者都正确。✅\n\n**4. 主语和动词之间的词**\n- 巧克力盒子在桌子上。✅（主语：盒子）\n- 我班上的学生很聪明。✅（主语：学生）\n\n**5. 集体名词** → 通常单数\n- 团队正在表现良好。✅\n- 家庭很快乐。✅\n\n**常见错误：**\n- ❌ 项目列表在桌子上。\n- ✅ 项目列表在桌子上。\n\n- ❌ 我的一个朋友要来。\n- ✅ 我的一个朋友要来。\n\n**新加坡提示：**考试时，始终检查主谓一致！"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "mcq",
+      "question": "Identify the part of speech: The **beautiful** garden has many flowers.",
+      "question_zh": "识别词性：**美丽的**花园有许多花。",
+      "choices": ["Noun", "Verb", "Adjective", "Adverb"],
+      "choices_zh": ["名词", "动词", "形容词", "副词"],
+      "answer": 2,
+      "explanation": "'Beautiful' is an adjective because it describes the noun 'garden'.",
+      "explanation_zh": "'Beautiful'是形容词，因为它描述名词'garden'。"
+    },
+    {
+      "id": "ex2",
+      "type": "mcq",
+      "question": "Which sentence has correct subject-verb agreement?",
+      "question_zh": "哪个句子具有正确的主谓一致？",
+      "choices": [
+        "The list of names are on the board.",
+        "The list of names is on the board.",
+        "The list of names be on the board.",
+        "The lists of name is on the board."
+      ],
+      "choices_zh": [
+        "名单在黑板上。（错误1）",
+        "名单在黑板上。（正确）",
+        "名单在黑板上。（错误2）",
+        "名单在黑板上。（错误3）"
+      ],
+      "answer": 1,
+      "explanation": "The subject is 'list' (singular), so we use 'is'.",
+      "explanation_zh": "主语是'list'（单数），所以我们使用'is'。"
+    },
+    {
+      "id": "ex3",
+      "type": "mcq",
+      "question": "What type of sentence? 'I wanted to go, but I had homework.'",
+      "question_zh": "什么类型的句子？'我想去，但我有作业。'",
+      "choices": ["Simple", "Compound", "Complex", "Compound-complex"],
+      "choices_zh": ["简单句", "并列句", "复杂句", "复合复杂句"],
+      "answer": 1,
+      "explanation": "Compound sentence: two independent clauses joined by 'but'.",
+      "explanation_zh": "并列句：两个独立子句由'but'连接。"
+    },
+    {
+      "id": "ex4",
+      "type": "mcq",
+      "question": "Which is correct?",
+      "question_zh": "哪个正确？",
+      "choices": [
+        "Everyone have finished.",
+        "Everyone has finished.",
+        "Everyone are finished.",
+        "Everyone were finished."
+      ],
+      "choices_zh": [
+        "每个人都完成了。（错误1）",
+        "每个人都完成了。（正确）",
+        "每个人都完成了。（错误2）",
+        "每个人都完成了。（错误3）"
+      ],
+      "answer": 1,
+      "explanation": "'Everyone' is singular, so use 'has'.",
+      "explanation_zh": "'Everyone'是单数，所以使用'has'。"
+    },
+    {
+      "id": "ex5",
+      "type": "short",
+      "question": "Fix this fragment: 'Because I was tired.'",
+      "question_zh": "修正这个片段：'因为我很累。'",
+      "answer": "Because I was tired, I went to bed early.",
+      "validator": "exact",
+      "explanation": "Add an independent clause to complete the thought.",
+      "explanation_zh": "添加独立子句以完成思想。"
+    }
+  ]
+}

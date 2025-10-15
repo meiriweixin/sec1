@@ -1,0 +1,139 @@
+{
+  "id": "sentence-construction",
+  "title": "Sentence Construction",
+  "title_zh": "句子构造",
+  "description": "Build strong sentences by avoiding fragments and run-ons",
+  "description_zh": "通过避免片段和连写句构建强句子",
+  "objectives": [
+    "Identify sentence fragments",
+    "Fix run-on sentences",
+    "Use sentence variety"
+  ],
+  "objectives_zh": [
+    "识别句子片段",
+    "修正连写句",
+    "使用句子多样性"
+  ],
+  "sections": [
+    {
+      "id": "fragments",
+      "type": "text",
+      "title": "Avoiding Sentence Fragments",
+      "title_zh": "避免句子片段",
+      "content": "A **sentence fragment** is an incomplete sentence missing a subject, verb, or complete thought.\n\n**Examples of Fragments:**\n- ❌ Because it was raining.\n- ❌ The tall building near my school.\n- ❌ Running down the street.\n\n**How to Fix:**\n1. Add missing subject or verb\n2. Connect to a complete sentence\n3. Remove subordinating conjunction\n\n**Fixed:**\n- ✅ Because it was raining, we stayed inside.\n- ✅ The tall building near my school is new.\n- ✅ The boy was running down the street.",
+      "content_zh": "**句子片段**是缺少主语、动词或完整思想的不完整句子。\n\n**片段例子：**\n- ❌ 因为下雨。\n- ❌ 我学校附近的高楼。\n- ❌ 沿着街道跑。\n\n**如何修正：**\n1. 添加缺少的主语或动词\n2. 连接到完整句子\n3. 删除从属连词\n\n**修正后：**\n- ✅ 因为下雨，我们待在室内。\n- ✅ 我学校附近的高楼是新的。\n- ✅ 男孩沿着街道跑。"
+    },
+    {
+      "id": "run-ons",
+      "type": "text",
+      "title": "Fixing Run-on Sentences",
+      "title_zh": "修正连写句",
+      "content": "**Run-on sentences** join two complete sentences incorrectly.\n\n**Types:**\n\n**1. Fused Sentences** (no punctuation)\n- ❌ I love durian my sister hates it.\n\n**2. Comma Splice** (only comma)\n- ❌ I love durian, my sister hates it.\n\n**How to Fix:**\n\n**Method 1:** Period\n- ✅ I love durian. My sister hates it.\n\n**Method 2:** Comma + Coordinating Conjunction\n- ✅ I love durian, but my sister hates it.\n\n**Method 3:** Semicolon\n- ✅ I love durian; my sister hates it.\n\n**Method 4:** Subordinating Conjunction\n- ✅ Although I love durian, my sister hates it.",
+      "content_zh": "**连写句**不正确地连接两个完整句子。\n\n**类型：**\n\n**1. 融合句**（没有标点）\n- ❌ 我爱榴莲我姐姐讨厌它。\n\n**2. 逗号错误**（只有逗号）\n- ❌ 我爱榴莲，我姐姐讨厌它。\n\n**如何修正：**\n\n**方法1：**句号\n- ✅ 我爱榴莲。我姐姐讨厌它。\n\n**方法2：**逗号+并列连词\n- ✅ 我爱榴莲，但我姐姐讨厌它。\n\n**方法3：**分号\n- ✅ 我爱榴莲；我姐姐讨厌它。\n\n**方法4：**从属连词\n- ✅ 虽然我爱榴莲，我姐姐讨厌它。"
+    },
+    {
+      "id": "variety",
+      "type": "text",
+      "title": "Sentence Variety",
+      "title_zh": "句子多样性",
+      "content": "Use different sentence types for better writing.\n\n**Vary Sentence Length:**\n- Short: It was hot.\n- Medium: The weather was extremely hot today.\n- Long: Because the weather was extremely hot today, we decided to stay indoors and use the air conditioning.\n\n**Vary Sentence Beginnings:**\n- Subject: The students worked hard.\n- Adverb: Yesterday, the students worked hard.\n- Prepositional phrase: In the library, the students worked hard.\n- Dependent clause: While preparing for exams, the students worked hard.\n\n**Vary Sentence Types:**\n- Simple: I went to school.\n- Compound: I went to school, and I studied hard.\n- Complex: Because I studied hard, I passed the exam.",
+      "content_zh": "使用不同的句子类型以获得更好的写作。\n\n**变化句子长度：**\n- 短：天气热。\n- 中：今天天气非常热。\n- 长：因为今天天气非常热，我们决定待在室内使用空调。\n\n**变化句子开头：**\n- 主语：学生们努力学习。\n- 副词：昨天，学生们努力学习。\n- 介词短语：在图书馆，学生们努力学习。\n- 从属子句：在准备考试时，学生们努力学习。\n\n**变化句子类型：**\n- 简单：我去上学。\n- 并列：我去上学，我努力学习。\n- 复杂：因为我努力学习，我通过了考试。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "mcq",
+      "question": "Which is a sentence fragment?",
+      "question_zh": "哪个是句子片段？",
+      "choices": [
+        "Because it was late.",
+        "It was late.",
+        "I went home because it was late.",
+        "It was late, so I went home."
+      ],
+      "choices_zh": [
+        "因为很晚了。",
+        "很晚了。",
+        "我回家因为很晚了。",
+        "很晚了，所以我回家了。"
+      ],
+      "answer": 0,
+      "explanation": "Missing main clause after 'Because'.",
+      "explanation_zh": "'Because'后面缺少主句。"
+    },
+    {
+      "id": "ex2",
+      "type": "mcq",
+      "question": "Which fixes this run-on? 'I like pizza my brother likes pasta'",
+      "question_zh": "哪个修正了这个连写句？'我喜欢披萨我哥哥喜欢意大利面'",
+      "choices": [
+        "I like pizza my brother likes pasta.",
+        "I like pizza, my brother likes pasta.",
+        "I like pizza, but my brother likes pasta.",
+        "I like pizza my brother, likes pasta."
+      ],
+      "choices_zh": [
+        "我喜欢披萨我哥哥喜欢意大利面。",
+        "我喜欢披萨，我哥哥喜欢意大利面。",
+        "我喜欢披萨，但我哥哥喜欢意大利面。",
+        "我喜欢披萨我哥哥，喜欢意大利面。"
+      ],
+      "answer": 2,
+      "explanation": "Use comma + coordinating conjunction.",
+      "explanation_zh": "使用逗号+并列连词。"
+    },
+    {
+      "id": "ex3",
+      "type": "short",
+      "question": "Fix: 'Walking to school.'",
+      "question_zh": "修正：'走到学校。'",
+      "answer": "I was walking to school.",
+      "validator": "exact",
+      "explanation": "Add subject and helping verb.",
+      "explanation_zh": "添加主语和助动词。"
+    },
+    {
+      "id": "ex4",
+      "type": "mcq",
+      "question": "What's wrong? 'I studied hard, I passed the exam.'",
+      "question_zh": "有什么问题？'我努力学习，我通过了考试。'",
+      "choices": [
+        "Sentence fragment",
+        "Comma splice",
+        "Nothing wrong",
+        "Wrong verb tense"
+      ],
+      "choices_zh": [
+        "句子片段",
+        "逗号错误",
+        "没有问题",
+        "动词时态错误"
+      ],
+      "answer": 1,
+      "explanation": "Two sentences joined only with comma.",
+      "explanation_zh": "两个句子只用逗号连接。"
+    },
+    {
+      "id": "ex5",
+      "type": "mcq",
+      "question": "Best sentence variety?",
+      "question_zh": "最好的句子多样性？",
+      "choices": [
+        "All short sentences",
+        "All long sentences",
+        "Mix of short and long",
+        "Only compound sentences"
+      ],
+      "choices_zh": [
+        "全部短句",
+        "全部长句",
+        "短句和长句混合",
+        "只有并列句"
+      ],
+      "answer": 2,
+      "explanation": "Variety makes writing more interesting.",
+      "explanation_zh": "多样性使写作更有趣。"
+    }
+  ]
+}

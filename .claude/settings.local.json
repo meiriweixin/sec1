@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node:*)",
+      "Bash(awk:*)",
+      "Bash(npm run dev)",
+      "Bash(timeout:*)",
+      "Bash(move:*)",
+      "Bash(npx jsonlint:*)",
+      "Bash(git checkout:*)",
+      "Bash(git stash:*)",
+      "Bash(python -c \"\nimport json\nwith open(''src/data/content.json'', ''r'', encoding=''utf-8'') as f:\n    data = json.load(f)\n    \n# Find Science subject\nfor subject in data[''subjects'']:\n    if subject[''id''] == ''science'':\n        print(f''Found Science subject with {len(subject[\"\"chapters\"\"])} chapters'')\n        for chapter in subject[''chapters'']:\n            if chapter[''id''] in [''respiratory-system'', ''circulatory-system'', ''reproduction'']:\n                print(f''{chapter[\"\"id\"\"]}: {len(chapter[\"\"sections\"\"])} sections'')\n\")",
+      "Bash(python:*)",
+      "Bash(git log:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run build:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

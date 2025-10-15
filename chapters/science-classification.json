@@ -1,0 +1,62 @@
+{
+  "id": "classification",
+  "title": "Classification of Living Things",
+  "title_zh": "生物分类",
+  "description": "Learn how scientists classify living organisms into groups based on shared characteristics",
+  "description_zh": "学习科学家如何根据共同特征将生物分类",
+  "tag": "Biology",
+  "tag_zh": "生物",
+  "objectives": [
+    "Understand the need for classification",
+    "Learn the 5 kingdoms of life",
+    "Identify characteristics of each kingdom",
+    "Use classification keys"
+  ],
+  "objectives_zh": [
+    "理解分类的需要",
+    "学习生命的5界",
+    "识别每个界的特征",
+    "使用分类检索表"
+  ],
+  "sections": [
+    {
+      "id": "why-classify",
+      "type": "text",
+      "title": "Why Classification?",
+      "title_zh": "为什么要分类？",
+      "content": "**Classification** helps scientists organize and study the millions of species on Earth.\n\n**Benefits:**\n- Easy identification\n- Shows relationships between organisms\n- Helps in studying biodiversity\n- Aids in conservation efforts\n\n**Example:** Singapore has over 2,000 plant species and 400 bird species. Classification helps us organize and protect them.",
+      "content_zh": "**分类**帮助科学家组织和研究地球上数百万种物种。\n\n**好处：**\n- 易于识别\n- 显示生物之间的关系\n- 帮助研究生物多样性\n- 有助于保护工作\n\n**例子：**新加坡有超过2,000种植物和400种鸟类。分类帮助我们组织和保护它们。"
+    },
+    {
+      "id": "five-kingdoms",
+      "type": "text",
+      "title": "Five Kingdoms",
+      "title_zh": "五界",
+      "content": "**1. Animals (动物界)**\n- Multicellular, move around, eat other organisms\n- Examples: Birds, fish, insects\n\n**2. Plants (植物界)**\n- Multicellular, make own food (photosynthesis), can't move\n- Examples: Trees, flowers, ferns\n\n**3. Fungi (真菌界)**\n- Absorb nutrients from dead matter\n- Examples: Mushrooms, mold, yeast\n\n**4. Protists (原生生物界)**\n- Mostly unicellular\n- Examples: Amoeba, algae\n\n**5. Bacteria (细菌界)**\n- Unicellular, no nucleus\n- Examples: E. coli, cyanobacteria",
+      "content_zh": "**1. 动物界**\n- 多细胞、能移动、吃其他生物\n- 例子：鸟类、鱼类、昆虫\n\n**2. 植物界**\n- 多细胞、自己制造食物（光合作用）、不能移动\n- 例子：树、花、蕨类\n\n**3. 真菌界**\n- 从死物质中吸收养分\n- 例子：蘑菇、霉菌、酵母\n\n**4. 原生生物界**\n- 大多数单细胞\n- 例子：变形虫、藻类\n\n**5. 细菌界**\n- 单细胞、没有核\n- 例子：大肠杆菌、蓝藻"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "mcq",
+      "question": "Which kingdom can make its own food through photosynthesis?",
+      "question_zh": "哪个界可以通过光合作用制造自己的食物？",
+      "choices": [
+        "Animals",
+        "Plants",
+        "Fungi",
+        "Bacteria"
+      ],
+      "choices_zh": [
+        "动物界",
+        "植物界",
+        "真菌界",
+        "细菌界"
+      ],
+      "answer": 1,
+      "explanation": "Plants make their own food through photosynthesis",
+      "explanation_zh": "植物通过光合作用制造自己的食物"
+    }
+  ]
+}

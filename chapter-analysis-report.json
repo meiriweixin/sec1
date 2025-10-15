@@ -1,0 +1,3454 @@
+{
+  "totalChapters": 46,
+  "bySubject": {
+    "English Language": {
+      "subjectId": "english",
+      "totalChapters": 6,
+      "correct": [],
+      "needUpdate": [
+        {
+          "id": "grammar-foundations",
+          "title": "Grammar Foundations",
+          "issues": [
+            "No example, animation, or math sections found"
+          ],
+          "counts": {
+            "text": 2,
+            "example": 0,
+            "animation": 0,
+            "math": 0
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "text",
+              "contentPreview": "English has 8 parts of speech: NOUNS (naming words: cat, Singapore), PRONOUNS (replace nouns: he, th",
+              "hasTitle": true
+            },
+            {
+              "index": 1,
+              "type": "text",
+              "contentPreview": "Every sentence needs a SUBJECT (who/what) and a PREDICATE (what happens). Basic patterns: S+V (Birds",
+              "hasTitle": true
+            }
+          ]
+        },
+        {
+          "id": "vocabulary-building",
+          "title": "Vocabulary Building",
+          "issues": [
+            "No example, animation, or math sections found"
+          ],
+          "counts": {
+            "text": 2,
+            "example": 0,
+            "animation": 0,
+            "math": 0
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "text",
+              "contentPreview": "When you encounter unfamiliar words, use context clues: DEFINITION (word is defined in sentence), EX",
+              "hasTitle": true
+            },
+            {
+              "index": 1,
+              "type": "text",
+              "contentPreview": "Common PREFIXES: un- (not: unhappy), re- (again: rewrite), pre- (before: preview), dis- (not/opposit",
+              "hasTitle": true
+            }
+          ]
+        },
+        {
+          "id": "sentence-construction",
+          "title": "Sentence Construction",
+          "issues": [
+            "No example, animation, or math sections found",
+            "Only 1 section - needs more content"
+          ],
+          "counts": {
+            "text": 1,
+            "example": 0,
+            "animation": 0,
+            "math": 0
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "text",
+              "contentPreview": "SENTENCE FRAGMENT: Incomplete sentence missing subject or verb. Wrong: 'After school.' Right: 'After",
+              "hasTitle": true
+            }
+          ]
+        },
+        {
+          "id": "writing-narratives",
+          "title": "Narrative Writing",
+          "issues": [
+            "No example, animation, or math sections found"
+          ],
+          "counts": {
+            "text": 2,
+            "example": 0,
+            "animation": 0,
+            "math": 0
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "text",
+              "contentPreview": "Every good story has 5 parts: 1) EXPOSITION: Introduce characters, setting, situation. 2) RISING ACT",
+              "hasTitle": true
+            },
+            {
+              "index": 1,
+              "type": "text",
+              "contentPreview": "WEAK (telling): She was angry. STRONG (showing): Her fists clenched, and her face turned red. Use: a",
+              "hasTitle": true
+            }
+          ]
+        },
+        {
+          "id": "comprehension-skills",
+          "title": "Reading Comprehension",
+          "issues": [
+            "No example, animation, or math sections found",
+            "Only 1 section - needs more content"
+          ],
+          "counts": {
+            "text": 1,
+            "example": 0,
+            "animation": 0,
+            "math": 0
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "text",
+              "contentPreview": "MAIN IDEA is what the passage is mostly about. Often found in: first sentence (topic sentence), last",
+              "hasTitle": true
+            }
+          ]
+        },
+        {
+          "id": "editing-proofreading",
+          "title": "Editing & Proofreading",
+          "issues": [
+            "No example, animation, or math sections found",
+            "Only 1 section - needs more content"
+          ],
+          "counts": {
+            "text": 1,
+            "example": 0,
+            "animation": 0,
+            "math": 0
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "text",
+              "contentPreview": "Common mistakes: 1) SUBJECT-VERB AGREEMENT: 'He go' → 'He goes'. 2) PRONOUN ERRORS: 'Me and him went",
+              "hasTitle": true
+            }
+          ]
+        }
+      ]
+    },
+    "Chinese Language": {
+      "subjectId": "chinese",
+      "totalChapters": 6,
+      "correct": [],
+      "needUpdate": [
+        {
+          "id": "chinese-grammar-basics",
+          "title": "Grammar Fundamentals",
+          "issues": [
+            "No example, animation, or math sections found"
+          ],
+          "counts": {
+            "text": 2,
+            "example": 0,
+            "animation": 0,
+            "math": 0
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "text",
+              "contentPreview": "Chinese sentence structure follows: 主语(Subject) + 谓语(Predicate) + 宾语(Object). Example: 我(S) 喜欢(V) 音乐",
+              "hasTitle": true
+            },
+            {
+              "index": 1,
+              "type": "text",
+              "contentPreview": "Measure words (量词) are essential in Chinese. Common ones: 个(general: 一个人), 本(books: 两本书), 张(flat ite",
+              "hasTitle": true
+            }
+          ]
+        },
+        {
+          "id": "chinese-vocabulary",
+          "title": "Vocabulary Building",
+          "issues": [
+            "No example, animation, or math sections found"
+          ],
+          "counts": {
+            "text": 2,
+            "example": 0,
+            "animation": 0,
+            "math": 0
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "text",
+              "contentPreview": "Chinese words often combine in specific ways. Examples: 提高(improve) + 水平/质量, 增加(increase) + 数量/人数, 解",
+              "hasTitle": true
+            },
+            {
+              "index": 1,
+              "type": "text",
+              "contentPreview": "Chinese characters have radicals (部首) that hint at meaning. Examples: 水/氵(water): 河、海、湖 all relate t",
+              "hasTitle": true
+            }
+          ]
+        },
+        {
+          "id": "idioms-proverbs",
+          "title": "Idioms & Proverbs",
+          "issues": [
+            "No example, animation, or math sections found",
+            "Only 1 section - needs more content"
+          ],
+          "counts": {
+            "text": 1,
+            "example": 0,
+            "animation": 0,
+            "math": 0
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "text",
+              "contentPreview": "Important idioms for Sec 1: 一举两得(kill two birds with one stone), 半途而废(give up halfway), 井底之蛙(narrow-",
+              "hasTitle": true
+            }
+          ]
+        },
+        {
+          "id": "chinese-composition",
+          "title": "Composition Writing",
+          "issues": [
+            "No example, animation, or math sections found"
+          ],
+          "counts": {
+            "text": 2,
+            "example": 0,
+            "animation": 0,
+            "math": 0
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "text",
+              "contentPreview": "记叙文结构：开头(Introduction) - 设置场景、介绍人物；发展(Development) - 事件展开、细节描述；高潮(Climax) - 最紧张/重要的时刻；结尾(Conclusion)",
+              "hasTitle": true
+            },
+            {
+              "index": 1,
+              "type": "text",
+              "contentPreview": "好的描写需要：1) 感官描写 - 视觉（颜色、形状）、听觉（声音）、嗅觉（气味）、触觉（质感）、味觉。2) 比喻 - 像、如、仿佛。3) 动作描写 - 具体动词而非笼统词。弱：他很高兴。强：他脸上绽放",
+              "hasTitle": true
+            }
+          ]
+        },
+        {
+          "id": "chinese-comprehension",
+          "title": "Reading Comprehension",
+          "issues": [
+            "No example, animation, or math sections found",
+            "Only 1 section - needs more content"
+          ],
+          "counts": {
+            "text": 1,
+            "example": 0,
+            "animation": 0,
+            "math": 0
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "text",
+              "contentPreview": "阅读理解技巧：1）先看问题再读文章，有目的地阅读。2）找关键词（主题句通常在段首或段尾）。3）推断词义 - 用上下文、部首、联想。4）注意转折词（但是、然而、可是）和因果词（因为、所以、因此）。5）理",
+              "hasTitle": true
+            }
+          ]
+        },
+        {
+          "id": "sentence-correction-chinese",
+          "title": "Sentence Correction",
+          "issues": [
+            "No example, animation, or math sections found",
+            "Only 1 section - needs more content"
+          ],
+          "counts": {
+            "text": 1,
+            "example": 0,
+            "animation": 0,
+            "math": 0
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "text",
+              "contentPreview": "常见病句类型：1）成分残缺 - 缺少主语或宾语。错：看到美丽的风景。改：我看到美丽的风景。2）词序不当 - 修饰语位置错误。错：我很去想学校。改：我很想去学校。3）搭配不当 - 词语不能搭配。错：提高",
+              "hasTitle": true
+            }
+          ]
+        }
+      ]
+    },
+    "Mathematics": {
+      "subjectId": "math",
+      "totalChapters": 15,
+      "correct": [],
+      "needUpdate": [
+        {
+          "id": "integers-rational",
+          "title": "Integers & Rational Numbers",
+          "issues": [
+            "5 text section(s) without following examples"
+          ],
+          "counts": {
+            "text": 7,
+            "example": 0,
+            "animation": 2,
+            "math": 0
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "text",
+              "contentPreview": "Integers include positive numbers, negative numbers, and zero: {..., -3, -2, -1, 0, 1, 2, 3, ...}. T",
+              "hasTitle": true
+            },
+            {
+              "index": 1,
+              "type": "text",
+              "contentPreview": "We use integers in everyday life:\n• Temperature: +25°C (hot day), -5°C (freezing)\n• Money: +$50 (ear",
+              "hasTitle": true
+            },
+            {
+              "index": 2,
+              "type": "animation",
+              "contentPreview": "NumberLineReveal",
+              "hasTitle": true
+            },
+            {
+              "index": 3,
+              "type": "text",
+              "contentPreview": "Concept: When adding integers with the same sign, add the numbers and keep the sign.\n\nRule: Same sig",
+              "hasTitle": true
+            },
+            {
+              "index": 4,
+              "type": "text",
+              "contentPreview": "Concept: When adding integers with different signs, subtract the smaller number from the larger numb",
+              "hasTitle": true
+            },
+            {
+              "index": 5,
+              "type": "text",
+              "contentPreview": "Concept: To subtract integers, change the subtraction to addition of the opposite number.\n\nRule: Cha",
+              "hasTitle": true
+            },
+            {
+              "index": 6,
+              "type": "text",
+              "contentPreview": "Concept: When multiplying or dividing integers with the same sign, the answer is always positive.\n\nR",
+              "hasTitle": true
+            },
+            {
+              "index": 7,
+              "type": "text",
+              "contentPreview": "Concept: When multiplying or dividing integers with different signs, the answer is always negative.\n",
+              "hasTitle": true
+            },
+            {
+              "index": 8,
+              "type": "animation",
+              "contentPreview": "FractionVisual",
+              "hasTitle": true
+            }
+          ]
+        },
+        {
+          "id": "factors-multiples-primes",
+          "title": "Factors, Multiples & Prime Numbers",
+          "issues": [
+            "No example, animation, or math sections found"
+          ],
+          "counts": {
+            "text": 6,
+            "example": 0,
+            "animation": 0,
+            "math": 0
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "text",
+              "contentPreview": "Concept: Factors are numbers that divide exactly into another number with no remainder.\n\nTo find fac",
+              "hasTitle": true
+            },
+            {
+              "index": 1,
+              "type": "text",
+              "contentPreview": "Concept: Multiples are the product of a number and any integer.\n\nTo find multiples, multiply the num",
+              "hasTitle": true
+            },
+            {
+              "index": 2,
+              "type": "text",
+              "contentPreview": "Concept: Prime numbers have exactly 2 factors: 1 and itself.\n\nPrime numbers: 2, 3, 5, 7, 11, 13, 17,",
+              "hasTitle": true
+            },
+            {
+              "index": 3,
+              "type": "text",
+              "contentPreview": "Concept: The Highest Common Factor (HCF) is the largest factor that two or more numbers share.\n\nStep",
+              "hasTitle": true
+            },
+            {
+              "index": 4,
+              "type": "text",
+              "contentPreview": "Concept: The Lowest Common Multiple (LCM) is the smallest multiple that two or more numbers share.\n\n",
+              "hasTitle": true
+            },
+            {
+              "index": 5,
+              "type": "text",
+              "contentPreview": "Concept: Prime factorization means expressing a number as a product of prime numbers.\n\nYou can break",
+              "hasTitle": true
+            }
+          ]
+        },
+        {
+          "id": "approximations-estimations",
+          "title": "Approximations & Estimations",
+          "issues": [
+            "No example, animation, or math sections found"
+          ],
+          "counts": {
+            "text": 4,
+            "example": 0,
+            "animation": 0,
+            "math": 0
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "text",
+              "contentPreview": "Concept: Rounding simplifies numbers by reducing the number of digits.\n\nRule: Look at the digit afte",
+              "hasTitle": true
+            },
+            {
+              "index": 1,
+              "type": "text",
+              "contentPreview": "Concept: Significant figures (s.f.) show the precision of a number. Count from the first non-zero di",
+              "hasTitle": true
+            },
+            {
+              "index": 2,
+              "type": "text",
+              "contentPreview": "Concept: To round to a specific number of significant figures:\n\nSteps:\n1. Count the required number ",
+              "hasTitle": true
+            },
+            {
+              "index": 3,
+              "type": "text",
+              "contentPreview": "Concept: Estimation means rounding numbers before calculating to get an approximate answer. This is ",
+              "hasTitle": true
+            }
+          ]
+        },
+        {
+          "id": "algebraic-expressions",
+          "title": "Algebraic Expressions",
+          "issues": [
+            "4 text section(s) without following examples"
+          ],
+          "counts": {
+            "text": 6,
+            "example": 0,
+            "animation": 1,
+            "math": 1
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "text",
+              "contentPreview": "An algebraic expression uses letters (variables) to represent unknown numbers. Examples: 2x + 3, 5a ",
+              "hasTitle": true
+            },
+            {
+              "index": 1,
+              "type": "text",
+              "contentPreview": "LIKE TERMS have the same variables raised to the same powers. Only like terms can be combined. Examp",
+              "hasTitle": true
+            },
+            {
+              "index": 2,
+              "type": "animation",
+              "contentPreview": "TileCombine",
+              "hasTitle": true
+            },
+            {
+              "index": 3,
+              "type": "text",
+              "contentPreview": "Simplifying means combining like terms. Steps: 1) Identify like terms, 2) Combine coefficients, 3) W",
+              "hasTitle": true
+            },
+            {
+              "index": 4,
+              "type": "math",
+              "contentPreview": "a(b + c) = ab + ac",
+              "hasTitle": true
+            },
+            {
+              "index": 5,
+              "type": "text",
+              "contentPreview": "Factorizing is REVERSE of expanding - take out common factors. Steps: 1) Find HCF of all terms, 2) W",
+              "hasTitle": true
+            },
+            {
+              "index": 6,
+              "type": "text",
+              "contentPreview": "Substitution means replacing variables with numbers. Steps: 1) Write expression, 2) Replace variable",
+              "hasTitle": true
+            },
+            {
+              "index": 7,
+              "type": "text",
+              "contentPreview": "Algebra helps solve real problems. Examples: Perimeter of rectangle P = 2(l + w). Cost calculation: ",
+              "hasTitle": true
+            }
+          ]
+        },
+        {
+          "id": "linear-equations",
+          "title": "Simple Linear Equations",
+          "issues": [
+            "1 text section(s) without following examples"
+          ],
+          "counts": {
+            "text": 2,
+            "example": 0,
+            "animation": 1,
+            "math": 0
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "text",
+              "contentPreview": "An equation shows that two expressions are equal. To solve it, isolate the variable by performing th",
+              "hasTitle": true
+            },
+            {
+              "index": 1,
+              "type": "text",
+              "contentPreview": "Concept: Undo operations in reverse order on both sides to isolate x.\n\nSteps:\n1) Subtract b from bot",
+              "hasTitle": true
+            },
+            {
+              "index": 2,
+              "type": "animation",
+              "contentPreview": "EquationBalance",
+              "hasTitle": true
+            }
+          ]
+        },
+        {
+          "id": "ratio-rate-proportion",
+          "title": "Ratio, Rate & Proportion",
+          "issues": [
+            "No example, animation, or math sections found"
+          ],
+          "counts": {
+            "text": 6,
+            "example": 0,
+            "animation": 0,
+            "math": 0
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "text",
+              "contentPreview": "Concept: A ratio compares two or more quantities.\n\nFormat: Write as a:b (read as 'a to b')\n\nExamples",
+              "hasTitle": true
+            },
+            {
+              "index": 1,
+              "type": "text",
+              "contentPreview": "Concept: Simplify ratios by dividing by the HCF (Highest Common Factor).\n\nExamples:\n\nExample 1: Simp",
+              "hasTitle": true
+            },
+            {
+              "index": 2,
+              "type": "text",
+              "contentPreview": "Concept: Equivalent ratios are created by multiplying or dividing both parts by the same number.\n\nEx",
+              "hasTitle": true
+            },
+            {
+              "index": 3,
+              "type": "text",
+              "contentPreview": "Concept: To share an amount by ratio, divide the total into parts.\n\nSteps:\n1. Add the ratio parts to",
+              "hasTitle": true
+            },
+            {
+              "index": 4,
+              "type": "text",
+              "contentPreview": "Concept: A rate is a ratio with different units.\n\nCommon rates: speed, density, price per unit\n\nExam",
+              "hasTitle": true
+            },
+            {
+              "index": 5,
+              "type": "text",
+              "contentPreview": "Concept: Proportion means two ratios are equal.\n\nIf a/b = c/d, then a × d = b × c (cross multiply)\n\n",
+              "hasTitle": true
+            }
+          ]
+        },
+        {
+          "id": "percentage",
+          "title": "Percentage Applications",
+          "issues": [
+            "No example, animation, or math sections found"
+          ],
+          "counts": {
+            "text": 8,
+            "example": 0,
+            "animation": 0,
+            "math": 0
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "text",
+              "contentPreview": "Concept: PERCENTAGE means per hundred.\n\n• 50% means 50 out of 100, or 0.5, or 1/2\n• 100% means the w",
+              "hasTitle": true
+            },
+            {
+              "index": 1,
+              "type": "text",
+              "contentPreview": "Concept: Convert between percentages, decimals, and fractions.\n\nPercentage to Decimal: Divide by 100",
+              "hasTitle": true
+            },
+            {
+              "index": 2,
+              "type": "text",
+              "contentPreview": "Concept: x% of y = (x/100) × y\n\nMethod: Convert to decimal, then multiply\n\nExample: Find 30% of 80\n3",
+              "hasTitle": true
+            },
+            {
+              "index": 3,
+              "type": "text",
+              "contentPreview": "Concept: Apply percentage changes\n\nIncrease: New = Original × (1 + %)\nExample: Increase $50 by 20%\n$",
+              "hasTitle": true
+            },
+            {
+              "index": 4,
+              "type": "text",
+              "contentPreview": "Concept: In Singapore, GST (Goods and Services Tax) is 9%.\n\nAdding GST:\nPrice with GST = Original × ",
+              "hasTitle": true
+            },
+            {
+              "index": 5,
+              "type": "text",
+              "contentPreview": "Concept: Discount reduces the original price.\n\nFormula: Sale Price = Original × (1 - Discount%)\n\nExa",
+              "hasTitle": true
+            },
+            {
+              "index": 6,
+              "type": "text",
+              "contentPreview": "Concept: Compare selling price to cost price.\n\nProfit: Selling Price > Cost Price\nProfit% = (Profit ",
+              "hasTitle": true
+            },
+            {
+              "index": 7,
+              "type": "text",
+              "contentPreview": "Formula: I = (P × R × T) / 100. P = Principal, R = Rate per year, T = Time in years. Total = Princip",
+              "hasTitle": true
+            }
+          ]
+        },
+        {
+          "id": "patterns-sequences",
+          "title": "Patterns & Sequences",
+          "issues": [
+            "No example, animation, or math sections found",
+            "Only 1 section - needs more content"
+          ],
+          "counts": {
+            "text": 1,
+            "example": 0,
+            "animation": 0,
+            "math": 0
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "text",
+              "contentPreview": "An arithmetic sequence has a constant difference between consecutive terms. For example: 2, 5, 8, 11",
+              "hasTitle": true
+            }
+          ]
+        },
+        {
+          "id": "coordinates-graphs",
+          "title": "Coordinates & Linear Graphs",
+          "issues": [
+            "No example, animation, or math sections found",
+            "Only 1 section - needs more content"
+          ],
+          "counts": {
+            "text": 1,
+            "example": 0,
+            "animation": 0,
+            "math": 0
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "text",
+              "contentPreview": "The coordinate plane has two axes: horizontal x-axis and vertical y-axis. Every point is identified ",
+              "hasTitle": true
+            }
+          ]
+        },
+        {
+          "id": "inequalities",
+          "title": "Simple Inequalities",
+          "issues": [
+            "No example, animation, or math sections found",
+            "Only 1 section - needs more content"
+          ],
+          "counts": {
+            "text": 1,
+            "example": 0,
+            "animation": 0,
+            "math": 0
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "text",
+              "contentPreview": "An inequality shows that one value is greater or less than another. For example, x > 3 means x is gr",
+              "hasTitle": true
+            }
+          ]
+        },
+        {
+          "id": "angles-geometry",
+          "title": "Angles and Basic Geometry",
+          "issues": [
+            "4 text section(s) without following examples"
+          ],
+          "counts": {
+            "text": 5,
+            "example": 0,
+            "animation": 0,
+            "math": 1
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "text",
+              "contentPreview": "ANGLE formed when two rays meet at vertex. Measured in DEGREES (°). TYPES: ACUTE (0° < angle < 90°) ",
+              "hasTitle": true
+            },
+            {
+              "index": 1,
+              "type": "text",
+              "contentPreview": "ANGLES AT A POINT = 360°. EXAMPLE: Four angles meet at point: 85°, 110°, 90°, x°. Find x. 85+110+90+",
+              "hasTitle": true
+            },
+            {
+              "index": 2,
+              "type": "text",
+              "contentPreview": "PARALLEL LINES never meet, always same distance apart. Symbol: ||. WHEN TRANSVERSAL CROSSES PARALLEL",
+              "hasTitle": true
+            },
+            {
+              "index": 3,
+              "type": "math",
+              "contentPreview": "∠A + ∠B + ∠C = 180°",
+              "hasTitle": true
+            },
+            {
+              "index": 4,
+              "type": "text",
+              "contentPreview": "FORMULA: Sum of interior angles = (n-2) × 180° where n = number of sides. WHY? Any polygon can be di",
+              "hasTitle": true
+            },
+            {
+              "index": 5,
+              "type": "text",
+              "contentPreview": "ALL QUADRILATERALS: Interior angles sum = 360°. SQUARE: 4 equal sides, all angles 90°, diagonals equ",
+              "hasTitle": true
+            }
+          ]
+        },
+        {
+          "id": "triangles-polygons",
+          "title": "Triangles & Polygons",
+          "issues": [
+            "No example, animation, or math sections found",
+            "Only 1 section - needs more content"
+          ],
+          "counts": {
+            "text": 1,
+            "example": 0,
+            "animation": 0,
+            "math": 0
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "text",
+              "contentPreview": "The sum of angles in any triangle is always 180°. This fundamental property helps solve many geometr",
+              "hasTitle": true
+            }
+          ]
+        },
+        {
+          "id": "perimeter-area",
+          "title": "Perimeter & Area",
+          "issues": [
+            "No example, animation, or math sections found",
+            "Only 1 section - needs more content"
+          ],
+          "counts": {
+            "text": 1,
+            "example": 0,
+            "animation": 0,
+            "math": 0
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "text",
+              "contentPreview": "PERIMETER = distance around a shape. AREA = space inside a shape. RECTANGLE: Perimeter = 2(length + ",
+              "hasTitle": true
+            }
+          ]
+        },
+        {
+          "id": "volume-surface-area",
+          "title": "Volume & Surface Area",
+          "issues": [
+            "No example, animation, or math sections found"
+          ],
+          "counts": {
+            "text": 3,
+            "example": 0,
+            "animation": 0,
+            "math": 0
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "text",
+              "contentPreview": "VOLUME measures space inside a 3D object (in cubic units). CUBE: V = side³. EXAMPLE 1: Cube side 4cm",
+              "hasTitle": true
+            },
+            {
+              "index": 1,
+              "type": "text",
+              "contentPreview": "SURFACE AREA = total area of ALL faces (in square units). Think: how much paint to cover entire shap",
+              "hasTitle": true
+            },
+            {
+              "index": 2,
+              "type": "text",
+              "contentPreview": "VOLUME applications: Water tank capacity, packaging boxes, swimming pool water. SURFACE AREA applica",
+              "hasTitle": true
+            }
+          ]
+        },
+        {
+          "id": "statistics",
+          "title": "Statistics & Data Analysis",
+          "issues": [
+            "No example, animation, or math sections found",
+            "Only 1 section - needs more content"
+          ],
+          "counts": {
+            "text": 1,
+            "example": 0,
+            "animation": 0,
+            "math": 0
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "text",
+              "contentPreview": "Three ways to describe the 'center' of data: MEAN (average), MEDIAN (middle), MODE (most common). ME",
+              "hasTitle": true
+            }
+          ]
+        }
+      ]
+    },
+    "Science": {
+      "subjectId": "science",
+      "totalChapters": 19,
+      "correct": [],
+      "needUpdate": [
+        {
+          "id": "scientific-methods",
+          "title": "Scientific Methods & Measurement",
+          "issues": [
+            "No example, animation, or math sections found"
+          ],
+          "counts": {
+            "text": 5,
+            "example": 0,
+            "animation": 0,
+            "math": 0
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "text",
+              "contentPreview": "Concept: Safety is the top priority in the laboratory.\n\nEssential safety rules:\n• Always wear safety",
+              "hasTitle": true
+            },
+            {
+              "index": 1,
+              "type": "text",
+              "contentPreview": "Concept: The International System (SI) has seven base units.\n\nMain units for Secondary 1:\n\n• Meter (",
+              "hasTitle": true
+            },
+            {
+              "index": 2,
+              "type": "text",
+              "contentPreview": "Concept: Prefixes modify units for larger or smaller measurements.\n\nCommon prefixes:\n\n• Kilo (k) = ×",
+              "hasTitle": true
+            },
+            {
+              "index": 3,
+              "type": "text",
+              "contentPreview": "Concept: Convert units by multiplying or dividing by the conversion factor.\n\nExamples:\n\nExample 1: C",
+              "hasTitle": true
+            },
+            {
+              "index": 4,
+              "type": "text",
+              "contentPreview": "Concept: Different instruments measure different quantities with varying precision.\n\nCommon laborato",
+              "hasTitle": true
+            }
+          ]
+        },
+        {
+          "id": "particle-model",
+          "title": "Particulate Model of Matter",
+          "issues": [
+            "5 text section(s) without following examples"
+          ],
+          "counts": {
+            "text": 6,
+            "example": 0,
+            "animation": 1,
+            "math": 0
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "text",
+              "contentPreview": "All matter is made of tiny particles in constant random motion. Particles have spaces between them. ",
+              "hasTitle": true
+            },
+            {
+              "index": 1,
+              "type": "animation",
+              "contentPreview": "ParticlesInStates",
+              "hasTitle": true
+            },
+            {
+              "index": 2,
+              "type": "text",
+              "contentPreview": "Particles packed very closely in fixed regular pattern. Very little space between. Particles vibrate",
+              "hasTitle": true
+            },
+            {
+              "index": 3,
+              "type": "text",
+              "contentPreview": "Particles close together but not in fixed positions. Small spaces between. Random arrangement. Parti",
+              "hasTitle": true
+            },
+            {
+              "index": 4,
+              "type": "text",
+              "contentPreview": "Particles very far apart. Large spaces between. Completely random. Particles move very fast in all d",
+              "hasTitle": true
+            },
+            {
+              "index": 5,
+              "type": "text",
+              "contentPreview": "Net movement of particles from higher to lower concentration due to random motion. Occurs in liquids",
+              "hasTitle": true
+            },
+            {
+              "index": 6,
+              "type": "text",
+              "contentPreview": "Random zigzag movement of small particles suspended in fluid. Caused by invisible molecules constant",
+              "hasTitle": true
+            }
+          ]
+        },
+        {
+          "id": "mixtures-separation",
+          "title": "Mixtures & Separation Techniques",
+          "issues": [
+            "No example, animation, or math sections found",
+            "Only 1 section - needs more content"
+          ],
+          "counts": {
+            "text": 1,
+            "example": 0,
+            "animation": 0,
+            "math": 0
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "text",
+              "contentPreview": "PURE SUBSTANCE: Fixed composition and properties. Cannot be separated physically. EXAMPLES: Pure wat",
+              "hasTitle": true
+            }
+          ]
+        },
+        {
+          "id": "elements-compounds",
+          "title": "Elements, Compounds & Chemical Formulas",
+          "issues": [
+            "No example, animation, or math sections found"
+          ],
+          "counts": {
+            "text": 8,
+            "example": 0,
+            "animation": 0,
+            "math": 0
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "text",
+              "contentPreview": "An atom is the smallest particle of an element. Elements are pure substances made of only one type o",
+              "hasTitle": true
+            },
+            {
+              "index": 1,
+              "type": "text",
+              "contentPreview": "The Periodic Table organizes all known elements by atomic number (number of protons). Elements are a",
+              "hasTitle": true
+            },
+            {
+              "index": 2,
+              "type": "text",
+              "contentPreview": "Every atom has a NUCLEUS (center) containing PROTONS (positive charge) and NEUTRONS (no charge). ELE",
+              "hasTitle": true
+            },
+            {
+              "index": 3,
+              "type": "text",
+              "contentPreview": "GROUP 1 - Alkali Metals (Li, Na, K): Very reactive, soft metals, react with water. GROUP 2 - Alkalin",
+              "hasTitle": true
+            },
+            {
+              "index": 4,
+              "type": "text",
+              "contentPreview": "METALS (left and center): Shiny, good conductors of heat and electricity, malleable (can be hammered",
+              "hasTitle": true
+            },
+            {
+              "index": 5,
+              "type": "text",
+              "contentPreview": "Each element box shows: SYMBOL (1-2 letters, first always capital), ATOMIC NUMBER (top, number of pr",
+              "hasTitle": true
+            },
+            {
+              "index": 6,
+              "type": "text",
+              "contentPreview": "H - Hydrogen (most abundant in universe), C - Carbon (basis of life), N - Nitrogen (78% of air), O -",
+              "hasTitle": true
+            },
+            {
+              "index": 7,
+              "type": "text",
+              "contentPreview": "COMPOUNDS are substances formed when two or more DIFFERENT elements CHEMICALLY combine in FIXED rati",
+              "hasTitle": true
+            }
+          ]
+        },
+        {
+          "id": "acids-bases",
+          "title": "Acids & Bases",
+          "issues": [
+            "No example, animation, or math sections found"
+          ],
+          "counts": {
+            "text": 2,
+            "example": 0,
+            "animation": 0,
+            "math": 0
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "text",
+              "contentPreview": "ACIDS: Taste SOUR (like lemon, vinegar). WARNING: Never taste lab acids! Turn BLUE litmus paper → RE",
+              "hasTitle": true
+            },
+            {
+              "index": 1,
+              "type": "text",
+              "contentPreview": "NEUTRALIZATION: When ACID reacts with BASE → SALT + WATER. Acid and base cancel each other out! GENE",
+              "hasTitle": true
+            }
+          ]
+        },
+        {
+          "id": "cells",
+          "title": "Structure & Functions of Cells",
+          "issues": [
+            "No example, animation, or math sections found",
+            "Only 1 section - needs more content"
+          ],
+          "counts": {
+            "text": 1,
+            "example": 0,
+            "animation": 0,
+            "math": 0
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "text",
+              "contentPreview": "Cells are the basic units of life. All living organisms are made of cells. Plant cells have cell wal",
+              "hasTitle": true
+            }
+          ]
+        },
+        {
+          "id": "light",
+          "title": "Light & Reflection",
+          "issues": [
+            "No example, animation, or math sections found",
+            "Only 1 section - needs more content"
+          ],
+          "counts": {
+            "text": 1,
+            "example": 0,
+            "animation": 0,
+            "math": 0
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "text",
+              "contentPreview": "Light travels in straight lines. When light hits a surface, it can be reflected, absorbed, or transm",
+              "hasTitle": true
+            }
+          ]
+        },
+        {
+          "id": "heat-temperature",
+          "title": "Heat & Temperature",
+          "issues": [
+            "No example, animation, or math sections found",
+            "Only 1 section - needs more content"
+          ],
+          "counts": {
+            "text": 1,
+            "example": 0,
+            "animation": 0,
+            "math": 0
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "text",
+              "contentPreview": "TEMPERATURE measures how HOT or COLD (in °C or K). Measured with thermometer. HEAT is THERMAL ENERGY",
+              "hasTitle": true
+            }
+          ]
+        },
+        {
+          "id": "forces-motion",
+          "title": "Forces and Motion",
+          "issues": [
+            "5 text section(s) without following examples"
+          ],
+          "counts": {
+            "text": 6,
+            "example": 0,
+            "animation": 1,
+            "math": 0
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "text",
+              "contentPreview": "A FORCE is a push or pull. Force is a VECTOR with magnitude and direction. Measured in NEWTONS (N). ",
+              "hasTitle": true
+            },
+            {
+              "index": 1,
+              "type": "text",
+              "contentPreview": "Use SPRING BALANCE (newton-meter). Greater force → more stretch. Read scale in NEWTONS (N). WEIGHT v",
+              "hasTitle": true
+            },
+            {
+              "index": 2,
+              "type": "text",
+              "contentPreview": "Forces equal in size, opposite directions. Resultant force = 0 N. Effect: Stationary stays stationar",
+              "hasTitle": true
+            },
+            {
+              "index": 3,
+              "type": "text",
+              "contentPreview": "Forces NOT equal. Net/resultant force exists. Object ACCELERATES (changes speed or direction). Large",
+              "hasTitle": true
+            },
+            {
+              "index": 4,
+              "type": "animation",
+              "contentPreview": "ForceMotion",
+              "hasTitle": true
+            },
+            {
+              "index": 5,
+              "type": "text",
+              "contentPreview": "Force opposing motion between surfaces. Always acts OPPOSITE to motion. Caused by surface roughness.",
+              "hasTitle": true
+            },
+            {
+              "index": 6,
+              "type": "text",
+              "contentPreview": "Object at rest stays at rest, object in motion stays in motion at constant velocity, unless acted up",
+              "hasTitle": true
+            }
+          ]
+        },
+        {
+          "id": "energy",
+          "title": "Energy, Work & Power",
+          "issues": [
+            "2 text section(s) without following examples"
+          ],
+          "counts": {
+            "text": 3,
+            "example": 0,
+            "animation": 0,
+            "math": 1
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "text",
+              "contentPreview": "Energy is ability to do work (measured in Joules, J). Main forms: KINETIC (moving objects: KE = ½mv²",
+              "hasTitle": true
+            },
+            {
+              "index": 1,
+              "type": "text",
+              "contentPreview": "Energy changes from one form to another. Examples: LIGHT BULB: Electrical → Light + Heat. PHOTOSYNTH",
+              "hasTitle": true
+            },
+            {
+              "index": 2,
+              "type": "text",
+              "contentPreview": "LAW OF CONSERVATION OF ENERGY: Total energy in isolated system remains constant. Energy input = Usef",
+              "hasTitle": true
+            },
+            {
+              "index": 3,
+              "type": "math",
+              "contentPreview": "Work = Force × Distance (W = Fd) in Joules (J). Power = Work / Time (P = W/t) in Watts (W).",
+              "hasTitle": true
+            }
+          ]
+        },
+        {
+          "id": "pressure",
+          "title": "Pressure",
+          "issues": [
+            "3 text section(s) without following examples"
+          ],
+          "counts": {
+            "text": 3,
+            "example": 0,
+            "animation": 0,
+            "math": 1
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "math",
+              "contentPreview": "Pressure = Force / Area (P = F/A) in Pascals (Pa) or N/m²",
+              "hasTitle": true
+            },
+            {
+              "index": 1,
+              "type": "text",
+              "contentPreview": "To INCREASE pressure: Increase force OR decrease area. To DECREASE pressure: Decrease force OR incre",
+              "hasTitle": true
+            },
+            {
+              "index": 2,
+              "type": "text",
+              "contentPreview": "Liquid pressure INCREASES with DEPTH. Why? More liquid above = more weight = more pressure. Pressure",
+              "hasTitle": true
+            },
+            {
+              "index": 3,
+              "type": "text",
+              "contentPreview": "AIR has weight → creates atmospheric pressure. At sea level: 1 atm ≈ 101 kPa ≈ 1000 hPa. Decreases w",
+              "hasTitle": true
+            }
+          ]
+        },
+        {
+          "id": "digestive-system",
+          "title": "Digestive System",
+          "issues": [
+            "No example, animation, or math sections found",
+            "Only 1 section - needs more content"
+          ],
+          "counts": {
+            "text": 1,
+            "example": 0,
+            "animation": 0,
+            "math": 0
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "text",
+              "contentPreview": "Digestion breaks down food into smaller molecules that can be absorbed. It involves both mechanical ",
+              "hasTitle": true
+            }
+          ]
+        },
+        {
+          "id": "respiratory-system",
+          "title": "Respiratory System",
+          "issues": [
+            "No example, animation, or math sections found",
+            "Only 1 section - needs more content"
+          ],
+          "counts": {
+            "text": 1,
+            "example": 0,
+            "animation": 0,
+            "math": 0
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "text",
+              "contentPreview": "The respiratory system brings oxygen into the body and removes carbon dioxide. Gas exchange occurs i",
+              "hasTitle": true
+            }
+          ]
+        },
+        {
+          "id": "circulatory-system",
+          "title": "Circulatory System",
+          "issues": [
+            "No example, animation, or math sections found",
+            "Only 1 section - needs more content"
+          ],
+          "counts": {
+            "text": 1,
+            "example": 0,
+            "animation": 0,
+            "math": 0
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "text",
+              "contentPreview": "The heart pumps blood around the body through blood vessels. Arteries carry blood away from the hear",
+              "hasTitle": true
+            }
+          ]
+        },
+        {
+          "id": "reproduction",
+          "title": "Human Reproduction",
+          "issues": [
+            "No example, animation, or math sections found",
+            "Only 1 section - needs more content"
+          ],
+          "counts": {
+            "text": 1,
+            "example": 0,
+            "animation": 0,
+            "math": 0
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "text",
+              "contentPreview": "Reproduction is the biological process by which new organisms are produced. In humans, this involves",
+              "hasTitle": true
+            }
+          ]
+        },
+        {
+          "id": "classification",
+          "title": "Classification of Living Things",
+          "issues": [
+            "No example, animation, or math sections found"
+          ],
+          "counts": {
+            "text": 2,
+            "example": 0,
+            "animation": 0,
+            "math": 0
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "text",
+              "contentPreview": "Scientists classify organisms based on shared characteristics. The five kingdoms are: Animals, Plant",
+              "hasTitle": true
+            },
+            {
+              "index": 1,
+              "type": "text",
+              "contentPreview": "Vertebrates have backbones. Five main groups: Fish (live in water, scales, gills), Amphibians (moist",
+              "hasTitle": true
+            }
+          ]
+        },
+        {
+          "id": "food-chains",
+          "title": "Food Chains & Food Webs",
+          "issues": [
+            "No example, animation, or math sections found"
+          ],
+          "counts": {
+            "text": 2,
+            "example": 0,
+            "animation": 0,
+            "math": 0
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "text",
+              "contentPreview": "Food chains show the flow of energy through an ecosystem. Producers (plants) make food using sunligh",
+              "hasTitle": true
+            },
+            {
+              "index": 1,
+              "type": "text",
+              "contentPreview": "A food web shows multiple interconnected food chains in an ecosystem. Most organisms eat more than o",
+              "hasTitle": true
+            }
+          ]
+        },
+        {
+          "id": "photosynthesis",
+          "title": "Photosynthesis",
+          "issues": [
+            "No example, animation, or math sections found"
+          ],
+          "counts": {
+            "text": 2,
+            "example": 0,
+            "animation": 0,
+            "math": 0
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "text",
+              "contentPreview": "Photosynthesis is the process plants use to make food (glucose). Equation: Carbon dioxide + Water → ",
+              "hasTitle": true
+            },
+            {
+              "index": 1,
+              "type": "text",
+              "contentPreview": "Light intensity: More light = faster rate (up to a point). Carbon dioxide concentration: More CO₂ = ",
+              "hasTitle": true
+            }
+          ]
+        },
+        {
+          "id": "transport-plants",
+          "title": "Transport in Plants",
+          "issues": [
+            "No example, animation, or math sections found"
+          ],
+          "counts": {
+            "text": 4,
+            "example": 0,
+            "animation": 0,
+            "math": 0
+          },
+          "structure": [
+            {
+              "index": 0,
+              "type": "text",
+              "contentPreview": "Plants have TWO transport systems: XYLEM transports water and minerals FROM roots TO leaves (upward)",
+              "hasTitle": true
+            },
+            {
+              "index": 1,
+              "type": "text",
+              "contentPreview": "Water uptake and transport process: 1) ROOT HAIR CELLS absorb water from soil by osmosis (large surf",
+              "hasTitle": true
+            },
+            {
+              "index": 2,
+              "type": "text",
+              "contentPreview": "TRANSPIRATION is loss of water vapor from leaves through stomata (tiny pores). Importance: 1) Create",
+              "hasTitle": true
+            },
+            {
+              "index": 3,
+              "type": "text",
+              "contentPreview": "INCREASES transpiration: HIGH temperature (faster evaporation), BRIGHT light (stomata open for photo",
+              "hasTitle": true
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "chaptersCorrect": [],
+  "chaptersNeedUpdate": [
+    {
+      "subjectTitle": "English Language",
+      "subjectId": "english",
+      "chapterId": "grammar-foundations",
+      "chapterTitle": "Grammar Foundations",
+      "totalSections": 2,
+      "sectionTypes": [
+        "text",
+        "text"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "No example, animation, or math sections found"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "text",
+          "contentPreview": "English has 8 parts of speech: NOUNS (naming words: cat, Singapore), PRONOUNS (replace nouns: he, th",
+          "hasTitle": true
+        },
+        {
+          "index": 1,
+          "type": "text",
+          "contentPreview": "Every sentence needs a SUBJECT (who/what) and a PREDICATE (what happens). Basic patterns: S+V (Birds",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 2,
+        "example": 0,
+        "animation": 0,
+        "math": 0
+      }
+    },
+    {
+      "subjectTitle": "English Language",
+      "subjectId": "english",
+      "chapterId": "vocabulary-building",
+      "chapterTitle": "Vocabulary Building",
+      "totalSections": 2,
+      "sectionTypes": [
+        "text",
+        "text"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "No example, animation, or math sections found"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "text",
+          "contentPreview": "When you encounter unfamiliar words, use context clues: DEFINITION (word is defined in sentence), EX",
+          "hasTitle": true
+        },
+        {
+          "index": 1,
+          "type": "text",
+          "contentPreview": "Common PREFIXES: un- (not: unhappy), re- (again: rewrite), pre- (before: preview), dis- (not/opposit",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 2,
+        "example": 0,
+        "animation": 0,
+        "math": 0
+      }
+    },
+    {
+      "subjectTitle": "English Language",
+      "subjectId": "english",
+      "chapterId": "sentence-construction",
+      "chapterTitle": "Sentence Construction",
+      "totalSections": 1,
+      "sectionTypes": [
+        "text"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "No example, animation, or math sections found",
+        "Only 1 section - needs more content"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "text",
+          "contentPreview": "SENTENCE FRAGMENT: Incomplete sentence missing subject or verb. Wrong: 'After school.' Right: 'After",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 1,
+        "example": 0,
+        "animation": 0,
+        "math": 0
+      }
+    },
+    {
+      "subjectTitle": "English Language",
+      "subjectId": "english",
+      "chapterId": "writing-narratives",
+      "chapterTitle": "Narrative Writing",
+      "totalSections": 2,
+      "sectionTypes": [
+        "text",
+        "text"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "No example, animation, or math sections found"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "text",
+          "contentPreview": "Every good story has 5 parts: 1) EXPOSITION: Introduce characters, setting, situation. 2) RISING ACT",
+          "hasTitle": true
+        },
+        {
+          "index": 1,
+          "type": "text",
+          "contentPreview": "WEAK (telling): She was angry. STRONG (showing): Her fists clenched, and her face turned red. Use: a",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 2,
+        "example": 0,
+        "animation": 0,
+        "math": 0
+      }
+    },
+    {
+      "subjectTitle": "English Language",
+      "subjectId": "english",
+      "chapterId": "comprehension-skills",
+      "chapterTitle": "Reading Comprehension",
+      "totalSections": 1,
+      "sectionTypes": [
+        "text"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "No example, animation, or math sections found",
+        "Only 1 section - needs more content"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "text",
+          "contentPreview": "MAIN IDEA is what the passage is mostly about. Often found in: first sentence (topic sentence), last",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 1,
+        "example": 0,
+        "animation": 0,
+        "math": 0
+      }
+    },
+    {
+      "subjectTitle": "English Language",
+      "subjectId": "english",
+      "chapterId": "editing-proofreading",
+      "chapterTitle": "Editing & Proofreading",
+      "totalSections": 1,
+      "sectionTypes": [
+        "text"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "No example, animation, or math sections found",
+        "Only 1 section - needs more content"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "text",
+          "contentPreview": "Common mistakes: 1) SUBJECT-VERB AGREEMENT: 'He go' → 'He goes'. 2) PRONOUN ERRORS: 'Me and him went",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 1,
+        "example": 0,
+        "animation": 0,
+        "math": 0
+      }
+    },
+    {
+      "subjectTitle": "Chinese Language",
+      "subjectId": "chinese",
+      "chapterId": "chinese-grammar-basics",
+      "chapterTitle": "Grammar Fundamentals",
+      "totalSections": 2,
+      "sectionTypes": [
+        "text",
+        "text"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "No example, animation, or math sections found"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "text",
+          "contentPreview": "Chinese sentence structure follows: 主语(Subject) + 谓语(Predicate) + 宾语(Object). Example: 我(S) 喜欢(V) 音乐",
+          "hasTitle": true
+        },
+        {
+          "index": 1,
+          "type": "text",
+          "contentPreview": "Measure words (量词) are essential in Chinese. Common ones: 个(general: 一个人), 本(books: 两本书), 张(flat ite",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 2,
+        "example": 0,
+        "animation": 0,
+        "math": 0
+      }
+    },
+    {
+      "subjectTitle": "Chinese Language",
+      "subjectId": "chinese",
+      "chapterId": "chinese-vocabulary",
+      "chapterTitle": "Vocabulary Building",
+      "totalSections": 2,
+      "sectionTypes": [
+        "text",
+        "text"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "No example, animation, or math sections found"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "text",
+          "contentPreview": "Chinese words often combine in specific ways. Examples: 提高(improve) + 水平/质量, 增加(increase) + 数量/人数, 解",
+          "hasTitle": true
+        },
+        {
+          "index": 1,
+          "type": "text",
+          "contentPreview": "Chinese characters have radicals (部首) that hint at meaning. Examples: 水/氵(water): 河、海、湖 all relate t",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 2,
+        "example": 0,
+        "animation": 0,
+        "math": 0
+      }
+    },
+    {
+      "subjectTitle": "Chinese Language",
+      "subjectId": "chinese",
+      "chapterId": "idioms-proverbs",
+      "chapterTitle": "Idioms & Proverbs",
+      "totalSections": 1,
+      "sectionTypes": [
+        "text"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "No example, animation, or math sections found",
+        "Only 1 section - needs more content"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "text",
+          "contentPreview": "Important idioms for Sec 1: 一举两得(kill two birds with one stone), 半途而废(give up halfway), 井底之蛙(narrow-",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 1,
+        "example": 0,
+        "animation": 0,
+        "math": 0
+      }
+    },
+    {
+      "subjectTitle": "Chinese Language",
+      "subjectId": "chinese",
+      "chapterId": "chinese-composition",
+      "chapterTitle": "Composition Writing",
+      "totalSections": 2,
+      "sectionTypes": [
+        "text",
+        "text"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "No example, animation, or math sections found"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "text",
+          "contentPreview": "记叙文结构：开头(Introduction) - 设置场景、介绍人物；发展(Development) - 事件展开、细节描述；高潮(Climax) - 最紧张/重要的时刻；结尾(Conclusion)",
+          "hasTitle": true
+        },
+        {
+          "index": 1,
+          "type": "text",
+          "contentPreview": "好的描写需要：1) 感官描写 - 视觉（颜色、形状）、听觉（声音）、嗅觉（气味）、触觉（质感）、味觉。2) 比喻 - 像、如、仿佛。3) 动作描写 - 具体动词而非笼统词。弱：他很高兴。强：他脸上绽放",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 2,
+        "example": 0,
+        "animation": 0,
+        "math": 0
+      }
+    },
+    {
+      "subjectTitle": "Chinese Language",
+      "subjectId": "chinese",
+      "chapterId": "chinese-comprehension",
+      "chapterTitle": "Reading Comprehension",
+      "totalSections": 1,
+      "sectionTypes": [
+        "text"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "No example, animation, or math sections found",
+        "Only 1 section - needs more content"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "text",
+          "contentPreview": "阅读理解技巧：1）先看问题再读文章，有目的地阅读。2）找关键词（主题句通常在段首或段尾）。3）推断词义 - 用上下文、部首、联想。4）注意转折词（但是、然而、可是）和因果词（因为、所以、因此）。5）理",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 1,
+        "example": 0,
+        "animation": 0,
+        "math": 0
+      }
+    },
+    {
+      "subjectTitle": "Chinese Language",
+      "subjectId": "chinese",
+      "chapterId": "sentence-correction-chinese",
+      "chapterTitle": "Sentence Correction",
+      "totalSections": 1,
+      "sectionTypes": [
+        "text"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "No example, animation, or math sections found",
+        "Only 1 section - needs more content"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "text",
+          "contentPreview": "常见病句类型：1）成分残缺 - 缺少主语或宾语。错：看到美丽的风景。改：我看到美丽的风景。2）词序不当 - 修饰语位置错误。错：我很去想学校。改：我很想去学校。3）搭配不当 - 词语不能搭配。错：提高",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 1,
+        "example": 0,
+        "animation": 0,
+        "math": 0
+      }
+    },
+    {
+      "subjectTitle": "Mathematics",
+      "subjectId": "math",
+      "chapterId": "integers-rational",
+      "chapterTitle": "Integers & Rational Numbers",
+      "totalSections": 9,
+      "sectionTypes": [
+        "text",
+        "text",
+        "animation",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "animation"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "5 text section(s) without following examples"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "text",
+          "contentPreview": "Integers include positive numbers, negative numbers, and zero: {..., -3, -2, -1, 0, 1, 2, 3, ...}. T",
+          "hasTitle": true
+        },
+        {
+          "index": 1,
+          "type": "text",
+          "contentPreview": "We use integers in everyday life:\n• Temperature: +25°C (hot day), -5°C (freezing)\n• Money: +$50 (ear",
+          "hasTitle": true
+        },
+        {
+          "index": 2,
+          "type": "animation",
+          "contentPreview": "NumberLineReveal",
+          "hasTitle": true
+        },
+        {
+          "index": 3,
+          "type": "text",
+          "contentPreview": "Concept: When adding integers with the same sign, add the numbers and keep the sign.\n\nRule: Same sig",
+          "hasTitle": true
+        },
+        {
+          "index": 4,
+          "type": "text",
+          "contentPreview": "Concept: When adding integers with different signs, subtract the smaller number from the larger numb",
+          "hasTitle": true
+        },
+        {
+          "index": 5,
+          "type": "text",
+          "contentPreview": "Concept: To subtract integers, change the subtraction to addition of the opposite number.\n\nRule: Cha",
+          "hasTitle": true
+        },
+        {
+          "index": 6,
+          "type": "text",
+          "contentPreview": "Concept: When multiplying or dividing integers with the same sign, the answer is always positive.\n\nR",
+          "hasTitle": true
+        },
+        {
+          "index": 7,
+          "type": "text",
+          "contentPreview": "Concept: When multiplying or dividing integers with different signs, the answer is always negative.\n",
+          "hasTitle": true
+        },
+        {
+          "index": 8,
+          "type": "animation",
+          "contentPreview": "FractionVisual",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 7,
+        "example": 0,
+        "animation": 2,
+        "math": 0
+      }
+    },
+    {
+      "subjectTitle": "Mathematics",
+      "subjectId": "math",
+      "chapterId": "factors-multiples-primes",
+      "chapterTitle": "Factors, Multiples & Prime Numbers",
+      "totalSections": 6,
+      "sectionTypes": [
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "No example, animation, or math sections found"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "text",
+          "contentPreview": "Concept: Factors are numbers that divide exactly into another number with no remainder.\n\nTo find fac",
+          "hasTitle": true
+        },
+        {
+          "index": 1,
+          "type": "text",
+          "contentPreview": "Concept: Multiples are the product of a number and any integer.\n\nTo find multiples, multiply the num",
+          "hasTitle": true
+        },
+        {
+          "index": 2,
+          "type": "text",
+          "contentPreview": "Concept: Prime numbers have exactly 2 factors: 1 and itself.\n\nPrime numbers: 2, 3, 5, 7, 11, 13, 17,",
+          "hasTitle": true
+        },
+        {
+          "index": 3,
+          "type": "text",
+          "contentPreview": "Concept: The Highest Common Factor (HCF) is the largest factor that two or more numbers share.\n\nStep",
+          "hasTitle": true
+        },
+        {
+          "index": 4,
+          "type": "text",
+          "contentPreview": "Concept: The Lowest Common Multiple (LCM) is the smallest multiple that two or more numbers share.\n\n",
+          "hasTitle": true
+        },
+        {
+          "index": 5,
+          "type": "text",
+          "contentPreview": "Concept: Prime factorization means expressing a number as a product of prime numbers.\n\nYou can break",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 6,
+        "example": 0,
+        "animation": 0,
+        "math": 0
+      }
+    },
+    {
+      "subjectTitle": "Mathematics",
+      "subjectId": "math",
+      "chapterId": "approximations-estimations",
+      "chapterTitle": "Approximations & Estimations",
+      "totalSections": 4,
+      "sectionTypes": [
+        "text",
+        "text",
+        "text",
+        "text"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "No example, animation, or math sections found"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "text",
+          "contentPreview": "Concept: Rounding simplifies numbers by reducing the number of digits.\n\nRule: Look at the digit afte",
+          "hasTitle": true
+        },
+        {
+          "index": 1,
+          "type": "text",
+          "contentPreview": "Concept: Significant figures (s.f.) show the precision of a number. Count from the first non-zero di",
+          "hasTitle": true
+        },
+        {
+          "index": 2,
+          "type": "text",
+          "contentPreview": "Concept: To round to a specific number of significant figures:\n\nSteps:\n1. Count the required number ",
+          "hasTitle": true
+        },
+        {
+          "index": 3,
+          "type": "text",
+          "contentPreview": "Concept: Estimation means rounding numbers before calculating to get an approximate answer. This is ",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 4,
+        "example": 0,
+        "animation": 0,
+        "math": 0
+      }
+    },
+    {
+      "subjectTitle": "Mathematics",
+      "subjectId": "math",
+      "chapterId": "algebraic-expressions",
+      "chapterTitle": "Algebraic Expressions",
+      "totalSections": 8,
+      "sectionTypes": [
+        "text",
+        "text",
+        "animation",
+        "text",
+        "math",
+        "text",
+        "text",
+        "text"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "4 text section(s) without following examples"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "text",
+          "contentPreview": "An algebraic expression uses letters (variables) to represent unknown numbers. Examples: 2x + 3, 5a ",
+          "hasTitle": true
+        },
+        {
+          "index": 1,
+          "type": "text",
+          "contentPreview": "LIKE TERMS have the same variables raised to the same powers. Only like terms can be combined. Examp",
+          "hasTitle": true
+        },
+        {
+          "index": 2,
+          "type": "animation",
+          "contentPreview": "TileCombine",
+          "hasTitle": true
+        },
+        {
+          "index": 3,
+          "type": "text",
+          "contentPreview": "Simplifying means combining like terms. Steps: 1) Identify like terms, 2) Combine coefficients, 3) W",
+          "hasTitle": true
+        },
+        {
+          "index": 4,
+          "type": "math",
+          "contentPreview": "a(b + c) = ab + ac",
+          "hasTitle": true
+        },
+        {
+          "index": 5,
+          "type": "text",
+          "contentPreview": "Factorizing is REVERSE of expanding - take out common factors. Steps: 1) Find HCF of all terms, 2) W",
+          "hasTitle": true
+        },
+        {
+          "index": 6,
+          "type": "text",
+          "contentPreview": "Substitution means replacing variables with numbers. Steps: 1) Write expression, 2) Replace variable",
+          "hasTitle": true
+        },
+        {
+          "index": 7,
+          "type": "text",
+          "contentPreview": "Algebra helps solve real problems. Examples: Perimeter of rectangle P = 2(l + w). Cost calculation: ",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 6,
+        "example": 0,
+        "animation": 1,
+        "math": 1
+      }
+    },
+    {
+      "subjectTitle": "Mathematics",
+      "subjectId": "math",
+      "chapterId": "linear-equations",
+      "chapterTitle": "Simple Linear Equations",
+      "totalSections": 3,
+      "sectionTypes": [
+        "text",
+        "text",
+        "animation"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "1 text section(s) without following examples"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "text",
+          "contentPreview": "An equation shows that two expressions are equal. To solve it, isolate the variable by performing th",
+          "hasTitle": true
+        },
+        {
+          "index": 1,
+          "type": "text",
+          "contentPreview": "Concept: Undo operations in reverse order on both sides to isolate x.\n\nSteps:\n1) Subtract b from bot",
+          "hasTitle": true
+        },
+        {
+          "index": 2,
+          "type": "animation",
+          "contentPreview": "EquationBalance",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 2,
+        "example": 0,
+        "animation": 1,
+        "math": 0
+      }
+    },
+    {
+      "subjectTitle": "Mathematics",
+      "subjectId": "math",
+      "chapterId": "ratio-rate-proportion",
+      "chapterTitle": "Ratio, Rate & Proportion",
+      "totalSections": 6,
+      "sectionTypes": [
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "No example, animation, or math sections found"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "text",
+          "contentPreview": "Concept: A ratio compares two or more quantities.\n\nFormat: Write as a:b (read as 'a to b')\n\nExamples",
+          "hasTitle": true
+        },
+        {
+          "index": 1,
+          "type": "text",
+          "contentPreview": "Concept: Simplify ratios by dividing by the HCF (Highest Common Factor).\n\nExamples:\n\nExample 1: Simp",
+          "hasTitle": true
+        },
+        {
+          "index": 2,
+          "type": "text",
+          "contentPreview": "Concept: Equivalent ratios are created by multiplying or dividing both parts by the same number.\n\nEx",
+          "hasTitle": true
+        },
+        {
+          "index": 3,
+          "type": "text",
+          "contentPreview": "Concept: To share an amount by ratio, divide the total into parts.\n\nSteps:\n1. Add the ratio parts to",
+          "hasTitle": true
+        },
+        {
+          "index": 4,
+          "type": "text",
+          "contentPreview": "Concept: A rate is a ratio with different units.\n\nCommon rates: speed, density, price per unit\n\nExam",
+          "hasTitle": true
+        },
+        {
+          "index": 5,
+          "type": "text",
+          "contentPreview": "Concept: Proportion means two ratios are equal.\n\nIf a/b = c/d, then a × d = b × c (cross multiply)\n\n",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 6,
+        "example": 0,
+        "animation": 0,
+        "math": 0
+      }
+    },
+    {
+      "subjectTitle": "Mathematics",
+      "subjectId": "math",
+      "chapterId": "percentage",
+      "chapterTitle": "Percentage Applications",
+      "totalSections": 8,
+      "sectionTypes": [
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "No example, animation, or math sections found"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "text",
+          "contentPreview": "Concept: PERCENTAGE means per hundred.\n\n• 50% means 50 out of 100, or 0.5, or 1/2\n• 100% means the w",
+          "hasTitle": true
+        },
+        {
+          "index": 1,
+          "type": "text",
+          "contentPreview": "Concept: Convert between percentages, decimals, and fractions.\n\nPercentage to Decimal: Divide by 100",
+          "hasTitle": true
+        },
+        {
+          "index": 2,
+          "type": "text",
+          "contentPreview": "Concept: x% of y = (x/100) × y\n\nMethod: Convert to decimal, then multiply\n\nExample: Find 30% of 80\n3",
+          "hasTitle": true
+        },
+        {
+          "index": 3,
+          "type": "text",
+          "contentPreview": "Concept: Apply percentage changes\n\nIncrease: New = Original × (1 + %)\nExample: Increase $50 by 20%\n$",
+          "hasTitle": true
+        },
+        {
+          "index": 4,
+          "type": "text",
+          "contentPreview": "Concept: In Singapore, GST (Goods and Services Tax) is 9%.\n\nAdding GST:\nPrice with GST = Original × ",
+          "hasTitle": true
+        },
+        {
+          "index": 5,
+          "type": "text",
+          "contentPreview": "Concept: Discount reduces the original price.\n\nFormula: Sale Price = Original × (1 - Discount%)\n\nExa",
+          "hasTitle": true
+        },
+        {
+          "index": 6,
+          "type": "text",
+          "contentPreview": "Concept: Compare selling price to cost price.\n\nProfit: Selling Price > Cost Price\nProfit% = (Profit ",
+          "hasTitle": true
+        },
+        {
+          "index": 7,
+          "type": "text",
+          "contentPreview": "Formula: I = (P × R × T) / 100. P = Principal, R = Rate per year, T = Time in years. Total = Princip",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 8,
+        "example": 0,
+        "animation": 0,
+        "math": 0
+      }
+    },
+    {
+      "subjectTitle": "Mathematics",
+      "subjectId": "math",
+      "chapterId": "patterns-sequences",
+      "chapterTitle": "Patterns & Sequences",
+      "totalSections": 1,
+      "sectionTypes": [
+        "text"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "No example, animation, or math sections found",
+        "Only 1 section - needs more content"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "text",
+          "contentPreview": "An arithmetic sequence has a constant difference between consecutive terms. For example: 2, 5, 8, 11",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 1,
+        "example": 0,
+        "animation": 0,
+        "math": 0
+      }
+    },
+    {
+      "subjectTitle": "Mathematics",
+      "subjectId": "math",
+      "chapterId": "coordinates-graphs",
+      "chapterTitle": "Coordinates & Linear Graphs",
+      "totalSections": 1,
+      "sectionTypes": [
+        "text"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "No example, animation, or math sections found",
+        "Only 1 section - needs more content"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "text",
+          "contentPreview": "The coordinate plane has two axes: horizontal x-axis and vertical y-axis. Every point is identified ",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 1,
+        "example": 0,
+        "animation": 0,
+        "math": 0
+      }
+    },
+    {
+      "subjectTitle": "Mathematics",
+      "subjectId": "math",
+      "chapterId": "inequalities",
+      "chapterTitle": "Simple Inequalities",
+      "totalSections": 1,
+      "sectionTypes": [
+        "text"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "No example, animation, or math sections found",
+        "Only 1 section - needs more content"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "text",
+          "contentPreview": "An inequality shows that one value is greater or less than another. For example, x > 3 means x is gr",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 1,
+        "example": 0,
+        "animation": 0,
+        "math": 0
+      }
+    },
+    {
+      "subjectTitle": "Mathematics",
+      "subjectId": "math",
+      "chapterId": "angles-geometry",
+      "chapterTitle": "Angles and Basic Geometry",
+      "totalSections": 6,
+      "sectionTypes": [
+        "text",
+        "text",
+        "text",
+        "math",
+        "text",
+        "text"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "4 text section(s) without following examples"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "text",
+          "contentPreview": "ANGLE formed when two rays meet at vertex. Measured in DEGREES (°). TYPES: ACUTE (0° < angle < 90°) ",
+          "hasTitle": true
+        },
+        {
+          "index": 1,
+          "type": "text",
+          "contentPreview": "ANGLES AT A POINT = 360°. EXAMPLE: Four angles meet at point: 85°, 110°, 90°, x°. Find x. 85+110+90+",
+          "hasTitle": true
+        },
+        {
+          "index": 2,
+          "type": "text",
+          "contentPreview": "PARALLEL LINES never meet, always same distance apart. Symbol: ||. WHEN TRANSVERSAL CROSSES PARALLEL",
+          "hasTitle": true
+        },
+        {
+          "index": 3,
+          "type": "math",
+          "contentPreview": "∠A + ∠B + ∠C = 180°",
+          "hasTitle": true
+        },
+        {
+          "index": 4,
+          "type": "text",
+          "contentPreview": "FORMULA: Sum of interior angles = (n-2) × 180° where n = number of sides. WHY? Any polygon can be di",
+          "hasTitle": true
+        },
+        {
+          "index": 5,
+          "type": "text",
+          "contentPreview": "ALL QUADRILATERALS: Interior angles sum = 360°. SQUARE: 4 equal sides, all angles 90°, diagonals equ",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 5,
+        "example": 0,
+        "animation": 0,
+        "math": 1
+      }
+    },
+    {
+      "subjectTitle": "Mathematics",
+      "subjectId": "math",
+      "chapterId": "triangles-polygons",
+      "chapterTitle": "Triangles & Polygons",
+      "totalSections": 1,
+      "sectionTypes": [
+        "text"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "No example, animation, or math sections found",
+        "Only 1 section - needs more content"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "text",
+          "contentPreview": "The sum of angles in any triangle is always 180°. This fundamental property helps solve many geometr",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 1,
+        "example": 0,
+        "animation": 0,
+        "math": 0
+      }
+    },
+    {
+      "subjectTitle": "Mathematics",
+      "subjectId": "math",
+      "chapterId": "perimeter-area",
+      "chapterTitle": "Perimeter & Area",
+      "totalSections": 1,
+      "sectionTypes": [
+        "text"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "No example, animation, or math sections found",
+        "Only 1 section - needs more content"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "text",
+          "contentPreview": "PERIMETER = distance around a shape. AREA = space inside a shape. RECTANGLE: Perimeter = 2(length + ",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 1,
+        "example": 0,
+        "animation": 0,
+        "math": 0
+      }
+    },
+    {
+      "subjectTitle": "Mathematics",
+      "subjectId": "math",
+      "chapterId": "volume-surface-area",
+      "chapterTitle": "Volume & Surface Area",
+      "totalSections": 3,
+      "sectionTypes": [
+        "text",
+        "text",
+        "text"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "No example, animation, or math sections found"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "text",
+          "contentPreview": "VOLUME measures space inside a 3D object (in cubic units). CUBE: V = side³. EXAMPLE 1: Cube side 4cm",
+          "hasTitle": true
+        },
+        {
+          "index": 1,
+          "type": "text",
+          "contentPreview": "SURFACE AREA = total area of ALL faces (in square units). Think: how much paint to cover entire shap",
+          "hasTitle": true
+        },
+        {
+          "index": 2,
+          "type": "text",
+          "contentPreview": "VOLUME applications: Water tank capacity, packaging boxes, swimming pool water. SURFACE AREA applica",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 3,
+        "example": 0,
+        "animation": 0,
+        "math": 0
+      }
+    },
+    {
+      "subjectTitle": "Mathematics",
+      "subjectId": "math",
+      "chapterId": "statistics",
+      "chapterTitle": "Statistics & Data Analysis",
+      "totalSections": 1,
+      "sectionTypes": [
+        "text"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "No example, animation, or math sections found",
+        "Only 1 section - needs more content"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "text",
+          "contentPreview": "Three ways to describe the 'center' of data: MEAN (average), MEDIAN (middle), MODE (most common). ME",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 1,
+        "example": 0,
+        "animation": 0,
+        "math": 0
+      }
+    },
+    {
+      "subjectTitle": "Science",
+      "subjectId": "science",
+      "chapterId": "scientific-methods",
+      "chapterTitle": "Scientific Methods & Measurement",
+      "totalSections": 5,
+      "sectionTypes": [
+        "text",
+        "text",
+        "text",
+        "text",
+        "text"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "No example, animation, or math sections found"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "text",
+          "contentPreview": "Concept: Safety is the top priority in the laboratory.\n\nEssential safety rules:\n• Always wear safety",
+          "hasTitle": true
+        },
+        {
+          "index": 1,
+          "type": "text",
+          "contentPreview": "Concept: The International System (SI) has seven base units.\n\nMain units for Secondary 1:\n\n• Meter (",
+          "hasTitle": true
+        },
+        {
+          "index": 2,
+          "type": "text",
+          "contentPreview": "Concept: Prefixes modify units for larger or smaller measurements.\n\nCommon prefixes:\n\n• Kilo (k) = ×",
+          "hasTitle": true
+        },
+        {
+          "index": 3,
+          "type": "text",
+          "contentPreview": "Concept: Convert units by multiplying or dividing by the conversion factor.\n\nExamples:\n\nExample 1: C",
+          "hasTitle": true
+        },
+        {
+          "index": 4,
+          "type": "text",
+          "contentPreview": "Concept: Different instruments measure different quantities with varying precision.\n\nCommon laborato",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 5,
+        "example": 0,
+        "animation": 0,
+        "math": 0
+      }
+    },
+    {
+      "subjectTitle": "Science",
+      "subjectId": "science",
+      "chapterId": "particle-model",
+      "chapterTitle": "Particulate Model of Matter",
+      "totalSections": 7,
+      "sectionTypes": [
+        "text",
+        "animation",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "5 text section(s) without following examples"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "text",
+          "contentPreview": "All matter is made of tiny particles in constant random motion. Particles have spaces between them. ",
+          "hasTitle": true
+        },
+        {
+          "index": 1,
+          "type": "animation",
+          "contentPreview": "ParticlesInStates",
+          "hasTitle": true
+        },
+        {
+          "index": 2,
+          "type": "text",
+          "contentPreview": "Particles packed very closely in fixed regular pattern. Very little space between. Particles vibrate",
+          "hasTitle": true
+        },
+        {
+          "index": 3,
+          "type": "text",
+          "contentPreview": "Particles close together but not in fixed positions. Small spaces between. Random arrangement. Parti",
+          "hasTitle": true
+        },
+        {
+          "index": 4,
+          "type": "text",
+          "contentPreview": "Particles very far apart. Large spaces between. Completely random. Particles move very fast in all d",
+          "hasTitle": true
+        },
+        {
+          "index": 5,
+          "type": "text",
+          "contentPreview": "Net movement of particles from higher to lower concentration due to random motion. Occurs in liquids",
+          "hasTitle": true
+        },
+        {
+          "index": 6,
+          "type": "text",
+          "contentPreview": "Random zigzag movement of small particles suspended in fluid. Caused by invisible molecules constant",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 6,
+        "example": 0,
+        "animation": 1,
+        "math": 0
+      }
+    },
+    {
+      "subjectTitle": "Science",
+      "subjectId": "science",
+      "chapterId": "mixtures-separation",
+      "chapterTitle": "Mixtures & Separation Techniques",
+      "totalSections": 1,
+      "sectionTypes": [
+        "text"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "No example, animation, or math sections found",
+        "Only 1 section - needs more content"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "text",
+          "contentPreview": "PURE SUBSTANCE: Fixed composition and properties. Cannot be separated physically. EXAMPLES: Pure wat",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 1,
+        "example": 0,
+        "animation": 0,
+        "math": 0
+      }
+    },
+    {
+      "subjectTitle": "Science",
+      "subjectId": "science",
+      "chapterId": "elements-compounds",
+      "chapterTitle": "Elements, Compounds & Chemical Formulas",
+      "totalSections": 8,
+      "sectionTypes": [
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "No example, animation, or math sections found"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "text",
+          "contentPreview": "An atom is the smallest particle of an element. Elements are pure substances made of only one type o",
+          "hasTitle": true
+        },
+        {
+          "index": 1,
+          "type": "text",
+          "contentPreview": "The Periodic Table organizes all known elements by atomic number (number of protons). Elements are a",
+          "hasTitle": true
+        },
+        {
+          "index": 2,
+          "type": "text",
+          "contentPreview": "Every atom has a NUCLEUS (center) containing PROTONS (positive charge) and NEUTRONS (no charge). ELE",
+          "hasTitle": true
+        },
+        {
+          "index": 3,
+          "type": "text",
+          "contentPreview": "GROUP 1 - Alkali Metals (Li, Na, K): Very reactive, soft metals, react with water. GROUP 2 - Alkalin",
+          "hasTitle": true
+        },
+        {
+          "index": 4,
+          "type": "text",
+          "contentPreview": "METALS (left and center): Shiny, good conductors of heat and electricity, malleable (can be hammered",
+          "hasTitle": true
+        },
+        {
+          "index": 5,
+          "type": "text",
+          "contentPreview": "Each element box shows: SYMBOL (1-2 letters, first always capital), ATOMIC NUMBER (top, number of pr",
+          "hasTitle": true
+        },
+        {
+          "index": 6,
+          "type": "text",
+          "contentPreview": "H - Hydrogen (most abundant in universe), C - Carbon (basis of life), N - Nitrogen (78% of air), O -",
+          "hasTitle": true
+        },
+        {
+          "index": 7,
+          "type": "text",
+          "contentPreview": "COMPOUNDS are substances formed when two or more DIFFERENT elements CHEMICALLY combine in FIXED rati",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 8,
+        "example": 0,
+        "animation": 0,
+        "math": 0
+      }
+    },
+    {
+      "subjectTitle": "Science",
+      "subjectId": "science",
+      "chapterId": "acids-bases",
+      "chapterTitle": "Acids & Bases",
+      "totalSections": 2,
+      "sectionTypes": [
+        "text",
+        "text"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "No example, animation, or math sections found"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "text",
+          "contentPreview": "ACIDS: Taste SOUR (like lemon, vinegar). WARNING: Never taste lab acids! Turn BLUE litmus paper → RE",
+          "hasTitle": true
+        },
+        {
+          "index": 1,
+          "type": "text",
+          "contentPreview": "NEUTRALIZATION: When ACID reacts with BASE → SALT + WATER. Acid and base cancel each other out! GENE",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 2,
+        "example": 0,
+        "animation": 0,
+        "math": 0
+      }
+    },
+    {
+      "subjectTitle": "Science",
+      "subjectId": "science",
+      "chapterId": "cells",
+      "chapterTitle": "Structure & Functions of Cells",
+      "totalSections": 1,
+      "sectionTypes": [
+        "text"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "No example, animation, or math sections found",
+        "Only 1 section - needs more content"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "text",
+          "contentPreview": "Cells are the basic units of life. All living organisms are made of cells. Plant cells have cell wal",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 1,
+        "example": 0,
+        "animation": 0,
+        "math": 0
+      }
+    },
+    {
+      "subjectTitle": "Science",
+      "subjectId": "science",
+      "chapterId": "light",
+      "chapterTitle": "Light & Reflection",
+      "totalSections": 1,
+      "sectionTypes": [
+        "text"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "No example, animation, or math sections found",
+        "Only 1 section - needs more content"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "text",
+          "contentPreview": "Light travels in straight lines. When light hits a surface, it can be reflected, absorbed, or transm",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 1,
+        "example": 0,
+        "animation": 0,
+        "math": 0
+      }
+    },
+    {
+      "subjectTitle": "Science",
+      "subjectId": "science",
+      "chapterId": "heat-temperature",
+      "chapterTitle": "Heat & Temperature",
+      "totalSections": 1,
+      "sectionTypes": [
+        "text"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "No example, animation, or math sections found",
+        "Only 1 section - needs more content"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "text",
+          "contentPreview": "TEMPERATURE measures how HOT or COLD (in °C or K). Measured with thermometer. HEAT is THERMAL ENERGY",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 1,
+        "example": 0,
+        "animation": 0,
+        "math": 0
+      }
+    },
+    {
+      "subjectTitle": "Science",
+      "subjectId": "science",
+      "chapterId": "forces-motion",
+      "chapterTitle": "Forces and Motion",
+      "totalSections": 7,
+      "sectionTypes": [
+        "text",
+        "text",
+        "text",
+        "text",
+        "animation",
+        "text",
+        "text"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "5 text section(s) without following examples"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "text",
+          "contentPreview": "A FORCE is a push or pull. Force is a VECTOR with magnitude and direction. Measured in NEWTONS (N). ",
+          "hasTitle": true
+        },
+        {
+          "index": 1,
+          "type": "text",
+          "contentPreview": "Use SPRING BALANCE (newton-meter). Greater force → more stretch. Read scale in NEWTONS (N). WEIGHT v",
+          "hasTitle": true
+        },
+        {
+          "index": 2,
+          "type": "text",
+          "contentPreview": "Forces equal in size, opposite directions. Resultant force = 0 N. Effect: Stationary stays stationar",
+          "hasTitle": true
+        },
+        {
+          "index": 3,
+          "type": "text",
+          "contentPreview": "Forces NOT equal. Net/resultant force exists. Object ACCELERATES (changes speed or direction). Large",
+          "hasTitle": true
+        },
+        {
+          "index": 4,
+          "type": "animation",
+          "contentPreview": "ForceMotion",
+          "hasTitle": true
+        },
+        {
+          "index": 5,
+          "type": "text",
+          "contentPreview": "Force opposing motion between surfaces. Always acts OPPOSITE to motion. Caused by surface roughness.",
+          "hasTitle": true
+        },
+        {
+          "index": 6,
+          "type": "text",
+          "contentPreview": "Object at rest stays at rest, object in motion stays in motion at constant velocity, unless acted up",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 6,
+        "example": 0,
+        "animation": 1,
+        "math": 0
+      }
+    },
+    {
+      "subjectTitle": "Science",
+      "subjectId": "science",
+      "chapterId": "energy",
+      "chapterTitle": "Energy, Work & Power",
+      "totalSections": 4,
+      "sectionTypes": [
+        "text",
+        "text",
+        "text",
+        "math"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "2 text section(s) without following examples"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "text",
+          "contentPreview": "Energy is ability to do work (measured in Joules, J). Main forms: KINETIC (moving objects: KE = ½mv²",
+          "hasTitle": true
+        },
+        {
+          "index": 1,
+          "type": "text",
+          "contentPreview": "Energy changes from one form to another. Examples: LIGHT BULB: Electrical → Light + Heat. PHOTOSYNTH",
+          "hasTitle": true
+        },
+        {
+          "index": 2,
+          "type": "text",
+          "contentPreview": "LAW OF CONSERVATION OF ENERGY: Total energy in isolated system remains constant. Energy input = Usef",
+          "hasTitle": true
+        },
+        {
+          "index": 3,
+          "type": "math",
+          "contentPreview": "Work = Force × Distance (W = Fd) in Joules (J). Power = Work / Time (P = W/t) in Watts (W).",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 3,
+        "example": 0,
+        "animation": 0,
+        "math": 1
+      }
+    },
+    {
+      "subjectTitle": "Science",
+      "subjectId": "science",
+      "chapterId": "pressure",
+      "chapterTitle": "Pressure",
+      "totalSections": 4,
+      "sectionTypes": [
+        "math",
+        "text",
+        "text",
+        "text"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "3 text section(s) without following examples"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "math",
+          "contentPreview": "Pressure = Force / Area (P = F/A) in Pascals (Pa) or N/m²",
+          "hasTitle": true
+        },
+        {
+          "index": 1,
+          "type": "text",
+          "contentPreview": "To INCREASE pressure: Increase force OR decrease area. To DECREASE pressure: Decrease force OR incre",
+          "hasTitle": true
+        },
+        {
+          "index": 2,
+          "type": "text",
+          "contentPreview": "Liquid pressure INCREASES with DEPTH. Why? More liquid above = more weight = more pressure. Pressure",
+          "hasTitle": true
+        },
+        {
+          "index": 3,
+          "type": "text",
+          "contentPreview": "AIR has weight → creates atmospheric pressure. At sea level: 1 atm ≈ 101 kPa ≈ 1000 hPa. Decreases w",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 3,
+        "example": 0,
+        "animation": 0,
+        "math": 1
+      }
+    },
+    {
+      "subjectTitle": "Science",
+      "subjectId": "science",
+      "chapterId": "digestive-system",
+      "chapterTitle": "Digestive System",
+      "totalSections": 1,
+      "sectionTypes": [
+        "text"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "No example, animation, or math sections found",
+        "Only 1 section - needs more content"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "text",
+          "contentPreview": "Digestion breaks down food into smaller molecules that can be absorbed. It involves both mechanical ",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 1,
+        "example": 0,
+        "animation": 0,
+        "math": 0
+      }
+    },
+    {
+      "subjectTitle": "Science",
+      "subjectId": "science",
+      "chapterId": "respiratory-system",
+      "chapterTitle": "Respiratory System",
+      "totalSections": 1,
+      "sectionTypes": [
+        "text"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "No example, animation, or math sections found",
+        "Only 1 section - needs more content"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "text",
+          "contentPreview": "The respiratory system brings oxygen into the body and removes carbon dioxide. Gas exchange occurs i",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 1,
+        "example": 0,
+        "animation": 0,
+        "math": 0
+      }
+    },
+    {
+      "subjectTitle": "Science",
+      "subjectId": "science",
+      "chapterId": "circulatory-system",
+      "chapterTitle": "Circulatory System",
+      "totalSections": 1,
+      "sectionTypes": [
+        "text"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "No example, animation, or math sections found",
+        "Only 1 section - needs more content"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "text",
+          "contentPreview": "The heart pumps blood around the body through blood vessels. Arteries carry blood away from the hear",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 1,
+        "example": 0,
+        "animation": 0,
+        "math": 0
+      }
+    },
+    {
+      "subjectTitle": "Science",
+      "subjectId": "science",
+      "chapterId": "reproduction",
+      "chapterTitle": "Human Reproduction",
+      "totalSections": 1,
+      "sectionTypes": [
+        "text"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "No example, animation, or math sections found",
+        "Only 1 section - needs more content"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "text",
+          "contentPreview": "Reproduction is the biological process by which new organisms are produced. In humans, this involves",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 1,
+        "example": 0,
+        "animation": 0,
+        "math": 0
+      }
+    },
+    {
+      "subjectTitle": "Science",
+      "subjectId": "science",
+      "chapterId": "classification",
+      "chapterTitle": "Classification of Living Things",
+      "totalSections": 2,
+      "sectionTypes": [
+        "text",
+        "text"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "No example, animation, or math sections found"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "text",
+          "contentPreview": "Scientists classify organisms based on shared characteristics. The five kingdoms are: Animals, Plant",
+          "hasTitle": true
+        },
+        {
+          "index": 1,
+          "type": "text",
+          "contentPreview": "Vertebrates have backbones. Five main groups: Fish (live in water, scales, gills), Amphibians (moist",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 2,
+        "example": 0,
+        "animation": 0,
+        "math": 0
+      }
+    },
+    {
+      "subjectTitle": "Science",
+      "subjectId": "science",
+      "chapterId": "food-chains",
+      "chapterTitle": "Food Chains & Food Webs",
+      "totalSections": 2,
+      "sectionTypes": [
+        "text",
+        "text"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "No example, animation, or math sections found"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "text",
+          "contentPreview": "Food chains show the flow of energy through an ecosystem. Producers (plants) make food using sunligh",
+          "hasTitle": true
+        },
+        {
+          "index": 1,
+          "type": "text",
+          "contentPreview": "A food web shows multiple interconnected food chains in an ecosystem. Most organisms eat more than o",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 2,
+        "example": 0,
+        "animation": 0,
+        "math": 0
+      }
+    },
+    {
+      "subjectTitle": "Science",
+      "subjectId": "science",
+      "chapterId": "photosynthesis",
+      "chapterTitle": "Photosynthesis",
+      "totalSections": 2,
+      "sectionTypes": [
+        "text",
+        "text"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "No example, animation, or math sections found"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "text",
+          "contentPreview": "Photosynthesis is the process plants use to make food (glucose). Equation: Carbon dioxide + Water → ",
+          "hasTitle": true
+        },
+        {
+          "index": 1,
+          "type": "text",
+          "contentPreview": "Light intensity: More light = faster rate (up to a point). Carbon dioxide concentration: More CO₂ = ",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 2,
+        "example": 0,
+        "animation": 0,
+        "math": 0
+      }
+    },
+    {
+      "subjectTitle": "Science",
+      "subjectId": "science",
+      "chapterId": "transport-plants",
+      "chapterTitle": "Transport in Plants",
+      "totalSections": 4,
+      "sectionTypes": [
+        "text",
+        "text",
+        "text",
+        "text"
+      ],
+      "hasConceptExamplePattern": false,
+      "issues": [
+        "No example, animation, or math sections found"
+      ],
+      "currentStructure": [
+        {
+          "index": 0,
+          "type": "text",
+          "contentPreview": "Plants have TWO transport systems: XYLEM transports water and minerals FROM roots TO leaves (upward)",
+          "hasTitle": true
+        },
+        {
+          "index": 1,
+          "type": "text",
+          "contentPreview": "Water uptake and transport process: 1) ROOT HAIR CELLS absorb water from soil by osmosis (large surf",
+          "hasTitle": true
+        },
+        {
+          "index": 2,
+          "type": "text",
+          "contentPreview": "TRANSPIRATION is loss of water vapor from leaves through stomata (tiny pores). Importance: 1) Create",
+          "hasTitle": true
+        },
+        {
+          "index": 3,
+          "type": "text",
+          "contentPreview": "INCREASES transpiration: HIGH temperature (faster evaporation), BRIGHT light (stomata open for photo",
+          "hasTitle": true
+        }
+      ],
+      "counts": {
+        "text": 4,
+        "example": 0,
+        "animation": 0,
+        "math": 0
+      }
+    }
+  ],
+  "summary": {
+    "totalChapters": 46,
+    "chaptersCorrect": 0,
+    "chaptersNeedUpdate": 46,
+    "percentageCorrect": "0.0%"
+  }
+}

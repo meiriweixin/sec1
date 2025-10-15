@@ -1,0 +1,68 @@
+{
+  "id": "reading-comprehension",
+  "title": "Reading Comprehension",
+  "title_zh": "阅读理解",
+  "description": "Develop skills to understand main ideas, make inferences, and analyze texts effectively",
+  "description_zh": "培养理解主旨、推理和有效分析文本的技能",
+  "objectives": [
+    "Identify main ideas and supporting details",
+    "Make inferences based on context",
+    "Understand author purpose and tone",
+    "Analyze text structure"
+  ],
+  "objectives_zh": [
+    "识别主旨和支持细节",
+    "根据上下文进行推理",
+    "理解作者的目的和语气",
+    "分析文本结构"
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "type": "text",
+      "title": "Finding Main Ideas",
+      "title_zh": "寻找主旨",
+      "content": "Find the main idea by reading first paragraph and topic sentences.",
+      "content_zh": "通过阅读第一段和主题句找到主旨。"
+    },
+    {
+      "id": "s2",
+      "type": "text",
+      "title": "Making Inferences",
+      "title_zh": "推理",
+      "content": "Use context clues and prior knowledge to make inferences.",
+      "content_zh": "使用上下文线索和先前知识进行推理。"
+    },
+    {
+      "id": "s3",
+      "type": "text",
+      "title": "Authors Purpose",
+      "title_zh": "作者的目的",
+      "content": "Identify if the author wants to Persuade, Inform, or Entertain (PIE).",
+      "content_zh": "识别作者是想说服、告知还是娱乐（PIE）。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "mcq",
+      "question": "What is the main idea technique?",
+      "question_zh": "什么是主旨技巧？",
+      "choices": [
+        "Skip reading",
+        "Read first paragraph",
+        "Guess randomly",
+        "Ignore details"
+      ],
+      "choices_zh": [
+        "跳过阅读",
+        "阅读第一段",
+        "随机猜测",
+        "忽略细节"
+      ],
+      "answer": 1,
+      "explanation": "First paragraph usually introduces main idea",
+      "explanation_zh": "第一段通常介绍主旨"
+    }
+  ]
+}

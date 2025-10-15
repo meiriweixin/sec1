@@ -8,6 +8,11 @@ import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard";
 import Subjects from "./pages/Subjects";
 import SubjectDetail from "./pages/SubjectDetail";
+import ChapterView from "./pages/ChapterView";
+import AIPlayground from "./pages/AIPlayground";
+import AIModuleDetail from "./pages/AIModuleDetail";
+import AIProgress from "./pages/AIProgress";
+import AISafety from "./pages/AISafety";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -24,6 +29,11 @@ const App = () => (
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/subjects" element={<Subjects />} />
           <Route path="/subjects/:subjectId" element={<SubjectDetail />} />
+          <Route path="/subjects/:subjectId/:chapterId" element={<ChapterView />} />
+          <Route path="/ai" element={<AIPlayground />} />
+          <Route path="/ai/modules/:moduleId" element={<AIModuleDetail />} />
+          <Route path="/ai/progress" element={<AIProgress />} />
+          <Route path="/ai/safety" element={<AISafety />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

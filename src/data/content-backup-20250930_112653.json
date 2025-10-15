@@ -1,0 +1,1491 @@
+{
+  "subjects": [
+    {
+      "id": "math",
+      "title": "Mathematics",
+      "title_zh": "数学",
+      "description": "Master mathematical concepts and problem-solving for Secondary 1",
+      "description_zh": "掌握中一数学概念和解题技巧",
+      "color": "primary",
+      "chapters": [
+        {
+          "id": "integers-rational",
+          "title": "Integers & Rational Numbers",
+          "title_zh": "整数与有理数",
+          "description": "Learn integer operations and rational number representations",
+          "description_zh": "学习整数运算和有理数表示",
+          "objectives": [
+            "Understand integer operations (addition, subtraction, multiplication, division)",
+            "Represent rational numbers on the number line",
+            "Compare and order rational numbers",
+            "Convert between fractions, decimals and percentages"
+          ],
+          "objectives_zh": [
+            "理解整数运算（加、减、乘、除）",
+            "在数轴上表示有理数",
+            "比较和排序有理数",
+            "在分数、小数和百分数之间转换"
+          ],
+          "sections": [
+            {
+              "id": "intro",
+              "type": "text",
+              "title": "Introduction to Integers",
+              "title_zh": "整数简介",
+              "content": "Integers include all positive numbers, negative numbers, and zero. They extend our number system beyond just counting numbers.",
+              "content_zh": "整数包括所有正数、负数和零。它们将我们的数字系统扩展到计数以外。"
+            },
+            {
+              "id": "animation1",
+              "type": "animation",
+              "title": "Number Line Visualization",
+              "title_zh": "数轴可视化",
+              "content": "NumberLineReveal",
+              "props": {
+                "start": -10,
+                "end": 10,
+                "highlight": [
+                  -7,
+                  3
+                ]
+              }
+            },
+            {
+              "id": "fractions",
+              "type": "animation",
+              "title": "Rational Numbers as Fractions",
+              "title_zh": "有理数作为分数",
+              "content": "FractionVisual",
+              "props": {
+                "initialNumerator": 3,
+                "initialDenominator": 4,
+                "showEquivalent": true
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "id": "q1",
+              "type": "mcq",
+              "prompt": "What is (-7) + 12?",
+              "prompt_zh": "(-7) + 12 等于多少？",
+              "choices": [
+                "-19",
+                "5",
+                "-5",
+                "19"
+              ],
+              "answer": 1,
+              "hint": "Add 12 to -7. Think of moving right 12 spaces on the number line from -7.",
+              "hint_zh": "将12加到-7。想象在数轴上从-7向右移动12个位置。"
+            },
+            {
+              "id": "q2",
+              "type": "short",
+              "prompt": "Express 0.75 as a fraction in simplest form.",
+              "prompt_zh": "将0.75表示为最简分数形式。",
+              "answer": "3/4",
+              "validator": "fraction",
+              "hint": "0.75 = 75/100. Simplify by dividing both by 25.",
+              "hint_zh": "0.75 = 75/100。将分子和分母都除以25来简化。"
+            }
+          ]
+        },
+        {
+          "id": "factors-multiples-primes",
+          "title": "Factors, Multiples & Prime Numbers",
+          "title_zh": "因数、倍数与质数",
+          "description": "Understand factors, multiples, HCF, LCM and prime factorization",
+          "description_zh": "理解因数、倍数、最大公因数、最小公倍数和质因数分解",
+          "objectives": [
+            "Find factors and multiples of numbers",
+            "Identify prime and composite numbers",
+            "Calculate HCF and LCM",
+            "Apply prime factorization"
+          ],
+          "objectives_zh": [
+            "找出数字的因数和倍数",
+            "识别质数和合数",
+            "计算最大公因数和最小公倍数",
+            "应用质因数分解"
+          ],
+          "sections": [
+            {
+              "id": "intro",
+              "type": "text",
+              "title": "Factors and Multiples",
+              "title_zh": "因数和倍数",
+              "content": "A factor divides a number exactly. A multiple is the product of a number and any integer. For example, factors of 12 are 1, 2, 3, 4, 6, 12. Multiples of 3 are 3, 6, 9, 12, ...",
+              "content_zh": "因数是能整除某数的数。倍数是一个数与任何整数的乘积。例如，12的因数是1, 2, 3, 4, 6, 12。3的倍数是3, 6, 9, 12, ..."
+            }
+          ],
+          "exercises": [
+            {
+              "id": "q1",
+              "type": "mcq",
+              "prompt": "Which of the following is a prime number?",
+              "prompt_zh": "以下哪个是质数？",
+              "choices": [
+                "15",
+                "21",
+                "29",
+                "33"
+              ],
+              "answer": 2,
+              "hint": "A prime number has exactly 2 factors: 1 and itself.",
+              "hint_zh": "质数只有两个因数：1和它本身。"
+            }
+          ]
+        },
+        {
+          "id": "approximations-estimations",
+          "title": "Approximations & Estimations",
+          "title_zh": "近似值与估算",
+          "description": "Learn rounding, significant figures, and estimation techniques",
+          "description_zh": "学习四舍五入、有效数字和估算技巧",
+          "objectives": [
+            "Round numbers to nearest 10, 100, 1000",
+            "Express numbers to significant figures",
+            "Estimate calculations",
+            "Understand upper and lower bounds"
+          ],
+          "objectives_zh": [
+            "将数字四舍五入到最接近的10、100、1000",
+            "用有效数字表示数字",
+            "估算计算结果",
+            "理解上限和下限"
+          ],
+          "sections": [
+            {
+              "id": "intro",
+              "type": "text",
+              "title": "Rounding and Significant Figures",
+              "title_zh": "四舍五入和有效数字",
+              "content": "Rounding simplifies numbers while keeping them close to the original value. Significant figures show the precision of a measurement.",
+              "content_zh": "四舍五入简化数字，同时保持它们接近原始值。有效数字显示测量的精度。"
+            }
+          ],
+          "exercises": [
+            {
+              "id": "q1",
+              "type": "short",
+              "prompt": "Round 3.876 to 2 significant figures.",
+              "prompt_zh": "将3.876四舍五入到2位有效数字。",
+              "answer": "3.9",
+              "validator": "numeric",
+              "hint": "Count from the first non-zero digit.",
+              "hint_zh": "从第一个非零数字开始计数。"
+            }
+          ]
+        },
+        {
+          "id": "algebraic-expressions",
+          "title": "Algebraic Expressions",
+          "title_zh": "代数表达式",
+          "description": "Master simplification, expansion, and factorization of algebraic expressions",
+          "description_zh": "掌握代数表达式的简化、展开和因式分解",
+          "objectives": [
+            "Understand algebraic notation and terminology",
+            "Combine like terms to simplify expressions",
+            "Expand brackets using the distributive law",
+            "Factorize simple algebraic expressions",
+            "Evaluate algebraic expressions by substitution"
+          ],
+          "objectives_zh": [
+            "理解代数符号和术语",
+            "合并同类项以简化表达式",
+            "使用分配律展开括号",
+            "因式分解简单的代数表达式",
+            "通过代入求值代数表达式"
+          ],
+          "sections": [
+            {
+              "id": "intro-algebra",
+              "type": "text",
+              "title": "Introduction to Algebraic Expressions",
+              "title_zh": "代数表达式简介",
+              "content": "An algebraic expression uses letters (variables) to represent unknown numbers. Examples: 2x + 3, 5a - 2b. Key Terms: VARIABLE (a letter representing a number), COEFFICIENT (number multiplied by variable), CONSTANT (number on its own), TERM (parts separated by + or -). Why use algebra? To write general rules, solve problems with unknowns, and describe patterns.",
+              "content_zh": "代数表达式使用字母（变量）来表示未知数。例子：2x + 3，5a - 2b。关键术语：变量（表示数字的字母）、系数（与变量相乘的数字）、常数（单独的数字）、项（用+或-分隔的部分）。为什么使用代数？编写一般规则，解决未知数问题，描述模式。"
+            },
+            {
+              "id": "like-terms",
+              "type": "text",
+              "title": "Like Terms",
+              "title_zh": "同类项",
+              "content": "LIKE TERMS have the same variables raised to the same powers. Only like terms can be combined. Examples: 2x and 5x are like terms. 4x and 5x² are NOT like terms (different powers). Combining: 3x + 5x = 8x (add coefficients). Rule: Add or subtract coefficients, keep variable part same.",
+              "content_zh": "同类项具有相同的变量和相同的幂。只有同类项可以合并。例子：2x和5x是同类项。4x和5x²不是同类项（不同幂次）。合并：3x + 5x = 8x（加系数）。规则：对系数进行加减，变量部分保持不变。"
+            },
+            {
+              "id": "tile-animation",
+              "type": "animation",
+              "title": "Visualizing Like Terms",
+              "title_zh": "可视化同类项",
+              "content": "TileCombine",
+              "props": {
+                "expression": "x + x + x",
+                "result": "3x"
+              }
+            },
+            {
+              "id": "simplifying",
+              "type": "text",
+              "title": "Simplifying Expressions",
+              "title_zh": "简化表达式",
+              "content": "Simplifying means combining like terms. Steps: 1) Identify like terms, 2) Combine coefficients, 3) Write in standard form. Example: 5x + 3 - 2x + 7. Group: (5x - 2x) + (3 + 7) = 3x + 10. Common mistakes: Don't combine unlike terms (2x + 3y is NOT 5xy), Don't change variables (2x + 3x = 5x, NOT 5x²).",
+              "content_zh": "简化意味着合并同类项。步骤：1）识别同类项，2）合并系数，3）写成标准形式。例子：5x + 3 - 2x + 7。分组：(5x - 2x) + (3 + 7) = 3x + 10。常见错误：不要合并不同类项（2x + 3y不是5xy），不要改变变量（2x + 3x = 5x，不是5x²）。"
+            },
+            {
+              "id": "expanding",
+              "type": "math",
+              "title": "Expanding Brackets",
+              "title_zh": "展开括号",
+              "content": "a(b + c) = ab + ac",
+              "explanation": "DISTRIBUTIVE LAW: Multiply outside term by EACH term inside. Example: 3(x + 2) = 3×x + 3×2 = 3x + 6. With negatives: -2(x + 4) = -2x - 8. Remember: The sign outside affects ALL terms inside!",
+              "explanation_zh": "分配律：将括号外的项乘以括号内的每一项。例子：3(x + 2) = 3×x + 3×2 = 3x + 6。负数：-2(x + 4) = -2x - 8。记住：外面的符号影响里面所有的项！"
+            },
+            {
+              "id": "factorizing",
+              "type": "text",
+              "title": "Factorizing Expressions",
+              "title_zh": "因式分解",
+              "content": "Factorizing is REVERSE of expanding - take out common factors. Steps: 1) Find HCF of all terms, 2) Write HCF outside brackets, 3) Divide each term by HCF, 4) Check by expanding. Example: 6x + 9. HCF = 3. Answer: 3(2x + 3). Check: 3(2x + 3) = 6x + 9.",
+              "content_zh": "因式分解是展开的逆过程 - 提取公因数。步骤：1）找出所有项的最大公因数，2）将HCF写在括号外，3）每项除以HCF，4）通过展开检查。例子：6x + 9。HCF = 3。答案：3(2x + 3)。检查：3(2x + 3) = 6x + 9。"
+            },
+            {
+              "id": "substitution",
+              "type": "text",
+              "title": "Substitution and Evaluation",
+              "title_zh": "代入和求值",
+              "content": "Substitution means replacing variables with numbers. Steps: 1) Write expression, 2) Replace variables (use brackets!), 3) Follow order of operations, 4) Calculate. Example: Evaluate 3x + 5 when x = 4. Answer: 3(4) + 5 = 12 + 5 = 17. Always use brackets for negative numbers!",
+              "content_zh": "代入意味着用数字替换变量。步骤：1）写表达式，2）替换变量（使用括号！），3）遵循运算顺序，4）计算。例子：当x = 4时求值3x + 5。答案：3(4) + 5 = 12 + 5 = 17。负数时始终使用括号！"
+            },
+            {
+              "id": "real-world",
+              "type": "text",
+              "title": "Real-World Applications",
+              "title_zh": "实际应用",
+              "content": "Algebra helps solve real problems. Examples: Perimeter of rectangle P = 2(l + w). Cost calculation: Total = price × quantity. Temperature conversion: F = (9/5)C + 32. Distance: d = speed × time. Discount: Sale price = Original × (1 - discount%). Algebra lets us write formulas once and use for any values!",
+              "content_zh": "代数帮助解决实际问题。例子：矩形周长P = 2(l + w)。成本计算：总计 = 价格 × 数量。温度转换：F = (9/5)C + 32。距离：d = 速度 × 时间。折扣：售价 = 原价 × (1 - 折扣%)。代数让我们可以写一次公式，然后用于任何值！"
+            }
+          ],
+          "exercises": [
+            {
+              "id": "q1",
+              "type": "mcq",
+              "prompt": "Which of the following are like terms?",
+              "prompt_zh": "以下哪些是同类项？",
+              "choices": [
+                "2x and 3x",
+                "4a and 5b",
+                "x² and x",
+                "2xy and 3x"
+              ],
+              "answer": 0,
+              "hint": "Like terms have the same variable(s) with the same power.",
+              "hint_zh": "同类项具有相同的变量和相同的幂。"
+            },
+            {
+              "id": "q2",
+              "type": "short",
+              "prompt": "Simplify: 4x + 2y - 3x + y",
+              "prompt_zh": "化简：4x + 2y - 3x + y",
+              "answer": "x + 3y",
+              "hint": "Group x terms and y terms separately.",
+              "hint_zh": "分别分组x项和y项。"
+            },
+            {
+              "id": "q3",
+              "type": "mcq",
+              "prompt": "Expand: 3(x + 2)",
+              "prompt_zh": "展开：3(x + 2)",
+              "choices": [
+                "3x + 2",
+                "3x + 6",
+                "x + 6",
+                "3x + 5"
+              ],
+              "answer": 1,
+              "hint": "Multiply 3 by both terms inside.",
+              "hint_zh": "将3与括号内的两项相乘。"
+            },
+            {
+              "id": "q4",
+              "type": "short",
+              "prompt": "Expand: 5(2a - 3)",
+              "prompt_zh": "展开：5(2a - 3)",
+              "answer": "10a - 15",
+              "hint": "Multiply 5 by each term.",
+              "hint_zh": "将5与每项相乘。"
+            },
+            {
+              "id": "q5",
+              "type": "mcq",
+              "prompt": "Factorize: 6x + 9",
+              "prompt_zh": "因式分解：6x + 9",
+              "choices": [
+                "3(2x + 3)",
+                "6(x + 9)",
+                "3(2x + 6)",
+                "2(3x + 9)"
+              ],
+              "answer": 0,
+              "hint": "Find HCF of 6 and 9.",
+              "hint_zh": "找6和9的最大公因数。"
+            },
+            {
+              "id": "q6",
+              "type": "short",
+              "prompt": "Evaluate 3x + 5 when x = 4",
+              "prompt_zh": "当x = 4时求值3x + 5",
+              "answer": "17",
+              "validator": "numeric",
+              "hint": "Substitute 4 for x: 3(4) + 5",
+              "hint_zh": "用4代替x：3(4) + 5"
+            }
+          ]
+        },
+        {
+          "id": "linear-equations",
+          "title": "Simple Linear Equations",
+          "title_zh": "简单线性方程",
+          "description": "Solve linear equations with one variable",
+          "description_zh": "求解单变量线性方程",
+          "objectives": [
+            "Solve equations of the form ax + b = c",
+            "Check solutions by substitution",
+            "Apply equations to word problems",
+            "Understand equation balance"
+          ],
+          "objectives_zh": [
+            "求解形式为ax + b = c的方程",
+            "通过代入检查解",
+            "将方程应用于文字题",
+            "理解方程平衡"
+          ],
+          "sections": [
+            {
+              "id": "intro",
+              "type": "text",
+              "title": "What is an Equation?",
+              "title_zh": "什么是方程？",
+              "content": "An equation shows that two expressions are equal. To solve it, isolate the variable by performing the same operation on both sides.",
+              "content_zh": "方程表明两个表达式相等。要求解它，通过在两边执行相同的运算来隔离变量。"
+            },
+            {
+              "id": "balance",
+              "type": "animation",
+              "title": "Equation Balance",
+              "title_zh": "方程平衡",
+              "content": "EquationBalance",
+              "props": {
+                "leftSide": "2x + 3",
+                "rightSide": "11",
+                "solution": 4
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "id": "q1",
+              "type": "short",
+              "prompt": "Solve: 2x + 5 = 13",
+              "prompt_zh": "求解：2x + 5 = 13",
+              "answer": "4",
+              "validator": "numeric",
+              "hint": "First subtract 5 from both sides, then divide by 2.",
+              "hint_zh": "首先从两边减去5，然后除以2。"
+            }
+          ]
+        },
+        {
+          "id": "ratio-rate-proportion",
+          "title": "Ratio, Rate & Proportion",
+          "title_zh": "比、比率与比例",
+          "description": "Understand relationships between quantities",
+          "description_zh": "理解量之间的关系",
+          "objectives": [
+            "Express and simplify ratios",
+            "Calculate rates (speed, density, etc.)",
+            "Solve proportion problems",
+            "Apply to real-world scenarios"
+          ],
+          "objectives_zh": [
+            "表示和简化比",
+            "计算比率（速度、密度等）",
+            "求解比例问题",
+            "应用于实际场景"
+          ],
+          "sections": [
+            {
+              "id": "intro",
+              "type": "text",
+              "title": "Understanding Ratios",
+              "title_zh": "理解比",
+              "content": "A ratio compares two or more quantities. For example, if there are 3 boys and 2 girls, the ratio is 3:2.",
+              "content_zh": "比比较两个或多个量。例如，如果有3个男孩和2个女孩，比是3:2。"
+            }
+          ],
+          "exercises": [
+            {
+              "id": "q1",
+              "type": "short",
+              "prompt": "Simplify the ratio 12:18",
+              "prompt_zh": "简化比 12:18",
+              "answer": "2:3",
+              "hint": "Divide both numbers by their HCF.",
+              "hint_zh": "将两个数都除以它们的最大公因数。"
+            }
+          ]
+        },
+        {
+          "id": "percentage",
+          "title": "Percentage Applications",
+          "title_zh": "百分比应用",
+          "description": "Master percentage calculations including GST, discounts, profit, loss and interest",
+          "description_zh": "掌握百分比计算，包括消费税、折扣、盈亏和利息",
+          "objectives": [
+            "Convert between percentages, fractions and decimals fluently",
+            "Calculate percentage of a quantity",
+            "Find percentage increase and decrease",
+            "Apply GST (Goods and Services Tax) at 9%",
+            "Calculate discounts, profit, loss and simple interest"
+          ],
+          "objectives_zh": [
+            "流利地在百分数、分数和小数之间转换",
+            "计算数量的百分比",
+            "求百分比增减",
+            "应用9%的消费税",
+            "计算折扣、盈亏和单利"
+          ],
+          "sections": [
+            {
+              "id": "intro-percentage",
+              "type": "text",
+              "title": "Understanding Percentages",
+              "title_zh": "理解百分比",
+              "content": "PERCENTAGE means per hundred. 50% means 50 out of 100, or 0.5, or 1/2. 100% means the whole amount. Why use percentages? Easy to compare, standard way to express proportions. Examples: Test scores (85%), Sales (50% off), GST (9% in Singapore).",
+              "content_zh": "百分比意味着每百。50%意味着100中的50，或0.5，或1/2。100%意味着整个数量。为什么使用百分比？易于比较，表达比例的标准方式。例子：考试分数（85%）、销售（50%折扣）、消费税（新加坡9%）。"
+            },
+            {
+              "id": "converting",
+              "type": "text",
+              "title": "Converting Forms",
+              "title_zh": "转换形式",
+              "content": "PERCENTAGE to DECIMAL: Divide by 100. Example: 25% = 0.25. DECIMAL to PERCENTAGE: Multiply by 100. Example: 0.6 = 60%. PERCENTAGE to FRACTION: Write over 100 and simplify. Example: 40% = 40/100 = 2/5. Common to remember: 1/2 = 50%, 1/4 = 25%, 1/5 = 20%.",
+              "content_zh": "百分数到小数：除以100。例：25% = 0.25。小数到百分数：乘以100。例：0.6 = 60%。百分数到分数：写成100的分数并简化。例：40% = 40/100 = 2/5。常用记住：1/2 = 50%，1/4 = 25%，1/5 = 20%。"
+            },
+            {
+              "id": "finding-percentage",
+              "type": "math",
+              "title": "Finding Percentage of a Quantity",
+              "title_zh": "求数量的百分比",
+              "content": "x% of y = (x/100) × y",
+              "explanation": "Convert to decimal then multiply. Find 30% of 80: 0.30 × 80 = 24. Quick tricks: 10% divide by 10, 50% divide by 2, 25% divide by 4.",
+              "explanation_zh": "转换为小数然后相乘。求80的30%：0.30 × 80 = 24。快速技巧：10%除以10，50%除以2，25%除以4。"
+            },
+            {
+              "id": "percentage-change",
+              "type": "text",
+              "title": "Percentage Increase and Decrease",
+              "title_zh": "百分比增减",
+              "content": "INCREASE: New = Original × (1 + %). Example: Increase $50 by 20% = 50 × 1.20 = $60. DECREASE: New = Original × (1 - %). Example: Decrease $200 by 30% = 200 × 0.70 = $140. FINDING CHANGE: Change% = (Change/Original) × 100%.",
+              "content_zh": "增加：新值 = 原值 × (1 + %)。例：$50增加20% = 50 × 1.20 = $60。减少：新值 = 原值 × (1 - %)。例：$200减少30% = 200 × 0.70 = $140。求变化：变化% = (变化量/原值) × 100%。"
+            },
+            {
+              "id": "gst-applications",
+              "type": "text",
+              "title": "GST Applications",
+              "title_zh": "消费税应用",
+              "content": "In Singapore, GST is 9%. Price with GST = Original × 1.09. Example: $100 item, GST = $9, Total = $109. Finding original price: Original = Total ÷ 1.09. Example: Total $218, Original = 218 ÷ 1.09 = $200.",
+              "content_zh": "在新加坡，消费税为9%。含税价格 = 原价 × 1.09。例：$100商品，消费税 = $9，总计 = $109。求原价：原价 = 总价 ÷ 1.09。例：总计$218，原价 = 218 ÷ 1.09 = $200。"
+            },
+            {
+              "id": "discounts",
+              "type": "text",
+              "title": "Discounts and Sale Prices",
+              "title_zh": "折扣和促销价",
+              "content": "DISCOUNT reduces price. Sale Price = Original × (1 - Discount%). Example: $80 with 25% off = 80 × 0.75 = $60. Multiple discounts: Apply one after another, NOT by adding! Example: 20% off then 10% off on $100 = 100 × 0.80 × 0.90 = $72 (NOT 30% off which would be $70).",
+              "content_zh": "折扣降低价格。促销价 = 原价 × (1 - 折扣%)。例：$80享25%折扣 = 80 × 0.75 = $60。多重折扣：逐个应用，不是相加！例：$100先20%折扣再10%折扣 = 100 × 0.80 × 0.90 = $72（不是30%折扣的$70）。"
+            },
+            {
+              "id": "profit-loss",
+              "type": "text",
+              "title": "Profit, Loss and Markup",
+              "title_zh": "盈利、亏损和加价",
+              "content": "PROFIT: Selling Price > Cost. Profit% = (Profit/Cost) × 100%. Example: Buy $60, sell $80. Profit = $20, Profit% = (20/60) × 100% = 33.33%. LOSS: Selling Price < Cost. Finding SP with profit: SP = CP × (1 + Profit%). Finding CP: CP = SP ÷ (1 + Profit%).",
+              "content_zh": "盈利：售价>成本。盈利% = (盈利/成本) × 100%。例：$60买入，$80卖出。盈利 = $20，盈利% = (20/60) × 100% = 33.33%。亏损：售价<成本。有盈利求售价：售价 = 成本价 × (1 + 盈利%)。求成本价：成本价 = 售价 ÷ (1 + 盈利%)。"
+            },
+            {
+              "id": "simple-interest",
+              "type": "text",
+              "title": "Simple Interest",
+              "title_zh": "单利",
+              "content": "Formula: I = (P × R × T) / 100. P = Principal, R = Rate per year, T = Time in years. Total = Principal + Interest. Example: $1000 at 3% for 2 years. I = (1000 × 3 × 2) / 100 = $60. Total = $1060. Banks offer 0.05% to 3% on savings. Credit cards can be 24% per year!",
+              "content_zh": "公式：I = (P × R × T) / 100。P = 本金，R = 年利率，T = 时间（年）。总金额 = 本金 + 利息。例：$1000以3%利率存2年。I = (1000 × 3 × 2) / 100 = $60。总计 = $1060。银行提供0.05%至3%的储蓄利息。信用卡可能是每年24%！"
+            }
+          ],
+          "exercises": [
+            {
+              "id": "q1",
+              "type": "mcq",
+              "prompt": "Convert 0.65 to a percentage.",
+              "prompt_zh": "将0.65转换为百分数。",
+              "choices": [
+                "6.5%",
+                "65%",
+                "0.65%",
+                "650%"
+              ],
+              "answer": 1,
+              "hint": "Multiply by 100."
+            },
+            {
+              "id": "q2",
+              "type": "short",
+              "prompt": "Find 30% of 120.",
+              "prompt_zh": "求120的30%。",
+              "answer": "36",
+              "validator": "numeric",
+              "hint": "0.30 × 120"
+            },
+            {
+              "id": "q3",
+              "type": "mcq",
+              "prompt": "A $200 item is discounted by 15%. What is the sale price?",
+              "prompt_zh": "一件$200的商品打85折。售价是多少？",
+              "choices": [
+                "$170",
+                "$180",
+                "$185",
+                "$190"
+              ],
+              "answer": 0,
+              "hint": "200 × 0.85"
+            },
+            {
+              "id": "q4",
+              "type": "short",
+              "prompt": "An item costs $80 before GST (9%). What is the final price?",
+              "prompt_zh": "一件商品税前价格$80（消费税9%）。最终价格是多少？",
+              "answer": "87.20",
+              "validator": "numeric",
+              "hint": "80 × 1.09"
+            },
+            {
+              "id": "q5",
+              "type": "short",
+              "prompt": "Calculate simple interest on $2000 at 4% for 3 years.",
+              "prompt_zh": "计算$2000以4%利率存3年的单利。",
+              "answer": "240",
+              "validator": "numeric",
+              "hint": "(2000 × 4 × 3) / 100"
+            }
+          ]
+        },
+        {
+          "id": "patterns-sequences",
+          "title": "Patterns & Sequences",
+          "title_zh": "模式与数列",
+          "description": "Recognize patterns and find the nth term",
+          "description_zh": "识别模式并找出第n项",
+          "objectives": [
+            "Identify arithmetic sequences",
+            "Find common difference",
+            "Calculate nth term",
+            "Recognize geometric patterns"
+          ],
+          "objectives_zh": [
+            "识别等差数列",
+            "找出公差",
+            "计算第n项",
+            "识别几何模式"
+          ],
+          "sections": [
+            {
+              "id": "intro",
+              "type": "text",
+              "title": "Arithmetic Sequences",
+              "title_zh": "等差数列",
+              "content": "An arithmetic sequence has a constant difference between consecutive terms. For example: 2, 5, 8, 11, ... has common difference 3.",
+              "content_zh": "等差数列的连续项之间有恒定的差。例如：2, 5, 8, 11, ...的公差是3。"
+            }
+          ],
+          "exercises": [
+            {
+              "id": "q1",
+              "type": "short",
+              "prompt": "Find the 10th term of the sequence: 3, 7, 11, 15, ...",
+              "prompt_zh": "找出数列的第10项：3, 7, 11, 15, ...",
+              "answer": "39",
+              "validator": "numeric",
+              "hint": "Common difference is 4. Use formula: a_n = a_1 + (n-1)d",
+              "hint_zh": "公差是4。使用公式：a_n = a_1 + (n-1)d"
+            }
+          ]
+        },
+        {
+          "id": "coordinates-graphs",
+          "title": "Coordinates & Linear Graphs",
+          "title_zh": "坐标与线性图",
+          "description": "Plot points and graph linear functions",
+          "description_zh": "绘制点和线性函数图",
+          "objectives": [
+            "Plot points on coordinate plane",
+            "Find coordinates of points",
+            "Graph linear functions y = mx + c",
+            "Interpret gradients and y-intercepts"
+          ],
+          "objectives_zh": [
+            "在坐标平面上绘制点",
+            "找出点的坐标",
+            "绘制线性函数y = mx + c",
+            "解释斜率和y截距"
+          ],
+          "sections": [
+            {
+              "id": "intro",
+              "type": "text",
+              "title": "Coordinate System",
+              "title_zh": "坐标系统",
+              "content": "The coordinate plane has two axes: horizontal x-axis and vertical y-axis. Every point is identified by (x, y) coordinates.",
+              "content_zh": "坐标平面有两个轴：水平的x轴和垂直的y轴。每个点由(x, y)坐标标识。"
+            }
+          ],
+          "exercises": [
+            {
+              "id": "q1",
+              "type": "mcq",
+              "prompt": "What is the gradient of the line y = 3x + 2?",
+              "prompt_zh": "直线y = 3x + 2的斜率是多少？",
+              "choices": [
+                "2",
+                "3",
+                "5",
+                "3x"
+              ],
+              "answer": 1,
+              "hint": "In y = mx + c, m is the gradient.",
+              "hint_zh": "在y = mx + c中，m是斜率。"
+            }
+          ]
+        },
+        {
+          "id": "inequalities",
+          "title": "Simple Inequalities",
+          "title_zh": "简单不等式",
+          "description": "Solve and represent inequalities",
+          "description_zh": "求解和表示不等式",
+          "objectives": [
+            "Understand inequality symbols (<, >, ≤, ≥)",
+            "Solve linear inequalities",
+            "Represent solutions on number line",
+            "Apply to real-world constraints"
+          ],
+          "objectives_zh": [
+            "理解不等式符号（<, >, ≤, ≥）",
+            "求解线性不等式",
+            "在数轴上表示解",
+            "应用于实际约束"
+          ],
+          "sections": [
+            {
+              "id": "intro",
+              "type": "text",
+              "title": "Understanding Inequalities",
+              "title_zh": "理解不等式",
+              "content": "An inequality shows that one value is greater or less than another. For example, x > 3 means x is greater than 3.",
+              "content_zh": "不等式表明一个值大于或小于另一个值。例如，x > 3表示x大于3。"
+            }
+          ],
+          "exercises": [
+            {
+              "id": "q1",
+              "type": "mcq",
+              "prompt": "Solve: 2x + 3 < 11",
+              "prompt_zh": "求解：2x + 3 < 11",
+              "choices": [
+                "x < 4",
+                "x > 4",
+                "x < 7",
+                "x > 7"
+              ],
+              "answer": 0,
+              "hint": "Solve like an equation, but keep the inequality sign.",
+              "hint_zh": "像方程一样求解，但保留不等式符号。"
+            }
+          ]
+        },
+        {
+          "id": "angles-geometry",
+          "title": "Angles & Basic Geometry",
+          "title_zh": "角与基础几何",
+          "description": "Understand angle properties and relationships",
+          "description_zh": "理解角的性质和关系",
+          "objectives": [
+            "Identify angle types (acute, obtuse, right, reflex)",
+            "Calculate angles on a straight line and at a point",
+            "Find vertically opposite angles",
+            "Apply angle properties"
+          ],
+          "objectives_zh": [
+            "识别角的类型（锐角、钝角、直角、优角）",
+            "计算直线上和一点处的角",
+            "找出对顶角",
+            "应用角的性质"
+          ],
+          "sections": [
+            {
+              "id": "intro",
+              "type": "text",
+              "title": "Types of Angles",
+              "title_zh": "角的类型",
+              "content": "Angles are measured in degrees. A right angle is 90°, acute angles are less than 90°, obtuse angles are between 90° and 180°.",
+              "content_zh": "角以度为单位测量。直角是90°，锐角小于90°，钝角在90°和180°之间。"
+            }
+          ],
+          "exercises": [
+            {
+              "id": "q1",
+              "type": "short",
+              "prompt": "If two angles on a straight line are 110° and x°, find x.",
+              "prompt_zh": "如果直线上的两个角是110°和x°，求x。",
+              "answer": "70",
+              "validator": "numeric",
+              "hint": "Angles on a straight line add up to 180°.",
+              "hint_zh": "直线上的角加起来等于180°。"
+            }
+          ]
+        },
+        {
+          "id": "triangles-polygons",
+          "title": "Triangles & Polygons",
+          "title_zh": "三角形与多边形",
+          "description": "Properties of triangles, quadrilaterals and polygons",
+          "description_zh": "三角形、四边形和多边形的性质",
+          "objectives": [
+            "Calculate angles in triangles",
+            "Identify types of triangles",
+            "Understand properties of quadrilaterals",
+            "Calculate angles in polygons"
+          ],
+          "objectives_zh": [
+            "计算三角形中的角",
+            "识别三角形的类型",
+            "理解四边形的性质",
+            "计算多边形中的角"
+          ],
+          "sections": [
+            {
+              "id": "intro",
+              "type": "text",
+              "title": "Triangle Angle Sum",
+              "title_zh": "三角形内角和",
+              "content": "The sum of angles in any triangle is always 180°. This fundamental property helps solve many geometry problems.",
+              "content_zh": "任何三角形的内角和总是180°。这个基本性质有助于解决许多几何问题。"
+            }
+          ],
+          "exercises": [
+            {
+              "id": "q1",
+              "type": "short",
+              "prompt": "Two angles in a triangle are 50° and 70°. Find the third angle.",
+              "prompt_zh": "三角形中的两个角是50°和70°。求第三个角。",
+              "answer": "60",
+              "validator": "numeric",
+              "hint": "Use angle sum property: angles add up to 180°.",
+              "hint_zh": "使用内角和性质：角加起来等于180°。"
+            }
+          ]
+        },
+        {
+          "id": "perimeter-area",
+          "title": "Perimeter & Area",
+          "title_zh": "周长与面积",
+          "description": "Calculate perimeter and area of plane figures",
+          "description_zh": "计算平面图形的周长和面积",
+          "objectives": [
+            "Find perimeter of rectangles, triangles, circles",
+            "Calculate area of squares, rectangles, triangles",
+            "Apply formulas for circle (πr²)",
+            "Solve composite figure problems"
+          ],
+          "objectives_zh": [
+            "求矩形、三角形、圆的周长",
+            "计算正方形、矩形、三角形的面积",
+            "应用圆的公式（πr²）",
+            "解决复合图形问题"
+          ],
+          "sections": [
+            {
+              "id": "intro",
+              "type": "text",
+              "title": "Basic Formulas",
+              "title_zh": "基本公式",
+              "content": "Rectangle: Area = length × width, Perimeter = 2(length + width). Triangle: Area = ½ × base × height. Circle: Area = πr², Circumference = 2πr.",
+              "content_zh": "矩形：面积 = 长 × 宽，周长 = 2(长 + 宽)。三角形：面积 = ½ × 底 × 高。圆：面积 = πr²，周长 = 2πr。"
+            }
+          ],
+          "exercises": [
+            {
+              "id": "q1",
+              "type": "short",
+              "prompt": "Find the area of a rectangle with length 8 cm and width 5 cm.",
+              "prompt_zh": "求长8厘米宽5厘米的矩形的面积。",
+              "answer": "40",
+              "validator": "numeric",
+              "hint": "Area = length × width.",
+              "hint_zh": "面积 = 长 × 宽。"
+            }
+          ]
+        },
+        {
+          "id": "statistics",
+          "title": "Statistics & Data Analysis",
+          "title_zh": "统计与数据分析",
+          "description": "Interpret charts, graphs and calculate averages",
+          "description_zh": "解释图表并计算平均值",
+          "objectives": [
+            "Read and create bar charts, pie charts",
+            "Interpret frequency tables",
+            "Calculate mean, median, mode",
+            "Analyze data sets"
+          ],
+          "objectives_zh": [
+            "读取和创建条形图、饼图",
+            "解释频率表",
+            "计算平均数、中位数、众数",
+            "分析数据集"
+          ],
+          "sections": [
+            {
+              "id": "intro",
+              "type": "text",
+              "title": "Measures of Central Tendency",
+              "title_zh": "集中趋势的度量",
+              "content": "Mean is the average (sum ÷ count). Median is the middle value when data is ordered. Mode is the most frequent value.",
+              "content_zh": "平均数是平均值（总和÷个数）。中位数是数据排序后的中间值。众数是出现最频繁的值。"
+            }
+          ],
+          "exercises": [
+            {
+              "id": "q1",
+              "type": "short",
+              "prompt": "Find the mean of: 5, 8, 12, 15, 20",
+              "prompt_zh": "求平均数：5, 8, 12, 15, 20",
+              "answer": "12",
+              "validator": "numeric",
+              "hint": "Add all numbers and divide by 5.",
+              "hint_zh": "将所有数字相加并除以5。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "title": "Science",
+      "title_zh": "科学",
+      "description": "Explore Physics, Chemistry and Biology for Secondary 1",
+      "description_zh": "探索中一物理、化学和生物学",
+      "color": "accent",
+      "chapters": [
+        {
+          "id": "scientific-methods",
+          "title": "Scientific Methods & Measurement",
+          "title_zh": "科学方法与测量",
+          "description": "Learn the nature of science and proper measurement techniques",
+          "description_zh": "学习科学的本质和正确的测量技术",
+          "objectives": [
+            "Understand the scientific method",
+            "Apply laboratory safety rules",
+            "Use SI units correctly",
+            "Read measuring instruments accurately"
+          ],
+          "objectives_zh": [
+            "理解科学方法",
+            "应用实验室安全规则",
+            "正确使用国际单位制",
+            "准确读取测量仪器"
+          ],
+          "sections": [
+            {
+              "id": "safety",
+              "type": "text",
+              "title": "Laboratory Safety",
+              "title_zh": "实验室安全",
+              "content": "Always wear safety goggles, tie back long hair, no food or drink in the lab, and report accidents immediately to your teacher.",
+              "content_zh": "始终佩戴安全护目镜，束起长发，实验室内禁止饮食，发生事故立即向老师报告。"
+            },
+            {
+              "id": "units",
+              "type": "text",
+              "title": "SI Base Units",
+              "title_zh": "国际单位制基本单位",
+              "content": "The seven SI base units are: meter (m) for length, kilogram (kg) for mass, second (s) for time, ampere (A) for current, kelvin (K) for temperature, mole (mol) for amount, and candela (cd) for light intensity.",
+              "content_zh": "七个国际单位制基本单位是：米(m)表示长度、千克(kg)表示质量、秒(s)表示时间、安培(A)表示电流、开尔文(K)表示温度、摩尔(mol)表示物质的量、坎德拉(cd)表示光强度。"
+            }
+          ],
+          "exercises": [
+            {
+              "id": "q1",
+              "type": "mcq",
+              "prompt": "What is the SI unit for temperature?",
+              "prompt_zh": "温度的国际单位制单位是什么？",
+              "choices": [
+                "°C",
+                "K",
+                "°F",
+                "Pa"
+              ],
+              "answer": 1,
+              "hint": "Think about absolute temperature scale.",
+              "hint_zh": "想想绝对温度标度。"
+            },
+            {
+              "id": "q2",
+              "type": "short",
+              "prompt": "Convert 2.5 kg to grams.",
+              "prompt_zh": "将2.5千克转换为克。",
+              "answer": "2500",
+              "validator": "numeric",
+              "hint": "1 kg = 1000 g",
+              "hint_zh": "1千克 = 1000克"
+            }
+          ]
+        },
+        {
+          "id": "particle-model",
+          "title": "Particulate Model of Matter",
+          "title_zh": "物质的粒子模型",
+          "description": "Understand how particles behave in different states of matter",
+          "description_zh": "理解粒子在不同物质状态中的行为",
+          "objectives": [
+            "Describe particle arrangement in solids, liquids, and gases",
+            "Explain diffusion and Brownian motion",
+            "Relate particle motion to temperature",
+            "Understand state changes"
+          ],
+          "objectives_zh": [
+            "描述固体、液体和气体中的粒子排列",
+            "解释扩散和布朗运动",
+            "将粒子运动与温度联系起来",
+            "理解状态变化"
+          ],
+          "sections": [
+            {
+              "id": "states",
+              "type": "animation",
+              "title": "States of Matter",
+              "title_zh": "物质状态",
+              "content": "ParticlesInStates",
+              "props": {
+                "states": [
+                  "solid",
+                  "liquid",
+                  "gas"
+                ]
+              }
+            },
+            {
+              "id": "diffusion",
+              "type": "text",
+              "title": "Diffusion",
+              "title_zh": "扩散",
+              "content": "Random motion of particles leads to mixing without stirring. Particles move from high to low concentration. Diffusion is faster at higher temperatures.",
+              "content_zh": "粒子的随机运动导致不需搅拌就能混合。粒子从高浓度区域移动到低浓度区域。温度越高扩散越快。"
+            }
+          ],
+          "exercises": [
+            {
+              "id": "q1",
+              "type": "mcq",
+              "prompt": "In solids, particles mainly...",
+              "prompt_zh": "在固体中，粒子主要...",
+              "choices": [
+                "are fixed in position and vibrate",
+                "flow freely past each other",
+                "are far apart with weak forces",
+                "move very rapidly in all directions"
+              ],
+              "answer": 0,
+              "hint": "Think about the structure and movement in solids.",
+              "hint_zh": "想想固体的结构和运动。"
+            }
+          ]
+        },
+        {
+          "id": "mixtures-separation",
+          "title": "Mixtures & Separation Techniques",
+          "title_zh": "混合物与分离技术",
+          "description": "Distinguish pure substances from mixtures and learn separation methods",
+          "description_zh": "区分纯净物和混合物，学习分离方法",
+          "objectives": [
+            "Distinguish elements, compounds, and mixtures",
+            "Apply filtration for solid-liquid separation",
+            "Use distillation to separate liquids",
+            "Understand chromatography principles"
+          ],
+          "objectives_zh": [
+            "区分元素、化合物和混合物",
+            "应用过滤法分离固液",
+            "使用蒸馏法分离液体",
+            "理解色谱法原理"
+          ],
+          "sections": [
+            {
+              "id": "intro",
+              "type": "text",
+              "title": "Pure Substances vs Mixtures",
+              "title_zh": "纯净物与混合物",
+              "content": "A pure substance has a fixed composition and properties. A mixture contains two or more substances that can be physically separated.",
+              "content_zh": "纯净物具有固定的组成和性质。混合物含有两种或多种可以物理分离的物质。"
+            }
+          ],
+          "exercises": [
+            {
+              "id": "q1",
+              "type": "mcq",
+              "prompt": "Which method separates salt from sand?",
+              "prompt_zh": "哪种方法可以从沙子中分离盐？",
+              "choices": [
+                "Distillation",
+                "Filtration and evaporation",
+                "Chromatography",
+                "Magnetism"
+              ],
+              "answer": 1,
+              "hint": "First separate sand, then recover salt from water.",
+              "hint_zh": "先分离沙子，然后从水中回收盐。"
+            }
+          ]
+        },
+        {
+          "id": "cells",
+          "title": "Structure & Functions of Cells",
+          "title_zh": "细胞的结构与功能",
+          "description": "Explore the basic unit of life and cell structures",
+          "description_zh": "探索生命的基本单位和细胞结构",
+          "objectives": [
+            "Identify cell structures and their functions",
+            "Compare plant and animal cells",
+            "Use a microscope correctly",
+            "Understand cell specialization"
+          ],
+          "objectives_zh": [
+            "识别细胞结构及其功能",
+            "比较植物细胞和动物细胞",
+            "正确使用显微镜",
+            "理解细胞特化"
+          ],
+          "sections": [
+            {
+              "id": "intro",
+              "type": "text",
+              "title": "The Cell",
+              "title_zh": "细胞",
+              "content": "Cells are the basic units of life. All living organisms are made of cells. Plant cells have cell walls and chloroplasts, while animal cells do not.",
+              "content_zh": "细胞是生命的基本单位。所有生物都由细胞组成。植物细胞有细胞壁和叶绿体，而动物细胞没有。"
+            }
+          ],
+          "exercises": [
+            {
+              "id": "q1",
+              "type": "multi",
+              "prompt": "Which structures are found ONLY in plant cells?",
+              "prompt_zh": "哪些结构只存在于植物细胞中？",
+              "choices": [
+                "Cell wall",
+                "Chloroplast",
+                "Nucleus",
+                "Cell membrane"
+              ],
+              "answer": [
+                0,
+                1
+              ],
+              "hint": "Think about photosynthesis and structural support.",
+              "hint_zh": "想想光合作用和结构支持。"
+            }
+          ]
+        },
+        {
+          "id": "light",
+          "title": "Light & Reflection",
+          "title_zh": "光与反射",
+          "description": "Study the ray model of light, reflection and refraction",
+          "description_zh": "研究光的射线模型、反射和折射",
+          "objectives": [
+            "Understand the ray model of light",
+            "Apply law of reflection",
+            "Explain refraction of light",
+            "Draw ray diagrams"
+          ],
+          "objectives_zh": [
+            "理解光的射线模型",
+            "应用反射定律",
+            "解释光的折射",
+            "绘制光路图"
+          ],
+          "sections": [
+            {
+              "id": "intro",
+              "type": "text",
+              "title": "Properties of Light",
+              "title_zh": "光的性质",
+              "content": "Light travels in straight lines. When light hits a surface, it can be reflected, absorbed, or transmitted. The angle of incidence equals the angle of reflection.",
+              "content_zh": "光沿直线传播。当光照射到表面时，可以被反射、吸收或透射。入射角等于反射角。"
+            }
+          ],
+          "exercises": [
+            {
+              "id": "q1",
+              "type": "mcq",
+              "prompt": "If light hits a mirror at 30° to the normal, what is the angle of reflection?",
+              "prompt_zh": "如果光以与法线成30°的角度照射到镜子上，反射角是多少？",
+              "choices": [
+                "15°",
+                "30°",
+                "60°",
+                "90°"
+              ],
+              "answer": 1,
+              "hint": "Law of reflection: angle of incidence = angle of reflection.",
+              "hint_zh": "反射定律：入射角 = 反射角。"
+            }
+          ]
+        },
+        {
+          "id": "heat-temperature",
+          "title": "Heat & Temperature",
+          "title_zh": "热与温度",
+          "description": "Understand heat transfer mechanisms",
+          "description_zh": "理解热传递机制",
+          "objectives": [
+            "Distinguish between heat and temperature",
+            "Explain conduction in solids",
+            "Understand convection in fluids",
+            "Describe radiation heat transfer"
+          ],
+          "objectives_zh": [
+            "区分热和温度",
+            "解释固体中的传导",
+            "理解流体中的对流",
+            "描述辐射热传递"
+          ],
+          "sections": [
+            {
+              "id": "intro",
+              "type": "text",
+              "title": "Heat vs Temperature",
+              "title_zh": "热与温度",
+              "content": "Temperature measures how hot or cold something is. Heat is thermal energy that flows from hot to cold objects. Heat transfer occurs through conduction, convection, and radiation.",
+              "content_zh": "温度测量物体的冷热程度。热是从热物体流向冷物体的热能。热传递通过传导、对流和辐射发生。"
+            }
+          ],
+          "exercises": [
+            {
+              "id": "q1",
+              "type": "match",
+              "prompt": "Match heat transfer methods with examples:",
+              "prompt_zh": "将热传递方法与例子匹配：",
+              "pairs": [
+                [
+                  "Conduction",
+                  "Metal spoon in hot soup"
+                ],
+                [
+                  "Convection",
+                  "Boiling water circulation"
+                ],
+                [
+                  "Radiation",
+                  "Sun warming the Earth"
+                ]
+              ],
+              "pairs_zh": [
+                [
+                  "传导",
+                  "热汤中的金属勺"
+                ],
+                [
+                  "对流",
+                  "沸水循环"
+                ],
+                [
+                  "辐射",
+                  "太阳温暖地球"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "forces-motion",
+          "title": "Forces and Motion",
+          "title_zh": "力与运动",
+          "description": "Explore forces, friction, balanced and unbalanced forces with interactive simulations",
+          "description_zh": "通过互动模拟探索力、摩擦力、平衡力和不平衡力",
+          "objectives": [
+            "Understand what forces are and how they affect motion",
+            "Identify and measure forces using spring balances",
+            "Distinguish between balanced and unbalanced forces",
+            "Explain friction and its effects",
+            "Calculate resultant forces",
+            "Apply Newton's First Law of Motion",
+            "Analyze real-world applications of forces"
+          ],
+          "objectives_zh": [
+            "理解什么是力以及它们如何影响运动",
+            "使用弹簧秤识别和测量力",
+            "区分平衡力和不平衡力",
+            "解释摩擦力及其影响",
+            "计算合力",
+            "应用牛顿第一运动定律",
+            "分析力的实际应用"
+          ],
+          "sections": [
+            {
+              "id": "intro",
+              "type": "text",
+              "title": "What is a Force?",
+              "title_zh": "什么是力？",
+              "content": "A force is a push or pull. Forces can change the shape, speed, or direction of an object. The unit of force is the Newton (N).",
+              "content_zh": "力是推或拉。力可以改变物体的形状、速度或方向。力的单位是牛顿（N）。"
+            },
+            {
+              "id": "animation",
+              "type": "animation",
+              "title": "Forces and Motion Simulation",
+              "title_zh": "力与运动模拟",
+              "content": "ForceMotion",
+              "props": {
+                "showVectors": true,
+                "showGraph": true
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "id": "q1",
+              "type": "mcq",
+              "prompt": "When forces are balanced, the object will...",
+              "prompt_zh": "当力平衡时，物体会...",
+              "choices": [
+                "accelerate",
+                "remain stationary or move at constant velocity",
+                "change direction",
+                "increase speed"
+              ],
+              "answer": 1,
+              "hint": "Think about Newton's First Law.",
+              "hint_zh": "想想牛顿第一定律。"
+            }
+          ]
+        },
+        {
+          "id": "digestive-system",
+          "title": "Digestive System",
+          "title_zh": "消化系统",
+          "description": "Learn about human digestion and nutrient absorption",
+          "description_zh": "学习人体消化和营养吸收",
+          "objectives": [
+            "Identify parts of the digestive system",
+            "Explain the role of enzymes",
+            "Understand mechanical and chemical digestion",
+            "Describe nutrient absorption"
+          ],
+          "objectives_zh": [
+            "识别消化系统的部分",
+            "解释酶的作用",
+            "理解机械消化和化学消化",
+            "描述营养吸收"
+          ],
+          "sections": [
+            {
+              "id": "intro",
+              "type": "text",
+              "title": "The Digestive Process",
+              "title_zh": "消化过程",
+              "content": "Digestion breaks down food into smaller molecules that can be absorbed. It involves both mechanical (chewing, churning) and chemical (enzymes) processes.",
+              "content_zh": "消化将食物分解成可以被吸收的较小分子。它涉及机械（咀嚼、搅拌）和化学（酶）过程。"
+            }
+          ],
+          "exercises": [
+            {
+              "id": "q1",
+              "type": "drag-order",
+              "prompt": "Arrange the digestive organs in the correct order of food passage:",
+              "prompt_zh": "按食物通过的正确顺序排列消化器官：",
+              "items": [
+                "Mouth",
+                "Esophagus",
+                "Stomach",
+                "Small intestine",
+                "Large intestine"
+              ],
+              "items_zh": [
+                "口",
+                "食道",
+                "胃",
+                "小肠",
+                "大肠"
+              ],
+              "answer": [
+                "Mouth",
+                "Esophagus",
+                "Stomach",
+                "Small intestine",
+                "Large intestine"
+              ],
+              "answer_zh": [
+                "口",
+                "食道",
+                "胃",
+                "小肠",
+                "大肠"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "respiratory-system",
+          "title": "Respiratory System",
+          "title_zh": "呼吸系统",
+          "description": "Understand breathing and gas exchange",
+          "description_zh": "理解呼吸和气体交换",
+          "objectives": [
+            "Identify parts of the respiratory system",
+            "Explain the breathing mechanism",
+            "Understand gas exchange in alveoli",
+            "Relate to cellular respiration"
+          ],
+          "objectives_zh": [
+            "识别呼吸系统的部分",
+            "解释呼吸机制",
+            "理解肺泡中的气体交换",
+            "与细胞呼吸联系起来"
+          ],
+          "sections": [
+            {
+              "id": "intro",
+              "type": "text",
+              "title": "Breathing and Gas Exchange",
+              "title_zh": "呼吸和气体交换",
+              "content": "The respiratory system brings oxygen into the body and removes carbon dioxide. Gas exchange occurs in tiny air sacs called alveoli in the lungs.",
+              "content_zh": "呼吸系统将氧气带入体内并排出二氧化碳。气体交换发生在肺部称为肺泡的微小气囊中。"
+            }
+          ],
+          "exercises": [
+            {
+              "id": "q1",
+              "type": "mcq",
+              "prompt": "Where does gas exchange occur in the lungs?",
+              "prompt_zh": "肺部的气体交换发生在哪里？",
+              "choices": [
+                "Trachea",
+                "Bronchi",
+                "Alveoli",
+                "Diaphragm"
+              ],
+              "answer": 2,
+              "hint": "Think about the tiny air sacs with thin walls.",
+              "hint_zh": "想想有薄壁的微小气囊。"
+            }
+          ]
+        },
+        {
+          "id": "circulatory-system",
+          "title": "Circulatory System",
+          "title_zh": "循环系统",
+          "description": "Learn about the heart and blood circulation",
+          "description_zh": "学习心脏和血液循环",
+          "objectives": [
+            "Identify parts of the heart",
+            "Understand blood circulation pathway",
+            "Distinguish arteries, veins, and capillaries",
+            "Explain the role of blood components"
+          ],
+          "objectives_zh": [
+            "识别心脏的部分",
+            "理解血液循环途径",
+            "区分动脉、静脉和毛细血管",
+            "解释血液成分的作用"
+          ],
+          "sections": [
+            {
+              "id": "intro",
+              "type": "text",
+              "title": "The Heart and Blood Vessels",
+              "title_zh": "心脏和血管",
+              "content": "The heart pumps blood around the body through blood vessels. Arteries carry blood away from the heart, veins carry blood to the heart, and capillaries allow exchange of materials.",
+              "content_zh": "心脏通过血管将血液泵送到全身。动脉将血液从心脏输出，静脉将血液送回心脏，毛细血管允许物质交换。"
+            }
+          ],
+          "exercises": [
+            {
+              "id": "q1",
+              "type": "mcq",
+              "prompt": "Which blood vessels have the thickest walls?",
+              "prompt_zh": "哪种血管壁最厚？",
+              "choices": [
+                "Veins",
+                "Arteries",
+                "Capillaries",
+                "All are equal"
+              ],
+              "answer": 1,
+              "hint": "These vessels carry blood at high pressure from the heart.",
+              "hint_zh": "这些血管以高压从心脏输送血液。"
+            }
+          ]
+        },
+        {
+          "id": "reproduction",
+          "title": "Human Reproduction",
+          "title_zh": "人类生殖",
+          "description": "Introduction to human reproductive system",
+          "description_zh": "人类生殖系统简介",
+          "objectives": [
+            "Identify male and female reproductive organs",
+            "Understand the menstrual cycle",
+            "Learn about fertilization",
+            "Understand pregnancy basics"
+          ],
+          "objectives_zh": [
+            "识别男性和女性生殖器官",
+            "理解月经周期",
+            "了解受精",
+            "理解怀孕基础知识"
+          ],
+          "sections": [
+            {
+              "id": "intro",
+              "type": "text",
+              "title": "Reproduction Basics",
+              "title_zh": "生殖基础",
+              "content": "Reproduction is the biological process by which new organisms are produced. In humans, this involves the fusion of male and female gametes (sex cells).",
+              "content_zh": "生殖是产生新生物的生物过程。在人类中，这涉及男性和女性配子（性细胞）的融合。"
+            }
+          ],
+          "exercises": [
+            {
+              "id": "q1",
+              "type": "mcq",
+              "prompt": "What is the male gamete called?",
+              "prompt_zh": "男性配子叫什么？",
+              "choices": [
+                "Egg",
+                "Sperm",
+                "Zygote",
+                "Embryo"
+              ],
+              "answer": 1,
+              "hint": "It's the smaller, mobile sex cell.",
+              "hint_zh": "它是较小的、可移动的性细胞。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

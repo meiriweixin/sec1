@@ -1,0 +1,231 @@
+{
+  "appTitle": "AI Playground for Middle School",
+  "modules": [
+    {
+      "id": "intro-ai",
+      "title": "What is AI?",
+      "emoji": "🤖",
+      "concept": "AI = software that learns patterns and can generate text, images, music, or even video.",
+      "activities": [
+        {
+          "label": "Ask an AI anything (ChatGPT)",
+          "url": "https://chat.openai.com/",
+          "prompt": "Explain AI in one fun paragraph for a 12-year-old, with a real-life example from school."
+        },
+        {
+          "label": "Try Google Gemini",
+          "url": "https://gemini.google.com/",
+          "prompt": "Give me 5 ways AI helps students learn faster. Use simple language and bullet points."
+        }
+      ]
+    },
+    {
+      "id": "prompting",
+      "title": "Prompt Magic",
+      "emoji": "✨",
+      "concept": "A prompt is your instruction to the AI—clear prompts get better results.",
+      "activities": [
+        {
+          "label": "Improve a prompt (ChatGPT)",
+          "url": "https://chat.openai.com/",
+          "prompt": "Rewrite this weak prompt to make it specific and clear: 'Write something about oceans.' Then produce the improved result."
+        },
+        {
+          "label": "Few-shot prompting (Claude)",
+          "url": "https://claude.ai/",
+          "prompt": "Here are 2 examples of summaries:\n1) Article: 'Volcanoes' → Summary: 'Volcanoes are openings in Earth's crust...'\n2) Article: 'Rainforests' → Summary: 'Rainforests are dense forests...'\nNow summarize this short article in 3 bullet points: 'Photosynthesis is how plants make food...' "
+        }
+      ]
+    },
+    {
+      "id": "music-gen",
+      "title": "Music Generation",
+      "emoji": "🎵",
+      "concept": "Music AIs learn patterns of rhythm and melody to compose new tunes from text prompts.",
+      "activities": [
+        {
+          "label": "Make a lo-fi study track (Suno)",
+          "url": "https://suno.com/",
+          "prompt": "Create a 30-second lo-fi study track with gentle drums, warm bass, and soft piano."
+        },
+        {
+          "label": "Ambient background loop (Mubert)",
+          "url": "https://mubert.com/",
+          "prompt": "Generate a calm, ambient background loop for reading—soft pads, no vocals."
+        }
+      ]
+    },
+    {
+      "id": "image-gen",
+      "title": "Image Generation",
+      "emoji": "🎨",
+      "concept": "Text-to-image models act like 'word painters'—they turn descriptions into pictures.",
+      "activities": [
+        {
+          "label": "Create concept art (DALL·E 3)",
+          "url": "https://openai.com/dall-e-3",
+          "prompt": "A futuristic classroom in Singapore with holographic displays, bright natural light, and students collaborating—illustration style."
+        },
+        {
+          "label": "Try open-source SD (Stable Diffusion Web)",
+          "url": "https://stablediffusionweb.com/",
+          "prompt": "A cozy reading nook with plants and fairy lights, watercolor style."
+        },
+        {
+          "label": "Game character design (Leonardo AI)",
+          "url": "https://leonardo.ai/",
+          "prompt": "Design a friendly robot sidekick for a space adventure game; full-body, turnaround sheet."
+        },
+        {
+          "label": "Create stunning art (Midjourney)",
+          "url": "https://www.midjourney.com/",
+          "prompt": "A magical library floating in the clouds, books flying around, golden sunset lighting, highly detailed fantasy art."
+        }
+      ]
+    },
+    {
+      "id": "video-gen",
+      "title": "Video Generation",
+      "emoji": "🎬",
+      "concept": "Text-to-video models create short clips from prompts; timing, motion, and coherence matter.",
+      "activities": [
+        {
+          "label": "Watch Sora demos (OpenAI)",
+          "url": "https://openai.com/sora",
+          "prompt": "After watching, describe one demo you saw and why it looks realistic."
+        },
+        {
+          "label": "Make a short clip (Kling AI)",
+          "url": "https://klingai.com/",
+          "prompt": "A spaceship landing at Singapore's Marina Bay at sunset; cinematic camera sweep, 6–8 seconds."
+        },
+        {
+          "label": "Alt option (Runway Gen)",
+          "url": "https://runwayml.com/",
+          "prompt": "A cartoon cat teacher writing math formulas on a chalkboard; classroom setting, 5–8 seconds."
+        },
+        {
+          "label": "Alt option (Pika)",
+          "url": "https://pika.art/",
+          "prompt": "A rainy school courtyard with reflections; slow pan, 5–8 seconds."
+        }
+      ]
+    },
+    {
+      "id": "code-assist",
+      "title": "AI Coding Assistant",
+      "emoji": "💻",
+      "concept": "AI coding assistants autocomplete, explain, and debug—like a helpful partner.",
+      "activities": [
+        {
+          "label": "Code in the browser (Replit)",
+          "url": "https://replit.com/",
+          "prompt": "Create a simple HTML/JS page that asks for a radius and shows the circle area with 2 decimal places."
+        },
+        {
+          "label": "Pair-program (Cursor)",
+          "url": "https://cursor.sh/",
+          "prompt": "Generate a Python 'guess the number' game with 5 attempts and friendly hints."
+        },
+        {
+          "label": "Try Copilot",
+          "url": "https://github.com/features/copilot",
+          "prompt": "Explain this error, then fix it: 'TypeError: cannot read properties of undefined (reading length)'."
+        }
+      ]
+    },
+    {
+      "id": "study-notes",
+      "title": "AI Study Notes",
+      "emoji": "📝",
+      "concept": "AI can summarize, extract key points, and quiz you on documents you upload.",
+      "activities": [
+        {
+          "label": "Auto notes (NotebookLM)",
+          "url": "https://notebooklm.google/",
+          "prompt": "Import a short science article and ask for 5 key points + a 3-question quiz."
+        },
+        {
+          "label": "Chat with PDFs (ChatPDF)",
+          "url": "https://www.chatpdf.com/",
+          "prompt": "Upload a short chapter and ask: 'Summarize in 5 bullets for a 7th grader.'"
+        },
+        {
+          "label": "Research helper (Perplexity)",
+          "url": "https://www.perplexity.ai/",
+          "prompt": "In 5 bullets, explain the water cycle with kid-friendly language and emojis."
+        }
+      ]
+    },
+    {
+      "id": "local-ai",
+      "title": "Local AI (Offline)",
+      "emoji": "💾",
+      "concept": "Running models locally improves privacy and works without internet (if hardware allows).",
+      "activities": [
+        {
+          "label": "GUI runner (LM Studio)",
+          "url": "https://lmstudio.ai/",
+          "prompt": "Install LM Studio and run a small open-source chat model. Ask it: 'Give me 3 study tips.'"
+        },
+        {
+          "label": "CLI runner (Ollama)",
+          "url": "https://ollama.com/",
+          "prompt": "After installing, run: `ollama run llama3` then ask: 'Explain fractions with an example.'"
+        }
+      ]
+    },
+    {
+      "id": "voice-ai",
+      "title": "Voice & TTS",
+      "emoji": "🎤",
+      "concept": "Text-to-speech turns writing into natural voices; some tools clone voice styles.",
+      "activities": [
+        {
+          "label": "Create a voiceover (ElevenLabs)",
+          "url": "https://elevenlabs.io/",
+          "prompt": "Read this: 'Welcome to our AI Playground! Today we learn with music, images, and videos.'"
+        },
+        {
+          "label": "OpenAI TTS (Docs)",
+          "url": "https://platform.openai.com/docs/guides/text-to-speech",
+          "prompt": "Use any sample to generate a friendly narration for a 30-second school intro."
+        },
+        {
+          "label": "Transcribe audio (Descript)",
+          "url": "https://www.descript.com/",
+          "prompt": "Upload a short voice memo and convert it to text, then fix grammar with AI."
+        }
+      ]
+    },
+    {
+      "id": "ethics-safety",
+      "title": "AI & the Future (Safety)",
+      "emoji": "🌍",
+      "concept": "AI is powerful—use it responsibly: respect privacy, avoid deepfakes, and check sources.",
+      "activities": [
+        {
+          "label": "See fake faces",
+          "url": "https://thispersondoesnotexist.com/",
+          "prompt": "Describe why this looks real and how we can detect it's AI generated."
+        },
+        {
+          "label": "UNESCO resource",
+          "url": "https://unesdoc.unesco.org/ark:/48223/pf0000385308",
+          "prompt": "List 3 safety tips for teens using AI tools online."
+        }
+      ]
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+

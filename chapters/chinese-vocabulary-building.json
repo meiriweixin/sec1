@@ -1,0 +1,119 @@
+{
+  "id": "chinese-vocabulary-building",
+  "title": "Vocabulary Building (词汇积累)",
+  "title_zh": "词汇积累",
+  "description": "Build your Chinese vocabulary through word combinations, radicals, and character analysis",
+  "description_zh": "通过词语搭配、部首和字形分析来积累中文词汇",
+  "objectives": [
+    "Master common word combinations (词语搭配)",
+    "Understand radicals and their meanings (部首)",
+    "Analyze character components to remember words",
+    "Expand vocabulary in context"
+  ],
+  "objectives_zh": [
+    "掌握常见词语搭配",
+    "理解部首及其含义",
+    "分析字形组成以记忆词语",
+    "在语境中扩展词汇"
+  ],
+  "sections": [
+    {
+      "id": "word-combinations",
+      "type": "text",
+      "title": "Word Combinations (词语搭配)",
+      "title_zh": "词语搭配",
+      "content": "**What is Word Combination?**\nIn Chinese, certain words naturally go together. Learning these combinations helps you speak and write more naturally.\n\n**Verb + Noun Combinations:**\n\n**做 (do)**\n- 做作业 (do homework)\n- 做饭 (cook)\n- 做运动 (do sports)\n- 做决定 (make a decision)\n\n**打 (hit/play)**\n- 打球 (play ball)\n- 打电话 (make a phone call)\n- 打工 (work part-time)\n- 打扫 (clean)\n\n**上 (go to/attend)**\n- 上学 (go to school)\n- 上课 (attend class)\n- 上网 (go online)\n- 上班 (go to work)\n\n**Adjective + Noun Combinations:**\n\n**重要的 (important)**\n- 重要的事情 (important matter)\n- 重要的人物 (important person)\n- 重要的决定 (important decision)\n\n**美丽的 (beautiful)**\n- 美丽的风景 (beautiful scenery)\n- 美丽的花朵 (beautiful flowers)\n\n**Singapore Context:**\n- 坐地铁 (take the MRT)\n- 吃辣椒螃蟹 (eat chilli crab)\n- 去牛车水 (go to Chinatown)",
+      "content_zh": "**什么是词语搭配？**\n在中文中，某些词语自然地搭配在一起。学习这些搭配有助于你更自然地说和写。\n\n**动词 + 名词搭配：**\n\n**做**\n- 做作业\n- 做饭\n- 做运动\n- 做决定\n\n**打**\n- 打球\n- 打电话\n- 打工\n- 打扫\n\n**上**\n- 上学\n- 上课\n- 上网\n- 上班\n\n**形容词 + 名词搭配：**\n\n**重要的**\n- 重要的事情\n- 重要的人物\n- 重要的决定\n\n**美丽的**\n- 美丽的风景\n- 美丽的花朵\n\n**新加坡语境：**\n- 坐地铁\n- 吃辣椒螃蟹\n- 去牛车水"
+    },
+    {
+      "id": "radicals",
+      "type": "text",
+      "title": "Radicals (部首)",
+      "title_zh": "部首",
+      "content": "**What are Radicals?**\nRadicals are components of Chinese characters that often indicate meaning or pronunciation. Understanding radicals helps you guess the meaning of unfamiliar characters and remember characters better.\n\n**Common Radicals and Their Meanings:**\n\n**氵(水) - Water radical**\n- 河 (river)\n- 海 (sea)\n- 湖 (lake)\n- 汗 (sweat)\n- 游 (swim)\n\n**讠(言) - Speech radical**\n- 说 (speak)\n- 话 (words)\n- 语 (language)\n- 谢 (thank)\n- 请 (please/invite)\n\n**亻(人) - Person radical**\n- 你 (you)\n- 他 (he)\n- 们 (plural marker)\n- 休 (rest)\n- 体 (body)\n\n**木 - Wood/tree radical**\n- 树 (tree)\n- 林 (forest)\n- 桌 (table)\n- 椅 (chair)\n- 果 (fruit)\n\n**心/忄- Heart radical (emotions)**\n- 想 (think)\n- 念 (miss/think of)\n- 忙 (busy)\n- 快 (quick/happy)\n- 怕 (afraid)\n\n**手/扌- Hand radical (actions)**\n- 打 (hit)\n- 拿 (take)\n- 把 (hold)\n- 推 (push)\n- 拉 (pull)\n\n**口 - Mouth radical**\n- 吃 (eat)\n- 喝 (drink)\n- 唱 (sing)\n- 叫 (call)\n- 吗 (question particle)\n\n**Using Radicals to Remember:**\n- 游 (swim) = 氵(water) + 方向 → Swimming in water\n- 说 (speak) = 讠(speech) + 兑 → Using speech to speak\n- 想 (think) = 相 (mutual) + 心 (heart) → Thinking with your heart",
+      "content_zh": "**什么是部首？**\n部首是汉字的组成部分，通常表示意义或读音。理解部首有助于你猜测生字的意思，更好地记住汉字。\n\n**常见部首及其含义：**\n\n**氵（水）- 水部**\n- 河\n- 海\n- 湖\n- 汗\n- 游\n\n**讠（言）- 言字旁**\n- 说\n- 话\n- 语\n- 谢\n- 请\n\n**亻（人）- 单人旁**\n- 你\n- 他\n- 们\n- 休\n- 体\n\n**木 - 木字旁**\n- 树\n- 林\n- 桌\n- 椅\n- 果\n\n**心/忄- 心字底/竖心旁（情感）**\n- 想\n- 念\n- 忙\n- 快\n- 怕\n\n**手/扌- 提手旁（动作）**\n- 打\n- 拿\n- 把\n- 推\n- 拉\n\n**口 - 口字旁**\n- 吃\n- 喝\n- 唱\n- 叫\n- 吗\n\n**用部首记忆：**\n- 游 = 氵（水）+ 方向 → 在水中游\n- 说 = 讠（言）+ 兑 → 用言语说\n- 想 = 相 + 心 → 用心想"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "match",
+      "question": "Match the words with their correct combinations:",
+      "question_zh": "将词语与其正确的搭配连线：",
+      "pairs": [
+        {
+          "left": "做",
+          "right": "作业",
+          "left_zh": "做",
+          "right_zh": "作业"
+        },
+        {
+          "left": "打",
+          "right": "电话",
+          "left_zh": "打",
+          "right_zh": "电话"
+        },
+        {
+          "left": "上",
+          "right": "学",
+          "left_zh": "上",
+          "right_zh": "学"
+        }
+      ],
+      "explanation": "做作业 (do homework), 打电话 (make a phone call), 上学 (go to school)",
+      "explanation_zh": "做作业、打电话、上学是常见的动词搭配"
+    },
+    {
+      "id": "ex2",
+      "type": "mcq",
+      "question": "Which radical indicates 'water'?",
+      "question_zh": "哪个部首表示'水'？",
+      "choices": [
+        "氵",
+        "讠",
+        "亻",
+        "木"
+      ],
+      "choices_zh": [
+        "氵",
+        "讠",
+        "亻",
+        "木"
+      ],
+      "answer": 0,
+      "explanation": "氵is the water radical, found in characters like 河 (river) and 海 (sea)",
+      "explanation_zh": "氵是水部，出现在河、海等字中"
+    },
+    {
+      "id": "ex3",
+      "type": "mcq",
+      "question": "What does the radical 讠(言) typically indicate?",
+      "question_zh": "部首讠（言）通常表示什么？",
+      "choices": [
+        "Water-related meanings",
+        "Speech or language-related meanings",
+        "Tree or wood-related meanings",
+        "Emotion-related meanings"
+      ],
+      "choices_zh": [
+        "与水有关的意思",
+        "与言语或语言有关的意思",
+        "与树木有关的意思",
+        "与情感有关的意思"
+      ],
+      "answer": 1,
+      "explanation": "讠(言) indicates speech or language, as in 说 (speak) and 语 (language)",
+      "explanation_zh": "讠（言）表示言语或语言，如说、语等字"
+    },
+    {
+      "id": "ex4",
+      "type": "short",
+      "question": "What radical would you find in characters related to emotions?",
+      "question_zh": "在与情感有关的字中，你会找到什么部首？",
+      "answer": "心",
+      "validator": "exact",
+      "explanation": "心 (heart) radical appears in emotion-related characters like 想 (think) and 怕 (afraid)",
+      "explanation_zh": "心（心）部首出现在情感相关的字中，如想、怕"
+    }
+  ]
+}

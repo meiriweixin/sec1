@@ -1,0 +1,101 @@
+{
+  "id": "vocabulary-building",
+  "title": "Vocabulary Building",
+  "title_zh": "词汇积累",
+  "description": "Expand your vocabulary through context clues, word families, and effective learning strategies",
+  "description_zh": "通过上下文线索、词族和有效的学习策略扩展词汇",
+  "objectives": [
+    "Use context clues to determine word meanings",
+    "Understand and apply prefixes and suffixes",
+    "Build word families and related terms",
+    "Develop effective vocabulary learning strategies"
+  ],
+  "objectives_zh": [
+    "使用上下文线索确定词义",
+    "理解和应用前缀和后缀",
+    "建立词族和相关术语",
+    "发展有效的词汇学习策略"
+  ],
+  "sections": [
+    {
+      "id": "context-clues",
+      "type": "text",
+      "title": "Using Context Clues",
+      "title_zh": "使用上下文线索",
+      "content": "**Context clues** help you figure out unknown word meanings without a dictionary.\n\n**Types of Context Clues:**\n\n**1. Definition Clues** - The meaning is directly stated\n- A **peninsula** is land surrounded by water on three sides.\n- The word **benevolent**, meaning kind and generous, describes her perfectly.\n\n**2. Example Clues** - Examples help explain the word\n- Citrus fruits, **such as** oranges, lemons, and limes, are rich in vitamin C.\n- Many **amphibians**, like frogs and salamanders, live both in water and on land.\n\n**3. Synonym Clues** - A similar word is nearby\n- The movie was **tedious**, boring and too long.\n- She was **elated**, absolutely thrilled about her results.\n\n**4. Antonym Clues** - An opposite word provides contrast\n- Unlike his **gregarious** sister, he was shy and quiet.\n- The house looked **dilapidated** rather than well-maintained.\n\n**5. Inference Clues** - Use logic and experience\n- The **aroma** of chicken rice filled the hawker center. (smell)\n- He gave a **curt** response and walked away quickly. (short/rude)\n\n**Signal Words to Watch:**\n- **Definition**: is, means, refers to, is called\n- **Example**: such as, like, for instance, including\n- **Synonym**: or, also known as, in other words\n- **Antonym**: but, however, unlike, although, rather than\n\n**Strategy:**\n1. Read the whole sentence\n2. Look for signal words\n3. Think about what makes sense\n4. Test your guess in the sentence\n\n**Singapore Example:**\nThe **durian**, known for its strong smell and spiky exterior, is called the king of fruits in Southeast Asia.\n- Context clues: description of smell and appearance\n- You can infer it's a type of fruit",
+      "content_zh": "**上下文线索**帮助你在没有字典的情况下理解不认识的词义。\n\n**上下文线索类型：**\n\n**1. 定义线索** - 直接陈述含义\n- **半岛**是三面被水包围的陆地。\n- **benevolent**这个词，意思是善良和慷慨，完美地描述了她。\n\n**2. 例子线索** - 例子帮助解释词义\n- 柑橘类水果，**例如**橙子、柠檬和酸橙，富含维生素C。\n- 许多**两栖动物**，如青蛙和蝾螈，在水中和陆地上都能生活。\n\n**3. 同义词线索** - 附近有相似的词\n- 这部电影**很乏味**，无聊且太长。\n- 她**很高兴**，对她的成绩绝对兴奋。\n\n**4. 反义词线索** - 相反的词提供对比\n- 不像他**善于交际**的姐姐，他害羞且安静。\n- 这房子看起来**破旧**而不是保养良好。\n\n**5. 推理线索** - 使用逻辑和经验\n- 海南鸡饭的**香味**充满了小贩中心。（气味）\n- 他给了一个**简短**的回应然后快速走开了。（简短/粗鲁）\n\n**要注意的信号词：**\n- **定义**：是、意思是、指的是、被称为\n- **例子**：例如、像、比如、包括\n- **同义词**：或、也称为、换句话说\n- **反义词**：但是、然而、不像、尽管、而不是\n\n**策略：**\n1. 阅读整个句子\n2. 寻找信号词\n3. 思考什么有意义\n4. 在句子中测试你的猜测\n\n**新加坡例子：**\n**榴莲**，以其强烈的气味和多刺的外观而闻名，在东南亚被称为水果之王。\n- 上下文线索：气味和外观的描述\n- 你可以推断它是一种水果"
+    },
+    {
+      "id": "prefixes-suffixes",
+      "type": "text",
+      "title": "Prefixes and Suffixes",
+      "title_zh": "前缀和后缀",
+      "content": "**Prefixes** and **suffixes** are word parts added to root words to change their meaning.\n\n**Common Prefixes:**\n\n**un-, in-, im-, dis-** = NOT, opposite\n- happy → **un**happy (not happy)\n- correct → **in**correct (not correct)\n- possible → **im**possible (not possible)\n- agree → **dis**agree (not agree)\n\n**re-** = AGAIN, back\n- write → **re**write (write again)\n- turn → **re**turn (turn back)\n- view → **re**view (view again)\n\n**pre-** = BEFORE\n- view → **pre**view (view before)\n- heat → **pre**heat (heat before)\n- test → **pre**test (test before)\n\n**post-** = AFTER\n- war → **post**war (after war)\n- graduate → **post**graduate (after graduation)\n\n**mis-** = WRONG, badly\n- understand → **mis**understand (understand wrongly)\n- behave → **mis**behave (behave badly)\n\n**over-** = TOO MUCH\n- cook → **over**cook (cook too much)\n- react → **over**react (react too much)\n\n**under-** = TOO LITTLE\n- cook → **under**cook (cook too little)\n- estimate → **under**estimate (estimate too low)\n\n**Common Suffixes:**\n\n**-er, -or** = person who\n- teach → teach**er** (person who teaches)\n- act → act**or** (person who acts)\n- write → writ**er** (person who writes)\n\n**-ful** = FULL OF\n- care → care**ful** (full of care)\n- beauty → beauti**ful** (full of beauty)\n- joy → joy**ful** (full of joy)\n\n**-less** = WITHOUT\n- care → care**less** (without care)\n- hope → hope**less** (without hope)\n- end → end**less** (without end)\n\n**-able, -ible** = CAN BE\n- read → read**able** (can be read)\n- eat → eat**able** (can be eaten)\n- reverse → revers**ible** (can be reversed)\n\n**-ness** = STATE OF BEING\n- happy → happi**ness** (state of being happy)\n- kind → kind**ness** (state of being kind)\n- sad → sad**ness** (state of being sad)\n\n**-ly** = IN A WAY (makes adverbs)\n- quick → quick**ly** (in a quick way)\n- careful → careful**ly** (in a careful way)\n- slow → slow**ly** (in a slow way)\n\n**-tion, -sion** = ACTION/STATE\n- educate → educa**tion**\n- decide → deci**sion**\n- create → crea**tion**\n\n**Building Complex Words:**\n\nStart with: **use**\n- re**use** (use again)\n- **use**ful (full of use)\n- **use**less (without use)\n- re**use**able (can be used again)\n\n**Singapore Context:**\nMany MRT stations have **multi**storey car parks (**multi** = many).\nSingapore is known for being a **multi**cultural society.",
+      "content_zh": "**前缀**和**后缀**是添加到词根的词部分以改变其含义。\n\n**常见前缀：**\n\n**un-, in-, im-, dis-** = 不，相反\n- happy → **un**happy（不快乐）\n- correct → **in**correct（不正确）\n- possible → **im**possible（不可能）\n- agree → **dis**agree（不同意）\n\n**re-** = 再次，返回\n- write → **re**write（再写）\n- turn → **re**turn（返回）\n- view → **re**view（再看）\n\n**pre-** = 之前\n- view → **pre**view（预览）\n- heat → **pre**heat（预热）\n- test → **pre**test（预测试）\n\n**post-** = 之后\n- war → **post**war（战后）\n- graduate → **post**graduate（研究生）\n\n**mis-** = 错误，不好地\n- understand → **mis**understand（误解）\n- behave → **mis**behave（行为不端）\n\n**over-** = 太多\n- cook → **over**cook（煮过头）\n- react → **over**react（反应过度）\n\n**under-** = 太少\n- cook → **under**cook（煮不熟）\n- estimate → **under**estimate（低估）\n\n**常见后缀：**\n\n**-er, -or** = 做...的人\n- teach → teach**er**（教师）\n- act → act**or**（演员）\n- write → writ**er**（作家）\n\n**-ful** = 充满\n- care → care**ful**（小心的）\n- beauty → beauti**ful**（美丽的）\n- joy → joy**ful**（快乐的）\n\n**-less** = 没有\n- care → care**less**（粗心的）\n- hope → hope**less**（无望的）\n- end → end**less**（无尽的）\n\n**-able, -ible** = 可以被\n- read → read**able**（可读的）\n- eat → eat**able**（可食用的）\n- reverse → revers**ible**（可逆的）\n\n**-ness** = ...的状态\n- happy → happi**ness**（幸福）\n- kind → kind**ness**（善良）\n- sad → sad**ness**（悲伤）\n\n**-ly** = 以...方式（构成副词）\n- quick → quick**ly**（快速地）\n- careful → careful**ly**（小心地）\n- slow → slow**ly**（慢慢地）\n\n**-tion, -sion** = 动作/状态\n- educate → educa**tion**（教育）\n- decide → deci**sion**（决定）\n- create → crea**tion**（创造）\n\n**构建复杂词汇：**\n\n从**use**开始：\n- re**use**（再使用）\n- **use**ful（有用的）\n- **use**less（无用的）\n- re**use**able（可重复使用的）\n\n**新加坡背景：**\n许多地铁站有**multi**storey停车场（**multi** = 多）。\n新加坡以**multi**cultural社会而闻名。"
+    },
+    {
+      "id": "word-families",
+      "type": "text",
+      "title": "Word Families",
+      "title_zh": "词族",
+      "content": "**Word families** are groups of words that share the same root but have different forms and functions.\n\n**Example 1: ACT**\n\n| Word | Part of Speech | Meaning |\n|------|----------------|----------|\n| act | noun/verb | a deed / to do something |\n| action | noun | the process of doing |\n| active | adjective | doing things, energetic |\n| actively | adverb | in an active way |\n| activity | noun | something you do |\n| actor | noun | person who acts |\n| react | verb | to respond to something |\n| reaction | noun | a response |\n| interactive | adjective | involving participation |\n\n**Example 2: CREATE**\n\n| Word | Part of Speech | Meaning |\n|------|----------------|----------|\n| create | verb | to make something new |\n| creation | noun | something created |\n| creative | adjective | having creativity |\n| creatively | adverb | in a creative way |\n| creativity | noun | ability to create |\n| creator | noun | person who creates |\n| recreate | verb | to create again |\n\n**Example 3: EDUCATE**\n\n| Word | Part of Speech | Meaning |\n|------|----------------|----------|\n| educate | verb | to teach |\n| education | noun | the process of learning |\n| educational | adjective | related to education |\n| educated | adjective | having been taught |\n| educator | noun | a teacher |\n| uneducated | adjective | not educated |\n\n**Example 4: HAPPY**\n\n| Word | Part of Speech | Meaning |\n|------|----------------|----------|\n| happy | adjective | feeling joy |\n| happily | adverb | in a happy way |\n| happiness | noun | state of being happy |\n| unhappy | adjective | not happy |\n| unhappiness | noun | state of being unhappy |\n\n**Building Vocabulary Through Word Families:**\n\nWhen you learn one word, learn its whole family!\n\n**succeed** → success, successful, successfully, unsuccessful\n**important** → importance, importantly, unimportant\n**friend** → friendly, friendship, unfriendly, befriend\n\n**Singapore Example:**\n\n**culture** family:\n- Singapore is **multicultural** (adjective)\n- We celebrate different **cultures** (noun)\n- The government promotes **cultural** harmony (adjective)\n- Students learn about **cultural** diversity (adjective)\n\n**Practice Strategy:**\n1. Learn the root word first\n2. Add prefixes and suffixes\n3. Practice using different forms in sentences\n4. Create your own word family charts",
+      "content_zh": "**词族**是共享相同词根但具有不同形式和功能的词组。\n\n**例子1：ACT**\n\n| 词 | 词性 | 含义 |\n|-----|------|------|\n| act | 名词/动词 | 行为/行动 |\n| action | 名词 | 行动的过程 |\n| active | 形容词 | 活跃的 |\n| actively | 副词 | 积极地 |\n| activity | 名词 | 活动 |\n| actor | 名词 | 演员 |\n| react | 动词 | 反应 |\n| reaction | 名词 | 反应 |\n| interactive | 形容词 | 互动的 |\n\n**例子2：CREATE**\n\n| 词 | 词性 | 含义 |\n|-----|------|------|\n| create | 动词 | 创造 |\n| creation | 名词 | 创造物 |\n| creative | 形容词 | 有创造力的 |\n| creatively | 副词 | 创造性地 |\n| creativity | 名词 | 创造力 |\n| creator | 名词 | 创造者 |\n| recreate | 动词 | 再创造 |\n\n**例子3：EDUCATE**\n\n| 词 | 词性 | 含义 |\n|-----|------|------|\n| educate | 动词 | 教育 |\n| education | 名词 | 教育 |\n| educational | 形容词 | 教育的 |\n| educated | 形容词 | 受过教育的 |\n| educator | 名词 | 教育工作者 |\n| uneducated | 形容词 | 未受教育的 |\n\n**例子4：HAPPY**\n\n| 词 | 词性 | 含义 |\n|-----|------|------|\n| happy | 形容词 | 快乐的 |\n| happily | 副词 | 快乐地 |\n| happiness | 名词 | 幸福 |\n| unhappy | 形容词 | 不快乐的 |\n| unhappiness | 名词 | 不快乐 |\n\n**通过词族建立词汇：**\n\n当你学习一个词时，学习它的整个词族！\n\n**succeed** → success, successful, successfully, unsuccessful\n**important** → importance, importantly, unimportant\n**friend** → friendly, friendship, unfriendly, befriend\n\n**新加坡例子：**\n\n**culture**词族：\n- 新加坡是**multicultural**（形容词）\n- 我们庆祝不同的**cultures**（名词）\n- 政府促进**cultural**和谐（形容词）\n- 学生学习**cultural**多样性（形容词）\n\n**练习策略：**\n1. 首先学习词根\n2. 添加前缀和后缀\n3. 练习在句子中使用不同形式\n4. 创建自己的词族图表"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "mcq",
+      "question": "What does 'benevolent' mean? 'The benevolent teacher always helps her students.'",
+      "question_zh": "什么意思'benevolent'？'仁慈的老师总是帮助她的学生。'",
+      "choices": ["Strict", "Kind and generous", "Angry", "Busy"],
+      "choices_zh": ["严格的", "善良慷慨的", "生气的", "忙碌的"],
+      "answer": 1,
+      "explanation": "Context clue: 'always helps' suggests kindness.",
+      "explanation_zh": "上下文线索：'总是帮助'表明善良。"
+    },
+    {
+      "id": "ex2",
+      "type": "mcq",
+      "question": "What does 'rewrite' mean?",
+      "question_zh": "'rewrite'是什么意思？",
+      "choices": ["Write for the first time", "Write again", "Stop writing", "Write badly"],
+      "choices_zh": ["第一次写", "再写一次", "停止写", "写得不好"],
+      "answer": 1,
+      "explanation": "Prefix 're-' means again.",
+      "explanation_zh": "前缀're-'意思是再次。"
+    },
+    {
+      "id": "ex3",
+      "type": "mcq",
+      "question": "What does 'hopeless' mean?",
+      "question_zh": "'hopeless'是什么意思？",
+      "choices": ["Full of hope", "Without hope", "Hopeful", "Having some hope"],
+      "choices_zh": ["充满希望", "没有希望", "有希望的", "有一些希望"],
+      "answer": 1,
+      "explanation": "Suffix '-less' means without.",
+      "explanation_zh": "后缀'-less'意思是没有。"
+    },
+    {
+      "id": "ex4",
+      "type": "mcq",
+      "question": "Which word is the noun form of 'happy'?",
+      "question_zh": "'happy'的名词形式是哪个词？",
+      "choices": ["happily", "happiness", "unhappy", "happier"],
+      "choices_zh": ["happily", "happiness", "unhappy", "happier"],
+      "answer": 1,
+      "explanation": "Suffix '-ness' creates nouns from adjectives.",
+      "explanation_zh": "后缀'-ness'从形容词创建名词。"
+    },
+    {
+      "id": "ex5",
+      "type": "short",
+      "question": "Add a prefix to make 'agree' mean the opposite.",
+      "question_zh": "添加前缀使'agree'意思相反。",
+      "answer": "disagree",
+      "validator": "exact",
+      "explanation": "Prefix 'dis-' means not or opposite.",
+      "explanation_zh": "前缀'dis-'意思是不或相反。"
+    }
+  ]
+}

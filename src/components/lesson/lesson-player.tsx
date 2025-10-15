@@ -9,6 +9,11 @@ import { motion, AnimatePresence } from "framer-motion";
 import { NumberLineReveal } from "@/components/animations/number-line-reveal";
 import { TileCombine } from "@/components/animations/tile-combine";
 import { ParticlesInStates } from "@/components/animations/particles-in-states";
+import { EquationBalance } from "@/components/animations/equation-balance";
+import { FractionVisual } from "@/components/animations/fraction-visual";
+import { ForceMotion } from "@/components/animations/force-motion";
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 
 interface Section {
   id: string;
@@ -68,11 +73,35 @@ export function LessonPlayer({ sections, onComplete, chapterId, subjectId }: Les
     switch (section.type) {
       case "text":
         return (
-          <div className="prose prose-lg max-w-none">
-            <p className="text-foreground leading-relaxed">{content}</p>
+          <div className="prose prose-lg max-w-none dark:prose-invert text-foreground">
+            <ReactMarkdown
+              remarkPlugins={[remarkGfm]}
+              components={{
+                p: ({children}) => <p className="mb-4 leading-relaxed">{children}</p>,
+                h1: ({children}) => <h1 className="text-2xl font-bold mb-4 mt-6">{children}</h1>,
+                h2: ({children}) => <h2 className="text-xl font-bold mb-3 mt-5">{children}</h2>,
+                h3: ({children}) => <h3 className="text-lg font-bold mb-2 mt-4">{children}</h3>,
+                strong: ({children}) => <strong className="font-bold text-primary">{children}</strong>,
+                ul: ({children}) => <ul className="list-disc list-inside mb-4 space-y-2">{children}</ul>,
+                ol: ({children}) => <ol className="list-decimal list-inside mb-4 space-y-2">{children}</ol>,
+                li: ({children}) => <li className="ml-4">{children}</li>,
+                table: ({children}) => <table className="min-w-full border-collapse border border-border my-4">{children}</table>,
+                thead: ({children}) => <thead className="bg-muted">{children}</thead>,
+                tbody: ({children}) => <tbody>{children}</tbody>,
+                tr: ({children}) => <tr className="border-b border-border">{children}</tr>,
+                th: ({children}) => <th className="border border-border px-4 py-2 text-left font-semibold">{children}</th>,
+                td: ({children}) => <td className="border border-border px-4 py-2">{children}</td>,
+                code: ({children}) => <code className="bg-muted px-1.5 py-0.5 rounded text-sm font-mono">{children}</code>,
+                pre: ({children}) => <pre className="bg-muted p-4 rounded-lg overflow-x-auto my-4">{children}</pre>,
+              }}
+            >
+              {content}
+            </ReactMarkdown>
             {explanation && (
-              <div className="mt-4 p-4 bg-muted/50 rounded-lg">
-                <p className="text-sm text-muted-foreground">{explanation}</p>
+              <div className="mt-4 p-4 bg-muted/50 rounded-lg text-sm text-muted-foreground">
+                <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                  {explanation}
+                </ReactMarkdown>
               </div>
             )}
           </div>
@@ -108,6 +137,12 @@ export function LessonPlayer({ sections, onComplete, chapterId, subjectId }: Les
         return <TileCombine {...section.props} />;
       case "ParticlesInStates":
         return <ParticlesInStates {...section.props} />;
+      case "EquationBalance":
+        return <EquationBalance {...section.props} />;
+      case "FractionVisual":
+        return <FractionVisual {...section.props} />;
+      case "ForceMotion":
+        return <ForceMotion {...section.props} />;
       default:
         return (
           <div className="text-center p-8 bg-muted/30 rounded-lg">

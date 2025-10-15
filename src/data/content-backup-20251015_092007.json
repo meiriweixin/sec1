@@ -1250,6 +1250,847 @@
       ]
     },
     {
+      "id": "english",
+      "title": "English Language",
+      "title_zh": "英语",
+      "description": "Master English grammar, vocabulary, writing, and comprehension skills",
+      "description_zh": "掌握英语语法、词汇、写作和阅读理解技能",
+      "color": "from-indigo-500 to-purple-500",
+      "chapters": [
+        {
+          "id": "grammar-foundations",
+          "title": "Grammar Foundations",
+          "title_zh": "语法基础",
+          "description": "Learn the building blocks of English grammar including parts of speech and sentence structure",
+          "description_zh": "学习英语语法的基本组成部分，包括词性和句子结构",
+          "objectives": [
+            "Identify and use the 8 parts of speech correctly",
+            "Understand basic sentence structure (Subject-Verb-Object)",
+            "Apply subject-verb agreement rules",
+            "Recognize and fix common grammar errors"
+          ],
+          "objectives_zh": [
+            "正确识别和使用8种词性",
+            "理解基本句子结构（主语-动词-宾语）",
+            "应用主谓一致规则",
+            "识别和修正常见语法错误"
+          ],
+          "sections": [
+            {
+              "id": "parts-of-speech",
+              "type": "text",
+              "title": "Parts of Speech",
+              "title_zh": "词性",
+              "content": "Understanding the **8 parts of speech** is essential for building strong grammar skills.\n\n**1. Nouns** - Names of people, places, things, or ideas\n- Common nouns: book, city, teacher\n- Proper nouns: Singapore, Maria, Monday\n- Abstract nouns: happiness, freedom, love\n\n**2. Pronouns** - Replace nouns\n- Personal: I, you, he, she, it, we, they\n- Possessive: my, your, his, her, its\n\n**3. Verbs** - Action or state of being\n- Action: run, eat, study, think\n- Linking: am, is, are, was, were\n\n**4. Adjectives** - Describe nouns\n- Example: The beautiful, tall building\n\n**5. Adverbs** - Describe verbs, adjectives, or other adverbs\n- Example: She carefully opened the door very quietly\n\n**6. Prepositions** - Show relationships\n- Place: in, on, at, under, above\n- Time: before, after, during, until\n\n**7. Conjunctions** - Connect words/phrases\n- Coordinating: and, but, or, so\n- Subordinating: because, although, if, when\n\n**8. Interjections** - Express emotions\n- Wow! Oh! Ouch! Hey!",
+              "content_zh": "理解**8种词性**对建立强大的语法技能至关重要。\n\n**1. 名词** - 人、地方、事物或想法的名称\n- 普通名词：book（书）、city（城市）、teacher（老师）\n- 专有名词：Singapore（新加坡）、Maria（玛丽亚）、Monday（星期一）\n- 抽象名词：happiness（幸福）、freedom（自由）、love（爱）\n\n**2. 代词** - 替换名词\n- 人称代词：I（我）、you（你）、he（他）、she（她）\n- 所有格代词：my（我的）、your（你的）、his（他的）\n\n**3. 动词** - 动作或状态\n- 动作：run（跑）、eat（吃）、study（学习）\n- 连系：am（是）、is（是）、are（是）\n\n**4. 形容词** - 描述名词\n- 例子：漂亮的、高的建筑\n\n**5. 副词** - 描述动词、形容词或其他副词\n- 例子：她小心地打开门，非常安静地\n\n**6. 介词** - 显示关系\n- 地点：in（在里面）、on（在上面）、at（在）\n- 时间：before（之前）、after（之后）、during（期间）\n\n**7. 连词** - 连接单词/短语\n- 并列连词：and（和）、but（但是）、or（或者）\n- 从属连词：because（因为）、although（尽管）、if（如果）\n\n**8. 感叹词** - 表达情感\n- Wow!（哇！）Oh!（哦！）Ouch!（哎哟！）"
+            },
+            {
+              "id": "sentence-structure",
+              "type": "text",
+              "title": "Basic Sentence Structure",
+              "title_zh": "基本句子结构",
+              "content": "Every complete sentence needs a **subject** and a **verb**.\n\n**Basic Pattern: Subject + Verb + Object**\n\n**Types of Sentences:**\n\n**1. Simple Sentences** - One independent clause\n- The cat sleeps.\n- My brother and I walked to school.\n\n**2. Compound Sentences** - Two independent clauses\n- I like laksa, but my friend prefers ramen.\n- The sun was shining, so we went to the beach.\n\n**3. Complex Sentences** - Independent + dependent clause\n- Because it was raining, we stayed indoors.\n- We went to the library after school ended.\n\n**4. Compound-Complex Sentences**\n- Although it was late, I called my friend, and we talked for an hour.\n\n**Common Errors:**\n\n**Sentence Fragment** - Incomplete thought\n- ❌ Because I was tired.\n- ✅ Because I was tired, I went to bed early.\n\n**Run-on Sentence**\n- ❌ I love reading books I go to the library often.\n- ✅ I love reading books, so I go to the library often.\n\n**Singapore Context:** Use proper sentences in formal writing like emails to teachers!",
+              "content_zh": "每个完整句子都需要**主语**和**动词**。\n\n**基本模式：主语 + 动词 + 宾语**\n\n**句子类型：**\n\n**1. 简单句** - 一个独立子句\n- 猫睡觉。\n- 我和我哥哥走到学校。\n\n**2. 并列句** - 两个独立子句\n- 我喜欢叻沙，但我的朋友更喜欢拉面。\n- 阳光明媚，所以我们去了海滩。\n\n**3. 复杂句** - 独立 + 从属子句\n- 因为下雨，我们待在室内。\n- 我们放学后去了图书馆。\n\n**4. 复合复杂句**\n- 虽然很晚了，我给我的朋友打了电话，我们聊了一个小时。\n\n**常见错误：**\n\n**句子片段** - 不完整的思想\n- ❌ 因为我很累。\n- ✅ 因为我很累，我早早睡了。\n\n**连写句**\n- ❌ 我喜欢读书我经常去图书馆。\n- ✅ 我喜欢读书，所以我经常去图书馆。\n\n**新加坡背景：**在给老师的正式写作中使用正确的句子！"
+            },
+            {
+              "id": "subject-verb-agreement",
+              "type": "text",
+              "title": "Subject-Verb Agreement",
+              "title_zh": "主谓一致",
+              "content": "The subject and verb must **match in number**.\n\n**Basic Rules:**\n\n**Singular subject → Singular verb**\n- The student walks to school. ✅\n\n**Plural subject → Plural verb**\n- The students walk to school. ✅\n\n**Tricky Situations:**\n\n**1. Compound Subjects with AND** → Plural\n- Tom and Sarah are friends. ✅\n\n**2. Subjects with OR/NOR** → Agrees with closest\n- Neither the teacher nor the students are ready. ✅\n\n**3. Indefinite Pronouns**\n\n**Always Singular:**\n- everyone, everyone, anybody, someone, nobody, either, neither\n- Everyone is ready. ✅\n- Somebody has my book. ✅\n\n**Always Plural:**\n- both, few, many, several\n- Both are correct. ✅\n\n**4. Words Between Subject and Verb**\n- The box of chocolates is on the table. ✅ (subject: box)\n- The students in my class are smart. ✅ (subject: students)\n\n**5. Collective Nouns** → Usually singular\n- The team is playing well. ✅\n- The family is happy. ✅\n\n**Common Errors:**\n- ❌ The list of items are on the table.\n- ✅ The list of items is on the table.\n\n- ❌ One of my friends are coming.\n- ✅ One of my friends is coming.\n\n**Singapore Tip:** For exams, always check subject-verb agreement!",
+              "content_zh": "主语和动词必须**在数量上匹配**。\n\n**基本规则：**\n\n**单数主语 → 单数动词**\n- 学生走到学校。✅\n\n**复数主语 → 复数动词**\n- 学生们走到学校。✅\n\n**棘手情况：**\n\n**1. 用AND连接的复合主语** → 复数\n- Tom和Sarah是朋友。✅\n\n**2. 用OR/NOR连接的主语** → 与最近的一致\n- 老师和学生们都没有准备好。✅\n\n**3. 不定代词**\n\n**总是单数：**\n- everyone（每个人）、anybody（任何人）、someone（某人）、nobody（没有人）\n- 每个人都准备好了。✅\n- 有人拿了我的书。✅\n\n**总是复数：**\n- both（两者）、few（少数）、many（许多）、several（几个）\n- 两者都正确。✅\n\n**4. 主语和动词之间的词**\n- 巧克力盒子在桌子上。✅（主语：盒子）\n- 我班上的学生很聪明。✅（主语：学生）\n\n**5. 集体名词** → 通常单数\n- 团队正在表现良好。✅\n- 家庭很快乐。✅\n\n**常见错误：**\n- ❌ 项目列表在桌子上。\n- ✅ 项目列表在桌子上。\n\n- ❌ 我的一个朋友要来。\n- ✅ 我的一个朋友要来。\n\n**新加坡提示：**考试时，始终检查主谓一致！"
+            }
+          ],
+          "exercises": [
+            {
+              "id": "ex1",
+              "type": "mcq",
+              "question": "Identify the part of speech: The **beautiful** garden has many flowers.",
+              "question_zh": "识别词性：**美丽的**花园有许多花。",
+              "choices": [
+                "Noun",
+                "Verb",
+                "Adjective",
+                "Adverb"
+              ],
+              "choices_zh": [
+                "名词",
+                "动词",
+                "形容词",
+                "副词"
+              ],
+              "answer": 2,
+              "explanation": "'Beautiful' is an adjective because it describes the noun 'garden'.",
+              "explanation_zh": "'Beautiful'是形容词，因为它描述名词'garden'。"
+            },
+            {
+              "id": "ex2",
+              "type": "mcq",
+              "question": "Which sentence has correct subject-verb agreement?",
+              "question_zh": "哪个句子具有正确的主谓一致？",
+              "choices": [
+                "The list of names are on the board.",
+                "The list of names is on the board.",
+                "The list of names be on the board.",
+                "The lists of name is on the board."
+              ],
+              "choices_zh": [
+                "名单在黑板上。（错误1）",
+                "名单在黑板上。（正确）",
+                "名单在黑板上。（错误2）",
+                "名单在黑板上。（错误3）"
+              ],
+              "answer": 1,
+              "explanation": "The subject is 'list' (singular), so we use 'is'.",
+              "explanation_zh": "主语是'list'（单数），所以我们使用'is'。"
+            },
+            {
+              "id": "ex3",
+              "type": "mcq",
+              "question": "What type of sentence? 'I wanted to go, but I had homework.'",
+              "question_zh": "什么类型的句子？'我想去，但我有作业。'",
+              "choices": [
+                "Simple",
+                "Compound",
+                "Complex",
+                "Compound-complex"
+              ],
+              "choices_zh": [
+                "简单句",
+                "并列句",
+                "复杂句",
+                "复合复杂句"
+              ],
+              "answer": 1,
+              "explanation": "Compound sentence: two independent clauses joined by 'but'.",
+              "explanation_zh": "并列句：两个独立子句由'but'连接。"
+            },
+            {
+              "id": "ex4",
+              "type": "mcq",
+              "question": "Which is correct?",
+              "question_zh": "哪个正确？",
+              "choices": [
+                "Everyone have finished.",
+                "Everyone has finished.",
+                "Everyone are finished.",
+                "Everyone were finished."
+              ],
+              "choices_zh": [
+                "每个人都完成了。（错误1）",
+                "每个人都完成了。（正确）",
+                "每个人都完成了。（错误2）",
+                "每个人都完成了。（错误3）"
+              ],
+              "answer": 1,
+              "explanation": "'Everyone' is singular, so use 'has'.",
+              "explanation_zh": "'Everyone'是单数，所以使用'has'。"
+            },
+            {
+              "id": "ex5",
+              "type": "short",
+              "question": "Fix this fragment: 'Because I was tired.'",
+              "question_zh": "修正这个片段：'因为我很累。'",
+              "answer": "Because I was tired, I went to bed early.",
+              "validator": "exact",
+              "explanation": "Add an independent clause to complete the thought.",
+              "explanation_zh": "添加独立子句以完成思想。"
+            }
+          ]
+        },
+        {
+          "id": "vocabulary-building",
+          "title": "Vocabulary Building",
+          "title_zh": "词汇积累",
+          "description": "Expand your vocabulary through context clues, word families, and effective learning strategies",
+          "description_zh": "通过上下文线索、词族和有效的学习策略扩展词汇",
+          "objectives": [
+            "Use context clues to determine word meanings",
+            "Understand and apply prefixes and suffixes",
+            "Build word families and related terms",
+            "Develop effective vocabulary learning strategies"
+          ],
+          "objectives_zh": [
+            "使用上下文线索确定词义",
+            "理解和应用前缀和后缀",
+            "建立词族和相关术语",
+            "发展有效的词汇学习策略"
+          ],
+          "sections": [
+            {
+              "id": "context-clues",
+              "type": "text",
+              "title": "Using Context Clues",
+              "title_zh": "使用上下文线索",
+              "content": "**Context clues** help you figure out unknown word meanings without a dictionary.\n\n**Types of Context Clues:**\n\n**1. Definition Clues** - The meaning is directly stated\n- A **peninsula** is land surrounded by water on three sides.\n- The word **benevolent**, meaning kind and generous, describes her perfectly.\n\n**2. Example Clues** - Examples help explain the word\n- Citrus fruits, **such as** oranges, lemons, and limes, are rich in vitamin C.\n- Many **amphibians**, like frogs and salamanders, live both in water and on land.\n\n**3. Synonym Clues** - A similar word is nearby\n- The movie was **tedious**, boring and too long.\n- She was **elated**, absolutely thrilled about her results.\n\n**4. Antonym Clues** - An opposite word provides contrast\n- Unlike his **gregarious** sister, he was shy and quiet.\n- The house looked **dilapidated** rather than well-maintained.\n\n**5. Inference Clues** - Use logic and experience\n- The **aroma** of chicken rice filled the hawker center. (smell)\n- He gave a **curt** response and walked away quickly. (short/rude)\n\n**Signal Words to Watch:**\n- **Definition**: is, means, refers to, is called\n- **Example**: such as, like, for instance, including\n- **Synonym**: or, also known as, in other words\n- **Antonym**: but, however, unlike, although, rather than\n\n**Strategy:**\n1. Read the whole sentence\n2. Look for signal words\n3. Think about what makes sense\n4. Test your guess in the sentence\n\n**Singapore Example:**\nThe **durian**, known for its strong smell and spiky exterior, is called the king of fruits in Southeast Asia.\n- Context clues: description of smell and appearance\n- You can infer it's a type of fruit",
+              "content_zh": "**上下文线索**帮助你在没有字典的情况下理解不认识的词义。\n\n**上下文线索类型：**\n\n**1. 定义线索** - 直接陈述含义\n- **半岛**是三面被水包围的陆地。\n- **benevolent**这个词，意思是善良和慷慨，完美地描述了她。\n\n**2. 例子线索** - 例子帮助解释词义\n- 柑橘类水果，**例如**橙子、柠檬和酸橙，富含维生素C。\n- 许多**两栖动物**，如青蛙和蝾螈，在水中和陆地上都能生活。\n\n**3. 同义词线索** - 附近有相似的词\n- 这部电影**很乏味**，无聊且太长。\n- 她**很高兴**，对她的成绩绝对兴奋。\n\n**4. 反义词线索** - 相反的词提供对比\n- 不像他**善于交际**的姐姐，他害羞且安静。\n- 这房子看起来**破旧**而不是保养良好。\n\n**5. 推理线索** - 使用逻辑和经验\n- 海南鸡饭的**香味**充满了小贩中心。（气味）\n- 他给了一个**简短**的回应然后快速走开了。（简短/粗鲁）\n\n**要注意的信号词：**\n- **定义**：是、意思是、指的是、被称为\n- **例子**：例如、像、比如、包括\n- **同义词**：或、也称为、换句话说\n- **反义词**：但是、然而、不像、尽管、而不是\n\n**策略：**\n1. 阅读整个句子\n2. 寻找信号词\n3. 思考什么有意义\n4. 在句子中测试你的猜测\n\n**新加坡例子：**\n**榴莲**，以其强烈的气味和多刺的外观而闻名，在东南亚被称为水果之王。\n- 上下文线索：气味和外观的描述\n- 你可以推断它是一种水果"
+            },
+            {
+              "id": "prefixes-suffixes",
+              "type": "text",
+              "title": "Prefixes and Suffixes",
+              "title_zh": "前缀和后缀",
+              "content": "**Prefixes** and **suffixes** are word parts added to root words to change their meaning.\n\n**Common Prefixes:**\n\n**un-, in-, im-, dis-** = NOT, opposite\n- happy → **un**happy (not happy)\n- correct → **in**correct (not correct)\n- possible → **im**possible (not possible)\n- agree → **dis**agree (not agree)\n\n**re-** = AGAIN, back\n- write → **re**write (write again)\n- turn → **re**turn (turn back)\n- view → **re**view (view again)\n\n**pre-** = BEFORE\n- view → **pre**view (view before)\n- heat → **pre**heat (heat before)\n- test → **pre**test (test before)\n\n**post-** = AFTER\n- war → **post**war (after war)\n- graduate → **post**graduate (after graduation)\n\n**mis-** = WRONG, badly\n- understand → **mis**understand (understand wrongly)\n- behave → **mis**behave (behave badly)\n\n**over-** = TOO MUCH\n- cook → **over**cook (cook too much)\n- react → **over**react (react too much)\n\n**under-** = TOO LITTLE\n- cook → **under**cook (cook too little)\n- estimate → **under**estimate (estimate too low)\n\n**Common Suffixes:**\n\n**-er, -or** = person who\n- teach → teach**er** (person who teaches)\n- act → act**or** (person who acts)\n- write → writ**er** (person who writes)\n\n**-ful** = FULL OF\n- care → care**ful** (full of care)\n- beauty → beauti**ful** (full of beauty)\n- joy → joy**ful** (full of joy)\n\n**-less** = WITHOUT\n- care → care**less** (without care)\n- hope → hope**less** (without hope)\n- end → end**less** (without end)\n\n**-able, -ible** = CAN BE\n- read → read**able** (can be read)\n- eat → eat**able** (can be eaten)\n- reverse → revers**ible** (can be reversed)\n\n**-ness** = STATE OF BEING\n- happy → happi**ness** (state of being happy)\n- kind → kind**ness** (state of being kind)\n- sad → sad**ness** (state of being sad)\n\n**-ly** = IN A WAY (makes adverbs)\n- quick → quick**ly** (in a quick way)\n- careful → careful**ly** (in a careful way)\n- slow → slow**ly** (in a slow way)\n\n**-tion, -sion** = ACTION/STATE\n- educate → educa**tion**\n- decide → deci**sion**\n- create → crea**tion**\n\n**Building Complex Words:**\n\nStart with: **use**\n- re**use** (use again)\n- **use**ful (full of use)\n- **use**less (without use)\n- re**use**able (can be used again)\n\n**Singapore Context:**\nMany MRT stations have **multi**storey car parks (**multi** = many).\nSingapore is known for being a **multi**cultural society.",
+              "content_zh": "**前缀**和**后缀**是添加到词根的词部分以改变其含义。\n\n**常见前缀：**\n\n**un-, in-, im-, dis-** = 不，相反\n- happy → **un**happy（不快乐）\n- correct → **in**correct（不正确）\n- possible → **im**possible（不可能）\n- agree → **dis**agree（不同意）\n\n**re-** = 再次，返回\n- write → **re**write（再写）\n- turn → **re**turn（返回）\n- view → **re**view（再看）\n\n**pre-** = 之前\n- view → **pre**view（预览）\n- heat → **pre**heat（预热）\n- test → **pre**test（预测试）\n\n**post-** = 之后\n- war → **post**war（战后）\n- graduate → **post**graduate（研究生）\n\n**mis-** = 错误，不好地\n- understand → **mis**understand（误解）\n- behave → **mis**behave（行为不端）\n\n**over-** = 太多\n- cook → **over**cook（煮过头）\n- react → **over**react（反应过度）\n\n**under-** = 太少\n- cook → **under**cook（煮不熟）\n- estimate → **under**estimate（低估）\n\n**常见后缀：**\n\n**-er, -or** = 做...的人\n- teach → teach**er**（教师）\n- act → act**or**（演员）\n- write → writ**er**（作家）\n\n**-ful** = 充满\n- care → care**ful**（小心的）\n- beauty → beauti**ful**（美丽的）\n- joy → joy**ful**（快乐的）\n\n**-less** = 没有\n- care → care**less**（粗心的）\n- hope → hope**less**（无望的）\n- end → end**less**（无尽的）\n\n**-able, -ible** = 可以被\n- read → read**able**（可读的）\n- eat → eat**able**（可食用的）\n- reverse → revers**ible**（可逆的）\n\n**-ness** = ...的状态\n- happy → happi**ness**（幸福）\n- kind → kind**ness**（善良）\n- sad → sad**ness**（悲伤）\n\n**-ly** = 以...方式（构成副词）\n- quick → quick**ly**（快速地）\n- careful → careful**ly**（小心地）\n- slow → slow**ly**（慢慢地）\n\n**-tion, -sion** = 动作/状态\n- educate → educa**tion**（教育）\n- decide → deci**sion**（决定）\n- create → crea**tion**（创造）\n\n**构建复杂词汇：**\n\n从**use**开始：\n- re**use**（再使用）\n- **use**ful（有用的）\n- **use**less（无用的）\n- re**use**able（可重复使用的）\n\n**新加坡背景：**\n许多地铁站有**multi**storey停车场（**multi** = 多）。\n新加坡以**multi**cultural社会而闻名。"
+            },
+            {
+              "id": "word-families",
+              "type": "text",
+              "title": "Word Families",
+              "title_zh": "词族",
+              "content": "**Word families** are groups of words that share the same root but have different forms and functions.\n\n**Example 1: ACT**\n\n| Word | Part of Speech | Meaning |\n|------|----------------|----------|\n| act | noun/verb | a deed / to do something |\n| action | noun | the process of doing |\n| active | adjective | doing things, energetic |\n| actively | adverb | in an active way |\n| activity | noun | something you do |\n| actor | noun | person who acts |\n| react | verb | to respond to something |\n| reaction | noun | a response |\n| interactive | adjective | involving participation |\n\n**Example 2: CREATE**\n\n| Word | Part of Speech | Meaning |\n|------|----------------|----------|\n| create | verb | to make something new |\n| creation | noun | something created |\n| creative | adjective | having creativity |\n| creatively | adverb | in a creative way |\n| creativity | noun | ability to create |\n| creator | noun | person who creates |\n| recreate | verb | to create again |\n\n**Example 3: EDUCATE**\n\n| Word | Part of Speech | Meaning |\n|------|----------------|----------|\n| educate | verb | to teach |\n| education | noun | the process of learning |\n| educational | adjective | related to education |\n| educated | adjective | having been taught |\n| educator | noun | a teacher |\n| uneducated | adjective | not educated |\n\n**Example 4: HAPPY**\n\n| Word | Part of Speech | Meaning |\n|------|----------------|----------|\n| happy | adjective | feeling joy |\n| happily | adverb | in a happy way |\n| happiness | noun | state of being happy |\n| unhappy | adjective | not happy |\n| unhappiness | noun | state of being unhappy |\n\n**Building Vocabulary Through Word Families:**\n\nWhen you learn one word, learn its whole family!\n\n**succeed** → success, successful, successfully, unsuccessful\n**important** → importance, importantly, unimportant\n**friend** → friendly, friendship, unfriendly, befriend\n\n**Singapore Example:**\n\n**culture** family:\n- Singapore is **multicultural** (adjective)\n- We celebrate different **cultures** (noun)\n- The government promotes **cultural** harmony (adjective)\n- Students learn about **cultural** diversity (adjective)\n\n**Practice Strategy:**\n1. Learn the root word first\n2. Add prefixes and suffixes\n3. Practice using different forms in sentences\n4. Create your own word family charts",
+              "content_zh": "**词族**是共享相同词根但具有不同形式和功能的词组。\n\n**例子1：ACT**\n\n| 词 | 词性 | 含义 |\n|-----|------|------|\n| act | 名词/动词 | 行为/行动 |\n| action | 名词 | 行动的过程 |\n| active | 形容词 | 活跃的 |\n| actively | 副词 | 积极地 |\n| activity | 名词 | 活动 |\n| actor | 名词 | 演员 |\n| react | 动词 | 反应 |\n| reaction | 名词 | 反应 |\n| interactive | 形容词 | 互动的 |\n\n**例子2：CREATE**\n\n| 词 | 词性 | 含义 |\n|-----|------|------|\n| create | 动词 | 创造 |\n| creation | 名词 | 创造物 |\n| creative | 形容词 | 有创造力的 |\n| creatively | 副词 | 创造性地 |\n| creativity | 名词 | 创造力 |\n| creator | 名词 | 创造者 |\n| recreate | 动词 | 再创造 |\n\n**例子3：EDUCATE**\n\n| 词 | 词性 | 含义 |\n|-----|------|------|\n| educate | 动词 | 教育 |\n| education | 名词 | 教育 |\n| educational | 形容词 | 教育的 |\n| educated | 形容词 | 受过教育的 |\n| educator | 名词 | 教育工作者 |\n| uneducated | 形容词 | 未受教育的 |\n\n**例子4：HAPPY**\n\n| 词 | 词性 | 含义 |\n|-----|------|------|\n| happy | 形容词 | 快乐的 |\n| happily | 副词 | 快乐地 |\n| happiness | 名词 | 幸福 |\n| unhappy | 形容词 | 不快乐的 |\n| unhappiness | 名词 | 不快乐 |\n\n**通过词族建立词汇：**\n\n当你学习一个词时，学习它的整个词族！\n\n**succeed** → success, successful, successfully, unsuccessful\n**important** → importance, importantly, unimportant\n**friend** → friendly, friendship, unfriendly, befriend\n\n**新加坡例子：**\n\n**culture**词族：\n- 新加坡是**multicultural**（形容词）\n- 我们庆祝不同的**cultures**（名词）\n- 政府促进**cultural**和谐（形容词）\n- 学生学习**cultural**多样性（形容词）\n\n**练习策略：**\n1. 首先学习词根\n2. 添加前缀和后缀\n3. 练习在句子中使用不同形式\n4. 创建自己的词族图表"
+            }
+          ],
+          "exercises": [
+            {
+              "id": "ex1",
+              "type": "mcq",
+              "question": "What does 'benevolent' mean? 'The benevolent teacher always helps her students.'",
+              "question_zh": "什么意思'benevolent'？'仁慈的老师总是帮助她的学生。'",
+              "choices": [
+                "Strict",
+                "Kind and generous",
+                "Angry",
+                "Busy"
+              ],
+              "choices_zh": [
+                "严格的",
+                "善良慷慨的",
+                "生气的",
+                "忙碌的"
+              ],
+              "answer": 1,
+              "explanation": "Context clue: 'always helps' suggests kindness.",
+              "explanation_zh": "上下文线索：'总是帮助'表明善良。"
+            },
+            {
+              "id": "ex2",
+              "type": "mcq",
+              "question": "What does 'rewrite' mean?",
+              "question_zh": "'rewrite'是什么意思？",
+              "choices": [
+                "Write for the first time",
+                "Write again",
+                "Stop writing",
+                "Write badly"
+              ],
+              "choices_zh": [
+                "第一次写",
+                "再写一次",
+                "停止写",
+                "写得不好"
+              ],
+              "answer": 1,
+              "explanation": "Prefix 're-' means again.",
+              "explanation_zh": "前缀're-'意思是再次。"
+            },
+            {
+              "id": "ex3",
+              "type": "mcq",
+              "question": "What does 'hopeless' mean?",
+              "question_zh": "'hopeless'是什么意思？",
+              "choices": [
+                "Full of hope",
+                "Without hope",
+                "Hopeful",
+                "Having some hope"
+              ],
+              "choices_zh": [
+                "充满希望",
+                "没有希望",
+                "有希望的",
+                "有一些希望"
+              ],
+              "answer": 1,
+              "explanation": "Suffix '-less' means without.",
+              "explanation_zh": "后缀'-less'意思是没有。"
+            },
+            {
+              "id": "ex4",
+              "type": "mcq",
+              "question": "Which word is the noun form of 'happy'?",
+              "question_zh": "'happy'的名词形式是哪个词？",
+              "choices": [
+                "happily",
+                "happiness",
+                "unhappy",
+                "happier"
+              ],
+              "choices_zh": [
+                "happily",
+                "happiness",
+                "unhappy",
+                "happier"
+              ],
+              "answer": 1,
+              "explanation": "Suffix '-ness' creates nouns from adjectives.",
+              "explanation_zh": "后缀'-ness'从形容词创建名词。"
+            },
+            {
+              "id": "ex5",
+              "type": "short",
+              "question": "Add a prefix to make 'agree' mean the opposite.",
+              "question_zh": "添加前缀使'agree'意思相反。",
+              "answer": "disagree",
+              "validator": "exact",
+              "explanation": "Prefix 'dis-' means not or opposite.",
+              "explanation_zh": "前缀'dis-'意思是不或相反。"
+            }
+          ]
+        },
+        {
+          "id": "sentence-construction",
+          "title": "Sentence Construction",
+          "title_zh": "句子构造",
+          "description": "Build strong sentences by avoiding fragments and run-ons",
+          "description_zh": "通过避免片段和连写句构建强句子",
+          "objectives": [
+            "Identify sentence fragments",
+            "Fix run-on sentences",
+            "Use sentence variety"
+          ],
+          "objectives_zh": [
+            "识别句子片段",
+            "修正连写句",
+            "使用句子多样性"
+          ],
+          "sections": [
+            {
+              "id": "fragments",
+              "type": "text",
+              "title": "Avoiding Sentence Fragments",
+              "title_zh": "避免句子片段",
+              "content": "A **sentence fragment** is an incomplete sentence missing a subject, verb, or complete thought.\n\n**Examples of Fragments:**\n- ❌ Because it was raining.\n- ❌ The tall building near my school.\n- ❌ Running down the street.\n\n**How to Fix:**\n1. Add missing subject or verb\n2. Connect to a complete sentence\n3. Remove subordinating conjunction\n\n**Fixed:**\n- ✅ Because it was raining, we stayed inside.\n- ✅ The tall building near my school is new.\n- ✅ The boy was running down the street.",
+              "content_zh": "**句子片段**是缺少主语、动词或完整思想的不完整句子。\n\n**片段例子：**\n- ❌ 因为下雨。\n- ❌ 我学校附近的高楼。\n- ❌ 沿着街道跑。\n\n**如何修正：**\n1. 添加缺少的主语或动词\n2. 连接到完整句子\n3. 删除从属连词\n\n**修正后：**\n- ✅ 因为下雨，我们待在室内。\n- ✅ 我学校附近的高楼是新的。\n- ✅ 男孩沿着街道跑。"
+            },
+            {
+              "id": "run-ons",
+              "type": "text",
+              "title": "Fixing Run-on Sentences",
+              "title_zh": "修正连写句",
+              "content": "**Run-on sentences** join two complete sentences incorrectly.\n\n**Types:**\n\n**1. Fused Sentences** (no punctuation)\n- ❌ I love durian my sister hates it.\n\n**2. Comma Splice** (only comma)\n- ❌ I love durian, my sister hates it.\n\n**How to Fix:**\n\n**Method 1:** Period\n- ✅ I love durian. My sister hates it.\n\n**Method 2:** Comma + Coordinating Conjunction\n- ✅ I love durian, but my sister hates it.\n\n**Method 3:** Semicolon\n- ✅ I love durian; my sister hates it.\n\n**Method 4:** Subordinating Conjunction\n- ✅ Although I love durian, my sister hates it.",
+              "content_zh": "**连写句**不正确地连接两个完整句子。\n\n**类型：**\n\n**1. 融合句**（没有标点）\n- ❌ 我爱榴莲我姐姐讨厌它。\n\n**2. 逗号错误**（只有逗号）\n- ❌ 我爱榴莲，我姐姐讨厌它。\n\n**如何修正：**\n\n**方法1：**句号\n- ✅ 我爱榴莲。我姐姐讨厌它。\n\n**方法2：**逗号+并列连词\n- ✅ 我爱榴莲，但我姐姐讨厌它。\n\n**方法3：**分号\n- ✅ 我爱榴莲；我姐姐讨厌它。\n\n**方法4：**从属连词\n- ✅ 虽然我爱榴莲，我姐姐讨厌它。"
+            },
+            {
+              "id": "variety",
+              "type": "text",
+              "title": "Sentence Variety",
+              "title_zh": "句子多样性",
+              "content": "Use different sentence types for better writing.\n\n**Vary Sentence Length:**\n- Short: It was hot.\n- Medium: The weather was extremely hot today.\n- Long: Because the weather was extremely hot today, we decided to stay indoors and use the air conditioning.\n\n**Vary Sentence Beginnings:**\n- Subject: The students worked hard.\n- Adverb: Yesterday, the students worked hard.\n- Prepositional phrase: In the library, the students worked hard.\n- Dependent clause: While preparing for exams, the students worked hard.\n\n**Vary Sentence Types:**\n- Simple: I went to school.\n- Compound: I went to school, and I studied hard.\n- Complex: Because I studied hard, I passed the exam.",
+              "content_zh": "使用不同的句子类型以获得更好的写作。\n\n**变化句子长度：**\n- 短：天气热。\n- 中：今天天气非常热。\n- 长：因为今天天气非常热，我们决定待在室内使用空调。\n\n**变化句子开头：**\n- 主语：学生们努力学习。\n- 副词：昨天，学生们努力学习。\n- 介词短语：在图书馆，学生们努力学习。\n- 从属子句：在准备考试时，学生们努力学习。\n\n**变化句子类型：**\n- 简单：我去上学。\n- 并列：我去上学，我努力学习。\n- 复杂：因为我努力学习，我通过了考试。"
+            }
+          ],
+          "exercises": [
+            {
+              "id": "ex1",
+              "type": "mcq",
+              "question": "Which is a sentence fragment?",
+              "question_zh": "哪个是句子片段？",
+              "choices": [
+                "Because it was late.",
+                "It was late.",
+                "I went home because it was late.",
+                "It was late, so I went home."
+              ],
+              "choices_zh": [
+                "因为很晚了。",
+                "很晚了。",
+                "我回家因为很晚了。",
+                "很晚了，所以我回家了。"
+              ],
+              "answer": 0,
+              "explanation": "Missing main clause after 'Because'.",
+              "explanation_zh": "'Because'后面缺少主句。"
+            },
+            {
+              "id": "ex2",
+              "type": "mcq",
+              "question": "Which fixes this run-on? 'I like pizza my brother likes pasta'",
+              "question_zh": "哪个修正了这个连写句？'我喜欢披萨我哥哥喜欢意大利面'",
+              "choices": [
+                "I like pizza my brother likes pasta.",
+                "I like pizza, my brother likes pasta.",
+                "I like pizza, but my brother likes pasta.",
+                "I like pizza my brother, likes pasta."
+              ],
+              "choices_zh": [
+                "我喜欢披萨我哥哥喜欢意大利面。",
+                "我喜欢披萨，我哥哥喜欢意大利面。",
+                "我喜欢披萨，但我哥哥喜欢意大利面。",
+                "我喜欢披萨我哥哥，喜欢意大利面。"
+              ],
+              "answer": 2,
+              "explanation": "Use comma + coordinating conjunction.",
+              "explanation_zh": "使用逗号+并列连词。"
+            },
+            {
+              "id": "ex3",
+              "type": "short",
+              "question": "Fix: 'Walking to school.'",
+              "question_zh": "修正：'走到学校。'",
+              "answer": "I was walking to school.",
+              "validator": "exact",
+              "explanation": "Add subject and helping verb.",
+              "explanation_zh": "添加主语和助动词。"
+            },
+            {
+              "id": "ex4",
+              "type": "mcq",
+              "question": "What's wrong? 'I studied hard, I passed the exam.'",
+              "question_zh": "有什么问题？'我努力学习，我通过了考试。'",
+              "choices": [
+                "Sentence fragment",
+                "Comma splice",
+                "Nothing wrong",
+                "Wrong verb tense"
+              ],
+              "choices_zh": [
+                "句子片段",
+                "逗号错误",
+                "没有问题",
+                "动词时态错误"
+              ],
+              "answer": 1,
+              "explanation": "Two sentences joined only with comma.",
+              "explanation_zh": "两个句子只用逗号连接。"
+            },
+            {
+              "id": "ex5",
+              "type": "mcq",
+              "question": "Best sentence variety?",
+              "question_zh": "最好的句子多样性？",
+              "choices": [
+                "All short sentences",
+                "All long sentences",
+                "Mix of short and long",
+                "Only compound sentences"
+              ],
+              "choices_zh": [
+                "全部短句",
+                "全部长句",
+                "短句和长句混合",
+                "只有并列句"
+              ],
+              "answer": 2,
+              "explanation": "Variety makes writing more interesting.",
+              "explanation_zh": "多样性使写作更有趣。"
+            }
+          ]
+        },
+        {
+          "id": "narrative-writing",
+          "title": "Narrative Writing",
+          "title_zh": "叙事写作",
+          "description": "Master storytelling techniques and narrative structure",
+          "description_zh": "掌握讲故事技巧和叙事结构",
+          "objectives": [
+            "Understand story structure",
+            "Use descriptive language",
+            "Apply 'show don't tell'"
+          ],
+          "objectives_zh": [
+            "理解故事结构",
+            "使用描述性语言",
+            "应用'展示而非叙述'"
+          ],
+          "sections": [
+            {
+              "id": "story-structure",
+              "type": "text",
+              "title": "Story Structure",
+              "title_zh": "故事结构",
+              "content": "**Five-Part Story Structure:**\n\n**1. Exposition** - Introduction\n- Introduce characters, setting, situation\n- Example: 'It was a hot afternoon in Singapore. Ahmad waited nervously at the bus stop.'\n\n**2. Rising Action** - Build tension\n- Events leading to climax\n- Complications arise\n- Example: 'He realized he had forgotten his wallet.'\n\n**3. Climax** - Turning point\n- Most exciting/intense moment\n- Main conflict confronted\n- Example: 'The bus arrived. Ahmad had to decide.'\n\n**4. Falling Action** - After climax\n- Consequences unfold\n- Example: 'He explained his situation to the bus driver.'\n\n**5. Resolution** - Ending\n- Conflict resolved\n- Example: 'The kind driver let him board and Ahmad promised to pay tomorrow.'",
+              "content_zh": "**五部分故事结构：**\n\n**1. 开端** - 介绍\n- 介绍人物、环境、情况\n- 例子：'新加坡的一个炎热下午。Ahmad在公交站紧张地等待。'\n\n**2. 上升动作** - 建立紧张感\n- 导致高潮的事件\n- 出现复杂情况\n- 例子：'他意识到他忘记了钱包。'\n\n**3. 高潮** - 转折点\n- 最激动人心/紧张的时刻\n- 主要冲突面对\n- 例子：'公交车到了。Ahmad必须决定。'\n\n**4. 下降动作** - 高潮之后\n- 后果展开\n- 例子：'他向司机解释了他的情况。'\n\n**5. 结局** - 结束\n- 冲突解决\n- 例子：'善良的司机让他上车，Ahmad承诺明天付款。'"
+            },
+            {
+              "id": "descriptive-language",
+              "type": "text",
+              "title": "Descriptive Language",
+              "title_zh": "描述性语言",
+              "content": "**Use the Five Senses:**\n\n**Sight:** colors, shapes, sizes\n- The golden sunset painted the sky orange.\n\n**Sound:** loud, soft, musical, harsh\n- The hawker center buzzed with chatter.\n\n**Smell:** fragrant, pungent, fresh\n- The aroma of chicken rice filled the air.\n\n**Touch:** smooth, rough, hot, cold\n- The humid air clung to my skin.\n\n**Taste:** sweet, sour, bitter, salty\n- The tangy lime juice made me pucker.\n\n**Strong Verbs:**\n- Weak: walked slowly → Strong: trudged\n- Weak: looked quickly → Strong: glanced\n- Weak: said loudly → Strong: shouted\n\n**Specific Nouns:**\n- General: flower → Specific: orchid\n- General: building → Specific: HDB flat\n- General: food → Specific: laksa",
+              "content_zh": "**使用五感：**\n\n**视觉：**颜色、形状、大小\n- 金色的日落将天空涂成橙色。\n\n**听觉：**大声、柔和、悦耳、刺耳\n- 小贩中心充满了喋喋不休的声音。\n\n**嗅觉：**芬芳、刺鼻、新鲜\n- 鸡饭的香味充满了空气。\n\n**触觉：**光滑、粗糙、热、冷\n- 潮湿的空气粘在我的皮肤上。\n\n**味觉：**甜、酸、苦、咸\n- 酸的青柠汁让我皱眉。\n\n**强动词：**\n- 弱：慢慢走 → 强：跋涉\n- 弱：快速看 → 强：瞥见\n- 弱：大声说 → 强：喊叫\n\n**具体名词：**\n- 一般：花 → 具体：兰花\n- 一般：建筑 → 具体：组屋\n- 一般：食物 → 具体：叻沙"
+            },
+            {
+              "id": "show-dont-tell",
+              "type": "text",
+              "title": "Show, Don't Tell",
+              "title_zh": "展示，而非叙述",
+              "content": "**Show** readers what's happening through actions, dialogue, and details.\n\n**Telling vs Showing:**\n\n**Tell:** She was nervous.\n**Show:** Her hands trembled as she clutched her exam paper.\n\n**Tell:** He was angry.\n**Show:** His face turned red, and he clenched his fists.\n\n**Tell:** The hawker center was busy.\n**Show:** People jostled for tables while vendors shouted orders over the sizzle of woks.\n\n**Tell:** It was hot.\n**Show:** Sweat dripped down my back as I fanned myself with a newspaper.\n\n**Techniques:**\n1. Use action verbs\n2. Include sensory details\n3. Add dialogue\n4. Describe body language\n5. Show reactions\n\n**Singapore Example:**\n**Tell:** The MRT was crowded.\n**Show:** Bodies pressed together as the doors struggled to close, and the automated voice warned, 'Please move to the center of the train.'",
+              "content_zh": "通过动作、对话和细节向读者**展示**正在发生的事情。\n\n**叙述与展示：**\n\n**叙述：**她很紧张。\n**展示：**她紧握试卷时手在颤抖。\n\n**叙述：**他很生气。\n**展示：**他的脸变红了，他握紧了拳头。\n\n**叙述：**小贩中心很忙。\n**展示：**人们争夺桌子，小贩在炒锅的嘶嘶声中喊订单。\n\n**叙述：**天气很热。\n**展示：**汗水顺着我的背流下，我用报纸扇着自己。\n\n**技巧：**\n1. 使用动作动词\n2. 包括感官细节\n3. 添加对话\n4. 描述肢体语言\n5. 展示反应\n\n**新加坡例子：**\n**叙述：**地铁很拥挤。\n**展示：**身体挤在一起，门难以关闭，自动语音警告'请移动到列车中央。'"
+            }
+          ],
+          "exercises": [
+            {
+              "id": "ex1",
+              "type": "mcq",
+              "question": "What is the climax?",
+              "question_zh": "什么是高潮？",
+              "choices": [
+                "Introduction",
+                "Turning point",
+                "Ending",
+                "Beginning conflict"
+              ],
+              "choices_zh": [
+                "介绍",
+                "转折点",
+                "结局",
+                "开始冲突"
+              ],
+              "answer": 1,
+              "explanation": "Climax is the most intense moment.",
+              "explanation_zh": "高潮是最紧张的时刻。"
+            },
+            {
+              "id": "ex2",
+              "type": "mcq",
+              "question": "Which shows, not tells? 'He was tired.'",
+              "question_zh": "哪个展示而非叙述？'他很累。'",
+              "choices": [
+                "He was very tired.",
+                "He felt tired.",
+                "His eyes drooped and he yawned.",
+                "He said he was tired."
+              ],
+              "choices_zh": [
+                "他非常累。",
+                "他感到累。",
+                "他的眼睛下垂，他打哈欠。",
+                "他说他很累。"
+              ],
+              "answer": 2,
+              "explanation": "Shows tiredness through actions.",
+              "explanation_zh": "通过动作展示疲倦。"
+            },
+            {
+              "id": "ex3",
+              "type": "mcq",
+              "question": "Best descriptive language?",
+              "question_zh": "最好的描述性语言？",
+              "choices": [
+                "The food was good.",
+                "The food tasted nice.",
+                "The spicy laksa warmed my throat.",
+                "I liked the food."
+              ],
+              "choices_zh": [
+                "食物很好。",
+                "食物很好吃。",
+                "辣的叻沙温暖了我的喉咙。",
+                "我喜欢食物。"
+              ],
+              "answer": 2,
+              "explanation": "Uses specific details and sensory language.",
+              "explanation_zh": "使用具体细节和感官语言。"
+            },
+            {
+              "id": "ex4",
+              "type": "mcq",
+              "question": "What comes after rising action?",
+              "question_zh": "上升动作之后是什么？",
+              "choices": [
+                "Exposition",
+                "Climax",
+                "Resolution",
+                "Characters"
+              ],
+              "choices_zh": [
+                "开端",
+                "高潮",
+                "结局",
+                "人物"
+              ],
+              "answer": 1,
+              "explanation": "Climax follows rising action.",
+              "explanation_zh": "高潮跟随上升动作。"
+            },
+            {
+              "id": "ex5",
+              "type": "short",
+              "question": "Rewrite showing: 'She was happy.'",
+              "question_zh": "重写展示：'她很高兴。'",
+              "answer": "She smiled brightly and jumped with joy.",
+              "validator": "exact",
+              "explanation": "Show happiness through actions.",
+              "explanation_zh": "通过动作展示快乐。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chinese",
+      "title": "Chinese Language (华文)",
+      "title_zh": "华文",
+      "description": "Master Chinese grammar, vocabulary, idioms, and composition skills",
+      "description_zh": "掌握中文语法、词汇、成语和作文技能",
+      "color": "from-red-500 to-orange-500",
+      "chapters": [
+        {
+          "id": "chinese-grammar-fundamentals",
+          "title": "Grammar Fundamentals (语法基础)",
+          "title_zh": "语法基础",
+          "description": "Master fundamental Chinese grammar including sentence structure, measure words, and word order",
+          "description_zh": "掌握中文语法基础，包括句子结构、量词和词序",
+          "objectives": [
+            "Understand Subject-Verb-Object (主谓宾) sentence structure",
+            "Master the use of measure words (量词)",
+            "Apply correct word order in Chinese sentences",
+            "Recognize and use common sentence patterns"
+          ],
+          "objectives_zh": [
+            "理解主谓宾句子结构",
+            "掌握量词的使用",
+            "应用中文句子中的正确词序",
+            "识别和使用常见句型"
+          ],
+          "sections": [
+            {
+              "id": "sentence-structure",
+              "type": "text",
+              "title": "Sentence Structure (主谓宾)",
+              "title_zh": "句子结构（主谓宾）",
+              "content": "**Basic Chinese Sentence Pattern: Subject (主语) + Verb (谓语) + Object (宾语)**\n\nThe most basic sentence structure in Chinese follows the Subject-Verb-Object pattern.\n\n**Examples:**\n- 我 (I) + 吃 (eat) + 饭 (rice) = 我吃饭。\n- 他 (he) + 看 (read) + 书 (book) = 他看书。\n- 我们 (we) + 学 (study) + 中文 (Chinese) = 我们学中文。\n\n**With Time Expression:**\nTime words usually come after the subject or at the beginning.\n\n- 我**今天**吃饭。(I eat today.)\n- **今天**我吃饭。(Today I eat.)\n\n**With Place Expression:**\nPlace words come before the verb.\n\n- 我**在学校**学中文。(I study Chinese at school.)\n- 他**在图书馆**看书。(He reads books in the library.)\n\n**Singapore Context:**\n- 我在新加坡学习。(I study in Singapore.)\n- 我们在小贩中心吃饭。(We eat at the hawker centre.)",
+              "content_zh": "**基本中文句型：主语 + 谓语 + 宾语**\n\n中文最基本的句子结构遵循主谓宾模式。\n\n**例子：**\n- 我（主语）+ 吃（谓语）+ 饭（宾语）= 我吃饭。\n- 他（主语）+ 看（谓语）+ 书（宾语）= 他看书。\n- 我们（主语）+ 学（谓语）+ 中文（宾语）= 我们学中文。\n\n**带时间状语：**\n时间词通常放在主语后或句首。\n\n- 我**今天**吃饭。\n- **今天**我吃饭。\n\n**带地点状语：**\n地点词放在动词前。\n\n- 我**在学校**学中文。\n- 他**在图书馆**看书。\n\n**新加坡语境：**\n- 我在新加坡学习。\n- 我们在小贩中心吃饭。"
+            },
+            {
+              "id": "measure-words",
+              "type": "text",
+              "title": "Measure Words (量词)",
+              "title_zh": "量词",
+              "content": "**What are Measure Words?**\nIn Chinese, you cannot say \"one book\" directly. You must use a measure word between the number and the noun: \"一**本**书\" (one **[measure word]** book).\n\n**Common Measure Words:**\n\n**个 (gè)** - General measure word\n- 一个人 (one person)\n- 两个苹果 (two apples)\n- 三个问题 (three questions)\n\n**本 (běn)** - Books, notebooks\n- 一本书 (one book)\n- 两本杂志 (two magazines)\n\n**张 (zhāng)** - Flat objects (paper, tables, beds)\n- 一张纸 (one piece of paper)\n- 三张桌子 (three tables)\n- 一张床 (one bed)\n\n**件 (jiàn)** - Clothing, matters\n- 一件衣服 (one piece of clothing)\n- 两件事 (two matters)\n\n**支 (zhī)** - Long thin objects (pens, pencils)\n- 一支笔 (one pen)\n- 两支铅笔 (two pencils)\n\n**条 (tiáo)** - Long flexible objects (roads, rivers, fish)\n- 一条路 (one road)\n- 一条河 (one river)\n- 一条鱼 (one fish)\n\n**只 (zhī)** - Animals, one of a pair\n- 一只猫 (one cat)\n- 两只鸟 (two birds)\n- 一只手 (one hand)\n\n**Singapore Examples:**\n- 一**碗**叻沙 (one bowl of laksa)\n- 两**杯**咖啡 (two cups of coffee)\n- 三**张**组屋 (three HDB flats) - Note: In Singapore, we often say 三**个**组屋",
+              "content_zh": "**什么是量词？**\n在中文中，你不能直接说\"一书\"。你必须在数字和名词之间使用量词：\"一**本**书\"。\n\n**常用量词：**\n\n**个（gè）** - 通用量词\n- 一个人\n- 两个苹果\n- 三个问题\n\n**本（běn）** - 书、笔记本\n- 一本书\n- 两本杂志\n\n**张（zhāng）** - 扁平物体（纸、桌子、床）\n- 一张纸\n- 三张桌子\n- 一张床\n\n**件（jiàn）** - 衣服、事情\n- 一件衣服\n- 两件事\n\n**支（zhī）** - 细长物体（笔）\n- 一支笔\n- 两支铅笔\n\n**条（tiáo）** - 细长柔软物体（路、河、鱼）\n- 一条路\n- 一条河\n- 一条鱼\n\n**只（zhī）** - 动物、成对物体之一\n- 一只猫\n- 两只鸟\n- 一只手\n\n**新加坡例子：**\n- 一**碗**叻沙\n- 两**杯**咖啡\n- 三**个**组屋"
+            },
+            {
+              "id": "word-order",
+              "type": "text",
+              "title": "Word Order Rules",
+              "title_zh": "词序规则",
+              "content": "**Standard Word Order in Chinese:**\n\n**1. Time + Subject + Place + Manner + Verb + Object**\n\n- (今天) + 我 + (在学校) + (认真地) + 学习 + 中文\n- (Today) + I + (at school) + (seriously) + study + Chinese\n\n**2. Time Position:**\n- ✅ 我**昨天**去了图书馆。(I went to the library yesterday.)\n- ✅ **昨天**我去了图书馆。(Yesterday I went to the library.)\n- ❌ 我去了图书馆**昨天**。(WRONG in Chinese!)\n\n**3. Place Before Verb:**\n- ✅ 我**在家**吃饭。(I eat at home.)\n- ❌ 我吃饭**在家**。(WRONG!)\n\n**4. Manner Before Verb:**\n- ✅ 他**慢慢地**走。(He walks slowly.)\n- ❌ 他走**慢慢地**。(WRONG!)\n\n**5. Duration After Verb:**\n- ✅ 我学了**两年**中文。(I studied Chinese for two years.)\n- ❌ 我学中文**两年**了。(Less common)\n\n**Question Words Stay in Place:**\nUnlike English, question words don't move to the front.\n\n- English: **What** do you eat? (What moves to front)\n- Chinese: 你吃**什么**？(What stays in object position)\n\n**Singapore Context:**\n- 我**每天**在新加坡**坐地铁**。(I take the MRT in Singapore every day.)\n- 我们**通常**在小贩中心**吃午饭**。(We usually eat lunch at hawker centres.)",
+              "content_zh": "**中文标准词序：**\n\n**1. 时间 + 主语 + 地点 + 方式 + 动词 + 宾语**\n\n- （今天）+ 我 + （在学校）+ （认真地）+ 学习 + 中文\n\n**2. 时间位置：**\n- ✅ 我**昨天**去了图书馆。\n- ✅ **昨天**我去了图书馆。\n- ❌ 我去了图书馆**昨天**。（错误！）\n\n**3. 地点在动词前：**\n- ✅ 我**在家**吃饭。\n- ❌ 我吃饭**在家**。（错误！）\n\n**4. 方式在动词前：**\n- ✅ 他**慢慢地**走。\n- ❌ 他走**慢慢地**。（错误！）\n\n**5. 时量在动词后：**\n- ✅ 我学了**两年**中文。\n- ❌ 我学中文**两年**了。（较少用）\n\n**疑问词保持原位：**\n与英语不同，疑问词不移到句首。\n\n- 英语：**What** do you eat?（What移到前面）\n- 中文：你吃**什么**？（什么保持在宾语位置）\n\n**新加坡语境：**\n- 我**每天**在新加坡**坐地铁**。\n- 我们**通常**在小贩中心**吃午饭**。"
+            }
+          ],
+          "exercises": [
+            {
+              "id": "ex1",
+              "type": "drag-order",
+              "question": "Arrange these words in correct order: 我 / 在学校 / 学习 / 认真地 / 中文",
+              "question_zh": "将这些词排列成正确的顺序：我 / 在学校 / 学习 / 认真地 / 中文",
+              "items": [
+                "我",
+                "在学校",
+                "认真地",
+                "学习",
+                "中文"
+              ],
+              "correctOrder": [
+                "我",
+                "在学校",
+                "认真地",
+                "学习",
+                "中文"
+              ],
+              "explanation": "Correct order: Subject + Place + Manner + Verb + Object",
+              "explanation_zh": "正确顺序：主语 + 地点 + 方式 + 动词 + 宾语"
+            },
+            {
+              "id": "ex2",
+              "type": "mcq",
+              "question": "Choose the correct measure word: 一___书",
+              "question_zh": "选择正确的量词：一___书",
+              "choices": [
+                "个",
+                "本",
+                "张",
+                "支"
+              ],
+              "choices_zh": [
+                "个",
+                "本",
+                "张",
+                "支"
+              ],
+              "answer": 1,
+              "explanation": "Books use the measure word '本' (běn)",
+              "explanation_zh": "书用量词'本'"
+            },
+            {
+              "id": "ex3",
+              "type": "mcq",
+              "question": "Which sentence has correct word order?",
+              "question_zh": "哪个句子的词序正确？",
+              "choices": [
+                "我去了图书馆昨天。",
+                "昨天我去了图书馆。",
+                "我昨天了去图书馆。",
+                "图书馆我去了昨天。"
+              ],
+              "choices_zh": [
+                "我去了图书馆昨天。",
+                "昨天我去了图书馆。",
+                "我昨天了去图书馆。",
+                "图书馆我去了昨天。"
+              ],
+              "answer": 1,
+              "explanation": "Time expressions can come at the beginning or after the subject, but not at the end.",
+              "explanation_zh": "时间状语可以放在句首或主语后，但不能放在句尾。"
+            },
+            {
+              "id": "ex4",
+              "type": "mcq",
+              "question": "Choose the correct sentence:",
+              "question_zh": "选择正确的句子：",
+              "choices": [
+                "我吃饭在家。",
+                "我在家吃饭。",
+                "在家我吃饭。",
+                "吃饭我在家。"
+              ],
+              "choices_zh": [
+                "我吃饭在家。",
+                "我在家吃饭。",
+                "在家我吃饭。",
+                "吃饭我在家。"
+              ],
+              "answer": 1,
+              "explanation": "Place expressions come before the verb: 我在家吃饭",
+              "explanation_zh": "地点状语放在动词前：我在家吃饭"
+            },
+            {
+              "id": "ex5",
+              "type": "short",
+              "question": "Fill in the correct measure word: 三___猫",
+              "question_zh": "填入正确的量词：三___猫",
+              "answer": "只",
+              "validator": "exact",
+              "explanation": "Animals use the measure word '只' (zhī)",
+              "explanation_zh": "动物用量词'只'"
+            }
+          ]
+        },
+        {
+          "id": "chinese-vocabulary-building",
+          "title": "Vocabulary Building (词汇积累)",
+          "title_zh": "词汇积累",
+          "description": "Build your Chinese vocabulary through word combinations, radicals, and character analysis",
+          "description_zh": "通过词语搭配、部首和字形分析来积累中文词汇",
+          "objectives": [
+            "Master common word combinations (词语搭配)",
+            "Understand radicals and their meanings (部首)",
+            "Analyze character components to remember words",
+            "Expand vocabulary in context"
+          ],
+          "objectives_zh": [
+            "掌握常见词语搭配",
+            "理解部首及其含义",
+            "分析字形组成以记忆词语",
+            "在语境中扩展词汇"
+          ],
+          "sections": [
+            {
+              "id": "word-combinations",
+              "type": "text",
+              "title": "Word Combinations (词语搭配)",
+              "title_zh": "词语搭配",
+              "content": "**What is Word Combination?**\nIn Chinese, certain words naturally go together. Learning these combinations helps you speak and write more naturally.\n\n**Verb + Noun Combinations:**\n\n**做 (do)**\n- 做作业 (do homework)\n- 做饭 (cook)\n- 做运动 (do sports)\n- 做决定 (make a decision)\n\n**打 (hit/play)**\n- 打球 (play ball)\n- 打电话 (make a phone call)\n- 打工 (work part-time)\n- 打扫 (clean)\n\n**上 (go to/attend)**\n- 上学 (go to school)\n- 上课 (attend class)\n- 上网 (go online)\n- 上班 (go to work)\n\n**Adjective + Noun Combinations:**\n\n**重要的 (important)**\n- 重要的事情 (important matter)\n- 重要的人物 (important person)\n- 重要的决定 (important decision)\n\n**美丽的 (beautiful)**\n- 美丽的风景 (beautiful scenery)\n- 美丽的花朵 (beautiful flowers)\n\n**Singapore Context:**\n- 坐地铁 (take the MRT)\n- 吃辣椒螃蟹 (eat chilli crab)\n- 去牛车水 (go to Chinatown)",
+              "content_zh": "**什么是词语搭配？**\n在中文中，某些词语自然地搭配在一起。学习这些搭配有助于你更自然地说和写。\n\n**动词 + 名词搭配：**\n\n**做**\n- 做作业\n- 做饭\n- 做运动\n- 做决定\n\n**打**\n- 打球\n- 打电话\n- 打工\n- 打扫\n\n**上**\n- 上学\n- 上课\n- 上网\n- 上班\n\n**形容词 + 名词搭配：**\n\n**重要的**\n- 重要的事情\n- 重要的人物\n- 重要的决定\n\n**美丽的**\n- 美丽的风景\n- 美丽的花朵\n\n**新加坡语境：**\n- 坐地铁\n- 吃辣椒螃蟹\n- 去牛车水"
+            },
+            {
+              "id": "radicals",
+              "type": "text",
+              "title": "Radicals (部首)",
+              "title_zh": "部首",
+              "content": "**What are Radicals?**\nRadicals are components of Chinese characters that often indicate meaning or pronunciation. Understanding radicals helps you guess the meaning of unfamiliar characters and remember characters better.\n\n**Common Radicals and Their Meanings:**\n\n**氵(水) - Water radical**\n- 河 (river)\n- 海 (sea)\n- 湖 (lake)\n- 汗 (sweat)\n- 游 (swim)\n\n**讠(言) - Speech radical**\n- 说 (speak)\n- 话 (words)\n- 语 (language)\n- 谢 (thank)\n- 请 (please/invite)\n\n**亻(人) - Person radical**\n- 你 (you)\n- 他 (he)\n- 们 (plural marker)\n- 休 (rest)\n- 体 (body)\n\n**木 - Wood/tree radical**\n- 树 (tree)\n- 林 (forest)\n- 桌 (table)\n- 椅 (chair)\n- 果 (fruit)\n\n**心/忄- Heart radical (emotions)**\n- 想 (think)\n- 念 (miss/think of)\n- 忙 (busy)\n- 快 (quick/happy)\n- 怕 (afraid)\n\n**手/扌- Hand radical (actions)**\n- 打 (hit)\n- 拿 (take)\n- 把 (hold)\n- 推 (push)\n- 拉 (pull)\n\n**口 - Mouth radical**\n- 吃 (eat)\n- 喝 (drink)\n- 唱 (sing)\n- 叫 (call)\n- 吗 (question particle)\n\n**Using Radicals to Remember:**\n- 游 (swim) = 氵(water) + 方向 → Swimming in water\n- 说 (speak) = 讠(speech) + 兑 → Using speech to speak\n- 想 (think) = 相 (mutual) + 心 (heart) → Thinking with your heart",
+              "content_zh": "**什么是部首？**\n部首是汉字的组成部分，通常表示意义或读音。理解部首有助于你猜测生字的意思，更好地记住汉字。\n\n**常见部首及其含义：**\n\n**氵（水）- 水部**\n- 河\n- 海\n- 湖\n- 汗\n- 游\n\n**讠（言）- 言字旁**\n- 说\n- 话\n- 语\n- 谢\n- 请\n\n**亻（人）- 单人旁**\n- 你\n- 他\n- 们\n- 休\n- 体\n\n**木 - 木字旁**\n- 树\n- 林\n- 桌\n- 椅\n- 果\n\n**心/忄- 心字底/竖心旁（情感）**\n- 想\n- 念\n- 忙\n- 快\n- 怕\n\n**手/扌- 提手旁（动作）**\n- 打\n- 拿\n- 把\n- 推\n- 拉\n\n**口 - 口字旁**\n- 吃\n- 喝\n- 唱\n- 叫\n- 吗\n\n**用部首记忆：**\n- 游 = 氵（水）+ 方向 → 在水中游\n- 说 = 讠（言）+ 兑 → 用言语说\n- 想 = 相 + 心 → 用心想"
+            }
+          ],
+          "exercises": [
+            {
+              "id": "ex1",
+              "type": "match",
+              "question": "Match the words with their correct combinations:",
+              "question_zh": "将词语与其正确的搭配连线：",
+              "pairs": [
+                {
+                  "left": "做",
+                  "right": "作业",
+                  "left_zh": "做",
+                  "right_zh": "作业"
+                },
+                {
+                  "left": "打",
+                  "right": "电话",
+                  "left_zh": "打",
+                  "right_zh": "电话"
+                },
+                {
+                  "left": "上",
+                  "right": "学",
+                  "left_zh": "上",
+                  "right_zh": "学"
+                }
+              ],
+              "explanation": "做作业 (do homework), 打电话 (make a phone call), 上学 (go to school)",
+              "explanation_zh": "做作业、打电话、上学是常见的动词搭配"
+            },
+            {
+              "id": "ex2",
+              "type": "mcq",
+              "question": "Which radical indicates 'water'?",
+              "question_zh": "哪个部首表示'水'？",
+              "choices": [
+                "氵",
+                "讠",
+                "亻",
+                "木"
+              ],
+              "choices_zh": [
+                "氵",
+                "讠",
+                "亻",
+                "木"
+              ],
+              "answer": 0,
+              "explanation": "氵is the water radical, found in characters like 河 (river) and 海 (sea)",
+              "explanation_zh": "氵是水部，出现在河、海等字中"
+            },
+            {
+              "id": "ex3",
+              "type": "mcq",
+              "question": "What does the radical 讠(言) typically indicate?",
+              "question_zh": "部首讠（言）通常表示什么？",
+              "choices": [
+                "Water-related meanings",
+                "Speech or language-related meanings",
+                "Tree or wood-related meanings",
+                "Emotion-related meanings"
+              ],
+              "choices_zh": [
+                "与水有关的意思",
+                "与言语或语言有关的意思",
+                "与树木有关的意思",
+                "与情感有关的意思"
+              ],
+              "answer": 1,
+              "explanation": "讠(言) indicates speech or language, as in 说 (speak) and 语 (language)",
+              "explanation_zh": "讠（言）表示言语或语言，如说、语等字"
+            },
+            {
+              "id": "ex4",
+              "type": "short",
+              "question": "What radical would you find in characters related to emotions?",
+              "question_zh": "在与情感有关的字中，你会找到什么部首？",
+              "answer": "心",
+              "validator": "exact",
+              "explanation": "心 (heart) radical appears in emotion-related characters like 想 (think) and 怕 (afraid)",
+              "explanation_zh": "心（心）部首出现在情感相关的字中，如想、怕"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "math",
       "title": "Mathematics",
       "title_zh": "数学",
@@ -1314,301 +2155,29 @@
           ],
           "exercises": [
             {
-              "id": "ex1",
+              "id": "q1",
               "type": "mcq",
-              "difficulty": "easy",
+              "prompt": "What is (-7) + 12?",
+              "prompt_zh": "(-7) + 12 等于多少？",
               "choices": [
-                "-8",
-                "-2",
-                "2",
-                "8"
-              ],
-              "choices_zh": [
-                "-8",
-                "-2",
-                "2",
-                "8"
+                "-19",
+                "5",
+                "-5",
+                "19"
               ],
               "answer": 1,
-              "explanation": "-5 + 3 = -2 (adding positive number makes it less negative)",
-              "explanation_zh": "-5 + 3 = -2（加正数使负数变小）",
-              "prompt": "What is -5 + 3?",
-              "prompt_zh": "-5 + 3 等于多少？"
+              "hint": "Add 12 to -7. Think of moving right 12 spaces on the number line from -7.",
+              "hint_zh": "将12加到-7。想象在数轴上从-7向右移动12个位置。"
             },
             {
-              "id": "ex2",
-              "type": "mcq",
-              "difficulty": "easy",
-              "choices": [
-                "3",
-                "-3",
-                "11",
-                "-11"
-              ],
-              "choices_zh": [
-                "3",
-                "-3",
-                "11",
-                "-11"
-              ],
-              "answer": 1,
-              "explanation": "4 - 7 = -3 (result is negative when subtracting larger from smaller)",
-              "explanation_zh": "4 - 7 = -3（小数减大数结果为负）",
-              "prompt": "What is 4 - 7?",
-              "prompt_zh": "4 - 7 等于多少？"
-            },
-            {
-              "id": "ex3",
-              "type": "mcq",
-              "difficulty": "easy",
-              "choices": [
-                "12",
-                "-12",
-                "8",
-                "-8"
-              ],
-              "choices_zh": [
-                "12",
-                "-12",
-                "8",
-                "-8"
-              ],
-              "answer": 1,
-              "explanation": "-2 × 6 = -12 (negative × positive = negative)",
-              "explanation_zh": "-2 × 6 = -12（负数 × 正数 = 负数）",
-              "prompt": "What is -2 × 6?",
-              "prompt_zh": "-2 × 6 等于多少？"
-            },
-            {
-              "id": "ex4",
-              "type": "mcq",
-              "difficulty": "easy",
-              "choices": [
-                "4",
-                "-4",
-                "9",
-                "-9"
-              ],
-              "choices_zh": [
-                "4",
-                "-4",
-                "9",
-                "-9"
-              ],
-              "answer": 1,
-              "explanation": "-12 ÷ 3 = -4 (negative ÷ positive = negative)",
-              "explanation_zh": "-12 ÷ 3 = -4（负数 ÷ 正数 = 负数）",
-              "prompt": "What is -12 ÷ 3?",
-              "prompt_zh": "-12 ÷ 3 等于多少？"
-            },
-            {
-              "id": "ex5",
-              "type": "mcq",
-              "difficulty": "medium",
-              "choices": [
-                "-6",
-                "-10",
-                "10",
-                "0"
-              ],
-              "choices_zh": [
-                "-6",
-                "-10",
-                "10",
-                "0"
-              ],
-              "answer": 0,
-              "explanation": "-3 + 5 - 8 = 2 - 8 = -6",
-              "explanation_zh": "-3 + 5 - 8 = 2 - 8 = -6",
-              "prompt": "What is -3 + 5 - 8?",
-              "prompt_zh": "-3 + 5 - 8 等于多少？"
-            },
-            {
-              "id": "ex6",
-              "type": "mcq",
-              "difficulty": "medium",
-              "choices": [
-                "-12",
-                "12",
-                "-7",
-                "7"
-              ],
-              "choices_zh": [
-                "-12",
-                "12",
-                "-7",
-                "7"
-              ],
-              "answer": 1,
-              "explanation": "(-3) × (-4) = 12 (negative × negative = positive)",
-              "explanation_zh": "(-3) × (-4) = 12（负数 × 负数 = 正数）",
-              "prompt": "What is (-3) × (-4)?",
-              "prompt_zh": "(-3) × (-4) 等于多少？"
-            },
-            {
-              "id": "ex7",
-              "type": "mcq",
-              "difficulty": "medium",
-              "choices": [
-                "4",
-                "-4",
-                "25",
-                "-25"
-              ],
-              "choices_zh": [
-                "4",
-                "-4",
-                "25",
-                "-25"
-              ],
-              "answer": 0,
-              "explanation": "-20 ÷ (-5) = 4 (negative ÷ negative = positive)",
-              "explanation_zh": "-20 ÷ (-5) = 4（负数 ÷ 负数 = 正数）",
-              "prompt": "What is -20 ÷ (-5)?",
-              "prompt_zh": "-20 ÷ (-5) 等于多少？"
-            },
-            {
-              "id": "ex8",
-              "type": "mcq",
-              "difficulty": "medium",
-              "choices": [
-                "3/4",
-                "7/5",
-                "15/20",
-                "75/100"
-              ],
-              "choices_zh": [
-                "3/4",
-                "7/5",
-                "15/20",
-                "75/100"
-              ],
-              "answer": 0,
-              "explanation": "0.75 = 75/100 = 3/4 (divide by 25)",
-              "explanation_zh": "0.75 = 75/100 = 3/4（除以25）",
-              "prompt": "Express 0.75 as a fraction in simplest form.",
-              "prompt_zh": "将 0.75 表示为最简分数。"
-            },
-            {
-              "id": "ex9",
-              "type": "mcq",
-              "difficulty": "medium",
-              "choices": [
-                "-2/3",
-                "-3/4",
-                "They are equal",
-                "Cannot determine"
-              ],
-              "choices_zh": [
-                "-2/3",
-                "-3/4",
-                "相等",
-                "无法确定"
-              ],
-              "answer": 0,
-              "explanation": "-2/3 ≈ -0.667 and -3/4 = -0.75, so -2/3 is greater (closer to 0)",
-              "explanation_zh": "-2/3 ≈ -0.667，-3/4 = -0.75，所以 -2/3 更大（更接近0）",
-              "prompt": "Which is greater: -2/3 or -3/4?",
-              "prompt_zh": "哪个更大：-2/3 还是 -3/4？"
-            },
-            {
-              "id": "ex10",
-              "type": "mcq",
-              "difficulty": "hard",
-              "choices": [
-                "-20",
-                "-8",
-                "4",
-                "20"
-              ],
-              "choices_zh": [
-                "-20",
-                "-8",
-                "4",
-                "20"
-              ],
-              "answer": 0,
-              "explanation": "(-2)³ = -8, then -8 + 3×(-4) = -8 + (-12) = -20",
-              "explanation_zh": "(-2)³ = -8，然后 -8 + 3×(-4) = -8 + (-12) = -20",
-              "prompt": "Calculate: (-2)³ + 3 × (-4)",
-              "prompt_zh": "计算：(-2)³ + 3 × (-4)"
-            },
-            {
-              "id": "ex11",
-              "type": "mcq",
-              "difficulty": "hard",
-              "choices": [
-                "-5/12",
-                "5/12",
-                "-7/12",
-                "7/12"
-              ],
-              "choices_zh": [
-                "-5/12",
-                "5/12",
-                "-7/12",
-                "7/12"
-              ],
-              "answer": 0,
-              "explanation": "LCD=12: 8/12 - 3/12 - 10/12 = -5/12",
-              "explanation_zh": "最小公倍数=12：8/12 - 3/12 - 10/12 = -5/12",
-              "prompt": "Simplify: 2/3 + (-1/4) - 5/6",
-              "prompt_zh": "化简：2/3 + (-1/4) - 5/6"
-            },
-            {
-              "id": "ex12",
-              "type": "mcq",
-              "difficulty": "hard",
-              "choices": [
-                "2°C decrease",
-                "8°C decrease",
-                "2°C increase",
-                "8°C increase"
-              ],
-              "choices_zh": [
-                "降低2°C",
-                "降低8°C",
-                "升高2°C",
-                "升高8°C"
-              ],
-              "answer": 1,
-              "explanation": "Change = -3 - 5 = -8, so 8°C decrease",
-              "explanation_zh": "变化 = -3 - 5 = -8，所以降低8°C",
-              "prompt": "If temperature drops from 5°C to -3°C, what is the change?",
-              "prompt_zh": "如果温度从5°C降至-3°C，变化是多少？"
-            },
-            {
-              "id": "ex13",
+              "id": "q2",
               "type": "short",
-              "difficulty": "hard",
-              "answer": "-4",
-              "validator": "numeric",
-              "explanation": "0 + 8 - 12 = -4 (4 floors below ground, basement level)",
-              "explanation_zh": "0 + 8 - 12 = -4（地下4层）",
-              "prompt": "A lift starts at ground floor (0). It goes up 8 floors, then down 12 floors. What floor is it on?",
-              "prompt_zh": "电梯从底层（0）开始。上升8层，然后下降12层。它在哪一层？"
-            },
-            {
-              "id": "ex14",
-              "type": "mcq",
-              "difficulty": "hard",
-              "choices": [
-                "-30m",
-                "-15m",
-                "-60m",
-                "0m"
-              ],
-              "choices_zh": [
-                "-30米",
-                "-15米",
-                "-60米",
-                "0米"
-              ],
-              "answer": 0,
-              "explanation": "-45 + 30 - 15 = -30m (30m below sea level)",
-              "explanation_zh": "-45 + 30 - 15 = -30米（海平面以下30米）",
-              "prompt": "Singapore context: A submarine is at -45m. It rises 30m then dives 15m. What is its final depth?",
-              "prompt_zh": "新加坡背景：潜艇在-45米。上升30米然后下潜15米。最终深度是多少？"
+              "prompt": "Express 0.75 as a fraction in simplest form.",
+              "prompt_zh": "将0.75表示为最简分数形式。",
+              "answer": "3/4",
+              "validator": "fraction",
+              "hint": "0.75 = 75/100. Simplify by dividing both by 25.",
+              "hint_zh": "0.75 = 75/100。将分子和分母都除以25来简化。"
             }
           ]
         },
@@ -1642,253 +2211,19 @@
           ],
           "exercises": [
             {
-              "id": "ex1",
+              "id": "q1",
               "type": "mcq",
-              "difficulty": "easy",
+              "prompt": "Which of the following is a prime number?",
+              "prompt_zh": "以下哪个是质数？",
               "choices": [
-                "5",
-                "4",
-                "7",
-                "8"
-              ],
-              "choices_zh": [
-                "5",
-                "4",
-                "7",
-                "8"
-              ],
-              "answer": 1,
-              "explanation": "4 × 3 = 12, so 4 is a factor of 12",
-              "explanation_zh": "4 × 3 = 12，所以4是12的因数",
-              "prompt": "Which is a factor of 12?",
-              "prompt_zh": "哪个是12的因数？"
-            },
-            {
-              "id": "ex2",
-              "type": "mcq",
-              "difficulty": "easy",
-              "choices": [
-                "0",
-                "1",
-                "2",
-                "3"
-              ],
-              "choices_zh": [
-                "0",
-                "1",
-                "2",
-                "3"
-              ],
-              "answer": 2,
-              "explanation": "2 is the smallest prime number",
-              "explanation_zh": "2是最小的质数",
-              "prompt": "What is the smallest prime number?",
-              "prompt_zh": "最小的质数是多少？"
-            },
-            {
-              "id": "ex3",
-              "type": "mcq",
-              "difficulty": "easy",
-              "choices": [
-                "Yes",
-                "No"
-              ],
-              "choices_zh": [
-                "是",
-                "否"
-              ],
-              "answer": 0,
-              "explanation": "15 = 3 × 5, so yes",
-              "explanation_zh": "15 = 3 × 5，所以是",
-              "prompt": "Is 15 a multiple of 3?",
-              "prompt_zh": "15是3的倍数吗？"
-            },
-            {
-              "id": "ex4",
-              "type": "mcq",
-              "difficulty": "easy",
-              "choices": [
-                "9",
-                "11",
                 "15",
-                "21"
-              ],
-              "choices_zh": [
-                "9",
-                "11",
-                "15",
-                "21"
-              ],
-              "answer": 1,
-              "explanation": "11 has only 2 factors: 1 and 11",
-              "explanation_zh": "11只有2个因数：1和11",
-              "prompt": "Which number is prime?",
-              "prompt_zh": "哪个数是质数？"
-            },
-            {
-              "id": "ex5",
-              "type": "mcq",
-              "difficulty": "medium",
-              "choices": [
-                "2",
-                "3",
-                "6",
-                "9"
-              ],
-              "choices_zh": [
-                "2",
-                "3",
-                "6",
-                "9"
+                "21",
+                "29",
+                "33"
               ],
               "answer": 2,
-              "explanation": "Factors of 12: 1,2,3,4,6,12. Factors of 18: 1,2,3,6,9,18. HCF = 6",
-              "explanation_zh": "12的因数：1,2,3,4,6,12。18的因数：1,2,3,6,9,18。最大公因数=6",
-              "prompt": "What is the HCF of 12 and 18?",
-              "prompt_zh": "12和18的最大公因数是多少？"
-            },
-            {
-              "id": "ex6",
-              "type": "mcq",
-              "difficulty": "medium",
-              "choices": [
-                "12",
-                "24",
-                "2",
-                "8"
-              ],
-              "choices_zh": [
-                "12",
-                "24",
-                "2",
-                "8"
-              ],
-              "answer": 0,
-              "explanation": "Multiples of 4: 4,8,12,16... Multiples of 6: 6,12,18... LCM = 12",
-              "explanation_zh": "4的倍数：4,8,12,16...。6的倍数：6,12,18...。最小公倍数=12",
-              "prompt": "What is the LCM of 4 and 6?",
-              "prompt_zh": "4和6的最小公倍数是多少？"
-            },
-            {
-              "id": "ex7",
-              "type": "mcq",
-              "difficulty": "medium",
-              "choices": [
-                "2 × 12",
-                "2³ × 3",
-                "4 × 6",
-                "2² × 6"
-              ],
-              "choices_zh": [
-                "2 × 12",
-                "2³ × 3",
-                "4 × 6",
-                "2² × 6"
-              ],
-              "answer": 1,
-              "explanation": "24 = 2 × 2 × 2 × 3 = 2³ × 3",
-              "explanation_zh": "24 = 2 × 2 × 2 × 3 = 2³ × 3",
-              "prompt": "Express 24 as a product of prime factors.",
-              "prompt_zh": "将24表示为质因数的乘积。"
-            },
-            {
-              "id": "ex8",
-              "type": "mcq",
-              "difficulty": "medium",
-              "choices": [
-                "2",
-                "3",
-                "4",
-                "5"
-              ],
-              "choices_zh": [
-                "2",
-                "3",
-                "4",
-                "5"
-              ],
-              "answer": 2,
-              "explanation": "Prime numbers: 11, 13, 17, 19 (4 numbers)",
-              "explanation_zh": "质数：11、13、17、19（4个数）",
-              "prompt": "How many prime numbers are between 10 and 20?",
-              "prompt_zh": "10到20之间有多少个质数？"
-            },
-            {
-              "id": "ex9",
-              "type": "mcq",
-              "difficulty": "hard",
-              "choices": [
-                "12",
-                "24",
-                "8",
-                "16"
-              ],
-              "choices_zh": [
-                "12",
-                "24",
-                "8",
-                "16"
-              ],
-              "answer": 1,
-              "explanation": "48 = 2⁴×3, 72 = 2³×3², 96 = 2⁵×3. HCF = 2³×3 = 24",
-              "explanation_zh": "48 = 2⁴×3，72 = 2³×3²，96 = 2⁵×3。最大公因数 = 2³×3 = 24",
-              "prompt": "What is the HCF of 48, 72, and 96?",
-              "prompt_zh": "48、72和96的最大公因数是多少？"
-            },
-            {
-              "id": "ex10",
-              "type": "mcq",
-              "difficulty": "hard",
-              "choices": [
-                "60",
-                "120",
-                "180",
-                "240"
-              ],
-              "choices_zh": [
-                "60",
-                "120",
-                "180",
-                "240"
-              ],
-              "answer": 0,
-              "explanation": "12 = 2²×3, 15 = 3×5, 20 = 2²×5. LCM = 2²×3×5 = 60",
-              "explanation_zh": "12 = 2²×3，15 = 3×5，20 = 2²×5。最小公倍数 = 2²×3×5 = 60",
-              "prompt": "What is the LCM of 12, 15, and 20?",
-              "prompt_zh": "12、15和20的最小公倍数是多少？"
-            },
-            {
-              "id": "ex11",
-              "type": "short",
-              "difficulty": "hard",
-              "answer": "6:36",
-              "validator": "exact",
-              "explanation": "LCM(12,18) = 36 minutes. 6:00 + 36 min = 6:36am",
-              "explanation_zh": "最小公倍数(12,18) = 36分钟。6:00 + 36分钟 = 6:36",
-              "prompt": "Two buses leave at 6am. Bus A comes every 12 minutes, Bus B every 18 minutes. When do they next leave together?",
-              "prompt_zh": "两辆公交车早上6点出发。A车每12分钟一班，B车每18分钟一班。它们下次同时出发是几点？"
-            },
-            {
-              "id": "ex12",
-              "type": "mcq",
-              "difficulty": "hard",
-              "choices": [
-                "9:12",
-                "9:24",
-                "9:36",
-                "9:48"
-              ],
-              "choices_zh": [
-                "9:12",
-                "9:24",
-                "9:36",
-                "9:48"
-              ],
-              "answer": 1,
-              "explanation": "LCM(6,8) = 24 minutes. 9:00 + 24 min = 9:24am",
-              "explanation_zh": "最小公倍数(6,8) = 24分钟。9:00 + 24分钟 = 9:24",
-              "prompt": "Singapore context: MRT trains on Line A come every 6 min, Line B every 8 min. If both arrive at 9:00am, when do they arrive together again?",
-              "prompt_zh": "新加坡背景：A线地铁每6分钟一班，B线每8分钟一班。如果两者都在9:00到达，下次同时到达是几点？"
+              "hint": "A prime number has exactly 2 factors: 1 and itself.",
+              "hint_zh": "质数只有两个因数：1和它本身。"
             }
           ]
         },
@@ -1922,224 +2257,14 @@
           ],
           "exercises": [
             {
-              "id": "ex1",
-              "type": "mcq",
-              "difficulty": "easy",
-              "choices": [
-                "40",
-                "50",
-                "45",
-                "60"
-              ],
-              "choices_zh": [
-                "40",
-                "50",
-                "45",
-                "60"
-              ],
-              "answer": 1,
-              "explanation": "47 is closer to 50",
-              "explanation_zh": "47更接近50",
-              "prompt": "Round 47 to nearest 10",
-              "prompt_zh": "将47四舍五入到最接近的10"
-            },
-            {
-              "id": "ex2",
-              "type": "mcq",
-              "difficulty": "easy",
-              "choices": [
-                "3.0",
-                "3.1",
-                "3.2",
-                "3"
-              ],
-              "choices_zh": [
-                "3.0",
-                "3.1",
-                "3.2",
-                "3"
-              ],
-              "answer": 1,
-              "explanation": "3.14 → 3.1",
-              "explanation_zh": "3.14 → 3.1",
-              "prompt": "Round 3.14 to 1 d.p.",
-              "prompt_zh": "将3.14四舍五入到1位小数"
-            },
-            {
-              "id": "ex3",
-              "type": "mcq",
-              "difficulty": "easy",
-              "choices": [
-                "100",
-                "500",
-                "1000",
-                "1500"
-              ],
-              "choices_zh": [
-                "100",
-                "500",
-                "1000",
-                "1500"
-              ],
-              "answer": 2,
-              "explanation": "50 × 20 = 1000",
-              "explanation_zh": "50 × 20 = 1000",
-              "prompt": "Estimate: 49 × 21",
-              "prompt_zh": "估算：49 × 21"
-            },
-            {
-              "id": "ex4",
-              "type": "mcq",
-              "difficulty": "medium",
-              "choices": [
-                "400",
-                "450",
-                "500",
-                "460"
-              ],
-              "choices_zh": [
-                "400",
-                "450",
-                "500",
-                "460"
-              ],
-              "answer": 2,
-              "explanation": "1 s.f. = 500",
-              "explanation_zh": "1位有效数字 = 500",
-              "prompt": "Round 456 to 1 s.f.",
-              "prompt_zh": "将456四舍五入到1位有效数字"
-            },
-            {
-              "id": "ex5",
-              "type": "mcq",
-              "difficulty": "medium",
-              "choices": [
-                "400",
-                "500",
-                "600",
-                "700"
-              ],
-              "choices_zh": [
-                "400",
-                "500",
-                "600",
-                "700"
-              ],
-              "answer": 1,
-              "explanation": "200 + 300 = 500",
-              "explanation_zh": "200 + 300 = 500",
-              "prompt": "Estimate: 198 + 304",
-              "prompt_zh": "估算：198 + 304"
-            },
-            {
-              "id": "ex6",
-              "type": "mcq",
-              "difficulty": "medium",
-              "choices": [
-                "0.04",
-                "0.045",
-                "0.046",
-                "0.05"
-              ],
-              "choices_zh": [
-                "0.04",
-                "0.045",
-                "0.046",
-                "0.05"
-              ],
-              "answer": 2,
-              "explanation": "2 s.f. = 0.046",
-              "explanation_zh": "2位有效数字 = 0.046",
-              "prompt": "Round 0.0456 to 2 s.f.",
-              "prompt_zh": "将0.0456四舍五入到2位有效数字"
-            },
-            {
-              "id": "ex7",
-              "type": "mcq",
-              "difficulty": "medium",
-              "choices": [
-                "$95",
-                "$100",
-                "$105",
-                "$110"
-              ],
-              "choices_zh": [
-                "$95",
-                "$100",
-                "$105",
-                "$110"
-              ],
-              "answer": 1,
-              "explanation": "$20 × 5 = $100",
-              "explanation_zh": "$20 × 5 = $100",
-              "prompt": "Estimate cost: $19.80 × 5",
-              "prompt_zh": "估算费用：$19.80 × 5"
-            },
-            {
-              "id": "ex8",
-              "type": "mcq",
-              "difficulty": "hard",
-              "choices": [
-                "$5",
-                "$6",
-                "$7",
-                "$8"
-              ],
-              "choices_zh": [
-                "$5",
-                "$6",
-                "$7",
-                "$8"
-              ],
-              "answer": 2,
-              "explanation": "12 × $0.55 ≈ 12 × $0.5 = $6",
-              "explanation_zh": "12 × $0.55 ≈ 12 × $0.5 = $6",
-              "prompt": "Singapore: Estimate taxi fare for 12.3km at $0.55/km",
-              "prompt_zh": "新加坡：估算12.3公里的出租车费，每公里$0.55"
-            },
-            {
-              "id": "ex9",
-              "type": "mcq",
-              "difficulty": "hard",
-              "choices": [
-                "150",
-                "200",
-                "250",
-                "300"
-              ],
-              "choices_zh": [
-                "150",
-                "200",
-                "250",
-                "300"
-              ],
-              "answer": 1,
-              "explanation": "4000 ÷ 20 = 200",
-              "explanation_zh": "4000 ÷ 20 = 200",
-              "prompt": "Estimate: 3978 ÷ 19",
-              "prompt_zh": "估算：3978 ÷ 19"
-            },
-            {
-              "id": "ex10",
-              "type": "mcq",
-              "difficulty": "hard",
-              "choices": [
-                "$48",
-                "$49",
-                "$50",
-                "$45"
-              ],
-              "choices_zh": [
-                "$48",
-                "$49",
-                "$50",
-                "$45"
-              ],
-              "answer": 1,
-              "explanation": "$48.75 → $49",
-              "explanation_zh": "$48.75 → $49",
-              "prompt": "Round $48.75 to nearest dollar",
-              "prompt_zh": "将$48.75四舍五入到最接近的元"
+              "id": "q1",
+              "type": "short",
+              "prompt": "Round 3.876 to 2 significant figures.",
+              "prompt_zh": "将3.876四舍五入到2位有效数字。",
+              "answer": "3.9",
+              "validator": "numeric",
+              "hint": "Count from the first non-zero digit.",
+              "hint_zh": "从第一个非零数字开始计数。"
             }
           ]
         },
@@ -2235,257 +2360,77 @@
           ],
           "exercises": [
             {
-              "id": "ex1",
+              "id": "q1",
               "type": "mcq",
-              "difficulty": "easy",
+              "prompt": "Which of the following are like terms?",
+              "prompt_zh": "以下哪些是同类项？",
               "choices": [
-                "5x",
-                "5x²",
-                "6x",
-                "x⁵"
-              ],
-              "choices_zh": [
-                "5x",
-                "5x²",
-                "6x",
-                "x⁵"
+                "2x and 3x",
+                "4a and 5b",
+                "x² and x",
+                "2xy and 3x"
               ],
               "answer": 0,
-              "explanation": "3x + 2x = 5x",
-              "explanation_zh": "3x + 2x = 5x",
-              "prompt": "Simplify: 3x + 2x",
-              "prompt_zh": "化简：3x + 2x"
+              "hint": "Like terms have the same variable(s) with the same power.",
+              "hint_zh": "同类项具有相同的变量和相同的幂。"
             },
             {
-              "id": "ex2",
-              "type": "mcq",
-              "difficulty": "easy",
-              "choices": [
-                "4y",
-                "10y",
-                "4",
-                "10"
-              ],
-              "choices_zh": [
-                "4y",
-                "10y",
-                "4",
-                "10"
-              ],
-              "answer": 0,
-              "explanation": "7y - 3y = 4y",
-              "explanation_zh": "7y - 3y = 4y",
-              "prompt": "Simplify: 7y - 3y",
-              "prompt_zh": "化简：7y - 3y"
-            },
-            {
-              "id": "ex3",
-              "type": "mcq",
-              "difficulty": "easy",
-              "choices": [
-                "5a",
-                "6a",
-                "23a",
-                "2a³"
-              ],
-              "choices_zh": [
-                "5a",
-                "6a",
-                "23a",
-                "2a³"
-              ],
-              "answer": 1,
-              "explanation": "2 × 3a = 6a",
-              "explanation_zh": "2 × 3a = 6a",
-              "prompt": "What is 2 × 3a?",
-              "prompt_zh": "2 × 3a 等于多少？"
-            },
-            {
-              "id": "ex4",
-              "type": "mcq",
-              "difficulty": "easy",
-              "choices": [
-                "3x + 2",
-                "3x + 6",
-                "x + 6",
-                "3x + 5"
-              ],
-              "choices_zh": [
-                "3x + 2",
-                "3x + 6",
-                "x + 6",
-                "3x + 5"
-              ],
-              "answer": 1,
-              "explanation": "3(x + 2) = 3x + 6",
-              "explanation_zh": "3(x + 2) = 3x + 6",
-              "prompt": "Expand: 3(x + 2)",
-              "prompt_zh": "展开：3(x + 2)"
-            },
-            {
-              "id": "ex5",
-              "type": "mcq",
-              "difficulty": "medium",
-              "choices": [
-                "3a + 4b",
-                "7a + 2b",
-                "3a + 2b",
-                "7a + 4b"
-              ],
-              "choices_zh": [
-                "3a + 4b",
-                "7a + 2b",
-                "3a + 2b",
-                "7a + 4b"
-              ],
-              "answer": 0,
-              "explanation": "5a - 2a = 3a, 3b + b = 4b",
-              "explanation_zh": "5a - 2a = 3a，3b + b = 4b",
-              "prompt": "Simplify: 5a + 3b - 2a + b",
-              "prompt_zh": "化简：5a + 3b - 2a + b"
-            },
-            {
-              "id": "ex6",
-              "type": "mcq",
-              "difficulty": "medium",
-              "choices": [
-                "6x - 4",
-                "6x - 8",
-                "5x - 6",
-                "6x - 6"
-              ],
-              "choices_zh": [
-                "6x - 4",
-                "6x - 8",
-                "5x - 6",
-                "6x - 6"
-              ],
-              "answer": 1,
-              "explanation": "2(3x - 4) = 6x - 8",
-              "explanation_zh": "2(3x - 4) = 6x - 8",
-              "prompt": "Expand: 2(3x - 4)",
-              "prompt_zh": "展开：2(3x - 4)"
-            },
-            {
-              "id": "ex7",
-              "type": "mcq",
-              "difficulty": "medium",
-              "choices": [
-                "3x² + 5x",
-                "5x² + 5x",
-                "3x² + x",
-                "4x² + 5x"
-              ],
-              "choices_zh": [
-                "3x² + 5x",
-                "5x² + 5x",
-                "3x² + x",
-                "4x² + 5x"
-              ],
-              "answer": 0,
-              "explanation": "4x² - x² = 3x², 2x + 3x = 5x",
-              "explanation_zh": "4x² - x² = 3x²，2x + 3x = 5x",
-              "prompt": "Simplify: 4x² + 2x - x² + 3x",
-              "prompt_zh": "化简：4x² + 2x - x² + 3x"
-            },
-            {
-              "id": "ex8",
-              "type": "mcq",
-              "difficulty": "medium",
-              "choices": [
-                "3(2x + 3)",
-                "6(x + 9)",
-                "3(2x + 9)",
-                "2(3x + 9)"
-              ],
-              "choices_zh": [
-                "3(2x + 3)",
-                "6(x + 9)",
-                "3(2x + 9)",
-                "2(3x + 9)"
-              ],
-              "answer": 0,
-              "explanation": "GCF is 3: 6x + 9 = 3(2x + 3)",
-              "explanation_zh": "最大公因数是3",
-              "prompt": "Factorize: 6x + 9",
-              "prompt_zh": "因式分解：6x + 9"
-            },
-            {
-              "id": "ex9",
-              "type": "mcq",
-              "difficulty": "hard",
-              "choices": [
-                "5x + 3",
-                "5x + 5",
-                "5x + 9",
-                "2x + 3"
-              ],
-              "choices_zh": [
-                "5x + 3",
-                "5x + 5",
-                "5x + 9",
-                "2x + 3"
-              ],
-              "answer": 0,
-              "explanation": "2x + 6 + 3x - 3 = 5x + 3",
-              "explanation_zh": "2x + 6 + 3x - 3 = 5x + 3",
-              "prompt": "Expand: 2(x + 3) + 3(x - 1)",
-              "prompt_zh": "展开：2(x + 3) + 3(x - 1)"
-            },
-            {
-              "id": "ex10",
-              "type": "mcq",
-              "difficulty": "hard",
-              "choices": [
-                "4a - 7b",
-                "4a + 7b",
-                "8a - 7b",
-                "4a - b"
-              ],
-              "choices_zh": [
-                "4a - 7b",
-                "4a + 7b",
-                "8a - 7b",
-                "4a - b"
-              ],
-              "answer": 0,
-              "explanation": "6a - 3b - 2a - 4b = 4a - 7b",
-              "explanation_zh": "6a - 3b - 2a - 4b = 4a - 7b",
-              "prompt": "Simplify: 3(2a - b) - 2(a + 2b)",
-              "prompt_zh": "化简：3(2a - b) - 2(a + 2b)"
-            },
-            {
-              "id": "ex11",
+              "id": "q2",
               "type": "short",
-              "difficulty": "hard",
-              "answer": "14",
-              "validator": "numeric",
-              "explanation": "6x - 4 = 2(3x - 2) = 2(7) = 14",
-              "explanation_zh": "6x - 4 = 2(3x - 2) = 2(7) = 14",
-              "prompt": "If 3x - 2 = 7, find 6x - 4",
-              "prompt_zh": "如果 3x - 2 = 7，求 6x - 4"
+              "prompt": "Simplify: 4x + 2y - 3x + y",
+              "prompt_zh": "化简：4x + 2y - 3x + y",
+              "answer": "x + 3y",
+              "hint": "Group x terms and y terms separately.",
+              "hint_zh": "分别分组x项和y项。"
             },
             {
-              "id": "ex12",
+              "id": "q3",
               "type": "mcq",
-              "difficulty": "hard",
+              "prompt": "Expand: 3(x + 2)",
+              "prompt_zh": "展开：3(x + 2)",
               "choices": [
-                "x + 5.5",
-                "x + 2.2",
-                "x + 8.8",
-                "x + 6.6"
+                "3x + 2",
+                "3x + 6",
+                "x + 6",
+                "3x + 5"
               ],
-              "choices_zh": [
-                "x + 5.5",
-                "x + 2.2",
-                "x + 8.8",
-                "x + 6.6"
+              "answer": 1,
+              "hint": "Multiply 3 by both terms inside.",
+              "hint_zh": "将3与括号内的两项相乘。"
+            },
+            {
+              "id": "q4",
+              "type": "short",
+              "prompt": "Expand: 5(2a - 3)",
+              "prompt_zh": "展开：5(2a - 3)",
+              "answer": "10a - 15",
+              "hint": "Multiply 5 by each term.",
+              "hint_zh": "将5与每项相乘。"
+            },
+            {
+              "id": "q5",
+              "type": "mcq",
+              "prompt": "Factorize: 6x + 9",
+              "prompt_zh": "因式分解：6x + 9",
+              "choices": [
+                "3(2x + 3)",
+                "6(x + 9)",
+                "3(2x + 6)",
+                "2(3x + 9)"
               ],
               "answer": 0,
-              "explanation": "Cost = x + 0.22(25) = x + 5.5",
-              "explanation_zh": "费用 = x + 0.22(25) = x + 5.5",
-              "prompt": "Taxi: $x + $0.22/km. Cost for 25km?",
-              "prompt_zh": "出租车：$x + 每公里$0.22。25公里费用？"
+              "hint": "Find HCF of 6 and 9.",
+              "hint_zh": "找6和9的最大公因数。"
+            },
+            {
+              "id": "q6",
+              "type": "short",
+              "prompt": "Evaluate 3x + 5 when x = 4",
+              "prompt_zh": "当x = 4时求值3x + 5",
+              "answer": "17",
+              "validator": "numeric",
+              "hint": "Substitute 4 for x: 3(4) + 5",
+              "hint_zh": "用4代替x：3(4) + 5"
             }
           ]
         },
@@ -2531,257 +2476,14 @@
           ],
           "exercises": [
             {
-              "id": "ex1",
-              "type": "mcq",
-              "difficulty": "easy",
-              "choices": [
-                "x = 7",
-                "x = 17",
-                "x = 5",
-                "x = 12"
-              ],
-              "choices_zh": [
-                "x = 7",
-                "x = 17",
-                "x = 5",
-                "x = 12"
-              ],
-              "answer": 0,
-              "explanation": "x = 12 - 5 = 7",
-              "explanation_zh": "x = 12 - 5 = 7",
-              "prompt": "Solve: x + 5 = 12",
-              "prompt_zh": "解：x + 5 = 12"
-            },
-            {
-              "id": "ex2",
-              "type": "mcq",
-              "difficulty": "easy",
-              "choices": [
-                "x = 5",
-                "x = 11",
-                "x = 8",
-                "x = 24"
-              ],
-              "choices_zh": [
-                "x = 5",
-                "x = 11",
-                "x = 8",
-                "x = 24"
-              ],
-              "answer": 1,
-              "explanation": "x = 8 + 3 = 11",
-              "explanation_zh": "x = 8 + 3 = 11",
-              "prompt": "Solve: x - 3 = 8",
-              "prompt_zh": "解：x - 3 = 8"
-            },
-            {
-              "id": "ex3",
-              "type": "mcq",
-              "difficulty": "easy",
-              "choices": [
-                "x = 5",
-                "x = 12",
-                "x = 18",
-                "x = 45"
-              ],
-              "choices_zh": [
-                "x = 5",
-                "x = 12",
-                "x = 18",
-                "x = 45"
-              ],
-              "answer": 0,
-              "explanation": "x = 15 ÷ 3 = 5",
-              "explanation_zh": "x = 15 ÷ 3 = 5",
-              "prompt": "Solve: 3x = 15",
-              "prompt_zh": "解：3x = 15"
-            },
-            {
-              "id": "ex4",
-              "type": "mcq",
-              "difficulty": "easy",
-              "choices": [
-                "x = 3",
-                "x = 8",
-                "x = 12",
-                "x = 4"
-              ],
-              "choices_zh": [
-                "x = 3",
-                "x = 8",
-                "x = 12",
-                "x = 4"
-              ],
-              "answer": 2,
-              "explanation": "x = 6 × 2 = 12",
-              "explanation_zh": "x = 6 × 2 = 12",
-              "prompt": "Solve: x/2 = 6",
-              "prompt_zh": "解：x/2 = 6"
-            },
-            {
-              "id": "ex5",
-              "type": "mcq",
-              "difficulty": "medium",
-              "choices": [
-                "x = 4",
-                "x = 7",
-                "x = 14",
-                "x = 5"
-              ],
-              "choices_zh": [
-                "x = 4",
-                "x = 7",
-                "x = 14",
-                "x = 5"
-              ],
-              "answer": 0,
-              "explanation": "2x = 8, x = 4",
-              "explanation_zh": "2x = 8，x = 4",
-              "prompt": "Solve: 2x + 3 = 11",
-              "prompt_zh": "解：2x + 3 = 11"
-            },
-            {
-              "id": "ex6",
-              "type": "mcq",
-              "difficulty": "medium",
-              "choices": [
-                "x = 3",
-                "x = 5",
-                "x = 11",
-                "x = 25"
-              ],
-              "choices_zh": [
-                "x = 3",
-                "x = 5",
-                "x = 11",
-                "x = 25"
-              ],
-              "answer": 1,
-              "explanation": "5x = 25, x = 5",
-              "explanation_zh": "5x = 25，x = 5",
-              "prompt": "Solve: 5x - 7 = 18",
-              "prompt_zh": "解：5x - 7 = 18"
-            },
-            {
-              "id": "ex7",
-              "type": "mcq",
-              "difficulty": "medium",
-              "choices": [
-                "x = 5",
-                "x = 9",
-                "x = 3",
-                "x = 7"
-              ],
-              "choices_zh": [
-                "x = 5",
-                "x = 9",
-                "x = 3",
-                "x = 7"
-              ],
-              "answer": 0,
-              "explanation": "x = 5",
-              "explanation_zh": "x = 5",
-              "prompt": "Solve: 3x + 2 = 2x + 7",
-              "prompt_zh": "解：3x + 2 = 2x + 7"
-            },
-            {
-              "id": "ex8",
-              "type": "mcq",
-              "difficulty": "medium",
-              "choices": [
-                "x = 7",
-                "x = 10",
-                "x = 13",
-                "x = 2"
-              ],
-              "choices_zh": [
-                "x = 7",
-                "x = 10",
-                "x = 13",
-                "x = 2"
-              ],
-              "answer": 0,
-              "explanation": "x + 3 = 10, x = 7",
-              "explanation_zh": "x + 3 = 10，x = 7",
-              "prompt": "Solve: (x+3)/2 = 5",
-              "prompt_zh": "解：(x+3)/2 = 5"
-            },
-            {
-              "id": "ex9",
-              "type": "mcq",
-              "difficulty": "hard",
-              "choices": [
-                "x = 4",
-                "x = 7",
-                "x = 10",
-                "x = 1"
-              ],
-              "choices_zh": [
-                "x = 4",
-                "x = 7",
-                "x = 10",
-                "x = 1"
-              ],
-              "answer": 0,
-              "explanation": "x + 3 = 7, x = 4",
-              "explanation_zh": "x + 3 = 7，x = 4",
-              "prompt": "Solve: 2(x+3) = 14",
-              "prompt_zh": "解：2(x+3) = 14"
-            },
-            {
-              "id": "ex10",
-              "type": "mcq",
-              "difficulty": "hard",
-              "choices": [
-                "x = 7",
-                "x = 5",
-                "x = 9",
-                "x = 3"
-              ],
-              "choices_zh": [
-                "x = 7",
-                "x = 5",
-                "x = 9",
-                "x = 3"
-              ],
-              "answer": 0,
-              "explanation": "3(x-2)=15, x=7",
-              "explanation_zh": "3(x-2)=15，x=7",
-              "prompt": "Solve: 3(x-2)+4 = 19",
-              "prompt_zh": "解：3(x-2)+4 = 19"
-            },
-            {
-              "id": "ex11",
+              "id": "q1",
               "type": "short",
-              "difficulty": "hard",
-              "answer": "9",
+              "prompt": "Solve: 2x + 5 = 13",
+              "prompt_zh": "求解：2x + 5 = 13",
+              "answer": "4",
               "validator": "numeric",
-              "explanation": "2x/3=6, x=9",
-              "explanation_zh": "2x/3=6，x=9",
-              "prompt": "Solve: 2x/3 + 5 = 11",
-              "prompt_zh": "解：2x/3 + 5 = 11"
-            },
-            {
-              "id": "ex12",
-              "type": "mcq",
-              "difficulty": "hard",
-              "choices": [
-                "$15",
-                "$14",
-                "$10",
-                "$18"
-              ],
-              "choices_zh": [
-                "$15",
-                "$14",
-                "$10",
-                "$18"
-              ],
-              "answer": 0,
-              "explanation": "0.8x=12, x=15",
-              "explanation_zh": "0.8x=12，x=15",
-              "prompt": "Book $x, 20% off = $12. Find x",
-              "prompt_zh": "书原价$x，8折后$12，求x"
+              "hint": "First subtract 5 from both sides, then divide by 2.",
+              "hint_zh": "首先从两边减去5，然后除以2。"
             }
           ]
         },
@@ -3667,149 +3369,6 @@
               "answer": 0,
               "hint": "90/360 = 1/4 = 0.25 = 25%",
               "hint_zh": "90/360 = 1/4 = 0.25 = 25%"
-            }
-          ]
-        },
-        {
-          "id": "volume-surface-area",
-          "title": "Volume & Surface Area",
-          "title_zh": "体积与表面积",
-          "description": "Calculate volume and surface area of 3D shapes including cubes, cuboids, cylinders, and prisms",
-          "description_zh": "计算立方体、长方体、圆柱体和棱柱的体积和表面积",
-          "objectives": [
-            "Understand the concept of volume",
-            "Calculate volume of cubes, cuboids, cylinders",
-            "Understand surface area",
-            "Calculate surface area of 3D shapes",
-            "Solve real-world problems involving volume and surface area"
-          ],
-          "objectives_zh": [
-            "理解体积的概念",
-            "计算立方体、长方体、圆柱体的体积",
-            "理解表面积",
-            "计算三维形状的表面积",
-            "解决涉及体积和表面积的实际问题"
-          ],
-          "sections": [
-            {
-              "id": "volume-basics",
-              "type": "text",
-              "title": "Understanding Volume",
-              "title_zh": "理解体积",
-              "content": "**Volume** is the amount of space a 3D object occupies, measured in cubic units (cm³, m³).\n\n**Key Formulas:**\n\n**1. Cube**\n- Volume = side³\n- Example: A cube with side 5 cm → Volume = 5³ = 125 cm³\n\n**2. Cuboid (Rectangular Prism)**\n- Volume = length × width × height\n- Example: 10 cm × 5 cm × 3 cm → Volume = 150 cm³\n\n**3. Cylinder**\n- Volume = πr²h (where r = radius, h = height)\n- Example: r = 3 cm, h = 10 cm → Volume = π(3²)(10) = 90π ≈ 282.7 cm³\n\n**Singapore Context:**\nCalculating volume of water tanks in HDB flats, NEWater reservoirs, or shipping containers at PSA port.",
-              "content_zh": "**体积**是三维物体占据的空间量，以立方单位（cm³、m³）测量。\n\n**关键公式：**\n\n**1. 立方体**\n- 体积 = 边³\n- 例子：边长5厘米的立方体 → 体积 = 5³ = 125 cm³\n\n**2. 长方体**\n- 体积 = 长 × 宽 × 高\n- 例子：10厘米 × 5厘米 × 3厘米 → 体积 = 150 cm³\n\n**3. 圆柱体**\n- 体积 = πr²h（其中r = 半径，h = 高）\n- 例子：r = 3厘米，h = 10厘米 → 体积 = π(3²)(10) = 90π ≈ 282.7 cm³\n\n**新加坡语境：**\n计算组屋水箱、新生水水库或PSA港口集装箱的体积。"
-            },
-            {
-              "id": "surface-area",
-              "type": "text",
-              "title": "Surface Area",
-              "title_zh": "表面积",
-              "content": "**Surface Area** is the total area of all surfaces of a 3D object.\n\n**Key Formulas:**\n\n**1. Cube**\n- Surface Area = 6 × side²\n- Example: side = 4 cm → SA = 6 × 16 = 96 cm²\n\n**2. Cuboid**\n- Surface Area = 2(lw + lh + wh)\n- Example: 5×3×2 cm → SA = 2(15 + 10 + 6) = 62 cm²\n\n**3. Cylinder**\n- Surface Area = 2πr² + 2πrh = 2πr(r + h)\n- Example: r = 2 cm, h = 5 cm → SA = 2π(2)(2+5) = 28π ≈ 87.96 cm²\n\n**Practical Applications:**\n- Painting walls (calculate area to buy paint)\n- Wrapping gifts (how much paper needed)\n- Building HDB flats (tiles for walls and floors)",
-              "content_zh": "**表面积**是三维物体所有表面的总面积。\n\n**关键公式：**\n\n**1. 立方体**\n- 表面积 = 6 × 边²\n- 例子：边 = 4厘米 → 表面积 = 6 × 16 = 96 cm²\n\n**2. 长方体**\n- 表面积 = 2(长×宽 + 长×高 + 宽×高)\n- 例子：5×3×2厘米 → 表面积 = 2(15 + 10 + 6) = 62 cm²\n\n**3. 圆柱体**\n- 表面积 = 2πr² + 2πrh = 2πr(r + h)\n- 例子：r = 2厘米，h = 5厘米 → 表面积 = 2π(2)(2+5) = 28π ≈ 87.96 cm²\n\n**实际应用：**\n- 粉刷墙壁（计算面积以购买油漆）\n- 包装礼物（需要多少包装纸）\n- 建造组屋（墙壁和地板的瓷砖）"
-            },
-            {
-              "id": "problem-solving",
-              "type": "text",
-              "title": "Problem Solving",
-              "title_zh": "解决问题",
-              "content": "**Steps to Solve Volume & Surface Area Problems:**\n\n1. **Identify** the 3D shape\n2. **Extract** given measurements\n3. **Select** the correct formula\n4. **Substitute** values\n5. **Calculate** and include units\n\n**Example Problem:**\nA cylindrical water tank has radius 1.5 m and height 3 m. \na) Find its volume\nb) How many litres of water can it hold? (1 m³ = 1000 litres)\n\n**Solution:**\na) V = πr²h = π(1.5)²(3) = 6.75π ≈ 21.2 m³\nb) 21.2 m³ × 1000 = 21,200 litres\n\n**Singapore Context:**\nCalculating capacity of water tanks at Marina Barrage, volume of sand for land reclamation, or container capacity at Changi Airport cargo.",
-              "content_zh": "**解决体积和表面积问题的步骤：**\n\n1. **识别**三维形状\n2. **提取**给定的测量值\n3. **选择**正确的公式\n4. **代入**数值\n5. **计算**并包括单位\n\n**例题：**\n一个圆柱形水箱半径1.5米，高3米。\na) 求其体积\nb) 它能容纳多少升水？（1 m³ = 1000升）\n\n**解答：**\na) V = πr²h = π(1.5)²(3) = 6.75π ≈ 21.2 m³\nb) 21.2 m³ × 1000 = 21,200升\n\n**新加坡语境：**\n计算滨海堤坝水箱的容量、填海造地的沙土体积或樟宜机场货运集装箱的容量。"
-            }
-          ],
-          "exercises": [
-            {
-              "id": "ex1",
-              "type": "mcq",
-              "choices": [
-                "36 cm³",
-                "108 cm³",
-                "216 cm³",
-                "432 cm³"
-              ],
-              "choices_zh": [
-                "36 cm³",
-                "108 cm³",
-                "216 cm³",
-                "432 cm³"
-              ],
-              "answer": 2,
-              "explanation": "Volume = side³ = 6³ = 216 cm³",
-              "explanation_zh": "体积 = 边³ = 6³ = 216 cm³",
-              "prompt": "Find the volume of a cube with side 6 cm.",
-              "prompt_zh": "求边长6厘米的立方体的体积。"
-            },
-            {
-              "id": "ex2",
-              "type": "mcq",
-              "choices": [
-                "200 cm³",
-                "180 cm³",
-                "150 cm³",
-                "100 cm³"
-              ],
-              "choices_zh": [
-                "200 cm³",
-                "180 cm³",
-                "150 cm³",
-                "100 cm³"
-              ],
-              "answer": 0,
-              "explanation": "Volume = l × w × h = 10 × 4 × 5 = 200 cm³",
-              "explanation_zh": "体积 = 长 × 宽 × 高 = 10 × 4 × 5 = 200 cm³",
-              "prompt": "A cuboid measures 10 cm × 4 cm × 5 cm. Find its volume.",
-              "prompt_zh": "一个长方体尺寸为10厘米 × 4厘米 × 5厘米。求其体积。"
-            },
-            {
-              "id": "ex3",
-              "type": "mcq",
-              "choices": [
-                "27 cm²",
-                "36 cm²",
-                "54 cm²",
-                "81 cm²"
-              ],
-              "choices_zh": [
-                "27 cm²",
-                "36 cm²",
-                "54 cm²",
-                "81 cm²"
-              ],
-              "answer": 2,
-              "explanation": "Surface Area = 6 × side² = 6 × 3² = 6 × 9 = 54 cm²",
-              "explanation_zh": "表面积 = 6 × 边² = 6 × 3² = 6 × 9 = 54 cm²",
-              "prompt": "What is the surface area of a cube with side 3 cm?",
-              "prompt_zh": "边长3厘米的立方体的表面积是多少？"
-            },
-            {
-              "id": "ex4",
-              "type": "short",
-              "answer": "785",
-              "validator": "numeric",
-              "explanation": "V = πr²h = 3.14 × 5² × 10 = 3.14 × 25 × 10 = 785 cm³",
-              "explanation_zh": "V = πr²h = 3.14 × 5² × 10 = 3.14 × 25 × 10 = 785 cm³",
-              "prompt": "A cylinder has radius 5 cm and height 10 cm. Find its volume (use π ≈ 3.14).",
-              "prompt_zh": "一个圆柱体半径5厘米，高10厘米。求其体积（使用π ≈ 3.14）。"
-            },
-            {
-              "id": "ex5",
-              "type": "mcq",
-              "choices": [
-                "200 L",
-                "500 L",
-                "1000 L",
-                "2000 L"
-              ],
-              "choices_zh": [
-                "200升",
-                "500升",
-                "1000升",
-                "2000升"
-              ],
-              "answer": 3,
-              "explanation": "1 m³ = 1000 litres, so 2 m³ = 2000 litres",
-              "explanation_zh": "1 m³ = 1000升，所以2 m³ = 2000升",
-              "prompt": "A water tank is 2 m³. How many litres of water can it hold?",
-              "prompt_zh": "一个水箱是2 m³。它能容纳多少升水？"
             }
           ]
         }
@@ -5037,267 +4596,6 @@
           ],
           "tag": "Biology",
           "tag_zh": "生物"
-        },
-        {
-          "id": "classification",
-          "title": "Classification of Living Things",
-          "title_zh": "生物分类",
-          "description": "Learn how scientists classify living organisms into groups based on shared characteristics",
-          "description_zh": "学习科学家如何根据共同特征将生物分类",
-          "tag": "Biology",
-          "tag_zh": "生物",
-          "objectives": [
-            "Understand the need for classification",
-            "Learn the 5 kingdoms of life",
-            "Identify characteristics of each kingdom",
-            "Use classification keys"
-          ],
-          "objectives_zh": [
-            "理解分类的需要",
-            "学习生命的5界",
-            "识别每个界的特征",
-            "使用分类检索表"
-          ],
-          "sections": [
-            {
-              "id": "why-classify",
-              "type": "text",
-              "title": "Why Classification?",
-              "title_zh": "为什么要分类？",
-              "content": "**Classification** helps scientists organize and study the millions of species on Earth.\n\n**Benefits:**\n- Easy identification\n- Shows relationships between organisms\n- Helps in studying biodiversity\n- Aids in conservation efforts\n\n**Example:** Singapore has over 2,000 plant species and 400 bird species. Classification helps us organize and protect them.",
-              "content_zh": "**分类**帮助科学家组织和研究地球上数百万种物种。\n\n**好处：**\n- 易于识别\n- 显示生物之间的关系\n- 帮助研究生物多样性\n- 有助于保护工作\n\n**例子：**新加坡有超过2,000种植物和400种鸟类。分类帮助我们组织和保护它们。"
-            },
-            {
-              "id": "five-kingdoms",
-              "type": "text",
-              "title": "Five Kingdoms",
-              "title_zh": "五界",
-              "content": "**1. Animals (动物界)**\n- Multicellular, move around, eat other organisms\n- Examples: Birds, fish, insects\n\n**2. Plants (植物界)**\n- Multicellular, make own food (photosynthesis), can't move\n- Examples: Trees, flowers, ferns\n\n**3. Fungi (真菌界)**\n- Absorb nutrients from dead matter\n- Examples: Mushrooms, mold, yeast\n\n**4. Protists (原生生物界)**\n- Mostly unicellular\n- Examples: Amoeba, algae\n\n**5. Bacteria (细菌界)**\n- Unicellular, no nucleus\n- Examples: E. coli, cyanobacteria",
-              "content_zh": "**1. 动物界**\n- 多细胞、能移动、吃其他生物\n- 例子：鸟类、鱼类、昆虫\n\n**2. 植物界**\n- 多细胞、自己制造食物（光合作用）、不能移动\n- 例子：树、花、蕨类\n\n**3. 真菌界**\n- 从死物质中吸收养分\n- 例子：蘑菇、霉菌、酵母\n\n**4. 原生生物界**\n- 大多数单细胞\n- 例子：变形虫、藻类\n\n**5. 细菌界**\n- 单细胞、没有核\n- 例子：大肠杆菌、蓝藻"
-            }
-          ],
-          "exercises": [
-            {
-              "id": "ex1",
-              "type": "mcq",
-              "question": "Which kingdom can make its own food through photosynthesis?",
-              "question_zh": "哪个界可以通过光合作用制造自己的食物？",
-              "choices": [
-                "Animals",
-                "Plants",
-                "Fungi",
-                "Bacteria"
-              ],
-              "choices_zh": [
-                "动物界",
-                "植物界",
-                "真菌界",
-                "细菌界"
-              ],
-              "answer": 1,
-              "explanation": "Plants make their own food through photosynthesis",
-              "explanation_zh": "植物通过光合作用制造自己的食物"
-            }
-          ]
-        },
-        {
-          "id": "food-chains-webs",
-          "title": "Food Chains & Food Webs",
-          "title_zh": "食物链与食物网",
-          "description": "Understand energy flow in ecosystems through food chains and food webs",
-          "description_zh": "通过食物链和食物网理解生态系统中的能量流动",
-          "tag": "Biology",
-          "tag_zh": "生物",
-          "objectives": [
-            "Understand producers, consumers, and decomposers",
-            "Construct food chains",
-            "Interpret food webs",
-            "Understand energy flow in ecosystems"
-          ],
-          "objectives_zh": [
-            "理解生产者、消费者和分解者",
-            "构建食物链",
-            "解释食物网",
-            "理解生态系统中的能量流动"
-          ],
-          "sections": [
-            {
-              "id": "food-chain-basics",
-              "type": "text",
-              "title": "Food Chains",
-              "title_zh": "食物链",
-              "content": "**Food Chain** shows how energy passes from one organism to another.\n\n**Key Terms:**\n- **Producer** - Makes own food (plants)\n- **Consumer** - Eats other organisms (animals)\n- **Decomposer** - Breaks down dead matter (bacteria, fungi)\n\n**Example:** Grass → Grasshopper → Bird → Snake\n\n**Singapore Example:** Algae → Small fish → Larger fish → Otter (at Marina Reservoir)",
-              "content_zh": "**食物链**显示能量如何从一个生物传递到另一个生物。\n\n**关键术语：**\n- **生产者** - 制造自己的食物（植物）\n- **消费者** - 吃其他生物（动物）\n- **分解者** - 分解死物质（细菌、真菌）\n\n**例子：**草 → 蚱蜢 → 鸟 → 蛇\n\n**新加坡例子：**藻类 → 小鱼 → 大鱼 → 水獭（在滨海蓄水池）"
-            }
-          ],
-          "exercises": [
-            {
-              "id": "ex1",
-              "type": "mcq",
-              "question": "What is a producer?",
-              "question_zh": "什么是生产者？",
-              "choices": [
-                "An animal that eats plants",
-                "An organism that makes its own food",
-                "An organism that breaks down dead matter",
-                "A predator"
-              ],
-              "choices_zh": [
-                "吃植物的动物",
-                "制造自己食物的生物",
-                "分解死物质的生物",
-                "捕食者"
-              ],
-              "answer": 1,
-              "explanation": "Producers make their own food through photosynthesis",
-              "explanation_zh": "生产者通过光合作用制造自己的食物"
-            }
-          ]
-        },
-        {
-          "id": "pressure",
-          "title": "Pressure",
-          "title_zh": "压强",
-          "description": "Understand pressure and its applications in daily life",
-          "description_zh": "理解压强及其在日常生活中的应用",
-          "tag": "Physics",
-          "tag_zh": "物理",
-          "objectives": [
-            "Define pressure",
-            "Calculate pressure using formula",
-            "Understand atmospheric pressure",
-            "Apply pressure concepts to real-world situations"
-          ],
-          "objectives_zh": [
-            "定义压强",
-            "使用公式计算压强",
-            "理解大气压",
-            "将压强概念应用于实际情况"
-          ],
-          "sections": [
-            {
-              "id": "what-is-pressure",
-              "type": "text",
-              "title": "Understanding Pressure",
-              "title_zh": "理解压强",
-              "content": "**Pressure** is the force applied per unit area.\n\n**Formula:** Pressure = Force ÷ Area (P = F/A)\n\n**Units:** Pascal (Pa) or N/m²\n\n**Examples:**\n- Sharp knife cuts easily (small area → high pressure)\n- Elephant's foot (large area → low pressure on ground)\n- Thumbtack point (small area → high pressure)\n\n**Singapore Context:** MRT train wheels distribute weight over large area to avoid damaging tracks.",
-              "content_zh": "**压强**是每单位面积施加的力。\n\n**公式：**压强 = 力 ÷ 面积（P = F/A）\n\n**单位：**帕斯卡（Pa）或 N/m²\n\n**例子：**\n- 锋利的刀容易切割（小面积 → 高压强）\n- 大象的脚（大面积 → 地面上低压强）\n- 图钉尖（小面积 → 高压强）\n\n**新加坡语境：**地铁列车轮将重量分布在大面积上以避免损坏轨道。"
-            },
-            {
-              "id": "liquid-pressure",
-              "type": "text",
-              "title": "Liquid Pressure",
-              "title_zh": "液体压强",
-              "content": "**Liquid Pressure** increases with depth.\n\n**Key Points:**\n- Pressure increases as you go deeper\n- Acts in all directions at a given depth\n- Depends on liquid density and depth\n\n**Examples:**\n- Dams are thicker at bottom (withstand higher pressure)\n- Submarine windows are thicker (deep ocean pressure)\n- Water shoots further from bottom hole of a bottle\n\n**Singapore Context:** Marina Barrage uses water pressure principles; swimming pool pressure increases at deep end.",
-              "content_zh": "**液体压强**随深度增加。\n\n**要点：**\n- 压强随深度增加\n- 在给定深度向所有方向作用\n- 取决于液体密度和深度\n\n**例子：**\n- 水坝底部更厚（承受更高压强）\n- 潜水艇窗户更厚（深海压强）\n- 水从瓶子底部孔喷得更远\n\n**新加坡语境：**滨海堤坝使用水压原理；游泳池深端压强更大。"
-            }
-          ],
-          "exercises": [
-            {
-              "id": "ex1",
-              "type": "mcq",
-              "question": "If Force = 100 N and Area = 5 m², what is the pressure?",
-              "question_zh": "如果力 = 100 N，面积 = 5 m²，压强是多少？",
-              "choices": [
-                "20 Pa",
-                "50 Pa",
-                "100 Pa",
-                "500 Pa"
-              ],
-              "choices_zh": [
-                "20 Pa",
-                "50 Pa",
-                "100 Pa",
-                "500 Pa"
-              ],
-              "answer": 0,
-              "explanation": "Pressure = Force ÷ Area = 100 ÷ 5 = 20 Pa",
-              "explanation_zh": "压强 = 力 ÷ 面积 = 100 ÷ 5 = 20 Pa"
-            }
-          ]
-        },
-        {
-          "id": "energy",
-          "title": "Energy",
-          "title_zh": "能量",
-          "description": "Understand different forms of energy and energy transformations",
-          "description_zh": "理解不同形式的能量和能量转换",
-          "tag": "Physics",
-          "tag_zh": "物理",
-          "objectives": [
-            "Identify different forms of energy",
-            "Understand energy transformations",
-            "Apply law of conservation of energy",
-            "Recognize energy in daily life"
-          ],
-          "objectives_zh": [
-            "识别不同形式的能量",
-            "理解能量转换",
-            "应用能量守恒定律",
-            "识别日常生活中的能量"
-          ],
-          "sections": [
-            {
-              "id": "forms-of-energy",
-              "type": "text",
-              "title": "Forms of Energy",
-              "title_zh": "能量的形式",
-              "content": "**Main Forms of Energy:**\n\n**1. Kinetic Energy** - Energy of movement\n- Moving car, flowing water, flying bird\n\n**2. Potential Energy** - Stored energy\n- Object held high, stretched spring, compressed air\n\n**3. Heat (Thermal) Energy**\n- Hot water, fire, sun\n\n**4. Light Energy**\n- Sun, light bulbs, laser\n\n**5. Sound Energy**\n- Music, speech, thunder\n\n**6. Electrical Energy**\n- Batteries, power outlets\n\n**7. Chemical Energy**\n- Food, batteries, fuel\n\n**Singapore Example:** Solar panels on HDB roofs convert light energy to electrical energy.",
-              "content_zh": "**主要能量形式：**\n\n**1. 动能** - 运动的能量\n- 移动的汽车、流动的水、飞行的鸟\n\n**2. 势能** - 储存的能量\n- 高处的物体、拉伸的弹簧、压缩的空气\n\n**3. 热（热）能**\n- 热水、火、太阳\n\n**4. 光能**\n- 太阳、灯泡、激光\n\n**5. 声能**\n- 音乐、讲话、雷声\n\n**6. 电能**\n- 电池、电源插座\n\n**7. 化学能**\n- 食物、电池、燃料\n\n**新加坡例子：**组屋屋顶的太阳能板将光能转换为电能。"
-            },
-            {
-              "id": "energy-transformation",
-              "type": "text",
-              "title": "Energy Transformation",
-              "title_zh": "能量转换",
-              "content": "**Law of Conservation of Energy:** Energy cannot be created or destroyed, only transformed from one form to another.\n\n**Examples of Energy Transformations:**\n\n**Light bulb:**\nElectrical → Light + Heat\n\n**Microwave:**\nElectrical → Heat\n\n**Solar panel:**\nLight → Electrical\n\n**Hydroelectric dam:**\nPotential (water) → Kinetic → Electrical\n\n**Human eating:**\nChemical (food) → Heat + Kinetic + Sound\n\n**Singapore Context:** NEWater plants use electrical energy to treat water; MRT trains convert electrical energy to kinetic energy.",
-              "content_zh": "**能量守恒定律：**能量不能被创造或破坏，只能从一种形式转换为另一种形式。\n\n**能量转换的例子：**\n\n**灯泡：**\n电能 → 光能 + 热能\n\n**微波炉：**\n电能 → 热能\n\n**太阳能板：**\n光能 → 电能\n\n**水力发电大坝：**\n势能（水）→ 动能 → 电能\n\n**人类进食：**\n化学能（食物）→ 热能 + 动能 + 声能\n\n**新加坡语境：**新生水厂使用电能处理水；地铁列车将电能转换为动能。"
-            }
-          ],
-          "exercises": [
-            {
-              "id": "ex1",
-              "type": "mcq",
-              "question": "What energy transformation occurs in a light bulb?",
-              "question_zh": "灯泡中发生什么能量转换？",
-              "choices": [
-                "Light to electrical",
-                "Electrical to light and heat",
-                "Heat to light",
-                "Chemical to electrical"
-              ],
-              "choices_zh": [
-                "光能到电能",
-                "电能到光能和热能",
-                "热能到光能",
-                "化学能到电能"
-              ],
-              "answer": 1,
-              "explanation": "Light bulbs convert electrical energy into light energy and heat energy",
-              "explanation_zh": "灯泡将电能转换为光能和热能"
-            },
-            {
-              "id": "ex2",
-              "type": "mcq",
-              "question": "A ball rolling down a hill demonstrates which energy transformation?",
-              "question_zh": "球滚下山丘展示了哪种能量转换？",
-              "choices": [
-                "Kinetic to potential",
-                "Potential to kinetic",
-                "Chemical to kinetic",
-                "Electrical to kinetic"
-              ],
-              "choices_zh": [
-                "动能到势能",
-                "势能到动能",
-                "化学能到动能",
-                "电能到动能"
-              ],
-              "answer": 1,
-              "explanation": "As the ball rolls down, potential energy (height) converts to kinetic energy (movement)",
-              "explanation_zh": "球滚下时，势能（高度）转换为动能（运动）"
-            }
-          ]
         }
       ]
     }

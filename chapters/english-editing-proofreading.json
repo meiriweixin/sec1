@@ -1,0 +1,68 @@
+{
+  "id": "editing-proofreading",
+  "title": "Editing & Proofreading",
+  "title_zh": "编辑与校对",
+  "description": "Learn to identify and correct common errors in grammar, punctuation, and spelling",
+  "description_zh": "学习识别和纠正语法、标点和拼写中的常见错误",
+  "objectives": [
+    "Identify common grammar errors",
+    "Use punctuation correctly",
+    "Recognize homophones",
+    "Apply editing strategies"
+  ],
+  "objectives_zh": [
+    "识别常见语法错误",
+    "正确使用标点符号",
+    "识别同音异义词",
+    "应用编辑策略"
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "type": "text",
+      "title": "Common Grammar Errors",
+      "title_zh": "常见语法错误",
+      "content": "Watch for subject-verb agreement, run-ons, and fragments.",
+      "content_zh": "注意主谓一致、连写句和片段。"
+    },
+    {
+      "id": "s2",
+      "type": "text",
+      "title": "Punctuation Rules",
+      "title_zh": "标点符号规则",
+      "content": "Use commas, periods, apostrophes, and quotation marks correctly.",
+      "content_zh": "正确使用逗号、句号、撇号和引号。"
+    },
+    {
+      "id": "s3",
+      "type": "text",
+      "title": "Common Homophones",
+      "title_zh": "常见同音异义词",
+      "content": "Master their/there/theyre, your/youre, its/its, to/too/two.",
+      "content_zh": "掌握their/there/theyre、your/youre、its/its、to/too/two。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "mcq",
+      "question": "Choose correct: ___ going to the mall",
+      "question_zh": "选择正确：___ going to the mall",
+      "choices": [
+        "There",
+        "Their",
+        "Theyre",
+        "They are"
+      ],
+      "choices_zh": [
+        "There",
+        "Their",
+        "Theyre",
+        "They are"
+      ],
+      "answer": 2,
+      "explanation": "Theyre = They are",
+      "explanation_zh": "Theyre = They are"
+    }
+  ]
+}

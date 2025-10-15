@@ -1,0 +1,62 @@
+{
+  "id": "pressure",
+  "title": "Pressure",
+  "title_zh": "压强",
+  "description": "Understand pressure and its applications in daily life",
+  "description_zh": "理解压强及其在日常生活中的应用",
+  "tag": "Physics",
+  "tag_zh": "物理",
+  "objectives": [
+    "Define pressure",
+    "Calculate pressure using formula",
+    "Understand atmospheric pressure",
+    "Apply pressure concepts to real-world situations"
+  ],
+  "objectives_zh": [
+    "定义压强",
+    "使用公式计算压强",
+    "理解大气压",
+    "将压强概念应用于实际情况"
+  ],
+  "sections": [
+    {
+      "id": "what-is-pressure",
+      "type": "text",
+      "title": "Understanding Pressure",
+      "title_zh": "理解压强",
+      "content": "**Pressure** is the force applied per unit area.\n\n**Formula:** Pressure = Force ÷ Area (P = F/A)\n\n**Units:** Pascal (Pa) or N/m²\n\n**Examples:**\n- Sharp knife cuts easily (small area → high pressure)\n- Elephant's foot (large area → low pressure on ground)\n- Thumbtack point (small area → high pressure)\n\n**Singapore Context:** MRT train wheels distribute weight over large area to avoid damaging tracks.",
+      "content_zh": "**压强**是每单位面积施加的力。\n\n**公式：**压强 = 力 ÷ 面积（P = F/A）\n\n**单位：**帕斯卡（Pa）或 N/m²\n\n**例子：**\n- 锋利的刀容易切割（小面积 → 高压强）\n- 大象的脚（大面积 → 地面上低压强）\n- 图钉尖（小面积 → 高压强）\n\n**新加坡语境：**地铁列车轮将重量分布在大面积上以避免损坏轨道。"
+    },
+    {
+      "id": "liquid-pressure",
+      "type": "text",
+      "title": "Liquid Pressure",
+      "title_zh": "液体压强",
+      "content": "**Liquid Pressure** increases with depth.\n\n**Key Points:**\n- Pressure increases as you go deeper\n- Acts in all directions at a given depth\n- Depends on liquid density and depth\n\n**Examples:**\n- Dams are thicker at bottom (withstand higher pressure)\n- Submarine windows are thicker (deep ocean pressure)\n- Water shoots further from bottom hole of a bottle\n\n**Singapore Context:** Marina Barrage uses water pressure principles; swimming pool pressure increases at deep end.",
+      "content_zh": "**液体压强**随深度增加。\n\n**要点：**\n- 压强随深度增加\n- 在给定深度向所有方向作用\n- 取决于液体密度和深度\n\n**例子：**\n- 水坝底部更厚（承受更高压强）\n- 潜水艇窗户更厚（深海压强）\n- 水从瓶子底部孔喷得更远\n\n**新加坡语境：**滨海堤坝使用水压原理；游泳池深端压强更大。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "mcq",
+      "question": "If Force = 100 N and Area = 5 m², what is the pressure?",
+      "question_zh": "如果力 = 100 N，面积 = 5 m²，压强是多少？",
+      "choices": [
+        "20 Pa",
+        "50 Pa",
+        "100 Pa",
+        "500 Pa"
+      ],
+      "choices_zh": [
+        "20 Pa",
+        "50 Pa",
+        "100 Pa",
+        "500 Pa"
+      ],
+      "answer": 0,
+      "explanation": "Pressure = Force ÷ Area = 100 ÷ 5 = 20 Pa",
+      "explanation_zh": "压强 = 力 ÷ 面积 = 100 ÷ 5 = 20 Pa"
+    }
+  ]
+}

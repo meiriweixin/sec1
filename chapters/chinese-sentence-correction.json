@@ -1,0 +1,68 @@
+{
+  "id": "chinese-sentence-correction",
+  "title": "Sentence Correction (修改病句)",
+  "title_zh": "修改病句",
+  "description": "Learn to identify and correct common errors in Chinese sentences",
+  "description_zh": "学习识别和纠正中文句子中的常见错误",
+  "objectives": [
+    "Identify common error types",
+    "Fix word order problems",
+    "Correct word collocation",
+    "Apply grammar rules"
+  ],
+  "objectives_zh": [
+    "识别常见错误类型",
+    "修正词序问题",
+    "纠正词语搭配",
+    "应用语法规则"
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "type": "text",
+      "title": "Common Error Types",
+      "title_zh": "常见错误类型",
+      "content": "Learn to spot: word order errors (词序错误), missing components (成分残缺), redundancy (重复累赘), wrong collocations (搭配不当).",
+      "content_zh": "学会发现：词序错误、成分残缺、重复累赘、搭配不当。"
+    },
+    {
+      "id": "s2",
+      "type": "text",
+      "title": "Word Order",
+      "title_zh": "词序",
+      "content": "Remember: Time + Subject + Place + Manner + Verb + Object. Common mistakes: placing time/place incorrectly.",
+      "content_zh": "记住：时间 + 主语 + 地点 + 方式 + 动词 + 宾语。常见错误：错误放置时间/地点。"
+    },
+    {
+      "id": "s3",
+      "type": "text",
+      "title": "Word Collocation",
+      "title_zh": "词语搭配",
+      "content": "Some words naturally go together: 提高水平 (not 增加水平), 改进方法 (not 改进水平).",
+      "content_zh": "有些词语自然搭配：提高水平（不是增加水平）、改进方法（不是改进水平）。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "mcq",
+      "question": "Which is the correct word order?",
+      "question_zh": "哪个词序正确？",
+      "choices": [
+        "我去了昨天学校",
+        "昨天我去了学校",
+        "我昨天了去学校",
+        "学校我去了昨天"
+      ],
+      "choices_zh": [
+        "我去了昨天学校",
+        "昨天我去了学校",
+        "我昨天了去学校",
+        "学校我去了昨天"
+      ],
+      "answer": 1,
+      "explanation": "Time (昨天) comes at beginning or after subject",
+      "explanation_zh": "时间（昨天）放在开头或主语后"
+    }
+  ]
+}
