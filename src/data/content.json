@@ -2900,6 +2900,410 @@
           ]
         },
         {
+          "id": "quadratic-equations",
+          "title": "Quadratic Equations",
+          "title_zh": "一元二次方程",
+          "description": "Solve quadratic equations and understand parabolic graphs",
+          "description_zh": "求解一元二次方程并理解抛物线图形",
+          "objectives": [
+            "Recognize and write quadratic equations in standard form",
+            "Graph parabolas and identify key features (vertex, axis of symmetry, roots)",
+            "Solve quadratic equations by factoring",
+            "Use the quadratic formula to find solutions",
+            "Apply quadratic equations to real-world problems"
+          ],
+          "objectives_zh": [
+            "识别并写出标准形式的一元二次方程",
+            "绘制抛物线并识别关键特征（顶点、对称轴、根）",
+            "用因式分解法求解一元二次方程",
+            "使用求根公式求解",
+            "将一元二次方程应用于现实问题"
+          ],
+          "sections": [
+            {
+              "id": "intro",
+              "type": "text",
+              "title": "What is a Quadratic Equation?",
+              "title_zh": "什么是一元二次方程？",
+              "content": "A QUADRATIC EQUATION is an equation where the highest power of the variable is 2. STANDARD FORM: ax² + bx + c = 0, where a ≠ 0.\n\nExamples:\n• x² + 5x + 6 = 0 (a=1, b=5, c=6)\n• 2x² - 3x + 1 = 0 (a=2, b=-3, c=1)\n• x² - 4 = 0 (a=1, b=0, c=-4)\n• 3x² + 6x = 0 (a=3, b=6, c=0)\n\nNOT quadratic:\n• x + 5 = 0 (linear, power is 1)\n• x³ + 2x = 0 (cubic, power is 3)\n\nKEY FEATURES:\n• Can have 0, 1, or 2 real solutions (roots)\n• Graph is a U-shaped curve called a PARABOLA\n• Coefficient 'a' determines if parabola opens upward (a>0) or downward (a<0)",
+              "content_zh": "一元二次方程是变量的最高次幂为2的方程。标准形式：ax² + bx + c = 0，其中a ≠ 0。\n\n例子：\n• x² + 5x + 6 = 0 (a=1, b=5, c=6)\n• 2x² - 3x + 1 = 0 (a=2, b=-3, c=1)\n• x² - 4 = 0 (a=1, b=0, c=-4)\n• 3x² + 6x = 0 (a=3, b=6, c=0)\n\n不是一元二次方程：\n• x + 5 = 0 (一次方程，次幂为1)\n• x³ + 2x = 0 (三次方程，次幂为3)\n\n关键特征：\n• 可以有0、1或2个实数解（根）\n• 图形是U形曲线，称为抛物线\n• 系数'a'决定抛物线开口向上（a>0）或向下（a<0）"
+            },
+            {
+              "id": "parabola-graph",
+              "type": "animation",
+              "title": "Interactive Parabola Graph",
+              "title_zh": "交互式抛物线图",
+              "content": "ParabolaGraph",
+              "props": {
+                "defaultA": 1,
+                "defaultB": 0,
+                "defaultC": -4
+              }
+            },
+            {
+              "id": "graph-properties",
+              "type": "text",
+              "title": "Parabola Properties",
+              "title_zh": "抛物线的性质",
+              "content": "A parabola has several important features:\n\n1. VERTEX: The highest or lowest point on the parabola. Formula: x = -b/(2a), then substitute to find y.\n   • If a > 0: vertex is the MINIMUM point (opens upward ∪)\n   • If a < 0: vertex is the MAXIMUM point (opens downward ∩)\n\n2. AXIS OF SYMMETRY: Vertical line through the vertex. Equation: x = -b/(2a)\n   The parabola is symmetrical on both sides of this line.\n\n3. Y-INTERCEPT: Where the parabola crosses the y-axis. Simply the value of 'c'.\n   Point: (0, c)\n\n4. X-INTERCEPTS (ROOTS): Where the parabola crosses the x-axis. These are the SOLUTIONS to ax² + bx + c = 0.\n   • 2 roots: parabola crosses x-axis twice\n   • 1 root: parabola touches x-axis once (vertex on x-axis)\n   • 0 roots: parabola doesn't touch x-axis\n\n5. DIRECTION: Determined by coefficient 'a'\n   • a > 0: opens UPWARD (like a smile)\n   • a < 0: opens DOWNWARD (like a frown)\n   • |a| larger: narrower parabola\n   • |a| smaller: wider parabola",
+              "content_zh": "抛物线有几个重要特征：\n\n1. 顶点：抛物线上的最高点或最低点。公式：x = -b/(2a)，然后代入求y。\n   • 如果a > 0：顶点是最小值点（开口向上∪）\n   • 如果a < 0：顶点是最大值点（开口向下∩）\n\n2. 对称轴：通过顶点的垂直线。方程：x = -b/(2a)\n   抛物线在这条线的两侧对称。\n\n3. Y轴截距：抛物线与y轴的交点。就是'c'的值。\n   点：(0, c)\n\n4. X轴截距（根）：抛物线与x轴的交点。这些是ax² + bx + c = 0的解。\n   • 2个根：抛物线与x轴相交两次\n   • 1个根：抛物线与x轴相切一次（顶点在x轴上）\n   • 0个根：抛物线不与x轴相交\n\n5. 方向：由系数'a'决定\n   • a > 0：开口向上（像微笑）\n   • a < 0：开口向下（像皱眉）\n   • |a|越大：抛物线越窄\n   • |a|越小：抛物线越宽"
+            },
+            {
+              "id": "factoring-method",
+              "type": "text",
+              "title": "Solving by Factoring",
+              "title_zh": "因式分解法求解",
+              "content": "FACTORING METHOD works when the quadratic can be written as a product of two binomials.\n\nSTEPS:\n1) Write in standard form: ax² + bx + c = 0\n2) Factor the left side: (mx + p)(nx + q) = 0\n3) Use ZERO PRODUCT PROPERTY: If AB = 0, then A = 0 or B = 0\n4) Solve each factor for x\n\nExample 1: x² + 5x + 6 = 0\nStep 1: Already in standard form\nStep 2: Factor: (x + 2)(x + 3) = 0\nStep 3: Set each factor to zero:\n  x + 2 = 0  OR  x + 3 = 0\nStep 4: Solve:\n  x = -2  OR  x = -3\nSolutions: x = -2, -3\n\nExample 2: x² - 4 = 0 (Difference of squares)\nFactor: (x + 2)(x - 2) = 0\nSolutions: x = -2, 2\n\nExample 3: 2x² + 7x + 3 = 0\nFactor: (2x + 1)(x + 3) = 0\n  2x + 1 = 0  →  x = -1/2\n  x + 3 = 0  →  x = -3\nSolutions: x = -1/2, -3\n\nCHECKING: Substitute solutions back into original equation to verify!",
+              "content_zh": "因式分解法：当一元二次方程可以写成两个一次因式的乘积时使用。\n\n步骤：\n1) 写成标准形式：ax² + bx + c = 0\n2) 因式分解左边：(mx + p)(nx + q) = 0\n3) 使用零乘积性质：如果AB = 0，则A = 0或B = 0\n4) 解每个因式求x\n\n例1：x² + 5x + 6 = 0\n步骤1：已经是标准形式\n步骤2：因式分解：(x + 2)(x + 3) = 0\n步骤3：令每个因式为零：\n  x + 2 = 0  或  x + 3 = 0\n步骤4：求解：\n  x = -2  或  x = -3\n解：x = -2, -3\n\n例2：x² - 4 = 0（平方差）\n因式分解：(x + 2)(x - 2) = 0\n解：x = -2, 2\n\n例3：2x² + 7x + 3 = 0\n因式分解：(2x + 1)(x + 3) = 0\n  2x + 1 = 0  →  x = -1/2\n  x + 3 = 0  →  x = -3\n解：x = -1/2, -3\n\n检查：将解代入原方程验证！"
+            },
+            {
+              "id": "quadratic-formula",
+              "type": "text",
+              "title": "The Quadratic Formula",
+              "title_zh": "求根公式",
+              "content": "The QUADRATIC FORMULA solves ANY quadratic equation ax² + bx + c = 0:\n\nx = [-b ± √(b² - 4ac)] / (2a)\n\nSTEPS:\n1) Identify a, b, c from ax² + bx + c = 0\n2) Calculate the DISCRIMINANT: Δ = b² - 4ac\n3) Substitute into formula\n4) Simplify to get two solutions (use ± for both + and -)\n\nDISCRIMINANT tells us about the roots:\n• Δ > 0: TWO different real roots\n• Δ = 0: ONE repeated real root (vertex on x-axis)\n• Δ < 0: NO real roots (parabola doesn't cross x-axis)\n\nExample 1: 2x² + 5x - 3 = 0\na = 2, b = 5, c = -3\nΔ = 5² - 4(2)(-3) = 25 + 24 = 49 > 0 (two roots)\nx = [-5 ± √49] / (2×2)\nx = [-5 ± 7] / 4\nx = (-5 + 7)/4 = 2/4 = 0.5  OR  x = (-5 - 7)/4 = -12/4 = -3\nSolutions: x = 0.5, -3\n\nExample 2: x² - 6x + 9 = 0\na = 1, b = -6, c = 9\nΔ = (-6)² - 4(1)(9) = 36 - 36 = 0 (one root)\nx = [6 ± 0] / 2 = 3\nSolution: x = 3 (repeated root)\n\nThis formula ALWAYS works, even when factoring is difficult!",
+              "content_zh": "求根公式可以解决任何一元二次方程ax² + bx + c = 0：\n\nx = [-b ± √(b² - 4ac)] / (2a)\n\n步骤：\n1) 从ax² + bx + c = 0识别a、b、c\n2) 计算判别式：Δ = b² - 4ac\n3) 代入公式\n4) 简化得到两个解（±表示加和减两种情况）\n\n判别式告诉我们关于根的信息：\n• Δ > 0：两个不同的实数根\n• Δ = 0：一个重根（顶点在x轴上）\n• Δ < 0：没有实数根（抛物线不与x轴相交）\n\n例1：2x² + 5x - 3 = 0\na = 2, b = 5, c = -3\nΔ = 5² - 4(2)(-3) = 25 + 24 = 49 > 0（两个根）\nx = [-5 ± √49] / (2×2)\nx = [-5 ± 7] / 4\nx = (-5 + 7)/4 = 2/4 = 0.5  或  x = (-5 - 7)/4 = -12/4 = -3\n解：x = 0.5, -3\n\n例2：x² - 6x + 9 = 0\na = 1, b = -6, c = 9\nΔ = (-6)² - 4(1)(9) = 36 - 36 = 0（一个根）\nx = [6 ± 0] / 2 = 3\n解：x = 3（重根）\n\n这个公式总是有效，即使因式分解很困难！"
+            },
+            {
+              "id": "completing-square",
+              "type": "text",
+              "title": "Completing the Square",
+              "title_zh": "配方法",
+              "content": "COMPLETING THE SQUARE rewrites ax² + bx + c in the form a(x - h)² + k, where (h, k) is the VERTEX.\n\nSTEPS (when a = 1):\n1) Move constant to right side: x² + bx = -c\n2) Add (b/2)² to both sides\n3) Factor left side as a perfect square: (x + b/2)² = ...\n4) Solve by taking square root of both sides\n\nExample: x² + 6x + 5 = 0\nStep 1: x² + 6x = -5\nStep 2: Add (6/2)² = 9 to both sides\n        x² + 6x + 9 = -5 + 9 = 4\nStep 3: Factor: (x + 3)² = 4\nStep 4: Take square root: x + 3 = ±2\n        x = -3 + 2 = -1  OR  x = -3 - 2 = -5\nSolutions: x = -1, -5\n\nFinding VERTEX directly:\nRewrite x² + 6x + 5 in vertex form:\nx² + 6x + 5 = (x² + 6x + 9) - 9 + 5\n            = (x + 3)² - 4\nVertex form: y = (x + 3)² - 4\nVertex: (-3, -4)\n\nThis method is especially useful for:\n• Finding the vertex of a parabola\n• Solving when factoring is difficult\n• Understanding the parabola's transformations",
+              "content_zh": "配方法将ax² + bx + c改写为a(x - h)² + k的形式，其中(h, k)是顶点。\n\n步骤（当a = 1时）：\n1) 将常数项移到右边：x² + bx = -c\n2) 两边加上(b/2)²\n3) 左边因式分解为完全平方：(x + b/2)² = ...\n4) 两边开平方求解\n\n例：x² + 6x + 5 = 0\n步骤1：x² + 6x = -5\n步骤2：两边加(6/2)² = 9\n        x² + 6x + 9 = -5 + 9 = 4\n步骤3：因式分解：(x + 3)² = 4\n步骤4：开平方：x + 3 = ±2\n        x = -3 + 2 = -1  或  x = -3 - 2 = -5\n解：x = -1, -5\n\n直接求顶点：\n将x² + 6x + 5改写为顶点式：\nx² + 6x + 5 = (x² + 6x + 9) - 9 + 5\n            = (x + 3)² - 4\n顶点式：y = (x + 3)² - 4\n顶点：(-3, -4)\n\n这个方法特别适用于：\n• 求抛物线的顶点\n• 因式分解困难时求解\n• 理解抛物线的变换"
+            },
+            {
+              "id": "word-problems",
+              "type": "text",
+              "title": "Real-World Applications",
+              "title_zh": "实际应用",
+              "content": "Quadratic equations model many real-world situations:\n\nCOMMON APPLICATIONS:\n1. PROJECTILE MOTION: Height of thrown objects\n2. AREA PROBLEMS: Finding dimensions of rectangles\n3. NUMBER PROBLEMS: Consecutive integers, products\n4. BUSINESS: Profit maximization, break-even points\n\nExample 1 (Area - Singapore context):\nA rectangular HDB garden has length 3m more than its width. Area is 40m². Find dimensions.\n\nLet w = width\nLength = w + 3\nArea: w(w + 3) = 40\nw² + 3w = 40\nw² + 3w - 40 = 0\nFactor: (w + 8)(w - 5) = 0\nw = -8 (reject, width must be positive) OR w = 5\nWidth = 5m, Length = 8m\n\nExample 2 (Projectile):\nA ball is thrown upward from ground with equation h = -5t² + 20t, where h is height (meters) and t is time (seconds).\nWhen does it hit the ground?\n\nSet h = 0:\n-5t² + 20t = 0\n-5t(t - 4) = 0\nt = 0 (launch) OR t = 4 (landing)\nAnswer: The ball hits the ground after 4 seconds.\n\nExample 3 (Numbers):\nTwo consecutive positive integers have a product of 56. Find them.\n\nLet first number = n\nSecond number = n + 1\nProduct: n(n + 1) = 56\nn² + n = 56\nn² + n - 56 = 0\nFactor: (n + 8)(n - 7) = 0\nn = -8 (reject) OR n = 7\nNumbers: 7 and 8\n\nSTRATEGY:\n1) Define variable carefully\n2) Write equation from given information\n3) Rearrange to standard form\n4) Solve using any method\n5) Check if solution makes sense in context",
+              "content_zh": "一元二次方程可以模拟许多现实世界的情况：\n\n常见应用：\n1. 抛体运动：投掷物体的高度\n2. 面积问题：求矩形的尺寸\n3. 数字问题：连续整数、乘积\n4. 商业：利润最大化、盈亏平衡点\n\n例1（面积 - 新加坡背景）：\n一个矩形的组屋花园长度比宽度多3米。面积是40平方米。求尺寸。\n\n设宽度 = w\n长度 = w + 3\n面积：w(w + 3) = 40\nw² + 3w = 40\nw² + 3w - 40 = 0\n因式分解：(w + 8)(w - 5) = 0\nw = -8（舍去，宽度必须为正）或 w = 5\n宽度 = 5米，长度 = 8米\n\n例2（抛体）：\n一个球从地面向上抛出，方程为h = -5t² + 20t，其中h是高度（米），t是时间（秒）。\n球何时落地？\n\n令h = 0：\n-5t² + 20t = 0\n-5t(t - 4) = 0\nt = 0（发射）或 t = 4（落地）\n答案：球在4秒后落地。\n\n例3（数字）：\n两个连续正整数的乘积是56。求它们。\n\n设第一个数 = n\n第二个数 = n + 1\n乘积：n(n + 1) = 56\nn² + n = 56\nn² + n - 56 = 0\n因式分解：(n + 8)(n - 7) = 0\nn = -8（舍去）或 n = 7\n数字：7和8\n\n策略：\n1) 仔细定义变量\n2) 根据给定信息写方程\n3) 整理成标准形式\n4) 用任何方法求解\n5) 检查解在上下文中是否合理"
+            }
+          ],
+          "exercises": [
+            {
+              "id": "ex1",
+              "type": "mcq",
+              "difficulty": "easy",
+              "choices": [
+                "Linear equation",
+                "Quadratic equation",
+                "Cubic equation",
+                "Not an equation"
+              ],
+              "choices_zh": [
+                "一次方程",
+                "一元二次方程",
+                "三次方程",
+                "不是方程"
+              ],
+              "answer": 1,
+              "explanation": "Highest power is 2 (x²), so it's quadratic",
+              "explanation_zh": "最高次幂是2（x²），所以是一元二次方程",
+              "prompt": "Identify: x² + 3x - 4 = 0",
+              "prompt_zh": "识别：x² + 3x - 4 = 0"
+            },
+            {
+              "id": "ex2",
+              "type": "mcq",
+              "difficulty": "easy",
+              "choices": [
+                "Upward",
+                "Downward",
+                "Horizontal",
+                "Cannot determine"
+              ],
+              "choices_zh": [
+                "向上",
+                "向下",
+                "水平",
+                "无法确定"
+              ],
+              "answer": 0,
+              "explanation": "Coefficient a = 2 > 0, so parabola opens upward",
+              "explanation_zh": "系数a = 2 > 0，所以抛物线开口向上",
+              "prompt": "Does y = 2x² - 5x + 1 open upward or downward?",
+              "prompt_zh": "y = 2x² - 5x + 1开口向上还是向下？"
+            },
+            {
+              "id": "ex3",
+              "type": "mcq",
+              "difficulty": "easy",
+              "choices": [
+                "x = 2, 3",
+                "x = -2, -3",
+                "x = 2, -3",
+                "x = -2, 3"
+              ],
+              "choices_zh": [
+                "x = 2, 3",
+                "x = -2, -3",
+                "x = 2, -3",
+                "x = -2, 3"
+              ],
+              "answer": 1,
+              "explanation": "Factor: (x+2)(x+3) = 0, so x = -2 or x = -3",
+              "explanation_zh": "因式分解：(x+2)(x+3) = 0，所以x = -2或x = -3",
+              "prompt": "Solve by factoring: x² + 5x + 6 = 0",
+              "prompt_zh": "用因式分解法求解：x² + 5x + 6 = 0"
+            },
+            {
+              "id": "ex4",
+              "type": "mcq",
+              "difficulty": "easy",
+              "choices": [
+                "x = 4, -4",
+                "x = 2, -2",
+                "x = 16",
+                "x = 4"
+              ],
+              "choices_zh": [
+                "x = 4, -4",
+                "x = 2, -2",
+                "x = 16",
+                "x = 4"
+              ],
+              "answer": 0,
+              "explanation": "Factor as difference of squares: (x+4)(x-4) = 0, so x = ±4",
+              "explanation_zh": "平方差因式分解：(x+4)(x-4) = 0，所以x = ±4",
+              "prompt": "Solve: x² - 16 = 0",
+              "prompt_zh": "求解：x² - 16 = 0"
+            },
+            {
+              "id": "ex5",
+              "type": "mcq",
+              "difficulty": "medium",
+              "choices": [
+                "x = 1, 2",
+                "x = -1, -2",
+                "x = 1, -2",
+                "x = -1, 2"
+              ],
+              "choices_zh": [
+                "x = 1, 2",
+                "x = -1, -2",
+                "x = 1, -2",
+                "x = -1, 2"
+              ],
+              "answer": 2,
+              "explanation": "Factor: (x-1)(x+2) = 0, so x = 1 or x = -2",
+              "explanation_zh": "因式分解：(x-1)(x+2) = 0，所以x = 1或x = -2",
+              "prompt": "Solve: x² + x - 2 = 0",
+              "prompt_zh": "求解：x² + x - 2 = 0"
+            },
+            {
+              "id": "ex6",
+              "type": "mcq",
+              "difficulty": "medium",
+              "choices": [
+                "Two real roots",
+                "One real root",
+                "No real roots",
+                "Infinitely many roots"
+              ],
+              "choices_zh": [
+                "两个实数根",
+                "一个实数根",
+                "没有实数根",
+                "无穷多个根"
+              ],
+              "answer": 0,
+              "explanation": "Discriminant: 7² - 4(1)(10) = 49 - 40 = 9 > 0, so two real roots",
+              "explanation_zh": "判别式：7² - 4(1)(10) = 49 - 40 = 9 > 0，所以有两个实数根",
+              "prompt": "How many real roots: x² + 7x + 10 = 0?",
+              "prompt_zh": "有多少个实数根：x² + 7x + 10 = 0？"
+            },
+            {
+              "id": "ex7",
+              "type": "mcq",
+              "difficulty": "medium",
+              "choices": [
+                "(0, -3)",
+                "(0, 3)",
+                "(3, 0)",
+                "(-3, 0)"
+              ],
+              "choices_zh": [
+                "(0, -3)",
+                "(0, 3)",
+                "(3, 0)",
+                "(-3, 0)"
+              ],
+              "answer": 1,
+              "explanation": "Y-intercept is the constant term c when x = 0, so (0, 3)",
+              "explanation_zh": "Y轴截距是当x = 0时的常数项c，所以是(0, 3)",
+              "prompt": "Find y-intercept: y = x² + 2x + 3",
+              "prompt_zh": "求y轴截距：y = x² + 2x + 3"
+            },
+            {
+              "id": "ex8",
+              "type": "mcq",
+              "difficulty": "medium",
+              "choices": [
+                "x = 2, 3",
+                "x = -2, -3",
+                "x = 1/2, 3",
+                "x = -1/2, -3"
+              ],
+              "choices_zh": [
+                "x = 2, 3",
+                "x = -2, -3",
+                "x = 1/2, 3",
+                "x = -1/2, -3"
+              ],
+              "answer": 3,
+              "explanation": "Factor: (2x+1)(x+3) = 0, so x = -1/2 or x = -3",
+              "explanation_zh": "因式分解：(2x+1)(x+3) = 0，所以x = -1/2或x = -3",
+              "prompt": "Solve: 2x² + 7x + 3 = 0",
+              "prompt_zh": "求解：2x² + 7x + 3 = 0"
+            },
+            {
+              "id": "ex9",
+              "type": "short",
+              "difficulty": "hard",
+              "answer": "3",
+              "validator": "numeric",
+              "explanation": "Using quadratic formula: x = [-b ± √(b²-4ac)] / 2a = [6 ± √(36-36)] / 2 = 6/2 = 3",
+              "explanation_zh": "使用求根公式：x = [-b ± √(b²-4ac)] / 2a = [6 ± √(36-36)] / 2 = 6/2 = 3",
+              "prompt": "Solve using quadratic formula: x² - 6x + 9 = 0 (Enter the value of x)",
+              "prompt_zh": "用求根公式求解：x² - 6x + 9 = 0（输入x的值）"
+            },
+            {
+              "id": "ex10",
+              "type": "mcq",
+              "difficulty": "hard",
+              "choices": [
+                "x = 1, 3",
+                "x = -1, -3",
+                "x = (3 ± √5) / 2",
+                "No real solutions"
+              ],
+              "choices_zh": [
+                "x = 1, 3",
+                "x = -1, -3",
+                "x = (3 ± √5) / 2",
+                "没有实数解"
+              ],
+              "answer": 2,
+              "explanation": "Use quadratic formula: x = [3 ± √(9-8)] / 2 = (3 ± √5) / 2",
+              "explanation_zh": "使用求根公式：x = [3 ± √(9-8)] / 2 = (3 ± √5) / 2",
+              "prompt": "Solve: x² - 3x + 2 = 0 (Actually: x² - 3x + 1 = 0)",
+              "prompt_zh": "求解：x² - 3x + 1 = 0"
+            },
+            {
+              "id": "ex11",
+              "type": "mcq",
+              "difficulty": "hard",
+              "choices": [
+                "(-2, -5)",
+                "(2, -5)",
+                "(-2, 5)",
+                "(2, 5)"
+              ],
+              "choices_zh": [
+                "(-2, -5)",
+                "(2, -5)",
+                "(-2, 5)",
+                "(2, 5)"
+              ],
+              "answer": 0,
+              "explanation": "Vertex x = -b/2a = -4/2(1) = -2, then y = (-2)² + 4(-2) - 1 = 4 - 8 - 1 = -5",
+              "explanation_zh": "顶点x = -b/2a = -4/2(1) = -2，然后y = (-2)² + 4(-2) - 1 = 4 - 8 - 1 = -5",
+              "prompt": "Find vertex of y = x² + 4x - 1",
+              "prompt_zh": "求顶点：y = x² + 4x - 1"
+            },
+            {
+              "id": "ex12",
+              "type": "mcq",
+              "difficulty": "hard",
+              "choices": [
+                "5 and 6",
+                "6 and 7",
+                "7 and 8",
+                "8 and 9"
+              ],
+              "choices_zh": [
+                "5和6",
+                "6和7",
+                "7和8",
+                "8和9"
+              ],
+              "answer": 2,
+              "explanation": "Let n be first number. n(n+1) = 56, so n² + n - 56 = 0. Factor: (n+8)(n-7) = 0, n = 7 (reject -8)",
+              "explanation_zh": "设第一个数为n。n(n+1) = 56，所以n² + n - 56 = 0。因式分解：(n+8)(n-7) = 0，n = 7（舍去-8）",
+              "prompt": "Two consecutive positive integers have product 56. Find them.",
+              "prompt_zh": "两个连续正整数的乘积是56。求它们。"
+            },
+            {
+              "id": "ex13",
+              "type": "mcq",
+              "difficulty": "hard",
+              "choices": [
+                "4m × 10m",
+                "5m × 8m",
+                "6m × 7m",
+                "3m × 12m"
+              ],
+              "choices_zh": [
+                "4米 × 10米",
+                "5米 × 8米",
+                "6米 × 7米",
+                "3米 × 12米"
+              ],
+              "answer": 1,
+              "explanation": "Let w = width, then length = w+3. Area: w(w+3) = 40, w² + 3w - 40 = 0, (w+8)(w-5) = 0, w = 5",
+              "explanation_zh": "设宽度=w，则长度=w+3。面积：w(w+3) = 40，w² + 3w - 40 = 0，(w+8)(w-5) = 0，w = 5",
+              "prompt": "A rectangular garden's length is 3m more than width. Area is 40m². Find dimensions.",
+              "prompt_zh": "一个矩形花园的长度比宽度多3米。面积是40平方米。求尺寸。"
+            },
+            {
+              "id": "ex14",
+              "type": "mcq",
+              "difficulty": "hard",
+              "choices": [
+                "2 seconds",
+                "3 seconds",
+                "4 seconds",
+                "5 seconds"
+              ],
+              "choices_zh": [
+                "2秒",
+                "3秒",
+                "4秒",
+                "5秒"
+              ],
+              "answer": 2,
+              "explanation": "Set h = 0: -5t² + 20t = 0, -5t(t-4) = 0, t = 0 or t = 4. Landing time is 4 seconds.",
+              "explanation_zh": "令h = 0：-5t² + 20t = 0，-5t(t-4) = 0，t = 0或t = 4。落地时间是4秒。",
+              "prompt": "Ball thrown with h = -5t² + 20t (h=height, t=time). When does it land?",
+              "prompt_zh": "球的抛物方程为h = -5t² + 20t（h=高度，t=时间）。何时落地？"
+            },
+            {
+              "id": "ex15",
+              "type": "mcq",
+              "difficulty": "hard",
+              "choices": [
+                "0 real roots",
+                "1 real root",
+                "2 real roots",
+                "Cannot determine"
+              ],
+              "choices_zh": [
+                "0个实数根",
+                "1个实数根",
+                "2个实数根",
+                "无法确定"
+              ],
+              "answer": 0,
+              "explanation": "Discriminant: 2² - 4(1)(5) = 4 - 20 = -16 < 0, so no real roots",
+              "explanation_zh": "判别式：2² - 4(1)(5) = 4 - 20 = -16 < 0，所以没有实数根",
+              "prompt": "How many real roots: x² + 2x + 5 = 0?",
+              "prompt_zh": "有多少个实数根：x² + 2x + 5 = 0？"
+            }
+          ]
+        },
+        {
           "id": "ratio-rate-proportion",
           "title": "Ratio, Rate & Proportion",
           "title_zh": "比、比率与比例",
