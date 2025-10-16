@@ -4974,8 +4974,6 @@
             {
               "id": "ex1",
               "type": "mcq",
-              "question": "Which of the following is an element?",
-              "question_zh": "以下哪项是元素？",
               "choices": [
                 "Water (H₂O)",
                 "Oxygen (O₂)",
@@ -4990,13 +4988,13 @@
               ],
               "answer": 1,
               "explanation": "Oxygen (O₂) is an element because it contains only one type of atom. Water, carbon dioxide, and salt are all compounds made of two or more different elements.",
-              "explanation_zh": "氧气（O₂）是元素，因为它只含有一种原子。水、二氧化碳和盐都是由两种或多种不同元素组成的化合物。"
+              "explanation_zh": "氧气（O₂）是元素，因为它只含有一种原子。水、二氧化碳和盐都是由两种或多种不同元素组成的化合物。",
+              "prompt": "Which of the following is an element?",
+              "prompt_zh": "以下哪项是元素？"
             },
             {
               "id": "ex2",
               "type": "mcq",
-              "question": "How many total atoms are in one molecule of H₂SO₄ (sulfuric acid)?",
-              "question_zh": "一个H₂SO₄（硫酸）分子中总共有多少个原子？",
               "choices": [
                 "4 atoms",
                 "5 atoms",
@@ -5011,13 +5009,13 @@
               ],
               "answer": 3,
               "explanation": "H₂SO₄ contains 2 hydrogen atoms + 1 sulfur atom + 4 oxygen atoms = 7 atoms total.",
-              "explanation_zh": "H₂SO₄含有2个氢原子 + 1个硫原子 + 4个氧原子 = 总共7个原子。"
+              "explanation_zh": "H₂SO₄含有2个氢原子 + 1个硫原子 + 4个氧原子 = 总共7个原子。",
+              "prompt": "How many total atoms are in one molecule of H₂SO₄ (sulfuric acid)?",
+              "prompt_zh": "一个H₂SO₄（硫酸）分子中总共有多少个原子？"
             },
             {
               "id": "ex3",
               "type": "mcq",
-              "question": "What is the main difference between a compound and a mixture?",
-              "question_zh": "化合物和混合物之间的主要区别是什么？",
               "choices": [
                 "Compounds can be separated physically, mixtures cannot",
                 "Compounds have chemically bonded elements, mixtures do not",
@@ -5032,13 +5030,13 @@
               ],
               "answer": 1,
               "explanation": "In compounds, elements are chemically bonded in fixed ratios and have new properties. In mixtures, substances are physically mixed and keep their original properties.",
-              "explanation_zh": "在化合物中，元素以固定比例化学结合并具有新性质。在混合物中，物质物理混合并保持其原有性质。"
+              "explanation_zh": "在化合物中，元素以固定比例化学结合并具有新性质。在混合物中，物质物理混合并保持其原有性质。",
+              "prompt": "What is the main difference between a compound and a mixture?",
+              "prompt_zh": "化合物和混合物之间的主要区别是什么？"
             },
             {
               "id": "ex4",
               "type": "mcq",
-              "question": "Which group in the periodic table contains the most unreactive elements?",
-              "question_zh": "元素周期表中哪一族包含最不活泼的元素？",
               "choices": [
                 "Group 1 (Alkali metals)",
                 "Group 17 (Halogens)",
@@ -5053,17 +5051,262 @@
               ],
               "answer": 2,
               "explanation": "Group 18 noble gases (He, Ne, Ar, Kr, Xe) are the most unreactive because they have stable electron configurations.",
-              "explanation_zh": "第18族稀有气体（He、Ne、Ar、Kr、Xe）最不活泼，因为它们具有稳定的电子构型。"
+              "explanation_zh": "第18族稀有气体（He、Ne、Ar、Kr、Xe）最不活泼，因为它们具有稳定的电子构型。",
+              "prompt": "Which group in the periodic table contains the most unreactive elements?",
+              "prompt_zh": "元素周期表中哪一族包含最不活泼的元素？"
             },
             {
               "id": "ex5",
               "type": "short",
-              "question": "Sodium (Na) is a reactive metal and Chlorine (Cl) is a toxic gas. What compound do they form when chemically bonded?",
-              "question_zh": "钠（Na）是一种活泼金属，氯（Cl）是一种有毒气体。它们化学结合时形成什么化合物？",
               "answer": "NaCl",
               "validator": "exact",
               "explanation": "Sodium and chlorine chemically bond to form NaCl (sodium chloride), commonly known as table salt. Despite the dangerous properties of the individual elements, the compound is safe to eat.",
-              "explanation_zh": "钠和氯化学结合形成NaCl（氯化钠），通常称为食盐。尽管单独元素具有危险性质，但化合物可以安全食用。"
+              "explanation_zh": "钠和氯化学结合形成NaCl（氯化钠），通常称为食盐。尽管单独元素具有危险性质，但化合物可以安全食用。",
+              "prompt": "Sodium (Na) is a reactive metal and Chlorine (Cl) is a toxic gas. What compound do they form when chemically bonded?",
+              "prompt_zh": "钠（Na）是一种活泼金属，氯（Cl）是一种有毒气体。它们化学结合时形成什么化合物？"
+            },
+            {
+              "id": "ex6",
+              "type": "mcq",
+              "prompt": "What is the chemical formula for methane?",
+              "prompt_zh": "甲烷的化学式是什么？",
+              "choices": [
+                "CH₃",
+                "CH₄",
+                "C₂H₆",
+                "C₃H₈"
+              ],
+              "choices_zh": [
+                "CH₃",
+                "CH₄",
+                "C₂H₆",
+                "C₃H₈"
+              ],
+              "answer": 1,
+              "explanation": "Methane has the chemical formula CH₄, consisting of one carbon atom bonded to four hydrogen atoms.",
+              "explanation_zh": "甲烷的化学式是CH₄，由一个碳原子与四个氢原子结合而成。",
+              "difficulty": "easy"
+            },
+            {
+              "id": "ex7",
+              "type": "mcq",
+              "prompt": "Which of the following represents a molecule?",
+              "prompt_zh": "以下哪项代表分子？",
+              "choices": [
+                "A single oxygen atom (O)",
+                "An oxygen molecule (O₂)",
+                "Oxygen in the periodic table",
+                "An oxygen ion (O²⁻)"
+              ],
+              "choices_zh": [
+                "单个氧原子 (O)",
+                "氧分子 (O₂)",
+                "元素周期表中的氧",
+                "氧离子 (O²⁻)"
+              ],
+              "answer": 1,
+              "explanation": "A molecule is formed when two or more atoms bond together. O₂ is a molecule consisting of two oxygen atoms chemically bonded.",
+              "explanation_zh": "当两个或多个原子结合在一起时就形成分子。O₂是由两个氧原子化学结合而成的分子。",
+              "difficulty": "medium"
+            },
+            {
+              "id": "ex8",
+              "type": "multi",
+              "prompt": "Which of the following are compounds? (Select all that apply)",
+              "prompt_zh": "以下哪些是化合物？（选择所有适用的）",
+              "choices": [
+                "Water (H₂O)",
+                "Gold (Au)",
+                "Ammonia (NH₃)",
+                "Nitrogen gas (N₂)",
+                "Glucose (C₆H₁₂O₆)"
+              ],
+              "choices_zh": [
+                "水 (H₂O)",
+                "金 (Au)",
+                "氨 (NH₃)",
+                "氮气 (N₂)",
+                "葡萄糖 (C₆H₁₂O₆)"
+              ],
+              "answer": [
+                0,
+                2,
+                4
+              ],
+              "explanation": "Compounds contain two or more different elements chemically bonded. Water (H₂O), ammonia (NH₃), and glucose (C₆H₁₂O₆) are compounds. Gold is an element, and nitrogen gas is a molecule of the same element.",
+              "explanation_zh": "化合物含有两种或多种不同元素的化学结合。水（H₂O）、氨（NH₃）和葡萄糖（C₆H₁₂O₆）是化合物。金是元素，氮气是同一元素的分子。",
+              "difficulty": "medium"
+            },
+            {
+              "id": "ex9",
+              "type": "mcq",
+              "prompt": "In the chemical formula Ca(OH)₂, how many oxygen atoms are present?",
+              "prompt_zh": "在化学式Ca(OH)₂中，有多少个氧原子？",
+              "choices": [
+                "1 oxygen atom",
+                "2 oxygen atoms",
+                "3 oxygen atoms",
+                "4 oxygen atoms"
+              ],
+              "choices_zh": [
+                "1个氧原子",
+                "2个氧原子",
+                "3个氧原子",
+                "4个氧原子"
+              ],
+              "answer": 1,
+              "explanation": "The subscript 2 outside the brackets means there are 2 OH groups, so 2 oxygen atoms total (and also 2 hydrogen atoms).",
+              "explanation_zh": "括号外的下标2表示有2个OH基团，因此总共有2个氧原子（以及2个氢原子）。",
+              "difficulty": "medium"
+            },
+            {
+              "id": "ex10",
+              "type": "short",
+              "prompt": "Write the chemical formula for carbon dioxide.",
+              "prompt_zh": "写出二氧化碳的化学式。",
+              "answer": "CO2",
+              "validator": "exact",
+              "explanation": "Carbon dioxide has the formula CO₂ (or CO2), with one carbon atom and two oxygen atoms.",
+              "explanation_zh": "二氧化碳的化学式是CO₂（或CO2），有一个碳原子和两个氧原子。",
+              "difficulty": "easy"
+            },
+            {
+              "id": "ex11",
+              "type": "mcq",
+              "prompt": "What does the subscript number in a chemical formula indicate?",
+              "prompt_zh": "化学式中的下标数字表示什么？",
+              "choices": [
+                "The number of molecules",
+                "The number of atoms of that element",
+                "The atomic number",
+                "The mass number"
+              ],
+              "choices_zh": [
+                "分子数量",
+                "该元素的原子数量",
+                "原子序数",
+                "质量数"
+              ],
+              "answer": 1,
+              "explanation": "The subscript number tells us how many atoms of that element are in one molecule. For example, in H₂O, the subscript 2 means there are 2 hydrogen atoms.",
+              "explanation_zh": "下标数字告诉我们一个分子中该元素有多少个原子。例如，在H₂O中，下标2表示有2个氢原子。",
+              "difficulty": "easy"
+            },
+            {
+              "id": "ex12",
+              "type": "mcq",
+              "prompt": "Which statement about elements is TRUE?",
+              "prompt_zh": "关于元素的哪个陈述是正确的？",
+              "choices": [
+                "Elements can be broken down into simpler substances by chemical reactions",
+                "All elements are gases at room temperature",
+                "Elements contain only one type of atom",
+                "Elements always exist as single atoms"
+              ],
+              "choices_zh": [
+                "元素可以通过化学反应分解成更简单的物质",
+                "所有元素在室温下都是气体",
+                "元素只含有一种原子",
+                "元素总是以单个原子存在"
+              ],
+              "answer": 2,
+              "explanation": "Elements contain only one type of atom. They cannot be broken down further by chemical means. Elements can exist in different states and can form molecules (like O₂).",
+              "explanation_zh": "元素只含有一种原子。它们不能通过化学方法进一步分解。元素可以以不同状态存在，也可以形成分子（如O₂）。",
+              "difficulty": "medium"
+            },
+            {
+              "id": "ex13",
+              "type": "drag-order",
+              "prompt": "Arrange these substances from simplest to most complex:",
+              "prompt_zh": "按从最简单到最复杂排列这些物质：",
+              "items": [
+                "Atom",
+                "Element",
+                "Molecule",
+                "Compound"
+              ],
+              "items_zh": [
+                "原子",
+                "元素",
+                "分子",
+                "化合物"
+              ],
+              "answer": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "explanation": "The correct order from simplest to most complex is: Atom (single particle) → Element (same type of atoms) → Molecule (atoms bonded together) → Compound (different elements bonded together).",
+              "explanation_zh": "从最简单到最复杂的正确顺序是：原子（单个粒子）→ 元素（相同类型的原子）→ 分子（原子结合在一起）→ 化合物（不同元素结合在一起）。",
+              "difficulty": "hard"
+            },
+            {
+              "id": "ex14",
+              "type": "mcq",
+              "prompt": "How many elements are in the periodic table that occur naturally on Earth?",
+              "prompt_zh": "地球上自然存在的元素周期表中有多少种元素？",
+              "choices": [
+                "About 50",
+                "About 70",
+                "About 90",
+                "About 110"
+              ],
+              "choices_zh": [
+                "约50种",
+                "约70种",
+                "约90种",
+                "约110种"
+              ],
+              "answer": 2,
+              "explanation": "There are about 90 naturally occurring elements on Earth (specifically 92, from hydrogen to uranium). The rest are synthetic elements created in laboratories.",
+              "explanation_zh": "地球上约有90种自然存在的元素（具体是92种，从氢到铀）。其余的是在实验室中创造的合成元素。",
+              "difficulty": "hard"
+            },
+            {
+              "id": "ex15",
+              "type": "match",
+              "prompt": "Match each chemical formula with its common name:",
+              "prompt_zh": "将每个化学式与其常用名称匹配：",
+              "pairs": [
+                [
+                  "H₂O",
+                  "Water"
+                ],
+                [
+                  "NaCl",
+                  "Table salt"
+                ],
+                [
+                  "CO₂",
+                  "Carbon dioxide"
+                ],
+                [
+                  "O₂",
+                  "Oxygen gas"
+                ]
+              ],
+              "pairs_zh": [
+                [
+                  "H₂O",
+                  "水"
+                ],
+                [
+                  "NaCl",
+                  "食盐"
+                ],
+                [
+                  "CO₂",
+                  "二氧化碳"
+                ],
+                [
+                  "O₂",
+                  "氧气"
+                ]
+              ],
+              "explanation": "These are common substances we encounter daily: H₂O (water), NaCl (table salt), CO₂ (carbon dioxide), and O₂ (oxygen gas).",
+              "explanation_zh": "这些是我们日常遇到的常见物质：H₂O（水）、NaCl（食盐）、CO₂（二氧化碳）和O₂（氧气）。",
+              "difficulty": "easy"
             }
           ]
         },
