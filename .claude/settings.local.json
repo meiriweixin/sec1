@@ -13,7 +13,12 @@
       "Bash(python:*)",
       "Bash(git log:*)",
       "Bash(npm install:*)",
-      "Bash(npm run build:*)"
+      "Bash(npm run build:*)",
+      "Bash(openspec list:*)",
+      "Bash(openspec validate:*)",
+      "Bash(openspec show:*)",
+      "Bash(openspec diff:*)",
+      "Bash(npm run lint:*)"
     ],
     "deny": [],
     "ask": []

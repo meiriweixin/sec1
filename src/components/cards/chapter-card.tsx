@@ -2,9 +2,10 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ProgressRing } from "@/components/ui/progress-ring";
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { useStore } from "@/lib/store";
 import { useTranslations } from "@/lib/i18n";
-import { Play, CheckCircle, Clock } from "lucide-react";
+import { Play, CheckCircle, Clock, AlertCircle, RotateCcw } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 
@@ -56,6 +57,32 @@ export function ChapterCard({ chapter, subjectId, index }: ChapterCardProps) {
 
   const status = getStatus();
 
+  // Check if review is due
+  const isReviewDue = () => {
+    if (!progress?.reviewSchedule || !progress?.completed) return false;
+    const now = new Date();
+    const nextReview = new Date(progress.reviewSchedule.nextReviewDate);
+    return nextReview <= now;
+  };
+
+  const getDaysUntilReview = () => {
+    if (!progress?.reviewSchedule) return null;
+    const now = new Date();
+    const nextReview = new Date(progress.reviewSchedule.nextReviewDate);
+    const diffTime = nextReview.getTime() - now.getTime();
+    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+    return diffDays;
+  };
+
+  const getDaysOverdue = () => {
+    if (!progress?.reviewSchedule) return 0;
+    const now = new Date();
+    const nextReview = new Date(progress.reviewSchedule.nextReviewDate);
+    const diffTime = now.getTime() - nextReview.getTime();
+    const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+    return Math.max(0, diffDays);
+  };
+
   const getStatusBadge = () => {
     switch (status) {
       case 'completed':
@@ -104,13 +131,53 @@ export function ChapterCard({ chapter, subjectId, index }: ChapterCardProps) {
         <CardHeader className="pb-4">
           <div className="flex items-start justify-between">
             <div className="flex-1">
-              <div className="flex items-center space-x-2 mb-2">
+              <div className="flex items-center flex-wrap gap-2 mb-2">
                 {getStatusIcon()}
                 {getStatusBadge()}
                 {tag && (
                   <Badge variant="outline" className={`text-xs font-medium ${getTagColor()}`}>
                     {tag}
                   </Badge>
+                )}
+                {/* Review badges */}
+                {isReviewDue() && status === 'completed' && (
+                  <TooltipProvider>
+                    <Tooltip>
+                      <TooltipTrigger>
+                        <Badge
+                          className={`text-xs ${
+                            getDaysOverdue() > 3
+                              ? 'bg-red-500/90 text-white hover:bg-red-600'
+                              : 'bg-yellow-500/90 text-white hover:bg-yellow-600'
+                          }`}
+                        >
+                          <AlertCircle className="h-3 w-3 mr-1" />
+                          {t.dueForReview || 'Due for Review'}
+                        </Badge>
+                      </TooltipTrigger>
+                      <TooltipContent>
+                        <p>
+                          {getDaysOverdue() > 0
+                            ? `${getDaysOverdue()} ${t.daysOverdue || 'days overdue'}`
+                            : t.reviewDueToday || 'Review due today'}
+                        </p>
+                      </TooltipContent>
+                    </Tooltip>
+                  </TooltipProvider>
+                )}
+                {!isReviewDue() && status === 'completed' && getDaysUntilReview() && getDaysUntilReview()! > 0 && (
+                  <TooltipProvider>
+                    <Tooltip>
+                      <TooltipTrigger>
+                        <Badge variant="outline" className="text-xs text-muted-foreground">
+                          {t.nextReviewIn || 'Next review in'} {getDaysUntilReview()}d
+                        </Badge>
+                      </TooltipTrigger>
+                      <TooltipContent>
+                        <p>{new Date(progress?.reviewSchedule?.nextReviewDate || '').toLocaleDateString()}</p>
+                      </TooltipContent>
+                    </Tooltip>
+                  </TooltipProvider>
                 )}
               </div>
               <CardTitle className="text-lg font-semibold mb-1">{title}</CardTitle>
@@ -159,13 +226,25 @@ export function ChapterCard({ chapter, subjectId, index }: ChapterCardProps) {
               </div>
             </div>
             
-            {/* Action button */}
-            <Button
-              onClick={() => navigate(`/subjects/${subjectId}/${chapter.id}`)}
-              className="w-full btn-primary"
-            >
-              {status === 'completed' ? 'Review' : status === 'inProgress' ? t.continueChapter : t.startChapter}
-            </Button>
+            {/* Action buttons */}
+            <div className="flex gap-2">
+              <Button
+                onClick={() => navigate(`/subjects/${subjectId}/${chapter.id}`)}
+                className="flex-1 btn-primary"
+              >
+                {status === 'completed' ? t.view || 'View' : status === 'inProgress' ? t.continueChapter : t.startChapter}
+              </Button>
+              {status === 'completed' && (
+                <Button
+                  onClick={() => navigate(`/subjects/${subjectId}/${chapter.id}?mode=review`)}
+                  variant={isReviewDue() ? "default" : "outline"}
+                  className="flex items-center gap-1"
+                >
+                  <RotateCcw className="h-4 w-4" />
+                  {t.review || 'Review'}
+                </Button>
+              )}
+            </div>
           </div>
         </CardContent>
       </Card>

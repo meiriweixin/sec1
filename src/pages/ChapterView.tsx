@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams, useNavigate, useSearchParams } from "react-router-dom";
 import { AppHeader } from "@/components/layout/app-header";
 import { LessonPlayer } from "@/components/lesson/lesson-player";
 import { ExercisePlayer } from "@/components/exercises/exercise-player";
@@ -9,7 +9,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Badge } from "@/components/ui/badge";
 import { useStore } from "@/lib/store";
 import { useTranslations } from "@/lib/i18n";
-import { ArrowLeft, BookOpen, PenTool, Trophy, Clock } from "lucide-react";
+import { ArrowLeft, BookOpen, PenTool, Trophy, Clock, RotateCcw, X } from "lucide-react";
 import { motion } from "framer-motion";
 import contentData from "@/data/content.json";
 import { useToast } from "@/hooks/use-toast";
@@ -17,9 +17,12 @@ import { useToast } from "@/hooks/use-toast";
 export default function ChapterView() {
   const { subjectId, chapterId } = useParams();
   const navigate = useNavigate();
+  const [searchParams, setSearchParams] = useSearchParams();
   const { user, language, getChapterProgress, updateProgress } = useStore();
   const t = useTranslations(language);
   const { toast } = useToast();
+
+  const isReviewMode = searchParams.get('mode') === 'review';
   
   const [activeTab, setActiveTab] = useState<"lesson" | "exercises">("lesson");
   const [startTime, setStartTime] = useState<number>(Date.now());
@@ -61,8 +64,18 @@ export default function ChapterView() {
   const objectives = language === 'zh' && chapter.objectives_zh ? chapter.objectives_zh : chapter.objectives;
 
   const handleLessonComplete = () => {
+    // In review mode, don't update progress
+    if (isReviewMode) {
+      toast({
+        title: t.reviewCompleted || "📚 Lesson Reviewed!",
+        description: t.reviewLessonDesc || "Keep practicing to reinforce your learning.",
+      });
+      setActiveTab("exercises");
+      return;
+    }
+
     const timeSpent = Math.floor((Date.now() - startTime) / 60000); // in minutes
-    
+
     updateProgress({
       subjectId,
       chapterId,
@@ -70,19 +83,29 @@ export default function ChapterView() {
       totalTimeSpent: (progress?.totalTimeSpent || 0) + timeSpent,
       lastAccessed: new Date().toISOString(),
     });
-    
+
     toast({
       title: "🎉 Lesson Completed!",
       description: "Great job! Now try the exercises to reinforce your learning.",
     });
-    
+
     setActiveTab("exercises");
   };
 
   const handleExerciseComplete = (scores: Record<string, number>) => {
     const timeSpent = Math.floor((Date.now() - startTime) / 60000);
     const allCompleted = chapter.exercises.every(e => scores[e.id] !== undefined);
-    
+    const averageScore = Object.values(scores).reduce((a, b) => a + b, 0) / Object.values(scores).length;
+
+    // In review mode, show different message and don't update completion
+    if (isReviewMode) {
+      toast({
+        title: averageScore >= 80 ? "🏆 Excellent Review!" : averageScore >= 60 ? "👍 Good Review!" : "💪 Keep Practicing!",
+        description: `${t.reviewCompleted || 'Review completed!'} You scored ${Math.round(averageScore)}%.`,
+      });
+      return;
+    }
+
     updateProgress({
       subjectId,
       chapterId,
@@ -92,9 +115,7 @@ export default function ChapterView() {
       lastAccessed: new Date().toISOString(),
       completed: allCompleted && completedSections.length === chapter.sections.length,
     });
-    
-    const averageScore = Object.values(scores).reduce((a, b) => a + b, 0) / Object.values(scores).length;
-    
+
     toast({
       title: averageScore >= 80 ? "🏆 Excellent!" : averageScore >= 60 ? "👍 Good job!" : "💪 Keep practicing!",
       description: `You scored ${Math.round(averageScore)}% on the exercises.`,
@@ -112,14 +133,47 @@ export default function ChapterView() {
     }
   };
 
+  const handleExitReviewMode = () => {
+    searchParams.delete('mode');
+    setSearchParams(searchParams);
+  };
+
   const lessonProgress = (completedSections.length / chapter.sections.length) * 100;
   const exerciseProgress = (completedExercises.length / chapter.exercises.length) * 100;
 
   return (
     <div className="min-h-screen bg-background">
       <AppHeader />
-      
+
       <main className="container mx-auto px-4 py-8">
+        {/* Review Mode Banner */}
+        {isReviewMode && (
+          <motion.div
+            initial={{ opacity: 0, y: -10 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="mb-4 flex items-center justify-between bg-primary/10 border border-primary/20 rounded-lg px-4 py-3"
+          >
+            <div className="flex items-center space-x-2">
+              <RotateCcw className="h-5 w-5 text-primary" />
+              <div>
+                <p className="font-medium text-primary">{t.reviewMode || 'Review Mode'}</p>
+                <p className="text-sm text-muted-foreground">
+                  {t.reviewModeDesc || 'Practice exercises to reinforce your learning. Progress won\'t affect completion status.'}
+                </p>
+              </div>
+            </div>
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={handleExitReviewMode}
+              className="text-primary hover:text-primary/80"
+            >
+              <X className="h-4 w-4 mr-1" />
+              {t.exitReview || 'Exit Review'}
+            </Button>
+          </motion.div>
+        )}
+
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: -20 }}
@@ -192,10 +246,10 @@ export default function ChapterView() {
                 <span>{t.lesson}</span>
                 {lessonProgress === 100 && <Trophy className="h-3 w-3 text-success" />}
               </TabsTrigger>
-              <TabsTrigger 
-                value="exercises" 
+              <TabsTrigger
+                value="exercises"
                 className="flex items-center space-x-2"
-                disabled={completedSections.length === 0}
+                disabled={!isReviewMode && completedSections.length === 0}
               >
                 <PenTool className="h-4 w-4" />
                 <span>{t.exercise}</span>
@@ -213,13 +267,14 @@ export default function ChapterView() {
             </TabsContent>
 
             <TabsContent value="exercises" className="space-y-6">
-              {completedSections.length > 0 ? (
+              {(completedSections.length > 0 || isReviewMode) ? (
                 <ExercisePlayer
                   exercises={chapter.exercises}
                   onComplete={handleExerciseComplete}
                   chapterId={chapterId}
                   subjectId={subjectId}
                   previousScores={exerciseScores}
+                  isReviewMode={isReviewMode}
                 />
               ) : (
                 <Card className="text-center py-12">

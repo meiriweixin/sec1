@@ -8,6 +8,20 @@ export interface User {
   isGuest?: boolean;
 }
 
+export interface ExerciseAttempt {
+  exerciseId: string;
+  attemptedAt: string; // ISO 8601
+  score: number; // 0-100
+  timeSpent: number; // seconds
+  isReview: boolean; // true if attempted in review mode
+}
+
+export interface ReviewSchedule {
+  nextReviewDate: string; // ISO 8601
+  intervalDays: number;
+  easinessFactor: number; // 1.3 - 3.0
+}
+
 export interface Progress {
   subjectId: string;
   chapterId: string;
@@ -17,6 +31,10 @@ export interface Progress {
   totalTimeSpent: number;
   lastAccessed: string;
   completed: boolean;
+  // Review mode fields (v2)
+  attempts?: ExerciseAttempt[]; // Full attempt history
+  reviewSchedule?: ReviewSchedule; // Spaced repetition metadata
+  retentionScore?: number; // 0-100, weighted average of recent attempts
 }
 
 export interface AIModuleProgress {
@@ -32,7 +50,7 @@ export interface UserState {
   aiProgress: Record<string, AIModuleProgress>;
   currentSubject: string | null;
   currentChapter: string | null;
-  
+
   // Actions
   login: (user: User) => void;
   logout: () => void;
@@ -44,6 +62,55 @@ export interface UserState {
   getChapterProgress: (subjectId: string, chapterId: string) => Progress | undefined;
   getSubjectProgress: (subjectId: string) => Progress[];
   toggleAIModuleComplete: (moduleId: string) => void;
+  addExerciseAttempt: (subjectId: string, chapterId: string, attempt: ExerciseAttempt) => void;
+  updateReviewSchedule: (subjectId: string, chapterId: string, schedule: ReviewSchedule) => void;
+  getReviewQueue: () => Progress[];
+  getDueReviews: () => Progress[];
+}
+
+/**
+ * Migrates legacy progress data to v2 format with review mode fields
+ * @param oldProgress - Legacy progress object without review fields
+ * @returns Migrated progress object with attempts, reviewSchedule, and retentionScore
+ */
+function migrateProgressToV2(oldProgress: Progress): Progress {
+  // Skip if already migrated
+  if (oldProgress.attempts && oldProgress.reviewSchedule) {
+    return oldProgress;
+  }
+
+  // Convert exercisesCompleted to attempts array
+  const attempts: ExerciseAttempt[] = oldProgress.exercisesCompleted.map(exerciseId => ({
+    exerciseId,
+    attemptedAt: oldProgress.lastAccessed || new Date().toISOString(),
+    score: oldProgress.exerciseScores[exerciseId] || 0,
+    timeSpent: 0, // Unknown for legacy data
+    isReview: false, // First attempts are never reviews
+  }));
+
+  // Calculate average score for initial easiness factor
+  const avgScore = attempts.length > 0
+    ? attempts.reduce((sum, att) => sum + att.score, 0) / attempts.length
+    : 60; // Default to medium difficulty
+
+  // Calculate initial easiness factor: EF = 1.3 + (score/100 × 1.7)
+  const easinessFactor = Math.max(1.3, Math.min(3.0, 1.3 + (avgScore / 100) * 1.7));
+
+  // Set initial review date to 1 day from last access if chapter is completed
+  const nextReviewDate = oldProgress.completed
+    ? new Date(new Date(oldProgress.lastAccessed || Date.now()).getTime() + 24 * 60 * 60 * 1000).toISOString()
+    : new Date(Date.now() + 365 * 24 * 60 * 60 * 1000).toISOString(); // Far future if not completed
+
+  return {
+    ...oldProgress,
+    attempts,
+    reviewSchedule: {
+      nextReviewDate,
+      intervalDays: 1,
+      easinessFactor,
+    },
+    retentionScore: avgScore,
+  };
 }
 
 export const useStore = create<UserState>()(
@@ -116,7 +183,7 @@ export const useStore = create<UserState>()(
       toggleAIModuleComplete: (moduleId) => {
         const state = get();
         const currentProgress = state.aiProgress[moduleId];
-        
+
         set({
           aiProgress: {
             ...state.aiProgress,
@@ -126,6 +193,93 @@ export const useStore = create<UserState>()(
             },
           },
         });
+      },
+
+      /**
+       * Adds an exercise attempt to the progress history
+       */
+      addExerciseAttempt: (subjectId, chapterId, attempt) => {
+        const state = get();
+        const existingProgress = state.progress.find(
+          p => p.subjectId === subjectId && p.chapterId === chapterId
+        );
+
+        if (!existingProgress) return;
+
+        const migratedProgress = migrateProgressToV2(existingProgress);
+        const updatedAttempts = [...(migratedProgress.attempts || []), attempt];
+
+        // Calculate retention score (weighted average of recent attempts)
+        const recentAttempts = updatedAttempts
+          .filter(att => att.exerciseId === attempt.exerciseId)
+          .slice(-3); // Last 3 attempts for this exercise
+
+        let retentionScore = migratedProgress.retentionScore || 0;
+        if (recentAttempts.length >= 2) {
+          const weights = [0.5, 0.3, 0.2];
+          retentionScore = recentAttempts
+            .slice(-3)
+            .reverse()
+            .reduce((sum, att, idx) => sum + att.score * (weights[idx] || 0), 0);
+        } else if (recentAttempts.length === 1) {
+          retentionScore = recentAttempts[0].score;
+        }
+
+        const newProgressArray = state.progress.map(p =>
+          p.subjectId === subjectId && p.chapterId === chapterId
+            ? {
+                ...migratedProgress,
+                attempts: updatedAttempts,
+                retentionScore,
+                lastAccessed: new Date().toISOString(),
+              }
+            : p
+        );
+
+        set({ progress: newProgressArray });
+      },
+
+      /**
+       * Updates the review schedule for a chapter
+       */
+      updateReviewSchedule: (subjectId, chapterId, schedule) => {
+        const state = get();
+        const newProgressArray = state.progress.map(p => {
+          if (p.subjectId === subjectId && p.chapterId === chapterId) {
+            const migrated = migrateProgressToV2(p);
+            return {
+              ...migrated,
+              reviewSchedule: schedule,
+            };
+          }
+          return p;
+        });
+
+        set({ progress: newProgressArray });
+      },
+
+      /**
+       * Gets all chapters in review queue (due or overdue)
+       */
+      getReviewQueue: () => {
+        const state = get();
+        const now = new Date().toISOString();
+
+        return state.progress
+          .map(migrateProgressToV2)
+          .filter(
+            p =>
+              p.completed &&
+              p.reviewSchedule &&
+              p.reviewSchedule.nextReviewDate <= now
+          );
+      },
+
+      /**
+       * Gets chapters due for review (same as getReviewQueue, alias for clarity)
+       */
+      getDueReviews: () => {
+        return get().getReviewQueue();
       },
     }),
     {
@@ -137,6 +291,23 @@ export const useStore = create<UserState>()(
         progress: state.progress,
         aiProgress: state.aiProgress,
       }),
+      onRehydrateStorage: () => {
+        return (state) => {
+          if (state) {
+            // Check migration flag
+            const migrationFlag = localStorage.getItem('sg-learning-progress-migration-v2');
+
+            if (!migrationFlag) {
+              // Migrate all progress items
+              const migratedProgress = state.progress.map(migrateProgressToV2);
+              state.progress = migratedProgress;
+
+              // Set migration flag to prevent re-running
+              localStorage.setItem('sg-learning-progress-migration-v2', 'completed');
+            }
+          }
+        };
+      },
     }
   )
 );

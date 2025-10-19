@@ -62,6 +62,26 @@ export const translations = {
     streak: "Day Streak",
     badges: "Badges",
     
+    // Review Mode
+    reviewMode: "Review Mode",
+    reviewModeDesc: "Practice exercises to reinforce your learning. Progress won't affect completion status.",
+    exitReview: "Exit Review",
+    dueForReview: "Due for Review",
+    nextReviewIn: "Next review in",
+    startReview: "Start Review",
+    retryExercise: "Retry Exercise",
+    reviewCompleted: "Review completed!",
+    reviewLessonDesc: "Keep practicing to reinforce your learning.",
+    youreCaughtUp: "You're all caught up!",
+    reviewQueue: "Review Queue",
+    snoozeReview: "Snooze Review",
+    improvementVsPrevious: "Improvement vs. Previous",
+    retentionScore: "Retention Score",
+    daysOverdue: "days overdue",
+    reviewDueToday: "Review due today",
+    view: "View",
+    review: "Review",
+
     // Common
     loading: "Loading...",
     error: "Error",
@@ -139,6 +159,26 @@ export const translations = {
     streak: "连续天数",
     badges: "徽章",
     
+    // Review Mode
+    reviewMode: "复习模式",
+    reviewModeDesc: "练习习题以巩固学习。进度不会影响完成状态。",
+    exitReview: "退出复习",
+    dueForReview: "需要复习",
+    nextReviewIn: "下次复习",
+    startReview: "开始复习",
+    retryExercise: "重做习题",
+    reviewCompleted: "复习完成！",
+    reviewLessonDesc: "继续练习以巩固学习。",
+    youreCaughtUp: "已全部复习完毕！",
+    reviewQueue: "复习队列",
+    snoozeReview: "推迟复习",
+    improvementVsPrevious: "与上次相比的进步",
+    retentionScore: "保持分数",
+    daysOverdue: "天逾期",
+    reviewDueToday: "今日需复习",
+    view: "查看",
+    review: "复习",
+
     // Common
     loading: "加载中...",
     error: "错误",
