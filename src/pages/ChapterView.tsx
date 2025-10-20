@@ -80,6 +80,8 @@ export default function ChapterView() {
       subjectId,
       chapterId,
       sectionsCompleted: chapter.sections.map(s => s.id),
+      exercisesCompleted: progress?.exercisesCompleted || [],
+      exerciseScores: progress?.exerciseScores || {},
       totalTimeSpent: (progress?.totalTimeSpent || 0) + timeSpent,
       lastAccessed: new Date().toISOString(),
     });
@@ -109,6 +111,7 @@ export default function ChapterView() {
     updateProgress({
       subjectId,
       chapterId,
+      sectionsCompleted: progress?.sectionsCompleted || [],
       exercisesCompleted: Object.keys(scores),
       exerciseScores: { ...exerciseScores, ...scores },
       totalTimeSpent: (progress?.totalTimeSpent || 0) + timeSpent,
