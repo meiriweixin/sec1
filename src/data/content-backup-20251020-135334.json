@@ -56,6 +56,8 @@
             {
               "id": "ex1",
               "type": "mcq",
+              "question": "Identify the part of speech: The **beautiful** garden has many flowers.",
+              "question_zh": "识别词性：**美丽的**花园有许多花。",
               "choices": [
                 "Noun",
                 "Verb",
@@ -70,13 +72,13 @@
               ],
               "answer": 2,
               "explanation": "'Beautiful' is an adjective because it describes the noun 'garden'.",
-              "explanation_zh": "'Beautiful'是形容词，因为它描述名词'garden'。",
-              "prompt": "Identify the part of speech: The **beautiful** garden has many flowers.",
-              "prompt_zh": "识别词性：**美丽的**花园有许多花。"
+              "explanation_zh": "'Beautiful'是形容词，因为它描述名词'garden'。"
             },
             {
               "id": "ex2",
               "type": "mcq",
+              "question": "Which sentence has correct subject-verb agreement?",
+              "question_zh": "哪个句子具有正确的主谓一致？",
               "choices": [
                 "The list of names are on the board.",
                 "The list of names is on the board.",
@@ -91,13 +93,13 @@
               ],
               "answer": 1,
               "explanation": "The subject is 'list' (singular), so we use 'is'.",
-              "explanation_zh": "主语是'list'（单数），所以我们使用'is'。",
-              "prompt": "Which sentence has correct subject-verb agreement?",
-              "prompt_zh": "哪个句子具有正确的主谓一致？"
+              "explanation_zh": "主语是'list'（单数），所以我们使用'is'。"
             },
             {
               "id": "ex3",
               "type": "mcq",
+              "question": "What type of sentence? 'I wanted to go, but I had homework.'",
+              "question_zh": "什么类型的句子？'我想去，但我有作业。'",
               "choices": [
                 "Simple",
                 "Compound",
@@ -112,13 +114,13 @@
               ],
               "answer": 1,
               "explanation": "Compound sentence: two independent clauses joined by 'but'.",
-              "explanation_zh": "并列句：两个独立子句由'but'连接。",
-              "prompt": "What type of sentence? 'I wanted to go, but I had homework.'",
-              "prompt_zh": "什么类型的句子？'我想去，但我有作业。'"
+              "explanation_zh": "并列句：两个独立子句由'but'连接。"
             },
             {
               "id": "ex4",
               "type": "mcq",
+              "question": "Which is correct?",
+              "question_zh": "哪个正确？",
               "choices": [
                 "Everyone have finished.",
                 "Everyone has finished.",
@@ -133,19 +135,17 @@
               ],
               "answer": 1,
               "explanation": "'Everyone' is singular, so use 'has'.",
-              "explanation_zh": "'Everyone'是单数，所以使用'has'。",
-              "prompt": "Which is correct?",
-              "prompt_zh": "哪个正确？"
+              "explanation_zh": "'Everyone'是单数，所以使用'has'。"
             },
             {
               "id": "ex5",
               "type": "short",
+              "question": "Fix this fragment: 'Because I was tired.'",
+              "question_zh": "修正这个片段：'因为我很累。'",
               "answer": "Because I was tired, I went to bed early.",
               "validator": "exact",
               "explanation": "Add an independent clause to complete the thought.",
-              "explanation_zh": "添加独立子句以完成思想。",
-              "prompt": "Fix this fragment: 'Because I was tired.'",
-              "prompt_zh": "修正这个片段：'因为我很累。'"
+              "explanation_zh": "添加独立子句以完成思想。"
             }
           ]
         },
@@ -197,6 +197,8 @@
             {
               "id": "ex1",
               "type": "mcq",
+              "question": "What does 'benevolent' mean? 'The benevolent teacher always helps her students.'",
+              "question_zh": "什么意思'benevolent'？'仁慈的老师总是帮助她的学生。'",
               "choices": [
                 "Strict",
                 "Kind and generous",
@@ -211,13 +213,13 @@
               ],
               "answer": 1,
               "explanation": "Context clue: 'always helps' suggests kindness.",
-              "explanation_zh": "上下文线索：'总是帮助'表明善良。",
-              "prompt": "What does 'benevolent' mean? 'The benevolent teacher always helps her students.'",
-              "prompt_zh": "什么意思'benevolent'？'仁慈的老师总是帮助她的学生。'"
+              "explanation_zh": "上下文线索：'总是帮助'表明善良。"
             },
             {
               "id": "ex2",
               "type": "mcq",
+              "question": "What does 'rewrite' mean?",
+              "question_zh": "'rewrite'是什么意思？",
               "choices": [
                 "Write for the first time",
                 "Write again",
@@ -232,13 +234,13 @@
               ],
               "answer": 1,
               "explanation": "Prefix 're-' means again.",
-              "explanation_zh": "前缀're-'意思是再次。",
-              "prompt": "What does 'rewrite' mean?",
-              "prompt_zh": "'rewrite'是什么意思？"
+              "explanation_zh": "前缀're-'意思是再次。"
             },
             {
               "id": "ex3",
               "type": "mcq",
+              "question": "What does 'hopeless' mean?",
+              "question_zh": "'hopeless'是什么意思？",
               "choices": [
                 "Full of hope",
                 "Without hope",
@@ -253,13 +255,13 @@
               ],
               "answer": 1,
               "explanation": "Suffix '-less' means without.",
-              "explanation_zh": "后缀'-less'意思是没有。",
-              "prompt": "What does 'hopeless' mean?",
-              "prompt_zh": "'hopeless'是什么意思？"
+              "explanation_zh": "后缀'-less'意思是没有。"
             },
             {
               "id": "ex4",
               "type": "mcq",
+              "question": "Which word is the noun form of 'happy'?",
+              "question_zh": "'happy'的名词形式是哪个词？",
               "choices": [
                 "happily",
                 "happiness",
@@ -274,19 +276,17 @@
               ],
               "answer": 1,
               "explanation": "Suffix '-ness' creates nouns from adjectives.",
-              "explanation_zh": "后缀'-ness'从形容词创建名词。",
-              "prompt": "Which word is the noun form of 'happy'?",
-              "prompt_zh": "'happy'的名词形式是哪个词？"
+              "explanation_zh": "后缀'-ness'从形容词创建名词。"
             },
             {
               "id": "ex5",
               "type": "short",
+              "question": "Add a prefix to make 'agree' mean the opposite.",
+              "question_zh": "添加前缀使'agree'意思相反。",
               "answer": "disagree",
               "validator": "exact",
               "explanation": "Prefix 'dis-' means not or opposite.",
-              "explanation_zh": "前缀'dis-'意思是不或相反。",
-              "prompt": "Add a prefix to make 'agree' mean the opposite.",
-              "prompt_zh": "添加前缀使'agree'意思相反。"
+              "explanation_zh": "前缀'dis-'意思是不或相反。"
             }
           ]
         },
@@ -336,6 +336,8 @@
             {
               "id": "ex1",
               "type": "mcq",
+              "question": "Which is a sentence fragment?",
+              "question_zh": "哪个是句子片段？",
               "choices": [
                 "Because it was late.",
                 "It was late.",
@@ -350,13 +352,13 @@
               ],
               "answer": 0,
               "explanation": "Missing main clause after 'Because'.",
-              "explanation_zh": "'Because'后面缺少主句。",
-              "prompt": "Which is a sentence fragment?",
-              "prompt_zh": "哪个是句子片段？"
+              "explanation_zh": "'Because'后面缺少主句。"
             },
             {
               "id": "ex2",
               "type": "mcq",
+              "question": "Which fixes this run-on? 'I like pizza my brother likes pasta'",
+              "question_zh": "哪个修正了这个连写句？'我喜欢披萨我哥哥喜欢意大利面'",
               "choices": [
                 "I like pizza my brother likes pasta.",
                 "I like pizza, my brother likes pasta.",
@@ -371,23 +373,23 @@
               ],
               "answer": 2,
               "explanation": "Use comma + coordinating conjunction.",
-              "explanation_zh": "使用逗号+并列连词。",
-              "prompt": "Which fixes this run-on? 'I like pizza my brother likes pasta'",
-              "prompt_zh": "哪个修正了这个连写句？'我喜欢披萨我哥哥喜欢意大利面'"
+              "explanation_zh": "使用逗号+并列连词。"
             },
             {
               "id": "ex3",
               "type": "short",
+              "question": "Fix: 'Walking to school.'",
+              "question_zh": "修正：'走到学校。'",
               "answer": "I was walking to school.",
               "validator": "exact",
               "explanation": "Add subject and helping verb.",
-              "explanation_zh": "添加主语和助动词。",
-              "prompt": "Fix: 'Walking to school.'",
-              "prompt_zh": "修正：'走到学校。'"
+              "explanation_zh": "添加主语和助动词。"
             },
             {
               "id": "ex4",
               "type": "mcq",
+              "question": "What's wrong? 'I studied hard, I passed the exam.'",
+              "question_zh": "有什么问题？'我努力学习，我通过了考试。'",
               "choices": [
                 "Sentence fragment",
                 "Comma splice",
@@ -402,13 +404,13 @@
               ],
               "answer": 1,
               "explanation": "Two sentences joined only with comma.",
-              "explanation_zh": "两个句子只用逗号连接。",
-              "prompt": "What's wrong? 'I studied hard, I passed the exam.'",
-              "prompt_zh": "有什么问题？'我努力学习，我通过了考试。'"
+              "explanation_zh": "两个句子只用逗号连接。"
             },
             {
               "id": "ex5",
               "type": "mcq",
+              "question": "Best sentence variety?",
+              "question_zh": "最好的句子多样性？",
               "choices": [
                 "All short sentences",
                 "All long sentences",
@@ -423,9 +425,7 @@
               ],
               "answer": 2,
               "explanation": "Variety makes writing more interesting.",
-              "explanation_zh": "多样性使写作更有趣。",
-              "prompt": "Best sentence variety?",
-              "prompt_zh": "最好的句子多样性？"
+              "explanation_zh": "多样性使写作更有趣。"
             }
           ]
         },
@@ -475,6 +475,8 @@
             {
               "id": "ex1",
               "type": "mcq",
+              "question": "What is the climax?",
+              "question_zh": "什么是高潮？",
               "choices": [
                 "Introduction",
                 "Turning point",
@@ -489,13 +491,13 @@
               ],
               "answer": 1,
               "explanation": "Climax is the most intense moment.",
-              "explanation_zh": "高潮是最紧张的时刻。",
-              "prompt": "What is the climax?",
-              "prompt_zh": "什么是高潮？"
+              "explanation_zh": "高潮是最紧张的时刻。"
             },
             {
               "id": "ex2",
               "type": "mcq",
+              "question": "Which shows, not tells? 'He was tired.'",
+              "question_zh": "哪个展示而非叙述？'他很累。'",
               "choices": [
                 "He was very tired.",
                 "He felt tired.",
@@ -510,13 +512,13 @@
               ],
               "answer": 2,
               "explanation": "Shows tiredness through actions.",
-              "explanation_zh": "通过动作展示疲倦。",
-              "prompt": "Which shows, not tells? 'He was tired.'",
-              "prompt_zh": "哪个展示而非叙述？'他很累。'"
+              "explanation_zh": "通过动作展示疲倦。"
             },
             {
               "id": "ex3",
               "type": "mcq",
+              "question": "Best descriptive language?",
+              "question_zh": "最好的描述性语言？",
               "choices": [
                 "The food was good.",
                 "The food tasted nice.",
@@ -531,13 +533,13 @@
               ],
               "answer": 2,
               "explanation": "Uses specific details and sensory language.",
-              "explanation_zh": "使用具体细节和感官语言。",
-              "prompt": "Best descriptive language?",
-              "prompt_zh": "最好的描述性语言？"
+              "explanation_zh": "使用具体细节和感官语言。"
             },
             {
               "id": "ex4",
               "type": "mcq",
+              "question": "What comes after rising action?",
+              "question_zh": "上升动作之后是什么？",
               "choices": [
                 "Exposition",
                 "Climax",
@@ -552,19 +554,17 @@
               ],
               "answer": 1,
               "explanation": "Climax follows rising action.",
-              "explanation_zh": "高潮跟随上升动作。",
-              "prompt": "What comes after rising action?",
-              "prompt_zh": "上升动作之后是什么？"
+              "explanation_zh": "高潮跟随上升动作。"
             },
             {
               "id": "ex5",
               "type": "short",
+              "question": "Rewrite showing: 'She was happy.'",
+              "question_zh": "重写展示：'她很高兴。'",
               "answer": "She smiled brightly and jumped with joy.",
               "validator": "exact",
               "explanation": "Show happiness through actions.",
-              "explanation_zh": "通过动作展示快乐。",
-              "prompt": "Rewrite showing: 'She was happy.'",
-              "prompt_zh": "重写展示：'她很高兴。'"
+              "explanation_zh": "通过动作展示快乐。"
             }
           ]
         },
@@ -616,6 +616,8 @@
             {
               "id": "ex1",
               "type": "mcq",
+              "question": "What is the main idea technique?",
+              "question_zh": "什么是主旨技巧？",
               "choices": [
                 "Skip reading",
                 "Read first paragraph",
@@ -630,9 +632,7 @@
               ],
               "answer": 1,
               "explanation": "First paragraph usually introduces main idea",
-              "explanation_zh": "第一段通常介绍主旨",
-              "prompt": "What is the main idea technique?",
-              "prompt_zh": "什么是主旨技巧？"
+              "explanation_zh": "第一段通常介绍主旨"
             }
           ]
         },
@@ -684,6 +684,8 @@
             {
               "id": "ex1",
               "type": "mcq",
+              "question": "Choose correct: ___ going to the mall",
+              "question_zh": "选择正确：___ going to the mall",
               "choices": [
                 "There",
                 "Their",
@@ -698,9 +700,7 @@
               ],
               "answer": 2,
               "explanation": "Theyre = They are",
-              "explanation_zh": "Theyre = They are",
-              "prompt": "Choose correct: ___ going to the mall",
-              "prompt_zh": "选择正确：___ going to the mall"
+              "explanation_zh": "Theyre = They are"
             }
           ]
         }
@@ -762,6 +762,8 @@
             {
               "id": "ex1",
               "type": "drag-order",
+              "question": "Arrange these words in correct order: 我 / 在学校 / 学习 / 认真地 / 中文",
+              "question_zh": "将这些词排列成正确的顺序：我 / 在学校 / 学习 / 认真地 / 中文",
               "items": [
                 "我",
                 "在学校",
@@ -777,13 +779,13 @@
                 "中文"
               ],
               "explanation": "Correct order: Subject + Place + Manner + Verb + Object",
-              "explanation_zh": "正确顺序：主语 + 地点 + 方式 + 动词 + 宾语",
-              "prompt": "Arrange these words in correct order: 我 / 在学校 / 学习 / 认真地 / 中文",
-              "prompt_zh": "将这些词排列成正确的顺序：我 / 在学校 / 学习 / 认真地 / 中文"
+              "explanation_zh": "正确顺序：主语 + 地点 + 方式 + 动词 + 宾语"
             },
             {
               "id": "ex2",
               "type": "mcq",
+              "question": "Choose the correct measure word: 一___书",
+              "question_zh": "选择正确的量词：一___书",
               "choices": [
                 "个",
                 "本",
@@ -798,13 +800,13 @@
               ],
               "answer": 1,
               "explanation": "Books use the measure word '本' (běn)",
-              "explanation_zh": "书用量词'本'",
-              "prompt": "Choose the correct measure word: 一___书",
-              "prompt_zh": "选择正确的量词：一___书"
+              "explanation_zh": "书用量词'本'"
             },
             {
               "id": "ex3",
               "type": "mcq",
+              "question": "Which sentence has correct word order?",
+              "question_zh": "哪个句子的词序正确？",
               "choices": [
                 "我去了图书馆昨天。",
                 "昨天我去了图书馆。",
@@ -819,13 +821,13 @@
               ],
               "answer": 1,
               "explanation": "Time expressions can come at the beginning or after the subject, but not at the end.",
-              "explanation_zh": "时间状语可以放在句首或主语后，但不能放在句尾。",
-              "prompt": "Which sentence has correct word order?",
-              "prompt_zh": "哪个句子的词序正确？"
+              "explanation_zh": "时间状语可以放在句首或主语后，但不能放在句尾。"
             },
             {
               "id": "ex4",
               "type": "mcq",
+              "question": "Choose the correct sentence:",
+              "question_zh": "选择正确的句子：",
               "choices": [
                 "我吃饭在家。",
                 "我在家吃饭。",
@@ -840,19 +842,17 @@
               ],
               "answer": 1,
               "explanation": "Place expressions come before the verb: 我在家吃饭",
-              "explanation_zh": "地点状语放在动词前：我在家吃饭",
-              "prompt": "Choose the correct sentence:",
-              "prompt_zh": "选择正确的句子："
+              "explanation_zh": "地点状语放在动词前：我在家吃饭"
             },
             {
               "id": "ex5",
               "type": "short",
+              "question": "Fill in the correct measure word: 三___猫",
+              "question_zh": "填入正确的量词：三___猫",
               "answer": "只",
               "validator": "exact",
               "explanation": "Animals use the measure word '只' (zhī)",
-              "explanation_zh": "动物用量词'只'",
-              "prompt": "Fill in the correct measure word: 三___猫",
-              "prompt_zh": "填入正确的量词：三___猫"
+              "explanation_zh": "动物用量词'只'"
             }
           ]
         },
@@ -896,6 +896,8 @@
             {
               "id": "ex1",
               "type": "match",
+              "question": "Match the words with their correct combinations:",
+              "question_zh": "将词语与其正确的搭配连线：",
               "pairs": [
                 {
                   "left": "做",
@@ -917,13 +919,13 @@
                 }
               ],
               "explanation": "做作业 (do homework), 打电话 (make a phone call), 上学 (go to school)",
-              "explanation_zh": "做作业、打电话、上学是常见的动词搭配",
-              "prompt": "Match the words with their correct combinations:",
-              "prompt_zh": "将词语与其正确的搭配连线："
+              "explanation_zh": "做作业、打电话、上学是常见的动词搭配"
             },
             {
               "id": "ex2",
               "type": "mcq",
+              "question": "Which radical indicates 'water'?",
+              "question_zh": "哪个部首表示'水'？",
               "choices": [
                 "氵",
                 "讠",
@@ -938,13 +940,13 @@
               ],
               "answer": 0,
               "explanation": "氵is the water radical, found in characters like 河 (river) and 海 (sea)",
-              "explanation_zh": "氵是水部，出现在河、海等字中",
-              "prompt": "Which radical indicates 'water'?",
-              "prompt_zh": "哪个部首表示'水'？"
+              "explanation_zh": "氵是水部，出现在河、海等字中"
             },
             {
               "id": "ex3",
               "type": "mcq",
+              "question": "What does the radical 讠(言) typically indicate?",
+              "question_zh": "部首讠（言）通常表示什么？",
               "choices": [
                 "Water-related meanings",
                 "Speech or language-related meanings",
@@ -959,19 +961,17 @@
               ],
               "answer": 1,
               "explanation": "讠(言) indicates speech or language, as in 说 (speak) and 语 (language)",
-              "explanation_zh": "讠（言）表示言语或语言，如说、语等字",
-              "prompt": "What does the radical 讠(言) typically indicate?",
-              "prompt_zh": "部首讠（言）通常表示什么？"
+              "explanation_zh": "讠（言）表示言语或语言，如说、语等字"
             },
             {
               "id": "ex4",
               "type": "short",
+              "question": "What radical would you find in characters related to emotions?",
+              "question_zh": "在与情感有关的字中，你会找到什么部首？",
               "answer": "心",
               "validator": "exact",
               "explanation": "心 (heart) radical appears in emotion-related characters like 想 (think) and 怕 (afraid)",
-              "explanation_zh": "心（心）部首出现在情感相关的字中，如想、怕",
-              "prompt": "What radical would you find in characters related to emotions?",
-              "prompt_zh": "在与情感有关的字中，你会找到什么部首？"
+              "explanation_zh": "心（心）部首出现在情感相关的字中，如想、怕"
             }
           ]
         },
@@ -1023,6 +1023,8 @@
             {
               "id": "ex1",
               "type": "mcq",
+              "question": "What does 画蛇添足 mean?",
+              "question_zh": "画蛇添足是什么意思？",
               "choices": [
                 "Draw beautifully",
                 "Do something unnecessary",
@@ -1037,9 +1039,7 @@
               ],
               "answer": 1,
               "explanation": "It means doing something unnecessary, like adding legs to a snake",
-              "explanation_zh": "意思是做不必要的事，就像给蛇画腿",
-              "prompt": "What does 画蛇添足 mean?",
-              "prompt_zh": "画蛇添足是什么意思？"
+              "explanation_zh": "意思是做不必要的事，就像给蛇画腿"
             }
           ]
         },
@@ -1091,6 +1091,8 @@
             {
               "id": "ex1",
               "type": "mcq",
+              "question": "What does 5W1H stand for?",
+              "question_zh": "5W1H代表什么？",
               "choices": [
                 "5 words, 1 hour",
                 "Who, What, When, Where, Why, How",
@@ -1105,9 +1107,7 @@
               ],
               "answer": 1,
               "explanation": "The 6 key questions to answer in narrative writing",
-              "explanation_zh": "记叙文中要回答的6个关键问题",
-              "prompt": "What does 5W1H stand for?",
-              "prompt_zh": "5W1H代表什么？"
+              "explanation_zh": "记叙文中要回答的6个关键问题"
             }
           ]
         },
@@ -1159,6 +1159,8 @@
             {
               "id": "ex1",
               "type": "mcq",
+              "question": "Where is the topic sentence usually found?",
+              "question_zh": "主题句通常在哪里找到？",
               "choices": [
                 "In the middle only",
                 "At beginning or end",
@@ -1173,9 +1175,7 @@
               ],
               "answer": 1,
               "explanation": "Topic sentences are usually at the beginning or end of paragraphs",
-              "explanation_zh": "主题句通常在段落的开头或结尾",
-              "prompt": "Where is the topic sentence usually found?",
-              "prompt_zh": "主题句通常在哪里找到？"
+              "explanation_zh": "主题句通常在段落的开头或结尾"
             }
           ]
         },
@@ -1227,6 +1227,8 @@
             {
               "id": "ex1",
               "type": "mcq",
+              "question": "Which is the correct word order?",
+              "question_zh": "哪个词序正确？",
               "choices": [
                 "我去了昨天学校",
                 "昨天我去了学校",
@@ -1241,9 +1243,7 @@
               ],
               "answer": 1,
               "explanation": "Time (昨天) comes at beginning or after subject",
-              "explanation_zh": "时间（昨天）放在开头或主语后",
-              "prompt": "Which is the correct word order?",
-              "prompt_zh": "哪个词序正确？"
+              "explanation_zh": "时间（昨天）放在开头或主语后"
             }
           ]
         }
@@ -5378,6 +5378,8 @@
             {
               "id": "ex1",
               "type": "mcq",
+              "question": "Which of the following is a property of acids?",
+              "question_zh": "以下哪项是酸的性质？",
               "choices": [
                 "Turn red litmus paper blue",
                 "Feel slippery to touch",
@@ -5392,13 +5394,13 @@
               ],
               "answer": 3,
               "explanation": "Acids turn blue litmus paper red. The other options are properties of bases.",
-              "explanation_zh": "酸使蓝色石蕊试纸变红。其他选项是碱的性质。",
-              "prompt": "Which of the following is a property of acids?",
-              "prompt_zh": "以下哪项是酸的性质？"
+              "explanation_zh": "酸使蓝色石蕊试纸变红。其他选项是碱的性质。"
             },
             {
               "id": "ex2",
               "type": "mcq",
+              "question": "What is the pH of a neutral solution?",
+              "question_zh": "中性溶液的pH值是多少？",
               "choices": [
                 "0",
                 "7",
@@ -5413,13 +5415,13 @@
               ],
               "answer": 1,
               "explanation": "A neutral solution has a pH of 7. Pure water is an example of a neutral substance.",
-              "explanation_zh": "中性溶液的pH值为7。纯水是中性物质的一个例子。",
-              "prompt": "What is the pH of a neutral solution?",
-              "prompt_zh": "中性溶液的pH值是多少？"
+              "explanation_zh": "中性溶液的pH值为7。纯水是中性物质的一个例子。"
             },
             {
               "id": "ex3",
               "type": "mcq",
+              "question": "What are the products of a neutralization reaction between an acid and a base?",
+              "question_zh": "酸和碱之间的中和反应的产物是什么？",
               "choices": [
                 "Salt and hydrogen gas",
                 "Salt and water",
@@ -5434,13 +5436,13 @@
               ],
               "answer": 1,
               "explanation": "Neutralization reactions between acids and bases produce salt and water. The general equation is: Acid + Base → Salt + Water",
-              "explanation_zh": "酸和碱之间的中和反应产生盐和水。通式为：酸 + 碱 → 盐 + 水",
-              "prompt": "What are the products of a neutralization reaction between an acid and a base?",
-              "prompt_zh": "酸和碱之间的中和反应的产物是什么？"
+              "explanation_zh": "酸和碱之间的中和反应产生盐和水。通式为：酸 + 碱 → 盐 + 水"
             },
             {
               "id": "ex4",
               "type": "mcq",
+              "question": "A solution has a pH of 3. How would you describe this solution?",
+              "question_zh": "一个溶液的pH值为3。你会如何描述这个溶液？",
               "choices": [
                 "Strongly basic",
                 "Weakly basic",
@@ -5455,13 +5457,13 @@
               ],
               "answer": 3,
               "explanation": "Any solution with pH less than 7 is acidic. pH 3 is acidic (common examples: vinegar, lemon juice).",
-              "explanation_zh": "任何pH值小于7的溶液都是酸性的。pH 3是酸性的（常见例子：醋、柠檬汁）。",
-              "prompt": "A solution has a pH of 3. How would you describe this solution?",
-              "prompt_zh": "一个溶液的pH值为3。你会如何描述这个溶液？"
+              "explanation_zh": "任何pH值小于7的溶液都是酸性的。pH 3是酸性的（常见例子：醋、柠檬汁）。"
             },
             {
               "id": "ex5",
               "type": "mcq",
+              "question": "Why do we use antacid medicine to treat heartburn?",
+              "question_zh": "为什么我们使用抗酸药治疗胃灼热？",
               "choices": [
                 "Antacids increase stomach acid",
                 "Antacids are acidic and add more acid",
@@ -5476,19 +5478,17 @@
               ],
               "answer": 2,
               "explanation": "Antacids contain bases (like magnesium hydroxide) that neutralize excess stomach acid through a neutralization reaction, relieving heartburn symptoms.",
-              "explanation_zh": "抗酸药含有碱（如氢氧化镁），通过中和反应中和过量胃酸，缓解胃灼热症状。",
-              "prompt": "Why do we use antacid medicine to treat heartburn?",
-              "prompt_zh": "为什么我们使用抗酸药治疗胃灼热？"
+              "explanation_zh": "抗酸药含有碱（如氢氧化镁），通过中和反应中和过量胃酸，缓解胃灼热症状。"
             },
             {
               "id": "ex6",
               "type": "short",
+              "question": "Complete this neutralization equation: HCl + NaOH → ___ + H₂O",
+              "question_zh": "完成这个中和方程：HCl + NaOH → ___ + H₂O",
               "answer": "NaCl",
               "validator": "exact",
               "explanation": "When hydrochloric acid (HCl) reacts with sodium hydroxide (NaOH), they form sodium chloride (NaCl - table salt) and water (H₂O).",
-              "explanation_zh": "当盐酸（HCl）与氢氧化钠（NaOH）反应时，它们形成氯化钠（NaCl - 食盐）和水（H₂O）。",
-              "prompt": "Complete this neutralization equation: HCl + NaOH → ___ + H₂O",
-              "prompt_zh": "完成这个中和方程：HCl + NaOH → ___ + H₂O"
+              "explanation_zh": "当盐酸（HCl）与氢氧化钠（NaOH）反应时，它们形成氯化钠（NaCl - 食盐）和水（H₂O）。"
             }
           ]
         },
@@ -6184,6 +6184,8 @@
             {
               "id": "ex1",
               "type": "mcq",
+              "question": "Which kingdom can make its own food through photosynthesis?",
+              "question_zh": "哪个界可以通过光合作用制造自己的食物？",
               "choices": [
                 "Animals",
                 "Plants",
@@ -6198,9 +6200,7 @@
               ],
               "answer": 1,
               "explanation": "Plants make their own food through photosynthesis",
-              "explanation_zh": "植物通过光合作用制造自己的食物",
-              "prompt": "Which kingdom can make its own food through photosynthesis?",
-              "prompt_zh": "哪个界可以通过光合作用制造自己的食物？"
+              "explanation_zh": "植物通过光合作用制造自己的食物"
             }
           ]
         },
@@ -6238,6 +6238,8 @@
             {
               "id": "ex1",
               "type": "mcq",
+              "question": "What is a producer?",
+              "question_zh": "什么是生产者？",
               "choices": [
                 "An animal that eats plants",
                 "An organism that makes its own food",
@@ -6252,9 +6254,7 @@
               ],
               "answer": 1,
               "explanation": "Producers make their own food through photosynthesis",
-              "explanation_zh": "生产者通过光合作用制造自己的食物",
-              "prompt": "What is a producer?",
-              "prompt_zh": "什么是生产者？"
+              "explanation_zh": "生产者通过光合作用制造自己的食物"
             }
           ]
         },
@@ -6300,6 +6300,8 @@
             {
               "id": "ex1",
               "type": "mcq",
+              "question": "If Force = 100 N and Area = 5 m², what is the pressure?",
+              "question_zh": "如果力 = 100 N，面积 = 5 m²，压强是多少？",
               "choices": [
                 "20 Pa",
                 "50 Pa",
@@ -6314,9 +6316,7 @@
               ],
               "answer": 0,
               "explanation": "Pressure = Force ÷ Area = 100 ÷ 5 = 20 Pa",
-              "explanation_zh": "压强 = 力 ÷ 面积 = 100 ÷ 5 = 20 Pa",
-              "prompt": "If Force = 100 N and Area = 5 m², what is the pressure?",
-              "prompt_zh": "如果力 = 100 N，面积 = 5 m²，压强是多少？"
+              "explanation_zh": "压强 = 力 ÷ 面积 = 100 ÷ 5 = 20 Pa"
             }
           ]
         },
@@ -6362,6 +6362,8 @@
             {
               "id": "ex1",
               "type": "mcq",
+              "question": "What energy transformation occurs in a light bulb?",
+              "question_zh": "灯泡中发生什么能量转换？",
               "choices": [
                 "Light to electrical",
                 "Electrical to light and heat",
@@ -6376,13 +6378,13 @@
               ],
               "answer": 1,
               "explanation": "Light bulbs convert electrical energy into light energy and heat energy",
-              "explanation_zh": "灯泡将电能转换为光能和热能",
-              "prompt": "What energy transformation occurs in a light bulb?",
-              "prompt_zh": "灯泡中发生什么能量转换？"
+              "explanation_zh": "灯泡将电能转换为光能和热能"
             },
             {
               "id": "ex2",
               "type": "mcq",
+              "question": "A ball rolling down a hill demonstrates which energy transformation?",
+              "question_zh": "球滚下山丘展示了哪种能量转换？",
               "choices": [
                 "Kinetic to potential",
                 "Potential to kinetic",
@@ -6397,9 +6399,7 @@
               ],
               "answer": 1,
               "explanation": "As the ball rolls down, potential energy (height) converts to kinetic energy (movement)",
-              "explanation_zh": "球滚下时，势能（高度）转换为动能（运动）",
-              "prompt": "A ball rolling down a hill demonstrates which energy transformation?",
-              "prompt_zh": "球滚下山丘展示了哪种能量转换？"
+              "explanation_zh": "球滚下时，势能（高度）转换为动能（运动）"
             }
           ]
         }
