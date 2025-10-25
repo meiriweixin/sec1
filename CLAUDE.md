@@ -285,10 +285,61 @@ interface User {
 - **Animation Performance**: Use `framer-motion` for smooth animations, optimize for 60fps
 - **Content Validation**: Ensure exercise `answer` field matches choice index (0-based) for MCQ
 
-### Critical: Exercise Field Names
-All exercises MUST use `prompt` and `prompt_zh` fields for question text, NOT `question` and `question_zh`. The exercise components expect the `prompt` field. Using `question` will cause the question text to not display.
+### Critical: Store Hydration and Page Refresh
+The app uses Zustand with localStorage persistence. Components must wait for store hydration before checking authentication:
 
-**Correct:**
+**Store hydration flag**: `_hasHydrated` boolean in store
+- Set to `false` on initialization
+- Set to `true` after `onRehydrateStorage` completes
+- Components check this flag before redirecting unauthenticated users
+
+**Protected pages pattern**:
+```typescript
+const { user, _hasHydrated } = useStore();
+
+useEffect(() => {
+  // Wait for hydration before checking auth
+  if (_hasHydrated && !user) {
+    navigate('/login');
+  }
+}, [user, _hasHydrated, navigate]);
+```
+
+This prevents premature redirects when users refresh the page.
+
+### Critical: URL-Based State Persistence
+Lesson and exercise positions are preserved across page refreshes using URL search parameters:
+
+**LessonPlayer** (`src/components/lesson/lesson-player.tsx`):
+- Current section stored in `?section=N` URL parameter
+- Reads from URL on mount, writes on section change
+- Students stay on same lesson after refresh
+
+**ExercisePlayer** (`src/components/exercises/exercise-player.tsx`):
+- Current exercise stored in `?exercise=N` URL parameter
+- Reads from URL on mount, writes on exercise change
+- Students stay on same exercise after refresh
+
+**Implementation pattern**:
+```typescript
+const [searchParams, setSearchParams] = useSearchParams();
+const sectionParam = searchParams.get('section');
+const initialSection = sectionParam ? parseInt(sectionParam, 10) : 0;
+const [currentSection, setCurrentSection] = useState(initialSection);
+
+useEffect(() => {
+  setSearchParams({ section: currentSection.toString() }, { replace: true });
+}, [currentSection, setSearchParams]);
+```
+
+The `{ replace: true }` option prevents creating browser history entries for each navigation.
+
+### Critical: Exercise Field Names and Data Structures
+
+**1. Use `prompt` not `question`**:
+All exercises MUST use `prompt` and `prompt_zh` fields for question text, NOT `question` and `question_zh`. The exercise components expect the `prompt` field.
+
+**Correct MCQ:**
 ```json
 {
   "id": "ex1",
@@ -297,6 +348,53 @@ All exercises MUST use `prompt` and `prompt_zh` fields for question text, NOT `q
   "prompt_zh": "法国的首都是什么？",
   "choices": ["Paris", "London", "Berlin"],
   "answer": 0
+}
+```
+
+**2. Drag-Order Exercise `answer` Field**:
+The `answer` field must contain an array of **ordered item strings**, NOT indices.
+
+**Correct:**
+```json
+{
+  "type": "drag-order",
+  "items": ["Cell", "Tissue", "Organ"],
+  "answer": ["Cell", "Tissue", "Organ"]  // Strings, not [0, 1, 2]
+}
+```
+
+**Incorrect:**
+```json
+{
+  "type": "drag-order",
+  "items": ["Cell", "Tissue", "Organ"],
+  "correctOrder": [0, 1, 2]  // Wrong field name and wrong format
+}
+```
+
+**3. Matching Exercise `pairs` Field**:
+The `pairs` field must contain objects with `left`, `right`, `left_zh`, `right_zh` properties, NOT tuples.
+
+**Correct:**
+```json
+{
+  "type": "match",
+  "pairs": [
+    {
+      "left": "H₂O",
+      "left_zh": "H₂O",
+      "right": "Water",
+      "right_zh": "水"
+    }
+  ]
+}
+```
+
+**Incorrect:**
+```json
+{
+  "type": "match",
+  "pairs": [["H₂O", "Water"]]  // Tuples not supported
 }
 ```
 
@@ -363,6 +461,12 @@ Exercise components in `src/components/exercises/`:
   - Handles exercise navigation (previous/next)
   - Manages score calculation and submission
   - Persists progress to Zustand store
+  - **Scoring system**:
+    - 100% for correct answer on first attempt
+    - 80% for correct answer on second attempt
+    - 60% for correct answer on third or later attempts
+    - 0% if skipped without correct answer
+  - **Average score**: Displayed as "X% Average" badge, calculated as sum of all exercise scores divided by number of completed exercises
 
 - **mcq-exercise.tsx**: Multiple choice (single answer)
   - Radio button selection
