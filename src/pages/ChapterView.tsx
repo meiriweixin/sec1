@@ -18,22 +18,25 @@ export default function ChapterView() {
   const { subjectId, chapterId } = useParams();
   const navigate = useNavigate();
   const [searchParams, setSearchParams] = useSearchParams();
-  const { user, language, getChapterProgress, updateProgress } = useStore();
+  const { user, language, getChapterProgress, updateProgress, _hasHydrated } = useStore();
   const t = useTranslations(language);
   const { toast } = useToast();
 
   const isReviewMode = searchParams.get('mode') === 'review';
-  
+
   const [activeTab, setActiveTab] = useState<"lesson" | "exercises">("lesson");
   const [startTime, setStartTime] = useState<number>(Date.now());
 
   useEffect(() => {
-    if (!user) {
+    // Wait for store to hydrate before checking authentication
+    if (_hasHydrated && !user) {
       navigate('/login');
       return;
     }
-    setStartTime(Date.now());
-  }, [user, navigate]);
+    if (user) {
+      setStartTime(Date.now());
+    }
+  }, [user, _hasHydrated, navigate]);
 
   if (!user || !subjectId || !chapterId) return null;
 

@@ -12,19 +12,20 @@ import contentData from "@/data/content.json";
 
 export default function SubjectDetail() {
   const { subjectId } = useParams();
-  const { user, language, getSubjectProgress, setCurrentSubject } = useStore();
+  const { user, language, getSubjectProgress, setCurrentSubject, _hasHydrated } = useStore();
   const t = useTranslations(language);
   const navigate = useNavigate();
 
   useEffect(() => {
-    if (!user) {
+    // Wait for store to hydrate before checking authentication
+    if (_hasHydrated && !user) {
       navigate('/login');
       return;
     }
-    if (subjectId) {
+    if (user && subjectId) {
       setCurrentSubject(subjectId);
     }
-  }, [user, subjectId, navigate, setCurrentSubject]);
+  }, [user, _hasHydrated, subjectId, navigate, setCurrentSubject]);
 
   if (!user || !subjectId) return null;
 

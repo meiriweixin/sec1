@@ -52,6 +52,7 @@ export interface UserState {
   aiProgress: Record<string, AIModuleProgress>;
   currentSubject: string | null;
   currentChapter: string | null;
+  _hasHydrated: boolean; // Internal flag to track if store has loaded from localStorage
 
   // Actions
   login: (user: User) => void;
@@ -68,6 +69,7 @@ export interface UserState {
   updateReviewSchedule: (subjectId: string, chapterId: string, schedule: ReviewSchedule) => void;
   getReviewQueue: () => Progress[];
   getDueReviews: () => Progress[];
+  setHasHydrated: (state: boolean) => void; // Method to set hydration state
 }
 
 /**
@@ -125,6 +127,7 @@ export const useStore = create<UserState>()(
       aiProgress: {},
       currentSubject: null,
       currentChapter: null,
+      _hasHydrated: false,
 
       login: (user) => set({ user }),
       
@@ -283,6 +286,8 @@ export const useStore = create<UserState>()(
       getDueReviews: () => {
         return get().getReviewQueue();
       },
+
+      setHasHydrated: (state) => set({ _hasHydrated: state }),
     }),
     {
       name: 'sg-learning-app-storage',
@@ -293,8 +298,14 @@ export const useStore = create<UserState>()(
         progress: state.progress,
         aiProgress: state.aiProgress,
       }),
-      onRehydrateStorage: () => {
-        return (state) => {
+      onRehydrateStorage: (state) => {
+        // This runs synchronously when the store is created
+        // Set hydration to true immediately if no stored state
+        return (state, error) => {
+          if (error) {
+            console.error('Error during hydration:', error);
+          }
+
           if (state) {
             // Check migration flag
             const migrationFlag = localStorage.getItem('sg-learning-progress-migration-v2');
@@ -308,6 +319,10 @@ export const useStore = create<UserState>()(
               localStorage.setItem('sg-learning-progress-migration-v2', 'completed');
             }
           }
+
+          // Always mark hydration as complete after rehydration attempt
+          // This runs whether or not there was stored state
+          useStore.setState({ _hasHydrated: true });
         };
       },
     }

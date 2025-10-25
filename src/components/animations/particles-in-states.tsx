@@ -131,7 +131,15 @@ export function ParticlesInStates({ states = ["solid", "liquid", "gas"] }: Parti
                 {particles.map((particle) => (
                   <motion.div
                     key={particle.id}
-                    className={`absolute w-3 h-3 rounded-full ${stateColor.replace('text-', 'bg-')}`}
+                    className={`absolute w-3 h-3 rounded-full ${
+                      state === 'solid' ? 'bg-blue-500' :
+                      state === 'liquid' ? 'bg-green-500' :
+                      'bg-red-500'
+                    }`}
+                    style={{
+                      left: 0,
+                      top: 0
+                    }}
                     initial={{ x: particle.x, y: particle.y, opacity: 0 }}
                     animate={{
                       opacity: 1,

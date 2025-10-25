@@ -11,15 +11,16 @@ import { useEffect } from "react";
 import contentData from "@/data/content.json";
 
 export default function Dashboard() {
-  const { user, language, progress } = useStore();
+  const { user, language, progress, _hasHydrated } = useStore();
   const t = useTranslations(language);
   const navigate = useNavigate();
 
   useEffect(() => {
-    if (!user) {
+    // Wait for store to hydrate before checking authentication
+    if (_hasHydrated && !user) {
       navigate('/login');
     }
-  }, [user, navigate]);
+  }, [user, _hasHydrated, navigate]);
 
   if (!user) return null;
 

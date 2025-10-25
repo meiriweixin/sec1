@@ -5,14 +5,20 @@ import { useTranslations } from "@/lib/i18n";
 import { motion } from "framer-motion";
 import { CheckCircle, XCircle, Link2 } from "lucide-react";
 
+interface MatchPair {
+  left: string;
+  left_zh?: string;
+  right: string;
+  right_zh?: string;
+}
+
 interface MatchingExerciseProps {
   exercise: {
     id: string;
     type: "match";
     prompt: string;
     prompt_zh?: string;
-    pairs?: [string, string][];
-    pairs_zh?: [string, string][];
+    pairs?: MatchPair[];
     hint?: string;
     hint_zh?: string;
     explanation?: string;
@@ -35,12 +41,12 @@ export function MatchingExercise({
 }: MatchingExerciseProps) {
   const { language } = useStore();
   const t = useTranslations(language);
-  
-  const pairs = language === 'zh' && exercise.pairs_zh ? exercise.pairs_zh : exercise.pairs || [];
-  
-  // Extract left and right items, shuffle right items
-  const leftItems = pairs.map(p => p[0]);
-  const rightItems = pairs.map(p => p[1]);
+
+  const pairs = exercise.pairs || [];
+
+  // Extract left and right items based on language, shuffle right items
+  const leftItems = pairs.map(p => language === 'zh' && p.left_zh ? p.left_zh : p.left);
+  const rightItems = pairs.map(p => language === 'zh' && p.right_zh ? p.right_zh : p.right);
   const [shuffledRight] = useState(() => {
     const shuffled = [...rightItems];
     for (let i = shuffled.length - 1; i > 0; i--) {
@@ -98,11 +104,18 @@ export function MatchingExercise({
   };
 
   const handleSubmit = () => {
-    const correctConnections = Object.fromEntries(pairs);
-    const isAnswerCorrect = 
+    // Build correct connections map based on language
+    const correctConnections: Record<string, string> = {};
+    pairs.forEach(p => {
+      const left = language === 'zh' && p.left_zh ? p.left_zh : p.left;
+      const right = language === 'zh' && p.right_zh ? p.right_zh : p.right;
+      correctConnections[left] = right;
+    });
+
+    const isAnswerCorrect =
       Object.keys(connections).length === pairs.length &&
       Object.entries(connections).every(([left, right]) => correctConnections[left] === right);
-    
+
     setIsCorrect(isAnswerCorrect);
     setHasSubmitted(true);
     onAnswer(isAnswerCorrect, connections);
@@ -118,7 +131,14 @@ export function MatchingExercise({
 
   const getItemStyle = (item: string, side: "left" | "right") => {
     if (hasSubmitted) {
-      const correctConnections = Object.fromEntries(pairs);
+      // Build correct connections map
+      const correctConnections: Record<string, string> = {};
+      pairs.forEach(p => {
+        const left = language === 'zh' && p.left_zh ? p.left_zh : p.left;
+        const right = language === 'zh' && p.right_zh ? p.right_zh : p.right;
+        correctConnections[left] = right;
+      });
+
       if (side === "left") {
         const userConnection = connections[item];
         const correctConnection = correctConnections[item];
@@ -249,11 +269,15 @@ export function MatchingExercise({
         >
           <p className="text-sm font-medium mb-2">Correct matches:</p>
           <div className="space-y-1">
-            {pairs.map(([left, right]) => (
-              <div key={left} className="text-sm text-foreground">
-                {left} → {right}
-              </div>
-            ))}
+            {pairs.map((pair, index) => {
+              const left = language === 'zh' && pair.left_zh ? pair.left_zh : pair.left;
+              const right = language === 'zh' && pair.right_zh ? pair.right_zh : pair.right;
+              return (
+                <div key={index} className="text-sm text-foreground">
+                  {left} → {right}
+                </div>
+              );
+            })}
           </div>
         </motion.div>
       )}

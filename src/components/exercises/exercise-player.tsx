@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useSearchParams } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -41,20 +42,32 @@ interface ExercisePlayerProps {
   previousScores?: Record<string, number>;
 }
 
-export function ExercisePlayer({ 
-  exercises, 
-  onComplete, 
-  chapterId, 
+export function ExercisePlayer({
+  exercises,
+  onComplete,
+  chapterId,
   subjectId,
   previousScores = {}
 }: ExercisePlayerProps) {
-  const [currentExercise, setCurrentExercise] = useState(0);
+  const [searchParams, setSearchParams] = useSearchParams();
+
+  // Get current exercise from URL params, default to 0
+  const exerciseParam = searchParams.get('exercise');
+  const initialExercise = exerciseParam ? parseInt(exerciseParam, 10) : 0;
+  const validInitialExercise = Math.max(0, Math.min(initialExercise, exercises.length - 1));
+
+  const [currentExercise, setCurrentExercise] = useState(validInitialExercise);
   const [scores, setScores] = useState<Record<string, number>>(previousScores);
   const [attempts, setAttempts] = useState<Record<string, number>>({});
   const [showHint, setShowHint] = useState(false);
   const [showExplanation, setShowExplanation] = useState(false);
   const { language } = useStore();
   const t = useTranslations(language);
+
+  // Update URL when exercise changes
+  useEffect(() => {
+    setSearchParams({ exercise: currentExercise.toString() }, { replace: true });
+  }, [currentExercise, setSearchParams]);
 
   const exercise = exercises[currentExercise];
   const isLastExercise = currentExercise === exercises.length - 1;

@@ -8,15 +8,16 @@ import { useNavigate } from "react-router-dom";
 import contentData from "@/data/content.json";
 
 export default function Subjects() {
-  const { user, language } = useStore();
+  const { user, language, _hasHydrated } = useStore();
   const t = useTranslations(language);
   const navigate = useNavigate();
 
   useEffect(() => {
-    if (!user) {
+    // Wait for store to hydrate before checking authentication
+    if (_hasHydrated && !user) {
       navigate('/login');
     }
-  }, [user, navigate]);
+  }, [user, _hasHydrated, navigate]);
 
   if (!user) return null;
 

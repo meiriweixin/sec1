@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useSearchParams } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -37,9 +38,21 @@ interface LessonPlayerProps {
 }
 
 export function LessonPlayer({ sections, onComplete, chapterId, subjectId }: LessonPlayerProps) {
-  const [currentSection, setCurrentSection] = useState(0);
+  const [searchParams, setSearchParams] = useSearchParams();
+
+  // Get current section from URL params, default to 0
+  const sectionParam = searchParams.get('section');
+  const initialSection = sectionParam ? parseInt(sectionParam, 10) : 0;
+  const validInitialSection = Math.max(0, Math.min(initialSection, sections.length - 1));
+
+  const [currentSection, setCurrentSection] = useState(validInitialSection);
   const { language, updateProgress } = useStore();
   const t = useTranslations(language);
+
+  // Update URL when section changes
+  useEffect(() => {
+    setSearchParams({ section: currentSection.toString() }, { replace: true });
+  }, [currentSection, setSearchParams]);
 
   const section = sections[currentSection];
   const isLastSection = currentSection === sections.length - 1;

@@ -4807,6 +4807,339 @@
               "answer": 0,
               "hint": "Think about the structure and movement in solids.",
               "hint_zh": "想想固体的结构和运动。"
+            },
+            {
+              "id": "particle-ex2",
+              "type": "mcq",
+              "difficulty": "easy",
+              "prompt": "According to the particle model, what is matter made up of?",
+              "prompt_zh": "根据粒子模型，物质是由什么组成的？",
+              "choices": [
+                "Tiny particles that are constantly moving",
+                "Large solid blocks",
+                "Energy waves",
+                "Empty space only"
+              ],
+              "choices_zh": [
+                "不断运动的微小粒子",
+                "大块固体",
+                "能量波",
+                "只有空间"
+              ],
+              "answer": 0,
+              "explanation": "The particle model states that all matter is made up of tiny particles (atoms and molecules) that are in constant motion.",
+              "explanation_zh": "粒子模型指出，所有物质都是由不断运动的微小粒子（原子和分子）组成的。"
+            },
+            {
+              "id": "particle-ex3",
+              "type": "multi",
+              "difficulty": "easy",
+              "prompt": "Which of the following are true about particles in a solid? (Select all that apply)",
+              "prompt_zh": "关于固体中的粒子，以下哪些陈述是正确的？（选择所有适用项）",
+              "choices": [
+                "Particles are closely packed together",
+                "Particles vibrate in fixed positions",
+                "Particles move freely and rapidly",
+                "Particles have strong forces of attraction",
+                "Particles can flow past each other"
+              ],
+              "choices_zh": [
+                "粒子紧密排列",
+                "粒子在固定位置振动",
+                "粒子自由快速移动",
+                "粒子之间有强大的吸引力",
+                "粒子可以相互流动"
+              ],
+              "answer": [
+                0,
+                1,
+                3
+              ],
+              "explanation": "In solids, particles are closely packed, vibrate in fixed positions, and have strong attractive forces. They cannot move freely or flow.",
+              "explanation_zh": "在固体中，粒子紧密排列，在固定位置振动，并具有强大的吸引力。它们不能自由移动或流动。"
+            },
+            {
+              "id": "particle-ex4",
+              "type": "mcq",
+              "difficulty": "medium",
+              "prompt": "What happens to the space between particles when a solid melts into a liquid?",
+              "prompt_zh": "当固体熔化成液体时，粒子之间的空间会发生什么变化？",
+              "choices": [
+                "The space decreases",
+                "The space increases slightly",
+                "The space stays exactly the same",
+                "The particles disappear"
+              ],
+              "choices_zh": [
+                "空间减少",
+                "空间略微增加",
+                "空间保持完全相同",
+                "粒子消失"
+              ],
+              "answer": 1,
+              "explanation": "When a solid melts, particles gain energy and move apart slightly, increasing the space between them. This is why liquids can flow.",
+              "explanation_zh": "当固体熔化时，粒子获得能量并略微分开，增加了它们之间的空间。这就是为什么液体可以流动。"
+            },
+            {
+              "id": "particle-ex5",
+              "type": "drag-order",
+              "difficulty": "medium",
+              "prompt": "Arrange these states of matter in order of increasing particle speed:",
+              "prompt_zh": "按粒子速度递增的顺序排列这些物质状态：",
+              "items": [
+                "Solid",
+                "Liquid",
+                "Gas"
+              ],
+              "items_zh": [
+                "固体",
+                "液体",
+                "气体"
+              ],
+              "answer": [
+                "Solid",
+                "Liquid",
+                "Gas"
+              ],
+              "explanation": "Particles in solids move slowest (only vibrate), liquids move at moderate speeds (slide past each other), and gases move fastest (rapid random motion).",
+              "explanation_zh": "固体中的粒子移动最慢（仅振动），液体中的粒子以中等速度移动（相互滑动），气体中的粒子移动最快（快速随机运动）。"
+            },
+            {
+              "id": "particle-ex6",
+              "type": "mcq",
+              "difficulty": "medium",
+              "prompt": "Why can gases be compressed much more easily than solids or liquids?",
+              "prompt_zh": "为什么气体比固体或液体更容易被压缩？",
+              "choices": [
+                "Gas particles are smaller",
+                "Gas particles have much more space between them",
+                "Gas particles are lighter",
+                "Gas particles do not exist"
+              ],
+              "choices_zh": [
+                "气体粒子更小",
+                "气体粒子之间有更多空间",
+                "气体粒子更轻",
+                "气体粒子不存在"
+              ],
+              "answer": 1,
+              "explanation": "Gases have large spaces between particles, so they can be compressed by pushing particles closer together. Solids and liquids have particles already close together.",
+              "explanation_zh": "气体粒子之间有大量空间，因此可以通过将粒子推近来压缩。固体和液体的粒子已经很接近了。"
+            },
+            {
+              "id": "particle-ex7",
+              "type": "multi",
+              "difficulty": "medium",
+              "prompt": "Which of the following are characteristics of particles in a liquid? (Select all that apply)",
+              "prompt_zh": "以下哪些是液体中粒子的特征？（选择所有适用项）",
+              "choices": [
+                "Particles can slide past each other",
+                "Particles are close together but not in fixed positions",
+                "Particles move faster than in solids",
+                "Particles are far apart with large spaces",
+                "Particles have weaker forces than in solids"
+              ],
+              "choices_zh": [
+                "粒子可以相互滑动",
+                "粒子靠近但不在固定位置",
+                "粒子比固体中移动得更快",
+                "粒子相距很远，空间很大",
+                "粒子之间的力比固体弱"
+              ],
+              "answer": [
+                0,
+                1,
+                2,
+                4
+              ],
+              "explanation": "In liquids, particles are close together but can slide past each other, move faster than in solids, and have weaker forces of attraction than solids. Large spaces only exist in gases.",
+              "explanation_zh": "在液体中，粒子靠近但可以相互滑动，比固体中移动得更快，吸引力比固体弱。大空间仅存在于气体中。"
+            },
+            {
+              "id": "particle-ex8",
+              "type": "match",
+              "difficulty": "medium",
+              "prompt": "Match each state of matter with its particle arrangement:",
+              "prompt_zh": "将每种物质状态与其粒子排列配对：",
+              "pairs": [
+                {
+                  "left": "Solid",
+                  "left_zh": "固体",
+                  "right": "Closely packed in regular pattern",
+                  "right_zh": "规则排列，紧密堆积"
+                },
+                {
+                  "left": "Liquid",
+                  "left_zh": "液体",
+                  "right": "Close together but randomly arranged",
+                  "right_zh": "靠近但随机排列"
+                },
+                {
+                  "left": "Gas",
+                  "left_zh": "气体",
+                  "right": "Far apart with large spaces",
+                  "right_zh": "相距很远，空间很大"
+                }
+              ],
+              "explanation": "Solids have regular, closely packed arrangements. Liquids are close but random. Gases have large spaces between particles.",
+              "explanation_zh": "固体具有规则、紧密的排列。液体靠近但随机排列。气体粒子之间有大量空间。"
+            },
+            {
+              "id": "particle-ex9",
+              "type": "mcq",
+              "difficulty": "hard",
+              "prompt": "When water evaporates, what happens to the water particles?",
+              "prompt_zh": "当水蒸发时，水粒子会发生什么变化？",
+              "choices": [
+                "They disappear completely",
+                "They gain energy and escape into the air as gas",
+                "They turn into different particles",
+                "They break down into smaller pieces"
+              ],
+              "choices_zh": [
+                "它们完全消失",
+                "它们获得能量并以气体形式逸入空气中",
+                "它们变成不同的粒子",
+                "它们分解成更小的碎片"
+              ],
+              "answer": 1,
+              "explanation": "During evaporation, water particles at the surface gain enough energy to overcome attractive forces and escape into the air as water vapor (gas).",
+              "explanation_zh": "在蒸发过程中，表面的水粒子获得足够的能量来克服吸引力，并以水蒸气（气体）的形式逸入空气中。"
+            },
+            {
+              "id": "particle-ex10",
+              "type": "mcq",
+              "difficulty": "hard",
+              "prompt": "Why does ice float on water?",
+              "prompt_zh": "为什么冰会浮在水面上？",
+              "choices": [
+                "Ice particles are smaller than water particles",
+                "Ice has a regular arrangement with more space, making it less dense",
+                "Ice particles are lighter than water particles",
+                "Ice has no particles"
+              ],
+              "choices_zh": [
+                "冰的粒子比水的粒子小",
+                "冰具有规则排列，空间更大，密度更小",
+                "冰的粒子比水的粒子轻",
+                "冰没有粒子"
+              ],
+              "answer": 1,
+              "explanation": "When water freezes into ice, particles arrange in a regular hexagonal pattern with more space between them, making ice less dense than liquid water, so it floats.",
+              "explanation_zh": "当水结冰时，粒子排列成规则的六边形图案，粒子之间有更多空间，使冰的密度小于液态水，因此会浮起来。"
+            },
+            {
+              "id": "particle-ex11",
+              "type": "short",
+              "difficulty": "medium",
+              "prompt": "What process describes the change from liquid to gas?",
+              "prompt_zh": "从液体变成气体的过程叫什么？",
+              "answer": "evaporation",
+              "validator": "exact",
+              "explanation": "Evaporation is the process where liquid particles gain enough energy to escape and become gas. Boiling is also correct (rapid evaporation).",
+              "explanation_zh": "蒸发是液体粒子获得足够能量逸出并变成气体的过程。沸腾也是正确的（快速蒸发）。"
+            },
+            {
+              "id": "particle-ex12",
+              "type": "multi",
+              "difficulty": "hard",
+              "prompt": "What happens to particles when a substance is heated? (Select all that apply)",
+              "prompt_zh": "当物质被加热时，粒子会发生什么？（选择所有适用项）",
+              "choices": [
+                "Particles gain kinetic energy",
+                "Particles move faster",
+                "Particles vibrate more vigorously",
+                "Particles become smaller",
+                "Spaces between particles may increase"
+              ],
+              "choices_zh": [
+                "粒子获得动能",
+                "粒子移动得更快",
+                "粒子振动得更剧烈",
+                "粒子变小",
+                "粒子之间的空间可能增加"
+              ],
+              "answer": [
+                0,
+                1,
+                2,
+                4
+              ],
+              "explanation": "When heated, particles gain kinetic energy, move faster, vibrate more, and may move apart (increasing spaces). Particles themselves do not change size.",
+              "explanation_zh": "加热时，粒子获得动能，移动得更快，振动得更剧烈，并可能分开（增加空间）。粒子本身不会改变大小。"
+            },
+            {
+              "id": "particle-ex13",
+              "type": "mcq",
+              "difficulty": "hard",
+              "prompt": "Why does the smell of perfume spread across a room?",
+              "prompt_zh": "为什么香水的气味会在房间里扩散？",
+              "choices": [
+                "Perfume particles do not move",
+                "Perfume particles randomly move and spread out (diffusion)",
+                "Air pushes the perfume away",
+                "Perfume particles are destroyed"
+              ],
+              "choices_zh": [
+                "香水粒子不移动",
+                "香水粒子随机移动并扩散（扩散）",
+                "空气将香水推开",
+                "香水粒子被破坏"
+              ],
+              "answer": 1,
+              "explanation": "Perfume particles move randomly and spread throughout the room through diffusion - the random movement of particles from areas of high concentration to low concentration.",
+              "explanation_zh": "香水粒子随机移动并通过扩散在整个房间内传播——粒子从高浓度区域随机移动到低浓度区域。"
+            },
+            {
+              "id": "particle-ex14",
+              "type": "match",
+              "difficulty": "hard",
+              "prompt": "Match each state change with its particle behavior:",
+              "prompt_zh": "将每种状态变化与其粒子行为配对：",
+              "pairs": [
+                {
+                  "left": "Melting",
+                  "left_zh": "熔化",
+                  "right": "Particles gain energy and break free from fixed positions",
+                  "right_zh": "粒子获得能量并从固定位置挣脱"
+                },
+                {
+                  "left": "Freezing",
+                  "left_zh": "凝固",
+                  "right": "Particles lose energy and lock into fixed positions",
+                  "right_zh": "粒子失去能量并锁定在固定位置"
+                },
+                {
+                  "left": "Condensation",
+                  "left_zh": "凝结",
+                  "right": "Gas particles lose energy and come closer together",
+                  "right_zh": "气体粒子失去能量并靠近"
+                }
+              ],
+              "explanation": "Melting: solid→liquid (particles gain energy). Freezing: liquid→solid (particles lose energy). Condensation: gas→liquid (particles lose energy and slow down).",
+              "explanation_zh": "熔化：固体→液体（粒子获得能量）。凝固：液体→固体（粒子失去能量）。凝结：气体→液体（粒子失去能量并减速）。"
+            },
+            {
+              "id": "particle-ex15",
+              "type": "mcq",
+              "difficulty": "hard",
+              "prompt": "In Singapore's humid weather, why do glasses fog up when you enter an air-conditioned room?",
+              "prompt_zh": "在新加坡潮湿的天气中，为什么进入空调房时眼镜会起雾？",
+              "choices": [
+                "Water particles in the air lose energy and condense on the cool glass",
+                "The glasses become wet from the air conditioning",
+                "Water particles disappear",
+                "The glasses absorb moisture from your eyes"
+              ],
+              "choices_zh": [
+                "空气中的水粒子失去能量并在冷玻璃上凝结",
+                "眼镜被空调弄湿",
+                "水粒子消失",
+                "眼镜从你的眼睛吸收水分"
+              ],
+              "answer": 0,
+              "explanation": "When warm, humid air contacts the cold glasses, water vapor (gas) particles lose energy rapidly and condense into tiny water droplets (liquid) on the glass surface, causing fog.",
+              "explanation_zh": "当温暖潮湿的空气接触冷眼镜时，水蒸气（气体）粒子迅速失去能量，在玻璃表面凝结成微小的水滴（液体），形成雾气。"
             }
           ],
           "tag": "Chemistry",
@@ -5269,22 +5602,22 @@
               "prompt": "Match each chemical formula with its common name:",
               "prompt_zh": "将每个化学式与其常用名称匹配：",
               "pairs": [
-                [
-                  "H₂O",
-                  "Water"
-                ],
-                [
-                  "NaCl",
-                  "Table salt"
-                ],
-                [
-                  "CO₂",
-                  "Carbon dioxide"
-                ],
-                [
-                  "O₂",
-                  "Oxygen gas"
-                ]
+                {
+                  "left": "H₂O",
+                  "right": "Water"
+                },
+                {
+                  "left": "NaCl",
+                  "right": "Table salt"
+                },
+                {
+                  "left": "CO₂",
+                  "right": "Carbon dioxide"
+                },
+                {
+                  "left": "O₂",
+                  "right": "Oxygen gas"
+                }
               ],
               "pairs_zh": [
                 [
@@ -6368,18 +6701,18 @@
               "prompt": "Match heat transfer methods with examples:",
               "prompt_zh": "将热传递方法与例子匹配：",
               "pairs": [
-                [
-                  "Conduction",
-                  "Metal spoon in hot soup"
-                ],
-                [
-                  "Convection",
-                  "Boiling water circulation"
-                ],
-                [
-                  "Radiation",
-                  "Sun warming the Earth"
-                ]
+                {
+                  "left": "Conduction",
+                  "right": "Metal spoon in hot soup"
+                },
+                {
+                  "left": "Convection",
+                  "right": "Boiling water circulation"
+                },
+                {
+                  "left": "Radiation",
+                  "right": "Sun warming the Earth"
+                }
               ],
               "pairs_zh": [
                 [
@@ -6395,6 +6728,319 @@
                   "太阳温暖地球"
                 ]
               ]
+            },
+            {
+              "id": "heat-temp-ex2",
+              "type": "mcq",
+              "difficulty": "easy",
+              "prompt": "What is the SI unit of temperature?",
+              "prompt_zh": "温度的国际单位是什么？",
+              "choices": [
+                "Kelvin (K)",
+                "Celsius (°C)",
+                "Fahrenheit (°F)",
+                "Joule (J)"
+              ],
+              "choices_zh": [
+                "开尔文 (K)",
+                "摄氏度 (°C)",
+                "华氏度 (°F)",
+                "焦耳 (J)"
+              ],
+              "answer": 0,
+              "explanation": "Kelvin (K) is the SI unit of temperature. Celsius and Fahrenheit are also temperature units, but Kelvin is the standard SI unit.",
+              "explanation_zh": "开尔文（K）是温度的国际单位。摄氏度和华氏度也是温度单位，但开尔文是标准的国际单位。"
+            },
+            {
+              "id": "heat-temp-ex3",
+              "type": "mcq",
+              "difficulty": "easy",
+              "prompt": "What happens to the particles in a substance when it is heated?",
+              "prompt_zh": "物质被加热时，其粒子会发生什么变化？",
+              "choices": [
+                "They move faster and vibrate more",
+                "They move slower and vibrate less",
+                "They stop moving completely",
+                "They change into different particles"
+              ],
+              "choices_zh": [
+                "它们移动得更快，振动得更剧烈",
+                "它们移动得更慢，振动得更少",
+                "它们完全停止移动",
+                "它们变成不同的粒子"
+              ],
+              "answer": 0,
+              "explanation": "When a substance is heated, its particles gain kinetic energy and move faster, vibrating more vigorously.",
+              "explanation_zh": "当物质被加热时，其粒子获得动能，移动得更快，振动得更剧烈。"
+            },
+            {
+              "id": "heat-temp-ex4",
+              "type": "multi",
+              "difficulty": "medium",
+              "prompt": "Which of the following are good conductors of heat? (Select all that apply)",
+              "prompt_zh": "以下哪些是良好的热导体？（选择所有适用项）",
+              "choices": [
+                "Copper",
+                "Wood",
+                "Aluminum",
+                "Plastic",
+                "Iron"
+              ],
+              "choices_zh": [
+                "铜",
+                "木材",
+                "铝",
+                "塑料",
+                "铁"
+              ],
+              "answer": [
+                0,
+                2,
+                4
+              ],
+              "explanation": "Metals such as copper, aluminum, and iron are good conductors of heat. Wood and plastic are insulators.",
+              "explanation_zh": "铜、铝和铁等金属是良好的热导体。木材和塑料是绝缘体。"
+            },
+            {
+              "id": "heat-temp-ex5",
+              "type": "mcq",
+              "difficulty": "medium",
+              "prompt": "Which method of heat transfer does NOT require a medium?",
+              "prompt_zh": "哪种热传递方式不需要介质？",
+              "choices": [
+                "Conduction",
+                "Convection",
+                "Radiation",
+                "All require a medium"
+              ],
+              "choices_zh": [
+                "传导",
+                "对流",
+                "辐射",
+                "都需要介质"
+              ],
+              "answer": 2,
+              "explanation": "Radiation does not require a medium and can transfer heat through a vacuum (e.g., heat from the Sun reaching Earth).",
+              "explanation_zh": "辐射不需要介质，可以通过真空传递热量（例如，太阳的热量到达地球）。"
+            },
+            {
+              "id": "heat-temp-ex6",
+              "type": "short",
+              "difficulty": "easy",
+              "prompt": "At what temperature (in °C) does water freeze at standard atmospheric pressure?",
+              "prompt_zh": "在标准大气压下，水在多少摄氏度结冰？",
+              "answer": "0",
+              "validator": "exact",
+              "explanation": "Water freezes at 0°C (32°F or 273.15 K) at standard atmospheric pressure.",
+              "explanation_zh": "在标准大气压下，水在0°C（32°F或273.15 K）结冰。"
+            },
+            {
+              "id": "heat-temp-ex7",
+              "type": "mcq",
+              "difficulty": "medium",
+              "prompt": "Why do metals feel colder than wood at the same room temperature?",
+              "prompt_zh": "为什么在相同的室温下，金属摸起来比木头冷？",
+              "choices": [
+                "Metals are actually colder than wood",
+                "Metals conduct heat away from your hand faster",
+                "Wood is warmer than metals",
+                "Metals have lower temperature than wood"
+              ],
+              "choices_zh": [
+                "金属实际上比木头冷",
+                "金属从你的手上传走热量的速度更快",
+                "木头比金属温度高",
+                "金属的温度比木头低"
+              ],
+              "answer": 1,
+              "explanation": "Metals feel colder because they are good conductors and quickly conduct heat away from your warm hand, making them feel cold.",
+              "explanation_zh": "金属摸起来冷是因为它们是良好的导体，能快速将热量从你温暖的手上传走，让它们感觉冷。"
+            },
+            {
+              "id": "heat-temp-ex8",
+              "type": "drag-order",
+              "difficulty": "medium",
+              "prompt": "Arrange these states of matter in order of increasing particle kinetic energy:",
+              "prompt_zh": "按粒子动能递增的顺序排列这些物质状态：",
+              "items": [
+                "Solid",
+                "Liquid",
+                "Gas"
+              ],
+              "items_zh": [
+                "固体",
+                "液体",
+                "气体"
+              ],
+              "answer": [
+                "Solid",
+                "Liquid",
+                "Gas"
+              ],
+              "explanation": "Particles in solids have the least kinetic energy (vibrate in place), liquids have moderate kinetic energy (can move around), and gases have the most kinetic energy (move freely and rapidly).",
+              "explanation_zh": "固体中的粒子动能最小（在原地振动），液体中的粒子动能中等（可以四处移动），气体中的粒子动能最大（自由快速移动）。"
+            },
+            {
+              "id": "heat-temp-ex9",
+              "type": "match",
+              "difficulty": "medium",
+              "prompt": "Match each heat transfer method with its description:",
+              "prompt_zh": "将每种热传递方式与其描述配对：",
+              "pairs": [
+                {
+                  "left": "Conduction",
+                  "left_zh": "传导",
+                  "right": "Heat transfer through direct contact",
+                  "right_zh": "通过直接接触传递热量"
+                },
+                {
+                  "left": "Convection",
+                  "left_zh": "对流",
+                  "right": "Heat transfer through fluid movement",
+                  "right_zh": "通过流体运动传递热量"
+                },
+                {
+                  "left": "Radiation",
+                  "left_zh": "辐射",
+                  "right": "Heat transfer through electromagnetic waves",
+                  "right_zh": "通过电磁波传递热量"
+                }
+              ],
+              "explanation": "Conduction occurs through direct contact (touching a hot pan), convection through fluid circulation (boiling water), and radiation through electromagnetic waves (sunlight).",
+              "explanation_zh": "传导通过直接接触发生（触摸热锅），对流通过流体循环发生（沸水），辐射通过电磁波发生（阳光）。"
+            },
+            {
+              "id": "heat-temp-ex10",
+              "type": "mcq",
+              "difficulty": "hard",
+              "prompt": "A thermometer reads 25°C. What is this temperature in Kelvin?",
+              "prompt_zh": "温度计读数为25°C。这个温度换算成开尔文是多少？",
+              "choices": [
+                "248 K",
+                "273 K",
+                "298 K",
+                "323 K"
+              ],
+              "choices_zh": [
+                "248 K",
+                "273 K",
+                "298 K",
+                "323 K"
+              ],
+              "answer": 2,
+              "explanation": "To convert Celsius to Kelvin, add 273.15 (or approximately 273). So 25°C = 25 + 273 = 298 K.",
+              "explanation_zh": "将摄氏度转换为开尔文，加上273.15（或约273）。所以25°C = 25 + 273 = 298 K。"
+            },
+            {
+              "id": "heat-temp-ex11",
+              "type": "multi",
+              "difficulty": "medium",
+              "prompt": "Which of the following are examples of convection? (Select all that apply)",
+              "prompt_zh": "以下哪些是对流的例子？（选择所有适用项）",
+              "choices": [
+                "Boiling water in a pot",
+                "Heat from a campfire warming your hands",
+                "Sea breeze during the day",
+                "Touching a hot metal spoon",
+                "Hot air balloon rising"
+              ],
+              "choices_zh": [
+                "锅中的沸水",
+                "篝火的热量温暖你的手",
+                "白天的海风",
+                "触摸热金属勺",
+                "热气球上升"
+              ],
+              "answer": [
+                0,
+                2,
+                4
+              ],
+              "explanation": "Convection involves heat transfer through fluid (liquid or gas) movement. Boiling water, sea breeze, and hot air balloons all involve convection. Campfire heat reaching your hands is radiation, and touching a hot spoon is conduction.",
+              "explanation_zh": "对流涉及通过流体（液体或气体）运动传递热量。沸水、海风和热气球都涉及对流。篝火的热量到达你的手是辐射，触摸热勺是传导。"
+            },
+            {
+              "id": "heat-temp-ex12",
+              "type": "mcq",
+              "difficulty": "hard",
+              "prompt": "Why are cooking pots often made with copper bottoms and plastic handles?",
+              "prompt_zh": "为什么烹饪锅通常用铜底和塑料手柄制成？",
+              "choices": [
+                "Copper is cheaper than plastic",
+                "Copper conducts heat well (for cooking) while plastic insulates (for safe handling)",
+                "Plastic is stronger than copper",
+                "Copper is lighter than plastic"
+              ],
+              "choices_zh": [
+                "铜比塑料便宜",
+                "铜导热性好（用于烹饪），而塑料隔热（安全握持）",
+                "塑料比铜更坚固",
+                "铜比塑料轻"
+              ],
+              "answer": 1,
+              "explanation": "Copper is an excellent heat conductor, allowing efficient heat transfer for cooking. Plastic is a poor conductor (insulator), preventing heat from reaching the handle and burning your hand.",
+              "explanation_zh": "铜是极好的热导体，可以有效传递热量用于烹饪。塑料是不良导体（绝缘体），防止热量到达手柄烫伤你的手。"
+            },
+            {
+              "id": "heat-temp-ex13",
+              "type": "short",
+              "difficulty": "hard",
+              "prompt": "At what temperature (in °C) does water boil at standard atmospheric pressure?",
+              "prompt_zh": "在标准大气压下，水在多少摄氏度沸腾？",
+              "answer": "100",
+              "validator": "exact",
+              "explanation": "Water boils at 100°C (212°F or 373.15 K) at standard atmospheric pressure (1 atm).",
+              "explanation_zh": "在标准大气压（1个大气压）下，水在100°C（212°F或373.15 K）沸腾。"
+            },
+            {
+              "id": "heat-temp-ex14",
+              "type": "mcq",
+              "difficulty": "hard",
+              "prompt": "In Singapore's hot climate, why do people often wear light-colored clothing?",
+              "prompt_zh": "在新加坡炎热的气候中，为什么人们经常穿浅色衣服？",
+              "choices": [
+                "Light colors absorb more heat",
+                "Light colors reflect more radiation and absorb less heat",
+                "Light colors conduct heat better",
+                "Light colors are warmer"
+              ],
+              "choices_zh": [
+                "浅色吸收更多热量",
+                "浅色反射更多辐射，吸收更少热量",
+                "浅色导热性更好",
+                "浅色更温暖"
+              ],
+              "answer": 1,
+              "explanation": "Light-colored clothing reflects more sunlight (radiation) and absorbs less heat, keeping you cooler in hot weather. Dark colors absorb more radiation and get hotter.",
+              "explanation_zh": "浅色衣服反射更多阳光（辐射），吸收更少热量，在炎热的天气中让你保持凉爽。深色吸收更多辐射，变得更热。"
+            },
+            {
+              "id": "heat-temp-ex15",
+              "type": "multi",
+              "difficulty": "hard",
+              "prompt": "Which of the following statements about temperature and heat are correct? (Select all that apply)",
+              "prompt_zh": "关于温度和热量，以下哪些陈述是正确的？（选择所有适用项）",
+              "choices": [
+                "Temperature is a measure of average kinetic energy of particles",
+                "Heat is a form of energy transfer",
+                "Temperature and heat are the same thing",
+                "Heat flows from hot to cold objects",
+                "Two objects at the same temperature have the same amount of heat"
+              ],
+              "choices_zh": [
+                "温度是粒子平均动能的度量",
+                "热量是一种能量传递形式",
+                "温度和热量是同一回事",
+                "热量从热物体流向冷物体",
+                "两个温度相同的物体具有相同的热量"
+              ],
+              "answer": [
+                0,
+                1,
+                3
+              ],
+              "explanation": "Temperature measures average particle kinetic energy. Heat is energy transfer between objects. They are different concepts. Heat flows from hot to cold. Objects at the same temperature don't necessarily have the same total heat energy (depends on mass and material).",
+              "explanation_zh": "温度衡量粒子的平均动能。热量是物体之间的能量传递。它们是不同的概念。热量从热物体流向冷物体。温度相同的物体不一定具有相同的总热能（取决于质量和材料）。"
             }
           ],
           "tag": "Physics",

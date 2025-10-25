@@ -266,6 +266,16 @@ interface User {
 - `.env.example` - Template for developers
 - After changing `.env`, restart dev server: `npm run dev`
 
+**Google OAuth Public Access**:
+- By default, OAuth apps are in "Testing" mode (only specific test users can sign in)
+- Students seeing "Social Account is not yet connected to any Vercel user" error means they're not authorized
+- **Solution**: Publish the OAuth app or add students as test users
+- See [GOOGLE_OAUTH_PUBLIC_ACCESS.md](GOOGLE_OAUTH_PUBLIC_ACCESS.md) for detailed instructions
+- Three options:
+  1. Add test users (up to 100) in Google Cloud Console
+  2. Publish the app for public use (recommended, no verification needed for basic scopes)
+  3. Use Internal user type (Google Workspace organizations only)
+
 ## Important Notes
 
 - **Guest Mode**: Users can continue as guest without authentication (sets `user.isGuest = true`)

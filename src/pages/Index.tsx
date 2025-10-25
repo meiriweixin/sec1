@@ -8,16 +8,17 @@ import { motion } from "framer-motion";
 import { useEffect } from "react";
 
 const Index = () => {
-  const { user, language } = useStore();
+  const { user, language, _hasHydrated } = useStore();
   const t = useTranslations(language);
   const navigate = useNavigate();
 
   useEffect(() => {
-    // Redirect if already logged in
-    if (user) {
+    // Only redirect if user is logged in AND they're actively on the landing page
+    // Wait for store hydration to avoid premature redirects
+    if (_hasHydrated && user && window.location.pathname === '/') {
       navigate('/dashboard');
     }
-  }, [user, navigate]);
+  }, [user, _hasHydrated, navigate]);
 
   const features = [
     {
