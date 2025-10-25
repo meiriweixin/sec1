@@ -769,17 +769,17 @@
                 "学习",
                 "中文"
               ],
-              "explanation": "Correct order: Subject + Place + Manner + Verb + Object",
-              "explanation_zh": "正确顺序：主语 + 地点 + 方式 + 动词 + 宾语",
-              "prompt": "Arrange these words in correct order: 我 / 在学校 / 学习 / 认真地 / 中文",
-              "prompt_zh": "将这些词排列成正确的顺序：我 / 在学校 / 学习 / 认真地 / 中文",
-              "answer": [
+              "correctOrder": [
                 "我",
                 "在学校",
                 "认真地",
                 "学习",
                 "中文"
-              ]
+              ],
+              "explanation": "Correct order: Subject + Place + Manner + Verb + Object",
+              "explanation_zh": "正确顺序：主语 + 地点 + 方式 + 动词 + 宾语",
+              "prompt": "Arrange these words in correct order: 我 / 在学校 / 学习 / 认真地 / 中文",
+              "prompt_zh": "将这些词排列成正确的顺序：我 / 在学校 / 学习 / 认真地 / 中文"
             },
             {
               "id": "ex2",
@@ -5733,15 +5733,15 @@
                 "器官系统",
                 "生物体"
               ],
+              "correctOrder": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ],
               "explanation": "The correct order is: Cell → Tissue → Organ → Organ System → Organism. Cells group together to form tissues, tissues form organs, organs form systems, and systems make up organisms.",
-              "explanation_zh": "正确顺序是：细胞 → 组织 → 器官 → 器官系统 → 生物体。细胞组合形成组织，组织形成器官，器官形成系统，系统组成生物体。",
-              "answer": [
-                "Cell",
-                "Tissue",
-                "Organ",
-                "Organ System",
-                "Organism"
-              ]
+              "explanation_zh": "正确顺序是：细胞 → 组织 → 器官 → 器官系统 → 生物体。细胞组合形成组织，组织形成器官，器官形成系统，系统组成生物体。"
             },
             {
               "id": "cells-ex8",
@@ -6079,20 +6079,14 @@
                 "光进入我们的眼睛",
                 "大脑解释信号"
               ],
-              "explanation": "Vision process: Light is emitted → reflects off objects → enters eyes → brain processes the information.",
-              "explanation_zh": "视觉过程：光被发射→从物体反射→进入眼睛→大脑处理信息。",
-              "answer": [
-                "Light source emits light",
-                "Light reflects off the object",
-                "Light enters our eyes",
-                "Brain interprets the signal"
+              "correctOrder": [
+                0,
+                1,
+                2,
+                3
               ],
-              "answer_zh": [
-                "光源发出光",
-                "光从物体反射",
-                "光进入我们的眼睛",
-                "大脑解释信号"
-              ]
+              "explanation": "Vision process: Light is emitted → reflects off objects → enters eyes → brain processes the information.",
+              "explanation_zh": "视觉过程：光被发射→从物体反射→进入眼睛→大脑处理信息。"
             },
             {
               "id": "light-ex7",

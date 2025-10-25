@@ -221,6 +221,51 @@ Examples:
 - `@/lib/store` → `src/lib/store`
 - `@/data/content.json` → `src/data/content.json`
 
+## Authentication System
+
+The app supports **three authentication methods**:
+
+1. **Email/Password Login** (Demo Mode)
+   - Any email/password combination works
+   - Sets `user.provider = 'email'`
+   - For demonstration and testing purposes
+
+2. **Google OAuth Sign-In** (Real Authentication)
+   - Uses `@react-oauth/google` library
+   - Requires `VITE_GOOGLE_CLIENT_ID` environment variable
+   - Fetches real user data from Google (name, email, profile picture)
+   - Sets `user.provider = 'google'`
+   - See [GOOGLE_AUTH_SETUP.md](GOOGLE_AUTH_SETUP.md) or [QUICK_SETUP.md](QUICK_SETUP.md) for setup
+
+3. **Guest Mode**
+   - No authentication required
+   - Sets `user.isGuest = true` and `user.provider = 'guest'`
+   - Full app functionality with local progress tracking
+
+**User Object Structure**:
+```typescript
+interface User {
+  id: string;
+  email: string;
+  name: string;
+  isGuest?: boolean;
+  provider?: 'email' | 'google' | 'guest';
+  photoURL?: string; // For Google users
+}
+```
+
+**Google OAuth Setup**:
+- Set `VITE_GOOGLE_CLIENT_ID` in `.env` file
+- Get Client ID from Google Cloud Console (https://console.cloud.google.com/)
+- App wrapped with `GoogleOAuthProvider` in `src/App.tsx`
+- Login implementation in `src/pages/Login.tsx` uses `useGoogleLogin` hook
+- If Client ID not configured, button shows helpful error with setup instructions
+
+**Environment Variables**:
+- `.env` - Local configuration (gitignored, set `VITE_GOOGLE_CLIENT_ID` here)
+- `.env.example` - Template for developers
+- After changing `.env`, restart dev server: `npm run dev`
+
 ## Important Notes
 
 - **Guest Mode**: Users can continue as guest without authentication (sets `user.isGuest = true`)
