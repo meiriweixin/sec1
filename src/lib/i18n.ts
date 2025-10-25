@@ -12,6 +12,7 @@ export const translations = {
     email: "Email",
     password: "Password",
     continueAsGuest: "Continue as Guest",
+    continueWithGoogle: "Continue with Google",
     welcomeBack: "Welcome Back",
     loginToContinue: "Login to continue your learning journey",
     
@@ -109,6 +110,7 @@ export const translations = {
     email: "邮箱",
     password: "密码",
     continueAsGuest: "以访客身份继续",
+    continueWithGoogle: "使用 Google 继续",
     welcomeBack: "欢迎回来",
     loginToContinue: "登录以继续您的学习之旅",
     

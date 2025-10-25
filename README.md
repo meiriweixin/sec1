@@ -32,9 +32,26 @@ cd <YOUR_PROJECT_NAME>
 # Step 3: Install the necessary dependencies.
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: (OPTIONAL) Set up Google OAuth for real Google sign-in
+# See QUICK_SETUP.md for 5-minute setup guide
+# Or use email/password or guest mode without setup
+
+# Step 5: Start the development server with auto-reloading and an instant preview.
 npm run dev
 ```
+
+## 🔐 Google Sign-In Setup
+
+This app supports real Google OAuth authentication! To enable it:
+
+1. **Quick Setup (5 min)**: See [QUICK_SETUP.md](QUICK_SETUP.md) for step-by-step instructions
+2. **Detailed Guide**: See [GOOGLE_AUTH_SETUP.md](GOOGLE_AUTH_SETUP.md) for comprehensive setup
+
+**Note**: Google sign-in is optional. You can also use:
+- Email/password login (demo mode - any credentials work)
+- Guest mode (no account needed)
+
+Without Google OAuth setup, clicking "Continue with Google" will show a helpful error message with setup instructions.
 
 **Edit a file directly in GitHub**
 

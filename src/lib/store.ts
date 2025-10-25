@@ -6,6 +6,8 @@ export interface User {
   email: string;
   name: string;
   isGuest?: boolean;
+  provider?: 'email' | 'google' | 'guest';
+  photoURL?: string;
 }
 
 export interface ExerciseAttempt {

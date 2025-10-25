@@ -230,6 +230,50 @@ Examples:
 - **Animation Performance**: Use `framer-motion` for smooth animations, optimize for 60fps
 - **Content Validation**: Ensure exercise `answer` field matches choice index (0-based) for MCQ
 
+### Critical: Exercise Field Names
+All exercises MUST use `prompt` and `prompt_zh` fields for question text, NOT `question` and `question_zh`. The exercise components expect the `prompt` field. Using `question` will cause the question text to not display.
+
+**Correct:**
+```json
+{
+  "id": "ex1",
+  "type": "mcq",
+  "prompt": "What is the capital of France?",
+  "prompt_zh": "法国的首都是什么？",
+  "choices": ["Paris", "London", "Berlin"],
+  "answer": 0
+}
+```
+
+### Critical: Progress Data Preservation
+When updating chapter progress with `updateProgress()`, ALWAYS preserve existing progress fields:
+
+**When completing lessons** (in ChapterView.tsx):
+```typescript
+updateProgress({
+  subjectId,
+  chapterId,
+  sectionsCompleted: chapter.sections.map(s => s.id),
+  exercisesCompleted: progress?.exercisesCompleted || [], // Preserve existing
+  exerciseScores: progress?.exerciseScores || {},         // Preserve existing
+  // ... other fields
+});
+```
+
+**When completing exercises** (in ChapterView.tsx):
+```typescript
+updateProgress({
+  subjectId,
+  chapterId,
+  sectionsCompleted: progress?.sectionsCompleted || [], // Preserve existing
+  exercisesCompleted: Object.keys(scores),
+  exerciseScores: { ...exerciseScores, ...scores },
+  // ... other fields
+});
+```
+
+Failing to preserve existing fields will cause progress data to be reset, leading to inconsistent display in ChapterCard (e.g., showing "Completed" badge but "0/2" lessons).
+
 ## Singapore MOE Curriculum Alignment
 
 **Current Status**: The app fully covers all 4 core academic subjects required for Singapore MOE Secondary 1 curriculum (English, Chinese, Mathematics, Science). As of the latest update, all chapters are complete and verified against official MOE syllabuses.
@@ -356,6 +400,54 @@ Deploy via Lovable dashboard:
 1. Open project at https://lovable.dev/projects/46d2181b-ace3-4886-b550-bc9746762717
 2. Click Share → Publish
 3. Optionally connect custom domain in Project > Settings > Domains
+
+## Common Issues and Troubleshooting
+
+### Exercise Questions Not Displaying
+
+**Symptom**: Exercise shows "Question 1" but no actual question text, only answer choices visible.
+
+**Cause**: Exercise uses `question` field instead of `prompt` field.
+
+**Fix**:
+```python
+# Find and fix all exercises with 'question' field
+python -c "
+import json
+with open('src/data/content.json', 'r', encoding='utf-8') as f:
+    data = json.load(f)
+for subject in data['subjects']:
+    for chapter in subject['chapters']:
+        for exercise in chapter.get('exercises', []):
+            if 'question' in exercise:
+                exercise['prompt'] = exercise.pop('question')
+            if 'question_zh' in exercise:
+                exercise['prompt_zh'] = exercise.pop('question_zh')
+with open('src/data/content.json', 'w', encoding='utf-8') as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+"
+```
+
+### Progress Display Inconsistency
+
+**Symptom**: Chapter card shows "Completed" badge but "0/2" lessons or incorrect progress percentage.
+
+**Cause**: `updateProgress()` called without preserving existing `sectionsCompleted` or `exercisesCompleted` arrays.
+
+**Fix**: Always include existing progress when updating (see "Critical: Progress Data Preservation" section above).
+
+### Content.json Too Large to Read
+
+**Symptom**: Read tool fails with "File content exceeds maximum allowed size (256KB)".
+
+**Solution**: Use targeted searches instead:
+```bash
+# Use Grep to find specific content
+grep -r "chapter-id" src/data/content.json
+
+# Or use Python for complex queries
+python -c "import json; ..."
+```
 
 ## Key Architectural Decisions
 
