@@ -83,12 +83,12 @@ const Index = () => {
           transition={{ duration: 0.6 }}
         >
           <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
-            Master Math & Science
+            {language === 'zh' ? "掌握四大核心科目" : "Master Your Core Subjects"}
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-            {language === 'zh' 
-              ? "为新加坡中一学生设计的互动学习平台。通过动画课程和即时反馈掌握数学和科学。"
-              : "Interactive learning platform designed for Singapore Secondary 1 students. Master Math and Science through animated lessons and instant feedback."
+            {language === 'zh'
+              ? "为新加坡中一学生设计的互动学习平台。通过动画课程和即时反馈掌握英语、华文、数学和科学。"
+              : "Interactive learning platform designed for Singapore Secondary 1 students. Master English, Chinese, Math and Science through animated lessons and instant feedback."
             }
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -162,9 +162,9 @@ const Index = () => {
             {language === 'zh' ? "准备好开始您的学习之旅了吗？" : "Ready to Start Your Learning Journey?"}
           </h2>
           <p className="text-lg text-muted-foreground mb-8">
-            {language === 'zh' 
-              ? "加入数千名学生，通过我们的互动平台提高他们的数学和科学技能。"
-              : "Join thousands of students improving their Math and Science skills with our interactive platform."
+            {language === 'zh'
+              ? "加入数千名学生，通过我们的互动平台提高他们的英语、华文、数学和科学技能。"
+              : "Join thousands of students improving their English, Chinese, Math and Science skills with our interactive platform."
             }
           </p>
           <Button 
