@@ -13656,6 +13656,16 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ai-playground",
+      "title": "AI Playground",
+      "title_zh": "AI 游乐场",
+      "description": "Explore AI through hands-on activities with text, images, music, video, and code",
+      "description_zh": "通过文本、图像、音乐、视频和代码的实践活动探索人工智能",
+      "color": "purple",
+      "isAIPlayground": true,
+      "chapters": []
     }
   ]
 }
