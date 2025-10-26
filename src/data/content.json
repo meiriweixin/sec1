@@ -5565,10 +5565,10 @@
                 "化合物"
               ],
               "answer": [
-                0,
-                1,
-                2,
-                3
+                "Atom",
+                "Element",
+                "Molecule",
+                "Compound"
               ],
               "explanation": "The correct order from simplest to most complex is: Atom (single particle) → Element (same type of atoms) → Molecule (atoms bonded together) → Compound (different elements bonded together).",
               "explanation_zh": "从最简单到最复杂的正确顺序是：原子（单个粒子）→ 元素（相同类型的原子）→ 分子（原子结合在一起）→ 化合物（不同元素结合在一起）。",
