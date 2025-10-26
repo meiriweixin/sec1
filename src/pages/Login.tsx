@@ -54,10 +54,11 @@ export default function Login() {
 
   // Check if Google Client ID is configured
   const googleClientId = import.meta.env.VITE_GOOGLE_CLIENT_ID;
-  const isGoogleConfigured = googleClientId && googleClientId !== 'YOUR_GOOGLE_CLIENT_ID_HERE';
+  const isGoogleConfigured = googleClientId && googleClientId !== 'YOUR_GOOGLE_CLIENT_ID_HERE' && googleClientId.trim() !== '';
 
   // Google Login using useGoogleLogin hook with authorization code flow
-  const googleLogin = useGoogleLogin({
+  // Only initialize if Google is properly configured
+  const googleLogin = isGoogleConfigured ? useGoogleLogin({
     onSuccess: async (codeResponse) => {
       setIsLoading(true);
       try {
@@ -109,10 +110,10 @@ export default function Login() {
         variant: "destructive",
       });
     },
-  });
+  }) : null;
 
   const handleGoogleClick = () => {
-    if (!isGoogleConfigured) {
+    if (!isGoogleConfigured || !googleLogin) {
       toast({
         title: "Google Sign-In Not Configured",
         description: "Please set up Google OAuth credentials. See GOOGLE_AUTH_SETUP.md for instructions.",

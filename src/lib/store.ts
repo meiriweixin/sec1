@@ -298,9 +298,9 @@ export const useStore = create<UserState>()(
         progress: state.progress,
         aiProgress: state.aiProgress,
       }),
-      onRehydrateStorage: (state) => {
+      onRehydrateStorage: () => {
         // This runs synchronously when the store is created
-        // Set hydration to true immediately if no stored state
+        // Return a callback that handles the rehydrated state
         return (state, error) => {
           if (error) {
             console.error('Error during hydration:', error);
@@ -318,11 +318,10 @@ export const useStore = create<UserState>()(
               // Set migration flag to prevent re-running
               localStorage.setItem('sg-learning-progress-migration-v2', 'completed');
             }
-          }
 
-          // Always mark hydration as complete after rehydration attempt
-          // This runs whether or not there was stored state
-          useStore.setState({ _hasHydrated: true });
+            // Mark hydration as complete after rehydration
+            state._hasHydrated = true;
+          }
         };
       },
     }
