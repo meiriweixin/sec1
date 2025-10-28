@@ -23,9 +23,22 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is **SG Learning**, an interactive educational platform for Singapore Secondary 1 students. The app provides animated lessons, exercises, and progress tracking for Mathematics and Science (Physics, Chemistry, Biology), plus an AI Playground feature for exploring AI concepts.
+This is **SG Learning**, an interactive educational platform for Singapore students from Secondary 1 to Junior College 2. The app provides animated lessons, exercises, and progress tracking for 4 core academic subjects (English, Chinese, Mathematics, Science) plus an AI Playground feature for exploring AI concepts through hands-on activities.
 
 **Tech Stack**: React + TypeScript + Vite + shadcn/ui + Tailwind CSS + Zustand + React Router
+
+**Grade Levels Supported**:
+- Secondary 1-4 (Sec 1-4, ages 13-16)
+- Junior College 1-2 (JC 1-2, ages 17-18, pre-university)
+
+**Current Content** (as of latest update, all Sec 1):
+- English Language (6 chapters, 90 exercises)
+- Chinese Language/华文 (6 chapters, 90 exercises)
+- Mathematics (16 chapters, 240 exercises)
+- Science (17 chapters, 255+ exercises)
+- AI Playground (10 modules, 27 activities) - available to all grade levels
+
+**Subjects**: 5 total across all grade levels
 
 ## Development Commands
 
@@ -57,10 +70,12 @@ The app uses Zustand with persistence for global state management (`src/lib/stor
 
 - **User State**: Authentication (login/logout), user profile, guest mode
 - **Language & Theme**: Bilingual support (English/Chinese), theme switching
+- **Grade Level Selection**: Current grade level (sec1, sec2, sec3, sec4, jc1, jc2)
 - **Learning Progress**: Per-chapter tracking of sections completed, exercises completed, scores, time spent
 - **AI Module Progress**: Separate tracking for AI Playground modules
 
 Key store methods:
+- `setGradeLevel(gradeLevel)`: Sets the current grade level (filters displayed chapters)
 - `updateProgress()`: Updates chapter progress (sections/exercises/scores)
 - `getChapterProgress(subjectId, chapterId)`: Retrieves progress for a specific chapter
 - `toggleAIModuleComplete(moduleId)`: Marks AI modules as complete
@@ -69,21 +84,32 @@ Progress is persisted to localStorage under the key `sg-learning-app-storage`.
 
 ### Content Structure (JSON-driven)
 
-All educational content lives in `src/data/content.json`. Structure:
+The app uses **two content systems**:
 
-```
-subjects[] → chapters[] → { sections[], exercises[] }
-```
+1. **Academic Subjects** (`src/data/content.json`):
+   - English, Chinese, Math, Science
+   - Structure: `subjects[] → chapters[] → { sections[], exercises[] }`
+   - Traditional lesson + exercise format
 
-**Subject Properties**:
+2. **AI Playground** (`src/data/ai-modules.json`):
+   - Separate module system for AI learning
+   - Structure: `modules[] → { activities[] }`
+   - External tool links with suggested prompts
+   - 10 modules covering: AI fundamentals, prompting, music/image/video generation, coding assistants, study tools, voice AI, ethics
+
+**Subject Properties** (in content.json):
 - `id`, `title`, `title_zh` (Chinese title)
 - `description`, `description_zh`
 - `color` (theme color)
-- `isAIPlayground` (boolean, special handling for AI Playground)
+- `isAIPlayground` (boolean) - flags AI Playground subject for special handling
+  - When true, subject card links to `/ai` instead of `/subjects/:id`
+  - Shows module count instead of chapter count
+  - Uses purple gradient design with Brain icon
 
 **Chapter Properties**:
 - `id`, `title`, `title_zh`
 - `description`, `description_zh`
+- `gradeLevel`: Grade level designation (required) - one of: `"sec1"`, `"sec2"`, `"sec3"`, `"sec4"`, `"jc1"`, `"jc2"`
 - `tag`, `tag_zh` (for Science: "Physics", "Chemistry", "Biology")
 - `objectives[]`, `objectives_zh[]`
 - `sections[]`: Content sections (text, animations, math formulas)
@@ -146,6 +172,47 @@ const t = useTranslations(language);
 ```
 
 All user-facing content must have both `title` and `title_zh`, `description` and `description_zh`, etc.
+
+### Grade Level System
+
+The app supports multiple grade levels from Secondary 1 to Junior College 2. Students select their grade level using the **GradeLevelSelector** component in the header.
+
+**Grade Level Types** (`src/lib/store.ts`):
+```typescript
+export type GradeLevel = 'sec1' | 'sec2' | 'sec3' | 'sec4' | 'jc1' | 'jc2';
+```
+
+**How It Works**:
+1. User selects grade level from dropdown in AppHeader (only visible when logged in)
+2. Selected grade level stored in Zustand store and persisted to localStorage
+3. SubjectDetail page filters chapters based on `chapter.gradeLevel === user.gradeLevel`
+4. If no chapters available for selected grade, shows empty state message
+
+**Adding Content for New Grade Levels**:
+1. Create new chapters in `src/data/content.json` with appropriate `gradeLevel` property
+2. Set `gradeLevel` to one of: `"sec1"`, `"sec2"`, `"sec3"`, `"sec4"`, `"jc1"`, `"jc2"`
+3. Chapters will automatically appear when users select that grade level
+4. Progress tracking is separate per chapter regardless of grade level
+
+**Example Chapter with Grade Level**:
+```json
+{
+  "id": "advanced-algebra",
+  "title": "Advanced Algebra",
+  "title_zh": "高级代数",
+  "gradeLevel": "sec3",
+  "description": "Quadratic functions and inequalities",
+  "sections": [...],
+  "exercises": [...]
+}
+```
+
+**Python Script for Bulk Grade Assignment**:
+Use `add_grade_levels.py` to add `gradeLevel` property to existing chapters or update them in bulk.
+
+**Current Status**: All 45 academic chapters are currently designated as Secondary 1 (`"sec1"`). Content for Sec 2-4 and JC 1-2 needs to be added in future.
+
+**AI Playground**: The AI Playground subject does not have chapters and is available to all grade levels.
 
 ### Component Organization
 
@@ -441,8 +508,8 @@ Content aligned with Singapore Ministry of Education Secondary 1 syllabus:
   - Grammar Fundamentals (语法基础), Vocabulary Building (词汇积累), Idioms & Proverbs (成语与俗语)
   - Composition Writing (作文写作), Reading Comprehension (阅读理解), Sentence Correction (修改病句)
 
-- **Mathematics**: 15 chapters
-  - **Numbers & Algebra** (7): Integers & Rational Numbers, Factors/Multiples/Primes, Approximations & Estimations, Algebraic Expressions, Simple Linear Equations, Ratio/Rate/Proportion, Percentage Applications
+- **Mathematics**: 16 chapters (240 exercises total, 15 per chapter)
+  - **Numbers & Algebra** (8): Integers & Rational Numbers, Factors/Multiples/Primes, Approximations & Estimations, Algebraic Expressions, Simple Linear Equations, Quadratic Equations, Ratio/Rate/Proportion, Percentage Applications
   - **Geometry & Measurement** (7): Patterns & Sequences, Coordinates & Linear Graphs, Simple Inequalities, Angles & Basic Geometry, Triangles & Polygons, Perimeter & Area, Volume & Surface Area
   - **Statistics** (1): Statistics & Data Analysis
 
@@ -661,3 +728,75 @@ To implement new language animation:
 2. Export as default with clear props interface
 3. Add to `content.json` section with `"type": "animation"` and component name
 4. Test with different language settings (en/zh)
+
+## AI Playground Module System
+
+The AI Playground uses a **different architecture** from academic subjects:
+
+### Structure (`src/data/ai-modules.json`)
+
+```json
+{
+  "modules": [
+    {
+      "id": "module-id",
+      "title": "Module Title",
+      "emoji": "🎨",
+      "concept": "One-sentence concept explanation",
+      "activities": [
+        {
+          "label": "Activity name",
+          "url": "https://external-tool.com",
+          "prompt": "Suggested prompt for the tool"
+        }
+      ]
+    }
+  ]
+}
+```
+
+### Current AI Modules (10 total, 27 activities)
+
+1. **What is AI?** (🤖) - ChatGPT, Gemini
+2. **Prompt Magic** (✨) - Prompt engineering, few-shot learning
+3. **Music Generation** (🎵) - Suno, Mubert
+4. **Image Generation** (🎨) - DALL·E, Stable Diffusion, Leonardo AI, Midjourney
+5. **Video Generation** (🎬) - Sora, Kling AI, Runway, Pika
+6. **AI Coding Assistant** (💻) - Replit, Cursor, Copilot
+7. **AI Study Notes** (📝) - NotebookLM, ChatPDF, Perplexity
+8. **Local AI (Offline)** (💾) - LM Studio, Ollama
+9. **Voice & TTS** (🎤) - ElevenLabs, OpenAI TTS, Descript
+10. **AI & the Future (Safety)** (🌍) - Ethics, deepfakes, UNESCO resources
+
+### Progress Tracking
+
+AI module progress is tracked separately in Zustand store:
+```typescript
+aiProgress: Record<string, { done: boolean }> // moduleId → completion status
+```
+
+Methods:
+- `toggleAIModuleComplete(moduleId)`: Marks a module as complete/incomplete
+- Progress displayed on AI Playground card and `/ai/progress` page
+
+### Adding New AI Modules
+
+1. Edit `src/data/ai-modules.json`
+2. Add new module object with id, title, emoji, concept, activities
+3. No code changes needed - UI reads JSON dynamically
+4. Update count in `SubjectCard.tsx` if total modules change (currently hardcoded as 10)
+
+### AI Playground Pages
+
+- **AIPlayground.tsx** (`/ai`): Main landing page with module grid
+- **AIModuleDetail.tsx** (`/ai/modules/:moduleId`): Module detail with activities
+- **AIProgress.tsx** (`/ai/progress`): Progress tracking dashboard
+- **AISafety.tsx** (`/ai/safety`): Safety guidelines and tips
+
+### Special UI Features
+
+- Purple gradient design theme (distinct from academic subjects)
+- Safety notice banner on all AI pages
+- External link warnings
+- Progress tracking with completion badges
+- Responsive grid layout for module cards

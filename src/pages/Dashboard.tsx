@@ -11,7 +11,7 @@ import { useEffect } from "react";
 import contentData from "@/data/content.json";
 
 export default function Dashboard() {
-  const { user, language, progress, _hasHydrated } = useStore();
+  const { user, language, gradeLevel, progress, _hasHydrated } = useStore();
   const t = useTranslations(language);
   const navigate = useNavigate();
 
@@ -25,8 +25,19 @@ export default function Dashboard() {
   if (!user) return null;
 
   const subjects = contentData.subjects;
-  const totalChapters = subjects.reduce((acc, subject) => acc + subject.chapters.length, 0);
-  const completedChapters = progress.filter(p => p.completed).length;
+
+  // Filter chapters by selected grade level
+  const totalChapters = subjects.reduce((acc, subject) => {
+    const gradeChapters = subject.chapters.filter(ch => ch.gradeLevel === gradeLevel);
+    return acc + gradeChapters.length;
+  }, 0);
+
+  // Only count completed chapters for current grade level
+  const completedChapters = progress.filter(p => {
+    const subject = subjects.find(s => s.id === p.subjectId);
+    const chapter = subject?.chapters.find(ch => ch.id === p.chapterId);
+    return p.completed && chapter?.gradeLevel === gradeLevel;
+  }).length;
   const totalTimeSpent = progress.reduce((acc, p) => acc + (p.totalTimeSpent || 0), 0);
   const recentActivity = progress
     .sort((a, b) => new Date(b.lastAccessed).getTime() - new Date(a.lastAccessed).getTime())
@@ -67,7 +78,17 @@ export default function Dashboard() {
             {/* Subjects Grid */}
             <section>
               <div className="flex items-center justify-between mb-6">
-                <h2 className="text-2xl font-semibold">{t.subjects}</h2>
+                <div>
+                  <h2 className="text-2xl font-semibold">{t.subjects}</h2>
+                  <p className="text-sm text-muted-foreground mt-1">
+                    {gradeLevel === 'sec1' && (language === 'zh' ? '中一' : 'Secondary 1')}
+                    {gradeLevel === 'sec2' && (language === 'zh' ? '中二' : 'Secondary 2')}
+                    {gradeLevel === 'sec3' && (language === 'zh' ? '中三' : 'Secondary 3')}
+                    {gradeLevel === 'sec4' && (language === 'zh' ? '中四' : 'Secondary 4')}
+                    {gradeLevel === 'jc1' && 'JC 1'}
+                    {gradeLevel === 'jc2' && 'JC 2'}
+                  </p>
+                </div>
                 <Button
                   variant="outline"
                   onClick={() => navigate('/subjects')}

@@ -12,7 +12,7 @@ import contentData from "@/data/content.json";
 
 export default function SubjectDetail() {
   const { subjectId } = useParams();
-  const { user, language, getSubjectProgress, setCurrentSubject, _hasHydrated } = useStore();
+  const { user, language, gradeLevel, getSubjectProgress, setCurrentSubject, _hasHydrated } = useStore();
   const t = useTranslations(language);
   const navigate = useNavigate();
 
@@ -45,9 +45,14 @@ export default function SubjectDetail() {
     );
   }
 
+  // Filter chapters by selected grade level
+  const filteredChapters = subject.chapters.filter(chapter => chapter.gradeLevel === gradeLevel);
+
   const progress = getSubjectProgress(subjectId);
-  const totalChapters = subject.chapters.length;
-  const completedChapters = progress.filter(p => p.completed).length;
+  const totalChapters = filteredChapters.length;
+  const completedChapters = progress.filter(p =>
+    p.completed && filteredChapters.some(ch => ch.id === p.chapterId)
+  ).length;
   const progressPercentage = totalChapters > 0 ? (completedChapters / totalChapters) * 100 : 0;
 
   const title = language === 'zh' && subject.title_zh ? subject.title_zh : subject.title;
@@ -118,16 +123,26 @@ export default function SubjectDetail() {
               transition={{ duration: 0.6, delay: 0.2 }}
             >
               <h2 className="text-2xl font-semibold mb-6">{t.chapters}</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                {subject.chapters.map((chapter, index) => (
-                  <ChapterCard
-                    key={chapter.id}
-                    chapter={chapter}
-                    subjectId={subjectId}
-                    index={index}
-                  />
-                ))}
-              </div>
+              {filteredChapters.length === 0 ? (
+                <Card className="p-8 text-center">
+                  <p className="text-muted-foreground">
+                    {language === 'zh'
+                      ? '此级别目前没有可用的章节。'
+                      : 'No chapters available for this grade level yet.'}
+                  </p>
+                </Card>
+              ) : (
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  {filteredChapters.map((chapter, index) => (
+                    <ChapterCard
+                      key={chapter.id}
+                      chapter={chapter}
+                      subjectId={subjectId}
+                      index={index}
+                    />
+                  ))}
+                </div>
+              )}
             </motion.div>
           </div>
 

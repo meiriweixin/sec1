@@ -8,7 +8,7 @@ import { useNavigate } from "react-router-dom";
 import contentData from "@/data/content.json";
 
 export default function Subjects() {
-  const { user, language, _hasHydrated } = useStore();
+  const { user, language, gradeLevel, _hasHydrated } = useStore();
   const t = useTranslations(language);
   const navigate = useNavigate();
 
@@ -34,7 +34,17 @@ export default function Subjects() {
           transition={{ duration: 0.6 }}
           className="mb-8"
         >
-          <h1 className="text-3xl font-bold mb-2">{t.subjects}</h1>
+          <h1 className="text-3xl font-bold mb-2">
+            {t.subjects}
+            <span className="text-xl font-normal text-muted-foreground ml-3">
+              {gradeLevel === 'sec1' && (language === 'zh' ? '中一' : 'Secondary 1')}
+              {gradeLevel === 'sec2' && (language === 'zh' ? '中二' : 'Secondary 2')}
+              {gradeLevel === 'sec3' && (language === 'zh' ? '中三' : 'Secondary 3')}
+              {gradeLevel === 'sec4' && (language === 'zh' ? '中四' : 'Secondary 4')}
+              {gradeLevel === 'jc1' && 'JC 1'}
+              {gradeLevel === 'jc2' && 'JC 2'}
+            </span>
+          </h1>
           <p className="text-muted-foreground">
             {t.chooseSubject}
           </p>

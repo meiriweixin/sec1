@@ -11,6 +11,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
+import GradeLevelSelector from "@/components/ui/grade-level-selector";
 
 export function AppHeader() {
   const { user, language, theme, setLanguage, setTheme, logout } = useStore();
@@ -74,10 +75,13 @@ export function AppHeader() {
 
         {/* Right side controls */}
         <div className="flex items-center space-x-2">
+          {/* Grade Level Selector */}
+          {user && <GradeLevelSelector />}
+
           {/* Language Toggle */}
-          <Button 
-            variant="ghost" 
-            size="sm" 
+          <Button
+            variant="ghost"
+            size="sm"
             onClick={toggleLanguage}
             className="h-9 w-9"
           >

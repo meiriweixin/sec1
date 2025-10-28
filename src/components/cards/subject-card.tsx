@@ -23,10 +23,10 @@ interface SubjectCardProps {
 }
 
 export function SubjectCard({ subject }: SubjectCardProps) {
-  const { language, getSubjectProgress, aiProgress } = useStore();
+  const { language, gradeLevel, getSubjectProgress, aiProgress } = useStore();
   const t = useTranslations(language);
   const navigate = useNavigate();
-  
+
   // Special handling for AI Playground
   if (subject.isAIPlayground) {
     const aiModulesCount = 10; // Total AI modules
@@ -86,9 +86,16 @@ export function SubjectCard({ subject }: SubjectCardProps) {
     );
   }
   
+  // Filter chapters by selected grade level
+  const gradeChapters = subject.chapters.filter(ch => ch.gradeLevel === gradeLevel);
+  const totalChapters = gradeChapters.length;
+
   const progress = getSubjectProgress(subject.id);
-  const totalChapters = subject.chapters.length;
-  const completedChapters = progress.filter(p => p.completed).length;
+  // Only count completed chapters for current grade level
+  const completedChapters = progress.filter(p => {
+    const chapter = subject.chapters.find(ch => ch.id === p.chapterId);
+    return p.completed && chapter?.gradeLevel === gradeLevel;
+  }).length;
   const progressPercentage = totalChapters > 0 ? (completedChapters / totalChapters) * 100 : 0;
   
   const title = language === 'zh' && subject.title_zh ? subject.title_zh : subject.title;

@@ -44,10 +44,13 @@ export interface AIModuleProgress {
   doneAt?: string;
 }
 
+export type GradeLevel = 'sec1' | 'sec2' | 'sec3' | 'sec4' | 'jc1' | 'jc2';
+
 export interface UserState {
   user: User | null;
   language: 'en' | 'zh';
   theme: 'light' | 'dark' | 'system';
+  gradeLevel: GradeLevel; // Selected grade level
   progress: Progress[];
   aiProgress: Record<string, AIModuleProgress>;
   currentSubject: string | null;
@@ -59,6 +62,7 @@ export interface UserState {
   logout: () => void;
   setLanguage: (language: 'en' | 'zh') => void;
   setTheme: (theme: 'light' | 'dark' | 'system') => void;
+  setGradeLevel: (gradeLevel: GradeLevel) => void;
   setCurrentSubject: (subjectId: string | null) => void;
   setCurrentChapter: (chapterId: string | null) => void;
   updateProgress: (progress: Partial<Progress> & { subjectId: string; chapterId: string }) => void;
@@ -123,6 +127,7 @@ export const useStore = create<UserState>()(
       user: null,
       language: 'en',
       theme: 'system',
+      gradeLevel: 'sec1', // Default to Secondary 1
       progress: [],
       aiProgress: {},
       currentSubject: null,
@@ -130,19 +135,21 @@ export const useStore = create<UserState>()(
       _hasHydrated: false,
 
       login: (user) => set({ user }),
-      
-      logout: () => set({ 
-        user: null, 
-        currentSubject: null, 
-        currentChapter: null 
+
+      logout: () => set({
+        user: null,
+        currentSubject: null,
+        currentChapter: null
       }),
-      
+
       setLanguage: (language) => set({ language }),
-      
+
       setTheme: (theme) => set({ theme }),
-      
+
+      setGradeLevel: (gradeLevel) => set({ gradeLevel }),
+
       setCurrentSubject: (subjectId) => set({ currentSubject: subjectId }),
-      
+
       setCurrentChapter: (chapterId) => set({ currentChapter: chapterId }),
       
       updateProgress: (newProgress) => {
@@ -295,6 +302,7 @@ export const useStore = create<UserState>()(
         user: state.user,
         language: state.language,
         theme: state.theme,
+        gradeLevel: state.gradeLevel,
         progress: state.progress,
         aiProgress: state.aiProgress,
       }),
