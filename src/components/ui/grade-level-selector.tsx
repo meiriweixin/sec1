@@ -10,10 +10,10 @@ import {
 import { Button } from "@/components/ui/button";
 
 const gradeLevels: { value: GradeLevel; label_en: string; label_zh: string }[] = [
-  { value: 'sec1', label_en: 'Secondary 1', label_zh: '中一' },
-  { value: 'sec2', label_en: 'Secondary 2', label_zh: '中二' },
-  { value: 'sec3', label_en: 'Secondary 3', label_zh: '中三' },
-  { value: 'sec4', label_en: 'Secondary 4', label_zh: '中四' },
+  { value: 'sec1', label_en: 'Sec 1', label_zh: '中一' },
+  { value: 'sec2', label_en: 'Sec 2', label_zh: '中二' },
+  { value: 'sec3', label_en: 'Sec 3', label_zh: '中三' },
+  { value: 'sec4', label_en: 'Sec 4', label_zh: '中四' },
   { value: 'jc1', label_en: 'JC 1', label_zh: 'JC 1' },
   { value: 'jc2', label_en: 'JC 2', label_zh: 'JC 2' },
 ];

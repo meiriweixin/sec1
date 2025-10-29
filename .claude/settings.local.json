@@ -18,7 +18,12 @@
       "Bash(openspec validate:*)",
       "Bash(openspec show:*)",
       "Bash(openspec diff:*)",
-      "Bash(npm run lint:*)"
+      "Bash(npm run lint:*)",
+      "Bash(cat:*)",
+      "Bash(echo:*)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(taskkill:*)"
     ],
     "deny": [],
     "ask": []

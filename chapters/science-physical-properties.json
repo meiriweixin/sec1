@@ -1,0 +1,333 @@
+{
+  'id': 'physical-properties',
+  'title': "Physical Properties of Matter',
+  'title_zh': '物质的物理性质',
+  'gradeLevel': 'sec1',
+  'tag': 'Chemistry',
+  'tag_zh': '化学',
+  'description': 'Exploring how different materials can be identified and classified by their physical properties',
+  'description_zh': '探索如何通过物理性质识别和分类不同的材料',
+  'objectives': [
+    'Identify materials based on physical properties',
+    'Understand electrical and thermal conductivity',
+    'Calculate density using mass and volume',
+    'Measure physical properties accurately using appropriate instruments',
+    'Explain melting point and boiling point',
+    'Understand strength, hardness, and flexibility (G3)',
+    'Apply knowledge to choose appropriate materials for specific purposes'
+  ],
+  'objectives_zh': [
+    '根据物理性质识别材料',
+    '理解电导率和热导率',
+    '使用质量和体积计算密度',
+    '使用适当的仪器准确测量物理性质',
+    '解释熔点和沸点',
+    '理解强度、硬度和柔韧性（G3）',
+    '应用知识为特定目的选择合适的材料'
+  ],
+  'sections': [
+    {
+      'type': 'text',
+      'content': '# Introduction to Physical Properties\n\n## What are Physical Properties?\n\n**Physical properties** are characteristics of a material that can be observed or measured WITHOUT changing the material's identity.\n\n### Key Point:\n- Physical properties help us **identify**, **classify**, and **choose** materials for specific uses\n- They can be measured using scientific instruments\n- The material remains the same substance after measurement\n\n---\n\n## Common Physical Properties\n\nWe will study these important physical properties:\n\n1. **Electrical Conductivity** - Can it conduct electricity?\n2. **Thermal Conductivity** - Can it conduct heat?\n3. **Density** - How heavy is it for its size?\n4. **Melting Point** - At what temperature does it melt?\n5. **Boiling Point** - At what temperature does it boil?\n6. **Strength** - How much force can it withstand? (G3)\n7. **Hardness** - How resistant is it to scratching? (G3)\n8. **Flexibility** - Can it bend without breaking? (G3)\n\n---\n\n## Why are Physical Properties Important?\n\n### In Daily Life:\n- **Cooking pots** are made of metal (good thermal conductor)\n- **Electrical wires** use copper (good electrical conductor)\n- **Drink bottles** use plastic (lightweight, flexible)\n- **Building foundations** use concrete (strong, hard)\n\n### In Singapore:\n- **HDB buildings** use steel and concrete (strong, durable)\n- **MRT tracks** use steel (hard, strong)\n- **Water pipes** use PVC plastic (doesn't rust, flexible)\n- **Electrical cables** use copper wires with plastic insulation\n\n---\n\n## Physical vs Chemical Properties\n\n| Physical Properties | Chemical Properties |\n|-------------------|-------------------|\n| Can be observed WITHOUT changing the substance | Can ONLY be observed when substance changes |\n| Examples: color, density, melting point | Examples: flammability, reactivity |\n| Material stays the same | Material becomes different substance |\n| Measuring density of iron | Rusting of iron |',
+      'content_zh': '# 物理性质简介\n\n## 什么是物理性质？\n\n**物理性质**是材料的特征，可以在不改变材料身份的情况下观察或测量。\n\n### 要点：\n- 物理性质帮助我们**识别**、**分类**和**选择**用于特定用途的材料\n- 可以使用科学仪器测量\n- 测量后材料保持相同的物质\n\n---\n\n## 常见的物理性质\n\n我们将学习这些重要的物理性质：\n\n1. **电导率** - 能导电吗？\n2. **热导率** - 能导热吗？\n3. **密度** - 相对于其大小有多重？\n4. **熔点** - 在什么温度下熔化？\n5. **沸点** - 在什么温度下沸腾？\n6. **强度** - 能承受多大的力？（G3）\n7. **硬度** - 对划痕的抵抗力有多强？（G3）\n8. **柔韧性** - 能不断裂地弯曲吗？（G3）\n\n---\n\n## 为什么物理性质很重要？\n\n### 在日常生活中：\n- **锅**由金属制成（良好的热导体）\n- **电线**使用铜（良好的电导体）\n- **饮料瓶**使用塑料（轻便、柔韧）\n- **建筑地基**使用混凝土（坚固、坚硬）\n\n### 在新加坡：\n- **组屋建筑**使用钢和混凝土（坚固、耐用）\n- **地铁轨道**使用钢（坚硬、坚固）\n- **水管**使用PVC塑料（不生锈、柔韧）\n- **电缆**使用带塑料绝缘的铜线\n\n---\n\n## 物理性质与化学性质\n\n| 物理性质 | 化学性质 |\n|-------------------|-------------------|\n| 可以在不改变物质的情况下观察 | 只能在物质改变时观察 |\n| 例子：颜色、密度、熔点 | 例子：可燃性、反应性 |\n| 材料保持不变 | 材料变成不同的物质 |\n| 测量铁的密度 | 铁生锈 |'
+    },
+    {
+      'type': 'text',
+      'content': '# Electrical Conductivity\n\n## What is Electrical Conductivity?\n\n**Electrical conductivity** is the ability of a material to allow electric current to flow through it.\n\n- **Good conductors**: Allow electricity to flow easily\n- **Poor conductors (insulators)**: Do not allow electricity to flow easily\n\n---\n\n## Electrical Conductors\n\n### Metals are Good Conductors\n\n**Why?** Metals have **free electrons** that can move easily through the material.\n\n**Examples:**\n- **Copper** - Best common conductor, used in electrical wires\n- **Aluminum** - Lightweight conductor, used in power cables\n- **Silver** - Best conductor but too expensive\n- **Gold** - Excellent conductor, doesn't corrode, used in electronic chips\n- **Iron/Steel** - Moderate conductor\n\n### Singapore Context:\n**Power cables** along HDB blocks and streets use aluminum or copper cores because they conduct electricity efficiently over long distances.\n\n---\n\n## Electrical Insulators\n\n### Non-Metals are Poor Conductors\n\n**Why?** Non-metals have electrons that are tightly bound to atoms and cannot move freely.\n\n**Examples:**\n- **Plastic** - Used to coat electrical wires (insulation)\n- **Rubber** - Used in electrician's gloves\n- **Glass** - Used in electrical insulators on power poles\n- **Wood (dry)** - Poor conductor\n- **Air** - Very poor conductor\n\n### Safety Application:\n**Electrical wires** have a copper core (conductor) covered with plastic (insulator). This allows electricity to flow through the copper while keeping you safe from electric shock!\n\n---\n\n## Special Cases\n\n### Graphite (Carbon)\n**Unusual!** Graphite is a non-metal but conducts electricity!\n- Used in pencil leads\n- Used in batteries\n- Used in electric motors (brushes)\n\n### Water\n- **Pure water**: Poor conductor\n- **Tap water**: Good conductor (contains dissolved ions)\n- **Seawater**: Excellent conductor (high salt content)\n\n**Singapore Safety:** Never use electrical devices near water (bathrooms, pools, kitchen sinks)!\n\n---\n\n## Testing Electrical Conductivity\n\n### Simple Circuit Test:\n\n1. Set up a simple circuit: Battery → Bulb → Test Material → back to Battery\n2. Place the material between two wires\n3. Observe:\n   - **Bulb lights up brightly** → Good conductor\n   - **Bulb lights up dimly** → Moderate conductor\n   - **Bulb doesn't light up** → Insulator\n\n### Safety:\n- Only use low-voltage batteries (1.5V)\n- NEVER test with mains electricity (230V) - DANGEROUS!',
+      'content_zh': '# 电导率\n\n## 什么是电导率？\n\n**电导率**是材料允许电流通过的能力。\n\n- **良导体**：让电流容易流过\n- **不良导体（绝缘体）**：不让电流容易流过\n\n---\n\n## 电导体\n\n### 金属是良好的导体\n\n**为什么？** 金属有可以在材料中轻易移动的**自由电子**。\n\n**例子：**\n- **铜** - 最好的常见导体，用于电线\n- **铝** - 轻质导体，用于电力电缆\n- **银** - 最好的导体但太贵\n- **金** - 优秀的导体，不腐蚀，用于电子芯片\n- **铁/钢** - 中等导体\n\n### 新加坡背景：\n沿着组屋和街道的**电力电缆**使用铝或铜芯，因为它们能高效地远距离传输电力。\n\n---\n\n## 电绝缘体\n\n### 非金属是不良导体\n\n**为什么？** 非金属的电子与原子紧密结合，不能自由移动。\n\n**例子：**\n- **塑料** - 用于包裹电线（绝缘）\n- **橡胶** - 用于电工手套\n- **玻璃** - 用于电线杆上的电气绝缘子\n- **木头（干燥）** - 不良导体\n- **空气** - 非常不良导体\n\n### 安全应用：\n**电线**有铜芯（导体）外覆塑料（绝缘体）。这允许电流通过铜流动，同时保护你免受触电！\n\n---\n\n## 特殊情况\n\n### 石墨（碳）\n**不寻常！** 石墨是非金属但能导电！\n- 用于铅笔芯\n- 用于电池\n- 用于电动机（电刷）\n\n### 水\n- **纯水**：不良导体\n- **自来水**：良好导体（含有溶解的离子）\n- **海水**：优秀导体（高盐含量）\n\n**新加坡安全：** 切勿在水附近使用电气设备（浴室、泳池、厨房水槽）！\n\n---\n\n## 测试电导率\n\n### 简单的电路测试：\n\n1. 设置简单电路：电池 → 灯泡 → 测试材料 → 返回电池\n2. 将材料放在两根导线之间\n3. 观察：\n   - **灯泡明亮发光** → 良导体\n   - **灯泡微弱发光** → 中等导体\n   - **灯泡不发光** → 绝缘体\n\n### 安全：\n- 只使用低压电池（1.5V）\n- 切勿使用市电（230V）进行测试 - 危险！'
+    },
+    {
+      'type': 'text',
+      'content': '# Thermal Conductivity\n\n## What is Thermal Conductivity?\n\n**Thermal conductivity** is the ability of a material to conduct (transfer) heat energy.\n\n- **Good thermal conductors**: Heat passes through quickly\n- **Poor thermal conductors (thermal insulators)**: Heat passes through slowly\n\n---\n\n## Thermal Conductors\n\n### Metals are Good Thermal Conductors\n\n**Why?** Free electrons in metals transfer kinetic energy quickly.\n\n**Ranking (Best to Good):**\n1. **Silver** - Best thermal conductor (but expensive)\n2. **Copper** - Excellent and affordable\n3. **Aluminum** - Good and lightweight\n4. **Iron/Steel** - Moderate\n\n### Applications:\n\n**Cooking Utensils (Singapore Context):**\n- **Wok/Frying pans**: Aluminum or stainless steel (heats up quickly)\n- **Pot handles**: Often wrapped in wood or plastic (stays cool)\n- **Steamer baskets**: Metal conducts steam heat evenly\n\n**Heat Sinks:**\n- Computer CPUs use aluminum/copper heat sinks\n- Air-con condensers use aluminum fins\n\n**Industrial:**\n- Heat exchangers in factories\n- Radiators in vehicles\n\n---\n\n## Thermal Insulators\n\n### Non-Metals are Poor Thermal Conductors\n\n**Good Insulators:**\n- **Wood** - Traditional pot handles\n- **Plastic** - Modern pot handles, cooler bags\n- **Rubber** - Oven mitts\n- **Fabric/Cloth** - Tea towels, pot holders\n- **Styrofoam** - Food containers (keeps food warm/cold)\n- **Air** - Excellent insulator!\n\n### Singapore Applications:\n\n**Keeping Cool:**\n- **Cooler bags** for groceries (insulated lining)\n- **Thermal flasks** for cold/hot drinks (vacuum/air gap)\n- **Building insulation** reduces air-con costs\n\n**Keeping Warm:**\n- **Food delivery bags** (insulated to keep food hot)\n- **Thermal containers** for bringing lunch to school/work\n\n---\n\n## Testing Thermal Conductivity\n\n### Method 1: The Butter Test\n\n1. Take rods of different materials (metal, wood, plastic)\n2. Place one end of each rod in hot water\n3. Put a small piece of butter on the other end\n4. Observe which butter melts first:\n   - **Metal rod** → Butter melts quickly (good conductor)\n   - **Plastic rod** → Butter melts slowly (insulator)\n   - **Wood rod** → Butter melts very slowly (insulator)\n\n### Method 2: The Heat Spread Test\n\n1. Heat one spot on different materials\n2. Use temperature sensors at different distances\n3. Measure how quickly heat spreads\n\n---\n\n## Why Materials Differ\n\n### Good Conductors (Metals):\n- Free electrons move and transfer energy quickly\n- Atoms are closely packed\n- Regular structure allows easy energy transfer\n\n### Poor Conductors (Non-metals):\n- No free electrons\n- Atoms/molecules may be far apart (like in air, foam)\n- Irregular structure slows energy transfer\n\n---\n\n## Comparing Electrical and Thermal Conductivity\n\n| Material | Electrical | Thermal | Why? |\n|----------|-----------|---------|------|\n| **Copper** | Excellent | Excellent | Free electrons transfer both |\n| **Aluminum** | Excellent | Excellent | Free electrons transfer both |\n| **Wood** | Poor | Poor | No free electrons, irregular structure |\n| **Water** | Moderate | Poor | Has ions but molecules don't transfer heat well |\n| **Diamond** | Poor | Excellent | No free electrons BUT rigid structure transfers vibrations |\n\n**General Rule:** Good electrical conductors are usually good thermal conductors (exception: diamond).',
+      'content_zh': '# 热导率\n\n## 什么是热导率？\n\n**热导率**是材料传导（传递）热能的能力。\n\n- **良好的热导体**：热量快速通过\n- **不良的热导体（热绝缘体）**：热量缓慢通过\n\n---\n\n## 热导体\n\n### 金属是良好的热导体\n\n**为什么？** 金属中的自由电子快速传递动能。\n\n**排名（最好到好）：**\n1. **银** - 最好的热导体（但昂贵）\n2. **铜** - 优秀且实惠\n3. **铝** - 良好且轻便\n4. **铁/钢** - 中等\n\n### 应用：\n\n**烹饪器具（新加坡背景）：**\n- **炒锅/煎锅**：铝或不锈钢（加热快）\n- **锅柄**：通常用木头或塑料包裹（保持凉爽）\n- **蒸笼**：金属均匀传导蒸汽热\n\n**散热器：**\n- 计算机CPU使用铝/铜散热器\n- 空调冷凝器使用铝翅片\n\n**工业：**\n- 工厂中的热交换器\n- 车辆中的散热器\n\n---\n\n## 热绝缘体\n\n### 非金属是不良的热导体\n\n**良好的绝缘体：**\n- **木头** - 传统锅柄\n- **塑料** - 现代锅柄、保冷袋\n- **橡胶** - 烤箱手套\n- **织物/布** - 茶巾、锅垫\n- **泡沫塑料** - 食品容器（保持食物温热/冷）\n- **空气** - 优秀的绝缘体！\n\n### 新加坡应用：\n\n**保持凉爽：**\n- **保冷袋**用于杂货（绝缘衬里）\n- **保温瓶**用于冷/热饮料（真空/空气间隙）\n- **建筑绝缘**降低空调成本\n\n**保持温暖：**\n- **食品配送袋**（绝缘以保持食物热）\n- **保温容器**用于带午餐到学校/工作\n\n---\n\n## 测试热导率\n\n### 方法1：黄油测试\n\n1. 取不同材料的棒（金属、木头、塑料）\n2. 将每根棒的一端放入热水中\n3. 在另一端放一小块黄油\n4. 观察哪个黄油先融化：\n   - **金属棒** → 黄油快速融化（良导体）\n   - **塑料棒** → 黄油缓慢融化（绝缘体）\n   - **木棒** → 黄油非常缓慢融化（绝缘体）\n\n### 方法2：热扩散测试\n\n1. 在不同材料的一个点加热\n2. 在不同距离使用温度传感器\n3. 测量热量扩散的速度\n\n---\n\n## 为什么材料不同\n\n### 良导体（金属）：\n- 自由电子移动并快速传递能量\n- 原子紧密堆积\n- 规则结构允许容易的能量传递\n\n### 不良导体（非金属）：\n- 没有自由电子\n- 原子/分子可能相距很远（如空气、泡沫）\n- 不规则结构减慢能量传递\n\n---\n\n## 比较电导率和热导率\n\n| 材料 | 电导率 | 热导率 | 为什么？ |\n|----------|-----------|---------|------|\n| **铜** | 优秀 | 优秀 | 自由电子传递两者 |\n| **铝** | 优秀 | 优秀 | 自由电子传递两者 |\n| **木头** | 不良 | 不良 | 没有自由电子，不规则结构 |\n| **水** | 中等 | 不良 | 有离子但分子不能很好地传递热量 |\n| **钻石** | 不良 | 优秀 | 没有自由电子但刚性结构传递振动 |\n\n**一般规则：** 良好的电导体通常是良好的热导体（例外：钻石）。'
+    },
+    {
+      'type': 'text',
+      'content': '# Density\n\n## What is Density?\n\n**Density** is the amount of mass in a given volume of a substance.\n\n**Formula:**\n```\nDensity = Mass / Volume\nρ = m / V\n```\n\n**SI Units:**\n- Mass: kilogram (kg) or gram (g)\n- Volume: cubic meter (m³) or cubic centimeter (cm³)\n- Density: kg/m³ or g/cm³\n\n**Conversion:** 1 g/cm³ = 1000 kg/m³\n\n---\n\n## Understanding Density\n\n### Key Concepts:\n\n**High Density:**\n- More mass packed into the same volume\n- Feels heavier for its size\n- Examples: gold, lead, iron\n\n**Low Density:**\n- Less mass in the same volume\n- Feels lighter for its size\n- Examples: cork, wood, foam, air\n\n### Analogy:\nImagine two identical boxes:\n- Box A filled with feathers (low density)\n- Box B filled with stones (high density)\n\nSame volume, but Box B has much more mass → higher density!\n\n---\n\n## Common Densities (at room temperature)\n\n### Solids:\n- **Gold**: 19.3 g/cm³\n- **Lead**: 11.3 g/cm³\n- **Iron/Steel**: 7.8 g/cm³\n- **Aluminum**: 2.7 g/cm³\n- **Ice**: 0.92 g/cm³ (less dense than water!)\n- **Wood**: 0.4-0.8 g/cm³ (varies by type)\n- **Cork**: 0.24 g/cm³\n\n### Liquids:\n- **Mercury**: 13.6 g/cm³\n- **Water**: 1.0 g/cm³ (reference value)\n- **Cooking oil**: 0.92 g/cm³\n- **Alcohol**: 0.79 g/cm³\n\n### Gases (at room temperature, 1 atm):\n- **Air**: 0.0012 g/cm³\n- **Carbon dioxide**: 0.0018 g/cm³\n- **Helium**: 0.00016 g/cm³\n\n---\n\n## Measuring Density\n\n### For Regular-Shaped Objects:\n\n**Example: Rectangular block**\n\n1. **Measure mass** using electronic balance\n2. **Calculate volume**: V = length × width × height\n3. **Calculate density**: ρ = m / V\n\n**Singapore Example:**\nA rectangular eraser measures 5 cm × 2 cm × 1 cm and has mass 10 g.\n- Volume = 5 × 2 × 1 = 10 cm³\n- Density = 10 g / 10 cm³ = 1.0 g/cm³\n\n### For Irregular-Shaped Objects:\n\n**Method: Water Displacement**\n\n1. **Measure mass** using balance\n2. **Measure volume** using displacement:\n   - Fill measuring cylinder with water, record initial volume\n   - Submerge object completely\n   - Record final volume\n   - Volume of object = Final volume - Initial volume\n3. **Calculate density**: ρ = m / V\n\n**Example:**\nA stone has mass 40 g.\n- Initial water level: 50 cm³\n- Final water level: 70 cm³\n- Volume = 70 - 50 = 20 cm³\n- Density = 40 g / 20 cm³ = 2.0 g/cm³\n\n### For Liquids:\n\n1. **Measure mass of empty measuring cylinder**\n2. **Pour liquid into cylinder, record volume**\n3. **Measure total mass** (cylinder + liquid)\n4. **Calculate mass of liquid**: m_liquid = total mass - cylinder mass\n5. **Calculate density**: ρ = m / V\n\n---\n\n## Density and Floating/Sinking\n\n### Principle:\n- Object **less dense** than liquid → **floats**\n- Object **more dense** than liquid → **sinks**\n- Object **same density** as liquid → **suspended**\n\n### Examples in Water (density = 1.0 g/cm³):\n\n**Floats:**\n- Ice (0.92 g/cm³) - This is why icebergs float!\n- Wood (0.4-0.8 g/cm³) - Ships made of wood\n- Oil (0.92 g/cm³) - Oil floats on water in spills\n- Cork (0.24 g/cm³) - Used in life jackets\n\n**Sinks:**\n- Iron (7.8 g/cm³) - Iron nail sinks\n- Aluminum (2.7 g/cm³) - Aluminum foil ball sinks\n- Stones (2-3 g/cm³) - Stones sink in water\n\n### Singapore Context:\n**Why do ships float?**\n\nIron ships in Singapore's harbor float because:\n- Solid iron sinks (density 7.8 g/cm³)\n- But ships are hollow (contain lots of air)\n- Average density of ship (iron + air) < 1.0 g/cm³\n- Therefore ship floats!\n\n**HDB Example:**\nA concrete block (density ~2.4 g/cm³) sinks in water, but the HDB building foundation stays in place because it's designed to distribute weight, not float!\n\n---\n\n## Applications of Density\n\n### 1. Material Identification\nSuspect this metal is gold? Measure its density!\n- If ρ = 19.3 g/cm³ → Likely real gold\n- If ρ = 8-10 g/cm³ → Fake (probably brass)\n\n### 2. Quality Control\nFood manufacturers check density to:\n- Detect adulteration (mixing cheap ingredients)\n- Ensure consistent product quality\n\n### 3. Engineering\n- **Airplanes**: Use low-density aluminum (lightweight but strong)\n- **Bulletproof vests**: Use high-density materials to stop bullets\n- **Life jackets**: Use very low-density foam\n\n### 4. Everyday Singapore:\n- **Hawker center oil**: Cooking oil floats on top of dishwater (less dense)\n- **Kopi/Teh**: Sugar syrup sinks to bottom (more dense than coffee/tea) - need to stir!\n- **Swimming pools**: You float more easily in seawater (Marina Bay) than freshwater pool (higher density due to salt)',
+      'content_zh': '# 密度\n\n## 什么是密度？\n\n**密度**是物质在给定体积中的质量。\n\n**公式：**\n```\n密度 = 质量 / 体积\nρ = m / V\n```\n\n**国际单位：**\n- 质量：千克 (kg) 或克 (g)\n- 体积：立方米 (m³) 或立方厘米 (cm³)\n- 密度：kg/m³ 或 g/cm³\n\n**转换：** 1 g/cm³ = 1000 kg/m³\n\n---\n\n## 理解密度\n\n### 关键概念：\n\n**高密度：**\n- 相同体积中堆积更多质量\n- 感觉更重\n- 例子：金、铅、铁\n\n**低密度：**\n- 相同体积中质量较少\n- 感觉更轻\n- 例子：软木、木头、泡沫、空气\n\n### 类比：\n想象两个相同的盒子：\n- 盒子A装满羽毛（低密度）\n- 盒子B装满石头（高密度）\n\n相同的体积，但盒子B有更多的质量 → 更高的密度！\n\n---\n\n## 常见密度（室温下）\n\n### 固体：\n- **金**：19.3 g/cm³\n- **铅**：11.3 g/cm³\n- **铁/钢**：7.8 g/cm³\n- **铝**：2.7 g/cm³\n- **冰**：0.92 g/cm³（比水密度小！）\n- **木头**：0.4-0.8 g/cm³（因类型而异）\n- **软木**：0.24 g/cm³\n\n### 液体：\n- **汞**：13.6 g/cm³\n- **水**：1.0 g/cm³（参考值）\n- **食用油**：0.92 g/cm³\n- **酒精**：0.79 g/cm³\n\n### 气体（室温，1 atm）：\n- **空气**：0.0012 g/cm³\n- **二氧化碳**：0.0018 g/cm³\n- **氦气**：0.00016 g/cm³\n\n---\n\n## 测量密度\n\n### 对于规则形状物体：\n\n**例子：矩形块**\n\n1. **使用电子天平测量质量**\n2. **计算体积**：V = 长度 × 宽度 × 高度\n3. **计算密度**：ρ = m / V\n\n**新加坡例子：**\n一块矩形橡皮擦尺寸为5厘米 × 2厘米 × 1厘米，质量为10克。\n- 体积 = 5 × 2 × 1 = 10 cm³\n- 密度 = 10 g / 10 cm³ = 1.0 g/cm³\n\n### 对于不规则形状物体：\n\n**方法：水位移法**\n\n1. **使用天平测量质量**\n2. **使用位移法测量体积**：\n   - 在量筒中注入水，记录初始体积\n   - 完全浸没物体\n   - 记录最终体积\n   - 物体体积 = 最终体积 - 初始体积\n3. **计算密度**：ρ = m / V\n\n**例子：**\n一块石头质量为40克。\n- 初始水位：50 cm³\n- 最终水位：70 cm³\n- 体积 = 70 - 50 = 20 cm³\n- 密度 = 40 g / 20 cm³ = 2.0 g/cm³\n\n### 对于液体：\n\n1. **测量空量筒的质量**\n2. **将液体倒入量筒，记录体积**\n3. **测量总质量**（量筒 + 液体）\n4. **计算液体质量**：m_液体 = 总质量 - 量筒质量\n5. **计算密度**：ρ = m / V\n\n---\n\n## 密度与浮沉\n\n### 原理：\n- 物体**密度小于**液体 → **漂浮**\n- 物体**密度大于**液体 → **下沉**\n- 物体**密度等于**液体 → **悬浮**\n\n### 水中的例子（密度 = 1.0 g/cm³）：\n\n**漂浮：**\n- 冰（0.92 g/cm³）- 这就是冰山漂浮的原因！\n- 木头（0.4-0.8 g/cm³）- 木制船\n- 油（0.92 g/cm³）- 油泄漏时漂浮在水上\n- 软木（0.24 g/cm³）- 用于救生衣\n\n**下沉：**\n- 铁（7.8 g/cm³）- 铁钉下沉\n- 铝（2.7 g/cm³）- 铝箔球下沉\n- 石头（2-3 g/cm³）- 石头在水中下沉\n\n### 新加坡背景：\n**为什么船会漂浮？**\n\n新加坡港口的铁船漂浮因为：\n- 固体铁会下沉（密度7.8 g/cm³）\n- 但船是空心的（含有大量空气）\n- 船的平均密度（铁 + 空气）< 1.0 g/cm³\n- 因此船漂浮！\n\n**组屋例子：**\n混凝土块（密度~2.4 g/cm³）在水中下沉，但组屋建筑地基保持在原位，因为它被设计成分散重量，而不是漂浮！\n\n---\n\n## 密度的应用\n\n### 1. 材料识别\n怀疑这块金属是黄金？测量它的密度！\n- 如果 ρ = 19.3 g/cm³ → 可能是真金\n- 如果 ρ = 8-10 g/cm³ → 假的（可能是黄铜）\n\n### 2. 质量控制\n食品制造商检查密度以：\n- 检测掺假（混合廉价成分）\n- 确保一致的产品质量\n\n### 3. 工程\n- **飞机**：使用低密度铝（轻便但坚固）\n- **防弹背心**：使用高密度材料阻止子弹\n- **救生衣**：使用非常低密度的泡沫\n\n### 4. 日常新加坡：\n- **小贩中心油**：食用油漂浮在洗碗水上方（密度较小）\n- **咖啡/茶**：糖浆沉到底部（比咖啡/茶密度大）- 需要搅拌！\n- **游泳池**：在海水（滨海湾）中比淡水泳池更容易漂浮（因盐而密度更高）'
+    },
+    {
+      'type': 'text',
+      'content': '# Melting Point and Boiling Point\n\n## Melting Point\n\n**Definition:** The temperature at which a solid changes to a liquid.\n\n### Key Points:\n- At melting point: solid and liquid coexist\n- Pure substances have **sharp** melting points\n- Mixtures have **range** of melting points\n- Melting point = freezing point (same temperature, opposite process)\n\n### Common Melting Points:\n\n| Substance | Melting Point (°C) |\n|-----------|-------------------|\n| **Ice (water)** | 0 |\n| **Butter** | 32-35 |\n| **Chocolate** | 30-32 |\n| **Aluminum** | 660 |\n| **Gold** | 1064 |\n| **Iron** | 1538 |\n| **Diamond (carbon)** | 3550 |\n\n### Singapore Context:\n**Why does chocolate melt in your pocket?**\n- Body temperature: ~37°C\n- Chocolate melting point: ~32°C\n- Since 37 > 32, chocolate melts!\n\n**Butter in hawker centers:**\nDuring hot afternoons (35°C), butter softens because it's near its melting point!\n\n---\n\n## Boiling Point\n\n**Definition:** The temperature at which a liquid changes to a gas throughout the liquid (not just surface).\n\n### Key Points:\n- At boiling point: liquid and gas coexist\n- Pure substances have **sharp** boiling points\n- Mixtures have **range** of boiling points\n- Boiling point depends on atmospheric pressure\n\n### Common Boiling Points (at 1 atm):\n\n| Substance | Boiling Point (°C) |\n|-----------|-------------------|\n| **Alcohol (ethanol)** | 78 |\n| **Water** | 100 |\n| **Cooking oil** | ~300 |\n| **Mercury** | 357 |\n| **Iron** | 2862 |\n\n### Singapore Context:\n**Cooking at different elevations:**\n- At sea level (Singapore): Water boils at 100°C\n- At high altitude: Water boils at lower temperature (less atmospheric pressure)\n- Pressure cookers raise boiling point → food cooks faster!\n\n**Steaming food:**\nSteam temperature = 100°C (at Singapore's sea level), perfect for steaming dim sum and bao!\n\n---\n\n## Using Melting/Boiling Points to Identify Substances\n\n### Example:\nYou have a clear liquid. Is it water or alcohol?\n\n**Test:**\n1. Heat the liquid carefully\n2. Measure the temperature when it boils\n3. If boils at 78°C → Alcohol\n4. If boils at 100°C → Water\n\n### Purity Testing:\n**Pure water** boils at exactly 100°C (at 1 atm).\n- If \'water\' boils at 102°C → Contains impurities (like salt)\n- If \'water\' boils over range 98-105°C → Mixture of substances\n\n### Material Selection:\n**Choosing materials for specific uses:**\n\n**Cooking pot material:**\n- Must have melting point >> 300°C (higher than cooking oil)\n- Aluminum (660°C) ✓\n- Plastic (120-180°C) ✗ Would melt!\n\n**Electrical fuse wire:**\n- Should have low melting point (to melt and break circuit when overheated)\n- Lead-tin alloy (~180°C) is commonly used\n\n---\n\n## Phase Changes Diagram\n\n```\nSOLID --[heating, melting point]--> LIQUID --[heating, boiling point]--> GAS\n       <--[cooling, freezing point]--        <--[cooling, condensing point]--\n```\n\n**Energy during phase changes:**\n- Temperature stays **constant** during melting/boiling\n- Energy is used to break bonds between particles\n- Once phase change completes, temperature rises again',
+      'content_zh': '# 熔点和沸点\n\n## 熔点\n\n**定义：** 固体变成液体的温度。\n\n### 要点：\n- 在熔点：固体和液体共存\n- 纯物质有**明确的**熔点\n- 混合物有熔点**范围**\n- 熔点 = 凝固点（相同温度，相反过程）\n\n### 常见熔点：\n\n| 物质 | 熔点 (°C) |\n|-----------|-------------------|\n| **冰（水）** | 0 |\n| **黄油** | 32-35 |\n| **巧克力** | 30-32 |\n| **铝** | 660 |\n| **金** | 1064 |\n| **铁** | 1538 |\n| **钻石（碳）** | 3550 |\n\n### 新加坡背景：\n**为什么巧克力在你的口袋里融化？**\n- 体温：~37°C\n- 巧克力熔点：~32°C\n- 因为 37 > 32，巧克力融化！\n\n**小贩中心的黄油：**\n在炎热的下午（35°C），黄油会软化，因为它接近熔点！\n\n---\n\n## 沸点\n\n**定义：** 液体在整个液体中（不仅仅是表面）变成气体的温度。\n\n### 要点：\n- 在沸点：液体和气体共存\n- 纯物质有**明确的**沸点\n- 混合物有沸点**范围**\n- 沸点取决于大气压力\n\n### 常见沸点（在1 atm）：\n\n| 物质 | 沸点 (°C) |\n|-----------|-------------------|\n| **酒精（乙醇）** | 78 |\n| **水** | 100 |\n| **食用油** | ~300 |\n| **汞** | 357 |\n| **铁** | 2862 |\n\n### 新加坡背景：\n**在不同海拔烹饪：**\n- 在海平面（新加坡）：水在100°C沸腾\n- 在高海拔：水在较低温度沸腾（大气压力较小）\n- 高压锅提高沸点 → 食物煮得更快！\n\n**蒸食物：**\n蒸汽温度 = 100°C（在新加坡的海平面），非常适合蒸点心和包子！\n\n---\n\n## 使用熔点/沸点识别物质\n\n### 例子：\n你有一种透明液体。是水还是酒精？\n\n**测试：**\n1. 小心加热液体\n2. 测量液体沸腾时的温度\n3. 如果在78°C沸腾 → 酒精\n4. 如果在100°C沸腾 → 水\n\n### 纯度测试：\n**纯水**在恰好100°C沸腾（在1 atm）。\n- 如果'水'在102°C沸腾 → 含有杂质（如盐）\n- 如果'水'在98-105°C范围沸腾 → 物质混合物\n\n### 材料选择：\n**为特定用途选择材料：**\n\n**烹饪锅材料：**\n- 必须有熔点 >> 300°C（高于食用油）\n- 铝（660°C）✓\n- 塑料（120-180°C）✗ 会融化！\n\n**电保险丝线：**\n- 应该有低熔点（过热时融化并断开电路）\n- 铅锡合金（~180°C）通常使用\n\n---\n\n## 相变图\n\n```\n固体 --[加热，熔点]--> 液体 --[加热，沸点]--> 气体\n       <--[冷却，凝固点]--        <--[冷却，冷凝点]--\n```\n\n**相变期间的能量：**\n- 温度在熔化/沸腾期间保持**恒定**\n- 能量用于打破粒子之间的键\n- 一旦相变完成，温度再次上升'
+    },
+    {
+      'type': 'text',
+      'content': '# Strength, Hardness, and Flexibility (G3)\n\nNote: This section is **optional for G2** students but required for G3.\n\n---\n\n## Strength\n\n**Definition:** The ability of a material to withstand an applied force without breaking.\n\n### Types of Strength:\n\n**1. Tensile Strength** (pulling)\n- How much pulling force before it breaks\n- Important for: ropes, cables, chains\n\n**2. Compressive Strength** (pushing/squeezing)\n- How much squeezing force before it collapses\n- Important for: building pillars, foundations\n\n**3. Shear Strength** (cutting)\n- How much force before it breaks by sliding\n- Important for: bolts, rivets\n\n### Examples:\n\n**High Strength:**\n- Steel - Used in HDB building framework\n- Concrete - Used in foundations\n- Kevlar - Used in bulletproof vests\n- Spider silk - Stronger than steel (by weight!)\n\n**Low Strength:**\n- Paper - Tears easily\n- Foam - Collapses under weight\n- Clay - Breaks with little force\n\n### Singapore Applications:\n\n**MRT Tracks:**\n- Must have high compressive strength (heavy trains)\n- Steel alloys are used\n\n**Suspension Bridges:**\n- Cables need high tensile strength\n- Made of twisted steel wires\n\n**HDB Walls:**\n- Concrete has high compressive strength\n- Steel reinforcement bars add tensile strength\n\n---\n\n## Hardness\n\n**Definition:** The ability of a material to resist scratching, indentation, or being worn away.\n\n### Mohs Scale of Hardness (1-10):\n\n| Level | Material | Can Scratch? |\n|-------|----------|-------------|\n| 1 | **Talc** | Fingernail scratches it |\n| 2 | **Gypsum** | Fingernail scratches it |\n| 3 | **Calcite** | Copper coin scratches it |\n| 4 | **Fluorite** | Knife scratches it |\n| 5 | **Apatite** | Knife scratches it with difficulty |\n| 6 | **Feldspar** | Scratches glass |\n| 7 | **Quartz** | Scratches glass easily |\n| 8 | **Topaz** | Scratches quartz |\n| 9 | **Corundum** | Scratches topaz |\n| 10 | **Diamond** | Scratches everything! |\n\n**Rule:** A harder material can scratch a softer material.\n\n### Examples:\n\n**Very Hard:**\n- Diamond - Hardest natural material (used in cutting tools)\n- Sapphire - Used in scratch-resistant phone screens\n- Tungsten carbide - Used in drill bits\n\n**Hard:**\n- Steel - Used in knives, tools\n- Glass - Moderate hardness\n\n**Soft:**\n- Gold - Beautiful but scratches easily\n- Aluminum - Relatively soft metal\n- Plastic - Scratches with use\n- Wood - Can be dented\n\n### Singapore Applications:\n\n**Phone Screens:**\n- Gorilla Glass (contains alumino-silicate)\n- Hardness ~6-7 on Mohs scale\n- Resistant to scratches from keys, coins\n\n**Hawker Center Tables:**\n- Stainless steel tables resist scratches and dents\n- Easier to clean and maintain\n\n**Floor Tiles:**\n- Ceramic tiles are hard (resist scratching from shoes)\n- Porcelain is harder than ceramic\n\n---\n\n## Flexibility\n\n**Definition:** The ability of a material to bend without breaking.\n\n**Related Terms:**\n- **Flexible (Ductile)**: Can bend significantly without breaking\n- **Brittle**: Breaks easily without bending\n- **Elastic**: Returns to original shape after bending\n- **Plastic**: Stays bent after force is removed\n\n### Examples:\n\n**Highly Flexible:**\n- Rubber bands - Stretches and returns to shape\n- Plastic rulers - Bends and returns to shape\n- Copper wire - Can be bent into shapes\n- Fabric - Folds easily\n\n**Moderately Flexible:**\n- Paper - Bends but may crease permanently\n- Thin wood - Bends slightly\n- Aluminum foil - Bends and stays bent\n\n**Rigid/Brittle (Not Flexible):**\n- Glass - Shatters instead of bending\n- Ceramic - Breaks cleanly\n- Concrete - Cracks under bending\n- Cast iron - Snaps under stress\n\n### Singapore Applications:\n\n**Water Pipes (PVC):**\n- Flexible enough to curve around corners\n- Doesn't crack like brittle materials\n- Used throughout HDB buildings\n\n**Electrical Wires:**\n- Copper is flexible (can be bent during installation)\n- Surrounded by flexible plastic insulation\n- Easy to route through walls\n\n**Packaging:**\n- Plastic bags are flexible (can be folded, stuffed)\n- Glass bottles are rigid (more likely to break)\n- Flexible packaging reduces shipping damage\n\n---\n\n## Comparing Properties\n\n### Material Selection Examples:\n\n**1. Cutting Board:**\n- Need: Moderate hardness (won't dull knife quickly)\n- Use: Wood or plastic (not glass - too hard, damages knives)\n\n**2. HDB Window Grilles:**\n- Need: High strength, hard, rigid\n- Use: Steel bars (strong, won't bend easily)\n\n**3. Sports Shoe Soles:**\n- Need: Flexible, moderate strength\n- Use: Rubber (bends with foot movement, doesn't break)\n\n**4. Food Container:**\n- Need: Flexible (for opening/closing), moderate strength\n- Use: Plastic (glass would be too rigid and fragile)\n\n---\n\n## Trade-offs\n\nOften, improving one property weakens another:\n\n**Hardness vs. Flexibility:**\n- Very hard materials (diamond, glass) are often brittle\n- Flexible materials (rubber, plastic) are usually softer\n\n**Strength vs. Weight:**\n- Strong materials (steel) are often heavy\n- Lightweight materials (foam) are usually weak\n\n**Solution: Composite Materials**\n- Combine materials to get best of both\n- Example: Steel-reinforced concrete (strong + hard)\n- Example: Fiberglass (lightweight + strong)\n- Example: Carbon fiber (very strong + very light + expensive)',
+      'content_zh': '# 强度、硬度和柔韧性（G3）\n\n注意：此部分对**G2学生是可选的**，但对G3学生是必需的。\n\n---\n\n## 强度\n\n**定义：** 材料承受施加力而不断裂的能力。\n\n### 强度类型：\n\n**1. 拉伸强度**（拉动）\n- 断裂前能承受多大的拉力\n- 重要用途：绳索、电缆、链条\n\n**2. 压缩强度**（推/挤）\n- 坍塌前能承受多大的挤压力\n- 重要用途：建筑支柱、地基\n\n**3. 剪切强度**（切割）\n- 通过滑动断裂前能承受多大的力\n- 重要用途：螺栓、铆钉\n\n### 例子：\n\n**高强度：**\n- 钢 - 用于组屋建筑框架\n- 混凝土 - 用于地基\n- 凯夫拉 - 用于防弹背心\n- 蜘蛛丝 - 比钢更强（按重量！）\n\n**低强度：**\n- 纸 - 容易撕裂\n- 泡沫 - 在重量下坍塌\n- 黏土 - 用很小的力就断裂\n\n### 新加坡应用：\n\n**地铁轨道：**\n- 必须有高压缩强度（重型列车）\n- 使用钢合金\n\n**吊桥：**\n- 电缆需要高拉伸强度\n- 由扭曲的钢丝制成\n\n**组屋墙壁：**\n- 混凝土有高压缩强度\n- 钢筋增加拉伸强度\n\n---\n\n## 硬度\n\n**定义：** 材料抵抗划痕、压痕或磨损的能力。\n\n### 莫氏硬度表（1-10）：\n\n| 等级 | 材料 | 可以划痕？ |\n|-------|----------|-------------|\n| 1 | **滑石** | 指甲可划 |\n| 2 | **石膏** | 指甲可划 |\n| 3 | **方解石** | 铜币可划 |\n| 4 | **萤石** | 刀可划 |\n| 5 | **磷灰石** | 刀难划 |\n| 6 | **长石** | 可划玻璃 |\n| 7 | **石英** | 容易划玻璃 |\n| 8 | **黄玉** | 可划石英 |\n| 9 | **刚玉** | 可划黄玉 |\n| 10 | **钻石** | 可划所有东西！ |\n\n**规则：** 更硬的材料可以划伤更软的材料。\n\n### 例子：\n\n**非常硬：**\n- 钻石 - 最硬的天然材料（用于切割工具）\n- 蓝宝石 - 用于防刮手机屏幕\n- 碳化钨 - 用于钻头\n\n**硬：**\n- 钢 - 用于刀具、工具\n- 玻璃 - 中等硬度\n\n**软：**\n- 金 - 美丽但容易划伤\n- 铝 - 相对较软的金属\n- 塑料 - 使用会划伤\n- 木头 - 可以凹陷\n\n### 新加坡应用：\n\n**手机屏幕：**\n- 大猩猩玻璃（含铝硅酸盐）\n- 莫氏硬度约6-7\n- 抗钥匙、硬币的划痕\n\n**小贩中心桌子：**\n- 不锈钢桌子抗划痕和凹陷\n- 更容易清洁和维护\n\n**地板瓷砖：**\n- 陶瓷砖坚硬（抗鞋子划痕）\n- 瓷器比陶瓷更硬\n\n---\n\n## 柔韧性\n\n**定义：** 材料弯曲而不断裂的能力。\n\n**相关术语：**\n- **柔韧（延性）**：可以显著弯曲而不断裂\n- **脆性**：容易断裂而不弯曲\n- **弹性**：弯曲后恢复原形\n- **塑性**：力移除后保持弯曲\n\n### 例子：\n\n**高度柔韧：**\n- 橡皮筋 - 拉伸并恢复形状\n- 塑料尺 - 弯曲并恢复形状\n- 铜线 - 可以弯曲成形状\n- 织物 - 容易折叠\n\n**中等柔韧：**\n- 纸 - 弯曲但可能永久折痕\n- 薄木头 - 轻微弯曲\n- 铝箔 - 弯曲并保持弯曲\n\n**刚性/脆性（不柔韧）：**\n- 玻璃 - 破碎而不是弯曲\n- 陶瓷 - 干净断裂\n- 混凝土 - 弯曲时开裂\n- 铸铁 - 在压力下断裂\n\n### 新加坡应用：\n\n**水管（PVC）：**\n- 足够柔韧以绕过角落\n- 不像脆性材料那样开裂\n- 在整个组屋建筑中使用\n\n**电线：**\n- 铜是柔韧的（安装时可以弯曲）\n- 被柔韧的塑料绝缘包围\n- 容易穿过墙壁布线\n\n**包装：**\n- 塑料袋是柔韧的（可以折叠、塞入）\n- 玻璃瓶是刚性的（更容易破碎）\n- 柔韧的包装减少运输损坏\n\n---\n\n## 比较性质\n\n### 材料选择示例：\n\n**1. 砧板：**\n- 需要：中等硬度（不会快速使刀钝）\n- 使用：木头或塑料（不是玻璃 - 太硬，损坏刀）\n\n**2. 组屋窗户护栏：**\n- 需要：高强度、硬、刚性\n- 使用：钢筋（坚固，不易弯曲）\n\n**3. 运动鞋底：**\n- 需要：柔韧、中等强度\n- 使用：橡胶（随脚部运动弯曲，不断裂）\n\n**4. 食品容器：**\n- 需要：柔韧（用于打开/关闭）、中等强度\n- 使用：塑料（玻璃太刚性和易碎）\n\n---\n\n## 权衡\n\n通常，改善一个性质会削弱另一个：\n\n**硬度与柔韧性：**\n- 非常硬的材料（钻石、玻璃）通常是脆性的\n- 柔韧的材料（橡胶、塑料）通常更软\n\n**强度与重量：**\n- 强材料（钢）通常很重\n- 轻质材料（泡沫）通常很弱\n\n**解决方案：复合材料**\n- 结合材料以获得两者的最佳性能\n- 例子：钢筋混凝土（强 + 硬）\n- 例子：玻璃纤维（轻 + 强）\n- 例子：碳纤维（非常强 + 非常轻 + 昂贵）'
+    },
+    {
+      'type': 'text',
+      'content': '# Choosing Materials Based on Physical Properties\n\n## The Engineering Design Process\n\nWhen choosing materials, engineers consider:\n\n1. **Purpose**: What will it be used for?\n2. **Environment**: Where will it be used? (indoor/outdoor, wet/dry, hot/cold)\n3. **Forces**: What stresses will it experience?\n4. **Cost**: Is it affordable?\n5. **Sustainability**: Is it environmentally friendly?\n6. **Availability**: Can we source it easily?\n\n---\n\n## Singapore-Specific Material Choices\n\n### 1. HDB Buildings\n\n**Materials Used:**\n- **Concrete** (walls, floors)\n  - High compressive strength\n  - Durable in tropical climate\n  - Fire resistant\n  - Relatively cheap\n\n- **Steel** (framework, reinforcement)\n  - High tensile strength\n  - Supports heavy loads\n  - Can rust (needs protection)\n\n- **Glass** (windows)\n  - Transparent (allows light)\n  - Hard (scratch resistant)\n  - Brittle (can break)\n  - Poor thermal insulator (heat enters)\n\n- **Aluminum** (window frames)\n  - Lightweight\n  - Good strength\n  - Doesn't rust\n  - Good thermal conductor (can feel hot)\n\n### 2. MRT System\n\n**Rails:**\n- **Steel** - high hardness, strength, durability\n\n**Train Body:**\n- **Aluminum alloy** - lightweight (saves energy), strong\n\n**Electrical Cables:**\n- **Copper wires** - excellent electrical conductor\n- **Plastic insulation** - electrical insulator, flexible\n\n**Station Platforms:**\n- **Concrete** - high compressive strength, durable\n\n### 3. Hawker Centers\n\n**Tables:**\n- **Stainless steel** - doesn't rust (frequent washing), hard, easy to clean\n\n**Cooking Woks:**\n- **Iron/Carbon steel** - excellent thermal conductor, can withstand high heat\n\n**Utensils:**\n- **Plastic** - lightweight, cheap, poor thermal conductor (handles stay cool)\n- **Stainless steel** - hygienic, doesn't react with food\n\n**Drink Cups:**\n- **Plastic** - lightweight, flexible (won't break when dropped)\n- **Glass** - transparent, but brittle\n\n### 4. Electronic Devices (Phones, Laptops)\n\n**Microchips:**\n- **Silicon** - semiconductor, enables computing\n- **Gold** - excellent conductor, doesn't corrode (used in connectors)\n\n**Circuit Boards:**\n- **Copper** - electrical conductor (traces)\n- **Fiberglass** - electrical insulator, rigid\n\n**Screens:**\n- **Gorilla Glass** - hard (scratch resistant), transparent\n\n**Casings:**\n- **Aluminum** - lightweight, strong, good heat dissipation\n- **Plastic** - lightweight, cheap, poor conductor (insulates circuits)\n\n---\n\n## Sustainable Material Choices\n\n**Singapore's Green Building Movement:**\n\n### Reducing Environmental Impact:\n\n**1. Recycled Materials:**\n- Recycled steel in construction\n- Recycled plastic in furniture\n- Reduces mining/extraction\n\n**2. Locally Sourced:**\n- Reduces transportation emissions\n- Example: Tropical hardwoods from region\n\n**3. Durable Materials:**\n- Last longer = less replacement\n- Less waste over lifetime\n- Example: Stainless steel instead of cheap plastic\n\n**4. Energy-Efficient:**\n- Low-emissivity glass (reflects heat)\n- Thermal insulation reduces air-con use\n- Cool roof coatings (high reflectivity)\n\n**5. Renewable Materials:**\n- Bamboo (grows quickly)\n- Cork (tree bark regenerates)\n- Bio-plastics (from plant sources)\n\n### Singapore's 3R Approach:\n\n**Reduce:**\n- Use less material\n- Design efficient structures\n\n**Reuse:**\n- Choose durable, long-lasting materials\n- Design for disassembly and reuse\n\n**Recycle:**\n- Select recyclable materials\n- Aluminum, steel, glass, certain plastics\n\n---\n\n## Real-World Decision Matrix\n\n**Example: Choosing material for a water bottle**\n\n| Property | Plastic (PET) | Aluminum | Glass | Stainless Steel |\n|----------|---------------|----------|-------|----------------|\n| **Density** | Low (light) | Low (light) | High (heavy) | High (heavy) |\n| **Strength** | Moderate | High | Moderate | Very High |\n| **Hardness** | Low (scratches) | Moderate | High | High |\n| **Flexibility** | Flexible | Rigid | Brittle | Rigid |\n| **Thermal Conductor** | Poor (good!) | Excellent (bad) | Poor (good!) | Excellent (bad) |\n| **Cost** | Very Cheap | Moderate | Cheap | Expensive |\n| **Recyclable** | Yes | Yes | Yes | Yes |\n| **Durability** | Low | High | Moderate | Very High |\n| **Safety** | Safe | Safe | Can break | Safe |\n\n**Analysis:**\n- **Hiking**: Aluminum or Plastic (lightweight)\n- **Daily use**: Stainless steel (durable, keeps temp)\n- **Cheap option**: Plastic\n- **Premium**: Stainless steel or glass\n\n---\n\n## Summary: Material Properties and Uses\n\n| Physical Property | Important For | Example Materials |\n|------------------|---------------|-------------------|\n| **High Electrical Conductivity** | Wires, circuits | Copper, aluminum, gold |\n| **High Thermal Conductivity** | Cooking pots, heat sinks | Copper, aluminum, steel |\n| **Low Thermal Conductivity** | Insulation, handles | Wood, plastic, rubber, air |\n| **High Density** | Weights, anchors, radiation shields | Lead, gold, iron |\n| **Low Density** | Aircraft, portable devices | Aluminum, plastic, foam |\n| **High Melting/Boiling Point** | High-temp applications | Tungsten, ceramic, steel |\n| **High Strength** | Buildings, bridges, tools | Steel, concrete, titanium |\n| **High Hardness** | Cutting tools, wear resistance | Diamond, carbide, sapphire |\n| **High Flexibility** | Cables, tubes, packaging | Rubber, copper wire, plastic |\n| **Low Cost** | Mass production, disposables | Plastic, wood, aluminum |\n\n**Remember:** The \'best\' material depends on the specific application and requirements!',
+      'content_zh': '# 根据物理性质选择材料\n\n## 工程设计过程\n\n选择材料时，工程师考虑：\n\n1. **目的**：它将用于什么？\n2. **环境**：它将在哪里使用？（室内/室外，湿/干，热/冷）\n3. **力**：它将经历什么压力？\n4. **成本**：负担得起吗？\n5. **可持续性**：对环境友好吗？\n6. **可用性**：我们能轻松采购吗？\n\n---\n\n## 新加坡特定的材料选择\n\n### 1. 组屋建筑\n\n**使用的材料：**\n- **混凝土**（墙壁、地板）\n  - 高压缩强度\n  - 在热带气候中耐用\n  - 防火\n  - 相对便宜\n\n- **钢**（框架、加固）\n  - 高拉伸强度\n  - 支撑重载\n  - 可能生锈（需要保护）\n\n- **玻璃**（窗户）\n  - 透明（允许光线）\n  - 硬（抗划痕）\n  - 脆性（可能破裂）\n  - 不良热绝缘体（热量进入）\n\n- **铝**（窗框）\n  - 轻便\n  - 良好的强度\n  - 不生锈\n  - 良好的热导体（可能感觉热）\n\n### 2. 地铁系统\n\n**铁轨：**\n- **钢** - 高硬度、强度、耐用性\n\n**列车车身：**\n- **铝合金** - 轻便（节能）、坚固\n\n**电缆：**\n- **铜线** - 优秀的电导体\n- **塑料绝缘** - 电绝缘体、柔韧\n\n**车站站台：**\n- **混凝土** - 高压缩强度、耐用\n\n### 3. 小贩中心\n\n**桌子：**\n- **不锈钢** - 不生锈（频繁清洗）、硬、易清洁\n\n**烹饪炒锅：**\n- **铁/碳钢** - 优秀的热导体、可承受高温\n\n**餐具：**\n- **塑料** - 轻便、便宜、不良热导体（手柄保持凉爽）\n- **不锈钢** - 卫生、不与食物反应\n\n**饮料杯：**\n- **塑料** - 轻便、柔韧（掉落时不会破裂）\n- **玻璃** - 透明，但脆性\n\n### 4. 电子设备（手机、笔记本电脑）\n\n**微芯片：**\n- **硅** - 半导体，实现计算\n- **金** - 优秀的导体，不腐蚀（用于连接器）\n\n**电路板：**\n- **铜** - 电导体（走线）\n- **玻璃纤维** - 电绝缘体、刚性\n\n**屏幕：**\n- **大猩猩玻璃** - 硬（抗划痕）、透明\n\n**外壳：**\n- **铝** - 轻便、坚固、良好的散热\n- **塑料** - 轻便、便宜、不良导体（绝缘电路）\n\n---\n\n## 可持续材料选择\n\n**新加坡的绿色建筑运动：**\n\n### 减少环境影响：\n\n**1. 回收材料：**\n- 建筑中的回收钢\n- 家具中的回收塑料\n- 减少采矿/提取\n\n**2. 本地采购：**\n- 减少运输排放\n- 例子：来自该地区的热带硬木\n\n**3. 耐用材料：**\n- 持续时间更长 = 更少更换\n- 终生产生的废物更少\n- 例子：不锈钢而不是廉价塑料\n\n**4. 节能：**\n- 低辐射玻璃（反射热量）\n- 热绝缘减少空调使用\n- 冷屋顶涂层（高反射率）\n\n**5. 可再生材料：**\n- 竹子（快速生长）\n- 软木（树皮再生）\n- 生物塑料（来自植物来源）\n\n### 新加坡的3R方法：\n\n**减少：**\n- 使用更少的材料\n- 设计高效的结构\n\n**重复使用：**\n- 选择耐用、持久的材料\n- 设计可拆卸和重复使用\n\n**回收：**\n- 选择可回收材料\n- 铝、钢、玻璃、某些塑料\n\n---\n\n## 现实世界决策矩阵\n\n**例子：为水瓶选择材料**\n\n| 性质 | 塑料 (PET) | 铝 | 玻璃 | 不锈钢 |\n|----------|---------------|----------|-------|----------------|\n| **密度** | 低（轻） | 低（轻） | 高（重） | 高（重） |\n| **强度** | 中等 | 高 | 中等 | 非常高 |\n| **硬度** | 低（划痕） | 中等 | 高 | 高 |\n| **柔韧性** | 柔韧 | 刚性 | 脆性 | 刚性 |\n| **热导体** | 不良（好！） | 优秀（不好） | 不良（好！） | 优秀（不好） |\n| **成本** | 非常便宜 | 中等 | 便宜 | 昂贵 |\n| **可回收** | 是 | 是 | 是 | 是 |\n| **耐用性** | 低 | 高 | 中等 | 非常高 |\n| **安全** | 安全 | 安全 | 可能破裂 | 安全 |\n\n**分析：**\n- **远足**：铝或塑料（轻便）\n- **日常使用**：不锈钢（耐用，保持温度）\n- **便宜选项**：塑料\n- **高级**：不锈钢或玻璃\n\n---\n\n## 总结：材料性质和用途\n\n| 物理性质 | 重要用途 | 示例材料 |\n|------------------|---------------|-------------------|\n| **高电导率** | 电线、电路 | 铜、铝、金 |\n| **高热导率** | 烹饪锅、散热器 | 铜、铝、钢 |\n| **低热导率** | 绝缘、手柄 | 木头、塑料、橡胶、空气 |\n| **高密度** | 重物、锚、辐射屏蔽 | 铅、金、铁 |\n| **低密度** | 飞机、便携式设备 | 铝、塑料、泡沫 |\n| **高熔点/沸点** | 高温应用 | 钨、陶瓷、钢 |\n| **高强度** | 建筑、桥梁、工具 | 钢、混凝土、钛 |\n| **高硬度** | 切割工具、耐磨性 | 钻石、碳化物、蓝宝石 |\n| **高柔韧性** | 电缆、管道、包装 | 橡胶、铜线、塑料 |\n| **低成本** | 批量生产、一次性 | 塑料、木头、铝 |\n\n**记住：** '最好的'材料取决于具体的应用和要求！'
+    }
+  ],
+  'exercises': [
+    {
+      'id': 'phys-ex1',
+      'type': 'mcq',
+      'difficulty': 'easy',
+      'prompt': 'Which of the following is a physical property?',
+      'prompt_zh': '以下哪项是物理性质？',
+      'choices': ['Flammability', 'Density', 'Reactivity with acid', 'Ability to rust'],
+      'choices_zh': ['可燃性', '密度', '与酸的反应性', '生锈能力'],
+      'answer': 1,
+      'explanation': 'Density is a physical property because it can be measured without changing the substance's identity. Flammability, reactivity, and rusting are chemical properties that involve the substance changing into something else.',
+      'explanation_zh': '密度是物理性质，因为可以在不改变物质身份的情况下测量。可燃性、反应性和生锈是涉及物质变成其他东西的化学性质。'
+    },
+    {
+      'id': 'phys-ex2',
+      'type': 'multi',
+      'difficulty': 'easy',
+      'prompt': 'Which of these materials are good electrical conductors? (Select all that apply)',
+      'prompt_zh': '以下哪些材料是良好的电导体？（选择所有适用项）',
+      'choices': ['Copper', 'Plastic', 'Aluminum', 'Wood', 'Gold'],
+      'choices_zh': ['铜', '塑料', '铝', '木头', '金'],
+      'answer': [0, 2, 4],
+      'explanation': 'Metals like copper, aluminum, and gold are excellent electrical conductors because they have free electrons. Plastic and wood are insulators (poor conductors).',
+      'explanation_zh': '铜、铝和金等金属是优秀的电导体，因为它们有自由电子。塑料和木头是绝缘体（不良导体）。'
+    },
+    {
+      'id': 'phys-ex3',
+      'type': 'mcq',
+      'difficulty': 'medium',
+      'prompt': 'Why are cooking pot handles often made of wood or plastic instead of metal?',
+      'prompt_zh': '为什么烹饪锅柄通常由木头或塑料制成而不是金属？',
+      'choices': [
+        'Wood and plastic are cheaper',
+        'Wood and plastic are poor thermal conductors so the handle stays cool',
+        'Wood and plastic are stronger than metal',
+        'Wood and plastic look better'
+      ],
+      'choices_zh': [
+        '木头和塑料更便宜',
+        '木头和塑料是不良热导体，所以手柄保持凉爽',
+        '木头和塑料比金属更强',
+        '木头和塑料看起来更好'
+      ],
+      'answer': 1,
+      'explanation': 'Wood and plastic are poor thermal conductors (good insulators), meaning heat doesn't transfer quickly through them. This keeps the handle cool and safe to touch while the pot is hot.',
+      'explanation_zh': '木头和塑料是不良热导体（良好的绝缘体），意味着热量不会快速通过它们传递。这使手柄在锅热时保持凉爽并安全触摸。'
+    },
+    {
+      'id': 'phys-ex4',
+      'type': 'short',
+      'difficulty': 'medium',
+      'prompt': 'A rectangular metal block has dimensions 5 cm × 4 cm × 2 cm and a mass of 200 g. Calculate its density in g/cm³. (Use formula: Density = Mass / Volume)',
+      'prompt_zh': '一个矩形金属块的尺寸为5厘米 × 4厘米 × 2厘米，质量为200克。计算其密度（单位：g/cm³）。（使用公式：密度 = 质量 / 体积）',
+      'answer': '5',
+      'validator': 'numeric',
+      'explanation': 'Volume = 5 × 4 × 2 = 40 cm³. Density = Mass / Volume = 200 g / 40 cm³ = 5 g/cm³. This density suggests the metal could be zinc or tin.',
+      'explanation_zh': '体积 = 5 × 4 × 2 = 40 cm³。密度 = 质量 / 体积 = 200 g / 40 cm³ = 5 g/cm³。这个密度表明金属可能是锌或锡。'
+    },
+    {
+      'id': 'phys-ex5',
+      'type': 'mcq',
+      'difficulty': 'medium',
+      'prompt': 'A stone is placed in water and it sinks. What can you conclude about the stone's density?',
+      'prompt_zh': '一块石头放入水中并下沉。你能得出关于石头密度的什么结论？',
+      'choices': [
+        'The stone's density is less than 1.0 g/cm³',
+        'The stone's density is equal to 1.0 g/cm³',
+        'The stone's density is greater than 1.0 g/cm³',
+        'Cannot determine from this information'
+      ],
+      'choices_zh': [
+        '石头的密度小于1.0 g/cm³',
+        '石头的密度等于1.0 g/cm³',
+        '石头的密度大于1.0 g/cm³',
+        '无法从这些信息确定'
+      ],
+      'answer': 2,
+      'explanation': 'Objects sink in a liquid if their density is greater than the liquid's density. Since water has a density of 1.0 g/cm³, the stone must have a density greater than 1.0 g/cm³.',
+      'explanation_zh': '如果物体的密度大于液体的密度，物体会在液体中下沉。由于水的密度为1.0 g/cm³，石头的密度必须大于1.0 g/cm³。'
+    },
+    {
+      'id': 'phys-ex6',
+      'type': 'mcq',
+      'difficulty': 'easy',
+      'prompt': 'What is the melting point of pure water at 1 atmosphere pressure?',
+      'prompt_zh': '在1个大气压下，纯水的熔点是多少？',
+      'choices': ['0°C', '32°C', '100°C', '273°C'],
+      'choices_zh': ['0°C', '32°C', '100°C', '273°C'],
+      'answer': 0,
+      'explanation': 'Pure water melts (ice → water) at 0°C and boils (water → steam) at 100°C at standard atmospheric pressure. 32°C is the melting point in Fahrenheit, not Celsius.',
+      'explanation_zh': '在标准大气压下，纯水在0°C熔化（冰→水）并在100°C沸腾（水→蒸汽）。32°C是华氏温度的熔点，不是摄氏度。'
+    },
+    {
+      'id': 'phys-ex7',
+      'type': 'mcq',
+      'difficulty': 'medium',
+      'prompt': 'Why does chocolate melt in your pocket on a hot Singapore day?',
+      'prompt_zh': '为什么巧克力在炎热的新加坡日子里在你的口袋里融化？',
+      'choices': [
+        'Your body temperature (~37°C) is higher than chocolate's melting point (~32°C)',
+        'Chocolate reacts with fabric',
+        'Pressure from your pocket melts it',
+        'Humidity in Singapore melts chocolate'
+      ],
+      'choices_zh': [
+        '你的体温（~37°C）高于巧克力的熔点（~32°C）',
+        '巧克力与织物反应',
+        '口袋的压力使其融化',
+        '新加坡的湿度使巧克力融化'
+      ],
+      'answer': 0,
+      'explanation': 'Chocolate has a melting point of about 32°C. Human body temperature is about 37°C, which is higher than the melting point, causing the chocolate to melt.',
+      'explanation_zh': '巧克力的熔点约为32°C。人体温度约为37°C，高于熔点，导致巧克力融化。'
+    },
+    {
+      'id': 'phys-ex8',
+      'type': 'mcq',
+      'difficulty': 'medium',
+      'prompt': 'A liquid boils at 78°C at 1 atmosphere pressure. Which liquid is it most likely to be?',
+      'prompt_zh': '一种液体在1个大气压下在78°C沸腾。它最可能是哪种液体？',
+      'choices': ['Water', 'Alcohol (ethanol)', 'Cooking oil', 'Mercury'],
+      'choices_zh': ['水', '酒精（乙醇）', '食用油', '汞'],
+      'answer': 1,
+      'explanation': 'Ethanol (alcohol) has a boiling point of 78°C. Water boils at 100°C, cooking oil at ~300°C, and mercury at 357°C.',
+      'explanation_zh': '乙醇（酒精）的沸点为78°C。水在100°C沸腾，食用油约300°C，汞在357°C。'
+    },
+    {
+      'id': 'phys-ex9',
+      'type': 'mcq',
+      'difficulty': 'medium',
+      'optionalG2': true,
+      'prompt': 'On the Mohs hardness scale, which material can scratch glass (hardness ~5.5)?',
+      'prompt_zh': '在莫氏硬度表上，哪种材料可以划伤玻璃（硬度~5.5）？',
+      'choices': ['Calcite (3)', 'Fluorite (4)', 'Quartz (7)', 'Gypsum (2)'],
+      'choices_zh': ['方解石 (3)', '萤石 (4)', '石英 (7)', '石膏 (2)'],
+      'answer': 2,
+      'explanation': 'A harder material can scratch a softer material. Quartz (hardness 7) is harder than glass (hardness ~5.5), so it can scratch glass. The other materials are softer than glass.',
+      'explanation_zh': '更硬的材料可以划伤更软的材料。石英（硬度7）比玻璃（硬度~5.5）硬，所以可以划伤玻璃。其他材料比玻璃软。'
+    },
+    {
+      'id': 'phys-ex10',
+      'type': 'multi',
+      'difficulty': 'hard',
+      'optionalG2': true,
+      'prompt': 'Which properties make steel suitable for use in HDB building frameworks? (Select all that apply)',
+      'prompt_zh': '哪些性质使钢适合用于组屋建筑框架？（选择所有适用项）',
+      'choices': [
+        'High tensile strength',
+        'Low density (lightweight)',
+        'High compressive strength',
+        'High hardness',
+        'Good thermal insulator'
+      ],
+      'choices_zh': [
+        '高拉伸强度',
+        '低密度（轻便）',
+        '高压缩强度',
+        '高硬度',
+        '良好的热绝缘体'
+      ],
+      'answer': [0, 2, 3],
+      'explanation': 'Steel has high tensile strength (resists pulling forces), high compressive strength (supports heavy loads), and high hardness (durable). Steel is actually quite dense (not lightweight) and is a good thermal conductor (not insulator).',
+      'explanation_zh': '钢有高拉伸强度（抗拉力）、高压缩强度（支撑重载）和高硬度（耐用）。钢实际上相当致密（不轻便）并且是良好的热导体（不是绝缘体）。'
+    },
+    {
+      'id': 'phys-ex11',
+      'type': 'mcq',
+      'difficulty': 'medium',
+      'prompt': 'Why is copper used for electrical wires in Singapore homes?',
+      'prompt_zh': '为什么铜用于新加坡家庭的电线？',
+      'choices': [
+        'Copper is the cheapest metal',
+        'Copper is an excellent electrical conductor',
+        'Copper is the strongest metal',
+        'Copper is the lightest metal'
+      ],
+      'choices_zh': [
+        '铜是最便宜的金属',
+        '铜是优秀的电导体',
+        '铜是最强的金属',
+        '铜是最轻的金属'
+      ],
+      'answer': 1,
+      'explanation': 'Copper is chosen for electrical wires because it is an excellent electrical conductor (allows electricity to flow easily). While not the cheapest or strongest, its conductivity makes it ideal for this purpose.',
+      'explanation_zh': '选择铜用于电线是因为它是优秀的电导体（让电流容易流动）。虽然不是最便宜或最强的，但其导电性使其成为理想选择。'
+    },
+    {
+      'id': 'phys-ex12',
+      'type': 'mcq',
+      'difficulty': 'hard',
+      'prompt': 'A ship made of steel (density 7.8 g/cm³) can float on water (density 1.0 g/cm³). Why?',
+      'prompt_zh': '由钢（密度7.8 g/cm³）制成的船可以漂浮在水（密度1.0 g/cm³）上。为什么？',
+      'choices': [
+        'Steel becomes less dense when in water',
+        'The ship's hollow design makes its average density less than water',
+        'Water pressure pushes the ship up',
+        'Steel reacts with water to become lighter'
+      ],
+      'choices_zh': [
+        '钢在水中变得密度更小',
+        '船的空心设计使其平均密度小于水',
+        '水压将船推上去',
+        '钢与水反应变得更轻'
+      ],
+      'answer': 1,
+      'explanation': 'Although solid steel is denser than water and would sink, ships are hollow and contain lots of air. The average density of the ship (steel + air) is less than water, so it floats. This is the same principle used in Singapore's harbor ships.',
+      'explanation_zh': '虽然固体钢比水密度大会下沉，但船是空心的，含有大量空气。船的平均密度（钢 + 空气）小于水，所以它漂浮。这与新加坡港口的船使用的原理相同。'
+    },
+    {
+      'id': 'phys-ex13',
+      'type': 'mcq',
+      'difficulty': 'medium',
+      'optionalG2': true,
+      'prompt': 'Which material property is most important for a phone screen protector?',
+      'prompt_zh': '对于手机屏幕保护膜，哪种材料性质最重要？',
+      'choices': ['High flexibility', 'High hardness', 'Low density', 'High thermal conductivity'],
+      'choices_zh': ['高柔韧性', '高硬度', '低密度', '高热导率'],
+      'answer': 1,
+      'explanation': 'High hardness is most important for a screen protector because it needs to resist scratches from keys, coins, and other objects. Gorilla Glass and tempered glass are used because they have high hardness.',
+      'explanation_zh': '高硬度对于屏幕保护膜最重要，因为它需要抵抗钥匙、硬币和其他物体的划痕。使用大猩猩玻璃和钢化玻璃是因为它们有高硬度。'
+    },
+    {
+      'id': 'phys-ex14',
+      'type': 'multi',
+      'difficulty': 'hard',
+      'prompt': 'Which factors should be considered when choosing materials for sustainable construction in Singapore? (Select all that apply)',
+      'prompt_zh': '在新加坡为可持续建筑选择材料时应考虑哪些因素？（选择所有适用项）',
+      'choices': [
+        'Can the material be recycled?',
+        'Is the material durable and long-lasting?',
+        'Does the material help reduce energy consumption?',
+        'Is the material the cheapest option?',
+        'Is the material locally sourced?'
+      ],
+      'choices_zh': [
+        '材料可以回收吗？',
+        '材料耐用且持久吗？',
+        '材料有助于减少能源消耗吗？',
+        '材料是最便宜的选项吗？',
+        '材料是本地采购的吗？'
+      ],
+      'answer": [0, 1, 2, 4],
+      'explanation': "Sustainable construction considers recyclability, durability (reduces replacement needs), energy efficiency (e.g., insulation reduces air-con use), and local sourcing (reduces transportation emissions). While cost matters, the cheapest option isn't always the most sustainable.',
+      'explanation_zh': '可持续建筑考虑可回收性、耐用性（减少更换需求）、能源效率（例如，绝缘减少空调使用）和本地采购（减少运输排放）。虽然成本很重要，但最便宜的选项并不总是最可持续的。'
+    },
+    {
+      'id': 'phys-ex15',
+      'type': 'mcq',
+      'difficulty': 'hard',
+      'prompt': 'In Singapore's hawker centers, why are stainless steel tables preferred over wooden tables?',
+      'prompt_zh': '在新加坡的小贩中心，为什么不锈钢桌子比木桌更受欢迎？',
+      'choices': [
+        'Stainless steel is cheaper',
+        'Stainless steel is hard, doesn't rust, and is easy to clean',
+        'Stainless steel is a good thermal insulator',
+        'Stainless steel is more flexible'
+      ],
+      'choices_zh': [
+        '不锈钢更便宜',
+        '不锈钢硬，不生锈，易清洁',
+        '不锈钢是良好的热绝缘体',
+        '不锈钢更柔韧'
+      ],
+      'answer': 1,
+      'explanation': 'Stainless steel is preferred because it is hard (scratch and dent resistant), doesn't rust despite frequent washing with water, and is easy to clean for hygiene. These properties make it ideal for high-traffic food environments.',
+      'explanation_zh': '不锈钢受欢迎是因为它硬（抗划痕和凹陷）、尽管经常用水清洗也不生锈，并且易于清洁以保持卫生。这些性质使其成为高人流食品环境的理想选择。"
+    }
+  ]
+}

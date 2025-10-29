@@ -1,0 +1,312 @@
+{
+  'id': 'electrical-systems',
+  'title': 'Electrical Systems',
+  'title_zh': '电路系统',
+  'gradeLevel': 'sec1',
+  'tag': 'Physics',
+  'tag_zh': '物理',
+  'description': "Understanding current, voltage, resistance, and how electrical circuits work safely',
+  'description_zh': '理解电流、电压、电阻，以及如何安全地使用电路',
+  'objectives': [
+    'Understand basic electrical concepts: current, voltage, and resistance',
+    'Draw and interpret circuit diagrams using standard symbols',
+    'Explain the chemical, heating, and magnetic effects of electric current',
+    'Calculate electrical power and energy consumption',
+    'Identify electrical hazards and apply safety measures',
+    'Compare series and parallel circuits (G3)'
+  ],
+  'objectives_zh': [
+    '理解基本电学概念：电流、电压和电阻',
+    '使用标准符号绘制和解释电路图',
+    '解释电流的化学效应、热效应和磁效应',
+    '计算电功率和能量消耗',
+    '识别电气危险并采取安全措施',
+    '比较串联和并联电路（G3）'
+  ],
+  'sections': [
+    {
+      'type': 'text',
+      'content': '# Introduction to Electrical Systems\n\nElectricity powers our modern world! From the lights in your home to your smartphone, electrical systems are everywhere.\n\n## What is Electric Current?\n\n**Electric current** is the flow of electric charges (electrons) through a conductor.\n\n- **SI Unit**: Ampere (A)\n- **Symbol**: I\n- Measured using an **ammeter** connected in series\n\n### Analogy:\nThink of electric current like water flowing through a pipe:\n- More water flow = higher current\n- More electrons flowing = higher current\n\n## What is Voltage?\n\n**Voltage** (potential difference) is the \'push\' that makes electric charges move.\n\n- **SI Unit**: Volt (V)\n- **Symbol**: V\n- Measured using a **voltmeter** connected in parallel\n\n### Analogy:\nVoltage is like water pressure in a pipe:\n- Higher pressure = water flows faster\n- Higher voltage = electrons flow faster\n\n## What is Resistance?\n\n**Resistance** is the opposition to the flow of electric current.\n\n- **SI Unit**: Ohm (Ω)\n- **Symbol**: R\n- Different materials have different resistances\n\n### Factors Affecting Resistance:\n1. **Material**: Copper has low resistance, rubber has high resistance\n2. **Length**: Longer wire = higher resistance\n3. **Thickness**: Thinner wire = higher resistance\n4. **Temperature**: Higher temperature = higher resistance (for most metals)\n\n---\n\n### Singapore Context:\nHDB flats use 230V AC electricity. This voltage is powerful enough to run appliances but requires safety precautions!',
+      'content_zh': '# 电路系统简介\n\n电力驱动着我们的现代世界！从家里的灯到智能手机，电路系统无处不在。\n\n## 什么是电流？\n\n**电流**是电荷（电子）通过导体的流动。\n\n- **国际单位**：安培 (A)\n- **符号**：I\n- 使用串联连接的**电流表**测量\n\n### 类比：\n把电流想象成水在管道中流动：\n- 水流量越大 = 电流越大\n- 流动的电子越多 = 电流越大\n\n## 什么是电压？\n\n**电压**（电位差）是推动电荷移动的'力'。\n\n- **国际单位**：伏特 (V)\n- **符号**：V\n- 使用并联连接的**电压表**测量\n\n### 类比：\n电压就像管道中的水压：\n- 压力越高 = 水流得越快\n- 电压越高 = 电子流动得越快\n\n## 什么是电阻？\n\n**电阻**是对电流流动的阻力。\n\n- **国际单位**：欧姆 (Ω)\n- **符号**：R\n- 不同材料有不同的电阻\n\n### 影响电阻的因素：\n1. **材料**：铜的电阻低，橡胶的电阻高\n2. **长度**：导线越长 = 电阻越大\n3. **粗细**：导线越细 = 电阻越大\n4. **温度**：温度越高 = 电阻越大（对于大多数金属）\n\n---\n\n### 新加坡背景：\n组屋使用230V交流电。这个电压足以运行电器，但需要采取安全预防措施！'
+    },
+    {
+      'type': 'text',
+      'content': '# Circuit Diagrams and Components\n\n## Standard Circuit Symbols\n\nElectrical circuits are represented using standard symbols:\n\n| Component | Symbol | Function |\n|-----------|--------|----------|\n| **Cell** | ─\\|\\|─ | Provides electrical energy (1.5V) |\n| **Battery** | ─\\|\\|─\\|\\|─ | Multiple cells together |\n| **Switch (Open)** | ─/ ─ | Breaks the circuit |\n| **Switch (Closed)** | ─●─ | Completes the circuit |\n| **Bulb/Lamp** | ─⊗─ | Converts electrical energy to light |\n| **Resistor** | ─▭─ | Opposes current flow |\n| **Ammeter** | ─(A)─ | Measures current (series) |\n| **Voltmeter** | ─(V)─ | Measures voltage (parallel) |\n| **Wire** | ──── | Conducts electricity |\n\n## Drawing Circuit Diagrams\n\n**Rules:**\n1. Use standard symbols\n2. Draw circuits as rectangles (not messy circles)\n3. Components should be evenly spaced\n4. Wires are represented as straight lines\n5. Ammeters go IN SERIES (same path as current)\n6. Voltmeters go IN PARALLEL (across component)\n\n### Example Circuit:\n```\nBattery → Switch → Bulb → Ammeter → back to Battery\n      ↓\n   Voltmeter across bulb\n```\n\n---\n\n### Singapore Context:\nThe circuit breaker box in your HDB flat uses switches to protect different circuits. When you trip a breaker, you're opening a switch!',
+      'content_zh': '# 电路图和元件\n\n## 标准电路符号\n\n电路使用标准符号表示：\n\n| 元件 | 符号 | 功能 |\n|-----------|--------|----------|\n| **电池** | ─\\|\\|─ | 提供电能（1.5V） |\n| **电池组** | ─\\|\\|─\\|\\|─ | 多个电池组合 |\n| **开关（断开）** | ─/ ─ | 断开电路 |\n| **开关（闭合）** | ─●─ | 接通电路 |\n| **灯泡** | ─⊗─ | 将电能转换为光能 |\n| **电阻器** | ─▭─ | 阻碍电流流动 |\n| **电流表** | ─(A)─ | 测量电流（串联） |\n| **电压表** | ─(V)─ | 测量电压（并联） |\n| **导线** | ──── | 导电 |\n\n## 绘制电路图\n\n**规则：**\n1. 使用标准符号\n2. 将电路画成矩形（不要画成混乱的圆圈）\n3. 元件应均匀分布\n4. 导线用直线表示\n5. 电流表串联（与电流路径相同）\n6. 电压表并联（跨接元件）\n\n### 示例电路：\n```\n电池 → 开关 → 灯泡 → 电流表 → 返回电池\n      ↓\n   电压表跨接灯泡\n```\n\n---\n\n### 新加坡背景：\n组屋中的断路器盒使用开关来保护不同的电路。当你跳闸时，你就是在打开一个开关！'
+    },
+    {
+      'type': 'text',
+      'content': '# Effects of Electric Current\n\nElectric current produces three main effects:\n\n## 1. Chemical Effect\n\n**What happens?** Chemical reactions occur when electricity passes through certain liquids.\n\n### Examples:\n- **Electroplating**: Coating objects with metal (e.g., gold-plating jewelry)\n- **Electrolysis**: Breaking down compounds (e.g., splitting water into hydrogen and oxygen)\n- **Batteries**: Chemical reactions produce electricity\n\n### In Singapore:\nElectroplating factories use this effect to coat MRT train parts with protective metals!\n\n---\n\n## 2. Heating Effect\n\n**What happens?** Electric current flowing through a resistor produces heat.\n\n**Why?** Electrons collide with atoms in the wire, converting electrical energy to thermal energy.\n\n### Formula:\nHeat produced depends on:\n- **Current (I)**: Higher current = more heat\n- **Resistance (R)**: Higher resistance = more heat\n- **Time (t)**: Longer time = more heat\n\n### Examples:\n- **Electric kettle**: Heats water\n- **Toaster**: Heats bread\n- **Hair dryer**: Heats air\n- **Iron**: Heats clothes\n- **Rice cooker**: Heats rice (very common in Singapore!)\n\n### Safety Note:\nOverheating wires can cause fires! This is why we use fuses and circuit breakers.\n\n---\n\n## 3. Magnetic Effect\n\n**What happens?** A wire carrying electric current produces a magnetic field around it.\n\n### Applications:\n- **Electromagnets**: Temporary magnets (can be turned on/off)\n- **Electric bells**: Use electromagnets to create sound\n- **Motors**: Convert electrical energy to motion (in fans, washing machines)\n- **Generators**: Convert motion to electrical energy (in power stations)\n\n### In Singapore:\nMRT trains use powerful electromagnets in their motors. Some newer trains use magnetic levitation!',
+      'content_zh': '# 电流的效应\n\n电流产生三种主要效应：\n\n## 1. 化学效应\n\n**发生什么？** 当电流通过某些液体时会发生化学反应。\n\n### 例子：\n- **电镀**：用金属涂覆物体（例如，镀金珠宝）\n- **电解**：分解化合物（例如，将水分解成氢气和氧气）\n- **电池**：化学反应产生电能\n\n### 在新加坡：\n电镀工厂使用这种效应为地铁列车部件涂上保护金属！\n\n---\n\n## 2. 热效应\n\n**发生什么？** 电流流过电阻器时产生热量。\n\n**为什么？** 电子与导线中的原子碰撞，将电能转换为热能。\n\n### 公式：\n产生的热量取决于：\n- **电流 (I)**：电流越大 = 热量越多\n- **电阻 (R)**：电阻越大 = 热量越多\n- **时间 (t)**：时间越长 = 热量越多\n\n### 例子：\n- **电热水壶**：加热水\n- **烤面包机**：加热面包\n- **吹风机**：加热空气\n- **熨斗**：熨烫衣服\n- **电饭煲**：煮饭（在新加坡很常见！）\n\n### 安全提示：\n导线过热会引起火灾！这就是我们使用保险丝和断路器的原因。\n\n---\n\n## 3. 磁效应\n\n**发生什么？** 载流导线周围会产生磁场。\n\n### 应用：\n- **电磁铁**：临时磁铁（可以打开/关闭）\n- **电铃**：使用电磁铁产生声音\n- **电动机**：将电能转换为运动（在风扇、洗衣机中）\n- **发电机**：将运动转换为电能（在发电厂中）\n\n### 在新加坡：\n地铁列车在其电动机中使用强大的电磁铁。一些较新的列车使用磁悬浮技术！'
+    },
+    {
+      'type': 'text',
+      'content': '# Electrical Power and Energy\n\n## What is Electrical Power?\n\n**Power** is the rate at which electrical energy is converted to other forms of energy.\n\n- **SI Unit**: Watt (W)\n- **Symbol**: P\n- **Formula**: P = VI (Power = Voltage × Current)\n\n### Common Power Ratings:\n- LED bulb: 5-10 W\n- Ceiling fan: 50-70 W\n- Laptop: 60-100 W\n- Desktop computer: 200-500 W\n- Air conditioner: 1000-2500 W (1-2.5 kW)\n- Washing machine: 500-1500 W\n\n---\n\n## Electrical Energy Consumption\n\n**Energy** is the total amount of electrical work done.\n\n- **SI Unit**: Joule (J) or kilowatt-hour (kWh)\n- **Symbol**: E\n- **Formula**: E = Pt (Energy = Power × Time)\n\n### Converting Units:\n- 1 kWh = 1000 W × 3600 s = 3,600,000 J = 3.6 MJ\n\n---\n\n## Calculating Electricity Bills (Singapore)\n\nIn Singapore, electricity is charged in **cents per kWh**.\n\n**Current rates (SP Group, 2024):**\n- ~30-40 cents per kWh (varies with tariff)\n\n### Example Calculation:\n\nYour family uses a 1.5 kW air conditioner for 8 hours per day for 30 days.\n\n**Step 1:** Calculate energy used\n- Energy = Power × Time\n- Energy = 1.5 kW × (8 hours/day × 30 days)\n- Energy = 1.5 kW × 240 hours\n- Energy = 360 kWh\n\n**Step 2:** Calculate cost\n- Cost = Energy × Rate\n- Cost = 360 kWh × $0.35/kWh\n- Cost = $126\n\n**Tip:** Using air-con wisely can save hundreds of dollars per year!\n\n---\n\n## Energy-Saving Tips (for Singapore Homes)\n\n1. **Use LED bulbs**: 80% less energy than incandescent bulbs\n2. **Set air-con to 25°C**: Each degree lower uses ~10% more energy\n3. **Turn off appliances**: Don't leave them on standby mode\n4. **Use ceiling fans**: Uses 20× less energy than air-con\n5. **Choose energy-efficient appliances**: Look for higher tick ratings\n\n**Singapore's Energy Label:**\n- 4-5 ticks = Most efficient\n- 1 tick = Least efficient',
+      'content_zh': '# 电功率和电能\n\n## 什么是电功率？\n\n**功率**是电能转换为其他形式能量的速率。\n\n- **国际单位**：瓦特 (W)\n- **符号**：P\n- **公式**：P = VI（功率 = 电压 × 电流）\n\n### 常见功率额定值：\n- LED灯泡：5-10 W\n- 吊扇：50-70 W\n- 笔记本电脑：60-100 W\n- 台式电脑：200-500 W\n- 空调：1000-2500 W（1-2.5 kW）\n- 洗衣机：500-1500 W\n\n---\n\n## 电能消耗\n\n**能量**是完成的电功的总量。\n\n- **国际单位**：焦耳 (J) 或千瓦时 (kWh)\n- **符号**：E\n- **公式**：E = Pt（能量 = 功率 × 时间）\n\n### 单位转换：\n- 1 kWh = 1000 W × 3600 s = 3,600,000 J = 3.6 MJ\n\n---\n\n## 计算电费（新加坡）\n\n在新加坡，电费按**每千瓦时的分**计算。\n\n**当前费率（SP Group，2024年）：**\n- 约每千瓦时30-40分（随电价而变）\n\n### 示例计算：\n\n您家使用1.5千瓦的空调，每天开8小时，持续30天。\n\n**步骤1：** 计算使用的能量\n- 能量 = 功率 × 时间\n- 能量 = 1.5 kW × (8小时/天 × 30天)\n- 能量 = 1.5 kW × 240小时\n- 能量 = 360 kWh\n\n**步骤2：** 计算费用\n- 费用 = 能量 × 费率\n- 费用 = 360 kWh × $0.35/kWh\n- 费用 = $126\n\n**提示：** 明智地使用空调每年可以节省数百美元！\n\n---\n\n## 节能小贴士（新加坡家庭）\n\n1. **使用LED灯泡**：比白炽灯泡节能80%\n2. **将空调设置为25°C**：每降低一度会多使用约10%的能量\n3. **关闭电器**：不要让它们处于待机模式\n4. **使用吊扇**：比空调节能20倍\n5. **选择节能电器**：寻找更高的能效等级\n\n**新加坡的能源标签：**\n- 4-5个勾 = 最节能\n- 1个勾 = 最不节能'
+    },
+    {
+      'type': 'text',
+      'content': '# Electrical Safety and Hazards\n\n## Common Electrical Hazards\n\n### 1. Electric Shock\n\n**What is it?** Electric current flows through the human body.\n\n**Effects:**\n- Mild shock: Tingling sensation\n- Moderate shock: Muscle contractions, pain\n- Severe shock: Heart failure, burns, death\n\n**Danger threshold:** 230V AC (Singapore's home voltage) can be lethal!\n\n**Prevention:**\n- Never touch electrical appliances with wet hands\n- Don't use damaged plugs or sockets\n- Keep water away from electricity\n- Use insulated tools when working with electricity\n\n---\n\n### 2. Electrical Fires\n\n**Causes:**\n- Overloaded circuits (too many appliances on one socket)\n- Short circuits (damaged insulation causes direct contact)\n- Overheating wires (poor connections, old wiring)\n- Faulty appliances\n\n**Warning signs:**\n- Burning smell\n- Sparks from sockets\n- Warm plugs or switches\n- Flickering lights\n- Discolored outlets\n\n**Prevention:**\n- Don't overload power strips\n- Replace damaged cords immediately\n- Turn off appliances when not in use\n- Use appropriate fuses\n\n---\n\n### 3. Overheating Appliances\n\n**Causes:**\n- Running high-power appliances for too long\n- Poor ventilation\n- Dust buildup blocking cooling\n\n**Prevention:**\n- Give appliances breaks (especially air-con, computers)\n- Clean vents regularly\n- Don't cover appliances while in use\n\n---\n\n## Safety Devices\n\n### 1. Fuse\n\n**What is it?** A thin wire that melts when current is too high.\n\n**How it works:**\n- Normal current → Fuse remains intact\n- Excessive current → Fuse melts (breaks circuit)\n- Circuit is protected from damage\n\n**Rating:** Fuses are rated in amperes (e.g., 3A, 5A, 13A)\n\n**Important:** Always replace with same rating fuse!\n\n---\n\n### 2. Circuit Breaker\n\n**What is it?** An automatic switch that turns off when current is too high.\n\n**Advantages over fuse:**\n- Reusable (just flip switch back)\n- Faster response\n- More reliable\n\n**In Singapore homes:**\nYour HDB flat has a circuit breaker box with multiple switches for different circuits (lights, power points, air-con).\n\n---\n\n### 3. Earth Wire (Ground Wire)\n\n**What is it?** A safety wire that provides a low-resistance path to the ground.\n\n**How it works:**\n- If appliance casing becomes live (due to fault)\n- Earth wire carries current safely to ground\n- Circuit breaker trips immediately\n- You don't get shocked!\n\n**Singapore plugs:**\n- 3-pin plugs have earth wire (top pin)\n- Metal appliances (washing machines, fridges) need earth wire\n\n---\n\n### 4. Residual Current Circuit Breaker (RCCB)\n\n**What is it?** Detects tiny current leaks and cuts power instantly.\n\n**Used in:** Bathrooms and outdoor areas in Singapore homes\n\n**Protection:** Prevents electrocution from water contact\n\n---\n\n## Emergency Procedures\n\n### If someone gets electric shock:\n\n1. **DON'T touch the person directly** (you'll get shocked too!)\n2. **Turn off power** at main switch or unplug device\n3. If you can't turn off power:\n   - Use non-conductive object (dry wood, plastic) to separate person from source\n4. Call **995** (Singapore emergency number)\n5. Check breathing and pulse\n6. Perform CPR if trained\n\n### If electrical fire occurs:\n\n1. **Turn off main power** if safe to do so\n2. **DON'T use water** (electricity + water = danger!)\n3. Use **CO₂ or dry powder fire extinguisher**\n4. If fire is large, evacuate and call **995**\n5. Close doors to contain fire\n\n---\n\n## Safe Electricity Practices\n\n✅ **DO:**\n- Check cords and plugs regularly for damage\n- Turn off and unplug appliances during thunderstorms\n- Use proper outlets (3-pin for high-power devices)\n- Keep electrical items away from water\n- Replace old/damaged appliances\n- Hire licensed electricians for repairs\n\n❌ **DON'T:**\n- Yank cords out by pulling the wire\n- Overload extension cords\n- Use appliances with damaged cords\n- Touch switches with wet hands\n- Poke objects into electrical outlets\n- Attempt electrical repairs without training\n\n---\n\n### Singapore Regulations\n\n**Energy Market Authority (EMA)** regulates electrical safety:\n- All electrical products must be registered\n- Electricians must be licensed\n- Regular inspections for commercial buildings\n- Safety standards for appliances',
+      'content_zh': '# 电气安全和危险\n\n## 常见电气危险\n\n### 1. 触电\n\n**什么是触电？** 电流流过人体。\n\n**影响：**\n- 轻微触电：刺痛感\n- 中度触电：肌肉收缩、疼痛\n- 严重触电：心脏衰竭、烧伤、死亡\n\n**危险阈值：** 230V交流电（新加坡家庭电压）可能致命！\n\n**预防：**\n- 切勿用湿手触摸电器\n- 不要使用损坏的插头或插座\n- 让水远离电\n- 使用绝缘工具处理电气设备\n\n---\n\n### 2. 电气火灾\n\n**原因：**\n- 电路过载（一个插座上有太多电器）\n- 短路（绝缘层损坏导致直接接触）\n- 导线过热（连接不良、旧线路）\n- 电器故障\n\n**警告信号：**\n- 烧焦的气味\n- 插座冒火花\n- 插头或开关发热\n- 灯光闪烁\n- 插座变色\n\n**预防：**\n- 不要使插线板过载\n- 立即更换损坏的电线\n- 不使用时关闭电器\n- 使用适当的保险丝\n\n---\n\n### 3. 电器过热\n\n**原因：**\n- 大功率电器运行时间过长\n- 通风不良\n- 灰尘堆积阻碍散热\n\n**预防：**\n- 让电器休息（特别是空调、电脑）\n- 定期清洁通风口\n- 使用时不要覆盖电器\n\n---\n\n## 安全装置\n\n### 1. 保险丝\n\n**什么是保险丝？** 当电流过大时会熔断的细导线。\n\n**工作原理：**\n- 正常电流 → 保险丝保持完好\n- 过大电流 → 保险丝熔断（断开电路）\n- 电路受到保护\n\n**额定值：** 保险丝以安培为单位（例如，3A、5A、13A）\n\n**重要：** 始终用相同额定值的保险丝更换！\n\n---\n\n### 2. 断路器\n\n**什么是断路器？** 当电流过大时自动关闭的开关。\n\n**比保险丝的优势：**\n- 可重复使用（只需翻回开关）\n- 响应更快\n- 更可靠\n\n**在新加坡家庭：**\n组屋有一个断路器盒，有多个开关用于不同的电路（灯、电源插座、空调）。\n\n---\n\n### 3. 接地线（地线）\n\n**什么是接地线？** 提供通往地面的低电阻路径的安全线。\n\n**工作原理：**\n- 如果电器外壳带电（由于故障）\n- 接地线将电流安全地引导到地面\n- 断路器立即跳闸\n- 你不会触电！\n\n**新加坡插头：**\n- 三脚插头有接地线（顶部插脚）\n- 金属电器（洗衣机、冰箱）需要接地线\n\n---\n\n### 4. 漏电断路器 (RCCB)\n\n**什么是漏电断路器？** 检测微小的电流泄漏并立即切断电源。\n\n**用于：** 新加坡家庭的浴室和室外区域\n\n**保护：** 防止因接触水而触电\n\n---\n\n## 应急程序\n\n### 如果有人触电：\n\n1. **不要直接触摸该人**（你也会触电！）\n2. **关闭电源**在主开关处或拔掉设备插头\n3. 如果无法关闭电源：\n   - 使用非导电物体（干木头、塑料）将人与电源分离\n4. 拨打**995**（新加坡紧急电话）\n5. 检查呼吸和脉搏\n6. 如果受过训练，进行心肺复苏\n\n### 如果发生电气火灾：\n\n1. **关闭主电源**如果安全的话\n2. **不要使用水**（电 + 水 = 危险！）\n3. 使用**CO₂或干粉灭火器**\n4. 如果火灾很大，撤离并拨打**995**\n5. 关闭门以控制火势\n\n---\n\n## 安全用电实践\n\n✅ **应该：**\n- 定期检查电线和插头是否损坏\n- 雷暴期间关闭并拔掉电器插头\n- 使用适当的插座（大功率设备使用三脚插头）\n- 让电器远离水\n- 更换旧的/损坏的电器\n- 聘请持照电工进行维修\n\n❌ **不应该：**\n- 拉扯电线拔出插头\n- 使延长线过载\n- 使用有损坏电线的电器\n- 用湿手触摸开关\n- 将物体插入电源插座\n- 未经培训尝试电气维修\n\n---\n\n### 新加坡法规\n\n**能源市场管理局 (EMA)** 监管电气安全：\n- 所有电气产品必须注册\n- 电工必须持照\n- 商业建筑的定期检查\n- 电器的安全标准'
+    },
+    {
+      'type': 'text',
+      'content': '# Series and Parallel Circuits (G3)\n\nNote: This section is **optional for G2** students but required for G3.\n\n---\n\n## Series Circuits\n\n**Definition:** Components connected one after another in a single path.\n\n### Characteristics:\n\n**Current:**\n- Same current flows through all components\n- I₁ = I₂ = I₃\n- If one component fails, entire circuit stops\n\n**Voltage:**\n- Total voltage splits among components\n- V_total = V₁ + V₂ + V₃\n- Components with higher resistance get more voltage\n\n**Resistance:**\n- Total resistance = sum of all resistances\n- R_total = R₁ + R₂ + R₃\n- Adding resistors increases total resistance\n\n### Advantages:\n- Simple design\n- Uses less wire\n\n### Disadvantages:\n- If one component breaks, all stop working\n- Bulbs become dimmer as you add more\n- Not practical for home wiring\n\n### Real-world example:\n- Decorative Christmas lights (old style)\n- If one bulb burns out, all lights go out!\n\n---\n\n## Parallel Circuits\n\n**Definition:** Components connected across common points with multiple paths.\n\n### Characteristics:\n\n**Current:**\n- Total current splits among branches\n- I_total = I₁ + I₂ + I₃\n- Each branch can work independently\n\n**Voltage:**\n- Same voltage across all components\n- V₁ = V₂ = V₃ = V_total\n\n**Resistance:**\n- Total resistance is LESS than smallest individual resistance\n- 1/R_total = 1/R₁ + 1/R₂ + 1/R₃\n- Adding resistors decreases total resistance\n\n### Advantages:\n- If one component fails, others keep working\n- All components get full voltage (bulbs stay bright)\n- Can control each component separately with switches\n- Practical for home wiring\n\n### Disadvantages:\n- Uses more wire\n- More complex design\n\n### Real-world example:\n- **HDB electrical system**: All your home appliances are in parallel\n  - You can turn off one light without affecting others\n  - TV works even if fridge is unplugged\n  - Each room can have separate switch\n\n---\n\n## Comparison Table\n\n| Feature | Series | Parallel |\n|---------|--------|----------|\n| **Current** | Same everywhere | Splits among branches |\n| **Voltage** | Splits among components | Same everywhere |\n| **Resistance** | R_total = R₁ + R₂ + R₃ | 1/R_total = 1/R₁ + 1/R₂ + 1/R₃ |\n| **One component fails** | All stop | Others continue |\n| **Brightness (bulbs)** | Dimmer with more bulbs | Same brightness |\n| **Common use** | Simple devices | Home wiring |\n\n---\n\n## Why are homes wired in parallel?\n\n**Singapore HDB flats** use parallel circuits because:\n\n1. **Independence**: Can use air-con without turning on lights\n2. **Consistent voltage**: All appliances get full 230V\n3. **Safety**: Faulty appliance doesn't cut power to entire flat\n4. **Convenience**: Individual switches for each appliance\n5. **Circuit breaker protection**: Each circuit can have separate breaker\n\n**Fun fact:** Your flat might have 5-8 separate parallel circuits:\n- Living room lights\n- Bedroom lights\n- Living room power points\n- Bedroom power points\n- Kitchen\n- Air-conditioners\n- Water heater\n- Stove (electric)',
+      'content_zh': '# 串联和并联电路（G3）\n\n注意：此部分对**G2学生是可选的**，但对G3学生是必需的。\n\n---\n\n## 串联电路\n\n**定义：** 元件在单一路径中依次连接。\n\n### 特征：\n\n**电流：**\n- 相同的电流流过所有元件\n- I₁ = I₂ = I₃\n- 如果一个元件失效，整个电路停止工作\n\n**电压：**\n- 总电压在元件之间分配\n- V_总 = V₁ + V₂ + V₃\n- 电阻更高的元件获得更多电压\n\n**电阻：**\n- 总电阻 = 所有电阻之和\n- R_总 = R₁ + R₂ + R₃\n- 添加电阻器会增加总电阻\n\n### 优点：\n- 设计简单\n- 使用较少的导线\n\n### 缺点：\n- 如果一个元件损坏，所有元件都停止工作\n- 添加更多灯泡会变暗\n- 不适合家庭布线\n\n### 现实世界的例子：\n- 装饰性圣诞灯（旧式）\n- 如果一个灯泡烧坏，所有灯都会熄灭！\n\n---\n\n## 并联电路\n\n**定义：** 元件跨公共点连接，有多条路径。\n\n### 特征：\n\n**电流：**\n- 总电流在分支之间分配\n- I_总 = I₁ + I₂ + I₃\n- 每个分支可以独立工作\n\n**电压：**\n- 所有元件上的电压相同\n- V₁ = V₂ = V₃ = V_总\n\n**电阻：**\n- 总电阻小于最小的单个电阻\n- 1/R_总 = 1/R₁ + 1/R₂ + 1/R₃\n- 添加电阻器会降低总电阻\n\n### 优点：\n- 如果一个元件失效，其他元件继续工作\n- 所有元件获得全电压（灯泡保持明亮）\n- 可以用开关单独控制每个元件\n- 适合家庭布线\n\n### 缺点：\n- 使用更多导线\n- 设计更复杂\n\n### 现实世界的例子：\n- **组屋电气系统**：所有家用电器都是并联的\n  - 可以关闭一盏灯而不影响其他灯\n  - 即使拔掉冰箱插头，电视也能工作\n  - 每个房间可以有单独的开关\n\n---\n\n## 比较表\n\n| 特征 | 串联 | 并联 |\n|---------|--------|----------|\n| **电流** | 处处相同 | 在分支之间分配 |\n| **电压** | 在元件之间分配 | 处处相同 |\n| **电阻** | R_总 = R₁ + R₂ + R₃ | 1/R_总 = 1/R₁ + 1/R₂ + 1/R₃ |\n| **一个元件失效** | 全部停止 | 其他继续 |\n| **亮度（灯泡）** | 灯泡越多越暗 | 亮度相同 |\n| **常见用途** | 简单设备 | 家庭布线 |\n\n---\n\n## 为什么家庭使用并联布线？\n\n**新加坡组屋**使用并联电路因为：\n\n1. **独立性**：可以在不开灯的情况下使用空调\n2. **电压一致**：所有电器都获得完整的230V\n3. **安全**：故障电器不会切断整个公寓的电源\n4. **便利**：每个电器都有单独的开关\n5. **断路器保护**：每个电路可以有单独的断路器\n\n**有趣的事实：** 您的公寓可能有5-8个单独的并联电路：\n- 客厅灯\n- 卧室灯\n- 客厅电源插座\n- 卧室电源插座\n- 厨房\n- 空调\n- 热水器\n- 炉灶（电）'
+    }
+  ],
+  'exercises': [
+    {
+      'id': 'elec-ex1',
+      'type': 'mcq',
+      'difficulty': 'easy',
+      'prompt': 'What is the SI unit for electric current?',
+      'prompt_zh': '电流的国际单位是什么？',
+      'choices': ['Ampere (A)', 'Volt (V)', 'Ohm (Ω)', 'Watt (W)'],
+      'choices_zh': ['安培 (A)', '伏特 (V)', '欧姆 (Ω)', '瓦特 (W)'],
+      'answer': 0,
+      'explanation': 'Electric current is measured in Amperes (A). Voltage is measured in Volts (V), resistance in Ohms (Ω), and power in Watts (W).',
+      'explanation_zh': '电流以安培 (A) 为单位。电压以伏特 (V) 为单位，电阻以欧姆 (Ω) 为单位，功率以瓦特 (W) 为单位。'
+    },
+    {
+      'id': 'elec-ex2',
+      'type': 'mcq',
+      'difficulty': 'easy',
+      'prompt': 'What instrument is used to measure electric current?',
+      'prompt_zh': '用什么仪器测量电流？',
+      'choices': ['Ammeter', 'Voltmeter', 'Thermometer', 'Barometer'],
+      'choices_zh': ['电流表', '电压表', '温度计', '气压计'],
+      'answer': 0,
+      'explanation': 'An ammeter measures electric current and must be connected in series with the circuit. A voltmeter measures voltage and is connected in parallel.',
+      'explanation_zh': '电流表测量电流，必须与电路串联连接。电压表测量电压，与电路并联连接。'
+    },
+    {
+      'id': 'elec-ex3',
+      'type': 'mcq',
+      'difficulty': 'medium',
+      'prompt': 'An ammeter must be connected in _____ while a voltmeter must be connected in _____.',
+      'prompt_zh': '电流表必须_____连接，而电压表必须_____连接。',
+      'choices': ['series, parallel', 'parallel, series', 'series, series', 'parallel, parallel'],
+      'choices_zh': ['串联，并联', '并联，串联', '串联，串联', '并联，并联'],
+      'answer': 0,
+      'explanation': 'Ammeters measure current flowing through a component, so they must be in series (same path). Voltmeters measure potential difference across a component, so they must be in parallel.',
+      'explanation_zh': '电流表测量流经元件的电流，所以必须串联（同一路径）。电压表测量元件两端的电位差，所以必须并联。'
+    },
+    {
+      'id': 'elec-ex4',
+      'type': 'mcq',
+      'difficulty': 'easy',
+      'prompt': 'Which of the following is NOT an effect of electric current?',
+      'prompt_zh': '以下哪项不是电流的效应？',
+      'choices': ['Chemical effect', 'Heating effect', 'Magnetic effect', 'Freezing effect'],
+      'choices_zh': ['化学效应', '热效应', '磁效应', '冷冻效应'],
+      'answer': 3,
+      'explanation': 'Electric current produces three main effects: chemical (electroplating), heating (in resistors), and magnetic (around current-carrying wires). There is no freezing effect.',
+      'explanation_zh': '电流产生三种主要效应：化学效应（电镀）、热效应（在电阻器中）和磁效应（在载流导线周围）。没有冷冻效应。'
+    },
+    {
+      'id': 'elec-ex5',
+      'type': 'mcq',
+      'difficulty': 'medium',
+      'prompt': 'Which appliance uses the heating effect of electric current?',
+      'prompt_zh': '哪种电器使用电流的热效应？',
+      'choices': ['Electric bell', 'Electric motor', 'Rice cooker', 'Electromagnet'],
+      'choices_zh': ['电铃', '电动机', '电饭煲', '电磁铁'],
+      'answer': 2,
+      'explanation': 'A rice cooker uses the heating effect to cook rice. Electric bells and electromagnets use the magnetic effect, while motors convert electrical energy to motion.',
+      'explanation_zh': '电饭煲使用热效应来煮饭。电铃和电磁铁使用磁效应，而电动机将电能转换为运动。'
+    },
+    {
+      'id': 'elec-ex6',
+      'type': 'short',
+      'difficulty': 'medium',
+      'prompt': 'Calculate the electrical power of a device that uses 5A current at 230V voltage. (Use P = VI)',
+      'prompt_zh': '计算一个在230V电压下使用5A电流的设备的电功率。（使用 P = VI）',
+      'answer': '1150',
+      'validator': 'numeric',
+      'explanation': 'P = VI = 230V × 5A = 1150W (or 1.15 kW). This is typical for a small air conditioner or microwave oven.',
+      'explanation_zh': 'P = VI = 230V × 5A = 1150W（或1.15 kW）。这是小型空调或微波炉的典型功率。'
+    },
+    {
+      'id': 'elec-ex7',
+      'type': 'short',
+      'difficulty': 'hard',
+      'prompt': 'A 2 kW water heater runs for 3 hours. How much energy (in kWh) does it consume?',
+      'prompt_zh': '一个2千瓦的热水器运行3小时。它消耗多少能量（以千瓦时为单位）？',
+      'answer': '6',
+      'validator': 'numeric',
+      'explanation': 'Energy = Power × Time = 2 kW × 3 hours = 6 kWh. At $0.35/kWh, this would cost $2.10.',
+      'explanation_zh': '能量 = 功率 × 时间 = 2 kW × 3小时 = 6 kWh。按每千瓦时$0.35计算，这将花费$2.10。'
+    },
+    {
+      'id': 'elec-ex8',
+      'type': 'mcq',
+      'difficulty': 'medium',
+      'prompt': 'Singapore homes use 230V AC electricity. What does 'AC' stand for?',
+      'prompt_zh': '新加坡家庭使用230V交流电。'AC'代表什么？',
+      'choices': ['Alternating Current', 'Active Current', 'Automatic Current', 'Applied Current'],
+      'choices_zh': ['交流电', '有功电流', '自动电流', '应用电流'],
+      'answer': 0,
+      'explanation': 'AC stands for Alternating Current, where the direction of current flow reverses periodically. This is different from DC (Direct Current) used in batteries.',
+      'explanation_zh': 'AC代表交流电，电流流动方向周期性地反转。这与电池中使用的直流电（DC）不同。'
+    },
+    {
+      'id': 'elec-ex9',
+      'type': 'multi',
+      'difficulty': 'medium',
+      'prompt': 'Which of the following are good electrical safety practices? (Select all that apply)',
+      'prompt_zh': '以下哪些是良好的电气安全实践？（选择所有适用项）',
+      'choices': [
+        'Turn off appliances during thunderstorms',
+        'Use damaged electrical cords',
+        'Keep water away from electrical devices',
+        'Overload power strips with many devices',
+        'Replace old or damaged appliances'
+      ],
+      'choices_zh': [
+        '雷暴期间关闭电器',
+        '使用损坏的电线',
+        '让水远离电气设备',
+        '用许多设备使插线板过载',
+        '更换旧的或损坏的电器'
+      ],
+      'answer': [0, 2, 4],
+      'explanation': 'Safe practices include turning off appliances during storms, keeping water away from electricity, and replacing damaged appliances. Using damaged cords and overloading power strips are dangerous.',
+      'explanation_zh': '安全做法包括在暴风雨期间关闭电器、让水远离电气设备以及更换损坏的电器。使用损坏的电线和使插线板过载是危险的。'
+    },
+    {
+      'id': 'elec-ex10',
+      'type': 'mcq',
+      'difficulty': 'medium',
+      'prompt': 'What is the purpose of a fuse in an electrical circuit?',
+      'prompt_zh': '电路中保险丝的作用是什么？',
+      'choices': [
+        'To increase current flow',
+        'To protect the circuit by breaking when current is too high',
+        'To measure voltage',
+        'To provide backup power'
+      ],
+      'choices_zh': [
+        '增加电流流动',
+        '当电流过大时通过断开来保护电路',
+        '测量电压',
+        '提供备用电源'
+      ],
+      'answer': 1,
+      'explanation': 'A fuse contains a thin wire that melts (breaks the circuit) when current exceeds a safe level. This protects appliances and wiring from damage due to overheating.',
+      'explanation_zh': '保险丝包含一根细导线，当电流超过安全水平时会熔断（断开电路）。这可以保护电器和线路免受过热损坏。'
+    },
+    {
+      'id': 'elec-ex11',
+      'type': 'mcq',
+      'difficulty': 'medium',
+      'prompt': 'What is the main advantage of a circuit breaker over a fuse?',
+      'prompt_zh': '断路器相对于保险丝的主要优势是什么？',
+      'choices': [
+        'It is cheaper',
+        'It can be reused by flipping the switch back',
+        'It uses less electricity',
+        'It is smaller in size'
+      ],
+      'choices_zh': [
+        '更便宜',
+        '可以通过翻回开关来重复使用',
+        '使用更少的电',
+        '尺寸更小'
+      ],
+      'answer': 1,
+      'explanation': 'Circuit breakers can be reset and reused after tripping, while fuses must be replaced once they melt. This makes circuit breakers more convenient and cost-effective long-term.',
+      'explanation_zh': '断路器跳闸后可以重置和重复使用，而保险丝一旦熔断就必须更换。这使得断路器长期来看更方便且更具成本效益。'
+    },
+    {
+      'id': 'elec-ex12',
+      'type': 'mcq',
+      'difficulty': 'easy',
+      'prompt': 'What should you do if someone gets an electric shock?',
+      'prompt_zh': '如果有人触电，你应该怎么做？',
+      'choices': [
+        'Touch them immediately to help',
+        'Turn off the power first before touching them',
+        'Pour water on them',
+        'Wait for help without doing anything'
+      ],
+      'choices_zh': [
+        '立即触摸他们以提供帮助',
+        '在触摸他们之前先关闭电源',
+        '给他们泼水',
+        '等待帮助而不做任何事情'
+      ],
+      'answer': 1,
+      'explanation': 'NEVER touch someone who is being electrocuted directly - you will also get shocked! Always turn off the power source first, or use a non-conductive object to separate them from the source, then call 995.',
+      'explanation_zh': '永远不要直接触摸触电的人——你也会触电！始终先关闭电源，或使用非导电物体将他们与电源分离，然后拨打995。'
+    },
+    {
+      'id': 'elec-ex13',
+      'type': 'mcq',
+      'difficulty': 'hard',
+      'optionalG2': true,
+      'prompt': 'In a series circuit with three identical bulbs, what happens to the brightness of the remaining bulbs if one bulb burns out?',
+      'prompt_zh': '在有三个相同灯泡的串联电路中，如果一个灯泡烧坏，其余灯泡的亮度会怎样？',
+      'choices': [
+        'They become brighter',
+        'They remain the same brightness',
+        'They become dimmer',
+        'They all go out'
+      ],
+      'choices_zh': [
+        '它们变得更亮',
+        '它们保持相同的亮度',
+        '它们变暗',
+        '它们都熄灭'
+      ],
+      'answer': 3,
+      'explanation': 'In a series circuit, there is only one path for current. If one component fails, the circuit is broken and no current can flow, so all bulbs go out.',
+      'explanation_zh': '在串联电路中，电流只有一条路径。如果一个元件失效，电路就会断开，没有电流可以流动，所以所有灯泡都会熄灭。'
+    },
+    {
+      'id': 'elec-ex14',
+      'type': 'mcq',
+      'difficulty': 'hard',
+      'optionalG2': true,
+      'prompt': 'In a parallel circuit with three identical bulbs, what happens to the brightness of the remaining bulbs if one bulb is removed?',
+      'prompt_zh': '在有三个相同灯泡的并联电路中，如果移除一个灯泡，其余灯泡的亮度会怎样？',
+      'choices': [
+        'They become brighter',
+        'They remain the same brightness',
+        'They become dimmer',
+        'They all go out'
+      ],
+      'choices_zh': [
+        '它们变得更亮',
+        '它们保持相同的亮度',
+        '它们变暗',
+        '它们都熄灭'
+      ],
+      'answer': 1,
+      'explanation': 'In a parallel circuit, each component has its own path to the power source. If one bulb is removed, the others continue to receive the same voltage and remain equally bright.',
+      'explanation_zh': '在并联电路中，每个元件都有自己通往电源的路径。如果移除一个灯泡，其他灯泡继续接收相同的电压并保持同样明亮。'
+    },
+    {
+      'id': 'elec-ex15',
+      'type': 'mcq',
+      'difficulty': 'medium',
+      'prompt': 'Why are electrical appliances in Singapore homes connected in parallel rather than in series?',
+      'prompt_zh': '为什么新加坡家庭中的电器采用并联而不是串联连接？',
+      'choices': [
+        'Parallel circuits use less electricity',
+        'Each appliance can operate independently and receive full voltage',
+        'Parallel circuits are cheaper to install',
+        'Series circuits are illegal in Singapore'
+      ],
+      'choices_zh': [
+        '并联电路使用更少的电',
+        '每个电器可以独立运行并接收全电压',
+        '并联电路安装更便宜',
+        '串联电路在新加坡是非法的'
+      ],
+      'answer': 1,
+      'explanation': 'Parallel circuits allow each appliance to operate independently and receive the full 230V. If one appliance breaks, others continue working. You can also control each appliance with separate switches.',
+      'explanation_zh': '并联电路允许每个电器独立运行并接收全230V。如果一个电器损坏，其他电器继续工作。您还可以使用单独的开关控制每个电器。"
+    }
+  ]
+}

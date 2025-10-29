@@ -1,0 +1,46 @@
+[
+  {
+    "id": "r3",
+    "type": "mcq",
+    "difficulty": "easy",
+    "prompt": "Which organ is the main site of gas exchange?",
+    "prompt_zh": "哪个器官是气体交换的主要场所？",
+    "choices": [
+      "Lungs",
+      "Heart",
+      "Stomach",
+      "Liver"
+    ],
+    "choices_zh": [
+      "肺",
+      "心脏",
+      "胃",
+      "肝脏"
+    ],
+    "answer": 0,
+    "explanation": "Gas exchange occurs in the lungs, in the alveoli.",
+    "explanation_zh": "气体交换发生在肺部的肺泡中。"
+  },
+  {
+    "id": "r4",
+    "type": "mcq",
+    "difficulty": "medium",
+    "prompt": "What is the correct order of air passage?",
+    "prompt_zh": "空气通过的正确顺序是什么？",
+    "choices": [
+      "Nose to Trachea to Bronchi to Lungs",
+      "Nose to Lungs to Trachea",
+      "Lungs to Nose to Trachea",
+      "Trachea to Nose to Lungs"
+    ],
+    "choices_zh": [
+      "鼻到气管到支气管到肺",
+      "鼻到肺到气管",
+      "肺到鼻到气管",
+      "气管到鼻到肺"
+    ],
+    "answer": 0,
+    "explanation": "Air enters nose, travels trachea, splits into bronchi, enters lungs.",
+    "explanation_zh": "空气进入鼻子，沿气管，分成支气管，进入肺部。"
+  }
+]

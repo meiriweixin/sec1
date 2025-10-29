@@ -154,14 +154,9 @@ export default function SubjectDetail() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6, delay: 0.3 }}
             >
+              <h2 className="text-2xl font-semibold mb-6">{t.yourProgress}</h2>
               <Card className="lesson-card">
-                <CardHeader>
-                  <CardTitle className="flex items-center space-x-2">
-                    <TrendingUp className="h-5 w-5 text-primary" />
-                    <span>{t.yourProgress}</span>
-                  </CardTitle>
-                </CardHeader>
-                <CardContent className="space-y-4">
+                <CardContent className="space-y-4 pt-6">
                   <div className="flex items-center justify-between">
                     <span className="text-sm text-muted-foreground">{t.chaptersCompleted}</span>
                     <span className="font-medium">{completedChapters}/{totalChapters}</span>
