@@ -31,14 +31,15 @@ This is **SG Learning**, an interactive educational platform for Singapore stude
 - Secondary 1-4 (Sec 1-4, ages 13-16)
 - Junior College 1-2 (JC 1-2, ages 17-18, pre-university)
 
-**Current Content** (as of latest update, all Sec 1):
-- English Language (6 chapters, 90 exercises)
-- Chinese Language/华文 (6 chapters, 90 exercises)
-- Mathematics (16 chapters, 240 exercises)
-- Science (17 chapters, 255+ exercises)
+**Current Content**:
+- English Language (6 chapters, 90 exercises) - Sec 1
+- Chinese Language/华文 (6 chapters, 90 exercises) - Sec 1
+- Mathematics (16 chapters, 240 exercises) - Sec 1
+- Science (19 chapters, 257 exercises) - Sec 1
+- Computing (6 chapters, 90 exercises) - Sec 3
 - AI Playground (10 modules, 27 activities) - available to all grade levels
 
-**Subjects**: 5 total across all grade levels
+**Subjects**: 6 total across all grade levels
 
 ## Development Commands
 
@@ -87,7 +88,7 @@ Progress is persisted to localStorage under the key `sg-learning-app-storage`.
 The app uses **two content systems**:
 
 1. **Academic Subjects** (`src/data/content.json`):
-   - English, Chinese, Math, Science
+   - English, Chinese, Math, Science, Computing
    - Structure: `subjects[] → chapters[] → { sections[], exercises[] }`
    - Traditional lesson + exercise format
 
@@ -210,7 +211,10 @@ export type GradeLevel = 'sec1' | 'sec2' | 'sec3' | 'sec4' | 'jc1' | 'jc2';
 **Python Script for Bulk Grade Assignment**:
 Use `add_grade_levels.py` to add `gradeLevel` property to existing chapters or update them in bulk.
 
-**Current Status**: All 45 academic chapters are currently designated as Secondary 1 (`"sec1"`). Content for Sec 2-4 and JC 1-2 needs to be added in future.
+**Current Status**:
+- English, Chinese, Math, Science: All chapters designated as Secondary 1 (`"sec1"`)
+- Computing: All chapters designated as Secondary 3 (`"sec3"`)
+- Content for Sec 2, 4, JC 1-2 needs to be added in future
 
 **AI Playground**: The AI Playground subject does not have chapters and is available to all grade levels.
 
@@ -496,7 +500,11 @@ Failing to preserve existing fields will cause progress data to be reset, leadin
 
 ## Singapore MOE Curriculum Alignment
 
-**Current Status**: The app fully covers all 4 core academic subjects required for Singapore MOE Secondary 1 curriculum (English, Chinese, Mathematics, Science). As of the latest update, all chapters are complete and verified against official MOE syllabuses.
+**Current Status**: The app covers 5 core academic subjects aligned with Singapore MOE curriculum:
+- **Sec 1**: English, Chinese, Mathematics, Science (all complete)
+- **Sec 3**: Computing (complete, based on Skills of Computing syllabus)
+
+All chapters are verified against official MOE syllabuses.
 
 Content aligned with Singapore Ministry of Education Secondary 1 syllabus:
 
@@ -513,12 +521,20 @@ Content aligned with Singapore Ministry of Education Secondary 1 syllabus:
   - **Geometry & Measurement** (7): Patterns & Sequences, Coordinates & Linear Graphs, Simple Inequalities, Angles & Basic Geometry, Triangles & Polygons, Perimeter & Area, Volume & Surface Area
   - **Statistics** (1): Statistics & Data Analysis
 
-- **Science**: 17 chapters across 3 disciplines
-  - **Physics** (7): Scientific Methods & Measurement, Light & Reflection, Heat & Temperature, Forces and Motion, Pressure, Energy
+- **Science**: 19 chapters across 3 disciplines
+  - **Physics** (7): Scientific Methods & Measurement, Physical Properties of Matter, Light & Reflection, Heat & Temperature, Forces and Motion, Electrical Systems, Pressure, Energy
   - **Chemistry** (4): Particulate Model of Matter, Mixtures & Separation Techniques, Elements/Compounds/Chemical Formulas, Acids & Bases
-  - **Biology** (6): Structure & Functions of Cells, Digestive System, Respiratory System, Circulatory System, Human Reproduction, Classification, Food Chains & Food Webs
+  - **Biology** (8): Structure & Functions of Cells, Digestive System, Respiratory System, Circulatory System, Human Reproduction, Classification, Food Chains & Food Webs, Adaptations
 
-- Includes local Singapore context (e.g., GST at 9%, HDB buildings, MRT trains, tropical plant adaptations, Singapore's linguistic diversity)
+**Computing** (Secondary 3 - Skills of Computing syllabus): 6 chapters (90 exercises total, 15 per chapter)
+- **Introduction to Computing**: Computer hardware/software, computing in society, Singapore Smart Nation, careers
+- **Computational Thinking**: Decomposition, pattern recognition, abstraction, algorithms
+- **Introduction to Programming**: Programs and languages, sequences, visual programming (Scratch/Blockly), debugging
+- **Data and Information**: Binary system, data types, file formats, databases, storage units
+- **Networks and the Internet**: Computer networks, WWW, browsers, URLs, IP addresses, online safety, cloud storage
+- **Digital Citizenship and Ethics**: Cyberbullying, intellectual property, copyright, PDPA, screen time, digital wellbeing
+
+- Includes local Singapore context (e.g., GST at 9%, HDB buildings, MRT trains, tropical plant adaptations, Singapore's linguistic diversity, PDPA, Smart Nation)
 
 ## Exercise Component Architecture
 
@@ -571,6 +587,7 @@ Several Python scripts exist for content generation (in root directory):
 - Chinese: `chinese-*.json`
 - Math: `math-*.json`
 - Science: `science-*.json`
+- Computing: `computing-*.json`
 
 **Workflow for bulk content additions**:
 1. Create individual chapter JSON files in `chapters/` directory
