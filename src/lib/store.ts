@@ -51,8 +51,9 @@ export interface UserState {
   language: 'en' | 'zh';
   theme: 'light' | 'dark' | 'system';
   gradeLevel: GradeLevel; // Selected grade level
-  progress: Progress[];
-  aiProgress: Record<string, AIModuleProgress>;
+  // User-specific progress stored by userId
+  allUsersProgress: Record<string, Progress[]>; // userId → Progress[]
+  allUsersAIProgress: Record<string, Record<string, AIModuleProgress>>; // userId → aiProgress
   currentSubject: string | null;
   currentChapter: string | null;
   _hasHydrated: boolean; // Internal flag to track if store has loaded from localStorage
@@ -128,8 +129,8 @@ export const useStore = create<UserState>()(
       language: 'en',
       theme: 'system',
       gradeLevel: 'sec1', // Default to Secondary 1
-      progress: [],
-      aiProgress: {},
+      allUsersProgress: {},
+      allUsersAIProgress: {},
       currentSubject: null,
       currentChapter: null,
       _hasHydrated: false,
@@ -154,10 +155,14 @@ export const useStore = create<UserState>()(
       
       updateProgress: (newProgress) => {
         const state = get();
-        const existingIndex = state.progress.findIndex(
+        const userId = state.user?.id;
+        if (!userId) return; // No user logged in
+
+        const userProgress = state.allUsersProgress[userId] || [];
+        const existingIndex = userProgress.findIndex(
           p => p.subjectId === newProgress.subjectId && p.chapterId === newProgress.chapterId
         );
-        
+
         const updatedProgress = {
           subjectId: newProgress.subjectId,
           chapterId: newProgress.chapterId,
@@ -169,39 +174,66 @@ export const useStore = create<UserState>()(
           completed: false,
           ...newProgress,
         };
-        
+
         if (existingIndex >= 0) {
-          const newProgressArray = [...state.progress];
+          const newProgressArray = [...userProgress];
           newProgressArray[existingIndex] = {
             ...newProgressArray[existingIndex],
             ...updatedProgress,
           };
-          set({ progress: newProgressArray });
+          set({
+            allUsersProgress: {
+              ...state.allUsersProgress,
+              [userId]: newProgressArray
+            }
+          });
         } else {
-          set({ progress: [...state.progress, updatedProgress] });
+          set({
+            allUsersProgress: {
+              ...state.allUsersProgress,
+              [userId]: [...userProgress, updatedProgress]
+            }
+          });
         }
       },
-      
+
       getChapterProgress: (subjectId, chapterId) => {
-        return get().progress.find(
+        const state = get();
+        const userId = state.user?.id;
+        if (!userId) return undefined;
+
+        const userProgress = state.allUsersProgress[userId] || [];
+        return userProgress.find(
           p => p.subjectId === subjectId && p.chapterId === chapterId
         );
       },
-      
+
       getSubjectProgress: (subjectId) => {
-        return get().progress.filter(p => p.subjectId === subjectId);
+        const state = get();
+        const userId = state.user?.id;
+        if (!userId) return [];
+
+        const userProgress = state.allUsersProgress[userId] || [];
+        return userProgress.filter(p => p.subjectId === subjectId);
       },
 
       toggleAIModuleComplete: (moduleId) => {
         const state = get();
-        const currentProgress = state.aiProgress[moduleId];
+        const userId = state.user?.id;
+        if (!userId) return; // No user logged in
+
+        const userAIProgress = state.allUsersAIProgress[userId] || {};
+        const currentProgress = userAIProgress[moduleId];
 
         set({
-          aiProgress: {
-            ...state.aiProgress,
-            [moduleId]: {
-              done: !currentProgress?.done,
-              doneAt: !currentProgress?.done ? new Date().toISOString() : undefined,
+          allUsersAIProgress: {
+            ...state.allUsersAIProgress,
+            [userId]: {
+              ...userAIProgress,
+              [moduleId]: {
+                done: !currentProgress?.done,
+                doneAt: !currentProgress?.done ? new Date().toISOString() : undefined,
+              },
             },
           },
         });
@@ -212,7 +244,11 @@ export const useStore = create<UserState>()(
        */
       addExerciseAttempt: (subjectId, chapterId, attempt) => {
         const state = get();
-        const existingProgress = state.progress.find(
+        const userId = state.user?.id;
+        if (!userId) return; // No user logged in
+
+        const userProgress = state.allUsersProgress[userId] || [];
+        const existingProgress = userProgress.find(
           p => p.subjectId === subjectId && p.chapterId === chapterId
         );
 
@@ -237,7 +273,7 @@ export const useStore = create<UserState>()(
           retentionScore = recentAttempts[0].score;
         }
 
-        const newProgressArray = state.progress.map(p =>
+        const newProgressArray = userProgress.map(p =>
           p.subjectId === subjectId && p.chapterId === chapterId
             ? {
                 ...migratedProgress,
@@ -248,7 +284,12 @@ export const useStore = create<UserState>()(
             : p
         );
 
-        set({ progress: newProgressArray });
+        set({
+          allUsersProgress: {
+            ...state.allUsersProgress,
+            [userId]: newProgressArray
+          }
+        });
       },
 
       /**
@@ -256,7 +297,11 @@ export const useStore = create<UserState>()(
        */
       updateReviewSchedule: (subjectId, chapterId, schedule) => {
         const state = get();
-        const newProgressArray = state.progress.map(p => {
+        const userId = state.user?.id;
+        if (!userId) return; // No user logged in
+
+        const userProgress = state.allUsersProgress[userId] || [];
+        const newProgressArray = userProgress.map(p => {
           if (p.subjectId === subjectId && p.chapterId === chapterId) {
             const migrated = migrateProgressToV2(p);
             return {
@@ -267,7 +312,12 @@ export const useStore = create<UserState>()(
           return p;
         });
 
-        set({ progress: newProgressArray });
+        set({
+          allUsersProgress: {
+            ...state.allUsersProgress,
+            [userId]: newProgressArray
+          }
+        });
       },
 
       /**
@@ -275,9 +325,13 @@ export const useStore = create<UserState>()(
        */
       getReviewQueue: () => {
         const state = get();
+        const userId = state.user?.id;
+        if (!userId) return [];
+
+        const userProgress = state.allUsersProgress[userId] || [];
         const now = new Date().toISOString();
 
-        return state.progress
+        return userProgress
           .map(migrateProgressToV2)
           .filter(
             p =>
@@ -303,8 +357,8 @@ export const useStore = create<UserState>()(
         language: state.language,
         theme: state.theme,
         gradeLevel: state.gradeLevel,
-        progress: state.progress,
-        aiProgress: state.aiProgress,
+        allUsersProgress: state.allUsersProgress,
+        allUsersAIProgress: state.allUsersAIProgress,
       }),
       onRehydrateStorage: () => {
         // This runs synchronously when the store is created
@@ -315,16 +369,52 @@ export const useStore = create<UserState>()(
           }
 
           if (state) {
-            // Check migration flag
-            const migrationFlag = localStorage.getItem('sg-learning-progress-migration-v2');
+            // Migration from old single-user structure to multi-user structure
+            const legacyMigrationFlag = localStorage.getItem('sg-learning-progress-migration-v3');
 
-            if (!migrationFlag) {
-              // Migrate all progress items
-              const migratedProgress = state.progress.map(migrateProgressToV2);
-              state.progress = migratedProgress;
+            if (!legacyMigrationFlag) {
+              // Check if we have old 'progress' and 'aiProgress' fields in localStorage
+              const rawStorage = localStorage.getItem('sg-learning-app-storage');
+              if (rawStorage) {
+                try {
+                  const parsed = JSON.parse(rawStorage);
+                  const oldState = parsed.state || parsed;
 
-              // Set migration flag to prevent re-running
-              localStorage.setItem('sg-learning-progress-migration-v2', 'completed');
+                  // Migrate old progress structure to new user-specific structure
+                  if (oldState.progress && Array.isArray(oldState.progress) && oldState.progress.length > 0) {
+                    // Use 'user1' as the default user ID for legacy data
+                    const legacyUserId = 'user1';
+                    const migratedProgress = oldState.progress.map(migrateProgressToV2);
+
+                    state.allUsersProgress = {
+                      ...state.allUsersProgress,
+                      [legacyUserId]: migratedProgress
+                    };
+                  }
+
+                  if (oldState.aiProgress && Object.keys(oldState.aiProgress).length > 0) {
+                    // Use 'user1' as the default user ID for legacy AI progress
+                    const legacyUserId = 'user1';
+                    state.allUsersAIProgress = {
+                      ...state.allUsersAIProgress,
+                      [legacyUserId]: oldState.aiProgress
+                    };
+                  }
+
+                  // Set migration flag to prevent re-running
+                  localStorage.setItem('sg-learning-progress-migration-v3', 'completed');
+                } catch (e) {
+                  console.error('Migration error:', e);
+                }
+              }
+            }
+
+            // Migrate v2 progress format for all users
+            if (state.allUsersProgress) {
+              Object.keys(state.allUsersProgress).forEach(userId => {
+                const userProgress = state.allUsersProgress[userId];
+                state.allUsersProgress[userId] = userProgress.map(migrateProgressToV2);
+              });
             }
 
             // Mark hydration as complete after rehydration

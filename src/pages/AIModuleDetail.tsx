@@ -11,12 +11,15 @@ import { Alert, AlertDescription } from "@/components/ui/alert";
 
 export default function AIModuleDetail() {
   const { moduleId } = useParams();
-  const { aiProgress, toggleAIModuleComplete } = useUserStore();
+  const { user, allUsersAIProgress, toggleAIModuleComplete } = useUserStore();
   const { toast } = useToast();
   const [copiedPrompt, setCopiedPrompt] = useState<number | null>(null);
 
+  const userId = user?.id;
+  const userAIProgress = userId ? (allUsersAIProgress[userId] || {}) : {};
+
   const module = aiModules.modules.find(m => m.id === moduleId);
-  const isCompleted = aiProgress?.[moduleId || ""]?.done || false;
+  const isCompleted = userAIProgress?.[moduleId || ""]?.done || false;
 
   if (!module) {
     return (

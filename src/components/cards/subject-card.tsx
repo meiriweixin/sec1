@@ -23,14 +23,16 @@ interface SubjectCardProps {
 }
 
 export function SubjectCard({ subject }: SubjectCardProps) {
-  const { language, gradeLevel, getSubjectProgress, aiProgress } = useStore();
+  const { user, language, gradeLevel, getSubjectProgress, allUsersAIProgress } = useStore();
   const t = useTranslations(language);
   const navigate = useNavigate();
 
   // Special handling for AI Playground
   if (subject.isAIPlayground) {
     const aiModulesCount = 10; // Total AI modules
-    const completedAI = Object.values(aiProgress || {}).filter(p => p.done).length;
+    const userId = user?.id;
+    const userAIProgress = userId ? (allUsersAIProgress[userId] || {}) : {};
+    const completedAI = Object.values(userAIProgress).filter(p => p.done).length;
     const aiProgressPercentage = aiModulesCount > 0 ? (completedAI / aiModulesCount) * 100 : 0;
 
     return (

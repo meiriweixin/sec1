@@ -581,6 +581,8 @@ Several Python scripts exist for content generation (in root directory):
 - **integrate-language-subjects.py**: Integrates both English and Chinese subjects into `content.json`
 - **generate-content.py**: Generates expanded chapter content from templates
 - **integrate-all-chapters.py**: Merges generated chapters into `content.json`
+- **randomize_answers.py**: Randomizes MCQ answer positions across all chapters to ensure even distribution
+- **add_grade_levels.py**: Bulk assigns `gradeLevel` property to chapters
 
 **Important**: All chapter files are stored in `chapters/` directory with naming convention:
 - English: `english-*.json`
@@ -597,6 +599,9 @@ Several Python scripts exist for content generation (in root directory):
 
 **Exercise Difficulty Levels**:
 Exercises should include a `difficulty` field with values: `"easy"`, `"medium"`, or `"hard"` to support progressive learning. Aim for 10-15 exercises per chapter with graded difficulty (e.g., 4 easy, 5 medium, 5 hard).
+
+**Answer Randomization**:
+MCQ exercises should have answers distributed across all choice positions (0, 1, 2, 3) to avoid patterns. Use `randomize_answers.py` script to shuffle answer positions while maintaining correct answers. Target distribution: roughly 25% per position, with no single position >50%. This prevents students from gaming the system by always selecting the first option.
 
 ## Lovable Integration
 

@@ -11,7 +11,7 @@ import { useEffect } from "react";
 import contentData from "@/data/content.json";
 
 export default function Dashboard() {
-  const { user, language, gradeLevel, progress, _hasHydrated } = useStore();
+  const { user, language, gradeLevel, allUsersProgress, _hasHydrated } = useStore();
   const t = useTranslations(language);
   const navigate = useNavigate();
 
@@ -23,6 +23,10 @@ export default function Dashboard() {
   }, [user, _hasHydrated, navigate]);
 
   if (!user) return null;
+
+  // Get current user's progress
+  const userId = user?.id;
+  const progress = userId ? (allUsersProgress[userId] || []) : [];
 
   const subjects = contentData.subjects;
 

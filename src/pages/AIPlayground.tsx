@@ -7,9 +7,12 @@ import aiModules from "@/data/ai-modules.json";
 import { Sparkles, Brain, Play, Shield } from "lucide-react";
 
 export default function AIPlayground() {
-  const { aiProgress } = useUserStore();
+  const { user, allUsersAIProgress } = useUserStore();
 
-  const completedCount = Object.values(aiProgress || {}).filter(p => p.done).length;
+  const userId = user?.id;
+  const userAIProgress = userId ? (allUsersAIProgress[userId] || {}) : {};
+
+  const completedCount = Object.values(userAIProgress).filter(p => p.done).length;
   const totalModules = aiModules.modules.length;
   const completionPercentage = totalModules > 0 ? Math.round((completedCount / totalModules) * 100) : 0;
 
@@ -81,7 +84,7 @@ export default function AIPlayground() {
         {/* Modules Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {aiModules.modules.map((module) => {
-            const isCompleted = aiProgress?.[module.id]?.done || false;
+            const isCompleted = userAIProgress?.[module.id]?.done || false;
             
             return (
               <Link key={module.id} to={`/ai/modules/${module.id}`}>

@@ -8,9 +8,12 @@ import aiModules from "@/data/ai-modules.json";
 import { ArrowLeft, Trophy, Star, Target, Sparkles } from "lucide-react";
 
 export default function AIProgress() {
-  const { aiProgress } = useUserStore();
+  const { user, allUsersAIProgress } = useUserStore();
 
-  const completedModules = Object.entries(aiProgress || {}).filter(([_, p]) => p.done);
+  const userId = user?.id;
+  const userAIProgress = userId ? (allUsersAIProgress[userId] || {}) : {};
+
+  const completedModules = Object.entries(userAIProgress).filter(([_, p]) => p.done);
   const totalModules = aiModules.modules.length;
   const completionPercentage = totalModules > 0 ? Math.round((completedModules.length / totalModules) * 100) : 0;
 
@@ -125,8 +128,8 @@ export default function AIProgress() {
           <CardContent>
             <div className="space-y-3">
               {aiModules.modules.map((module) => {
-                const isCompleted = aiProgress?.[module.id]?.done || false;
-                const completedAt = aiProgress?.[module.id]?.doneAt;
+                const isCompleted = userAIProgress?.[module.id]?.done || false;
+                const completedAt = userAIProgress?.[module.id]?.doneAt;
 
                 return (
                   <Link key={module.id} to={`/ai/modules/${module.id}`}>
