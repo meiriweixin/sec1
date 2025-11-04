@@ -10,33 +10,12 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { useNavigate } from "react-router-dom";
-import { useEffect, useState } from "react";
 import GradeLevelSelector from "@/components/ui/grade-level-selector";
 
 export function AppHeader() {
   const { user, language, theme, setLanguage, setTheme, logout } = useStore();
   const t = useTranslations(language);
   const navigate = useNavigate();
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
-  useEffect(() => {
-    if (mounted) {
-      const root = window.document.documentElement;
-      
-      if (theme === 'system') {
-        const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-        root.classList.remove('light', 'dark');
-        root.classList.add(systemTheme);
-      } else {
-        root.classList.remove('light', 'dark');
-        root.classList.add(theme);
-      }
-    }
-  }, [theme, mounted]);
 
   const toggleTheme = () => {
     if (theme === 'light') setTheme('dark');
@@ -52,10 +31,6 @@ export function AppHeader() {
     logout();
     navigate('/login');
   };
-
-  if (!mounted) {
-    return null;
-  }
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Progress Recovery Tool</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; max-width: 800px; margin: 0 auto; }
+        button { padding: 10px 20px; margin: 5px; cursor: pointer; }
+        pre { background: #f5f5f5; padding: 10px; overflow: auto; }
+        .success { color: green; }
+        .error { color: red; }
+    </style>
+</head>
+<body>
+    <h1>SG Learning - Progress Recovery Tool</h1>
+    
+    <h2>Option 1: Force Re-migration</h2>
+    <p>If you had progress before the update, click this to re-run the migration:</p>
+    <button onclick="forceMigration()">Force Re-Migration</button>
+    
+    <h2>Option 2: Clear All Data (Fresh Start)</h2>
+    <p><strong>Warning:</strong> This will erase ALL progress for ALL users!</p>
+    <button onclick="clearAll()" style="background: #ff4444; color: white;">Clear All Data</button>
+    
+    <h2>Current Status</h2>
+    <pre id="status"></pre>
+    
+    <script>
+        function showStatus() {
+            const storage = localStorage.getItem('sg-learning-app-storage');
+            const migrationFlag = localStorage.getItem('sg-learning-progress-migration-v3');
+            
+            let status = 'Migration Flag: ' + (migrationFlag || 'Not set') + '\n\n';
+            
+            if (storage) {
+                try {
+                    const data = JSON.parse(storage);
+                    const state = data.state || data;
+                    
+                    status += 'Store Structure:\n';
+                    status += '- Has old "progress" field: ' + (Array.isArray(state.progress) ? 'Yes (' + state.progress.length + ' items)' : 'No') + '\n';
+                    status += '- Has old "aiProgress" field: ' + (state.aiProgress && typeof state.aiProgress === 'object' ? 'Yes (' + Object.keys(state.aiProgress).length + ' items)' : 'No') + '\n';
+                    status += '- Has new "allUsersProgress" field: ' + (state.allUsersProgress && typeof state.allUsersProgress === 'object' ? 'Yes' : 'No') + '\n';
+                    
+                    if (state.allUsersProgress) {
+                        const users = Object.keys(state.allUsersProgress);
+                        status += '\nUser Progress:\n';
+                        users.forEach(userId => {
+                            const userProgress = state.allUsersProgress[userId];
+                            status += `  - User "${userId}": ${userProgress.length} chapters\n`;
+                        });
+                    }
+                    
+                    status += '\nFull Data:\n' + JSON.stringify(state, null, 2);
+                } catch (e) {
+                    status += 'Error parsing storage: ' + e.message;
+                }
+            } else {
+                status += 'No data in localStorage';
+            }
+            
+            document.getElementById('status').textContent = status;
+        }
+        
+        function forceMigration() {
+            if (confirm('This will clear the migration flag and reload the page. The migration will run again on next load.')) {
+                localStorage.removeItem('sg-learning-progress-migration-v3');
+                alert('Migration flag cleared. The page will reload and migration will run again.');
+                window.location.href = '/login';
+            }
+        }
+        
+        function clearAll() {
+            if (confirm('Are you SURE? This will delete ALL progress data for ALL users!')) {
+                if (confirm('Last chance! Really delete everything?')) {
+                    localStorage.removeItem('sg-learning-app-storage');
+                    localStorage.removeItem('sg-learning-progress-migration-v2');
+                    localStorage.removeItem('sg-learning-progress-migration-v3');
+                    alert('All data cleared. The page will reload.');
+                    window.location.href = '/login';
+                }
+            }
+        }
+        
+        // Show status on load
+        showStatus();
+        
+        // Refresh status every 2 seconds
+        setInterval(showStatus, 2000);
+    </script>
+</body>
+</html>

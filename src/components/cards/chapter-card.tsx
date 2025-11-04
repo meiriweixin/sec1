@@ -39,10 +39,14 @@ export function ChapterCard({ chapter, subjectId, index }: ChapterCardProps) {
   const totalExercises = chapter.exercises.length;
   const completedSections = progress?.sectionsCompleted.length || 0;
   const completedExercises = progress?.exercisesCompleted.length || 0;
-  
-  const sectionProgress = totalSections > 0 ? (completedSections / totalSections) * 100 : 0;
-  const exerciseProgress = totalExercises > 0 ? (completedExercises / totalExercises) * 100 : 0;
-  const overallProgress = ((sectionProgress + exerciseProgress) / 2);
+
+  // Cap completed counts to not exceed total (in case chapter structure changed)
+  const cappedSections = Math.min(completedSections, totalSections);
+  const cappedExercises = Math.min(completedExercises, totalExercises);
+
+  const sectionProgress = totalSections > 0 ? (cappedSections / totalSections) * 100 : 0;
+  const exerciseProgress = totalExercises > 0 ? (cappedExercises / totalExercises) * 100 : 0;
+  const overallProgress = Math.min(100, (sectionProgress + exerciseProgress) / 2);
   
   const title = language === 'zh' && chapter.title_zh ? chapter.title_zh : chapter.title;
   const description = language === 'zh' && chapter.description_zh ? chapter.description_zh : chapter.description;
@@ -217,11 +221,11 @@ export function ChapterCard({ chapter, subjectId, index }: ChapterCardProps) {
             {/* Progress breakdown */}
             <div className="grid grid-cols-2 gap-2 text-xs">
               <div className="text-center p-2 bg-muted/50 rounded">
-                <div className="font-medium">{completedSections}/{totalSections}</div>
+                <div className="font-medium">{cappedSections}/{totalSections}</div>
                 <div className="text-muted-foreground">Lessons</div>
               </div>
               <div className="text-center p-2 bg-muted/50 rounded">
-                <div className="font-medium">{completedExercises}/{totalExercises}</div>
+                <div className="font-medium">{cappedExercises}/{totalExercises}</div>
                 <div className="text-muted-foreground">Exercises</div>
               </div>
             </div>

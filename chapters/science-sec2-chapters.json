@@ -1,0 +1,4155 @@
+[
+  {
+    "id": "chemical-changes-sec2",
+    "gradeLevel": "sec2",
+    "title": "Chemical Changes",
+    "title_zh": "化学变化",
+    "description": "Physical vs chemical changes, signs of chemical reactions",
+    "description_zh": "物理变化与化学变化、化学反应的迹象",
+    "tag": "Chemistry",
+    "tag_zh": "化学",
+    "objectives": [
+      "Distinguish between physical and chemical changes",
+      "Identify signs of chemical reactions",
+      "Understand conservation of mass",
+      "Write word equations for simple reactions"
+    ],
+    "objectives_zh": [
+      "区分物理变化和化学变化",
+      "识别化学反应的迹象",
+      "理解质量守恒",
+      "为简单反应写出文字方程式"
+    ],
+    "sections": [
+      {
+        "id": "physical-vs-chemical",
+        "type": "text",
+        "title": "Physical vs Chemical Changes",
+        "title_zh": "物理变化与化学变化",
+        "content": "Physical changes involve changes in state or appearance without forming new substances (e.g., melting ice). Chemical changes form new substances with different properties (e.g., burning wood).",
+        "content_zh": "物理变化涉及状态或外观的变化，但不形成新物质（例如，冰融化）。化学变化形成具有不同性质的新物质（例如，木材燃烧）。"
+      },
+      {
+        "id": "signs-reactions",
+        "type": "text",
+        "title": "Signs of Chemical Reactions",
+        "title_zh": "化学反应的迹象",
+        "content": "Signs include: color change, gas production (bubbles), precipitate formation, temperature change, and light emission. In Singapore's humid climate, rusting of metal structures is a common chemical change.",
+        "content_zh": "迹象包括：颜色变化、产生气体（气泡）、形成沉淀、温度变化和发光。在新加坡的潮湿气候中，金属结构的生锈是常见的化学变化。"
+      },
+      {
+        "id": "conservation-mass",
+        "type": "text",
+        "title": "Conservation of Mass",
+        "title_zh": "质量守恒",
+        "content": "In a chemical reaction, the total mass of reactants equals the total mass of products. No atoms are created or destroyed, only rearranged.",
+        "content_zh": "在化学反应中，反应物的总质量等于生成物的总质量。没有原子被创造或破坏，只是重新排列。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "chemical-changes-q1",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Which observation confirms a chemical change has occurred?",
+        "prompt_zh": "[Chemical Changes - 问题 1]",
+        "choices": [
+          "New substance with different properties formed",
+          "Change in shape only",
+          "Change in size only",
+          "Change in position"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "chemical-changes-q2",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Burning of magnesium ribbon produces a white powder. This is an example of:",
+        "prompt_zh": "[Chemical Changes - 问题 2]",
+        "choices": [
+          "chemical change",
+          "physical change",
+          "both",
+          "neither"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "chemical-changes-q3",
+        "type": "short",
+        "difficulty": "easy",
+        "prompt": "In a chemical reaction, what happens to the total number of atoms?",
+        "prompt_zh": "[Chemical Changes - 问题 3]",
+        "answer": "stays the same",
+        "validator": "exact",
+        "hint": "Apply scientific method: observe, hypothesize, experiment, analyze, conclude.",
+        "hint_zh": "运用科学方法:观察、假设、实验、分析、结论。"
+      },
+      {
+        "id": "chemical-changes-q4",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Ice melting is a physical change because:",
+        "prompt_zh": "[Chemical Changes - 问题 4]",
+        "choices": [
+          "no new substance formed",
+          "it is reversible",
+          "only state changes",
+          "all of the above"
+        ],
+        "answer": 3,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "chemical-changes-q5",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "When iron rusts, it combines with:",
+        "prompt_zh": "[Chemical Changes - 问题 5]",
+        "choices": [
+          "oxygen",
+          "hydrogen",
+          "nitrogen",
+          "carbon"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "chemical-changes-q6",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "A student heats 5.0g of copper carbonate. It decomposes to form 3.2g of copper oxide and carbon dioxide gas. Calculate the mass of CO₂ released.",
+        "prompt_zh": "[Chemical Changes - 问题 6]",
+        "choices": [
+          "1.8g",
+          "8.2g",
+          "2.0g",
+          "3.2g"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "chemical-changes-q7",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "In Singapore's humid climate (80-90% humidity, 30°C), which factor most accelerates rusting of iron railings near the sea?",
+        "prompt_zh": "[Chemical Changes - 问题 7]",
+        "choices": [
+          "Salt spray providing ions for electron transfer",
+          "High humidity only",
+          "High temperature only",
+          "Low oxygen levels"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "chemical-changes-q8",
+        "type": "short",
+        "difficulty": "medium",
+        "prompt": "Hydrogen peroxide (H₂O₂) decomposes to form water and oxygen. If 34g H₂O₂ decomposes completely, what mass of products forms?",
+        "prompt_zh": "[Chemical Changes - 问题 8]",
+        "answer": "34g",
+        "validator": "exact",
+        "hint": "Apply scientific method: observe, hypothesize, experiment, analyze, conclude.",
+        "hint_zh": "运用科学方法:观察、假设、实验、分析、结论。"
+      },
+      {
+        "id": "chemical-changes-q9",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "A closed container has 20g of reactants. After reaction, products weigh 20g. This demonstrates:",
+        "prompt_zh": "[Chemical Changes - 问题 9]",
+        "choices": [
+          "Law of Conservation of Mass",
+          "Law of Constant Proportions",
+          "Avogadro's Law",
+          "Dalton's Law"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "chemical-changes-q10",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Which combination would produce the most vigorous chemical reaction?",
+        "prompt_zh": "[Chemical Changes - 问题 10]",
+        "choices": [
+          "Concentrated acid + fine metal powder at high temperature",
+          "Dilute acid + metal lump at room temperature",
+          "Concentrated acid + metal lump at low temperature",
+          "Dilute acid + fine powder at low temperature"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "chemical-changes-q11",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Experiment: Heat 2.4g magnesium in air. Product weighs 4.0g. Calculate percentage by mass of oxygen in magnesium oxide.",
+        "prompt_zh": "[Chemical Changes - 问题 11]",
+        "choices": [
+          "40%",
+          "60%",
+          "50%",
+          "66.7%"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "chemical-changes-q12",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "A hawker uses liquefied petroleum gas (LPG). In complete combustion, C₃H₈ + 5O₂ → 3CO₂ + 4H₂O. If 44g propane burns completely, what mass of water forms? (H=1, O=16, C=12)",
+        "prompt_zh": "[Chemical Changes - 问题 12]",
+        "choices": [
+          "72g",
+          "44g",
+          "132g",
+          "18g"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "chemical-changes-q13",
+        "type": "short",
+        "difficulty": "hard",
+        "prompt": "Zinc reacts with hydrochloric acid. Graph shows gas volume vs time. Why does the curve level off?",
+        "prompt_zh": "[Chemical Changes - 问题 13]",
+        "answer": "reactant is used up",
+        "validator": "exact",
+        "hint": "Apply scientific method: observe, hypothesize, experiment, analyze, conclude.",
+        "hint_zh": "运用科学方法:观察、假设、实验、分析、结论。"
+      },
+      {
+        "id": "chemical-changes-q14",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "In a factory, ammonia (NH₃) is made from N₂ and H₂. If 28g N₂ reacts with excess H₂, what mass of NH₃ forms? (N=14, H=1)",
+        "prompt_zh": "[Chemical Changes - 问题 14]",
+        "choices": [
+          "34g",
+          "28g",
+          "17g",
+          "68g"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "chemical-changes-q15",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Thermal decomposition of calcium carbonate: CaCO₃ → CaO + CO₂. If 50g CaCO₃ decomposes, what volume of CO₂ at room conditions? (1 mole gas = 24L, Ca=40, C=12, O=16)",
+        "prompt_zh": "[Chemical Changes - 问题 15]",
+        "choices": [
+          "12L",
+          "24L",
+          "6L",
+          "48L"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      }
+    ]
+  },
+  {
+    "id": "oxidation-reduction-sec2",
+    "gradeLevel": "sec2",
+    "title": "Oxidation & Reduction",
+    "title_zh": "氧化与还原",
+    "description": "Combustion, rusting, and redox reactions",
+    "description_zh": "燃烧、生锈和氧化还原反应",
+    "tag": "Chemistry",
+    "tag_zh": "化学",
+    "objectives": [
+      "Define oxidation and reduction",
+      "Explain the process of rusting",
+      "Describe combustion reactions",
+      "Identify oxidizing and reducing agents"
+    ],
+    "objectives_zh": [
+      "定义氧化和还原",
+      "解释生锈过程",
+      "描述燃烧反应",
+      "识别氧化剂和还原剂"
+    ],
+    "sections": [
+      {
+        "id": "oxidation-definition",
+        "type": "text",
+        "title": "What is Oxidation?",
+        "title_zh": "什么是氧化？",
+        "content": "Oxidation is the gain of oxygen or loss of electrons. Examples: rusting of iron (common in Singapore's coastal areas), burning of fuels.",
+        "content_zh": "氧化是获得氧或失去电子。例如：铁的生锈（在新加坡沿海地区很常见）、燃料的燃烧。"
+      },
+      {
+        "id": "reduction-definition",
+        "type": "text",
+        "title": "What is Reduction?",
+        "title_zh": "什么是还原？",
+        "content": "Reduction is the loss of oxygen or gain of electrons. Oxidation and reduction always occur together in redox reactions.",
+        "content_zh": "还原是失去氧或获得电子。氧化和还原总是在氧化还原反应中同时发生。"
+      },
+      {
+        "id": "combustion",
+        "type": "text",
+        "title": "Combustion",
+        "title_zh": "燃烧",
+        "content": "Combustion is rapid oxidation producing heat and light. Complete combustion of hydrocarbons produces CO₂ and H₂O. Incomplete combustion produces CO (toxic) and soot.",
+        "content_zh": "燃烧是产生热和光的快速氧化。碳氢化合物的完全燃烧产生CO₂和H₂O。不完全燃烧产生CO（有毒）和烟灰。"
+      },
+      {
+        "id": "rusting",
+        "type": "text",
+        "title": "Rusting of Iron",
+        "title_zh": "铁的生锈",
+        "content": "Iron rusts when exposed to oxygen and water, forming hydrated iron(III) oxide. Singapore's high humidity accelerates rusting. Prevention methods: painting, oiling, galvanizing.",
+        "content_zh": "铁暴露于氧气和水时会生锈，形成水合氧化铁(III)。新加坡的高湿度加速了生锈。预防方法：涂漆、上油、镀锌。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "oxidation-reduction-q1",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Oxidation is defined as:",
+        "prompt_zh": "[Oxidation & Reduction - 问题 1]",
+        "choices": [
+          "gain of oxygen or loss of electrons",
+          "loss of oxygen",
+          "gain of hydrogen",
+          "gain of mass"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "oxidation-reduction-q2",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "When magnesium burns in oxygen: 2Mg + O₂ → 2MgO. Magnesium is:",
+        "prompt_zh": "[Oxidation & Reduction - 问题 2]",
+        "choices": [
+          "oxidized",
+          "reduced",
+          "neither",
+          "both"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "oxidation-reduction-q3",
+        "type": "short",
+        "difficulty": "easy",
+        "prompt": "Complete combustion requires:",
+        "prompt_zh": "[Oxidation & Reduction - 问题 3]",
+        "answer": "sufficient oxygen",
+        "validator": "exact",
+        "hint": "Apply scientific method: observe, hypothesize, experiment, analyze, conclude.",
+        "hint_zh": "运用科学方法:观察、假设、实验、分析、结论。"
+      },
+      {
+        "id": "oxidation-reduction-q4",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Iron rusting is an example of:",
+        "prompt_zh": "[Oxidation & Reduction - 问题 4]",
+        "choices": [
+          "slow oxidation",
+          "fast oxidation",
+          "reduction",
+          "decomposition"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "oxidation-reduction-q5",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Which gas is produced during incomplete combustion of hydrocarbons?",
+        "prompt_zh": "[Oxidation & Reduction - 问题 5]",
+        "choices": [
+          "Carbon monoxide (CO)",
+          "Carbon dioxide (CO₂)",
+          "Oxygen (O₂)",
+          "Nitrogen (N₂)"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "oxidation-reduction-q6",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Experiment: Heat copper(II) oxide with hydrogen gas. CuO + H₂ → Cu + H₂O. Which statement is correct?",
+        "prompt_zh": "[Oxidation & Reduction - 问题 6]",
+        "choices": [
+          "Copper oxide is reduced, hydrogen is oxidized",
+          "Both are oxidized",
+          "Both are reduced",
+          "Copper oxide is oxidized"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "oxidation-reduction-q7",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Singapore's coastal MRT structures use galvanized steel. Zinc coating prevents rust by:",
+        "prompt_zh": "[Oxidation & Reduction - 问题 7]",
+        "choices": [
+          "Acting as sacrificial anode (more reactive than iron)",
+          "Preventing oxygen contact only",
+          "Absorbing moisture",
+          "Reflecting UV light"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "oxidation-reduction-q8",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Methane burns: CH₄ + 2O₂ → CO₂ + 2H₂O. If only 1.5 moles O₂ available per mole CH₄, what forms?",
+        "prompt_zh": "[Oxidation & Reduction - 问题 8]",
+        "choices": [
+          "Incomplete combustion with CO and soot",
+          "Complete combustion",
+          "No reaction",
+          "Only water"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "oxidation-reduction-q9",
+        "type": "short",
+        "difficulty": "medium",
+        "prompt": "A gas stove in poor ventilation produces CO. Why is this dangerous indoors?",
+        "prompt_zh": "[Oxidation & Reduction - 问题 9]",
+        "answer": "CO binds to hemoglobin preventing oxygen transport",
+        "validator": "exact",
+        "hint": "Apply scientific method: observe, hypothesize, experiment, analyze, conclude.",
+        "hint_zh": "运用科学方法:观察、假设、实验、分析、结论。"
+      },
+      {
+        "id": "oxidation-reduction-q10",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "In the reaction: Fe₂O₃ + 3CO → 2Fe + 3CO₂, which substance is the reducing agent?",
+        "prompt_zh": "[Oxidation & Reduction - 问题 10]",
+        "choices": [
+          "CO",
+          "Fe₂O₃",
+          "Fe",
+          "CO₂"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "oxidation-reduction-q11",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Car exhaust contains harmful gases. Catalytic converter: 2CO + 2NO → 2CO₂ + N₂. In this reaction:",
+        "prompt_zh": "[Oxidation & Reduction - 问题 11]",
+        "choices": [
+          "CO is oxidized, NO is reduced",
+          "Both oxidized",
+          "Both reduced",
+          "CO is reduced, NO is oxidized"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "oxidation-reduction-q12",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Experiment: Pass steam over heated iron. 3Fe + 4H₂O → Fe₃O₄ + 4H₂. If 5.6g Fe reacts (Fe=56), what volume H₂ at room temp? (1 mole = 24L)",
+        "prompt_zh": "[Oxidation & Reduction - 问题 12]",
+        "choices": [
+          "4.8L",
+          "2.4L",
+          "9.6L",
+          "1.2L"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "oxidation-reduction-q13",
+        "type": "short",
+        "difficulty": "hard",
+        "prompt": "Hydrogen peroxide decomposes: 2H₂O₂ → 2H₂O + O₂. What happens to oxygen in H₂O₂?",
+        "prompt_zh": "[Oxidation & Reduction - 问题 13]",
+        "answer": "both oxidized and reduced (disproportionation)",
+        "validator": "exact",
+        "hint": "Apply scientific method: observe, hypothesize, experiment, analyze, conclude.",
+        "hint_zh": "运用科学方法:观察、假设、实验、分析、结论。"
+      },
+      {
+        "id": "oxidation-reduction-q14",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Ship hulls use zinc blocks attached to steel. Over time zinc corrodes but steel doesn't. Explain using reactivity series.",
+        "prompt_zh": "[Oxidation & Reduction - 问题 14]",
+        "choices": [
+          "Zinc more reactive, loses electrons preferentially",
+          "Zinc less reactive",
+          "Steel is non-metal",
+          "Zinc prevents water contact"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "oxidation-reduction-q15",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Industrial process removes sulfur from petroleum: H₂S + SO₂ → S + H₂O. Which element is both oxidized AND reduced?",
+        "prompt_zh": "[Oxidation & Reduction - 问题 15]",
+        "choices": [
+          "Sulfur (in H₂S oxidized, in SO₂ reduced)",
+          "Hydrogen",
+          "Oxygen",
+          "None"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      }
+    ]
+  },
+  {
+    "id": "rate-of-reaction-sec2",
+    "gradeLevel": "sec2",
+    "title": "Rate of Reaction",
+    "title_zh": "反应速率",
+    "description": "Factors affecting reaction rates: temperature, concentration, surface area, catalyst",
+    "description_zh": "影响反应速率的因素：温度、浓度、表面积、催化剂",
+    "tag": "Chemistry",
+    "tag_zh": "化学",
+    "objectives": [
+      "Define rate of reaction",
+      "Explain how temperature affects reaction rate",
+      "Describe the effect of concentration and surface area",
+      "Understand the role of catalysts"
+    ],
+    "objectives_zh": [
+      "定义反应速率",
+      "解释温度如何影响反应速率",
+      "描述浓度和表面积的影响",
+      "理解催化剂的作用"
+    ],
+    "sections": [
+      {
+        "id": "rate-definition",
+        "type": "text",
+        "title": "Rate of Reaction",
+        "title_zh": "反应速率",
+        "content": "Rate of reaction measures how fast reactants are used up or products are formed. It can be measured by volume of gas produced, mass change, or color change.",
+        "content_zh": "反应速率测量反应物被消耗或产物形成的速度。可以通过产生的气体体积、质量变化或颜色变化来测量。"
+      },
+      {
+        "id": "temperature-effect",
+        "type": "text",
+        "title": "Effect of Temperature",
+        "title_zh": "温度的影响",
+        "content": "Higher temperature increases reaction rate. Particles move faster, collide more frequently with greater energy. In Singapore's hot climate (avg 27-32°C), food spoils faster than in cooler countries.",
+        "content_zh": "较高的温度增加反应速率。粒子移动更快，以更大的能量更频繁地碰撞。在新加坡的炎热气候（平均27-32°C）中，食物比在较冷的国家变质更快。"
+      },
+      {
+        "id": "concentration-surface-area",
+        "type": "text",
+        "title": "Concentration & Surface Area",
+        "title_zh": "浓度和表面积",
+        "content": "Higher concentration and larger surface area increase reaction rate by providing more particles for collisions. Example: powdered sugar dissolves faster than sugar cubes.",
+        "content_zh": "较高的浓度和较大的表面积通过提供更多的粒子进行碰撞来增加反应速率。例如：糖粉比方糖溶解得更快。"
+      },
+      {
+        "id": "catalysts",
+        "type": "text",
+        "title": "Catalysts",
+        "title_zh": "催化剂",
+        "content": "Catalysts speed up reactions without being consumed. Enzymes are biological catalysts. Singapore's petrochemical industry uses catalysts extensively.",
+        "content_zh": "催化剂在不被消耗的情况下加速反应。酶是生物催化剂。新加坡的石化工业广泛使用催化剂。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "rate-of-reaction-q1",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Rate of reaction is measured by:",
+        "prompt_zh": "[Rate of Reaction - 问题 1]",
+        "choices": [
+          "change in concentration per unit time",
+          "total amount of product",
+          "temperature only",
+          "color change only"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "rate-of-reaction-q2",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Increasing temperature increases reaction rate because:",
+        "prompt_zh": "[Rate of Reaction - 问题 2]",
+        "choices": [
+          "particles move faster and collide more frequently with greater energy",
+          "color changes",
+          "mass increases",
+          "volume decreases"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "rate-of-reaction-q3",
+        "type": "short",
+        "difficulty": "easy",
+        "prompt": "What is a catalyst?",
+        "prompt_zh": "[Rate of Reaction - 问题 3]",
+        "answer": "substance that speeds up reaction without being used up",
+        "validator": "exact",
+        "hint": "Apply scientific method: observe, hypothesize, experiment, analyze, conclude.",
+        "hint_zh": "运用科学方法:观察、假设、实验、分析、结论。"
+      },
+      {
+        "id": "rate-of-reaction-q4",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Powdered marble reacts faster than marble chips with acid because:",
+        "prompt_zh": "[Rate of Reaction - 问题 4]",
+        "choices": [
+          "greater surface area",
+          "different chemical composition",
+          "lower mass",
+          "higher density"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "rate-of-reaction-q5",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Which would slow down a reaction?",
+        "prompt_zh": "[Rate of Reaction - 问题 5]",
+        "choices": [
+          "Lower temperature",
+          "Higher concentration",
+          "Catalyst added",
+          "Smaller particle size"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "rate-of-reaction-q6",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Experiment: Mg ribbon in HCl. Graph shows H₂ volume vs time for different concentrations. 2M acid produces steeper initial slope than 1M acid because:",
+        "prompt_zh": "[Rate of Reaction - 问题 6]",
+        "choices": [
+          "More frequent collisions due to higher particle concentration",
+          "Different products formed",
+          "More heat produced",
+          "Acid evaporates faster"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "rate-of-reaction-q7",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Singapore hawker uses pressure cooker (120°C) vs normal pot (100°C). Cooking time reduces by ~50% because:",
+        "prompt_zh": "[Rate of Reaction - 问题 7]",
+        "choices": [
+          "Rate approximately doubles every 10°C rise",
+          "Pressure crushes food",
+          "Water tastes different",
+          "Food absorbs more water"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "rate-of-reaction-q8",
+        "type": "short",
+        "difficulty": "medium",
+        "prompt": "Hydrogen peroxide decomposes slowly at room temperature but rapidly with MnO₂ catalyst. The catalyst works by:",
+        "prompt_zh": "[Rate of Reaction - 问题 8]",
+        "answer": "lowering activation energy",
+        "validator": "exact",
+        "hint": "Apply scientific method: observe, hypothesize, experiment, analyze, conclude.",
+        "hint_zh": "运用科学方法:观察、假设、实验、分析、结论。"
+      },
+      {
+        "id": "rate-of-reaction-q9",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Sodium thiosulfate + HCl forms sulfur precipitate. Temperature increase from 20°C to 50°C affects rate how?",
+        "prompt_zh": "[Rate of Reaction - 问题 9]",
+        "choices": [
+          "Increases by ~8 times (rate doubles every 10°C)",
+          "Decreases",
+          "No change",
+          "Increases by 2 times only"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "rate-of-reaction-q10",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Marble chips (CaCO₃) + HCl produces CO₂. Which factor does NOT affect the total volume of gas produced (assuming excess acid)?",
+        "prompt_zh": "[Rate of Reaction - 问题 10]",
+        "choices": [
+          "Particle size of marble",
+          "Mass of marble",
+          "Concentration of acid",
+          "Temperature"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "rate-of-reaction-q11",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Experiment data: Zinc + acid. 1g zinc powder completes in 2 min. 1g zinc granules complete in 8 min. Calculate rate ratio (powder:granules).",
+        "prompt_zh": "[Rate of Reaction - 问题 11]",
+        "choices": [
+          "4:1",
+          "2:1",
+          "8:2",
+          "1:4"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "rate-of-reaction-q12",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Industrial Haber process: N₂ + 3H₂ ⇌ 2NH₃. Uses 450°C and iron catalyst. Without catalyst, required temp would be ~900°C. The catalyst:",
+        "prompt_zh": "[Rate of Reaction - 问题 12]",
+        "choices": [
+          "Lowers activation energy without changing equilibrium position",
+          "Changes products formed",
+          "Increases yield only",
+          "Prevents reverse reaction"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "rate-of-reaction-q13",
+        "type": "short",
+        "difficulty": "hard",
+        "prompt": "Graph shows [reactant] vs time for: A+B→C. Initial slope is 0.5 mol/L/s. After 10s, slope is 0.1 mol/L/s. Why does rate decrease?",
+        "prompt_zh": "[Rate of Reaction - 问题 13]",
+        "answer": "reactant concentration decreases",
+        "validator": "exact",
+        "hint": "Apply scientific method: observe, hypothesize, experiment, analyze, conclude.",
+        "hint_zh": "运用科学方法:观察、假设、实验、分析、结论。"
+      },
+      {
+        "id": "rate-of-reaction-q14",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Enzyme experiment: 5cm³ H₂O₂ + catalase produces 50cm³ O₂ in 30s at 37°C. At 60°C, only 10cm³ O₂ in 30s. Explain.",
+        "prompt_zh": "[Rate of Reaction - 问题 14]",
+        "choices": [
+          "Enzyme denatured at high temperature",
+          "Reaction reversed",
+          "More oxygen dissolved",
+          "Pressure changed"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "rate-of-reaction-q15",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Collision theory: For successful reaction, particles must collide with (1) correct orientation AND (2):",
+        "prompt_zh": "[Rate of Reaction - 问题 15]",
+        "choices": [
+          "Sufficient activation energy",
+          "Same mass",
+          "Opposite charges",
+          "High velocity only"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      }
+    ]
+  },
+  {
+    "id": "reactivity-series-sec2",
+    "gradeLevel": "sec2",
+    "title": "Reactivity Series of Metals",
+    "title_zh": "金属活动性顺序",
+    "description": "Comparing reactivity of metals, displacement reactions",
+    "description_zh": "比较金属的活动性、置换反应",
+    "tag": "Chemistry",
+    "tag_zh": "化学",
+    "objectives": [
+      "Arrange metals in order of reactivity",
+      "Predict displacement reactions",
+      "Relate reactivity to extraction methods",
+      "Explain reactions with water, acids, and oxygen"
+    ],
+    "objectives_zh": [
+      "按活动性顺序排列金属",
+      "预测置换反应",
+      "将活动性与提取方法联系起来",
+      "解释与水、酸和氧气的反应"
+    ],
+    "sections": [
+      {
+        "id": "reactivity-order",
+        "type": "text",
+        "title": "Reactivity Series",
+        "title_zh": "金属活动性顺序",
+        "content": "Metals in order of decreasing reactivity: Potassium > Sodium > Calcium > Magnesium > Aluminium > Zinc > Iron > Lead > Copper > Silver > Gold > Platinum",
+        "content_zh": "金属按活动性递减顺序：钾 > 钠 > 钙 > 镁 > 铝 > 锌 > 铁 > 铅 > 铜 > 银 > 金 > 铂"
+      },
+      {
+        "id": "displacement",
+        "type": "text",
+        "title": "Displacement Reactions",
+        "title_zh": "置换反应",
+        "content": "A more reactive metal can displace a less reactive metal from its compound. Example: Zinc + Copper sulfate → Zinc sulfate + Copper",
+        "content_zh": "活动性较强的金属可以从其化合物中置换活动性较弱的金属。例如：锌 + 硫酸铜 → 硫酸锌 + 铜"
+      },
+      {
+        "id": "metal-extraction",
+        "type": "text",
+        "title": "Metal Extraction",
+        "title_zh": "金属提取",
+        "content": "More reactive metals (above carbon) are extracted by electrolysis. Less reactive metals (below carbon) are extracted by reduction with carbon or found native.",
+        "content_zh": "活动性较强的金属（碳以上）通过电解提取。活动性较弱的金属（碳以下）通过碳还原提取或以自然形式存在。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "reactivity-series-q1",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Which metal is most reactive?",
+        "prompt_zh": "[Reactivity Series of Metals - 问题 1]",
+        "choices": [
+          "Potassium",
+          "Copper",
+          "Silver",
+          "Gold"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "reactivity-series-q2",
+        "type": "short",
+        "difficulty": "easy",
+        "prompt": "Metals above hydrogen in reactivity series:",
+        "prompt_zh": "[Reactivity Series of Metals - 问题 2]",
+        "answer": "react with dilute acids to produce hydrogen",
+        "validator": "exact",
+        "hint": "Apply scientific method: observe, hypothesize, experiment, analyze, conclude.",
+        "hint_zh": "运用科学方法:观察、假设、实验、分析、结论。"
+      },
+      {
+        "id": "reactivity-series-q3",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Zinc displaces copper from copper sulfate because:",
+        "prompt_zh": "[Reactivity Series of Metals - 问题 3]",
+        "choices": [
+          "Zinc more reactive than copper",
+          "Zinc less reactive",
+          "Both same reactivity",
+          "Copper is non-metal"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "reactivity-series-q4",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Least reactive metal:",
+        "prompt_zh": "[Reactivity Series of Metals - 问题 4]",
+        "choices": [
+          "Platinum",
+          "Magnesium",
+          "Iron",
+          "Sodium"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "reactivity-series-q5",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Which reaction occurs: Iron + copper sulfate →",
+        "prompt_zh": "[Reactivity Series of Metals - 问题 5]",
+        "choices": [
+          "Iron sulfate + Copper",
+          "No reaction",
+          "Iron oxide",
+          "Copper oxide"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "reactivity-series-q6",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Experiment: Add metals W, X, Y, Z to copper sulfate solution. W and X displace copper; Y and Z don't. Add W to X sulfate - displacement occurs. Reactivity order:",
+        "prompt_zh": "[Reactivity Series of Metals - 问题 6]",
+        "choices": [
+          "W > X > Cu > Y,Z",
+          "X > W > Cu > Y,Z",
+          "W > X > Y > Z > Cu",
+          "Cu > W > X > Y,Z"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "reactivity-series-q7",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Aluminium is extracted by electrolysis but iron by carbon reduction. This is because:",
+        "prompt_zh": "[Reactivity Series of Metals - 问题 7]",
+        "choices": [
+          "Aluminium more reactive than carbon",
+          "Iron cheaper",
+          "Aluminium melts easier",
+          "Carbon reacts with aluminium"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "reactivity-series-q8",
+        "type": "short",
+        "difficulty": "medium",
+        "prompt": "Which metal reacts vigorously with cold water?",
+        "prompt_zh": "[Reactivity Series of Metals - 问题 8]",
+        "answer": "calcium",
+        "validator": "exact",
+        "hint": "Apply scientific method: observe, hypothesize, experiment, analyze, conclude.",
+        "hint_zh": "运用科学方法:观察、假设、实验、分析、结论。"
+      },
+      {
+        "id": "reactivity-series-q9",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Singapore imports bauxite (Al₂O₃) for aluminium. Why not use carbon reduction like for iron?",
+        "prompt_zh": "[Reactivity Series of Metals - 问题 9]",
+        "choices": [
+          "Aluminium too reactive, carbon cannot reduce it",
+          "Aluminium expensive",
+          "Carbon unavailable",
+          "Electrolysis faster"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "reactivity-series-q10",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Metal X displaces Y from Y nitrate but not Z from Z chloride. Reactivity order:",
+        "prompt_zh": "[Reactivity Series of Metals - 问题 10]",
+        "choices": [
+          "Z > X > Y",
+          "X > Y > Z",
+          "Y > X > Z",
+          "X > Z > Y"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "reactivity-series-q11",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Experiment results: Metal A + water → vigorous reaction. Metal B + steam → slow reaction. Metal C + dilute HCl → no reaction. Metal D + conc. HCl when heated → reaction. Reactivity order:",
+        "prompt_zh": "[Reactivity Series of Metals - 问题 11]",
+        "choices": [
+          "A > B > D > C",
+          "A > B > C > D",
+          "B > A > D > C",
+          "D > C > B > A"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "reactivity-series-q12",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Thermite reaction: Fe₂O₃ + 2Al → 2Fe + Al₂O₃ releases enormous heat. This works because:",
+        "prompt_zh": "[Reactivity Series of Metals - 问题 12]",
+        "choices": [
+          "Aluminium more reactive, reduces iron oxide",
+          "Iron more reactive",
+          "Both same reactivity",
+          "Oxygen escapes"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "reactivity-series-q13",
+        "type": "short",
+        "difficulty": "hard",
+        "prompt": "Ship's steel hull has magnesium blocks attached. After 1 year, Mg corroded but steel intact. Explain.",
+        "prompt_zh": "[Reactivity Series of Metals - 问题 13]",
+        "answer": "Mg more reactive acts as sacrificial anode",
+        "validator": "exact",
+        "hint": "Apply scientific method: observe, hypothesize, experiment, analyze, conclude.",
+        "hint_zh": "运用科学方法:观察、假设、实验、分析、结论。"
+      },
+      {
+        "id": "reactivity-series-q14",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "To extract metal from its oxide by carbon reduction, the metal must be:",
+        "prompt_zh": "[Reactivity Series of Metals - 问题 14]",
+        "choices": [
+          "Less reactive than carbon in reactivity series",
+          "More reactive than carbon",
+          "Equal reactivity to carbon",
+          "Unreactive with oxygen"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "reactivity-series-q15",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Displacement competition: Zn + CuSO₄ produces heat. Mg + ZnSO₄ produces more heat. Why?",
+        "prompt_zh": "[Reactivity Series of Metals - 问题 15]",
+        "choices": [
+          "Greater reactivity difference = more energy released",
+          "Magnesium lighter",
+          "Zinc is blue",
+          "Copper catalyzes reaction"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      }
+    ]
+  },
+  {
+    "id": "chemical-bonding-sec2",
+    "gradeLevel": "sec2",
+    "title": "Chemical Bonding",
+    "title_zh": "化学键",
+    "description": "Ionic and covalent bonding, properties of compounds",
+    "description_zh": "离子键和共价键、化合物的性质",
+    "tag": "Chemistry",
+    "tag_zh": "化学",
+    "objectives": [
+      "Describe ionic bonding",
+      "Describe covalent bonding",
+      "Compare properties of ionic and covalent compounds",
+      "Draw simple electron diagrams"
+    ],
+    "objectives_zh": [
+      "描述离子键",
+      "描述共价键",
+      "比较离子化合物和共价化合物的性质",
+      "绘制简单的电子图"
+    ],
+    "sections": [
+      {
+        "id": "ionic-bonding",
+        "type": "text",
+        "title": "Ionic Bonding",
+        "title_zh": "离子键",
+        "content": "Ionic bonding involves transfer of electrons from metal to non-metal, forming positive and negative ions held together by electrostatic attraction. Example: NaCl (sodium chloride, table salt used in Singapore hawker food).",
+        "content_zh": "离子键涉及电子从金属转移到非金属，形成通过静电吸引力结合在一起的正离子和负离子。例如：NaCl（氯化钠，新加坡小贩食品中使用的食盐）。"
+      },
+      {
+        "id": "covalent-bonding",
+        "type": "text",
+        "title": "Covalent Bonding",
+        "title_zh": "共价键",
+        "content": "Covalent bonding involves sharing of electrons between non-metal atoms. Example: H₂O, CO₂, CH₄ (methane, natural gas used in Singapore homes).",
+        "content_zh": "共价键涉及非金属原子之间的电子共享。例如：H₂O、CO₂、CH₄（甲烷，新加坡家庭使用的天然气）。"
+      },
+      {
+        "id": "properties-comparison",
+        "type": "text",
+        "title": "Properties of Ionic vs Covalent",
+        "title_zh": "离子化合物与共价化合物的性质",
+        "content": "Ionic compounds: high melting points, conduct electricity when molten/dissolved, brittle. Covalent compounds: low melting points, don't conduct electricity, softer.",
+        "content_zh": "离子化合物：高熔点、熔融/溶解时导电、脆。共价化合物：低熔点、不导电、较软。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "chemical-bonding-q1",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Ionic bonding involves:",
+        "prompt_zh": "[Chemical Bonding - 问题 1]",
+        "choices": [
+          "transfer of electrons from metal to non-metal",
+          "sharing electrons",
+          "gravitational attraction",
+          "magnetic force"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "chemical-bonding-q2",
+        "type": "short",
+        "difficulty": "easy",
+        "prompt": "Sodium (2,8,1) forms Na⁺ by:",
+        "prompt_zh": "[Chemical Bonding - 问题 2]",
+        "answer": "losing 1 electron",
+        "validator": "exact",
+        "hint": "Apply scientific method: observe, hypothesize, experiment, analyze, conclude.",
+        "hint_zh": "运用科学方法:观察、假设、实验、分析、结论。"
+      },
+      {
+        "id": "chemical-bonding-q3",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Covalent bonding is:",
+        "prompt_zh": "[Chemical Bonding - 问题 3]",
+        "choices": [
+          "sharing of electron pairs between non-metals",
+          "transfer of electrons",
+          "metallic lattice",
+          "ionic attraction"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "chemical-bonding-q4",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Which has ionic bonding?",
+        "prompt_zh": "[Chemical Bonding - 问题 4]",
+        "choices": [
+          "MgO",
+          "CO₂",
+          "H₂O",
+          "CH₄"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "chemical-bonding-q5",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Water (H₂O) molecules have:",
+        "prompt_zh": "[Chemical Bonding - 问题 5]",
+        "choices": [
+          "covalent bonds",
+          "ionic bonds",
+          "metallic bonds",
+          "no bonds"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "chemical-bonding-q6",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Magnesium (2,8,2) + Oxygen (2,6) form MgO. Electron arrangement in Mg²⁺ and O²⁻:",
+        "prompt_zh": "[Chemical Bonding - 问题 6]",
+        "choices": [
+          "Both achieve noble gas configuration (2,8)",
+          "Mg: 2,8,0 O: 2,8",
+          "Mg: 2,7 O: 2,7",
+          "No change"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "chemical-bonding-q7",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Sodium chloride conducts electricity when molten or dissolved because:",
+        "prompt_zh": "[Chemical Bonding - 问题 7]",
+        "choices": [
+          "Ions are free to move and carry charge",
+          "Electrons flow through structure",
+          "Melting creates new electrons",
+          "Chlorine gas escapes"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "chemical-bonding-q8",
+        "type": "short",
+        "difficulty": "medium",
+        "prompt": "Diamond is very hard because:",
+        "prompt_zh": "[Chemical Bonding - 问题 8]",
+        "answer": "each carbon bonded to 4 others in giant covalent structure",
+        "validator": "exact",
+        "hint": "Apply scientific method: observe, hypothesize, experiment, analyze, conclude.",
+        "hint_zh": "运用科学方法:观察、假设、实验、分析、结论。"
+      },
+      {
+        "id": "chemical-bonding-q9",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Which property is NOT typical of ionic compounds?",
+        "prompt_zh": "[Chemical Bonding - 问题 9]",
+        "choices": [
+          "Conduct electricity when solid",
+          "High melting point",
+          "Brittle",
+          "Soluble in water"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "chemical-bonding-q10",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Methane (CH₄) is gas at room temperature but NaCl is solid because:",
+        "prompt_zh": "[Chemical Bonding - 问题 10]",
+        "choices": [
+          "Covalent molecules have weak intermolecular forces; ionic has strong electrostatic forces",
+          "Methane lighter",
+          "NaCl has more atoms",
+          "Carbon is non-metal"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "chemical-bonding-q11",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Experiment: Substance X melts at 801°C, conducts when molten but not when solid, shatters when hit. Substance Y melts at -78°C, never conducts, dissolves in petrol. Identify bonding types.",
+        "prompt_zh": "[Chemical Bonding - 问题 11]",
+        "choices": [
+          "X: Ionic, Y: Covalent molecular",
+          "X: Metallic, Y: Ionic",
+          "X: Covalent, Y: Ionic",
+          "Both ionic"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "chemical-bonding-q12",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Silicon dioxide (SiO₂) has high melting point (1610°C) but CO₂ is gas at room temp, though both are oxides of Group 14. Explain.",
+        "prompt_zh": "[Chemical Bonding - 问题 12]",
+        "choices": [
+          "SiO₂ is giant covalent, CO₂ is simple molecular",
+          "SiO₂ ionic, CO₂ covalent",
+          "Silicon heavier",
+          "Different number of bonds"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "chemical-bonding-q13",
+        "type": "short",
+        "difficulty": "hard",
+        "prompt": "Aluminium oxide (Al₂O₃) melting point 2072°C. Requires huge energy to separate ions because:",
+        "prompt_zh": "[Chemical Bonding - 问题 13]",
+        "answer": "strong electrostatic attraction in giant ionic lattice",
+        "validator": "exact",
+        "hint": "Apply scientific method: observe, hypothesize, experiment, analyze, conclude.",
+        "hint_zh": "运用科学方法:观察、假设、实验、分析、结论。"
+      },
+      {
+        "id": "chemical-bonding-q14",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Graphite conducts electricity but diamond doesn't, though both are carbon. This is because:",
+        "prompt_zh": "[Chemical Bonding - 问题 14]",
+        "choices": [
+          "Graphite has delocalized electrons between layers",
+          "Diamond has impurities",
+          "Graphite is softer",
+          "Diamond is transparent"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "chemical-bonding-q15",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Singapore's desalination plants remove NaCl from seawater. Why does NaCl dissolve in water?",
+        "prompt_zh": "[Chemical Bonding - 问题 15]",
+        "choices": [
+          "Water molecules attract and surround ions, breaking ionic lattice",
+          "NaCl reacts with water",
+          "Salt evaporates",
+          "Chlorine gas escapes"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      }
+    ]
+  },
+  {
+    "id": "work-energy-power-sec2",
+    "gradeLevel": "sec2",
+    "title": "Work, Energy & Power",
+    "title_zh": "功、能量和功率",
+    "description": "Work done, energy transformations, power calculations",
+    "description_zh": "做功、能量转换、功率计算",
+    "tag": "Physics",
+    "tag_zh": "物理",
+    "objectives": [
+      "Define work, energy, and power",
+      "Calculate work done and power",
+      "Apply principle of conservation of energy",
+      "Identify energy transformations in Singapore context (MRT, HDB lifts)"
+    ],
+    "objectives_zh": [
+      "定义功、能量和功率",
+      "计算功和功率",
+      "应用能量守恒原理",
+      "识别新加坡环境中的能量转换（地铁、组屋电梯）"
+    ],
+    "sections": [
+      {
+        "id": "work-definition",
+        "type": "text",
+        "title": "Work Done",
+        "title_zh": "功",
+        "content": "Work done = Force × Distance moved in direction of force. Unit: Joule (J). Example: Lifting shopping bags up HDB stairs.",
+        "content_zh": "功 = 力 × 在力的方向上移动的距离。单位：焦耳(J)。例如：将购物袋提上组屋楼梯。"
+      },
+      {
+        "id": "energy-types",
+        "type": "text",
+        "title": "Forms of Energy",
+        "title_zh": "能量的形式",
+        "content": "Forms of energy: kinetic, potential (gravitational, elastic), thermal, chemical, electrical, nuclear, light, sound. Energy can transform but total amount is conserved.",
+        "content_zh": "能量的形式：动能、势能（重力势能、弹性势能）、热能、化学能、电能、核能、光能、声能。能量可以转换，但总量守恒。"
+      },
+      {
+        "id": "power-definition",
+        "type": "text",
+        "title": "Power",
+        "title_zh": "功率",
+        "content": "Power = Work done ÷ Time taken. Unit: Watt (W). 1 W = 1 J/s. Example: Singapore's MRT trains have high power motors for quick acceleration.",
+        "content_zh": "功率 = 功 ÷ 时间。单位：瓦特(W)。1 W = 1 J/s。例如：新加坡地铁列车具有用于快速加速的高功率电机。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "work-energy-power-q1",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Work done = ",
+        "prompt_zh": "[Work, Energy & Power - 问题 1]",
+        "choices": [
+          "Force × Distance moved in direction of force",
+          "Force × Time",
+          "Mass × Velocity",
+          "Energy / Time"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "work-energy-power-q2",
+        "type": "short",
+        "difficulty": "easy",
+        "prompt": "Unit of work:",
+        "prompt_zh": "[Work, Energy & Power - 问题 2]",
+        "answer": "Joule (J)",
+        "validator": "exact",
+        "hint": "Apply scientific method: observe, hypothesize, experiment, analyze, conclude.",
+        "hint_zh": "运用科学方法:观察、假设、实验、分析、结论。"
+      },
+      {
+        "id": "work-energy-power-q3",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Power is defined as:",
+        "prompt_zh": "[Work, Energy & Power - 问题 3]",
+        "choices": [
+          "Rate of doing work or energy transfer",
+          "Total work done",
+          "Force applied",
+          "Distance moved"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "work-energy-power-q4",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "If 100J work done in 5s, power = ",
+        "prompt_zh": "[Work, Energy & Power - 问题 4]",
+        "choices": [
+          "20W",
+          "500W",
+          "100W",
+          "5W"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "work-energy-power-q5",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Kinetic energy depends on:",
+        "prompt_zh": "[Work, Energy & Power - 问题 5]",
+        "choices": [
+          "Mass and velocity",
+          "Mass only",
+          "Velocity only",
+          "Height"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "work-energy-power-q6",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Student pushes box with 50N force for 4m horizontally. Work done:",
+        "prompt_zh": "[Work, Energy & Power - 问题 6]",
+        "choices": [
+          "200J",
+          "50J",
+          "12.5J",
+          "54J"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "work-energy-power-q7",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Crane lifts 500kg load 10m vertically in 20s. Power output (g=10m/s²):",
+        "prompt_zh": "[Work, Energy & Power - 问题 7]",
+        "choices": [
+          "2500W",
+          "5000W",
+          "50000W",
+          "250W"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "work-energy-power-q8",
+        "type": "short",
+        "difficulty": "medium",
+        "prompt": "Car moving at 20m/s has KE = 400kJ. Find mass.",
+        "prompt_zh": "[Work, Energy & Power - 问题 8]",
+        "answer": "2000 kg",
+        "validator": "exact",
+        "hint": "Apply scientific method: observe, hypothesize, experiment, analyze, conclude.",
+        "hint_zh": "运用科学方法:观察、假设、实验、分析、结论。"
+      },
+      {
+        "id": "work-energy-power-q9",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Singapore MRT train brakes from 30m/s to rest. If mass = 40,000kg, kinetic energy converted to heat:",
+        "prompt_zh": "[Work, Energy & Power - 问题 9]",
+        "choices": [
+          "18,000,000J",
+          "1,200,000J",
+          "600,000J",
+          "30,000J"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "work-energy-power-q10",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Gravitational potential energy = mgh. A 2kg book on 1.5m shelf has GPE (g=10m/s²):",
+        "prompt_zh": "[Work, Energy & Power - 问题 10]",
+        "choices": [
+          "30J",
+          "20J",
+          "15J",
+          "3J"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "work-energy-power-q11",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Roller coaster car (500kg) at top of 30m hill (v=0). At bottom, v=20m/s. Energy lost to friction (g=10m/s²):",
+        "prompt_zh": "[Work, Energy & Power - 问题 11]",
+        "choices": [
+          "50,000J",
+          "150,000J",
+          "100,000J",
+          "200,000J"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "work-energy-power-q12",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Motor lifts 200kg elevator 15m in 10s. If 25% energy wasted as heat, total power input (g=10m/s²):",
+        "prompt_zh": "[Work, Energy & Power - 问题 12]",
+        "choices": [
+          "4000W",
+          "3000W",
+          "5000W",
+          "2000W"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "work-energy-power-q13",
+        "type": "short",
+        "difficulty": "hard",
+        "prompt": "Pendulum: At highest point has GPE=100J, KE=0. At lowest point, KE=80J. Energy lost per swing:",
+        "prompt_zh": "[Work, Energy & Power - 问题 13]",
+        "answer": "20J",
+        "validator": "exact",
+        "hint": "Apply scientific method: observe, hypothesize, experiment, analyze, conclude.",
+        "hint_zh": "运用科学方法:观察、假设、实验、分析、结论。"
+      },
+      {
+        "id": "work-energy-power-q14",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Hydroelectric dam: water falls 50m at rate 1000kg/s. Maximum power generated (g=10m/s²):",
+        "prompt_zh": "[Work, Energy & Power - 问题 14]",
+        "choices": [
+          "500kW",
+          "50kW",
+          "5000kW",
+          "5MW"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "work-energy-power-q15",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Efficiency = (useful energy output / total energy input) × 100%. Machine uses 500J, does 350J useful work. Efficiency:",
+        "prompt_zh": "[Work, Energy & Power - 问题 15]",
+        "choices": [
+          "70%",
+          "35%",
+          "85%",
+          "50%"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      }
+    ]
+  },
+  {
+    "id": "moments-sec2",
+    "gradeLevel": "sec2",
+    "title": "Moments & Levers",
+    "title_zh": "力矩与杠杆",
+    "description": "Turning effect of forces, principle of moments",
+    "description_zh": "力的转动效应、力矩原理",
+    "tag": "Physics",
+    "tag_zh": "物理",
+    "objectives": [
+      "Define moment of a force",
+      "Apply principle of moments",
+      "Solve problems on levers and balance",
+      "Identify everyday applications (see-saw, door handles)"
+    ],
+    "objectives_zh": [
+      "定义力矩",
+      "应用力矩原理",
+      "解决杠杆和平衡问题",
+      "识别日常应用（跷跷板、门把手）"
+    ],
+    "sections": [
+      {
+        "id": "moment-definition",
+        "type": "text",
+        "title": "Moment of a Force",
+        "title_zh": "力矩",
+        "content": "Moment = Force × Perpendicular distance from pivot. Unit: Newton-meter (Nm). The turning effect of a force. Example: Opening a door - easier to push far from hinges.",
+        "content_zh": "力矩 = 力 × 从支点的垂直距离。单位：牛顿米(Nm)。力的转动效应。例如：开门 - 在远离铰链处推更容易。"
+      },
+      {
+        "id": "principle-of-moments",
+        "type": "text",
+        "title": "Principle of Moments",
+        "title_zh": "力矩原理",
+        "content": "For a balanced object: Sum of clockwise moments = Sum of anticlockwise moments. Applications: see-saws, crowbars, scissors, wrenches.",
+        "content_zh": "对于平衡的物体：顺时针力矩之和 = 逆时针力矩之和。应用：跷跷板、撬棍、剪刀、扳手。"
+      },
+      {
+        "id": "center-of-gravity",
+        "type": "text",
+        "title": "Center of Gravity",
+        "title_zh": "重心",
+        "content": "The point where the entire weight of an object appears to act. Objects with low center of gravity are more stable (e.g., HDB blocks have wide bases).",
+        "content_zh": "物体整个重量似乎作用的点。重心低的物体更稳定（例如，组屋有宽阔的基础）。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "moments-q1",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Moment of force = ",
+        "prompt_zh": "[Moments & Levers - 问题 1]",
+        "choices": [
+          "Force × Perpendicular distance from pivot",
+          "Force × Time",
+          "Mass × Distance",
+          "Force / Distance"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "moments-q2",
+        "type": "short",
+        "difficulty": "easy",
+        "prompt": "Unit of moment:",
+        "prompt_zh": "[Moments & Levers - 问题 2]",
+        "answer": "Newton-metre (Nm)",
+        "validator": "exact",
+        "hint": "Apply scientific method: observe, hypothesize, experiment, analyze, conclude.",
+        "hint_zh": "运用科学方法:观察、假设、实验、分析、结论。"
+      },
+      {
+        "id": "moments-q3",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "For balanced seesaw, principle states:",
+        "prompt_zh": "[Moments & Levers - 问题 3]",
+        "choices": [
+          "Clockwise moment = Anticlockwise moment",
+          "Weights are equal",
+          "Distances are equal",
+          "Forces are parallel"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "moments-q4",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "10N force acts 0.5m from pivot. Moment = ",
+        "prompt_zh": "[Moments & Levers - 问题 4]",
+        "choices": [
+          "5 Nm",
+          "10 Nm",
+          "20 Nm",
+          "0.5 Nm"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "moments-q5",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "To increase moment, you can:",
+        "prompt_zh": "[Moments & Levers - 问题 5]",
+        "choices": [
+          "Increase force or increase distance",
+          "Decrease force",
+          "Decrease distance",
+          "Use lighter object"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "moments-q6",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Uniform beam 4m long weighs 100N. Pivoted at center. 50N load placed 1m from pivot on right. Where to place 200N on left for balance?",
+        "prompt_zh": "[Moments & Levers - 问题 6]",
+        "choices": [
+          "0.25m from pivot",
+          "0.5m",
+          "1m",
+          "2m"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "moments-q7",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Door handle 0.8m from hinge. To open door requiring 40 Nm moment, force needed:",
+        "prompt_zh": "[Moments & Levers - 问题 7]",
+        "choices": [
+          "50N",
+          "32N",
+          "80N",
+          "5N"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "moments-q8",
+        "type": "short",
+        "difficulty": "medium",
+        "prompt": "Wheelbarrow: Load 300N at 0.5m from wheel. Lifting force applied 1.5m from wheel. Force needed:",
+        "prompt_zh": "[Moments & Levers - 问题 8]",
+        "answer": "100N",
+        "validator": "exact",
+        "hint": "Apply scientific method: observe, hypothesize, experiment, analyze, conclude.",
+        "hint_zh": "运用科学方法:观察、假设、实验、分析、结论。"
+      },
+      {
+        "id": "moments-q9",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Singapore HDB window: 60cm wide, hinged on left. 30N force closes it. If force applied at 40cm from hinge, moment produced:",
+        "prompt_zh": "[Moments & Levers - 问题 9]",
+        "choices": [
+          "12 Nm",
+          "18 Nm",
+          "30 Nm",
+          "1200 Nm"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "moments-q10",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Principle of moments states system is balanced when:",
+        "prompt_zh": "[Moments & Levers - 问题 10]",
+        "choices": [
+          "Sum of clockwise moments = Sum of anticlockwise moments",
+          "All forces equal",
+          "All distances equal",
+          "No forces acting"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "moments-q11",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Uniform plank 6m long, mass 20kg, pivoted 2m from left end. 50kg person stands at left end. For balance, what mass at right end? (g=10m/s²)",
+        "prompt_zh": "[Moments & Levers - 问题 11]",
+        "choices": [
+          "60kg",
+          "50kg",
+          "80kg",
+          "40kg"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "moments-q12",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Crane jib: 10m boom, pivot at base. 5000N load at end. Counterweight 8000N placed where from pivot for balance?",
+        "prompt_zh": "[Moments & Levers - 问题 12]",
+        "choices": [
+          "6.25m opposite side",
+          "5m",
+          "10m",
+          "12.5m"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "moments-q13",
+        "type": "short",
+        "difficulty": "hard",
+        "prompt": "Ladder 8m long, 200N weight, leans against wall at 60°. Person 600N stands 6m up ladder. Moment about base:",
+        "prompt_zh": "[Moments & Levers - 问题 13]",
+        "answer": "2880 Nm",
+        "validator": "exact",
+        "hint": "Apply scientific method: observe, hypothesize, experiment, analyze, conclude.",
+        "hint_zh": "运用科学方法:观察、假设、实验、分析、结论。"
+      },
+      {
+        "id": "moments-q14",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Beam 5m long, weight 100N (acts at center). Supported at 1m from left, 1m from right. Reaction forces if balanced:",
+        "prompt_zh": "[Moments & Levers - 问题 14]",
+        "choices": [
+          "Left: 30N, Right: 70N",
+          "Both 50N",
+          "Left: 70N, Right: 30N",
+          "Left: 40N, Right: 60N"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "moments-q15",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Steering wheel radius 20cm. Driver applies 50N at edge. Gears multiply moment by factor 15. Moment at wheels:",
+        "prompt_zh": "[Moments & Levers - 问题 15]",
+        "choices": [
+          "150 Nm",
+          "10 Nm",
+          "1500 Nm",
+          "15 Nm"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      }
+    ]
+  },
+  {
+    "id": "kinetic-particle-theory-sec2",
+    "gradeLevel": "sec2",
+    "title": "Kinetic Particle Theory",
+    "title_zh": "分子动理论",
+    "description": "States of matter, changes of state, gas pressure",
+    "description_zh": "物质的状态、状态变化、气体压强",
+    "tag": "Physics",
+    "tag_zh": "物理",
+    "objectives": [
+      "Describe kinetic particle model for solids, liquids, gases",
+      "Explain changes of state",
+      "Relate gas pressure to particle collisions",
+      "Apply to Singapore's humidity and weather patterns"
+    ],
+    "objectives_zh": [
+      "描述固体、液体、气体的分子动理论模型",
+      "解释状态变化",
+      "将气体压强与粒子碰撞联系起来",
+      "应用于新加坡的湿度和天气模式"
+    ],
+    "sections": [
+      {
+        "id": "particle-model",
+        "type": "animation",
+        "title": "States of Matter",
+        "title_zh": "物质的状态",
+        "content": "ParticlesInStates",
+        "props": {
+          "interactive": true
+        }
+      },
+      {
+        "id": "changes-of-state",
+        "type": "text",
+        "title": "Changes of State",
+        "title_zh": "状态变化",
+        "content": "Melting, freezing, evaporation, condensation, sublimation. During state changes, temperature remains constant. Singapore's high humidity (80-90%) means water evaporates slower.",
+        "content_zh": "熔化、凝固、蒸发、凝结、升华。在状态变化期间，温度保持恒定。新加坡的高湿度（80-90%）意味着水蒸发较慢。"
+      },
+      {
+        "id": "gas-pressure",
+        "type": "text",
+        "title": "Gas Pressure",
+        "title_zh": "气体压强",
+        "content": "Gas pressure is caused by collisions of gas particles with container walls. Pressure increases with: higher temperature, smaller volume, more particles.",
+        "content_zh": "气体压强是由气体粒子与容器壁的碰撞引起的。压强随着以下因素增加：较高的温度、较小的体积、更多的粒子。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "kinetic-particle-theory-q1",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "According to kinetic particle theory, particles in solids:",
+        "prompt_zh": "[Kinetic Particle Theory - 问题 1]",
+        "choices": [
+          "vibrate about fixed positions",
+          "move freely",
+          "have no energy",
+          "don't move at all"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "kinetic-particle-theory-q2",
+        "type": "short",
+        "difficulty": "easy",
+        "prompt": "State with particles farthest apart:",
+        "prompt_zh": "[Kinetic Particle Theory - 问题 2]",
+        "answer": "gas",
+        "validator": "exact",
+        "hint": "Apply scientific method: observe, hypothesize, experiment, analyze, conclude.",
+        "hint_zh": "运用科学方法:观察、假设、实验、分析、结论。"
+      },
+      {
+        "id": "kinetic-particle-theory-q3",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Particles in liquids:",
+        "prompt_zh": "[Kinetic Particle Theory - 问题 3]",
+        "choices": [
+          "Can move past each other but close together",
+          "Fixed positions",
+          "Very far apart",
+          "Don't touch"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "kinetic-particle-theory-q4",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Boiling point of water at standard pressure:",
+        "prompt_zh": "[Kinetic Particle Theory - 问题 4]",
+        "choices": [
+          "100°C",
+          "0°C",
+          "50°C",
+          "212°C"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "kinetic-particle-theory-q5",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Melting is change from:",
+        "prompt_zh": "[Kinetic Particle Theory - 问题 5]",
+        "choices": [
+          "Solid to liquid",
+          "Liquid to gas",
+          "Gas to liquid",
+          "Liquid to solid"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "kinetic-particle-theory-q6",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Evaporation occurs because:",
+        "prompt_zh": "[Kinetic Particle Theory - 问题 6]",
+        "choices": [
+          "Highest energy particles escape from liquid surface",
+          "All particles have same energy",
+          "Temperature is 100°C",
+          "Pressure is low"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "kinetic-particle-theory-q7",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Singapore's humid air (90% humidity) slows clothes drying because:",
+        "prompt_zh": "[Kinetic Particle Theory - 问题 7]",
+        "choices": [
+          "Air already saturated, less evaporation of water",
+          "Temperature too high",
+          "Wind speed too high",
+          "Clothes heavier"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "kinetic-particle-theory-q8",
+        "type": "short",
+        "difficulty": "medium",
+        "prompt": "Heating curve shows temperature constant during boiling because:",
+        "prompt_zh": "[Kinetic Particle Theory - 问题 8]",
+        "answer": "energy used to overcome intermolecular forces not to increase temperature",
+        "validator": "exact",
+        "hint": "Apply scientific method: observe, hypothesize, experiment, analyze, conclude.",
+        "hint_zh": "运用科学方法:观察、假设、实验、分析、结论。"
+      },
+      {
+        "id": "kinetic-particle-theory-q9",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Dry ice (solid CO₂) at -78°C becomes gas without liquid phase. This is called:",
+        "prompt_zh": "[Kinetic Particle Theory - 问题 9]",
+        "choices": [
+          "Sublimation",
+          "Evaporation",
+          "Condensation",
+          "Freezing"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "kinetic-particle-theory-q10",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Pressure increases when gas compressed because:",
+        "prompt_zh": "[Kinetic Particle Theory - 问题 10]",
+        "choices": [
+          "Particles collide more frequently with container walls",
+          "Particles get bigger",
+          "Particles slow down",
+          "Attractive forces increase"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "kinetic-particle-theory-q11",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Experiment: Heat ice from -10°C to steam at 110°C. Temperature stays constant at 0°C and 100°C. During these plateaus:",
+        "prompt_zh": "[Kinetic Particle Theory - 问题 11]",
+        "choices": [
+          "Energy breaks bonds (latent heat) without temperature change",
+          "No heat absorbed",
+          "Particles stop moving",
+          "Heating stops"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "kinetic-particle-theory-q12",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Gas diffusion: Ammonia (NH₃, mass 17) and HCl (mass 36.5) from opposite ends of tube. Where do they meet?",
+        "prompt_zh": "[Kinetic Particle Theory - 问题 12]",
+        "choices": [
+          "Closer to HCl end (lighter NH₃ faster)",
+          "Exact center",
+          "Closer to NH₃ end",
+          "At both ends"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "kinetic-particle-theory-q13",
+        "type": "short",
+        "difficulty": "hard",
+        "prompt": "Brownian motion of smoke particles observed under microscope is evidence for:",
+        "prompt_zh": "[Kinetic Particle Theory - 问题 13]",
+        "answer": "random motion of invisible air molecules",
+        "validator": "exact",
+        "hint": "Apply scientific method: observe, hypothesize, experiment, analyze, conclude.",
+        "hint_zh": "运用科学方法:观察、假设、实验、分析、结论。"
+      },
+      {
+        "id": "kinetic-particle-theory-q14",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "At 27°C, gas in cylinder at 200kPa. If heated to 127°C at constant volume, new pressure: (Use T in Kelvin: 27°C=300K, 127°C=400K)",
+        "prompt_zh": "[Kinetic Particle Theory - 问题 14]",
+        "choices": [
+          "266.7 kPa",
+          "300 kPa",
+          "400 kPa",
+          "200 kPa"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "kinetic-particle-theory-q15",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Explains why smell spreads faster on hot day:",
+        "prompt_zh": "[Kinetic Particle Theory - 问题 15]",
+        "choices": [
+          "Higher kinetic energy means faster particle movement",
+          "More particles in air",
+          "Lower pressure",
+          "Wind"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      }
+    ]
+  },
+  {
+    "id": "sound-sec2",
+    "gradeLevel": "sec2",
+    "title": "Sound",
+    "title_zh": "声音",
+    "description": "Production and transmission of sound, wave properties",
+    "description_zh": "声音的产生和传播、波的性质",
+    "tag": "Physics",
+    "tag_zh": "物理",
+    "objectives": [
+      "Explain how sound is produced and transmitted",
+      "Describe properties of sound waves",
+      "Relate frequency to pitch and amplitude to loudness",
+      "Understand noise pollution in urban Singapore"
+    ],
+    "objectives_zh": [
+      "解释声音如何产生和传播",
+      "描述声波的性质",
+      "将频率与音调、振幅与响度联系起来",
+      "理解新加坡城市的噪音污染"
+    ],
+    "sections": [
+      {
+        "id": "sound-production",
+        "type": "text",
+        "title": "Production of Sound",
+        "title_zh": "声音的产生",
+        "content": "Sound is produced by vibrations. It travels as longitudinal waves requiring a medium (solid, liquid, or gas). Sound cannot travel through vacuum.",
+        "content_zh": "声音由振动产生。它以纵波的形式传播，需要介质（固体、液体或气体）。声音不能在真空中传播。"
+      },
+      {
+        "id": "sound-properties",
+        "type": "text",
+        "title": "Properties of Sound",
+        "title_zh": "声音的性质",
+        "content": "Frequency (Hz) determines pitch - high frequency = high pitch. Amplitude determines loudness - large amplitude = loud sound. Speed of sound in air ≈ 330 m/s.",
+        "content_zh": "频率(Hz)决定音调 - 高频率 = 高音调。振幅决定响度 - 大振幅 = 大声。空气中的声速 ≈ 330 m/s。"
+      },
+      {
+        "id": "noise-pollution",
+        "type": "text",
+        "title": "Noise Pollution",
+        "title_zh": "噪音污染",
+        "content": "Excessive noise (>85 dB) can damage hearing. Singapore's NEA monitors noise from construction, traffic, and industrial areas. Soundproofing uses soft materials to absorb sound.",
+        "content_zh": "过度噪音（>85 dB）会损害听力。新加坡国家环境局监测来自建筑、交通和工业区的噪音。隔音使用柔软材料吸收声音。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "sound-q1",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Sound travels through medium by:",
+        "prompt_zh": "[Sound - 问题 1]",
+        "choices": [
+          "Vibrations of particles",
+          "Light waves",
+          "Heat transfer",
+          "Magnetic fields"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "sound-q2",
+        "type": "short",
+        "difficulty": "easy",
+        "prompt": "Sound cannot travel in:",
+        "prompt_zh": "[Sound - 问题 2]",
+        "answer": "vacuum",
+        "validator": "exact",
+        "hint": "Apply scientific method: observe, hypothesize, experiment, analyze, conclude.",
+        "hint_zh": "运用科学方法:观察、假设、实验、分析、结论。"
+      },
+      {
+        "id": "sound-q3",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Speed of sound is fastest in:",
+        "prompt_zh": "[Sound - 问题 3]",
+        "choices": [
+          "Solids",
+          "Liquids",
+          "Gases",
+          "Vacuum"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "sound-q4",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Frequency measured in:",
+        "prompt_zh": "[Sound - 问题 4]",
+        "choices": [
+          "Hertz (Hz)",
+          "Decibels (dB)",
+          "Metres (m)",
+          "Seconds (s)"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "sound-q5",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Pitch of sound depends on:",
+        "prompt_zh": "[Sound - 问题 5]",
+        "choices": [
+          "Frequency",
+          "Amplitude",
+          "Speed",
+          "Medium"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "sound-q6",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Thunder heard 3 seconds after lightning. Distance to lightning (speed of sound ≈ 330m/s):",
+        "prompt_zh": "[Sound - 问题 6]",
+        "choices": [
+          "990m",
+          "330m",
+          "110m",
+          "3300m"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "sound-q7",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Ultrasound has frequency:",
+        "prompt_zh": "[Sound - 问题 7]",
+        "choices": [
+          "Above 20,000 Hz (above human hearing)",
+          "Below 20 Hz",
+          "20-20,000 Hz",
+          "Exactly 1000 Hz"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "sound-q8",
+        "type": "short",
+        "difficulty": "medium",
+        "prompt": "Echo from cliff returns after 4s. Distance to cliff (v = 340m/s):",
+        "prompt_zh": "[Sound - 问题 8]",
+        "answer": "680m",
+        "validator": "exact",
+        "hint": "Apply scientific method: observe, hypothesize, experiment, analyze, conclude.",
+        "hint_zh": "运用科学方法:观察、假设、实验、分析、结论。"
+      },
+      {
+        "id": "sound-q9",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Singapore uses ultrasound for medical imaging because:",
+        "prompt_zh": "[Sound - 问题 9]",
+        "choices": [
+          "High frequency gives better resolution and doesn't damage tissue",
+          "It's louder",
+          "Cheaper",
+          "Faster"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "sound-q10",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Loudness of sound depends on:",
+        "prompt_zh": "[Sound - 问题 10]",
+        "choices": [
+          "Amplitude of vibration",
+          "Frequency",
+          "Wavelength",
+          "Speed"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "sound-q11",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Sonar on ship sends pulse, echo returns in 0.5s. Seabed depth if speed of sound in water = 1500m/s:",
+        "prompt_zh": "[Sound - 问题 11]",
+        "choices": [
+          "375m",
+          "750m",
+          "1500m",
+          "500m"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "sound-q12",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "String vibrates at 256 Hz. If you double the tension (keeping length and mass same), new frequency approximately:",
+        "prompt_zh": "[Sound - 问题 12]",
+        "choices": [
+          "362 Hz (increases by √2)",
+          "512 Hz",
+          "128 Hz",
+          "256 Hz"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "sound-q13",
+        "type": "short",
+        "difficulty": "hard",
+        "prompt": "Doppler effect: Ambulance siren approaching has frequency:",
+        "prompt_zh": "[Sound - 问题 13]",
+        "answer": "higher than when stationary",
+        "validator": "exact",
+        "hint": "Apply scientific method: observe, hypothesize, experiment, analyze, conclude.",
+        "hint_zh": "运用科学方法:观察、假设、实验、分析、结论。"
+      },
+      {
+        "id": "sound-q14",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Musical note: fundamental 440Hz, next harmonic 880Hz, then 1320Hz. This shows:",
+        "prompt_zh": "[Sound - 问题 14]",
+        "choices": [
+          "Harmonics are integer multiples of fundamental",
+          "Random frequencies",
+          "All frequencies same",
+          "Decreasing pattern"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "sound-q15",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Noise level: 80dB is how many times more intense than 60dB? (Decibel scale is logarithmic: 10dB increase = 10× intensity)",
+        "prompt_zh": "[Sound - 问题 15]",
+        "choices": [
+          "100 times",
+          "20 times",
+          "1.33 times",
+          "10 times"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      }
+    ]
+  },
+  {
+    "id": "magnetism-sec2",
+    "gradeLevel": "sec2",
+    "title": "Magnetism",
+    "title_zh": "磁学",
+    "description": "Magnetic materials, magnetic fields, electromagnets",
+    "description_zh": "磁性材料、磁场、电磁铁",
+    "tag": "Physics",
+    "tag_zh": "物理",
+    "objectives": [
+      "Identify magnetic and non-magnetic materials",
+      "Describe magnetic field patterns",
+      "Explain how electromagnets work",
+      "Understand applications in MRT systems"
+    ],
+    "objectives_zh": [
+      "识别磁性和非磁性材料",
+      "描述磁场模式",
+      "解释电磁铁的工作原理",
+      "理解在地铁系统中的应用"
+    ],
+    "sections": [
+      {
+        "id": "magnetic-materials",
+        "type": "text",
+        "title": "Magnetic Materials",
+        "title_zh": "磁性材料",
+        "content": "Magnetic materials: iron, steel, nickel, cobalt. Non-magnetic: copper, aluminium, plastic, wood. Steel is a permanent magnet; iron is temporary.",
+        "content_zh": "磁性材料：铁、钢、镍、钴。非磁性：铜、铝、塑料、木材。钢是永久磁铁；铁是临时磁铁。"
+      },
+      {
+        "id": "magnetic-fields",
+        "type": "text",
+        "title": "Magnetic Fields",
+        "title_zh": "磁场",
+        "content": "Magnetic field lines go from North to South pole outside the magnet. Like poles repel, unlike poles attract. Earth is a giant magnet.",
+        "content_zh": "磁场线从磁铁外部的北极到南极。同极相斥，异极相吸。地球是一个巨大的磁铁。"
+      },
+      {
+        "id": "electromagnets",
+        "type": "text",
+        "title": "Electromagnets",
+        "title_zh": "电磁铁",
+        "content": "Electromagnet = coil of wire around iron core carrying current. Strength increases with: more turns, stronger current, soft iron core. Used in MRT motors, speakers, doorbells.",
+        "content_zh": "电磁铁 = 绕在铁芯周围的载流线圈。强度随着以下因素增加：更多匝数、更强电流、软铁芯。用于地铁电机、扬声器、门铃。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "magnetism-q1",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Materials attracted to magnets:",
+        "prompt_zh": "[Magnetism - 问题 1]",
+        "choices": [
+          "Iron, cobalt, nickel",
+          "Aluminium, copper",
+          "Wood, plastic",
+          "All metals"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "magnetism-q2",
+        "type": "short",
+        "difficulty": "easy",
+        "prompt": "Magnetic poles:",
+        "prompt_zh": "[Magnetism - 问题 2]",
+        "answer": "North and South",
+        "validator": "exact",
+        "hint": "Apply scientific method: observe, hypothesize, experiment, analyze, conclude.",
+        "hint_zh": "运用科学方法:观察、假设、实验、分析、结论。"
+      },
+      {
+        "id": "magnetism-q3",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Like poles:",
+        "prompt_zh": "[Magnetism - 问题 3]",
+        "choices": [
+          "Repel each other",
+          "Attract each other",
+          "No effect",
+          "Merge together"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "magnetism-q4",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Earth acts as a:",
+        "prompt_zh": "[Magnetism - 问题 4]",
+        "choices": [
+          "Giant magnet",
+          "Electric field",
+          "Gravity source only",
+          "Heat source"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "magnetism-q5",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Magnetic field lines go from:",
+        "prompt_zh": "[Magnetism - 问题 5]",
+        "choices": [
+          "North to South outside magnet",
+          "South to North",
+          "Both ways equally",
+          "Straight lines only"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "magnetism-q6",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Iron filing pattern around bar magnet shows:",
+        "prompt_zh": "[Magnetism - 问题 6]",
+        "choices": [
+          "Magnetic field lines from N to S",
+          "Random arrangement",
+          "Circular patterns",
+          "No pattern"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "magnetism-q7",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Plotting compass points North because:",
+        "prompt_zh": "[Magnetism - 问题 7]",
+        "choices": [
+          "Earth's magnetic South pole is near geographic North",
+          "Gravity",
+          "Wind direction",
+          "Light from sun"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "magnetism-q8",
+        "type": "short",
+        "difficulty": "medium",
+        "prompt": "Induced magnetism means:",
+        "prompt_zh": "[Magnetism - 问题 8]",
+        "answer": "temporary magnetism in magnetic material near permanent magnet",
+        "validator": "exact",
+        "hint": "Apply scientific method: observe, hypothesize, experiment, analyze, conclude.",
+        "hint_zh": "运用科学方法:观察、假设、实验、分析、结论。"
+      },
+      {
+        "id": "magnetism-q9",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "To demagnetize steel bar, you can:",
+        "prompt_zh": "[Magnetism - 问题 9]",
+        "choices": [
+          "Heat above Curie temperature or hammer it",
+          "Cool it down",
+          "Keep in magnetic field",
+          "Polish it"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "magnetism-q10",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Electromagnet advantage over permanent magnet:",
+        "prompt_zh": "[Magnetism - 问题 10]",
+        "choices": [
+          "Can be switched on/off and strength adjusted",
+          "Stronger always",
+          "Cheaper",
+          "Lighter"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "magnetism-q11",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Singapore MRT uses electromagnetic brakes. When power cut, electromagnets OFF. This causes:",
+        "prompt_zh": "[Magnetism - 问题 11]",
+        "choices": [
+          "Magnetic brakes engage by spring force for safety",
+          "Train accelerates",
+          "Nothing happens",
+          "Train explodes"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "magnetism-q12",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Solenoid with 200 turns carries 3A. To double magnetic field strength, you can:",
+        "prompt_zh": "[Magnetism - 问题 12]",
+        "choices": [
+          "Double current to 6A OR double turns to 400",
+          "Halve current",
+          "Reverse current direction",
+          "Use AC instead of DC"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "magnetism-q13",
+        "type": "short",
+        "difficulty": "hard",
+        "prompt": "Magnetic relay: small current in coil switches large current in circuit. This demonstrates:",
+        "prompt_zh": "[Magnetism - 问题 13]",
+        "answer": "electromagnetic switching and amplification",
+        "validator": "exact",
+        "hint": "Apply scientific method: observe, hypothesize, experiment, analyze, conclude.",
+        "hint_zh": "运用科学方法:观察、假设、实验、分析、结论。"
+      },
+      {
+        "id": "magnetism-q14",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Right-hand grip rule for solenoid: fingers curl in current direction, thumb points to:",
+        "prompt_zh": "[Magnetism - 问题 14]",
+        "choices": [
+          "North pole of electromagnet",
+          "South pole",
+          "Current direction",
+          "Wire direction"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "magnetism-q15",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Lodestone (natural magnet) is mineral:",
+        "prompt_zh": "[Magnetism - 问题 15]",
+        "choices": [
+          "Magnetite (Fe₃O₄)",
+          "Hematite",
+          "Quartz",
+          "Copper oxide"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      }
+    ]
+  },
+  {
+    "id": "photosynthesis-sec2",
+    "gradeLevel": "sec2",
+    "title": "Photosynthesis",
+    "title_zh": "光合作用",
+    "description": "Process of photosynthesis, factors affecting rate, importance",
+    "description_zh": "光合作用过程、影响速率的因素、重要性",
+    "tag": "Biology",
+    "tag_zh": "生物",
+    "objectives": [
+      "Describe the process of photosynthesis",
+      "Write the word equation for photosynthesis",
+      "Identify factors affecting photosynthesis rate",
+      "Explain importance for Singapore's green spaces"
+    ],
+    "objectives_zh": [
+      "描述光合作用过程",
+      "写出光合作用的文字方程式",
+      "识别影响光合作用速率的因素",
+      "解释对新加坡绿色空间的重要性"
+    ],
+    "sections": [
+      {
+        "id": "photosynthesis-process",
+        "type": "text",
+        "title": "Photosynthesis",
+        "title_zh": "光合作用",
+        "content": "Process where plants make glucose using light energy. Word equation: Carbon dioxide + Water → (light, chlorophyll) → Glucose + Oxygen. Occurs in chloroplasts.",
+        "content_zh": "植物利用光能制造葡萄糖的过程。文字方程式：二氧化碳 + 水 → （光，叶绿素） → 葡萄糖 + 氧气。发生在叶绿体中。"
+      },
+      {
+        "id": "factors-affecting",
+        "type": "text",
+        "title": "Factors Affecting Photosynthesis",
+        "title_zh": "影响光合作用的因素",
+        "content": "Light intensity, CO₂ concentration, temperature, and chlorophyll. Singapore's tropical climate (high light, heat) is ideal for plant growth. Limiting factor: the factor in shortest supply.",
+        "content_zh": "光强度、CO₂浓度、温度和叶绿素。新加坡的热带气候（高光照、高温）非常适合植物生长。限制因素：供应最少的因素。"
+      },
+      {
+        "id": "importance",
+        "type": "text",
+        "title": "Importance of Photosynthesis",
+        "title_zh": "光合作用的重要性",
+        "content": "Produces food for all life, releases oxygen, removes CO₂ from atmosphere. Singapore's Gardens by the Bay and park connector network help maintain air quality.",
+        "content_zh": "为所有生命产生食物，释放氧气，从大气中去除CO₂。新加坡的滨海湾花园和公园连道网络有助于维持空气质量。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "photosynthesis-q1",
+        "type": "short",
+        "difficulty": "easy",
+        "prompt": "Photosynthesis equation: 6CO₂ + 6H₂O →",
+        "prompt_zh": "[Photosynthesis - 问题 1]",
+        "answer": "C₆H₁₂O₆ + 6O₂",
+        "validator": "exact",
+        "hint": "Apply scientific method: observe, hypothesize, experiment, analyze, conclude.",
+        "hint_zh": "运用科学方法:观察、假设、实验、分析、结论。"
+      },
+      {
+        "id": "photosynthesis-q2",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Chlorophyll is found in:",
+        "prompt_zh": "[Photosynthesis - 问题 2]",
+        "choices": [
+          "Chloroplasts",
+          "Mitochondria",
+          "Nucleus",
+          "Cell wall"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "photosynthesis-q3",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Gas produced during photosynthesis:",
+        "prompt_zh": "[Photosynthesis - 问题 3]",
+        "choices": [
+          "Oxygen",
+          "Carbon dioxide",
+          "Nitrogen",
+          "Hydrogen"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "photosynthesis-q4",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Light energy is converted to:",
+        "prompt_zh": "[Photosynthesis - 问题 4]",
+        "choices": [
+          "Chemical energy in glucose",
+          "Heat only",
+          "Sound",
+          "Kinetic energy"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "photosynthesis-q5",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Photosynthesis mainly occurs in:",
+        "prompt_zh": "[Photosynthesis - 问题 5]",
+        "choices": [
+          "Leaves",
+          "Roots",
+          "Stem only",
+          "Flowers"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "photosynthesis-q6",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Experiment: Place plant in dark for 24h, then illuminate leaf partially with stencil. After testing with iodine, only illuminated part turns blue-black. This shows:",
+        "prompt_zh": "[Photosynthesis - 问题 6]",
+        "choices": [
+          "Light is necessary for starch production",
+          "Dark needed for photosynthesis",
+          "Iodine causes starch formation",
+          "All parts photosynthesize equally"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "photosynthesis-q7",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Singapore Gardens by the Bay uses LED grow lights (red + blue). Why these colors?",
+        "prompt_zh": "[Photosynthesis - 问题 7]",
+        "choices": [
+          "Chlorophyll absorbs red and blue light most efficiently",
+          "Cheaper",
+          "Brighter to human eyes",
+          "Plants are green"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "photosynthesis-q8",
+        "type": "short",
+        "difficulty": "medium",
+        "prompt": "Limiting factor: On sunny day with adequate water, increasing temperature from 20°C to 30°C increases rate. Why?",
+        "prompt_zh": "[Photosynthesis - 问题 8]",
+        "answer": "higher temperature increases enzyme activity",
+        "validator": "exact",
+        "hint": "Apply scientific method: observe, hypothesize, experiment, analyze, conclude.",
+        "hint_zh": "运用科学方法:观察、假设、实验、分析、结论。"
+      },
+      {
+        "id": "photosynthesis-q9",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Variegated leaf (green and white patches). After starch test, only green parts blue-black because:",
+        "prompt_zh": "[Photosynthesis - 问题 9]",
+        "choices": [
+          "Chlorophyll needed to produce starch",
+          "White parts are dead",
+          "Green parts stored starch from roots",
+          "Iodine doesn't work on white parts"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "photosynthesis-q10",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Stomata close at night because:",
+        "prompt_zh": "[Photosynthesis - 问题 10]",
+        "choices": [
+          "No photosynthesis, so CO₂ not needed; prevents water loss",
+          "Temperature too low",
+          "Light damages them",
+          "Oxygen harmful at night"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "photosynthesis-q11",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Graph: Light intensity vs rate. Initially linear, then plateaus. At plateau, limiting factor is:",
+        "prompt_zh": "[Photosynthesis - 问题 11]",
+        "choices": [
+          "CO₂ concentration or temperature, not light",
+          "Light intensity",
+          "Water only",
+          "Chlorophyll amount"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "photosynthesis-q12",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Hydroponics experiment: Bubbling CO₂ through water around roots has no effect on photosynthesis rate. Why?",
+        "prompt_zh": "[Photosynthesis - 问题 12]",
+        "choices": [
+          "CO₂ must enter through stomata in leaves, not roots",
+          "Plants don't need CO₂",
+          "Water blocks CO₂",
+          "Roots absorb all CO₂"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "photosynthesis-q13",
+        "type": "short",
+        "difficulty": "hard",
+        "prompt": "Compensation point is when:",
+        "prompt_zh": "[Photosynthesis - 问题 13]",
+        "answer": "rate of photosynthesis equals rate of respiration",
+        "validator": "exact",
+        "hint": "Apply scientific method: observe, hypothesize, experiment, analyze, conclude.",
+        "hint_zh": "运用科学方法:观察、假设、实验、分析、结论。"
+      },
+      {
+        "id": "photosynthesis-q14",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Greenhouse in Singapore: High light, 35°C, 400ppm CO₂. To increase yield, best to:",
+        "prompt_zh": "[Photosynthesis - 问题 14]",
+        "choices": [
+          "Increase CO₂ to 1000ppm (light and temp already high)",
+          "Increase temperature to 45°C",
+          "Decrease CO₂",
+          "Add more light only"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "photosynthesis-q15",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Destarching: Keep plant in dark 48h before experiment. Purpose:",
+        "prompt_zh": "[Photosynthesis - 问题 15]",
+        "choices": [
+          "Ensure all starch used up so new starch formed is from the experiment",
+          "Kill plant",
+          "Remove chlorophyll",
+          "Increase photosynthesis rate"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      }
+    ]
+  },
+  {
+    "id": "transport-plants-sec2",
+    "gradeLevel": "sec2",
+    "title": "Transport in Plants",
+    "title_zh": "植物中的运输",
+    "description": "Xylem, phloem, transpiration, water uptake",
+    "description_zh": "木质部、韧皮部、蒸腾作用、水分吸收",
+    "tag": "Biology",
+    "tag_zh": "生物",
+    "objectives": [
+      "Describe structure and function of xylem and phloem",
+      "Explain transpiration process",
+      "Identify factors affecting transpiration rate",
+      "Relate to tropical plants in Singapore's climate"
+    ],
+    "objectives_zh": [
+      "描述木质部和韧皮部的结构和功能",
+      "解释蒸腾作用过程",
+      "识别影响蒸腾速率的因素",
+      "与新加坡气候中的热带植物联系起来"
+    ],
+    "sections": [
+      {
+        "id": "xylem-phloem",
+        "type": "text",
+        "title": "Xylem and Phloem",
+        "title_zh": "木质部和韧皮部",
+        "content": "Xylem transports water and minerals upward from roots. Phloem transports sugars (products of photosynthesis) up and down. Both form vascular bundles.",
+        "content_zh": "木质部从根部向上运输水和矿物质。韧皮部向上和向下运输糖（光合作用的产物）。两者形成维管束。"
+      },
+      {
+        "id": "transpiration",
+        "type": "text",
+        "title": "Transpiration",
+        "title_zh": "蒸腾作用",
+        "content": "Loss of water vapor through stomata in leaves. Creates transpiration pull drawing water upward. Factors: temperature, humidity, wind, light. High humidity in Singapore slows transpiration.",
+        "content_zh": "通过叶片中的气孔失去水蒸气。产生蒸腾拉力将水向上吸引。因素：温度、湿度、风、光。新加坡的高湿度减慢了蒸腾作用。"
+      },
+      {
+        "id": "adaptations",
+        "type": "text",
+        "title": "Adaptations of Plants",
+        "title_zh": "植物的适应",
+        "content": "Tropical plants in Singapore have broad leaves for photosynthesis, drip tips for rain runoff, shallow roots for nutrient-poor soil, waxy cuticles to reduce water loss.",
+        "content_zh": "新加坡的热带植物有宽大的叶子用于光合作用、滴水尖端用于雨水流失、浅根用于营养贫乏的土壤、蜡质角质层以减少水分流失。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "transport-plants-q1",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Xylem transports:",
+        "prompt_zh": "[Transport in Plants - 问题 1]",
+        "choices": [
+          "water and minerals upward",
+          "sugars downward",
+          "oxygen",
+          "proteins"
+        ],
+        "answer": 0,
+        "hint": "Think about the key concepts.",
+        "hint_zh": "想想关键概念。"
+      },
+      {
+        "id": "transport-plants-q2",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Phloem transports:",
+        "prompt_zh": "[Transport in Plants - 问题 2]",
+        "choices": [
+          "sugars up and down",
+          "water only up",
+          "minerals only",
+          "gases"
+        ],
+        "answer": 0,
+        "hint": "Think about the key concepts.",
+        "hint_zh": "想想关键概念。"
+      },
+      {
+        "id": "transport-plants-q3",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Transpiration is loss of:",
+        "prompt_zh": "[Transport in Plants - 问题 3]",
+        "choices": [
+          "water vapor through stomata",
+          "gases through roots",
+          "minerals",
+          "sugars"
+        ],
+        "answer": 0,
+        "hint": "Think about the key concepts.",
+        "hint_zh": "想想关键概念。"
+      },
+      {
+        "id": "transport-plants-q4",
+        "type": "short",
+        "difficulty": "easy",
+        "prompt": "Stomata are found on:",
+        "prompt_zh": "[Transport in Plants - 问题 4]",
+        "answer": "leaves",
+        "validator": "exact",
+        "hint": "Review the section notes.",
+        "hint_zh": "查看章节注释。"
+      },
+      {
+        "id": "transport-plants-q5",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Transpiration creates:",
+        "prompt_zh": "[Transport in Plants - 问题 5]",
+        "choices": [
+          "transpiration pull",
+          "push",
+          "no force",
+          "electricity"
+        ],
+        "answer": 0,
+        "hint": "Think about the key concepts.",
+        "hint_zh": "想想关键概念。"
+      },
+      {
+        "id": "transport-plants-q6",
+        "type": "multi",
+        "difficulty": "medium",
+        "prompt": "Factors affecting transpiration: (Select all)",
+        "prompt_zh": "[Transport in Plants - 问题 6]",
+        "choices": [
+          "Temperature",
+          "Humidity",
+          "Wind",
+          "Light"
+        ],
+        "answers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "hint": "Select all correct answers.",
+        "hint_zh": "选择所有正确答案。"
+      },
+      {
+        "id": "transport-plants-q7",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "High humidity in Singapore ___ transpiration:",
+        "prompt_zh": "[Transport in Plants - 问题 7]",
+        "choices": [
+          "slows",
+          "speeds up",
+          "stops",
+          "no effect"
+        ],
+        "answer": 0,
+        "hint": "Think about the key concepts.",
+        "hint_zh": "想想关键概念。"
+      },
+      {
+        "id": "transport-plants-q8",
+        "type": "short",
+        "difficulty": "medium",
+        "prompt": "Root hairs increase:",
+        "prompt_zh": "[Transport in Plants - 问题 8]",
+        "answer": "surface area",
+        "validator": "exact",
+        "hint": "Review the section notes.",
+        "hint_zh": "查看章节注释。"
+      },
+      {
+        "id": "transport-plants-q9",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Xylem vessels are:",
+        "prompt_zh": "[Transport in Plants - 问题 9]",
+        "choices": [
+          "dead hollow tubes",
+          "living cells",
+          "solid",
+          "flexible"
+        ],
+        "answer": 0,
+        "hint": "Think about the key concepts.",
+        "hint_zh": "想想关键概念。"
+      },
+      {
+        "id": "transport-plants-q10",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Phloem cells are:",
+        "prompt_zh": "[Transport in Plants - 问题 10]",
+        "choices": [
+          "living",
+          "dead",
+          "hollow",
+          "absent"
+        ],
+        "answer": 0,
+        "hint": "Think about the key concepts.",
+        "hint_zh": "想想关键概念。"
+      },
+      {
+        "id": "transport-plants-q11",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Wilting occurs when:",
+        "prompt_zh": "[Transport in Plants - 问题 11]",
+        "choices": [
+          "water loss exceeds uptake",
+          "too much water",
+          "no sunlight",
+          "cold weather"
+        ],
+        "answer": 0,
+        "hint": "Think about the key concepts.",
+        "hint_zh": "想想关键概念。"
+      },
+      {
+        "id": "transport-plants-q12",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Tropical plants in Singapore have:",
+        "prompt_zh": "[Transport in Plants - 问题 12]",
+        "choices": [
+          "broad leaves, drip tips",
+          "small leaves",
+          "no leaves",
+          "spines only"
+        ],
+        "answer": 0,
+        "hint": "Think about the key concepts.",
+        "hint_zh": "想想关键概念。"
+      },
+      {
+        "id": "transport-plants-q13",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Waxy cuticle on leaves:",
+        "prompt_zh": "[Transport in Plants - 问题 13]",
+        "choices": [
+          "reduces water loss",
+          "increases water loss",
+          "absorbs light",
+          "makes food"
+        ],
+        "answer": 0,
+        "hint": "Think about the key concepts.",
+        "hint_zh": "想想关键概念。"
+      },
+      {
+        "id": "transport-plants-q14",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Translocation is movement of:",
+        "prompt_zh": "[Transport in Plants - 问题 14]",
+        "choices": [
+          "sugars in phloem",
+          "water in xylem",
+          "minerals only",
+          "oxygen"
+        ],
+        "answer": 0,
+        "hint": "Think about the key concepts.",
+        "hint_zh": "想想关键概念。"
+      },
+      {
+        "id": "transport-plants-q15",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Guard cells control:",
+        "prompt_zh": "[Transport in Plants - 问题 15]",
+        "choices": [
+          "stomata opening/closing",
+          "root growth",
+          "flower color",
+          "stem height"
+        ],
+        "answer": 0,
+        "hint": "Think about the key concepts.",
+        "hint_zh": "想想关键概念。"
+      }
+    ]
+  },
+  {
+    "id": "respiration-sec2",
+    "gradeLevel": "sec2",
+    "title": "Respiration",
+    "title_zh": "呼吸作用",
+    "description": "Aerobic and anaerobic respiration, energy release",
+    "description_zh": "有氧呼吸和无氧呼吸、能量释放",
+    "tag": "Biology",
+    "tag_zh": "生物",
+    "objectives": [
+      "Compare aerobic and anaerobic respiration",
+      "Write word equations for both types",
+      "Explain energy release in cells",
+      "Apply to exercise and Singapore's hot climate"
+    ],
+    "objectives_zh": [
+      "比较有氧呼吸和无氧呼吸",
+      "写出两种类型的文字方程式",
+      "解释细胞中的能量释放",
+      "应用于运动和新加坡的炎热气候"
+    ],
+    "sections": [
+      {
+        "id": "aerobic-respiration",
+        "type": "text",
+        "title": "Aerobic Respiration",
+        "title_zh": "有氧呼吸",
+        "content": "Glucose + Oxygen → Carbon dioxide + Water + Energy (ATP). Occurs in mitochondria. Releases large amount of energy efficiently. Most common type in cells.",
+        "content_zh": "葡萄糖 + 氧气 → 二氧化碳 + 水 + 能量(ATP)。发生在线粒体中。有效释放大量能量。细胞中最常见的类型。"
+      },
+      {
+        "id": "anaerobic-respiration",
+        "type": "text",
+        "title": "Anaerobic Respiration",
+        "title_zh": "无氧呼吸",
+        "content": "Without oxygen. In animals: Glucose → Lactic acid + Energy. In plants/yeast: Glucose → Ethanol + Carbon dioxide + Energy. Less energy released. Used during intense exercise.",
+        "content_zh": "没有氧气。在动物中：葡萄糖 → 乳酸 + 能量。在植物/酵母中：葡萄糖 → 乙醇 + 二氧化碳 + 能量。释放的能量较少。在剧烈运动期间使用。"
+      },
+      {
+        "id": "comparison",
+        "type": "text",
+        "title": "Comparing Respiration Types",
+        "title_zh": "比较呼吸类型",
+        "content": "Aerobic: needs O₂, produces CO₂+H₂O, lots of energy, in mitochondria. Anaerobic: no O₂, produces lactic acid/ethanol, little energy, in cytoplasm. Singapore athletes train in heat/humidity affecting respiration.",
+        "content_zh": "有氧：需要O₂，产生CO₂+H₂O，大量能量，在线粒体中。无氧：无O₂，产生乳酸/乙醇，少量能量，在细胞质中。新加坡运动员在影响呼吸的高温/高湿度中训练。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "respiration-q1",
+        "type": "short",
+        "difficulty": "easy",
+        "prompt": "Aerobic respiration equation: C₆H₁₂O₆ + 6O₂ →",
+        "prompt_zh": "[Respiration - 问题 1]",
+        "answer": "6CO₂ + 6H₂O + energy (ATP)",
+        "validator": "exact",
+        "hint": "Apply scientific method: observe, hypothesize, experiment, analyze, conclude.",
+        "hint_zh": "运用科学方法:观察、假设、实验、分析、结论。"
+      },
+      {
+        "id": "respiration-q2",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Respiration occurs in:",
+        "prompt_zh": "[Respiration - 问题 2]",
+        "choices": [
+          "All living cells",
+          "Only muscle cells",
+          "Only plant cells",
+          "Only when exercising"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "respiration-q3",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Energy from respiration stored in:",
+        "prompt_zh": "[Respiration - 问题 3]",
+        "choices": [
+          "ATP molecules",
+          "Glucose",
+          "Oxygen",
+          "Water"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "respiration-q4",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Aerobic respiration requires:",
+        "prompt_zh": "[Respiration - 问题 4]",
+        "choices": [
+          "Oxygen",
+          "Carbon dioxide",
+          "Light",
+          "Nitrogen"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "respiration-q5",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Anaerobic respiration in humans produces:",
+        "prompt_zh": "[Respiration - 问题 5]",
+        "choices": [
+          "Lactic acid",
+          "Alcohol",
+          "Oxygen",
+          "Glucose"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "respiration-q6",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Experiment: Germinating seeds in thermos produce heat. This shows:",
+        "prompt_zh": "[Respiration - 问题 6]",
+        "choices": [
+          "Respiration releases energy as heat",
+          "Seeds are cold-blooded",
+          "Thermos generates heat",
+          "No respiration in seeds"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "respiration-q7",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Marathon runner after race has muscle pain. Caused by:",
+        "prompt_zh": "[Respiration - 问题 7]",
+        "choices": [
+          "Lactic acid buildup from anaerobic respiration",
+          "Excess oxygen",
+          "Too much glucose",
+          "Aerobic respiration"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "respiration-q8",
+        "type": "short",
+        "difficulty": "medium",
+        "prompt": "Yeast in bread dough: C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂ + energy. This is:",
+        "prompt_zh": "[Respiration - 问题 8]",
+        "answer": "anaerobic respiration (fermentation)",
+        "validator": "exact",
+        "hint": "Apply scientific method: observe, hypothesize, experiment, analyze, conclude.",
+        "hint_zh": "运用科学方法:观察、假设、实验、分析、结论。"
+      },
+      {
+        "id": "respiration-q9",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Aerobic vs anaerobic: aerobic produces:",
+        "prompt_zh": "[Respiration - 问题 9]",
+        "choices": [
+          "38 ATP vs 2 ATP (much more efficient)",
+          "Same energy",
+          "Less energy",
+          "No ATP"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "respiration-q10",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Mitochondria called 'powerhouse' because:",
+        "prompt_zh": "[Respiration - 问题 10]",
+        "choices": [
+          "Site of aerobic respiration producing ATP",
+          "Produce electricity",
+          "Store energy",
+          "Generate heat only"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "respiration-q11",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Singapore hawker making lontong: soaks beans in water overnight. Respiration rate increases initially then decreases. Why decrease?",
+        "prompt_zh": "[Respiration - 问题 11]",
+        "choices": [
+          "Oxygen in water depleted, anaerobic respiration less efficient",
+          "Beans die",
+          "Temperature drops",
+          "Too much energy"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "respiration-q12",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Athlete breathes heavily after race. Oxygen debt means:",
+        "prompt_zh": "[Respiration - 问题 12]",
+        "choices": [
+          "Oxygen needed to break down lactic acid accumulated during anaerobic respiration",
+          "Borrowed oxygen",
+          "Lung damage",
+          "Excess oxygen intake"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "respiration-q13",
+        "type": "short",
+        "difficulty": "hard",
+        "prompt": "Respiratory quotient RQ = CO₂ produced / O₂ consumed. For glucose, RQ = 1. For fats, RQ = 0.7. Person with RQ = 0.85 is:",
+        "prompt_zh": "[Respiration - 问题 13]",
+        "answer": "respiring mixture of carbohydrates and fats",
+        "validator": "exact",
+        "hint": "Apply scientific method: observe, hypothesize, experiment, analyze, conclude.",
+        "hint_zh": "运用科学方法:观察、假设、实验、分析、结论。"
+      },
+      {
+        "id": "respiration-q14",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Cyanide poisoning blocks electron transport chain in mitochondria. Effect:",
+        "prompt_zh": "[Respiration - 问题 14]",
+        "choices": [
+          "Aerobic respiration stops, no ATP produced, rapid death",
+          "Anaerobic increases compensation",
+          "No effect",
+          "More energy produced"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "respiration-q15",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Germinating seeds: Mass decreases over time despite taking in water. Why?",
+        "prompt_zh": "[Respiration - 问题 15]",
+        "choices": [
+          "Respiration converts glucose to CO₂ + H₂O, CO₂ released reduces mass",
+          "Seed shrinking",
+          "Water evaporates",
+          "Decomposition"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      }
+    ]
+  },
+  {
+    "id": "human-transport-sec2",
+    "gradeLevel": "sec2",
+    "title": "Human Transport System",
+    "title_zh": "人体运输系统",
+    "description": "Blood, blood vessels, heart, circulation",
+    "description_zh": "血液、血管、心脏、循环",
+    "tag": "Biology",
+    "tag_zh": "生物",
+    "objectives": [
+      "Describe components and functions of blood",
+      "Compare arteries, veins, and capillaries",
+      "Explain the structure and function of the heart",
+      "Understand health implications in Singapore's aging population"
+    ],
+    "objectives_zh": [
+      "描述血液的成分和功能",
+      "比较动脉、静脉和毛细血管",
+      "解释心脏的结构和功能",
+      "理解新加坡老龄化人口的健康影响"
+    ],
+    "sections": [
+      {
+        "id": "blood-components",
+        "type": "text",
+        "title": "Components of Blood",
+        "title_zh": "血液的成分",
+        "content": "Red blood cells (carry O₂), white blood cells (fight infection), platelets (clotting), plasma (liquid transport). Adults have 4-6 liters of blood.",
+        "content_zh": "红细胞（携带O₂）、白细胞（对抗感染）、血小板（凝血）、血浆（液体运输）。成年人有4-6升血液。"
+      },
+      {
+        "id": "blood-vessels",
+        "type": "text",
+        "title": "Types of Blood Vessels",
+        "title_zh": "血管类型",
+        "content": "Arteries: thick walls, carry blood away from heart, high pressure. Veins: thin walls, valves, carry blood to heart, low pressure. Capillaries: one cell thick, exchange of materials.",
+        "content_zh": "动脉：厚壁，从心脏输送血液，高压。静脉：薄壁，瓣膜，向心脏输送血液，低压。毛细血管：一个细胞厚，物质交换。"
+      },
+      {
+        "id": "heart-circulation",
+        "type": "text",
+        "title": "Heart and Circulation",
+        "title_zh": "心脏和循环",
+        "content": "Double circulation: pulmonary (heart-lungs-heart) and systemic (heart-body-heart). Heart has 4 chambers. Valves prevent backflow. Heart disease is a concern in aging Singapore population.",
+        "content_zh": "双循环：肺循环（心脏-肺-心脏）和体循环（心脏-身体-心脏）。心脏有4个腔室。瓣膜防止回流。心脏病是新加坡老龄化人口的一个关注点。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "human-transport-q1",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Heart pumps:",
+        "prompt_zh": "[Human Transport System - 问题 1]",
+        "choices": [
+          "Blood around the body",
+          "Air to lungs",
+          "Food to stomach",
+          "Nutrients only"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "human-transport-q2",
+        "type": "short",
+        "difficulty": "easy",
+        "prompt": "Red blood cells carry:",
+        "prompt_zh": "[Human Transport System - 问题 2]",
+        "answer": "oxygen",
+        "validator": "exact",
+        "hint": "Apply scientific method: observe, hypothesize, experiment, analyze, conclude.",
+        "hint_zh": "运用科学方法:观察、假设、实验、分析、结论。"
+      },
+      {
+        "id": "human-transport-q3",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Arteries carry blood:",
+        "prompt_zh": "[Human Transport System - 问题 3]",
+        "choices": [
+          "Away from heart",
+          "To heart",
+          "Only to lungs",
+          "Only to brain"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "human-transport-q4",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Veins have:",
+        "prompt_zh": "[Human Transport System - 问题 4]",
+        "choices": [
+          "Valves to prevent backflow",
+          "No valves",
+          "Thicker walls than arteries",
+          "Carry only pure blood"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "human-transport-q5",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Double circulation means:",
+        "prompt_zh": "[Human Transport System - 问题 5]",
+        "choices": [
+          "Blood passes through heart twice per circuit",
+          "Two hearts",
+          "Two types of blood",
+          "Blood flows both ways"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "human-transport-q6",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Pulmonary artery is unusual because it carries:",
+        "prompt_zh": "[Human Transport System - 问题 6]",
+        "choices": [
+          "Deoxygenated blood from heart to lungs",
+          "Oxygenated blood to body",
+          "Blood to heart",
+          "Nutrients to lungs"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "human-transport-q7",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Blood pressure in arteries is high because:",
+        "prompt_zh": "[Human Transport System - 问题 7]",
+        "choices": [
+          "Heart pumps blood forcefully and artery walls are elastic",
+          "Arteries are thin",
+          "Gravity",
+          "Oxygen content high"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "human-transport-q8",
+        "type": "short",
+        "difficulty": "medium",
+        "prompt": "Capillaries have walls one cell thick because:",
+        "prompt_zh": "[Human Transport System - 问题 8]",
+        "answer": "allow efficient diffusion of materials between blood and tissues",
+        "validator": "exact",
+        "hint": "Apply scientific method: observe, hypothesize, experiment, analyze, conclude.",
+        "hint_zh": "运用科学方法:观察、假设、实验、分析、结论。"
+      },
+      {
+        "id": "human-transport-q9",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Hemoglobin combines with oxygen in lungs, releases in tissues because:",
+        "prompt_zh": "[Human Transport System - 问题 9]",
+        "choices": [
+          "Higher O₂ concentration in lungs, lower in respiring tissues",
+          "Temperature difference",
+          "pH same everywhere",
+          "Pressure difference"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "human-transport-q10",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "White blood cells defend against:",
+        "prompt_zh": "[Human Transport System - 问题 10]",
+        "choices": [
+          "Pathogens by phagocytosis and antibody production",
+          "Oxygen transport",
+          "Blood clotting",
+          "Nutrient transport"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "human-transport-q11",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Athlete training in Singapore (30°C, humid). Heart rate increases from 60 to 140 bpm. Stroke volume 70mL. Cardiac output at 140bpm:",
+        "prompt_zh": "[Human Transport System - 问题 11]",
+        "choices": [
+          "9.8 L/min",
+          "4.2 L/min",
+          "140 L/min",
+          "70 L/min"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "human-transport-q12",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Coronary arteries supply heart muscle. Blockage causes heart attack because:",
+        "prompt_zh": "[Human Transport System - 问题 12]",
+        "choices": [
+          "Heart muscle cells deprived of O₂ and glucose, cannot produce ATP, die",
+          "Blood can't leave heart",
+          "Valves fail",
+          "Brain affected"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "human-transport-q13",
+        "type": "short",
+        "difficulty": "hard",
+        "prompt": "Fetal circulation: Blood bypasses lungs via foramen ovale. At birth, this closes because:",
+        "prompt_zh": "[Human Transport System - 问题 13]",
+        "answer": "lungs start working pressure changes cause flap to seal",
+        "validator": "exact",
+        "hint": "Apply scientific method: observe, hypothesize, experiment, analyze, conclude.",
+        "hint_zh": "运用科学方法:观察、假设、实验、分析、结论。"
+      },
+      {
+        "id": "human-transport-q14",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Blood doping: Inject extra red blood cells before competition. Advantage:",
+        "prompt_zh": "[Human Transport System - 问题 14]",
+        "choices": [
+          "More O₂ carried to muscles improving endurance",
+          "More white cells",
+          "Faster clotting",
+          "Lower heart rate"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "human-transport-q15",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Tissue fluid formation: High pressure at arteriole end forces fluid out. At venule end, low pressure and high protein concentration draws fluid back. If lymphatic vessels blocked:",
+        "prompt_zh": "[Human Transport System - 问题 15]",
+        "choices": [
+          "Tissue swelling (edema) as fluid accumulates",
+          "No effect",
+          "Blood pressure rises only",
+          "Dehydration"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      }
+    ]
+  },
+  {
+    "id": "coordination-response-sec2",
+    "gradeLevel": "sec2",
+    "title": "Coordination & Response",
+    "title_zh": "协调与反应",
+    "description": "Nervous system, hormones, homeostasis",
+    "description_zh": "神经系统、激素、稳态",
+    "tag": "Biology",
+    "tag_zh": "生物",
+    "objectives": [
+      "Describe the structure of the nervous system",
+      "Explain reflex actions",
+      "Compare nervous and hormonal coordination",
+      "Understand homeostasis and temperature regulation in tropical climate"
+    ],
+    "objectives_zh": [
+      "描述神经系统的结构",
+      "解释反射动作",
+      "比较神经协调和激素协调",
+      "理解热带气候中的稳态和温度调节"
+    ],
+    "sections": [
+      {
+        "id": "nervous-system",
+        "type": "text",
+        "title": "Nervous System",
+        "title_zh": "神经系统",
+        "content": "CNS (brain, spinal cord) processes information. PNS (nerves) carries signals. Neurons transmit electrical impulses rapidly for quick responses.",
+        "content_zh": "中枢神经系统（大脑、脊髓）处理信息。周围神经系统（神经）传递信号。神经元快速传递电脉冲以进行快速反应。"
+      },
+      {
+        "id": "reflex-actions",
+        "type": "text",
+        "title": "Reflex Actions",
+        "title_zh": "反射动作",
+        "content": "Automatic, rapid, protective responses. Reflex arc: receptor → sensory neuron → relay neuron → motor neuron → effector. Example: pulling hand from hot object.",
+        "content_zh": "自动、快速、保护性反应。反射弧：感受器 → 感觉神经元 → 中继神经元 → 运动神经元 → 效应器。例如：从热物体上拉手。"
+      },
+      {
+        "id": "hormones-homeostasis",
+        "type": "text",
+        "title": "Hormones and Homeostasis",
+        "title_zh": "激素和稳态",
+        "content": "Hormones: chemical messengers in blood, slower but longer-lasting. Homeostasis maintains constant internal environment (temperature, blood sugar). In Singapore's 30°C+ heat, body cools via sweating.",
+        "content_zh": "激素：血液中的化学信使，较慢但持续时间较长。稳态维持恒定的内部环境（温度、血糖）。在新加坡30°C+的高温中，身体通过出汗降温。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "coordination-response-q1",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Nervous system includes:",
+        "prompt_zh": "[Coordination & Response - 问题 1]",
+        "choices": [
+          "Brain, spinal cord, nerves",
+          "Heart and blood vessels",
+          "Lungs and airways",
+          "Stomach and intestines"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "coordination-response-q2",
+        "type": "short",
+        "difficulty": "easy",
+        "prompt": "Stimulus is:",
+        "prompt_zh": "[Coordination & Response - 问题 2]",
+        "answer": "a change in environment that is detected",
+        "validator": "exact",
+        "hint": "Apply scientific method: observe, hypothesize, experiment, analyze, conclude.",
+        "hint_zh": "运用科学方法:观察、假设、实验、分析、结论。"
+      },
+      {
+        "id": "coordination-response-q3",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Receptors detect:",
+        "prompt_zh": "[Coordination & Response - 问题 3]",
+        "choices": [
+          "Stimuli",
+          "Responses",
+          "Energy only",
+          "Nothing"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "coordination-response-q4",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Reflex actions are:",
+        "prompt_zh": "[Coordination & Response - 问题 4]",
+        "choices": [
+          "Automatic and rapid responses",
+          "Slow and thought out",
+          "Voluntary only",
+          "Learned behaviors"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "coordination-response-q5",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Hormones are transported by:",
+        "prompt_zh": "[Coordination & Response - 问题 5]",
+        "choices": [
+          "Blood",
+          "Nerves",
+          "Air",
+          "Lymph only"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "coordination-response-q6",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Reflex arc pathway: Stimulus → receptor → sensory neuron → relay neuron → motor neuron → effector. In knee-jerk reflex, relay neuron is:",
+        "prompt_zh": "[Coordination & Response - 问题 6]",
+        "choices": [
+          "In spinal cord (CNS)",
+          "In muscle",
+          "In skin",
+          "Not present"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "coordination-response-q7",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Pupil reflex: Bright light causes pupil to constrict. Advantage:",
+        "prompt_zh": "[Coordination & Response - 问题 7]",
+        "choices": [
+          "Protects retina from damage by excess light",
+          "See better in dark",
+          "Increases light entry",
+          "No advantage"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "coordination-response-q8",
+        "type": "short",
+        "difficulty": "medium",
+        "prompt": "Synapse: Impulse crosses gap by:",
+        "prompt_zh": "[Coordination & Response - 问题 8]",
+        "answer": "neurotransmitter chemical diffusion",
+        "validator": "exact",
+        "hint": "Apply scientific method: observe, hypothesize, experiment, analyze, conclude.",
+        "hint_zh": "运用科学方法:观察、假设、实验、分析、结论。"
+      },
+      {
+        "id": "coordination-response-q9",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Hot object touched: Hand withdraws before feeling pain. This shows:",
+        "prompt_zh": "[Coordination & Response - 问题 9]",
+        "choices": [
+          "Reflex faster than conscious thought; spinal cord involved",
+          "No pain receptors",
+          "Brain very fast",
+          "Muscles act alone"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "coordination-response-q10",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Adrenaline hormone during stress increases:",
+        "prompt_zh": "[Coordination & Response - 问题 10]",
+        "choices": [
+          "Heart rate, breathing rate, glucose release for fight-or-flight",
+          "Digestion",
+          "Sleep",
+          "Bone growth"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "coordination-response-q11",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Nerve impulse speed ~100 m/s. If toe to brain is 2m, time for pain signal:",
+        "prompt_zh": "[Coordination & Response - 问题 11]",
+        "choices": [
+          "0.02 seconds (20 ms)",
+          "2 seconds",
+          "0.2 seconds",
+          "200 seconds"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "coordination-response-q12",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Diabetes: Pancreas fails to produce insulin. Result:",
+        "prompt_zh": "[Coordination & Response - 问题 12]",
+        "choices": [
+          "Blood glucose remains high after meals, glucose in urine",
+          "Low blood sugar",
+          "High blood pressure only",
+          "Oxygen deficiency"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "coordination-response-q13",
+        "type": "short",
+        "difficulty": "hard",
+        "prompt": "Myelin sheath on neurons functions to:",
+        "prompt_zh": "[Coordination & Response - 问题 13]",
+        "answer": "insulate and speed up impulse transmission",
+        "validator": "exact",
+        "hint": "Apply scientific method: observe, hypothesize, experiment, analyze, conclude.",
+        "hint_zh": "运用科学方法:观察、假设、实验、分析、结论。"
+      },
+      {
+        "id": "coordination-response-q14",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Singapore driver reacts to red light. Response time = 0.2s, driving at 20m/s. Thinking distance:",
+        "prompt_zh": "[Coordination & Response - 问题 14]",
+        "choices": [
+          "4m",
+          "20m",
+          "0.2m",
+          "100m"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      },
+      {
+        "id": "coordination-response-q15",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Hormones vs nerves: Hormones are:",
+        "prompt_zh": "[Coordination & Response - 问题 15]",
+        "choices": [
+          "Slower, longer-lasting, target multiple organs via blood",
+          "Faster, short-lived, precise",
+          "Same speed",
+          "Only in plants"
+        ],
+        "answer": 0,
+        "hint": "Consider the scientific principles and Singapore context in the question.",
+        "hint_zh": "考虑问题中的科学原理和新加坡背景。"
+      }
+    ]
+  }
+]

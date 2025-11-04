@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head><title>LocalStorage Debug</title></head>
+<body>
+<h1>LocalStorage Debug</h1>
+<pre id="output"></pre>
+<script>
+const storage = localStorage.getItem('sg-learning-app-storage');
+const migrationFlag = localStorage.getItem('sg-learning-progress-migration-v3');
+document.getElementById('output').textContent = 
+  'Migration Flag: ' + migrationFlag + '\n\n' +
+  'Storage Data:\n' + 
+  JSON.stringify(JSON.parse(storage || '{}'), null, 2);
+</script>
+</body>
+</html>

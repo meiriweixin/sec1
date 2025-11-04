@@ -374,6 +374,7 @@ export const useStore = create<UserState>()(
 
             if (!legacyMigrationFlag) {
               // Check if we have old 'progress' and 'aiProgress' fields in localStorage
+              // We need to read raw storage because Zustand's partialize won't load old fields
               const rawStorage = localStorage.getItem('sg-learning-app-storage');
               if (rawStorage) {
                 try {
@@ -392,9 +393,10 @@ export const useStore = create<UserState>()(
                     };
                   }
 
-                  if (oldState.aiProgress && Object.keys(oldState.aiProgress).length > 0) {
+                  if (oldState.aiProgress && typeof oldState.aiProgress === 'object' && Object.keys(oldState.aiProgress).length > 0) {
                     // Use 'user1' as the default user ID for legacy AI progress
                     const legacyUserId = 'user1';
+
                     state.allUsersAIProgress = {
                       ...state.allUsersAIProgress,
                       [legacyUserId]: oldState.aiProgress

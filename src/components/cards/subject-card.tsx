@@ -98,7 +98,7 @@ export function SubjectCard({ subject }: SubjectCardProps) {
     const chapter = subject.chapters.find(ch => ch.id === p.chapterId);
     return p.completed && chapter?.gradeLevel === gradeLevel;
   }).length;
-  const progressPercentage = totalChapters > 0 ? (completedChapters / totalChapters) * 100 : 0;
+  const progressPercentage = totalChapters > 0 ? Math.min(100, (completedChapters / totalChapters) * 100) : 0;
   
   const title = language === 'zh' && subject.title_zh ? subject.title_zh : subject.title;
   const description = language === 'zh' && subject.description_zh ? subject.description_zh : subject.description;

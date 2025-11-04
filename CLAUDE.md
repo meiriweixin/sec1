@@ -72,16 +72,44 @@ The app uses Zustand with persistence for global state management (`src/lib/stor
 - **User State**: Authentication (login/logout), user profile, guest mode
 - **Language & Theme**: Bilingual support (English/Chinese), theme switching
 - **Grade Level Selection**: Current grade level (sec1, sec2, sec3, sec4, jc1, jc2)
-- **Learning Progress**: Per-chapter tracking of sections completed, exercises completed, scores, time spent
-- **AI Module Progress**: Separate tracking for AI Playground modules
+- **Learning Progress**: **User-specific** per-chapter tracking of sections completed, exercises completed, scores, time spent
+- **AI Module Progress**: **User-specific** tracking for AI Playground modules
 
-Key store methods:
+**CRITICAL: User-Specific Progress Architecture**
+
+Progress data is stored separately for each user using their user ID as a key:
+
+```typescript
+// Store structure
+allUsersProgress: Record<string, Progress[]>  // userId → Progress[]
+allUsersAIProgress: Record<string, Record<string, AIModuleProgress>>  // userId → aiProgress
+```
+
+**When accessing progress in components:**
+```typescript
+// ✅ CORRECT - Get user-specific progress
+const { user, allUsersProgress, allUsersAIProgress } = useStore();
+const userId = user?.id;
+const userProgress = userId ? (allUsersProgress[userId] || []) : [];
+const userAIProgress = userId ? (allUsersAIProgress[userId] || {}) : {};
+
+// ❌ WRONG - Do NOT access progress directly
+const { progress, aiProgress } = useStore(); // These fields don't exist!
+```
+
+**Key store methods** (all automatically filter by current user):
 - `setGradeLevel(gradeLevel)`: Sets the current grade level (filters displayed chapters)
-- `updateProgress()`: Updates chapter progress (sections/exercises/scores)
-- `getChapterProgress(subjectId, chapterId)`: Retrieves progress for a specific chapter
-- `toggleAIModuleComplete(moduleId)`: Marks AI modules as complete
+- `updateProgress()`: Updates chapter progress for current user (sections/exercises/scores)
+- `getChapterProgress(subjectId, chapterId)`: Retrieves progress for current user's specific chapter
+- `getSubjectProgress(subjectId)`: Returns all chapter progress for current user in a subject
+- `toggleAIModuleComplete(moduleId)`: Marks AI modules as complete for current user
 
-Progress is persisted to localStorage under the key `sg-learning-app-storage`.
+**Why user-specific?**
+- Different users (email, Google, guest) maintain separate progress
+- Re-login preserves user's own progress, not other users' data
+- Supports multiple authentication methods with isolated data
+
+Progress is persisted to localStorage under the key `sg-learning-app-storage` with automatic migration from legacy single-user format.
 
 ### Content Structure (JSON-driven)
 

@@ -1,0 +1,3852 @@
+[
+  {
+    "id": "linear-equations-two-variables-sec2",
+    "gradeLevel": "sec2",
+    "title": "Linear Equations in Two Variables",
+    "title_zh": "二元一次方程",
+    "description": "Solving simultaneous linear equations using substitution and elimination methods",
+    "description_zh": "使用代入法和消元法求解二元一次方程组",
+    "tag": "Algebra",
+    "tag_zh": "代数",
+    "objectives": [
+      "Solve simultaneous equations by substitution",
+      "Solve simultaneous equations by elimination",
+      "Apply to real-world problems",
+      "Interpret solutions graphically"
+    ],
+    "objectives_zh": [
+      "用代入法求解二元一次方程组",
+      "用消元法求解二元一次方程组",
+      "应用于实际问题",
+      "图形解释解"
+    ],
+    "sections": [
+      {
+        "id": "substitution-method",
+        "type": "text",
+        "title": "Substitution Method",
+        "title_zh": "代入法",
+        "content": "To solve simultaneous equations by substitution: 1) Make one variable the subject in one equation, 2) Substitute into the other equation, 3) Solve for the remaining variable, 4) Find the other variable. Example: Singapore hawker stalls - if 2 plates of chicken rice and 3 drinks cost $12, and 1 plate costs $2 more than a drink, find the prices.",
+        "content_zh": "用代入法求解二元一次方程组：1）在一个方程中将一个变量表示为另一个的函数，2）代入另一个方程，3）求解剩余变量，4）求另一个变量。例如：新加坡小贩摊位 - 如果2盘鸡饭和3杯饮料共12元，1盘比1杯贵2元，求价格。"
+      },
+      {
+        "id": "elimination-method",
+        "type": "text",
+        "title": "Elimination Method",
+        "title_zh": "消元法",
+        "content": "To solve by elimination: 1) Make coefficients of one variable equal by multiplying, 2) Add or subtract equations to eliminate that variable, 3) Solve for remaining variable, 4) Substitute back to find the other. Useful for Singapore transportation problems (MRT + bus trips).",
+        "content_zh": "用消元法求解：1）通过乘法使一个变量的系数相等，2）加减方程消去该变量，3）求解剩余变量，4）代回求另一个。适用于新加坡交通问题（地铁+巴士行程）。"
+      },
+      {
+        "id": "applications",
+        "type": "text",
+        "title": "Real-World Applications",
+        "title_zh": "实际应用",
+        "content": "Simultaneous equations solve problems involving: pricing (GST-inclusive vs exclusive), mixtures (coffee stalls mixing beans), motion (MRT and walking speeds), and budgeting (HDB conservancy charges).",
+        "content_zh": "二元一次方程组解决涉及以下问题：定价（含消费税与不含）、混合（咖啡摊混合咖啡豆）、运动（地铁和步行速度）和预算（组屋管理费）。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "linear-equations-two-variables-q1",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Solve simultaneously: x + y = 10, x - y = 2",
+        "prompt_zh": "[Linear Equations in Two Variables - 问题 1]",
+        "choices": [
+          "x=6, y=4",
+          "x=4, y=6",
+          "x=8, y=2",
+          "x=5, y=5"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "linear-equations-two-variables-q2",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "At a hawker center, 3 bowls of laksa and 2 cups of kopi cost $15. If 1 laksa costs $1 more than 1 kopi, find the cost of 1 laksa.",
+        "prompt_zh": "[Linear Equations in Two Variables - 问题 2]",
+        "choices": [
+          "$3.50",
+          "$3",
+          "$4",
+          "$2.50"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "linear-equations-two-variables-q3",
+        "type": "short",
+        "difficulty": "easy",
+        "prompt": "Using substitution: y = 3x - 2, 2x + y = 8. Find x.",
+        "prompt_zh": "[Linear Equations in Two Variables - 问题 3]",
+        "answer": "2",
+        "validator": "exact",
+        "hint": "Use problem-solving heuristics: understand the problem, devise a plan, carry out the plan, look back.",
+        "hint_zh": "使用解题策略:理解问题,制定计划,执行计划,回顾检查。"
+      },
+      {
+        "id": "linear-equations-two-variables-q4",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "2 adults and 3 children pay $44 for Zoo tickets. 1 adult and 2 children pay $26. Find adult ticket price.",
+        "prompt_zh": "[Linear Equations in Two Variables - 问题 4]",
+        "choices": [
+          "$14",
+          "$12",
+          "$16",
+          "$10"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "linear-equations-two-variables-q5",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Solve by elimination: 3x + 2y = 16, 3x - y = 7",
+        "prompt_zh": "[Linear Equations in Two Variables - 问题 5]",
+        "choices": [
+          "x=3, y=3.5",
+          "x=4, y=2",
+          "x=2, y=5",
+          "x=5, y=0.5"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "linear-equations-two-variables-q6",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "A rectangle's perimeter is 40cm. If length is 4cm more than twice the width, find the dimensions.",
+        "prompt_zh": "[Linear Equations in Two Variables - 问题 6]",
+        "choices": [
+          "Length=14cm, Width=6cm",
+          "Length=16cm, Width=4cm",
+          "Length=12cm, Width=8cm",
+          "Length=18cm, Width=2cm"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "linear-equations-two-variables-q7",
+        "type": "short",
+        "difficulty": "medium",
+        "prompt": "The sum of two numbers is 45. If one number is 3 more than twice the other, what is the larger number?",
+        "prompt_zh": "[Linear Equations in Two Variables - 问题 7]",
+        "answer": "31",
+        "validator": "exact",
+        "hint": "Use problem-solving heuristics: understand the problem, devise a plan, carry out the plan, look back.",
+        "hint_zh": "使用解题策略:理解问题,制定计划,执行计划,回顾检查。"
+      },
+      {
+        "id": "linear-equations-two-variables-q8",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "At Sentosa, family ticket costs $x and child ticket $y. Equation 1: 2x + 3y = 140. Equation 2: x + 2y = 80. If you buy 5 family tickets, how much do you pay?",
+        "prompt_zh": "[Linear Equations in Two Variables - 问题 8]",
+        "choices": [
+          "$100",
+          "$150",
+          "$200",
+          "$125"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "linear-equations-two-variables-q9",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Solve: 4x - 3y = 5, 8x - 6y = 10. What can you conclude?",
+        "prompt_zh": "[Linear Equations in Two Variables - 问题 9]",
+        "choices": [
+          "Infinite solutions (same line)",
+          "No solution",
+          "One unique solution",
+          "Two solutions"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "linear-equations-two-variables-q10",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "A school bought pens at $x each and pencils at $y each. Total for 50 pens and 30 pencils: $85. Total for 30 pens and 50 pencils: $95. Find x - y.",
+        "prompt_zh": "[Linear Equations in Two Variables - 问题 10]",
+        "choices": [
+          "$0.25",
+          "-$0.25",
+          "$0.50",
+          "$0"
+        ],
+        "answer": 1,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "linear-equations-two-variables-q11",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "MRT charges base fare $0.77 plus $0.08 per km. Bus charges $0.50 plus $0.10 per km. At what distance do both cost the same?",
+        "prompt_zh": "[Linear Equations in Two Variables - 问题 11]",
+        "choices": [
+          "1.35 km",
+          "2.7 km",
+          "1 km",
+          "3 km"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "linear-equations-two-variables-q12",
+        "type": "short",
+        "difficulty": "hard",
+        "prompt": "A boat travels 30km downstream in 2h, and 18km upstream in 3h. If current speed is y km/h and boat speed in still water is x km/h, find x.",
+        "prompt_zh": "[Linear Equations in Two Variables - 问题 12]",
+        "answer": "12",
+        "validator": "exact",
+        "hint": "Use problem-solving heuristics: understand the problem, devise a plan, carry out the plan, look back.",
+        "hint_zh": "使用解题策略:理解问题,制定计划,执行计划,回顾检查。"
+      },
+      {
+        "id": "linear-equations-two-variables-q13",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Sarah has $2 and $5 notes totaling $56. She has 16 notes in total. How many $5 notes does she have?",
+        "prompt_zh": "[Linear Equations in Two Variables - 问题 13]",
+        "choices": [
+          "8",
+          "9",
+          "7",
+          "10"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "linear-equations-two-variables-q14",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Two pipes can fill a pool: Pipe A fills in x hours, Pipe B in y hours. Together they fill in 6 hours. If A is twice as fast as B, find x.",
+        "prompt_zh": "[Linear Equations in Two Variables - 问题 14]",
+        "choices": [
+          "9",
+          "12",
+          "8",
+          "10"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "linear-equations-two-variables-q15",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "In a number, tens digit is x and units digit is y. The number is 27 more than the number with reversed digits. Also, x + y = 9. Find the original number.",
+        "prompt_zh": "[Linear Equations in Two Variables - 问题 15]",
+        "choices": [
+          "63",
+          "72",
+          "54",
+          "81"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      }
+    ]
+  },
+  {
+    "id": "algebraic-manipulation-sec2",
+    "gradeLevel": "sec2",
+    "title": "Algebraic Manipulation & Formulae",
+    "title_zh": "代数运算与公式",
+    "description": "Expansion, factorization, and changing the subject of formulae",
+    "description_zh": "展开、因式分解和改变公式主项",
+    "tag": "Algebra",
+    "tag_zh": "代数",
+    "objectives": [
+      "Expand algebraic products including (a+b)(c+d)",
+      "Factorize algebraic expressions",
+      "Change the subject of a formula",
+      "Apply to practical Singapore contexts"
+    ],
+    "objectives_zh": [
+      "展开代数乘积，包括(a+b)(c+d)",
+      "因式分解代数表达式",
+      "改变公式的主项",
+      "应用于新加坡实际情境"
+    ],
+    "sections": [
+      {
+        "id": "expansion",
+        "type": "text",
+        "title": "Algebraic Expansion",
+        "title_zh": "代数展开",
+        "content": "Expand (a+b)(c+d) = ac + ad + bc + bd. Use FOIL method (First, Outer, Inner, Last). Example: Calculate total cost when buying multiple items with Singapore GST (9%).",
+        "content_zh": "展开(a+b)(c+d) = ac + ad + bc + bd。使用FOIL法（首、外、内、尾）。例如：计算购买多件物品加新加坡消费税（9%）的总成本。"
+      },
+      {
+        "id": "factorization",
+        "type": "text",
+        "title": "Factorization",
+        "title_zh": "因式分解",
+        "content": "Factorize by: 1) Common factors, 2) Grouping, 3) Difference of two squares (a²-b²=(a+b)(a-b)). Used in Singapore construction calculations for HDB floor areas.",
+        "content_zh": "因式分解：1）提公因式，2）分组，3）平方差公式(a²-b²=(a+b)(a-b))。用于新加坡组屋楼面面积的建筑计算。"
+      },
+      {
+        "id": "changing-subject",
+        "type": "text",
+        "title": "Changing the Subject",
+        "title_zh": "改变公式主项",
+        "content": "To make x the subject: 1) Move terms not containing x to one side, 2) Isolate x by inverse operations. Example: Convert temperature formulas C = (F-32)×5/9 (Singapore uses Celsius, understand Fahrenheit).",
+        "content_zh": "将x作为主项：1）将不含x的项移到一边，2）用逆运算分离x。例如：转换温度公式C = (F-32)×5/9（新加坡使用摄氏度，理解华氏度）。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "algebraic-manipulation-q1",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Expand and simplify: (x + 5)(x - 3)",
+        "prompt_zh": "[Algebraic Manipulation & Formulae - 问题 1]",
+        "choices": [
+          "x² + 2x - 15",
+          "x² - 15",
+          "x² + 8x - 15",
+          "x² - 8x - 15"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "algebraic-manipulation-q2",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Factorize completely: 2x² + 8x",
+        "prompt_zh": "[Algebraic Manipulation & Formulae - 问题 2]",
+        "choices": [
+          "2x(x + 4)",
+          "x(2x + 8)",
+          "2(x² + 4x)",
+          "(2x)(x + 4)"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "algebraic-manipulation-q3",
+        "type": "short",
+        "difficulty": "easy",
+        "prompt": "Expand: (2x - 3)²",
+        "prompt_zh": "[Algebraic Manipulation & Formulae - 问题 3]",
+        "answer": "4x² - 12x + 9",
+        "validator": "exact",
+        "hint": "Use problem-solving heuristics: understand the problem, devise a plan, carry out the plan, look back.",
+        "hint_zh": "使用解题策略:理解问题,制定计划,执行计划,回顾检查。"
+      },
+      {
+        "id": "algebraic-manipulation-q4",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Factorize: x² - 7x + 12",
+        "prompt_zh": "[Algebraic Manipulation & Formulae - 问题 4]",
+        "choices": [
+          "(x - 3)(x - 4)",
+          "(x - 2)(x - 6)",
+          "(x - 1)(x - 12)",
+          "(x + 3)(x + 4)"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "algebraic-manipulation-q5",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Simplify: 3(2x - 1) - 2(x + 4)",
+        "prompt_zh": "[Algebraic Manipulation & Formulae - 问题 5]",
+        "choices": [
+          "4x - 11",
+          "4x - 5",
+          "6x - 11",
+          "4x + 5"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "algebraic-manipulation-q6",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Gardens by the Bay flower bed: length (2x+3)m, width (x+4)m. Find area in expanded form.",
+        "prompt_zh": "[Algebraic Manipulation & Formulae - 问题 6]",
+        "choices": [
+          "2x² + 11x + 12",
+          "2x² + 8x + 12",
+          "2x² + 7x + 12",
+          "3x² + 11x + 12"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "algebraic-manipulation-q7",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Factorize: 3x² - 27",
+        "prompt_zh": "[Algebraic Manipulation & Formulae - 问题 7]",
+        "choices": [
+          "3(x - 3)(x + 3)",
+          "3(x² - 9)",
+          "(3x - 9)(x + 3)",
+          "3x(x - 9)"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "algebraic-manipulation-q8",
+        "type": "short",
+        "difficulty": "medium",
+        "prompt": "Expand and simplify: (x + 2)(x - 5) + (x + 3)(x - 1)",
+        "prompt_zh": "[Algebraic Manipulation & Formulae - 问题 8]",
+        "answer": "2x² - 2x - 13",
+        "validator": "exact",
+        "hint": "Use problem-solving heuristics: understand the problem, devise a plan, carry out the plan, look back.",
+        "hint_zh": "使用解题策略:理解问题,制定计划,执行计划,回顾检查。"
+      },
+      {
+        "id": "algebraic-manipulation-q9",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "If (x + a)² = x² + 10x + 25, find a.",
+        "prompt_zh": "[Algebraic Manipulation & Formulae - 问题 9]",
+        "choices": [
+          "5",
+          "10",
+          "25",
+          "-5"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "algebraic-manipulation-q10",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Factorize: 4x² - 9y²",
+        "prompt_zh": "[Algebraic Manipulation & Formulae - 问题 10]",
+        "choices": [
+          "(2x - 3y)(2x + 3y)",
+          "(4x - 9y)(x + y)",
+          "4(x - y)(x + y)",
+          "(2x)² - (3y)²"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "algebraic-manipulation-q11",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "HDB flat area formula: A = (x + 5)(x + 8) - x². Simplify to find A in terms of x.",
+        "prompt_zh": "[Algebraic Manipulation & Formulae - 问题 11]",
+        "choices": [
+          "13x + 40",
+          "x² + 13x + 40",
+          "13x",
+          "40"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "algebraic-manipulation-q12",
+        "type": "short",
+        "difficulty": "hard",
+        "prompt": "Expand: (2x + 1)(x - 3)(x + 2)",
+        "prompt_zh": "[Algebraic Manipulation & Formulae - 问题 12]",
+        "answer": "2x³ - 5x² - 7x - 6",
+        "validator": "exact",
+        "hint": "Use problem-solving heuristics: understand the problem, devise a plan, carry out the plan, look back.",
+        "hint_zh": "使用解题策略:理解问题,制定计划,执行计划,回顾检查。"
+      },
+      {
+        "id": "algebraic-manipulation-q13",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "If x² - y² = 20 and x - y = 4, find x + y.",
+        "prompt_zh": "[Algebraic Manipulation & Formulae - 问题 13]",
+        "choices": [
+          "5",
+          "4",
+          "10",
+          "16"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "algebraic-manipulation-q14",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Factorize completely: 12x² - 27",
+        "prompt_zh": "[Algebraic Manipulation & Formulae - 问题 14]",
+        "choices": [
+          "3(2x - 3)(2x + 3)",
+          "3(4x² - 9)",
+          "12(x - 3)(x + 3)",
+          "(6x - 9)(2x + 3)"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "algebraic-manipulation-q15",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Swimming pool: volume V = x(x + 4)(2x - 1). When expanded, coefficient of x² term is:",
+        "prompt_zh": "[Algebraic Manipulation & Formulae - 问题 15]",
+        "choices": [
+          "7",
+          "8",
+          "6",
+          "9"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      }
+    ]
+  },
+  {
+    "id": "quadratic-expressions-sec2",
+    "gradeLevel": "sec2",
+    "title": "Quadratic Expressions & Equations",
+    "title_zh": "二次表达式与方程",
+    "description": "Factorizing and solving quadratic equations",
+    "description_zh": "因式分解和求解二次方程",
+    "tag": "Algebra",
+    "tag_zh": "代数",
+    "objectives": [
+      "Factorize quadratic expressions ax²+bx+c",
+      "Solve quadratic equations by factorization",
+      "Solve simple quadratic equations using formula",
+      "Apply to area and motion problems"
+    ],
+    "objectives_zh": [
+      "因式分解二次表达式ax²+bx+c",
+      "用因式分解求解二次方程",
+      "用公式求解简单二次方程",
+      "应用于面积和运动问题"
+    ],
+    "sections": [
+      {
+        "id": "factorizing-quadratics",
+        "type": "text",
+        "title": "Factorizing Quadratics",
+        "title_zh": "因式分解二次式",
+        "content": "To factorize x²+bx+c, find two numbers that multiply to c and add to b. For ax²+bx+c, use cross-method or grouping. Example: Calculate rectangular HDB room dimensions when area is known.",
+        "content_zh": "因式分解x²+bx+c，找两个数相乘等于c，相加等于b。对于ax²+bx+c，使用十字相乘法或分组。例如：已知面积计算组屋房间矩形尺寸。"
+      },
+      {
+        "id": "solving-by-factorization",
+        "type": "text",
+        "title": "Solving by Factorization",
+        "title_zh": "用因式分解求解",
+        "content": "Steps: 1) Rearrange to ax²+bx+c=0, 2) Factorize to (x+p)(x+q)=0, 3) Set each factor to zero: x+p=0 or x+q=0. Used in Singapore projectile motion (throwing objects).",
+        "content_zh": "步骤：1）重排为ax²+bx+c=0，2）因式分解为(x+p)(x+q)=0，3）令每个因子为零：x+p=0或x+q=0。用于新加坡抛物运动（投掷物体）。"
+      },
+      {
+        "id": "quadratic-formula",
+        "type": "text",
+        "title": "Quadratic Formula",
+        "title_zh": "二次公式",
+        "content": "For ax²+bx+c=0: x = (-b ± √(b²-4ac)) / 2a. Use when factorization is difficult. Singapore applications: calculating optimal prices with profit margins.",
+        "content_zh": "对于ax²+bx+c=0：x = (-b ± √(b²-4ac)) / 2a。当因式分解困难时使用。新加坡应用：计算利润率的最优价格。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "quadratic-expressions-q1",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Which is NOT a quadratic expression?",
+        "prompt_zh": "[Quadratic Expressions & Equations - 问题 1]",
+        "choices": [
+          "3x + 5",
+          "x² - 1",
+          "2x² + x",
+          "-x²"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "quadratic-expressions-q2",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Factorize: x² + 9x + 20",
+        "prompt_zh": "[Quadratic Expressions & Equations - 问题 2]",
+        "choices": [
+          "(x + 4)(x + 5)",
+          "(x + 2)(x + 10)",
+          "(x + 1)(x + 20)",
+          "(x + 9)(x + 20)"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "quadratic-expressions-q3",
+        "type": "short",
+        "difficulty": "easy",
+        "prompt": "In 5x² - 3x + 7, what is the constant term?",
+        "prompt_zh": "[Quadratic Expressions & Equations - 问题 3]",
+        "answer": "7",
+        "validator": "exact",
+        "hint": "Use problem-solving heuristics: understand the problem, devise a plan, carry out the plan, look back.",
+        "hint_zh": "使用解题策略:理解问题,制定计划,执行计划,回顾检查。"
+      },
+      {
+        "id": "quadratic-expressions-q4",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Expand: (x - 7)²",
+        "prompt_zh": "[Quadratic Expressions & Equations - 问题 4]",
+        "choices": [
+          "x² - 14x + 49",
+          "x² + 49",
+          "x² - 7x + 49",
+          "x² - 14x"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "quadratic-expressions-q5",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Factorize: x² - 25",
+        "prompt_zh": "[Quadratic Expressions & Equations - 问题 5]",
+        "choices": [
+          "(x - 5)(x + 5)",
+          "(x - 25)(x + 1)",
+          "x(x - 25)",
+          "(x - 5)²"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "quadratic-expressions-q6",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Factorize: 2x² + 11x + 12",
+        "prompt_zh": "[Quadratic Expressions & Equations - 问题 6]",
+        "choices": [
+          "(2x + 3)(x + 4)",
+          "(2x + 4)(x + 3)",
+          "(x + 3)(x + 4)",
+          "2(x² + 11x + 12)"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "quadratic-expressions-q7",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "A square has side (x + 3)cm. If area is 64 cm², find x.",
+        "prompt_zh": "[Quadratic Expressions & Equations - 问题 7]",
+        "choices": [
+          "5",
+          "8",
+          "11",
+          "4"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "quadratic-expressions-q8",
+        "type": "short",
+        "difficulty": "medium",
+        "prompt": "Expand: (3x + 2)² - 4",
+        "prompt_zh": "[Quadratic Expressions & Equations - 问题 8]",
+        "answer": "9x² + 12x",
+        "validator": "exact",
+        "hint": "Use problem-solving heuristics: understand the problem, devise a plan, carry out the plan, look back.",
+        "hint_zh": "使用解题策略:理解问题,制定计划,执行计划,回顾检查。"
+      },
+      {
+        "id": "quadratic-expressions-q9",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "If x² + bx + 36 = (x + 6)², find b.",
+        "prompt_zh": "[Quadratic Expressions & Equations - 问题 9]",
+        "choices": [
+          "12",
+          "6",
+          "36",
+          "18"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "quadratic-expressions-q10",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Factorize: x² - 2x - 15",
+        "prompt_zh": "[Quadratic Expressions & Equations - 问题 10]",
+        "choices": [
+          "(x - 5)(x + 3)",
+          "(x - 3)(x + 5)",
+          "(x - 15)(x + 1)",
+          "(x - 1)(x + 15)"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "quadratic-expressions-q11",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "HDB carpark lot: Area = (3x² + 14x - 5) m². Which are possible dimensions?",
+        "prompt_zh": "[Quadratic Expressions & Equations - 问题 11]",
+        "choices": [
+          "(3x - 1)(x + 5)",
+          "(3x + 1)(x - 5)",
+          "(x + 5)(3x + 1)",
+          "(3x + 5)(x - 1)"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "quadratic-expressions-q12",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "If x² - 6x + k is a perfect square, find k.",
+        "prompt_zh": "[Quadratic Expressions & Equations - 问题 12]",
+        "choices": [
+          "9",
+          "6",
+          "12",
+          "36"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "quadratic-expressions-q13",
+        "type": "short",
+        "difficulty": "hard",
+        "prompt": "Factorize: 6x² - x - 2",
+        "prompt_zh": "[Quadratic Expressions & Equations - 问题 13]",
+        "answer": "(3x - 2)(2x + 1)",
+        "validator": "exact",
+        "hint": "Use problem-solving heuristics: understand the problem, devise a plan, carry out the plan, look back.",
+        "hint_zh": "使用解题策略:理解问题,制定计划,执行计划,回顾检查。"
+      },
+      {
+        "id": "quadratic-expressions-q14",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Rectangle area: (2x² + 5x - 3). If width is (2x - 1), find length.",
+        "prompt_zh": "[Quadratic Expressions & Equations - 问题 14]",
+        "choices": [
+          "x + 3",
+          "x - 3",
+          "2x + 3",
+          "x + 2"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "quadratic-expressions-q15",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Expand: (x + a)(x - a) + (x + b)(x + b). If result is 2x² + 6x + 9, find b.",
+        "prompt_zh": "[Quadratic Expressions & Equations - 问题 15]",
+        "choices": [
+          "3",
+          "9",
+          "6",
+          "-3"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      }
+    ]
+  },
+  {
+    "id": "functions-graphs-sec2",
+    "gradeLevel": "sec2",
+    "title": "Functions and Graphs",
+    "title_zh": "函数与图形",
+    "description": "Understanding functions, domain, range, and graphing",
+    "description_zh": "理解函数、定义域、值域和绘图",
+    "tag": "Algebra",
+    "tag_zh": "代数",
+    "objectives": [
+      "Understand function notation f(x)",
+      "Find domain and range",
+      "Draw and interpret graphs",
+      "Solve problems using graphs"
+    ],
+    "objectives_zh": [
+      "理解函数符号f(x)",
+      "求定义域和值域",
+      "绘制和解释图形",
+      "用图形解决问题"
+    ],
+    "sections": [
+      {
+        "id": "function-notation",
+        "type": "text",
+        "title": "Function Notation",
+        "title_zh": "函数符号",
+        "content": "f(x) means 'function of x'. If f(x)=2x+3, then f(5)=2(5)+3=13. Example: Singapore taxi fare function f(d)=base+rate×distance, where d is distance in km.",
+        "content_zh": "f(x)表示'x的函数'。如果f(x)=2x+3，则f(5)=2(5)+3=13。例如：新加坡出租车费用函数f(d)=起步价+单价×距离，其中d是公里距离。"
+      },
+      {
+        "id": "domain-range",
+        "type": "text",
+        "title": "Domain and Range",
+        "title_zh": "定义域和值域",
+        "content": "Domain: all possible input (x) values. Range: all possible output (y) values. For Singapore context: f(t)=temperature during day, domain is 0≤t≤24 hours, range is 24≤f(t)≤33°C.",
+        "content_zh": "定义域：所有可能的输入(x)值。值域：所有可能的输出(y)值。新加坡情境：f(t)=一天中的温度，定义域是0≤t≤24小时，值域是24≤f(t)≤33°C。"
+      },
+      {
+        "id": "graphing",
+        "type": "text",
+        "title": "Drawing Graphs",
+        "title_zh": "绘制图形",
+        "content": "Plot points by substituting x values into function. Join points smoothly for linear/quadratic functions. Example: Graph Singapore MRT crowd levels by time of day.",
+        "content_zh": "通过将x值代入函数绘制点。对于线性/二次函数平滑连接点。例如：绘制新加坡地铁客流量随时间变化的图形。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "functions-graphs-q1",
+        "type": "short",
+        "difficulty": "easy",
+        "prompt": "For y = 3x - 4, find gradient.",
+        "prompt_zh": "[Functions and Graphs - 问题 1]",
+        "answer": "3",
+        "validator": "exact",
+        "hint": "Use problem-solving heuristics: understand the problem, devise a plan, carry out the plan, look back.",
+        "hint_zh": "使用解题策略:理解问题,制定计划,执行计划,回顾检查。"
+      },
+      {
+        "id": "functions-graphs-q2",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Which point lies on line y = 2x + 1?",
+        "prompt_zh": "[Functions and Graphs - 问题 2]",
+        "choices": [
+          "(3, 7)",
+          "(3, 6)",
+          "(2, 6)",
+          "(4, 7)"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "functions-graphs-q3",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Y-intercept of y = -2x + 5:",
+        "prompt_zh": "[Functions and Graphs - 问题 3]",
+        "choices": [
+          "5",
+          "-2",
+          "0",
+          "2.5"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "functions-graphs-q4",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Line y = -3 is:",
+        "prompt_zh": "[Functions and Graphs - 问题 4]",
+        "choices": [
+          "horizontal",
+          "vertical",
+          "diagonal rising",
+          "diagonal falling"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "functions-graphs-q5",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "If f(x) = 3x - 2, find f(4).",
+        "prompt_zh": "[Functions and Graphs - 问题 5]",
+        "choices": [
+          "10",
+          "14",
+          "12",
+          "8"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "functions-graphs-q6",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "MRT fare: F = 0.83 + 0.072d (d = distance in km). What is fare increase per km?",
+        "prompt_zh": "[Functions and Graphs - 问题 6]",
+        "choices": [
+          "$0.072",
+          "$0.83",
+          "$0.902",
+          "$0.10"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "functions-graphs-q7",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Line passing through (2,5) and (4,11) has gradient:",
+        "prompt_zh": "[Functions and Graphs - 问题 7]",
+        "choices": [
+          "3",
+          "2",
+          "6",
+          "1.5"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "functions-graphs-q8",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Perpendicular to y = 4x + 1 has gradient:",
+        "prompt_zh": "[Functions and Graphs - 问题 8]",
+        "choices": [
+          "-1/4",
+          "4",
+          "-4",
+          "1/4"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "functions-graphs-q9",
+        "type": "short",
+        "difficulty": "medium",
+        "prompt": "If f(x) = 2x + k and f(3) = 11, find k.",
+        "prompt_zh": "[Functions and Graphs - 问题 9]",
+        "answer": "5",
+        "validator": "exact",
+        "hint": "Use problem-solving heuristics: understand the problem, devise a plan, carry out the plan, look back.",
+        "hint_zh": "使用解题策略:理解问题,制定计划,执行计划,回顾检查。"
+      },
+      {
+        "id": "functions-graphs-q10",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Two lines y = 2x + 3 and y = 2x - 1 are:",
+        "prompt_zh": "[Functions and Graphs - 问题 10]",
+        "choices": [
+          "parallel",
+          "perpendicular",
+          "intersecting",
+          "same line"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "functions-graphs-q11",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Taxi fare: Basic $3.20, then $0.22 per 400m. Express as F = mx + c for distance x km.",
+        "prompt_zh": "[Functions and Graphs - 问题 11]",
+        "choices": [
+          "F = 0.55x + 3.20",
+          "F = 0.22x + 3.20",
+          "F = 220x + 3.20",
+          "F = 0.55x"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "functions-graphs-q12",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Line passes through (1, 5) and has gradient -2. Find y-intercept.",
+        "prompt_zh": "[Functions and Graphs - 问题 12]",
+        "choices": [
+          "7",
+          "5",
+          "3",
+          "-2"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "functions-graphs-q13",
+        "type": "short",
+        "difficulty": "hard",
+        "prompt": "If f(x) = ax + b, f(2) = 7 and f(5) = 16, find a.",
+        "prompt_zh": "[Functions and Graphs - 问题 13]",
+        "answer": "3",
+        "validator": "exact",
+        "hint": "Use problem-solving heuristics: understand the problem, devise a plan, carry out the plan, look back.",
+        "hint_zh": "使用解题策略:理解问题,制定计划,执行计划,回顾检查。"
+      },
+      {
+        "id": "functions-graphs-q14",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Two lines 2x + 3y = 12 and kx - 2y = 8 are perpendicular. Find k.",
+        "prompt_zh": "[Functions and Graphs - 问题 14]",
+        "choices": [
+          "3",
+          "-3",
+          "2",
+          "4"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "functions-graphs-q15",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Water tank drains at constant rate. After 5min: 120L, after 12min: 78L. When empty?",
+        "prompt_zh": "[Functions and Graphs - 问题 15]",
+        "choices": [
+          "20 min",
+          "15 min",
+          "25 min",
+          "18 min"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      }
+    ]
+  },
+  {
+    "id": "inequalities-sec2",
+    "gradeLevel": "sec2",
+    "title": "Linear Inequalities",
+    "title_zh": "线性不等式",
+    "description": "Solving and graphing linear inequalities",
+    "description_zh": "求解和绘制线性不等式",
+    "tag": "Algebra",
+    "tag_zh": "代数",
+    "objectives": [
+      "Solve linear inequalities",
+      "Represent solutions on number line",
+      "Solve simultaneous linear inequalities",
+      "Apply to real-world constraints"
+    ],
+    "objectives_zh": [
+      "求解线性不等式",
+      "在数轴上表示解",
+      "求解二元线性不等式组",
+      "应用于实际约束条件"
+    ],
+    "sections": [
+      {
+        "id": "solving-inequalities",
+        "type": "text",
+        "title": "Solving Inequalities",
+        "title_zh": "求解不等式",
+        "content": "Solve like equations, but reverse inequality sign when multiplying/dividing by negative number. Example: Singapore student budget - if you have $50 and items cost $7 each, how many can you buy? 7x ≤ 50, x ≤ 7.14, so maximum 7 items.",
+        "content_zh": "像方程一样求解，但乘除负数时反转不等号。例如：新加坡学生预算 - 如果你有50元，物品每件7元，能买多少？7x ≤ 50，x ≤ 7.14，所以最多7件。"
+      },
+      {
+        "id": "number-line",
+        "type": "text",
+        "title": "Number Line Representation",
+        "title_zh": "数轴表示",
+        "content": "Use open circle (○) for < or >, closed circle (●) for ≤ or ≥. Shade region of solutions. For x > 3, open circle at 3, shade right.",
+        "content_zh": "对于<或>使用空心圆（○），对于≤或≥使用实心圆（●）。阴影表示解的区域。对于x > 3，在3处空心圆，向右阴影。"
+      },
+      {
+        "id": "applications",
+        "type": "text",
+        "title": "Real-World Applications",
+        "title_zh": "实际应用",
+        "content": "Inequalities model constraints: Singapore HDB income ceiling ($14,000/month for BTO), age restrictions (≥21 for marriage), speed limits (≤50 km/h in residential), temperature ranges (aircon 23-25°C).",
+        "content_zh": "不等式模拟约束：新加坡组屋收入上限（预购组屋月收入≤$14,000）、年龄限制（结婚≥21岁）、速度限制（住宅区≤50 km/h）、温度范围（空调23-25°C）。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "inequalities-q1",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Solve: 2x + 5 > 13",
+        "prompt_zh": "[Linear Inequalities - 问题 1]",
+        "choices": [
+          "x > 4",
+          "x < 4",
+          "x ≥ 4",
+          "x ≤ 4"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "inequalities-q2",
+        "type": "short",
+        "difficulty": "easy",
+        "prompt": "Solve: 5 - x ≤ 2",
+        "prompt_zh": "[Linear Inequalities - 问题 2]",
+        "answer": "x ≥ 3",
+        "validator": "exact",
+        "hint": "Use problem-solving heuristics: understand the problem, devise a plan, carry out the plan, look back.",
+        "hint_zh": "使用解题策略:理解问题,制定计划,执行计划,回顾检查。"
+      },
+      {
+        "id": "inequalities-q3",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Which satisfies x ≤ -2?",
+        "prompt_zh": "[Linear Inequalities - 问题 3]",
+        "choices": [
+          "-3",
+          "-2",
+          "0",
+          "1"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "inequalities-q4",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Solve: 3x - 7 < 8",
+        "prompt_zh": "[Linear Inequalities - 问题 4]",
+        "choices": [
+          "x < 5",
+          "x > 5",
+          "x ≤ 5",
+          "x = 5"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "inequalities-q5",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "'More than 10' expressed as:",
+        "prompt_zh": "[Linear Inequalities - 问题 5]",
+        "choices": [
+          "x > 10",
+          "x ≥ 10",
+          "x < 10",
+          "x ≤ 10"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "inequalities-q6",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Solve: 2(3x - 1) ≥ 4x + 6",
+        "prompt_zh": "[Linear Inequalities - 问题 6]",
+        "choices": [
+          "x ≥ 4",
+          "x ≤ 4",
+          "x > 4",
+          "x = 4"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "inequalities-q7",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "MRT can carry maximum 1800 passengers. Express as inequality (p = passengers).",
+        "prompt_zh": "[Linear Inequalities - 问题 7]",
+        "choices": [
+          "p ≤ 1800",
+          "p < 1800",
+          "p ≥ 1800",
+          "p = 1800"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "inequalities-q8",
+        "type": "short",
+        "difficulty": "medium",
+        "prompt": "Solve: -3x + 5 > 14",
+        "prompt_zh": "[Linear Inequalities - 问题 8]",
+        "answer": "x < -3",
+        "validator": "exact",
+        "hint": "Use problem-solving heuristics: understand the problem, devise a plan, carry out the plan, look back.",
+        "hint_zh": "使用解题策略:理解问题,制定计划,执行计划,回顾检查。"
+      },
+      {
+        "id": "inequalities-q9",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "If 2x + 3 < 11, largest integer value of x:",
+        "prompt_zh": "[Linear Inequalities - 问题 9]",
+        "choices": [
+          "3",
+          "4",
+          "5",
+          "2"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "inequalities-q10",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Solve: 4 < 2x + 1 ≤ 9",
+        "prompt_zh": "[Linear Inequalities - 问题 10]",
+        "choices": [
+          "1.5 < x ≤ 4",
+          "2 < x ≤ 5",
+          "3 < x ≤ 8",
+          "1 < x ≤ 3"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "inequalities-q11",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Student needs average ≥ 75 for 5 tests. First 4 scores: 72, 80, 68, 78. Minimum for test 5?",
+        "prompt_zh": "[Linear Inequalities - 问题 11]",
+        "choices": [
+          "77",
+          "75",
+          "80",
+          "70"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "inequalities-q12",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Rental: $50 + $8 per hour. Budget ≤ $130. Maximum hours?",
+        "prompt_zh": "[Linear Inequalities - 问题 12]",
+        "choices": [
+          "10",
+          "9",
+          "11",
+          "8"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "inequalities-q13",
+        "type": "short",
+        "difficulty": "hard",
+        "prompt": "Solve: 3(x - 2) - 2(x + 1) ≥ 5",
+        "prompt_zh": "[Linear Inequalities - 问题 13]",
+        "answer": "x ≥ 13",
+        "validator": "exact",
+        "hint": "Use problem-solving heuristics: understand the problem, devise a plan, carry out the plan, look back.",
+        "hint_zh": "使用解题策略:理解问题,制定计划,执行计划,回顾检查。"
+      },
+      {
+        "id": "inequalities-q14",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "x must satisfy both x + 5 > 12 AND 2x - 3 < 21. Find range.",
+        "prompt_zh": "[Linear Inequalities - 问题 14]",
+        "choices": [
+          "7 < x < 12",
+          "7 ≤ x ≤ 12",
+          "x > 7",
+          "x < 12"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "inequalities-q15",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Phone plan: $30 + $0.10 per min. Other plan: $20 + $0.15 per min. First plan cheaper when minutes x:",
+        "prompt_zh": "[Linear Inequalities - 问题 15]",
+        "choices": [
+          "x > 200",
+          "x < 200",
+          "x ≥ 200",
+          "x ≤ 200"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      }
+    ]
+  },
+  {
+    "id": "indices-sec2",
+    "gradeLevel": "sec2",
+    "title": "Indices (Index Notation)",
+    "title_zh": "指数",
+    "description": "Laws of indices and calculations with powers",
+    "description_zh": "指数定律和幂的计算",
+    "tag": "Algebra",
+    "tag_zh": "代数",
+    "objectives": [
+      "Apply laws of indices: aᵐ × aⁿ = aᵐ⁺ⁿ",
+      "Understand negative and zero indices",
+      "Simplify expressions with indices",
+      "Apply to scientific notation"
+    ],
+    "objectives_zh": [
+      "应用指数定律：aᵐ × aⁿ = aᵐ⁺ⁿ",
+      "理解负指数和零指数",
+      "化简指数表达式",
+      "应用于科学记数法"
+    ],
+    "sections": [
+      {
+        "id": "laws-of-indices",
+        "type": "text",
+        "title": "Laws of Indices",
+        "title_zh": "指数定律",
+        "content": "Key laws: aᵐ × aⁿ = aᵐ⁺ⁿ, aᵐ ÷ aⁿ = aᵐ⁻ⁿ, (aᵐ)ⁿ = aᵐⁿ, a⁰ = 1, a⁻ⁿ = 1/aⁿ. Singapore application: exponential growth of population (5.7 million in 2023).",
+        "content_zh": "关键定律：aᵐ × aⁿ = aᵐ⁺ⁿ，aᵐ ÷ aⁿ = aᵐ⁻ⁿ，(aᵐ)ⁿ = aᵐⁿ，a⁰ = 1，a⁻ⁿ = 1/aⁿ。新加坡应用：人口指数增长（2023年570万）。"
+      },
+      {
+        "id": "negative-zero-indices",
+        "type": "text",
+        "title": "Negative and Zero Indices",
+        "title_zh": "负指数和零指数",
+        "content": "Any number to power 0 equals 1: 5⁰=1. Negative power is reciprocal: 2⁻³ = 1/2³ = 1/8. Used in Singapore science: measuring small quantities in labs.",
+        "content_zh": "任何数的0次方等于1：5⁰=1。负指数是倒数：2⁻³ = 1/2³ = 1/8。用于新加坡科学：实验室测量微小量。"
+      },
+      {
+        "id": "scientific-notation",
+        "type": "text",
+        "title": "Scientific Notation",
+        "title_zh": "科学记数法",
+        "content": "Write large/small numbers as a × 10ⁿ where 1≤a<10. Singapore examples: Area = 733.1 km² = 7.331 × 10² km², Population density = 8,000/km² = 8 × 10³/km².",
+        "content_zh": "将大/小数字写成a × 10ⁿ，其中1≤a<10。新加坡例子：面积 = 733.1 km² = 7.331 × 10² km²，人口密度 = 8,000/km² = 8 × 10³/km²。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "indices-q1",
+        "type": "short",
+        "difficulty": "easy",
+        "prompt": "Simplify: a⁴ × a³",
+        "prompt_zh": "[Indices (Index Notation) - 问题 1]",
+        "answer": "a⁷",
+        "validator": "exact",
+        "hint": "Use problem-solving heuristics: understand the problem, devise a plan, carry out the plan, look back.",
+        "hint_zh": "使用解题策略:理解问题,制定计划,执行计划,回顾检查。"
+      },
+      {
+        "id": "indices-q2",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "What is 7⁰?",
+        "prompt_zh": "[Indices (Index Notation) - 问题 2]",
+        "choices": [
+          "1",
+          "0",
+          "7",
+          "undefined"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "indices-q3",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Simplify: (m²)⁵",
+        "prompt_zh": "[Indices (Index Notation) - 问题 3]",
+        "choices": [
+          "m¹⁰",
+          "m⁷",
+          "m³²",
+          "2m⁵"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "indices-q4",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Evaluate: 2⁵",
+        "prompt_zh": "[Indices (Index Notation) - 问题 4]",
+        "choices": [
+          "32",
+          "10",
+          "25",
+          "64"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "indices-q5",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Simplify: x⁸ ÷ x³",
+        "prompt_zh": "[Indices (Index Notation) - 问题 5]",
+        "choices": [
+          "x⁵",
+          "x¹¹",
+          "x²⁴",
+          "x"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "indices-q6",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Simplify: (3x²y)³",
+        "prompt_zh": "[Indices (Index Notation) - 问题 6]",
+        "choices": [
+          "27x⁶y³",
+          "9x⁶y³",
+          "3x⁶y³",
+          "27x⁵y³"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "indices-q7",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Bacteria doubles every hour. After 6 hours, multiplied by:",
+        "prompt_zh": "[Indices (Index Notation) - 问题 7]",
+        "choices": [
+          "64",
+          "12",
+          "36",
+          "128"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "indices-q8",
+        "type": "short",
+        "difficulty": "medium",
+        "prompt": "Express 1/(8x³) using negative indices:",
+        "prompt_zh": "[Indices (Index Notation) - 问题 8]",
+        "answer": "8⁻¹x⁻³",
+        "validator": "exact",
+        "hint": "Use problem-solving heuristics: understand the problem, devise a plan, carry out the plan, look back.",
+        "hint_zh": "使用解题策略:理解问题,制定计划,执行计划,回顾检查。"
+      },
+      {
+        "id": "indices-q9",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Simplify: (2⁴ × 2³) ÷ 2⁵",
+        "prompt_zh": "[Indices (Index Notation) - 问题 9]",
+        "choices": [
+          "4",
+          "2",
+          "8",
+          "16"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "indices-q10",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "If 3ˣ = 27, find x.",
+        "prompt_zh": "[Indices (Index Notation) - 问题 10]",
+        "choices": [
+          "3",
+          "9",
+          "27",
+          "2"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "indices-q11",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Singapore population grows 2% annually. After n years, multiplied by (1.02)ⁿ. After 10 years, factor is approximately:",
+        "prompt_zh": "[Indices (Index Notation) - 问题 11]",
+        "choices": [
+          "1.22",
+          "1.20",
+          "2.0",
+          "1.10"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "indices-q12",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Simplify: (x²y³)⁴ ÷ (x³y²)²",
+        "prompt_zh": "[Indices (Index Notation) - 问题 12]",
+        "choices": [
+          "x²y⁸",
+          "x⁸y¹²",
+          "x⁸y⁸",
+          "y⁸"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "indices-q13",
+        "type": "short",
+        "difficulty": "hard",
+        "prompt": "If 2ˣ × 4ʸ = 128, and x = y, find x.",
+        "prompt_zh": "[Indices (Index Notation) - 问题 13]",
+        "answer": "3",
+        "validator": "exact",
+        "hint": "Use problem-solving heuristics: understand the problem, devise a plan, carry out the plan, look back.",
+        "hint_zh": "使用解题策略:理解问题,制定计划,执行计划,回顾检查。"
+      },
+      {
+        "id": "indices-q14",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Evaluate: (27)^(2/3)",
+        "prompt_zh": "[Indices (Index Notation) - 问题 14]",
+        "choices": [
+          "9",
+          "18",
+          "3",
+          "27"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "indices-q15",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Simplify: (8a⁶b³) ÷ (2a²b)",
+        "prompt_zh": "[Indices (Index Notation) - 问题 15]",
+        "choices": [
+          "4a⁴b²",
+          "4a³b²",
+          "6a⁴b²",
+          "4a⁸b⁴"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      }
+    ]
+  },
+  {
+    "id": "congruence-similarity-sec2",
+    "gradeLevel": "sec2",
+    "title": "Congruence and Similarity",
+    "title_zh": "全等与相似",
+    "description": "Congruent and similar triangles, scale drawings",
+    "description_zh": "全等三角形和相似三角形，比例绘图",
+    "tag": "Geometry",
+    "tag_zh": "几何",
+    "objectives": [
+      "Identify congruent triangles (SSS, SAS, ASA, RHS)",
+      "Identify similar triangles (AAA, SAS)",
+      "Use properties to solve problems",
+      "Apply to scale drawings and maps"
+    ],
+    "objectives_zh": [
+      "识别全等三角形（SSS、SAS、ASA、RHS）",
+      "识别相似三角形（AAA、SAS）",
+      "使用性质解决问题",
+      "应用于比例绘图和地图"
+    ],
+    "sections": [
+      {
+        "id": "congruent-triangles",
+        "type": "text",
+        "title": "Congruent Triangles",
+        "title_zh": "全等三角形",
+        "content": "Triangles are congruent if same shape and size. Tests: SSS (3 sides equal), SAS (2 sides and included angle), ASA (2 angles and included side), RHS (right angle, hypotenuse, side). Singapore construction: ensuring HDB building frames are identical.",
+        "content_zh": "三角形形状和大小相同则全等。判定：SSS（三边相等）、SAS（两边及夹角）、ASA（两角及夹边）、RHS（直角、斜边、边）。新加坡建筑：确保组屋建筑框架相同。"
+      },
+      {
+        "id": "similar-triangles",
+        "type": "text",
+        "title": "Similar Triangles",
+        "title_zh": "相似三角形",
+        "content": "Triangles are similar if same shape but different size. Tests: AAA (3 angles equal), SAS (2 sides proportional with equal included angle). Corresponding sides are proportional. Example: Scale models of Singapore landmarks.",
+        "content_zh": "三角形形状相同但大小不同则相似。判定：AAA（三角相等）、SAS（两边成比例且夹角相等）。对应边成比例。例如：新加坡地标的比例模型。"
+      },
+      {
+        "id": "scale-drawings",
+        "type": "text",
+        "title": "Scale Drawings",
+        "title_zh": "比例绘图",
+        "content": "Scale 1:n means drawing is 1/n of actual size. Scale 1:50000 on Singapore map means 1 cm = 0.5 km. Used in HDB floor plans, MRT network maps.",
+        "content_zh": "比例1:n表示图形是实际大小的1/n。新加坡地图上1:50000表示1厘米 = 0.5公里。用于组屋平面图、地铁网络图。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "congruence-similarity-q1",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Two triangles with all sides equal are:",
+        "prompt_zh": "[Congruence and Similarity - 问题 1]",
+        "choices": [
+          "congruent",
+          "similar",
+          "neither",
+          "both"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "congruence-similarity-q2",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Which is a valid congruence test?",
+        "prompt_zh": "[Congruence and Similarity - 问题 2]",
+        "choices": [
+          "SAS",
+          "AAA",
+          "SSA",
+          "AA"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "congruence-similarity-q3",
+        "type": "short",
+        "difficulty": "easy",
+        "prompt": "Similar triangles have:",
+        "prompt_zh": "[Congruence and Similarity - 问题 3]",
+        "answer": "same angles",
+        "validator": "exact",
+        "hint": "Use problem-solving heuristics: understand the problem, devise a plan, carry out the plan, look back.",
+        "hint_zh": "使用解题策略:理解问题,制定计划,执行计划,回顾检查。"
+      },
+      {
+        "id": "congruence-similarity-q4",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "If △ABC ≅ △DEF by SSS, and AB = 5cm, then DE =",
+        "prompt_zh": "[Congruence and Similarity - 问题 4]",
+        "choices": [
+          "5cm",
+          "10cm",
+          "2.5cm",
+          "cannot determine"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "congruence-similarity-q5",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Scale factor 3 means area multiplied by:",
+        "prompt_zh": "[Congruence and Similarity - 问题 5]",
+        "choices": [
+          "9",
+          "3",
+          "6",
+          "27"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "congruence-similarity-q6",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Two triangles: sides 6,8,10 and 9,12,15. They are:",
+        "prompt_zh": "[Congruence and Similarity - 问题 6]",
+        "choices": [
+          "similar with scale 2:3",
+          "congruent",
+          "similar with scale 3:2",
+          "neither"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "congruence-similarity-q7",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "In △ABC, ∠A=50°, ∠B=60°. In △DEF, ∠D=50°, ∠E=60°, ∠F=70°. Triangles are:",
+        "prompt_zh": "[Congruence and Similarity - 问题 7]",
+        "choices": [
+          "similar (AAA)",
+          "congruent",
+          "neither",
+          "similar (SAS)"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "congruence-similarity-q8",
+        "type": "short",
+        "difficulty": "medium",
+        "prompt": "If triangles are similar with scale 1:4, perimeter ratio is:",
+        "prompt_zh": "[Congruence and Similarity - 问题 8]",
+        "answer": "1:4",
+        "validator": "exact",
+        "hint": "Use problem-solving heuristics: understand the problem, devise a plan, carry out the plan, look back.",
+        "hint_zh": "使用解题策略:理解问题,制定计划,执行计划,回顾检查。"
+      },
+      {
+        "id": "congruence-similarity-q9",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "MRT map scale 1:10000. Two stations 3cm apart on map. Actual distance:",
+        "prompt_zh": "[Congruence and Similarity - 问题 9]",
+        "choices": [
+          "300m",
+          "3000m",
+          "30m",
+          "3m"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "congruence-similarity-q10",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Triangle PQR ≅ Triangle XYZ. If PQ=7, QR=9, PR=11, find XZ.",
+        "prompt_zh": "[Congruence and Similarity - 问题 10]",
+        "choices": [
+          "11",
+          "7",
+          "9",
+          "27"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "congruence-similarity-q11",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "HDB floor plan scale 1:50. Room area on plan is 24 cm². Actual room area:",
+        "prompt_zh": "[Congruence and Similarity - 问题 11]",
+        "choices": [
+          "60 m²",
+          "12 m²",
+          "120 m²",
+          "6 m²"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "congruence-similarity-q12",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Two similar triangles have areas 16 cm² and 64 cm². If smaller has perimeter 20cm, larger has perimeter:",
+        "prompt_zh": "[Congruence and Similarity - 问题 12]",
+        "choices": [
+          "40cm",
+          "80cm",
+          "60cm",
+          "30cm"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "congruence-similarity-q13",
+        "type": "short",
+        "difficulty": "hard",
+        "prompt": "Prove △ABC ≅ △DEF. Given: AB=DE, AC=DF, BC=EF. Which test?",
+        "prompt_zh": "[Congruence and Similarity - 问题 13]",
+        "answer": "SSS",
+        "validator": "exact",
+        "hint": "Use problem-solving heuristics: understand the problem, devise a plan, carry out the plan, look back.",
+        "hint_zh": "使用解题策略:理解问题,制定计划,执行计划,回顾检查。"
+      },
+      {
+        "id": "congruence-similarity-q14",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Shadow problem: 1.5m pole casts 2m shadow. How tall is tree casting 8m shadow?",
+        "prompt_zh": "[Congruence and Similarity - 问题 14]",
+        "choices": [
+          "6m",
+          "10.67m",
+          "12m",
+          "5.33m"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "congruence-similarity-q15",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "If two similar triangles have sides ratio 3:5, their volumes ratio (if extended to pyramids) would be:",
+        "prompt_zh": "[Congruence and Similarity - 问题 15]",
+        "choices": [
+          "27:125",
+          "3:5",
+          "9:25",
+          "6:10"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      }
+    ]
+  },
+  {
+    "id": "pythagoras-theorem-sec2",
+    "gradeLevel": "sec2",
+    "title": "Pythagoras' Theorem",
+    "title_zh": "勾股定理",
+    "description": "Application of Pythagoras' theorem in 2D and 3D",
+    "description_zh": "勾股定理在二维和三维中的应用",
+    "tag": "Geometry",
+    "tag_zh": "几何",
+    "objectives": [
+      "Apply Pythagoras' theorem: a²+b²=c²",
+      "Find unknown sides in right-angled triangles",
+      "Solve problems in 3D shapes",
+      "Apply to real-world Singapore contexts"
+    ],
+    "objectives_zh": [
+      "应用勾股定理：a²+b²=c²",
+      "求直角三角形中的未知边",
+      "解决三维形状中的问题",
+      "应用于新加坡实际情境"
+    ],
+    "sections": [
+      {
+        "id": "pythagoras-2d",
+        "type": "text",
+        "title": "Pythagoras in 2D",
+        "title_zh": "二维勾股定理",
+        "content": "For right-angled triangle: a²+b²=c² where c is hypotenuse. Find missing side: rearrange formula. Example: Calculate diagonal distance across rectangular HDB void deck, or shortest path across Singapore Botanic Gardens rectangular lawn.",
+        "content_zh": "对于直角三角形：a²+b²=c²，其中c是斜边。求缺边：重排公式。例如：计算组屋空地矩形对角线距离，或穿过新加坡植物园矩形草坪的最短路径。"
+      },
+      {
+        "id": "pythagoras-3d",
+        "type": "text",
+        "title": "Pythagoras in 3D",
+        "title_zh": "三维勾股定理",
+        "content": "For cuboid with length l, width w, height h: diagonal d² = l²+w²+h². Apply twice: first find base diagonal, then use with height. Example: HDB room corner to opposite corner distance, or lift cable length.",
+        "content_zh": "对于长方体，长l、宽w、高h：对角线d² = l²+w²+h²。应用两次：先求底面对角线，再与高度使用。例如：组屋房间角到对角的距离，或电梯电缆长度。"
+      },
+      {
+        "id": "applications",
+        "type": "text",
+        "title": "Real-World Applications",
+        "title_zh": "实际应用",
+        "content": "Pythagoras used in: Singapore construction (checking if corners are 90°), navigation (shortest distance between MRT stations), surveying (measuring building heights), sports (calculating field dimensions).",
+        "content_zh": "勾股定理用于：新加坡建筑（检查角是否为90°）、导航（地铁站之间的最短距离）、测量（测量建筑物高度）、体育（计算场地尺寸）。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pythagoras-theorem-q1",
+        "type": "short",
+        "difficulty": "easy",
+        "prompt": "Right triangle: legs 6, 8. Hypotenuse:",
+        "prompt_zh": "[Pythagoras' Theorem - 问题 1]",
+        "answer": "10",
+        "validator": "exact",
+        "hint": "Use problem-solving heuristics: understand the problem, devise a plan, carry out the plan, look back.",
+        "hint_zh": "使用解题策略:理解问题,制定计划,执行计划,回顾检查。"
+      },
+      {
+        "id": "pythagoras-theorem-q2",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Which forms right triangle?",
+        "prompt_zh": "[Pythagoras' Theorem - 问题 2]",
+        "choices": [
+          "8,15,17",
+          "4,5,6",
+          "7,8,9",
+          "10,11,12"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "pythagoras-theorem-q3",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "If c²=a²+b², c is the:",
+        "prompt_zh": "[Pythagoras' Theorem - 问题 3]",
+        "choices": [
+          "hypotenuse",
+          "shorter leg",
+          "longer leg",
+          "base"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "pythagoras-theorem-q4",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Find missing side: a=5, c=13, b=?",
+        "prompt_zh": "[Pythagoras' Theorem - 问题 4]",
+        "choices": [
+          "12",
+          "8",
+          "18",
+          "14"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "pythagoras-theorem-q5",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Diagonal of square side 5cm:",
+        "prompt_zh": "[Pythagoras' Theorem - 问题 5]",
+        "choices": [
+          "5√2 cm",
+          "10cm",
+          "25cm",
+          "5cm"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "pythagoras-theorem-q6",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Ladder 10m long leans against wall, base 6m from wall. How high up wall?",
+        "prompt_zh": "[Pythagoras' Theorem - 问题 6]",
+        "choices": [
+          "8m",
+          "4m",
+          "16m",
+          "7m"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "pythagoras-theorem-q7",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Rectangle 9cm by 12cm. Diagonal length:",
+        "prompt_zh": "[Pythagoras' Theorem - 问题 7]",
+        "choices": [
+          "15cm",
+          "21cm",
+          "18cm",
+          "10.5cm"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "pythagoras-theorem-q8",
+        "type": "short",
+        "difficulty": "medium",
+        "prompt": "Is triangle with sides 7, 24, 25 a right triangle?",
+        "prompt_zh": "[Pythagoras' Theorem - 问题 8]",
+        "answer": "yes",
+        "validator": "exact",
+        "hint": "Use problem-solving heuristics: understand the problem, devise a plan, carry out the plan, look back.",
+        "hint_zh": "使用解题策略:理解问题,制定计划,执行计划,回顾检查。"
+      },
+      {
+        "id": "pythagoras-theorem-q9",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "HDB room floor is 4m by 3m. Cable from one corner to opposite corner:",
+        "prompt_zh": "[Pythagoras' Theorem - 问题 9]",
+        "choices": [
+          "5m",
+          "7m",
+          "12m",
+          "3.5m"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "pythagoras-theorem-q10",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Isosceles right triangle has legs x. If hypotenuse is 10√2, find x.",
+        "prompt_zh": "[Pythagoras' Theorem - 问题 10]",
+        "choices": [
+          "10",
+          "20",
+          "5√2",
+          "14.14"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "pythagoras-theorem-q11",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Gardens by the Bay pathway: Walk 120m north, then 160m east. Direct distance from start:",
+        "prompt_zh": "[Pythagoras' Theorem - 问题 11]",
+        "choices": [
+          "200m",
+          "280m",
+          "140m",
+          "180m"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "pythagoras-theorem-q12",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Equilateral triangle side 6cm. Find height.",
+        "prompt_zh": "[Pythagoras' Theorem - 问题 12]",
+        "choices": [
+          "3√3 cm",
+          "6√3 cm",
+          "3cm",
+          "6cm"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "pythagoras-theorem-q13",
+        "type": "short",
+        "difficulty": "hard",
+        "prompt": "Ship sails 15km east then 20km north. How far from starting point?",
+        "prompt_zh": "[Pythagoras' Theorem - 问题 13]",
+        "answer": "25 km",
+        "validator": "exact",
+        "hint": "Use problem-solving heuristics: understand the problem, devise a plan, carry out the plan, look back.",
+        "hint_zh": "使用解题策略:理解问题,制定计划,执行计划,回顾检查。"
+      },
+      {
+        "id": "pythagoras-theorem-q14",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Rectangular box: 6cm × 8cm × 24cm. Length of longest diagonal:",
+        "prompt_zh": "[Pythagoras' Theorem - 问题 14]",
+        "choices": [
+          "26cm",
+          "30cm",
+          "25cm",
+          "28cm"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "pythagoras-theorem-q15",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Coordinate geometry: Distance from (2,3) to (8,11):",
+        "prompt_zh": "[Pythagoras' Theorem - 问题 15]",
+        "choices": [
+          "10",
+          "14",
+          "6",
+          "8"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      }
+    ]
+  },
+  {
+    "id": "circle-properties-sec2",
+    "gradeLevel": "sec2",
+    "title": "Properties of Circles",
+    "title_zh": "圆的性质",
+    "description": "Circle theorems, arc, chord, and tangent properties",
+    "description_zh": "圆定理、弧、弦和切线性质",
+    "tag": "Geometry",
+    "tag_zh": "几何",
+    "objectives": [
+      "Understand circle terminology",
+      "Apply angle properties in circles",
+      "Use chord and tangent properties",
+      "Solve problems involving circles"
+    ],
+    "objectives_zh": [
+      "理解圆的术语",
+      "应用圆中的角性质",
+      "使用弦和切线性质",
+      "解决涉及圆的问题"
+    ],
+    "sections": [
+      {
+        "id": "circle-parts",
+        "type": "text",
+        "title": "Parts of a Circle",
+        "title_zh": "圆的各部分",
+        "content": "Radius: center to circumference. Diameter: 2 × radius, passes through center. Chord: line joining two points on circle. Arc: part of circumference. Tangent: line touching circle at one point. Example: Singapore's roundabouts (circular roads).",
+        "content_zh": "半径：圆心到圆周。直径：2 × 半径，通过圆心。弦：连接圆上两点的线。弧：圆周的一部分。切线：在一点接触圆的线。例如：新加坡的环岛（圆形道路）。"
+      },
+      {
+        "id": "angle-properties",
+        "type": "text",
+        "title": "Angle Properties",
+        "title_zh": "角的性质",
+        "content": "Key theorems: Angle in semicircle = 90°. Angles in same segment are equal. Angle at center = 2 × angle at circumference. Used in Singapore: designing circular gardens, roundabouts, observation wheel (Singapore Flyer).",
+        "content_zh": "关键定理：半圆上的角 = 90°。同弧所对的圆周角相等。圆心角 = 2 × 圆周角。用于新加坡：设计圆形花园、环岛、观景轮（新加坡摩天观景轮）。"
+      },
+      {
+        "id": "tangent-properties",
+        "type": "text",
+        "title": "Tangent Properties",
+        "title_zh": "切线性质",
+        "content": "Tangent perpendicular to radius at point of contact. Two tangents from external point are equal length. Example: Singapore cable car routes touch circular supports, wheel spokes perpendicular to rim.",
+        "content_zh": "切线在切点处垂直于半径。从外部点引的两条切线长度相等。例如：新加坡缆车路线接触圆形支架，车轮辐条垂直于边缘。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "circle-properties-q1",
+        "type": "short",
+        "difficulty": "easy",
+        "prompt": "Circumference formula (diameter d):",
+        "prompt_zh": "[Properties of Circles - 问题 1]",
+        "answer": "πd",
+        "validator": "exact",
+        "hint": "Use problem-solving heuristics: understand the problem, devise a plan, carry out the plan, look back.",
+        "hint_zh": "使用解题策略:理解问题,制定计划,执行计划,回顾检查。"
+      },
+      {
+        "id": "circle-properties-q2",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Area of circle radius 10cm (use π=3.14):",
+        "prompt_zh": "[Properties of Circles - 问题 2]",
+        "choices": [
+          "314 cm²",
+          "628 cm²",
+          "62.8 cm²",
+          "31.4 cm²"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "circle-properties-q3",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "If diameter = 14cm, radius =",
+        "prompt_zh": "[Properties of Circles - 问题 3]",
+        "choices": [
+          "7cm",
+          "28cm",
+          "14cm",
+          "3.5cm"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "circle-properties-q4",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Angle in semicircle is always:",
+        "prompt_zh": "[Properties of Circles - 问题 4]",
+        "choices": [
+          "90°",
+          "180°",
+          "45°",
+          "60°"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "circle-properties-q5",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Radius of circle with circumference 44cm (π=22/7):",
+        "prompt_zh": "[Properties of Circles - 问题 5]",
+        "choices": [
+          "7cm",
+          "14cm",
+          "22cm",
+          "11cm"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "circle-properties-q6",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Singapore Flyer radius 75m. One complete rotation distance:",
+        "prompt_zh": "[Properties of Circles - 问题 6]",
+        "choices": [
+          "150π m",
+          "75π m",
+          "225π m",
+          "300π m"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "circle-properties-q7",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Circle area 154 cm² (π=22/7). Find radius.",
+        "prompt_zh": "[Properties of Circles - 问题 7]",
+        "choices": [
+          "7cm",
+          "14cm",
+          "49cm",
+          "11cm"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "circle-properties-q8",
+        "type": "short",
+        "difficulty": "medium",
+        "prompt": "Arc length: radius 7cm, angle 60°. Arc length (π=22/7):",
+        "prompt_zh": "[Properties of Circles - 问题 8]",
+        "answer": "7.33 cm",
+        "validator": "exact",
+        "hint": "Use problem-solving heuristics: understand the problem, devise a plan, carry out the plan, look back.",
+        "hint_zh": "使用解题策略:理解问题,制定计划,执行计划,回顾检查。"
+      },
+      {
+        "id": "circle-properties-q9",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Sector area: r=10cm, angle=90°. Area (π=3.14):",
+        "prompt_zh": "[Properties of Circles - 问题 9]",
+        "choices": [
+          "78.5 cm²",
+          "314 cm²",
+          "157 cm²",
+          "39.25 cm²"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "circle-properties-q10",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Tangent to circle makes what angle with radius at contact point?",
+        "prompt_zh": "[Properties of Circles - 问题 10]",
+        "choices": [
+          "90°",
+          "180°",
+          "45°",
+          "0°"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "circle-properties-q11",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Circular pond radius 7m surrounded by path width 2m. Path area (π=22/7):",
+        "prompt_zh": "[Properties of Circles - 问题 11]",
+        "choices": [
+          "176 m²",
+          "154 m²",
+          "254 m²",
+          "78 m²"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "circle-properties-q12",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Two circles touch externally. Radii 5cm and 3cm. Distance between centers:",
+        "prompt_zh": "[Properties of Circles - 问题 12]",
+        "choices": [
+          "8cm",
+          "5cm",
+          "2cm",
+          "15cm"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "circle-properties-q13",
+        "type": "short",
+        "difficulty": "hard",
+        "prompt": "Wheel diameter 70cm. How many revolutions to travel 110m? (π=22/7)",
+        "prompt_zh": "[Properties of Circles - 问题 13]",
+        "answer": "50",
+        "validator": "exact",
+        "hint": "Use problem-solving heuristics: understand the problem, devise a plan, carry out the plan, look back.",
+        "hint_zh": "使用解题策略:理解问题,制定计划,执行计划,回顾检查。"
+      },
+      {
+        "id": "circle-properties-q14",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Annulus (ring): outer radius 10cm, inner radius 6cm. Area (π=3.14):",
+        "prompt_zh": "[Properties of Circles - 问题 14]",
+        "choices": [
+          "200.96 cm²",
+          "314 cm²",
+          "113.04 cm²",
+          "87.92 cm²"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "circle-properties-q15",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Arc AB subtends 120° at center. Radius 6cm. Find length of chord AB (π=22/7):",
+        "prompt_zh": "[Properties of Circles - 问题 15]",
+        "choices": [
+          "6√3 cm",
+          "12cm",
+          "6cm",
+          "4π cm"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      }
+    ]
+  },
+  {
+    "id": "mensuration-2d-sec2",
+    "gradeLevel": "sec2",
+    "title": "Mensuration: Area & Perimeter",
+    "title_zh": "测量：面积和周长",
+    "description": "Advanced area and perimeter of composite shapes",
+    "description_zh": "复合图形的高级面积和周长",
+    "tag": "Geometry",
+    "tag_zh": "几何",
+    "objectives": [
+      "Calculate area of trapezium, parallelogram",
+      "Find area and circumference of circles",
+      "Solve problems with composite shapes",
+      "Apply to HDB floor plans and parks"
+    ],
+    "objectives_zh": [
+      "计算梯形、平行四边形的面积",
+      "求圆的面积和周长",
+      "解决复合图形问题",
+      "应用于组屋平面图和公园"
+    ],
+    "sections": [
+      {
+        "id": "quadrilaterals",
+        "type": "text",
+        "title": "Area of Quadrilaterals",
+        "title_zh": "四边形的面积",
+        "content": "Trapezium: A = ½(a+b)h where a, b are parallel sides, h is height. Parallelogram: A = base × height. Example: Singapore HDB multi-storey carpark ramps (trapezoidal), playground designs.",
+        "content_zh": "梯形：A = ½(a+b)h，其中a、b是平行边，h是高。平行四边形：A = 底 × 高。例如：新加坡组屋多层停车场坡道（梯形）、游乐场设计。"
+      },
+      {
+        "id": "circles",
+        "type": "text",
+        "title": "Circles: Area & Circumference",
+        "title_zh": "圆：面积和周长",
+        "content": "Circumference: C = 2πr or πd. Area: A = πr². For sectors: arc length = θ/360 × 2πr, sector area = θ/360 × πr². Singapore application: roundabout areas, circular gardens (Gardens by the Bay), fountain designs.",
+        "content_zh": "周长：C = 2πr或πd。面积：A = πr²。对于扇形：弧长 = θ/360 × 2πr，扇形面积 = θ/360 × πr²。新加坡应用：环岛面积、圆形花园（滨海湾花园）、喷泉设计。"
+      },
+      {
+        "id": "composite-shapes",
+        "type": "text",
+        "title": "Composite Shapes",
+        "title_zh": "复合图形",
+        "content": "Break complex shapes into simpler parts (rectangles, triangles, circles). Add/subtract areas. Example: HDB flat floor plans (L-shaped rooms), Singapore parks with mixed shapes.",
+        "content_zh": "将复杂形状分解为简单部分（矩形、三角形、圆形）。加减面积。例如：组屋平面图（L形房间）、新加坡混合形状的公园。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "mensuration-2d-q1",
+        "type": "short",
+        "difficulty": "easy",
+        "prompt": "Rectangle: length 12m, width 5m. Area:",
+        "prompt_zh": "[Mensuration: Area & Perimeter - 问题 1]",
+        "answer": "60 m²",
+        "validator": "exact",
+        "hint": "Use problem-solving heuristics: understand the problem, devise a plan, carry out the plan, look back.",
+        "hint_zh": "使用解题策略:理解问题,制定计划,执行计划,回顾检查。"
+      },
+      {
+        "id": "mensuration-2d-q2",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Triangle: base 8cm, height 5cm. Area:",
+        "prompt_zh": "[Mensuration: Area & Perimeter - 问题 2]",
+        "choices": [
+          "20 cm²",
+          "40 cm²",
+          "13 cm²",
+          "10 cm²"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "mensuration-2d-q3",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Square perimeter 36cm. Side length:",
+        "prompt_zh": "[Mensuration: Area & Perimeter - 问题 3]",
+        "choices": [
+          "9cm",
+          "36cm",
+          "18cm",
+          "4cm"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "mensuration-2d-q4",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Parallelogram: base 10m, height 6m. Area:",
+        "prompt_zh": "[Mensuration: Area & Perimeter - 问题 4]",
+        "choices": [
+          "60 m²",
+          "16 m²",
+          "30 m²",
+          "100 m²"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "mensuration-2d-q5",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Trapezium: parallel sides 8,12; height 5. Area:",
+        "prompt_zh": "[Mensuration: Area & Perimeter - 问题 5]",
+        "choices": [
+          "50",
+          "100",
+          "60",
+          "40"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "mensuration-2d-q6",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "HDB room: 5m × 4m. Tiles are 25cm × 25cm. How many tiles needed?",
+        "prompt_zh": "[Mensuration: Area & Perimeter - 问题 6]",
+        "choices": [
+          "320",
+          "80",
+          "160",
+          "640"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "mensuration-2d-q7",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Rhombus: diagonals 12cm and 16cm. Area:",
+        "prompt_zh": "[Mensuration: Area & Perimeter - 问题 7]",
+        "choices": [
+          "96 cm²",
+          "192 cm²",
+          "28 cm²",
+          "48 cm²"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "mensuration-2d-q8",
+        "type": "short",
+        "difficulty": "medium",
+        "prompt": "Path around rectangular garden 20m × 15m. Path width 2m. Path area:",
+        "prompt_zh": "[Mensuration: Area & Perimeter - 问题 8]",
+        "answer": "156 m²",
+        "validator": "exact",
+        "hint": "Use problem-solving heuristics: understand the problem, devise a plan, carry out the plan, look back.",
+        "hint_zh": "使用解题策略:理解问题,制定计划,执行计划,回顾检查。"
+      },
+      {
+        "id": "mensuration-2d-q9",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Composite: rectangle 10×8 with semicircle on 8cm side. Total area (π=3.14):",
+        "prompt_zh": "[Mensuration: Area & Perimeter - 问题 9]",
+        "choices": [
+          "105.12 cm²",
+          "80 cm²",
+          "130.24 cm²",
+          "100 cm²"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "mensuration-2d-q10",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Triangle ABC: base 10cm. If area is 60 cm², find height.",
+        "prompt_zh": "[Mensuration: Area & Perimeter - 问题 10]",
+        "choices": [
+          "12cm",
+          "6cm",
+          "120cm",
+          "5cm"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "mensuration-2d-q11",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "School hall: 30m × 20m. Stage at one end 30m × 5m. Remaining floor area for chairs:",
+        "prompt_zh": "[Mensuration: Area & Perimeter - 问题 11]",
+        "choices": [
+          "500 m²",
+          "600 m²",
+          "450 m²",
+          "550 m²"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "mensuration-2d-q12",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Circular garden radius 14m. Square path around it. If path width 3m, find path area (π=22/7):",
+        "prompt_zh": "[Mensuration: Area & Perimeter - 问题 12]",
+        "choices": [
+          "708 m²",
+          "616 m²",
+          "924 m²",
+          "308 m²"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "mensuration-2d-q13",
+        "type": "short",
+        "difficulty": "hard",
+        "prompt": "Painting walls of room 6m × 4m × 3m high. One door 2m × 1m, two windows each 1.5m × 1m. Paintable area:",
+        "prompt_zh": "[Mensuration: Area & Perimeter - 问题 13]",
+        "answer": "54 m²",
+        "validator": "exact",
+        "hint": "Use problem-solving heuristics: understand the problem, devise a plan, carry out the plan, look back.",
+        "hint_zh": "使用解题策略:理解问题,制定计划,执行计划,回顾检查。"
+      },
+      {
+        "id": "mensuration-2d-q14",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Equilateral triangle side 10cm. Area (use √3=1.732):",
+        "prompt_zh": "[Mensuration: Area & Perimeter - 问题 14]",
+        "choices": [
+          "43.3 cm²",
+          "50 cm²",
+          "86.6 cm²",
+          "25 cm²"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "mensuration-2d-q15",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Regular hexagon side 6cm. Area (hexagon = 6 equilateral triangles, √3=1.732):",
+        "prompt_zh": "[Mensuration: Area & Perimeter - 问题 15]",
+        "choices": [
+          "93.5 cm²",
+          "187 cm²",
+          "108 cm²",
+          "156 cm²"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      }
+    ]
+  },
+  {
+    "id": "mensuration-3d-sec2",
+    "gradeLevel": "sec2",
+    "title": "Mensuration: Volume & Surface Area",
+    "title_zh": "测量：体积和表面积",
+    "description": "Volume and surface area of prisms, cylinders, pyramids, cones, spheres",
+    "description_zh": "棱柱、圆柱、棱锥、圆锥、球的体积和表面积",
+    "tag": "Geometry",
+    "tag_zh": "几何",
+    "objectives": [
+      "Calculate volume and surface area of prisms",
+      "Find volume and surface area of cylinders",
+      "Calculate for pyramids, cones, and spheres",
+      "Apply to Singapore water tanks, buildings"
+    ],
+    "objectives_zh": [
+      "计算棱柱的体积和表面积",
+      "求圆柱的体积和表面积",
+      "计算棱锥、圆锥和球",
+      "应用于新加坡水箱、建筑物"
+    ],
+    "sections": [
+      {
+        "id": "prisms-cylinders",
+        "type": "text",
+        "title": "Prisms and Cylinders",
+        "title_zh": "棱柱和圆柱",
+        "content": "Prism: V = base area × height. Cylinder: V = πr²h, Surface area = 2πr² + 2πrh. Singapore examples: HDB water tanks (cylindrical), rectangular storage rooms, MRT tunnels.",
+        "content_zh": "棱柱：V = 底面积 × 高。圆柱：V = πr²h，表面积 = 2πr² + 2πrh。新加坡例子：组屋水箱（圆柱形）、矩形储藏室、地铁隧道。"
+      },
+      {
+        "id": "pyramids-cones",
+        "type": "text",
+        "title": "Pyramids and Cones",
+        "title_zh": "棱锥和圆锥",
+        "content": "Pyramid: V = ⅓ × base area × height. Cone: V = ⅓πr²h, Surface area = πr² + πrl (l=slant height). Example: Singapore roof designs, traffic cones, decorative structures.",
+        "content_zh": "棱锥：V = ⅓ × 底面积 × 高。圆锥：V = ⅓πr²h，表面积 = πr² + πrl（l=斜高）。例如：新加坡屋顶设计、交通锥、装饰结构。"
+      },
+      {
+        "id": "spheres",
+        "type": "text",
+        "title": "Spheres",
+        "title_zh": "球",
+        "content": "Volume: V = ⁴⁄₃πr³. Surface area: A = 4πr². Singapore applications: dome structures (Science Centre), spherical water tanks, globe at Esplanade, sports balls.",
+        "content_zh": "体积：V = ⁴⁄₃πr³。表面积：A = 4πr²。新加坡应用：圆顶结构（科学中心）、球形水箱、滨海艺术中心地球仪、运动球。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "mensuration-3d-q1",
+        "type": "short",
+        "difficulty": "easy",
+        "prompt": "Cube edge 4cm. Volume:",
+        "prompt_zh": "[Mensuration: Volume & Surface Area - 问题 1]",
+        "answer": "64 cm³",
+        "validator": "exact",
+        "hint": "Use problem-solving heuristics: understand the problem, devise a plan, carry out the plan, look back.",
+        "hint_zh": "使用解题策略:理解问题,制定计划,执行计划,回顾检查。"
+      },
+      {
+        "id": "mensuration-3d-q2",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Cuboid: 5cm × 3cm × 2cm. Volume:",
+        "prompt_zh": "[Mensuration: Volume & Surface Area - 问题 2]",
+        "choices": [
+          "30 cm³",
+          "10 cm³",
+          "15 cm³",
+          "60 cm³"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "mensuration-3d-q3",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Cube edge 3cm. Surface area:",
+        "prompt_zh": "[Mensuration: Volume & Surface Area - 问题 3]",
+        "choices": [
+          "54 cm²",
+          "27 cm²",
+          "18 cm²",
+          "9 cm²"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "mensuration-3d-q4",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Cylinder: radius 7cm, height 10cm. Volume (π=22/7):",
+        "prompt_zh": "[Mensuration: Volume & Surface Area - 问题 4]",
+        "choices": [
+          "1540 cm³",
+          "440 cm³",
+          "770 cm³",
+          "220 cm³"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "mensuration-3d-q5",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Triangular prism: base area 20 cm², length 15cm. Volume:",
+        "prompt_zh": "[Mensuration: Volume & Surface Area - 问题 5]",
+        "choices": [
+          "300 cm³",
+          "35 cm³",
+          "150 cm³",
+          "200 cm³"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "mensuration-3d-q6",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "HDB water tank: cylinder radius 3m, height 8m. Capacity in liters (π=3.14, 1m³=1000L):",
+        "prompt_zh": "[Mensuration: Volume & Surface Area - 问题 6]",
+        "choices": [
+          "226080 L",
+          "75360 L",
+          "24 L",
+          "226 L"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "mensuration-3d-q7",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Cuboid surface area: 4cm × 5cm × 6cm:",
+        "prompt_zh": "[Mensuration: Volume & Surface Area - 问题 7]",
+        "choices": [
+          "148 cm²",
+          "120 cm²",
+          "74 cm²",
+          "180 cm²"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "mensuration-3d-q8",
+        "type": "short",
+        "difficulty": "medium",
+        "prompt": "If cube edge triples, volume multiplied by:",
+        "prompt_zh": "[Mensuration: Volume & Surface Area - 问题 8]",
+        "answer": "27",
+        "validator": "exact",
+        "hint": "Use problem-solving heuristics: understand the problem, devise a plan, carry out the plan, look back.",
+        "hint_zh": "使用解题策略:理解问题,制定计划,执行计划,回顾检查。"
+      },
+      {
+        "id": "mensuration-3d-q9",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Cylinder: curved surface area only. r=7cm, h=15cm (π=22/7):",
+        "prompt_zh": "[Mensuration: Volume & Surface Area - 问题 9]",
+        "choices": [
+          "660 cm²",
+          "330 cm²",
+          "154 cm²",
+          "462 cm²"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "mensuration-3d-q10",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Cone: radius 6cm, height 8cm. Volume (π=3.14):",
+        "prompt_zh": "[Mensuration: Volume & Surface Area - 问题 10]",
+        "choices": [
+          "301.44 cm³",
+          "904.32 cm³",
+          "150.72 cm³",
+          "452.16 cm³"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "mensuration-3d-q11",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Swimming pool: 25m × 10m × 2m deep. Water fills to 1.8m. Volume of water:",
+        "prompt_zh": "[Mensuration: Volume & Surface Area - 问题 11]",
+        "choices": [
+          "450 m³",
+          "500 m³",
+          "250 m³",
+          "900 m³"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "mensuration-3d-q12",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Sphere radius 21cm. Surface area (π=22/7):",
+        "prompt_zh": "[Mensuration: Volume & Surface Area - 问题 12]",
+        "choices": [
+          "5544 cm²",
+          "2772 cm²",
+          "1386 cm²",
+          "11088 cm²"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "mensuration-3d-q13",
+        "type": "short",
+        "difficulty": "hard",
+        "prompt": "Cylindrical tank diameter 2.8m, height 5m. Paint cost $8/m². Total paint cost for curved surface only (π=22/7):",
+        "prompt_zh": "[Mensuration: Volume & Surface Area - 问题 13]",
+        "answer": "352",
+        "validator": "exact",
+        "hint": "Use problem-solving heuristics: understand the problem, devise a plan, carry out the plan, look back.",
+        "hint_zh": "使用解题策略:理解问题,制定计划,执行计划,回顾检查。"
+      },
+      {
+        "id": "mensuration-3d-q14",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Pyramid: square base 10m × 10m, height 12m. Volume:",
+        "prompt_zh": "[Mensuration: Volume & Surface Area - 问题 14]",
+        "choices": [
+          "400 m³",
+          "1200 m³",
+          "100 m³",
+          "800 m³"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "mensuration-3d-q15",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Hemisphere radius 7cm on top of cylinder radius 7cm height 10cm. Total volume (π=22/7):",
+        "prompt_zh": "[Mensuration: Volume & Surface Area - 问题 15]",
+        "choices": [
+          "2257.33 cm³",
+          "1540 cm³",
+          "718.67 cm³",
+          "3080 cm³"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      }
+    ]
+  },
+  {
+    "id": "data-analysis-sec2",
+    "gradeLevel": "sec2",
+    "title": "Data Analysis & Statistics",
+    "title_zh": "数据分析与统计",
+    "description": "Mean, median, mode, range, and interpreting data",
+    "description_zh": "均值、中位数、众数、极差和数据解释",
+    "tag": "Statistics",
+    "tag_zh": "统计",
+    "objectives": [
+      "Calculate mean, median, mode, range",
+      "Interpret and compare data sets",
+      "Draw and interpret statistical charts",
+      "Apply to Singapore data (population, weather)"
+    ],
+    "objectives_zh": [
+      "计算均值、中位数、众数、极差",
+      "解释和比较数据集",
+      "绘制和解释统计图表",
+      "应用于新加坡数据（人口、天气）"
+    ],
+    "sections": [
+      {
+        "id": "measures-central-tendency",
+        "type": "text",
+        "title": "Measures of Central Tendency",
+        "title_zh": "集中趋势的度量",
+        "content": "Mean: sum ÷ count. Median: middle value when ordered. Mode: most frequent value. Example: Average temperature in Singapore (mean 28°C), median HDB resale price, most common family size (mode).",
+        "content_zh": "均值：总和 ÷ 数量。中位数：排序后的中间值。众数：最频繁的值。例如：新加坡平均温度（均值28°C）、组屋转售价格中位数、最常见家庭规模（众数）。"
+      },
+      {
+        "id": "range-spread",
+        "type": "text",
+        "title": "Range and Spread",
+        "title_zh": "极差和分布",
+        "content": "Range: highest - lowest value. Measures spread of data. Large range = more variation. Example: Singapore daily temperature range (24-33°C = 9°C range), exam scores range.",
+        "content_zh": "极差：最高值 - 最低值。测量数据分布。大极差 = 更多变化。例如：新加坡日温差（24-33°C = 9°C极差）、考试分数极差。"
+      },
+      {
+        "id": "charts-graphs",
+        "type": "text",
+        "title": "Statistical Charts",
+        "title_zh": "统计图表",
+        "content": "Bar charts: compare categories. Pie charts: show proportions. Line graphs: show trends over time. Example: Singapore population growth chart, ethnic composition pie chart, MRT ridership trends.",
+        "content_zh": "条形图：比较类别。饼图：显示比例。折线图：显示随时间的趋势。例如：新加坡人口增长图表、种族组成饼图、地铁乘客量趋势。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "data-analysis-q1",
+        "type": "short",
+        "difficulty": "easy",
+        "prompt": "Data: 12, 15, 18, 15, 20. Find mode.",
+        "prompt_zh": "[Data Analysis & Statistics - 问题 1]",
+        "answer": "15",
+        "validator": "exact",
+        "hint": "Use problem-solving heuristics: understand the problem, devise a plan, carry out the plan, look back.",
+        "hint_zh": "使用解题策略:理解问题,制定计划,执行计划,回顾检查。"
+      },
+      {
+        "id": "data-analysis-q2",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Mean of 4, 6, 8, 10, 12:",
+        "prompt_zh": "[Data Analysis & Statistics - 问题 2]",
+        "choices": [
+          "8",
+          "10",
+          "6",
+          "40"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "data-analysis-q3",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Median of 3, 7, 5, 9, 11:",
+        "prompt_zh": "[Data Analysis & Statistics - 问题 3]",
+        "choices": [
+          "7",
+          "5",
+          "9",
+          "6"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "data-analysis-q4",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Range of 25, 30, 35, 40, 45:",
+        "prompt_zh": "[Data Analysis & Statistics - 问题 4]",
+        "choices": [
+          "20",
+          "45",
+          "25",
+          "35"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "data-analysis-q5",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Data: 2, 2, 3, 4, 4, 4, 5. Mode:",
+        "prompt_zh": "[Data Analysis & Statistics - 问题 5]",
+        "choices": [
+          "4",
+          "3",
+          "2",
+          "5"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "data-analysis-q6",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Test scores: 65, 70, 75, 80, 95. Which best represents typical score?",
+        "prompt_zh": "[Data Analysis & Statistics - 问题 6]",
+        "choices": [
+          "Median (75)",
+          "Mean (77)",
+          "Mode",
+          "Range"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "data-analysis-q7",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Singapore temperature (°C): 28, 30, 32, 29, 31, 30, 29. Find mean.",
+        "prompt_zh": "[Data Analysis & Statistics - 问题 7]",
+        "choices": [
+          "29.86",
+          "30",
+          "31",
+          "28"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "data-analysis-q8",
+        "type": "short",
+        "difficulty": "medium",
+        "prompt": "Data: 10, 12, 14, x, 18, 20. If mean is 15, find x.",
+        "prompt_zh": "[Data Analysis & Statistics - 问题 8]",
+        "answer": "16",
+        "validator": "exact",
+        "hint": "Use problem-solving heuristics: understand the problem, devise a plan, carry out the plan, look back.",
+        "hint_zh": "使用解题策略:理解问题,制定计划,执行计划,回顾检查。"
+      },
+      {
+        "id": "data-analysis-q9",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Which graph best shows trend over time?",
+        "prompt_zh": "[Data Analysis & Statistics - 问题 9]",
+        "choices": [
+          "Line graph",
+          "Bar chart",
+          "Pie chart",
+          "Pictogram"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "data-analysis-q10",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Five numbers have mean 20. Sum of the five numbers:",
+        "prompt_zh": "[Data Analysis & Statistics - 问题 10]",
+        "choices": [
+          "100",
+          "20",
+          "5",
+          "25"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "data-analysis-q11",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Class test: 8 students average 72, another 12 students average 68. Overall class average:",
+        "prompt_zh": "[Data Analysis & Statistics - 问题 11]",
+        "choices": [
+          "69.6",
+          "70",
+          "68",
+          "72"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "data-analysis-q12",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Box plot shows: Q1=40, Q2=55, Q3=70. Interquartile range:",
+        "prompt_zh": "[Data Analysis & Statistics - 问题 12]",
+        "choices": [
+          "30",
+          "55",
+          "15",
+          "40"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "data-analysis-q13",
+        "type": "short",
+        "difficulty": "hard",
+        "prompt": "MRT ridership (millions): Mon 2.1, Tue 2.3, Wed 2.2, Thu 2.4, Fri 2.5. Standard deviation approximately:",
+        "prompt_zh": "[Data Analysis & Statistics - 问题 13]",
+        "answer": "0.14",
+        "validator": "exact",
+        "hint": "Use problem-solving heuristics: understand the problem, devise a plan, carry out the plan, look back.",
+        "hint_zh": "使用解题策略:理解问题,制定计划,执行计划,回顾检查。"
+      },
+      {
+        "id": "data-analysis-q14",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Frequency table: 5 appears 3 times, 10 appears 2 times, 15 appears 5 times. Median:",
+        "prompt_zh": "[Data Analysis & Statistics - 问题 14]",
+        "choices": [
+          "15",
+          "10",
+          "12.5",
+          "11"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "data-analysis-q15",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Two data sets: A has mean 50, SD 5. B has mean 50, SD 12. Which is more consistent?",
+        "prompt_zh": "[Data Analysis & Statistics - 问题 15]",
+        "choices": [
+          "A",
+          "B",
+          "Same",
+          "Cannot tell"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      }
+    ]
+  },
+  {
+    "id": "probability-sec2",
+    "gradeLevel": "sec2",
+    "title": "Probability",
+    "title_zh": "概率",
+    "description": "Basic probability, combined events, and probability trees",
+    "description_zh": "基本概率、复合事件和概率树",
+    "tag": "Statistics",
+    "tag_zh": "统计",
+    "objectives": [
+      "Calculate probability of single events",
+      "Find probability of combined events",
+      "Use probability trees",
+      "Apply to real-world situations"
+    ],
+    "objectives_zh": [
+      "计算单一事件的概率",
+      "求复合事件的概率",
+      "使用概率树",
+      "应用于实际情况"
+    ],
+    "sections": [
+      {
+        "id": "basic-probability",
+        "type": "text",
+        "title": "Basic Probability",
+        "title_zh": "基本概率",
+        "content": "Probability = favorable outcomes ÷ total outcomes. Value between 0 (impossible) and 1 (certain). Example: Probability of rain in Singapore (high in Nov-Jan), probability of bus arriving within 5 min.",
+        "content_zh": "概率 = 有利结果 ÷ 总结果。值在0（不可能）和1（确定）之间。例如：新加坡下雨的概率（11-1月高）、5分钟内公交车到达的概率。"
+      },
+      {
+        "id": "combined-events",
+        "type": "text",
+        "title": "Combined Events",
+        "title_zh": "复合事件",
+        "content": "AND: multiply probabilities (P(A and B) = P(A) × P(B) if independent). OR: add probabilities (P(A or B) = P(A) + P(B) if mutually exclusive). Example: Probability of catching both MRT and bus on time.",
+        "content_zh": "与：乘概率（如果独立，P(A且B) = P(A) × P(B)）。或：加概率（如果互斥，P(A或B) = P(A) + P(B)）。例如：地铁和公交车都准点的概率。"
+      },
+      {
+        "id": "probability-trees",
+        "type": "text",
+        "title": "Probability Trees",
+        "title_zh": "概率树",
+        "content": "Tree diagrams show all possible outcomes with probabilities on branches. Multiply along branches for final probability. Example: Singapore weather forecasts (sunny/rainy over multiple days).",
+        "content_zh": "树形图显示所有可能结果，分支上标概率。沿分支相乘得最终概率。例如：新加坡天气预报（多日晴天/雨天）。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "probability-q1",
+        "type": "short",
+        "difficulty": "easy",
+        "prompt": "Fair die rolled. P(6):",
+        "prompt_zh": "[Probability - 问题 1]",
+        "answer": "1/6",
+        "validator": "exact",
+        "hint": "Use problem-solving heuristics: understand the problem, devise a plan, carry out the plan, look back.",
+        "hint_zh": "使用解题策略:理解问题,制定计划,执行计划,回顾检查。"
+      },
+      {
+        "id": "probability-q2",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Coin flipped. P(tails):",
+        "prompt_zh": "[Probability - 问题 2]",
+        "choices": [
+          "1/2",
+          "1",
+          "0",
+          "2/3"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "probability-q3",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Bag: 4 red, 6 blue balls. P(blue):",
+        "prompt_zh": "[Probability - 问题 3]",
+        "choices": [
+          "3/5",
+          "2/5",
+          "1/2",
+          "6/10"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "probability-q4",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "P(certain event):",
+        "prompt_zh": "[Probability - 问题 4]",
+        "choices": [
+          "1",
+          "0",
+          "1/2",
+          "100"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "probability-q5",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "If P(A) = 0.7, find P(not A).",
+        "prompt_zh": "[Probability - 问题 5]",
+        "choices": [
+          "0.3",
+          "0.7",
+          "1",
+          "0"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "probability-q6",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Two dice rolled. P(sum = 7):",
+        "prompt_zh": "[Probability - 问题 6]",
+        "choices": [
+          "1/6",
+          "1/12",
+          "1/36",
+          "7/36"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "probability-q7",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Singapore 4D: 10,000 numbers. P(winning with 2 specific numbers):",
+        "prompt_zh": "[Probability - 问题 7]",
+        "choices": [
+          "1/5000",
+          "2/10000",
+          "1/10000",
+          "2/5000"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "probability-q8",
+        "type": "short",
+        "difficulty": "medium",
+        "prompt": "Spinner: sectors 1,2,2,3,3,3,4,4. P(odd number):",
+        "prompt_zh": "[Probability - 问题 8]",
+        "answer": "1/2",
+        "validator": "exact",
+        "hint": "Use problem-solving heuristics: understand the problem, devise a plan, carry out the plan, look back.",
+        "hint_zh": "使用解题策略:理解问题,制定计划,执行计划,回顾检查。"
+      },
+      {
+        "id": "probability-q9",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Card drawn from 52 cards. P(heart or king):",
+        "prompt_zh": "[Probability - 问题 9]",
+        "choices": [
+          "4/13",
+          "1/4",
+          "17/52",
+          "1/13"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "probability-q10",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Two coins flipped. P(at least 1 head):",
+        "prompt_zh": "[Probability - 问题 10]",
+        "choices": [
+          "3/4",
+          "1/2",
+          "1/4",
+          "1"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "probability-q11",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Bag: 5 red, 3 blue balls. Draw 2 without replacement. P(both red):",
+        "prompt_zh": "[Probability - 问题 11]",
+        "choices": [
+          "5/14",
+          "25/64",
+          "10/28",
+          "1/4"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "probability-q12",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Weather: P(rain Mon)=0.3, P(rain Tue)=0.4. If independent, P(rain both days):",
+        "prompt_zh": "[Probability - 问题 12]",
+        "choices": [
+          "0.12",
+          "0.7",
+          "0.35",
+          "0.24"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "probability-q13",
+        "type": "short",
+        "difficulty": "hard",
+        "prompt": "Box: 60% chocolates, 40% candies. Of chocolates, 30% are dark. P(dark chocolate):",
+        "prompt_zh": "[Probability - 问题 13]",
+        "answer": "0.18",
+        "validator": "exact",
+        "hint": "Use problem-solving heuristics: understand the problem, devise a plan, carry out the plan, look back.",
+        "hint_zh": "使用解题策略:理解问题,制定计划,执行计划,回顾检查。"
+      },
+      {
+        "id": "probability-q14",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Three children born. P(exactly 2 girls)?",
+        "prompt_zh": "[Probability - 问题 14]",
+        "choices": [
+          "3/8",
+          "1/2",
+          "1/4",
+          "1/8"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "probability-q15",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Lottery: 1st draw from 50 numbers, 2nd from remaining 49. P(specific 2 numbers in order):",
+        "prompt_zh": "[Probability - 问题 15]",
+        "choices": [
+          "1/2450",
+          "1/50",
+          "2/50",
+          "1/49"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      }
+    ]
+  },
+  {
+    "id": "sets-venn-diagrams-sec2",
+    "gradeLevel": "sec2",
+    "title": "Sets and Venn Diagrams",
+    "title_zh": "集合与维恩图",
+    "description": "Set notation, operations, and Venn diagrams",
+    "description_zh": "集合符号、运算和维恩图",
+    "tag": "Statistics",
+    "tag_zh": "统计",
+    "objectives": [
+      "Use set notation and vocabulary",
+      "Perform set operations (union, intersection)",
+      "Draw and interpret Venn diagrams",
+      "Solve problems using sets"
+    ],
+    "objectives_zh": [
+      "使用集合符号和词汇",
+      "执行集合运算（并集、交集）",
+      "绘制和解释维恩图",
+      "使用集合解决问题"
+    ],
+    "sections": [
+      {
+        "id": "set-notation",
+        "type": "text",
+        "title": "Set Notation",
+        "title_zh": "集合符号",
+        "content": "Set: collection of objects. Element: ∈ (belongs to). Subset: ⊆. Empty set: ∅. Example: Set of Singapore MRT lines = {Red, Green, Purple, Yellow, Blue, Brown, Grey}, set of primes < 10 = {2,3,5,7}.",
+        "content_zh": "集合：对象的集合。元素：∈（属于）。子集：⊆。空集：∅。例如：新加坡地铁线路集合 = {红、绿、紫、黄、蓝、棕、灰}，小于10的质数集合 = {2,3,5,7}。"
+      },
+      {
+        "id": "set-operations",
+        "type": "text",
+        "title": "Set Operations",
+        "title_zh": "集合运算",
+        "content": "Union A∪B: all elements in A or B. Intersection A∩B: elements in both A and B. Complement A': elements not in A. Example: Students taking Math ∪ Science, students in both Chess ∩ Robotics clubs.",
+        "content_zh": "并集A∪B：A或B中的所有元素。交集A∩B：同时在A和B中的元素。补集A'：不在A中的元素。例如：选数学∪科学的学生，同时参加国际象棋∩机器人俱乐部的学生。"
+      },
+      {
+        "id": "venn-diagrams",
+        "type": "text",
+        "title": "Venn Diagrams",
+        "title_zh": "维恩图",
+        "content": "Visual representation of sets using overlapping circles. Overlap shows intersection. Use to solve problems with 2-3 sets. Example: Singapore students studying Mandarin, Malay, Tamil; students playing football, basketball.",
+        "content_zh": "使用重叠圆圈直观表示集合。重叠显示交集。用于解决2-3个集合的问题。例如：学习华语、马来语、泰米尔语的新加坡学生；踢足球、打篮球的学生。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "sets-venn-diagrams-q1",
+        "type": "short",
+        "difficulty": "easy",
+        "prompt": "A = {2,4,6}, B = {4,6,8}. Find A ∩ B.",
+        "prompt_zh": "[Sets and Venn Diagrams - 问题 1]",
+        "answer": "{4,6}",
+        "validator": "exact",
+        "hint": "Use problem-solving heuristics: understand the problem, devise a plan, carry out the plan, look back.",
+        "hint_zh": "使用解题策略:理解问题,制定计划,执行计划,回顾检查。"
+      },
+      {
+        "id": "sets-venn-diagrams-q2",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Empty set symbol:",
+        "prompt_zh": "[Sets and Venn Diagrams - 问题 2]",
+        "choices": [
+          "∅",
+          "0",
+          "{ }",
+          "null"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "sets-venn-diagrams-q3",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "A ∪ B means:",
+        "prompt_zh": "[Sets and Venn Diagrams - 问题 3]",
+        "choices": [
+          "union (all elements)",
+          "intersection",
+          "difference",
+          "complement"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "sets-venn-diagrams-q4",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "If A = {1,2} and B = {2,3}, A ∪ B =",
+        "prompt_zh": "[Sets and Venn Diagrams - 问题 4]",
+        "choices": [
+          "{1,2,3}",
+          "{2}",
+          "{1,3}",
+          "{1,2,2,3}"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "sets-venn-diagrams-q5",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "n({5,10,15,20}) =",
+        "prompt_zh": "[Sets and Venn Diagrams - 问题 5]",
+        "choices": [
+          "4",
+          "50",
+          "20",
+          "5"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "sets-venn-diagrams-q6",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "U = {1-10}, A = {2,4,6,8}, B = {3,6,9}. Find A ∩ B.",
+        "prompt_zh": "[Sets and Venn Diagrams - 问题 6]",
+        "choices": [
+          "{6}",
+          "{}",
+          "{2,3,4,6,8,9}",
+          "{2,4,8}"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "sets-venn-diagrams-q7",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Students: 25 study Math, 18 study Science, 10 study both. How many study at least one?",
+        "prompt_zh": "[Sets and Venn Diagrams - 问题 7]",
+        "choices": [
+          "33",
+          "43",
+          "35",
+          "25"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "sets-venn-diagrams-q8",
+        "type": "short",
+        "difficulty": "medium",
+        "prompt": "If U = {1-8}, A = {1,3,5,7}, find A'.",
+        "prompt_zh": "[Sets and Venn Diagrams - 问题 8]",
+        "answer": "{2,4,6,8}",
+        "validator": "exact",
+        "hint": "Use problem-solving heuristics: understand the problem, devise a plan, carry out the plan, look back.",
+        "hint_zh": "使用解题策略:理解问题,制定计划,执行计划,回顾检查。"
+      },
+      {
+        "id": "sets-venn-diagrams-q9",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "A - B means:",
+        "prompt_zh": "[Sets and Venn Diagrams - 问题 9]",
+        "choices": [
+          "elements in A but not B",
+          "all elements",
+          "elements in B but not A",
+          "intersection"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "sets-venn-diagrams-q10",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "n(A ∪ B) = 50, n(A) = 30, n(B) = 35. Find n(A ∩ B).",
+        "prompt_zh": "[Sets and Venn Diagrams - 问题 10]",
+        "choices": [
+          "15",
+          "50",
+          "85",
+          "5"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "sets-venn-diagrams-q11",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Class: 30 students. 18 play soccer, 15 play basketball, 8 play neither. How many play both?",
+        "prompt_zh": "[Sets and Venn Diagrams - 问题 11]",
+        "choices": [
+          "11",
+          "3",
+          "7",
+          "22"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "sets-venn-diagrams-q12",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Survey: 100 people. 60 like tea, 50 like coffee, 20 like both. How many like neither?",
+        "prompt_zh": "[Sets and Venn Diagrams - 问题 12]",
+        "choices": [
+          "10",
+          "30",
+          "40",
+          "90"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "sets-venn-diagrams-q13",
+        "type": "short",
+        "difficulty": "hard",
+        "prompt": "If A ⊂ B and B ⊂ C, then A ⊂ C. This demonstrates:",
+        "prompt_zh": "[Sets and Venn Diagrams - 问题 13]",
+        "answer": "transitivity",
+        "validator": "exact",
+        "hint": "Use problem-solving heuristics: understand the problem, devise a plan, carry out the plan, look back.",
+        "hint_zh": "使用解题策略:理解问题,制定计划,执行计划,回顾检查。"
+      },
+      {
+        "id": "sets-venn-diagrams-q14",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "n(A ∪ B ∪ C) = 100, n(A)=40, n(B)=50, n(C)=45, n(A∩B)=15, n(B∩C)=20, n(A∩C)=10, n(A∩B∩C)=5. Verify using formula.",
+        "prompt_zh": "[Sets and Venn Diagrams - 问题 14]",
+        "choices": [
+          "Correct",
+          "Incorrect",
+          "Need more info",
+          "Cannot verify"
+        ],
+        "answer": 0,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      },
+      {
+        "id": "sets-venn-diagrams-q15",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Venn diagram: Region outside all sets but inside U represents:",
+        "prompt_zh": "[Sets and Venn Diagrams - 问题 15]",
+        "choices": [
+          "(A ∪ B ∪ C)'",
+          "A' ∩ B' ∩ C'",
+          "Elements in none of the sets",
+          "All of the above"
+        ],
+        "answer": 3,
+        "hint": "Apply mathematical reasoning and real-world context to solve.",
+        "hint_zh": "运用数学推理和实际情境来解决。"
+      }
+    ]
+  }
+]

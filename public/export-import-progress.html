@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Progress Export/Import Tool</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; max-width: 900px; margin: 0 auto; }
+        .section { margin: 30px 0; padding: 20px; border: 2px solid #ddd; border-radius: 8px; }
+        button { padding: 12px 24px; margin: 5px; cursor: pointer; font-size: 16px; border-radius: 6px; border: none; }
+        .btn-export { background: #4CAF50; color: white; }
+        .btn-import { background: #2196F3; color: white; }
+        .btn-clear { background: #f44336; color: white; }
+        textarea { width: 100%; height: 200px; font-family: monospace; font-size: 12px; padding: 10px; }
+        pre { background: #f5f5f5; padding: 15px; overflow: auto; border-radius: 6px; }
+        .success { color: green; font-weight: bold; }
+        .error { color: red; font-weight: bold; }
+        .warning { color: orange; font-weight: bold; }
+        .instructions { background: #e3f2fd; padding: 15px; border-left: 4px solid #2196F3; margin: 15px 0; }
+        h1 { color: #333; }
+        h2 { color: #555; margin-top: 0; }
+    </style>
+</head>
+<body>
+    <h1>🔄 SG Learning - Progress Transfer Tool</h1>
+    <p><strong>Use this tool to transfer your progress between local development and Vercel production.</strong></p>
+
+    <!-- Export Section -->
+    <div class="section">
+        <h2>📤 Step 1: Export Progress (Run on LOCAL version)</h2>
+        <div class="instructions">
+            <strong>Instructions:</strong>
+            <ol>
+                <li>Open this page on your <strong>LOCAL</strong> version: <code>http://localhost:8080/export-import-progress.html</code></li>
+                <li>Click the "Export Progress" button below</li>
+                <li>Copy the exported data OR download as file</li>
+            </ol>
+        </div>
+
+        <button class="btn-export" onclick="exportProgress()">📤 Export Progress</button>
+        <button onclick="downloadProgressFile()">💾 Download as File</button>
+
+        <h3>Current Status:</h3>
+        <pre id="exportStatus"></pre>
+
+        <h3>Exported Data (copy this):</h3>
+        <textarea id="exportData" readonly placeholder="Click Export Progress to generate data..."></textarea>
+    </div>
+
+    <!-- Import Section -->
+    <div class="section">
+        <h2>📥 Step 2: Import Progress (Run on VERCEL version)</h2>
+        <div class="instructions">
+            <strong>Instructions:</strong>
+            <ol>
+                <li>Open this page on <strong>VERCEL</strong>: <code>https://your-app.vercel.app/export-import-progress.html</code></li>
+                <li>Paste exported data OR upload file</li>
+                <li>Click Import Progress</li>
+                <li>Reload to see restored progress</li>
+            </ol>
+        </div>
+
+        <h3>Paste Exported Data Here:</h3>
+        <textarea id="importData" placeholder="Paste exported data here..."></textarea>
+
+        <div style="margin-top: 10px;">
+            <button class="btn-import" onclick="importProgress()">📥 Import Progress</button>
+            <button onclick="uploadProgressFile()">📁 Upload File</button>
+        </div>
+        <input type="file" id="fileInput" style="display: none;" accept=".json" onchange="handleFileUpload(event)">
+
+        <h3>Import Status:</h3>
+        <pre id="importStatus"></pre>
+    </div>
+
+    <script>
+        function showCurrentStatus() {
+            const storage = localStorage.getItem('sg-learning-app-storage');
+            const migrationFlag = localStorage.getItem('sg-learning-progress-migration-v3');
+
+            if (!storage) {
+                return 'No data found in localStorage';
+            }
+
+            try {
+                const data = JSON.parse(storage);
+                const state = data.state || data;
+
+                let status = '✅ Data found!\n\n';
+                status += 'Current domain: ' + window.location.origin + '\n';
+                status += 'Migration flag: ' + (migrationFlag || 'Not set') + '\n\n';
+
+                if (state.allUsersProgress) {
+                    const users = Object.keys(state.allUsersProgress);
+                    status += 'Users with progress: ' + users.length + '\n';
+                    users.forEach(userId => {
+                        const userProgress = state.allUsersProgress[userId] || [];
+                        const completedChapters = userProgress.filter(p => p.completed).length;
+                        status += '  - User "' + userId + '": ' + userProgress.length + ' chapters (' + completedChapters + ' completed)\n';
+                    });
+                }
+
+                if (state.allUsersAIProgress) {
+                    const users = Object.keys(state.allUsersAIProgress);
+                    status += '\nUsers with AI progress: ' + users.length + '\n';
+                    users.forEach(userId => {
+                        const userAIProgress = state.allUsersAIProgress[userId] || {};
+                        const completedModules = Object.values(userAIProgress).filter(p => p.done).length;
+                        status += '  - User "' + userId + '": ' + completedModules + ' modules completed\n';
+                    });
+                }
+
+                return status;
+            } catch (e) {
+                return '❌ Error: ' + e.message;
+            }
+        }
+
+        function exportProgress() {
+            const storage = localStorage.getItem('sg-learning-app-storage');
+            const migrationFlag = localStorage.getItem('sg-learning-progress-migration-v3');
+
+            if (!storage) {
+                document.getElementById('exportStatus').textContent = '❌ No data to export!';
+                return;
+            }
+
+            const exportData = {
+                version: 'v3',
+                exportDate: new Date().toISOString(),
+                exportedFrom: window.location.origin,
+                storage: JSON.parse(storage),
+                migrationFlag: migrationFlag
+            };
+
+            const jsonString = JSON.stringify(exportData, null, 2);
+            document.getElementById('exportData').value = jsonString;
+            document.getElementById('exportStatus').textContent = '✅ Exported!\n\n' + showCurrentStatus();
+            document.getElementById('exportData').select();
+        }
+
+        function downloadProgressFile() {
+            const data = document.getElementById('exportData').value;
+            if (!data) {
+                alert('Please export progress first!');
+                return;
+            }
+
+            const blob = new Blob([data], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'sg-learning-progress-' + new Date().toISOString().split('T')[0] + '.json';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }
+
+        function importProgress() {
+            const importDataStr = document.getElementById('importData').value.trim();
+
+            if (!importDataStr) {
+                document.getElementById('importStatus').textContent = '❌ Please paste data first!';
+                return;
+            }
+
+            try {
+                const importData = JSON.parse(importDataStr);
+
+                if (!importData.storage) {
+                    throw new Error('Invalid format');
+                }
+
+                localStorage.setItem('sg-learning-app-storage', JSON.stringify(importData.storage));
+
+                if (importData.migrationFlag) {
+                    localStorage.setItem('sg-learning-progress-migration-v3', importData.migrationFlag);
+                }
+
+                document.getElementById('importStatus').textContent = '✅ Imported!\n\nReload page to see progress.';
+
+                setTimeout(() => {
+                    if (confirm('Import successful! Reload now?')) {
+                        window.location.href = '/login';
+                    }
+                }, 500);
+
+            } catch (e) {
+                document.getElementById('importStatus').textContent = '❌ Error: ' + e.message;
+            }
+        }
+
+        function uploadProgressFile() {
+            document.getElementById('fileInput').click();
+        }
+
+        function handleFileUpload(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                document.getElementById('importData').value = e.target.result;
+                document.getElementById('importStatus').textContent = '✅ File loaded! Click Import to continue.';
+            };
+            reader.readAsText(file);
+        }
+
+        window.onload = function() {
+            document.getElementById('exportStatus').textContent = showCurrentStatus();
+        };
+    </script>
+</body>
+</html>

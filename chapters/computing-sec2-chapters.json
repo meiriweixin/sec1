@@ -1,0 +1,1676 @@
+[
+  {
+    "id": "algorithms-flowcharts-sec2",
+    "gradeLevel": "sec2",
+    "title": "Algorithms & Flowcharts",
+    "title_zh": "算法与流程图",
+    "description": "Algorithm design, flowcharts, pseudocode, and problem-solving strategies",
+    "description_zh": "算法设计、流程图、伪代码和解决问题的策略",
+    "tag": "Computational Thinking",
+    "tag_zh": "计算思维",
+    "objectives": [
+      "Design algorithms to solve problems",
+      "Create and interpret flowcharts",
+      "Write pseudocode for common tasks",
+      "Analyze algorithm efficiency"
+    ],
+    "objectives_zh": [
+      "设计解决问题的算法",
+      "创建和解释流程图",
+      "为常见任务编写伪代码",
+      "分析算法效率"
+    ],
+    "sections": [
+      {
+        "id": "what-are-algorithms",
+        "type": "text",
+        "title": "What are Algorithms?",
+        "title_zh": "什么是算法？",
+        "content": "An algorithm is a step-by-step procedure to solve a problem. Like a recipe for cooking or directions to a destination. In computing, algorithms tell computers exactly what to do. Example: Singapore MRT route planning - finding shortest path from Jurong East to Changi Airport involves an algorithm that considers all possible routes and selects the optimal one."
+      },
+      {
+        "id": "flowchart-symbols",
+        "type": "text",
+        "title": "Flowchart Symbols",
+        "title_zh": "流程图符号",
+        "content": "Flowcharts use standard symbols: Oval (Start/End), Rectangle (Process/Action), Diamond (Decision/Question), Parallelogram (Input/Output), Arrow (Flow direction). Example: ATM withdrawal flowchart - Check PIN → Verify balance → Decision: Sufficient funds? → If Yes: Dispense cash, If No: Display error."
+      },
+      {
+        "id": "pseudocode",
+        "type": "text",
+        "title": "Pseudocode Basics",
+        "title_zh": "伪代码基础",
+        "content": "Pseudocode is plain language description of algorithm steps, between human language and programming code. Uses keywords like IF, THEN, ELSE, WHILE, FOR, INPUT, OUTPUT. Example for finding max of 3 numbers: INPUT num1, num2, num3 / IF num1 > num2 AND num1 > num3 THEN max = num1 / ELSE IF num2 > num3 THEN max = num2 / ELSE max = num3 / OUTPUT max"
+      },
+      {
+        "id": "algorithm-efficiency",
+        "type": "text",
+        "title": "Algorithm Efficiency",
+        "title_zh": "算法效率",
+        "content": "Efficient algorithms use fewer steps and resources. Linear search checks each item one-by-one (slow for large lists). Binary search divides search space in half each step (much faster for sorted lists). Example: Finding contact in phone with 1000 entries - Linear: up to 1000 checks, Binary: max 10 checks. Singapore government systems process millions of transactions daily, efficiency is critical."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "algorithms-flowcharts-q1",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "An algorithm is:",
+        "prompt_zh": "[Algorithms & Flowcharts - 问题 1]",
+        "choices": [
+          "A step-by-step procedure to solve a problem",
+          "A programming language",
+          "A type of computer",
+          "A flowchart only"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "algorithms-flowcharts-q2",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Which flowchart symbol represents a decision?",
+        "prompt_zh": "[Algorithms & Flowcharts - 问题 2]",
+        "choices": [
+          "Diamond",
+          "Rectangle",
+          "Oval",
+          "Parallelogram"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "algorithms-flowcharts-q3",
+        "type": "short",
+        "difficulty": "easy",
+        "prompt": "What does an oval symbol represent in a flowchart?",
+        "prompt_zh": "[Algorithms & Flowcharts - 问题 3]",
+        "answer": "Start or End",
+        "validator": "exact",
+        "hint": "Trace through the code step by step or think about the concept carefully.",
+        "hint_zh": "逐步追踪代码或仔细思考概念。"
+      },
+      {
+        "id": "algorithms-flowcharts-q4",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "In pseudocode, which keyword is used for conditional statements?",
+        "prompt_zh": "[Algorithms & Flowcharts - 问题 4]",
+        "choices": [
+          "IF",
+          "LOOP",
+          "PRINT",
+          "BEGIN"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "algorithms-flowcharts-q5",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Arrow in flowchart indicates:",
+        "prompt_zh": "[Algorithms & Flowcharts - 问题 5]",
+        "choices": [
+          "Flow direction",
+          "Input",
+          "Decision",
+          "Process"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "algorithms-flowcharts-q6",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Algorithm to find largest of 3 numbers. Which is correct pseudocode?",
+        "prompt_zh": "[Algorithms & Flowcharts - 问题 6]",
+        "choices": [
+          "IF a>b AND a>c THEN max=a",
+          "IF a>b OR a>c THEN max=a",
+          "max = a + b + c",
+          "IF a==b THEN max=a"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "algorithms-flowcharts-q7",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Singapore ERP gantry charges based on time and vehicle type. Which flowchart symbol determines the charge?",
+        "prompt_zh": "[Algorithms & Flowcharts - 问题 7]",
+        "choices": [
+          "Diamond (decision based on time/vehicle)",
+          "Rectangle (process)",
+          "Parallelogram (input)",
+          "Oval (start)"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "algorithms-flowcharts-q8",
+        "type": "short",
+        "difficulty": "medium",
+        "prompt": "Linear search vs binary search. For 1000-item sorted list, maximum comparisons:",
+        "prompt_zh": "[Algorithms & Flowcharts - 问题 8]",
+        "answer": "Linear: 1000, Binary: 10",
+        "validator": "exact",
+        "hint": "Trace through the code step by step or think about the concept carefully.",
+        "hint_zh": "逐步追踪代码或仔细思考概念。"
+      },
+      {
+        "id": "algorithms-flowcharts-q9",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Pseudocode: count = 0 / WHILE count < 5 / OUTPUT count / count = count + 1. What is output?",
+        "prompt_zh": "[Algorithms & Flowcharts - 问题 9]",
+        "choices": [
+          "0,1,2,3,4",
+          "1,2,3,4,5",
+          "0,1,2,3,4,5",
+          "Infinite loop"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "algorithms-flowcharts-q10",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Which is NOT a characteristic of a good algorithm?",
+        "prompt_zh": "[Algorithms & Flowcharts - 问题 10]",
+        "choices": [
+          "Ambiguous steps",
+          "Finite steps",
+          "Well-defined inputs/outputs",
+          "Effective"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "algorithms-flowcharts-q11",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Algorithm calculates factorial: INPUT n / factorial = 1 / FOR i = 1 TO n / factorial = factorial * i / OUTPUT factorial. For n=5, output:",
+        "prompt_zh": "[Algorithms & Flowcharts - 问题 11]",
+        "choices": [
+          "120",
+          "15",
+          "25",
+          "5"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "algorithms-flowcharts-q12",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Singapore MRT route finder uses which algorithm type to find shortest path between stations?",
+        "prompt_zh": "[Algorithms & Flowcharts - 问题 12]",
+        "choices": [
+          "Graph traversal (Dijkstra's algorithm)",
+          "Linear search",
+          "Bubble sort",
+          "Sequential processing"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "algorithms-flowcharts-q13",
+        "type": "short",
+        "difficulty": "hard",
+        "prompt": "Bubble sort algorithm: Worst-case time complexity for n items:",
+        "prompt_zh": "[Algorithms & Flowcharts - 问题 13]",
+        "answer": "O(n²)",
+        "validator": "exact",
+        "hint": "Trace through the code step by step or think about the concept carefully.",
+        "hint_zh": "逐步追踪代码或仔细思考概念。"
+      },
+      {
+        "id": "algorithms-flowcharts-q14",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Flowchart for Singapore NRIC check digit validation requires:",
+        "prompt_zh": "[Algorithms & Flowcharts - 问题 14]",
+        "choices": [
+          "Multiple decision points for modulo operations",
+          "Single input only",
+          "No decisions needed",
+          "Output only"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "algorithms-flowcharts-q15",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Algorithm efficiency: Processing 1 million records. Which grows slowest? O(n) vs O(n²) vs O(log n):",
+        "prompt_zh": "[Algorithms & Flowcharts - 问题 15]",
+        "choices": [
+          "O(log n)",
+          "O(n)",
+          "O(n²)",
+          "All same"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      }
+    ]
+  },
+  {
+    "id": "python-basics-sec2",
+    "gradeLevel": "sec2",
+    "title": "Python Programming Basics",
+    "title_zh": "Python编程基础",
+    "description": "Introduction to Python programming - variables, data types, input/output, basic operations",
+    "description_zh": "Python编程入门 - 变量、数据类型、输入输出、基本操作",
+    "tag": "Programming",
+    "tag_zh": "编程",
+    "objectives": [
+      "Write simple Python programs",
+      "Use variables and data types correctly",
+      "Perform input/output operations",
+      "Apply arithmetic and comparison operators"
+    ],
+    "objectives_zh": [
+      "编写简单的Python程序",
+      "正确使用变量和数据类型",
+      "执行输入输出操作",
+      "应用算术和比较运算符"
+    ],
+    "sections": [
+      {
+        "id": "python-intro",
+        "type": "text",
+        "title": "Introduction to Python",
+        "title_zh": "Python简介",
+        "content": "Python is a beginner-friendly programming language used worldwide. Created by Guido van Rossum in 1991. Used by Google, NASA, Singapore government agencies. Easy to read: print('Hello Singapore!') displays text. Python is interpreted - runs line by line. Case-sensitive: 'Name' and 'name' are different."
+      },
+      {
+        "id": "variables-data-types",
+        "type": "text",
+        "title": "Variables & Data Types",
+        "title_zh": "变量与数据类型",
+        "content": "Variables store data: age = 13, name = 'Ali', height = 1.65. Data types: int (whole numbers), float (decimals), str (text in quotes), bool (True/False). Python auto-detects type. Example: price = 5.50 (float), quantity = 3 (int), total = price * quantity (result: 16.5). Singapore context: gst_rate = 0.09, total_with_gst = price * (1 + gst_rate)"
+      },
+      {
+        "id": "input-output",
+        "type": "text",
+        "title": "Input and Output",
+        "title_zh": "输入与输出",
+        "content": "output: print() displays information. print('Welcome!') or print(age). Input: input() gets user data as string. name = input('Enter your name: '). Convert to number: age = int(input('Enter age: ')). Example program: Calculate MRT fare - distance = float(input('Distance in km: ')) / fare = 0.77 + (distance * 0.08) / print('Fare: $' + str(fare))"
+      },
+      {
+        "id": "operators",
+        "type": "text",
+        "title": "Operators in Python",
+        "title_zh": "Python运算符",
+        "content": "Arithmetic: + - * / (division) // (integer division) % (remainder) ** (power). Example: 17 % 5 = 2 (remainder). Comparison: == (equal) != (not equal) > < >= <=. Returns True/False. Example: age >= 13 checks if teenager. Logical: and, or, not. Example: if age >= 13 and age <= 19 then teenager. Singapore PSLE score calculation uses these operators."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "python-basics-q1",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Which is valid Python variable name?",
+        "prompt_zh": "[Python Programming Basics - 问题 1]",
+        "choices": [
+          "student_age",
+          "2nd_student",
+          "class",
+          "my-name"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "python-basics-q2",
+        "type": "short",
+        "difficulty": "easy",
+        "prompt": "Data type of: price = 5.50:",
+        "prompt_zh": "[Python Programming Basics - 问题 2]",
+        "answer": "float",
+        "validator": "exact",
+        "hint": "Trace through the code step by step or think about the concept carefully.",
+        "hint_zh": "逐步追踪代码或仔细思考概念。"
+      },
+      {
+        "id": "python-basics-q3",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "print(10 + 5 * 2) outputs:",
+        "prompt_zh": "[Python Programming Basics - 问题 3]",
+        "choices": [
+          "20",
+          "30",
+          "10",
+          "15"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "python-basics-q4",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "To get user input as integer:",
+        "prompt_zh": "[Python Programming Basics - 问题 4]",
+        "choices": [
+          "int(input())",
+          "input()",
+          "get()",
+          "scan()"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "python-basics-q5",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "17 % 5 equals:",
+        "prompt_zh": "[Python Programming Basics - 问题 5]",
+        "choices": [
+          "2",
+          "3",
+          "5",
+          "0"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "python-basics-q6",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Code: x = '5' / y = 3 / z = x + y. Result?",
+        "prompt_zh": "[Python Programming Basics - 问题 6]",
+        "choices": [
+          "Error (cannot add string and int)",
+          "8",
+          "'53'",
+          "5"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "python-basics-q7",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Singapore GST calculation: price = 100 / gst = price * 0.09 / total = price + gst. Value of total:",
+        "prompt_zh": "[Python Programming Basics - 问题 7]",
+        "choices": [
+          "109.0",
+          "100.09",
+          "9.0",
+          "109"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "python-basics-q8",
+        "type": "short",
+        "difficulty": "medium",
+        "prompt": "What does this output? name = 'Singapore' / print(name[0] + name[-1])",
+        "prompt_zh": "[Python Programming Basics - 问题 8]",
+        "answer": "Se",
+        "validator": "exact",
+        "hint": "Trace through the code step by step or think about the concept carefully.",
+        "hint_zh": "逐步追踪代码或仔细思考概念。"
+      },
+      {
+        "id": "python-basics-q9",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Code: x = 10 / x = x + 5 / x = x * 2 / print(x). Output:",
+        "prompt_zh": "[Python Programming Basics - 问题 9]",
+        "choices": [
+          "30",
+          "20",
+          "25",
+          "15"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "python-basics-q10",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Which operator checks if two values are equal?",
+        "prompt_zh": "[Python Programming Basics - 问题 10]",
+        "choices": [
+          "==",
+          "=",
+          "!=",
+          ">="
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "python-basics-q11",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Code: distance = float(input()) / if distance <= 3.2: fare = 0.92 / else: fare = 0.92 + (distance - 3.2) * 0.16 / print(round(fare, 2)). For input 5.0, output:",
+        "prompt_zh": "[Python Programming Basics - 问题 11]",
+        "choices": [
+          "1.21",
+          "0.92",
+          "1.76",
+          "0.80"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "python-basics-q12",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Expression evaluation: 10 + 5 * 2 ** 3 / 5. Result:",
+        "prompt_zh": "[Python Programming Basics - 问题 12]",
+        "choices": [
+          "18.0",
+          "120.0",
+          "10.0",
+          "50.0"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "python-basics-q13",
+        "type": "short",
+        "difficulty": "hard",
+        "prompt": "Type conversion: int(5.9) + int('7') equals:",
+        "prompt_zh": "[Python Programming Basics - 问题 13]",
+        "answer": "12",
+        "validator": "exact",
+        "hint": "Trace through the code step by step or think about the concept carefully.",
+        "hint_zh": "逐步追踪代码或仔细思考概念。"
+      },
+      {
+        "id": "python-basics-q14",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Singapore temperature converter: c = float(input()) / f = c * 9/5 + 32 / print(f'C: {c}, F: {f}'). For input 30, which outputs?",
+        "prompt_zh": "[Python Programming Basics - 问题 14]",
+        "choices": [
+          "C: 30.0, F: 86.0",
+          "C: 30, F: 86",
+          "Error",
+          "C: 86.0, F: 30.0"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "python-basics-q15",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Logical expression: age = 14 / Result of: age >= 13 and age < 20:",
+        "prompt_zh": "[Python Programming Basics - 问题 15]",
+        "choices": [
+          "True",
+          "False",
+          "Error",
+          "None"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      }
+    ]
+  },
+  {
+    "id": "selection-iteration-sec2",
+    "gradeLevel": "sec2",
+    "title": "Selection & Iteration",
+    "title_zh": "选择与迭代",
+    "description": "Control structures - if/else statements, loops (for and while), nested structures",
+    "description_zh": "控制结构 - if/else语句、循环（for和while）、嵌套结构",
+    "tag": "Programming",
+    "tag_zh": "编程",
+    "objectives": [
+      "Implement conditional statements (if/elif/else)",
+      "Use for loops for definite iteration",
+      "Use while loops for indefinite iteration",
+      "Apply nested control structures"
+    ],
+    "objectives_zh": [
+      "实现条件语句（if/elif/else）",
+      "使用for循环进行确定迭代",
+      "使用while循环进行不确定迭代",
+      "应用嵌套控制结构"
+    ],
+    "sections": [
+      {
+        "id": "if-statements",
+        "type": "text",
+        "title": "If Statements",
+        "title_zh": "If语句",
+        "content": "if statement makes decisions: if condition: do something. Use indentation (4 spaces). Example: if age >= 18: print('Can vote'). elif (else if) for multiple conditions: if score >= 75: grade = 'A' / elif score >= 60: grade = 'B' / else: grade = 'C'. Singapore O-Level grading uses multiple conditions."
+      },
+      {
+        "id": "for-loops",
+        "type": "text",
+        "title": "For Loops",
+        "title_zh": "For循环",
+        "content": "for loop repeats known number of times. range(n) generates 0 to n-1. Example: for i in range(5): print(i) outputs 0,1,2,3,4. range(start, stop, step): range(1, 10, 2) gives 1,3,5,7,9. Calculate total: total = 0 / for i in range(1, 6): total = total + i / Result: 15. Used in Singapore bus arrival times app to check next 5 buses."
+      },
+      {
+        "id": "while-loops",
+        "type": "text",
+        "title": "While Loops",
+        "title_zh": "While循环",
+        "content": "while loop repeats while condition is True. Example: count = 1 / while count <= 5: print(count) / count = count + 1. Use when repetitions unknown. ATM PIN validation: attempts = 0 / while attempts < 3: pin = input('Enter PIN: ') / if pin == '1234': break / attempts = attempts + 1 / else: print('Card blocked'). Important: ensure loop eventually ends (no infinite loops)."
+      },
+      {
+        "id": "nested-structures",
+        "type": "text",
+        "title": "Nested Structures",
+        "title_zh": "嵌套结构",
+        "content": "Loops and if statements can be nested (one inside another). Example: Print multiplication table: for row in range(1, 4): / for col in range(1, 4): / product = row * col / print(product, end=' ') / print(). Singapore class seating arrangement uses nested loops to assign seats by row and column."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "selection-iteration-q1",
+        "type": "short",
+        "difficulty": "easy",
+        "prompt": "if score >= 75: / grade = 'A' / else: / grade = 'B'. If score = 80, grade is:",
+        "prompt_zh": "[Selection & Iteration - 问题 1]",
+        "answer": "A",
+        "validator": "exact",
+        "hint": "Trace through the code step by step or think about the concept carefully.",
+        "hint_zh": "逐步追踪代码或仔细思考概念。"
+      },
+      {
+        "id": "selection-iteration-q2",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "range(5) produces:",
+        "prompt_zh": "[Selection & Iteration - 问题 2]",
+        "choices": [
+          "0,1,2,3,4",
+          "1,2,3,4,5",
+          "0,1,2,3,4,5",
+          "1,2,3,4"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "selection-iteration-q3",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "While loop continues while condition is:",
+        "prompt_zh": "[Selection & Iteration - 问题 3]",
+        "choices": [
+          "True",
+          "False",
+          "1",
+          "0"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "selection-iteration-q4",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "for i in range(2, 8, 2): / print(i). Output:",
+        "prompt_zh": "[Selection & Iteration - 问题 4]",
+        "choices": [
+          "2,4,6",
+          "2,4,6,8",
+          "0,2,4,6",
+          "2,3,4,5,6,7"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "selection-iteration-q5",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Code: x = 10 / if x > 5: / print('Big'). Output:",
+        "prompt_zh": "[Selection & Iteration - 问题 5]",
+        "choices": [
+          "Big",
+          "Nothing",
+          "Error",
+          "5"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "selection-iteration-q6",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Singapore O-Level grading: if score >= 75: grade = 'A1' / elif score >= 70: grade = 'A2' / elif score >= 65: grade = 'B3' / else: grade = 'B4'. For score = 72, grade:",
+        "prompt_zh": "[Selection & Iteration - 问题 6]",
+        "choices": [
+          "A2",
+          "A1",
+          "B3",
+          "B4"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "selection-iteration-q7",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "count = 0 / total = 0 / while count < 4: / total = total + count / count = count + 1 / print(total). Output:",
+        "prompt_zh": "[Selection & Iteration - 问题 7]",
+        "choices": [
+          "6",
+          "10",
+          "0",
+          "4"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "selection-iteration-q8",
+        "type": "short",
+        "difficulty": "medium",
+        "prompt": "for i in range(1, 4): / for j in range(1, 3): / print(i * j, end=' '). Output:",
+        "prompt_zh": "[Selection & Iteration - 问题 8]",
+        "answer": "1 2 2 4 3 6",
+        "validator": "exact",
+        "hint": "Trace through the code step by step or think about the concept carefully.",
+        "hint_zh": "逐步追踪代码或仔细思考概念。"
+      },
+      {
+        "id": "selection-iteration-q9",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Code validates Singapore NRIC: nric = input() / if len(nric) == 9 and nric[0] in 'STFG': / print('Valid'). For input 'S1234567D', output:",
+        "prompt_zh": "[Selection & Iteration - 问题 9]",
+        "choices": [
+          "Valid",
+          "Invalid",
+          "Error",
+          "Nothing"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "selection-iteration-q10",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Infinite loop occurs when:",
+        "prompt_zh": "[Selection & Iteration - 问题 10]",
+        "choices": [
+          "Condition never becomes False",
+          "Condition is False",
+          "Loop runs once",
+          "No condition"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "selection-iteration-q11",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "num = int(input()) / total = 0 / for i in range(1, num+1): / if num % i == 0: / total = total + 1 / print(total). For input 12, output (count of divisors):",
+        "prompt_zh": "[Selection & Iteration - 问题 11]",
+        "choices": [
+          "6",
+          "12",
+          "4",
+          "3"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "selection-iteration-q12",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Singapore bus arrival: buses = [5, 12, 18] / for time in buses: / if time <= 10: / print(f'Bus in {time} min') / break / else: / print('Wait for next'). Output:",
+        "prompt_zh": "[Selection & Iteration - 问题 12]",
+        "choices": [
+          "Bus in 5 min",
+          "Bus in 12 min",
+          "Wait for next",
+          "Bus in 5 min, Bus in 12 min"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "selection-iteration-q13",
+        "type": "short",
+        "difficulty": "hard",
+        "prompt": "n = 5 / for i in range(1, n+1): / print('*' * i). Number of stars printed:",
+        "prompt_zh": "[Selection & Iteration - 问题 13]",
+        "answer": "15",
+        "validator": "exact",
+        "hint": "Trace through the code step by step or think about the concept carefully.",
+        "hint_zh": "逐步追踪代码或仔细思考概念。"
+      },
+      {
+        "id": "selection-iteration-q14",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "PIN validation (3 attempts): attempts = 0 / while attempts < 3: / pin = input() / if pin == '1234': / print('Success') / break / attempts += 1 / else: / print('Locked'). What triggers 'Locked'?",
+        "prompt_zh": "[Selection & Iteration - 问题 14]",
+        "choices": [
+          "3 wrong attempts without break",
+          "First wrong attempt",
+          "Any wrong attempt",
+          "Never triggers"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "selection-iteration-q15",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Nested loop: for r in range(3): / for c in range(4): / print('#', end='') / print(). Total '#' symbols:",
+        "prompt_zh": "[Selection & Iteration - 问题 15]",
+        "choices": [
+          "12",
+          "7",
+          "3",
+          "4"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      }
+    ]
+  },
+  {
+    "id": "data-structures-sec2",
+    "gradeLevel": "sec2",
+    "title": "Lists & Strings",
+    "title_zh": "列表与字符串",
+    "description": "Working with lists (arrays) and string manipulation in Python",
+    "description_zh": "在Python中使用列表（数组）和字符串操作",
+    "tag": "Programming",
+    "tag_zh": "编程",
+    "objectives": [
+      "Create and manipulate lists",
+      "Access list elements using indices",
+      "Perform string operations and methods",
+      "Iterate through lists and strings"
+    ],
+    "objectives_zh": [
+      "创建和操作列表",
+      "使用索引访问列表元素",
+      "执行字符串操作和方法",
+      "遍历列表和字符串"
+    ],
+    "sections": [
+      {
+        "id": "lists-basics",
+        "type": "text",
+        "title": "Lists in Python",
+        "title_zh": "Python列表",
+        "content": "List stores multiple values: students = ['Ali', 'Bala', 'Chen']. Access by index (starts at 0): students[0] is 'Ali'. Negative index from end: students[-1] is 'Chen'. Length: len(students) = 3. Add: students.append('Devi'). Remove: students.remove('Ali'). Example: Singapore MRT stations list - stations = ['Jurong East', 'Clementi', 'Buona Vista', 'Outram Park']."
+      },
+      {
+        "id": "list-operations",
+        "type": "text",
+        "title": "List Operations",
+        "title_zh": "列表操作",
+        "content": "Slicing: numbers[1:4] gets elements at index 1,2,3. numbers[:3] first 3 elements. numbers[2:] from index 2 to end. Concatenate: list1 + list2. Repeat: [0] * 5 creates [0,0,0,0,0]. Check membership: if 'Ali' in students. Sort: numbers.sort() arranges in order. Reverse: numbers.reverse(). Used in Singapore e-commerce sites to manage shopping cart items."
+      },
+      {
+        "id": "strings",
+        "type": "text",
+        "title": "String Manipulation",
+        "title_zh": "字符串操作",
+        "content": "Strings are sequences of characters. Access like lists: name = 'Singapore' / name[0] is 'S'. Length: len(name) = 9. Methods: upper(), lower(), strip(), split(), replace(). Example: message = '  Hello World  ' / message.strip() removes spaces = 'Hello World' / message.split() creates ['Hello', 'World']. Check substring: if 'ore' in name (True). Used in Singapore NRIC validation."
+      },
+      {
+        "id": "iterating-collections",
+        "type": "text",
+        "title": "Iterating Through Collections",
+        "title_zh": "遍历集合",
+        "content": "Use for loop to process each element. For list: for student in students: print(student). For string: for char in 'Singapore': print(char). With index: for i in range(len(students)): print(i, students[i]). Example: Calculate average - scores = [85, 92, 78, 90] / total = 0 / for score in scores: total = total + score / average = total / len(scores). Singapore temperature monitoring system processes daily readings this way."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "data-structures-q1",
+        "type": "short",
+        "difficulty": "easy",
+        "prompt": "stations = ['Bishan', 'Ang Mo Kio', 'Yio Chu Kang'] / stations[1] is:",
+        "prompt_zh": "[Lists & Strings - 问题 1]",
+        "answer": "Ang Mo Kio",
+        "validator": "exact",
+        "hint": "Trace through the code step by step or think about the concept carefully.",
+        "hint_zh": "逐步追踪代码或仔细思考概念。"
+      },
+      {
+        "id": "data-structures-q2",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "len([10, 20, 30, 40]) returns:",
+        "prompt_zh": "[Lists & Strings - 问题 2]",
+        "choices": [
+          "4",
+          "100",
+          "10",
+          "3"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "data-structures-q3",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "numbers = [5, 2, 8, 1] / numbers.append(10) / print(numbers[-1]). Output:",
+        "prompt_zh": "[Lists & Strings - 问题 3]",
+        "choices": [
+          "10",
+          "1",
+          "8",
+          "5"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "data-structures-q4",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "'Singapore'[4] returns:",
+        "prompt_zh": "[Lists & Strings - 问题 4]",
+        "choices": [
+          "p",
+          "a",
+          "g",
+          "o"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "data-structures-q5",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "'Hello' + 'World' equals:",
+        "prompt_zh": "[Lists & Strings - 问题 5]",
+        "choices": [
+          "HelloWorld",
+          "Hello World",
+          "Error",
+          "helloworld"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "data-structures-q6",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "scores = [85, 92, 78, 90] / print(max(scores) - min(scores)). Output:",
+        "prompt_zh": "[Lists & Strings - 问题 6]",
+        "choices": [
+          "14",
+          "345",
+          "85",
+          "78"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "data-structures-q7",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Singapore postal codes: codes = ['238880', '018956'] / codes[0][:3] returns:",
+        "prompt_zh": "[Lists & Strings - 问题 7]",
+        "choices": [
+          "238",
+          "880",
+          "238880",
+          "023"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "data-structures-q8",
+        "type": "short",
+        "difficulty": "medium",
+        "prompt": "fruits = ['apple', 'banana', 'cherry'] / fruits[1:3] returns:",
+        "prompt_zh": "[Lists & Strings - 问题 8]",
+        "answer": "['banana', 'cherry']",
+        "validator": "exact",
+        "hint": "Trace through the code step by step or think about the concept carefully.",
+        "hint_zh": "逐步追踪代码或仔细思考概念。"
+      },
+      {
+        "id": "data-structures-q9",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "message = '  Singapore  ' / message.strip().upper() equals:",
+        "prompt_zh": "[Lists & Strings - 问题 9]",
+        "choices": [
+          "SINGAPORE",
+          "'Singapore'",
+          "singapore",
+          "Error"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "data-structures-q10",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "numbers = [1, 2, 3] / numbers * 2 produces:",
+        "prompt_zh": "[Lists & Strings - 问题 10]",
+        "choices": [
+          "[1,2,3,1,2,3]",
+          "[2,4,6]",
+          "Error",
+          "[1,2,3,2]"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "data-structures-q11",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "temps = [28, 32, 30, 29, 31] / count = 0 / for t in temps: / if t > 30: count += 1 / print(count). Output (days above 30°C):",
+        "prompt_zh": "[Lists & Strings - 问题 11]",
+        "choices": [
+          "2",
+          "3",
+          "5",
+          "1"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "data-structures-q12",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Singapore MRT lines: lines = ['Red', 'Green', 'Purple'] / lines.insert(1, 'Blue') / lines.remove('Green') / print(lines). Output:",
+        "prompt_zh": "[Lists & Strings - 问题 12]",
+        "choices": [
+          "['Red','Blue','Purple']",
+          "['Blue','Red','Purple']",
+          "['Red','Purple']",
+          "Error"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "data-structures-q13",
+        "type": "short",
+        "difficulty": "hard",
+        "prompt": "nric = 'S1234567D' / nric[1:8] extracts:",
+        "prompt_zh": "[Lists & Strings - 问题 13]",
+        "answer": "1234567",
+        "validator": "exact",
+        "hint": "Trace through the code step by step or think about the concept carefully.",
+        "hint_zh": "逐步追踪代码或仔细思考概念。"
+      },
+      {
+        "id": "data-structures-q14",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "sentence = 'Singapore is a city' / words = sentence.split() / print(len(words)). Output:",
+        "prompt_zh": "[Lists & Strings - 问题 14]",
+        "choices": [
+          "4",
+          "19",
+          "3",
+          "5"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "data-structures-q15",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "List comprehension: [x*2 for x in range(5)] produces:",
+        "prompt_zh": "[Lists & Strings - 问题 15]",
+        "choices": [
+          "[0,2,4,6,8]",
+          "[0,1,2,3,4]",
+          "[2,4,6,8,10]",
+          "[1,2,3,4,5]"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      }
+    ]
+  },
+  {
+    "id": "functions-modules-sec2",
+    "gradeLevel": "sec2",
+    "title": "Functions & Modules",
+    "title_zh": "函数与模块",
+    "description": "Creating reusable functions, parameters, return values, and using Python modules",
+    "description_zh": "创建可重用函数、参数、返回值和使用Python模块",
+    "tag": "Programming",
+    "tag_zh": "编程",
+    "objectives": [
+      "Define and call functions",
+      "Use parameters and return values",
+      "Understand scope of variables",
+      "Import and use Python modules"
+    ],
+    "objectives_zh": [
+      "定义和调用函数",
+      "使用参数和返回值",
+      "理解变量的作用域",
+      "导入和使用Python模块"
+    ],
+    "sections": [
+      {
+        "id": "defining-functions",
+        "type": "text",
+        "title": "Defining Functions",
+        "title_zh": "定义函数",
+        "content": "Function is reusable block of code. Define with def: def greet(): / print('Hello!'). Call: greet(). With parameters: def greet(name): / print('Hello ' + name + '!'). Multiple parameters: def add(a, b): / result = a + b / return result. Example: Singapore GST calculator - def add_gst(price): / gst = price * 0.09 / total = price + gst / return total"
+      },
+      {
+        "id": "return-values",
+        "type": "text",
+        "title": "Return Values",
+        "title_zh": "返回值",
+        "content": "return sends value back to caller. Function stops at return. Example: def max_of_two(a, b): / if a > b: return a / else: return b. Use returned value: largest = max_of_two(10, 15) / print(largest). Can return multiple values as tuple: def min_max(numbers): / return min(numbers), max(numbers). Singapore grade calculator returns grade and points."
+      },
+      {
+        "id": "variable-scope",
+        "type": "text",
+        "title": "Variable Scope",
+        "title_zh": "变量作用域",
+        "content": "Local variables exist only inside function. Global variables exist everywhere. Example: total = 0 (global) / def add_score(score): / total = total + score (Error! Can't modify global in function) / Use global keyword or pass as parameter. Best practice: minimize global variables. Example: Singapore point-of-sale system uses local variables in each transaction function for safety."
+      },
+      {
+        "id": "modules",
+        "type": "text",
+        "title": "Python Modules",
+        "title_zh": "Python模块",
+        "content": "Module is file containing Python code you can import. Built-in modules: math, random, datetime. Import: import math / math.sqrt(16) = 4.0. Import specific: from random import randint / dice = randint(1, 6). Create own module: Save functions in file 'mytools.py', then import mytools. Singapore apps use datetime module for scheduling: from datetime import datetime / now = datetime.now() / print(now.strftime('%d/%m/%Y %H:%M'))"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "functions-modules-q1",
+        "type": "short",
+        "difficulty": "easy",
+        "prompt": "def greet(): / print('Hello') / greet(). What does this do?",
+        "prompt_zh": "[Functions & Modules - 问题 1]",
+        "answer": "Prints Hello",
+        "validator": "exact",
+        "hint": "Trace through the code step by step or think about the concept carefully.",
+        "hint_zh": "逐步追踪代码或仔细思考概念。"
+      },
+      {
+        "id": "functions-modules-q2",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "def add(a, b): / return a + b / result = add(5, 3). Value of result:",
+        "prompt_zh": "[Functions & Modules - 问题 2]",
+        "choices": [
+          "8",
+          "5",
+          "3",
+          "None"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "functions-modules-q3",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Function definition starts with keyword:",
+        "prompt_zh": "[Functions & Modules - 问题 3]",
+        "choices": [
+          "def",
+          "func",
+          "function",
+          "define"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "functions-modules-q4",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "return statement:",
+        "prompt_zh": "[Functions & Modules - 问题 4]",
+        "choices": [
+          "Sends value back to caller and exits function",
+          "Prints value",
+          "Loops back",
+          "Continues function"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "functions-modules-q5",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "import math / math.sqrt(16) returns:",
+        "prompt_zh": "[Functions & Modules - 问题 5]",
+        "choices": [
+          "4.0",
+          "16",
+          "8",
+          "2"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "functions-modules-q6",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "def calculate_gst(price): / gst = price * 0.09 / total = price + gst / return total / result = calculate_gst(100). Value of result:",
+        "prompt_zh": "[Functions & Modules - 问题 6]",
+        "choices": [
+          "109.0",
+          "9.0",
+          "100",
+          "Error"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "functions-modules-q7",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "def max_of_three(a, b, c): / if a>=b and a>=c: return a / elif b>=c: return b / else: return c / print(max_of_three(5,12,8)). Output:",
+        "prompt_zh": "[Functions & Modules - 问题 7]",
+        "choices": [
+          "12",
+          "5",
+          "8",
+          "Error"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "functions-modules-q8",
+        "type": "short",
+        "difficulty": "medium",
+        "prompt": "from random import randint / dice = randint(1, 6). Value range of dice:",
+        "prompt_zh": "[Functions & Modules - 问题 8]",
+        "answer": "1 to 6 inclusive",
+        "validator": "exact",
+        "hint": "Trace through the code step by step or think about the concept carefully.",
+        "hint_zh": "逐步追踪代码或仔细思考概念。"
+      },
+      {
+        "id": "functions-modules-q9",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "def is_even(n): / return n % 2 == 0 / print(is_even(7)). Output:",
+        "prompt_zh": "[Functions & Modules - 问题 9]",
+        "choices": [
+          "False",
+          "True",
+          "0",
+          "7"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "functions-modules-q10",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Variable defined inside function is:",
+        "prompt_zh": "[Functions & Modules - 问题 10]",
+        "choices": [
+          "Local to that function",
+          "Global",
+          "Available everywhere",
+          "Permanent"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "functions-modules-q11",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Singapore temp converter: def to_fahrenheit(celsius): / return celsius * 9/5 + 32 / def to_celsius(fahr): / return (fahr - 32) * 5/9 / print(to_celsius(to_fahrenheit(30))). Output:",
+        "prompt_zh": "[Functions & Modules - 问题 11]",
+        "choices": [
+          "30.0",
+          "86.0",
+          "Error",
+          "-1.11"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "functions-modules-q12",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "def factorial(n): / if n == 0: return 1 / else: return n * factorial(n-1) / factorial(4) returns:",
+        "prompt_zh": "[Functions & Modules - 问题 12]",
+        "choices": [
+          "24",
+          "4",
+          "10",
+          "Infinite"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "functions-modules-q13",
+        "type": "short",
+        "difficulty": "hard",
+        "prompt": "def process(nums): / result = [] / for n in nums: / if n > 10: result.append(n) / return result / process([5,15,8,20]). Output:",
+        "prompt_zh": "[Functions & Modules - 问题 13]",
+        "answer": "[15, 20]",
+        "validator": "exact",
+        "hint": "Trace through the code step by step or think about the concept carefully.",
+        "hint_zh": "逐步追踪代码或仔细思考概念。"
+      },
+      {
+        "id": "functions-modules-q14",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "import datetime / now = datetime.datetime.now() / print(now.hour). This prints:",
+        "prompt_zh": "[Functions & Modules - 问题 14]",
+        "choices": [
+          "Current hour (0-23)",
+          "Current minute",
+          "Current day",
+          "Error"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "functions-modules-q15",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Function with default parameter: def greet(name='Guest'): / return f'Hello {name}' / greet() + greet('Ali') equals:",
+        "prompt_zh": "[Functions & Modules - 问题 15]",
+        "choices": [
+          "Hello GuestHello Ali",
+          "Hello Ali",
+          "Error",
+          "Hello Guest"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      }
+    ]
+  },
+  {
+    "id": "web-html-css-sec2",
+    "gradeLevel": "sec2",
+    "title": "Web Development Basics",
+    "title_zh": "网页开发基础",
+    "description": "HTML structure, CSS styling, and basic web page creation",
+    "description_zh": "HTML结构、CSS样式和基本网页创建",
+    "tag": "Web Technologies",
+    "tag_zh": "网络技术",
+    "objectives": [
+      "Create HTML web pages with proper structure",
+      "Apply CSS styles to HTML elements",
+      "Use semantic HTML tags",
+      "Design responsive layouts"
+    ],
+    "objectives_zh": [
+      "创建具有正确结构的HTML网页",
+      "将CSS样式应用于HTML元素",
+      "使用语义化HTML标签",
+      "设计响应式布局"
+    ],
+    "sections": [
+      {
+        "id": "html-basics",
+        "type": "text",
+        "title": "HTML Fundamentals",
+        "title_zh": "HTML基础",
+        "content": "HTML (HyperText Markup Language) structures web content. Uses tags: <tag>content</tag>. Basic structure: <!DOCTYPE html> <html> <head> <title>Page Title</title> </head> <body> <h1>Main Heading</h1> <p>Paragraph text.</p> </body> </html>. Common tags: <h1>-<h6> headings, <p> paragraph, <img> image, <a> link. Singapore government websites use HTML for all pages."
+      },
+      {
+        "id": "semantic-html",
+        "type": "text",
+        "title": "Semantic HTML",
+        "title_zh": "语义化HTML",
+        "content": "Semantic tags describe meaning: <header>, <nav>, <main>, <article>, <section>, <aside>, <footer>. Better than generic <div>. Example: Singapore school website - <header> contains logo and menu, <nav> has navigation links, <main> contains main content, <article> for news posts, <footer> for contact info. Benefits: Accessibility (screen readers), SEO (search engines understand structure)."
+      },
+      {
+        "id": "css-basics",
+        "type": "text",
+        "title": "CSS Styling",
+        "title_zh": "CSS样式",
+        "content": "CSS (Cascading Style Sheets) makes pages beautiful. Selectors target elements. Inline: <p style='color: red;'>. Internal: <style> p { color: red; } </style>. External (best): <link rel='stylesheet' href='style.css'>. Properties: color, background-color, font-size, margin, padding, border. Example: Singapore flag colors - .red { background-color: #EF3340; } .white { background-color: #FFFFFF; }"
+      },
+      {
+        "id": "css-layout",
+        "type": "text",
+        "title": "CSS Layout & Responsive Design",
+        "title_zh": "CSS布局与响应式设计",
+        "content": "Box model: content, padding, border, margin. Display: block (full width), inline (in line), flex (flexible layout). Position: static, relative, absolute, fixed. Responsive design adapts to screen sizes. Media queries: @media (max-width: 600px) { /* mobile styles */ }. Singapore government sites use responsive design for mobile access. Flexbox example: display: flex; justify-content: center; align-items: center;"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "web-html-css-q1",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "HTML stands for:",
+        "prompt_zh": "[Web Development Basics - 问题 1]",
+        "choices": [
+          "HyperText Markup Language",
+          "High Tech Modern Language",
+          "Home Tool Markup Language",
+          "Hyperlinks and Text Markup Language"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "web-html-css-q2",
+        "type": "short",
+        "difficulty": "easy",
+        "prompt": "Which tag creates a paragraph?",
+        "prompt_zh": "[Web Development Basics - 问题 2]",
+        "answer": "<p>",
+        "validator": "exact",
+        "hint": "Trace through the code step by step or think about the concept carefully.",
+        "hint_zh": "逐步追踪代码或仔细思考概念。"
+      },
+      {
+        "id": "web-html-css-q3",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "<h1> to <h6> tags represent:",
+        "prompt_zh": "[Web Development Basics - 问题 3]",
+        "choices": [
+          "Headings (h1 largest)",
+          "Links",
+          "Images",
+          "Lists"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "web-html-css-q4",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "CSS stands for:",
+        "prompt_zh": "[Web Development Basics - 问题 4]",
+        "choices": [
+          "Cascading Style Sheets",
+          "Computer Style Sheets",
+          "Creative Style System",
+          "Colorful Style Sheets"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "web-html-css-q5",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "<img src='flag.jpg' alt='Singapore flag'> . 'alt' attribute provides:",
+        "prompt_zh": "[Web Development Basics - 问题 5]",
+        "choices": [
+          "Alternative text if image fails to load",
+          "Image size",
+          "Image style",
+          "Link destination"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "web-html-css-q6",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Semantic HTML: Which tag best contains navigation links?",
+        "prompt_zh": "[Web Development Basics - 问题 6]",
+        "choices": [
+          "<nav>",
+          "<div>",
+          "<span>",
+          "<header>"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "web-html-css-q7",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "CSS: p { color: red; } . This is an example of:",
+        "prompt_zh": "[Web Development Basics - 问题 7]",
+        "choices": [
+          "Element selector",
+          "Class selector",
+          "ID selector",
+          "Inline style"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "web-html-css-q8",
+        "type": "short",
+        "difficulty": "medium",
+        "prompt": "Singapore school website structure: <header>, <nav>, <main>, <footer>. Which contains main content?",
+        "prompt_zh": "[Web Development Basics - 问题 8]",
+        "answer": "<main>",
+        "validator": "exact",
+        "hint": "Trace through the code step by step or think about the concept carefully.",
+        "hint_zh": "逐步追踪代码或仔细思考概念。"
+      },
+      {
+        "id": "web-html-css-q9",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "<a href='https://moe.gov.sg'>MOE</a> . This creates:",
+        "prompt_zh": "[Web Development Basics - 问题 9]",
+        "choices": [
+          "Clickable link to MOE website",
+          "Image",
+          "Heading",
+          "Paragraph"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "web-html-css-q10",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "CSS box model order from inside out:",
+        "prompt_zh": "[Web Development Basics - 问题 10]",
+        "choices": [
+          "Content, Padding, Border, Margin",
+          "Margin, Border, Padding, Content",
+          "Border, Margin, Padding, Content",
+          "Content, Border, Padding, Margin"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "web-html-css-q11",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "HTML: <div class='card'><h2>Title</h2><p>Text</p></div> / CSS: .card { background: white; padding: 20px; } . Padding adds space:",
+        "prompt_zh": "[Web Development Basics - 问题 11]",
+        "choices": [
+          "Inside element between content and border",
+          "Outside element beyond border",
+          "Between elements",
+          "Around text only"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "web-html-css-q12",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Responsive design: @media (max-width: 600px) { .menu { display: none; } } . This hides menu when:",
+        "prompt_zh": "[Web Development Basics - 问题 12]",
+        "choices": [
+          "Screen width ≤ 600px (mobile)",
+          "Screen width > 600px",
+          "Always",
+          "Never"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "web-html-css-q13",
+        "type": "short",
+        "difficulty": "hard",
+        "prompt": "CSS specificity: #id vs .class vs element. Most specific:",
+        "prompt_zh": "[Web Development Basics - 问题 13]",
+        "answer": "#id",
+        "validator": "exact",
+        "hint": "Trace through the code step by step or think about the concept carefully.",
+        "hint_zh": "逐步追踪代码或仔细思考概念。"
+      },
+      {
+        "id": "web-html-css-q14",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Flexbox: .container { display: flex; justify-content: space-between; } . This distributes child elements:",
+        "prompt_zh": "[Web Development Basics - 问题 14]",
+        "choices": [
+          "With equal space between them",
+          "Centered",
+          "Left-aligned",
+          "Stacked vertically"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      },
+      {
+        "id": "web-html-css-q15",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Singapore government website uses: <header><img src='logo.png' alt='Gov.sg'><nav><a href='/'>Home</a></nav></header> . Best practice shown:",
+        "prompt_zh": "[Web Development Basics - 问题 15]",
+        "choices": [
+          "Semantic tags, alt text, proper structure",
+          "Only images",
+          "No styling",
+          "Complex code"
+        ],
+        "answer": 0,
+        "hint": "Read the question carefully and consider Singapore context where applicable.",
+        "hint_zh": "仔细阅读问题,并在适用时考虑新加坡背景。"
+      }
+    ]
+  }
+]
