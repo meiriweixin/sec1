@@ -1,0 +1,199 @@
+{
+  "id": "inheritance-genetics",
+  "title": "Inheritance & Genetics",
+  "title_zh": "遗传和基因学",
+  "gradeLevel": "sec3",
+  "tag": "Biology",
+  "tag_zh": "生物",
+  "description": "Understanding DNA, genes, genetic variation and inheritance patterns",
+  "description_zh": "理解DNA、基因、遗传变异和遗传模式",
+  "objectives": [
+    "Understand the structure and function of DNA",
+    "Explain how genes control characteristics",
+    "Use genetic diagrams and Punnett squares",
+    "Understand dominant and recessive alleles"
+  ],
+  "objectives_zh": [
+    "理解DNA的结构和功能",
+    "解释基因如何控制特征",
+    "使用遗传图和庞内特方格",
+    "理解显性和隐性等位基因"
+  ],
+  "sections": [],
+  "exercises": [
+    {
+      "id": "inheritanc-ex1",
+      "type": "mcq",
+      "prompt": "Question 1 about Inheritance & Genetics",
+      "prompt_zh": "关于Inheritance & Genetics的问题1",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 3,
+      "hint": "Think about the key concepts in Inheritance & Genetics.",
+      "hint_zh": "想想Inheritance & Genetics中的关键概念。"
+    },
+    {
+      "id": "inheritanc-ex2",
+      "type": "mcq",
+      "prompt": "Question 2 about Inheritance & Genetics",
+      "prompt_zh": "关于Inheritance & Genetics的问题2",
+      "choices": null,
+      "answer": "answer",
+      "hint": "Think about the key concepts in Inheritance & Genetics.",
+      "hint_zh": "想想Inheritance & Genetics中的关键概念。"
+    },
+    {
+      "id": "inheritanc-ex3",
+      "type": "mcq",
+      "prompt": "Question 3 about Inheritance & Genetics",
+      "prompt_zh": "关于Inheritance & Genetics的问题3",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 3,
+      "hint": "Think about the key concepts in Inheritance & Genetics.",
+      "hint_zh": "想想Inheritance & Genetics中的关键概念。"
+    },
+    {
+      "id": "inheritanc-ex4",
+      "type": "short",
+      "prompt": "Question 4 about Inheritance & Genetics",
+      "prompt_zh": "关于Inheritance & Genetics的问题4",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Inheritance & Genetics.",
+      "hint_zh": "想想Inheritance & Genetics中的关键概念。"
+    },
+    {
+      "id": "inheritanc-ex5",
+      "type": "mcq",
+      "prompt": "Question 5 about Inheritance & Genetics",
+      "prompt_zh": "关于Inheritance & Genetics的问题5",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "hint": "Think about the key concepts in Inheritance & Genetics.",
+      "hint_zh": "想想Inheritance & Genetics中的关键概念。"
+    },
+    {
+      "id": "inheritanc-ex6",
+      "type": "short",
+      "prompt": "Question 6 about Inheritance & Genetics",
+      "prompt_zh": "关于Inheritance & Genetics的问题6",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Inheritance & Genetics.",
+      "hint_zh": "想想Inheritance & Genetics中的关键概念。"
+    },
+    {
+      "id": "inheritanc-ex7",
+      "type": "short",
+      "prompt": "Question 7 about Inheritance & Genetics",
+      "prompt_zh": "关于Inheritance & Genetics的问题7",
+      "answer": 3,
+      "hint": "Think about the key concepts in Inheritance & Genetics.",
+      "hint_zh": "想想Inheritance & Genetics中的关键概念。"
+    },
+    {
+      "id": "inheritanc-ex8",
+      "type": "short",
+      "prompt": "Question 8 about Inheritance & Genetics",
+      "prompt_zh": "关于Inheritance & Genetics的问题8",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Inheritance & Genetics.",
+      "hint_zh": "想想Inheritance & Genetics中的关键概念。"
+    },
+    {
+      "id": "inheritanc-ex9",
+      "type": "mcq",
+      "prompt": "Question 9 about Inheritance & Genetics",
+      "prompt_zh": "关于Inheritance & Genetics的问题9",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 3,
+      "hint": "Think about the key concepts in Inheritance & Genetics.",
+      "hint_zh": "想想Inheritance & Genetics中的关键概念。"
+    },
+    {
+      "id": "inheritanc-ex10",
+      "type": "mcq",
+      "prompt": "Question 10 about Inheritance & Genetics",
+      "prompt_zh": "关于Inheritance & Genetics的问题10",
+      "choices": null,
+      "answer": "answer",
+      "hint": "Think about the key concepts in Inheritance & Genetics.",
+      "hint_zh": "想想Inheritance & Genetics中的关键概念。"
+    },
+    {
+      "id": "inheritanc-ex11",
+      "type": "mcq",
+      "prompt": "Question 11 about Inheritance & Genetics",
+      "prompt_zh": "关于Inheritance & Genetics的问题11",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "hint": "Think about the key concepts in Inheritance & Genetics.",
+      "hint_zh": "想想Inheritance & Genetics中的关键概念。"
+    },
+    {
+      "id": "inheritanc-ex12",
+      "type": "mcq",
+      "prompt": "Question 12 about Inheritance & Genetics",
+      "prompt_zh": "关于Inheritance & Genetics的问题12",
+      "choices": null,
+      "answer": "answer",
+      "hint": "Think about the key concepts in Inheritance & Genetics.",
+      "hint_zh": "想想Inheritance & Genetics中的关键概念。"
+    },
+    {
+      "id": "inheritanc-ex13",
+      "type": "short",
+      "prompt": "Question 13 about Inheritance & Genetics",
+      "prompt_zh": "关于Inheritance & Genetics的问题13",
+      "answer": 2,
+      "hint": "Think about the key concepts in Inheritance & Genetics.",
+      "hint_zh": "想想Inheritance & Genetics中的关键概念。"
+    },
+    {
+      "id": "inheritanc-ex14",
+      "type": "short",
+      "prompt": "Question 14 about Inheritance & Genetics",
+      "prompt_zh": "关于Inheritance & Genetics的问题14",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Inheritance & Genetics.",
+      "hint_zh": "想想Inheritance & Genetics中的关键概念。"
+    },
+    {
+      "id": "inheritanc-ex15",
+      "type": "mcq",
+      "prompt": "Question 15 about Inheritance & Genetics",
+      "prompt_zh": "关于Inheritance & Genetics的问题15",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 2,
+      "hint": "Think about the key concepts in Inheritance & Genetics.",
+      "hint_zh": "想想Inheritance & Genetics中的关键概念。"
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "id": "reproduction-cell-division",
+  "title": "Reproduction & Cell Division",
+  "title_zh": "生殖和细胞分裂",
+  "gradeLevel": "sec3",
+  "tag": "Biology",
+  "tag_zh": "生物",
+  "description": "Understanding mitosis, meiosis and sexual reproduction - MERGED syllabus topic",
+  "description_zh": "理解有丝分裂、减数分裂和有性生殖 - 合并教学大纲主题",
+  "objectives": [
+    "Describe the cell cycle and mitosis",
+    "Explain meiosis and formation of gametes",
+    "Compare mitosis and meiosis",
+    "Understand sexual reproduction in plants and animals"
+  ],
+  "objectives_zh": [
+    "描述细胞周期和有丝分裂",
+    "解释减数分裂和配子形成",
+    "比较有丝分裂和减数分裂",
+    "理解植物和动物的有性生殖"
+  ],
+  "sections": [],
+  "exercises": [
+    {
+      "id": "reproducti-ex1",
+      "type": "short",
+      "prompt": "Question 1 about Reproduction & Cell Division",
+      "prompt_zh": "关于Reproduction & Cell Division的问题1",
+      "answer": 0,
+      "hint": "Think about the key concepts in Reproduction & Cell Division.",
+      "hint_zh": "想想Reproduction & Cell Division中的关键概念。"
+    },
+    {
+      "id": "reproducti-ex2",
+      "type": "short",
+      "prompt": "Question 2 about Reproduction & Cell Division",
+      "prompt_zh": "关于Reproduction & Cell Division的问题2",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Reproduction & Cell Division.",
+      "hint_zh": "想想Reproduction & Cell Division中的关键概念。"
+    },
+    {
+      "id": "reproducti-ex3",
+      "type": "mcq",
+      "prompt": "Question 3 about Reproduction & Cell Division",
+      "prompt_zh": "关于Reproduction & Cell Division的问题3",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 2,
+      "hint": "Think about the key concepts in Reproduction & Cell Division.",
+      "hint_zh": "想想Reproduction & Cell Division中的关键概念。"
+    },
+    {
+      "id": "reproducti-ex4",
+      "type": "short",
+      "prompt": "Question 4 about Reproduction & Cell Division",
+      "prompt_zh": "关于Reproduction & Cell Division的问题4",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Reproduction & Cell Division.",
+      "hint_zh": "想想Reproduction & Cell Division中的关键概念。"
+    },
+    {
+      "id": "reproducti-ex5",
+      "type": "mcq",
+      "prompt": "Question 5 about Reproduction & Cell Division",
+      "prompt_zh": "关于Reproduction & Cell Division的问题5",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 1,
+      "hint": "Think about the key concepts in Reproduction & Cell Division.",
+      "hint_zh": "想想Reproduction & Cell Division中的关键概念。"
+    },
+    {
+      "id": "reproducti-ex6",
+      "type": "mcq",
+      "prompt": "Question 6 about Reproduction & Cell Division",
+      "prompt_zh": "关于Reproduction & Cell Division的问题6",
+      "choices": null,
+      "answer": "answer",
+      "hint": "Think about the key concepts in Reproduction & Cell Division.",
+      "hint_zh": "想想Reproduction & Cell Division中的关键概念。"
+    },
+    {
+      "id": "reproducti-ex7",
+      "type": "short",
+      "prompt": "Question 7 about Reproduction & Cell Division",
+      "prompt_zh": "关于Reproduction & Cell Division的问题7",
+      "answer": 1,
+      "hint": "Think about the key concepts in Reproduction & Cell Division.",
+      "hint_zh": "想想Reproduction & Cell Division中的关键概念。"
+    },
+    {
+      "id": "reproducti-ex8",
+      "type": "short",
+      "prompt": "Question 8 about Reproduction & Cell Division",
+      "prompt_zh": "关于Reproduction & Cell Division的问题8",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Reproduction & Cell Division.",
+      "hint_zh": "想想Reproduction & Cell Division中的关键概念。"
+    },
+    {
+      "id": "reproducti-ex9",
+      "type": "mcq",
+      "prompt": "Question 9 about Reproduction & Cell Division",
+      "prompt_zh": "关于Reproduction & Cell Division的问题9",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 2,
+      "hint": "Think about the key concepts in Reproduction & Cell Division.",
+      "hint_zh": "想想Reproduction & Cell Division中的关键概念。"
+    },
+    {
+      "id": "reproducti-ex10",
+      "type": "mcq",
+      "prompt": "Question 10 about Reproduction & Cell Division",
+      "prompt_zh": "关于Reproduction & Cell Division的问题10",
+      "choices": null,
+      "answer": "answer",
+      "hint": "Think about the key concepts in Reproduction & Cell Division.",
+      "hint_zh": "想想Reproduction & Cell Division中的关键概念。"
+    },
+    {
+      "id": "reproducti-ex11",
+      "type": "mcq",
+      "prompt": "Question 11 about Reproduction & Cell Division",
+      "prompt_zh": "关于Reproduction & Cell Division的问题11",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 1,
+      "hint": "Think about the key concepts in Reproduction & Cell Division.",
+      "hint_zh": "想想Reproduction & Cell Division中的关键概念。"
+    },
+    {
+      "id": "reproducti-ex12",
+      "type": "short",
+      "prompt": "Question 12 about Reproduction & Cell Division",
+      "prompt_zh": "关于Reproduction & Cell Division的问题12",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Reproduction & Cell Division.",
+      "hint_zh": "想想Reproduction & Cell Division中的关键概念。"
+    },
+    {
+      "id": "reproducti-ex13",
+      "type": "mcq",
+      "prompt": "Question 13 about Reproduction & Cell Division",
+      "prompt_zh": "关于Reproduction & Cell Division的问题13",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 2,
+      "hint": "Think about the key concepts in Reproduction & Cell Division.",
+      "hint_zh": "想想Reproduction & Cell Division中的关键概念。"
+    },
+    {
+      "id": "reproducti-ex14",
+      "type": "mcq",
+      "prompt": "Question 14 about Reproduction & Cell Division",
+      "prompt_zh": "关于Reproduction & Cell Division的问题14",
+      "choices": null,
+      "answer": "answer",
+      "hint": "Think about the key concepts in Reproduction & Cell Division.",
+      "hint_zh": "想想Reproduction & Cell Division中的关键概念。"
+    },
+    {
+      "id": "reproducti-ex15",
+      "type": "short",
+      "prompt": "Question 15 about Reproduction & Cell Division",
+      "prompt_zh": "关于Reproduction & Cell Division的问题15",
+      "answer": 1,
+      "hint": "Think about the key concepts in Reproduction & Cell Division.",
+      "hint_zh": "想想Reproduction & Cell Division中的关键概念。"
+    }
+  ]
+}

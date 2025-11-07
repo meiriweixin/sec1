@@ -1,0 +1,211 @@
+{
+  "id": "turning-effects-forces",
+  "title": "Turning Effects of Forces",
+  "title_zh": "力的转动效应",
+  "gradeLevel": "sec3",
+  "tag": "Physics",
+  "tag_zh": "物理",
+  "description": "Understanding moments, centre of gravity and stability",
+  "description_zh": "理解力矩、重心和稳定性",
+  "objectives": [
+    "Define moment of a force and calculate it",
+    "Apply the principle of moments to solve problems",
+    "Understand centre of gravity and its applications",
+    "Explain factors affecting stability"
+  ],
+  "objectives_zh": [
+    "定义力的力矩并计算",
+    "应用力矩原理解决问题",
+    "理解重心及其应用",
+    "解释影响稳定性的因素"
+  ],
+  "sections": [],
+  "exercises": [
+    {
+      "id": "turning-ef-ex1",
+      "type": "mcq",
+      "prompt": "Question 1 about Turning Effects of Forces",
+      "prompt_zh": "关于Turning Effects of Forces的问题1",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 2,
+      "hint": "Think about the key concepts in Turning Effects of Forces.",
+      "hint_zh": "想想Turning Effects of Forces中的关键概念。"
+    },
+    {
+      "id": "turning-ef-ex2",
+      "type": "mcq",
+      "prompt": "Question 2 about Turning Effects of Forces",
+      "prompt_zh": "关于Turning Effects of Forces的问题2",
+      "choices": null,
+      "answer": "answer",
+      "hint": "Think about the key concepts in Turning Effects of Forces.",
+      "hint_zh": "想想Turning Effects of Forces中的关键概念。"
+    },
+    {
+      "id": "turning-ef-ex3",
+      "type": "mcq",
+      "prompt": "Question 3 about Turning Effects of Forces",
+      "prompt_zh": "关于Turning Effects of Forces的问题3",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 3,
+      "hint": "Think about the key concepts in Turning Effects of Forces.",
+      "hint_zh": "想想Turning Effects of Forces中的关键概念。"
+    },
+    {
+      "id": "turning-ef-ex4",
+      "type": "short",
+      "prompt": "Question 4 about Turning Effects of Forces",
+      "prompt_zh": "关于Turning Effects of Forces的问题4",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Turning Effects of Forces.",
+      "hint_zh": "想想Turning Effects of Forces中的关键概念。"
+    },
+    {
+      "id": "turning-ef-ex5",
+      "type": "mcq",
+      "prompt": "Question 5 about Turning Effects of Forces",
+      "prompt_zh": "关于Turning Effects of Forces的问题5",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "hint": "Think about the key concepts in Turning Effects of Forces.",
+      "hint_zh": "想想Turning Effects of Forces中的关键概念。"
+    },
+    {
+      "id": "turning-ef-ex6",
+      "type": "mcq",
+      "prompt": "Question 6 about Turning Effects of Forces",
+      "prompt_zh": "关于Turning Effects of Forces的问题6",
+      "choices": null,
+      "answer": "answer",
+      "hint": "Think about the key concepts in Turning Effects of Forces.",
+      "hint_zh": "想想Turning Effects of Forces中的关键概念。"
+    },
+    {
+      "id": "turning-ef-ex7",
+      "type": "mcq",
+      "prompt": "Question 7 about Turning Effects of Forces",
+      "prompt_zh": "关于Turning Effects of Forces的问题7",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 2,
+      "hint": "Think about the key concepts in Turning Effects of Forces.",
+      "hint_zh": "想想Turning Effects of Forces中的关键概念。"
+    },
+    {
+      "id": "turning-ef-ex8",
+      "type": "mcq",
+      "prompt": "Question 8 about Turning Effects of Forces",
+      "prompt_zh": "关于Turning Effects of Forces的问题8",
+      "choices": null,
+      "answer": "answer",
+      "hint": "Think about the key concepts in Turning Effects of Forces.",
+      "hint_zh": "想想Turning Effects of Forces中的关键概念。"
+    },
+    {
+      "id": "turning-ef-ex9",
+      "type": "mcq",
+      "prompt": "Question 9 about Turning Effects of Forces",
+      "prompt_zh": "关于Turning Effects of Forces的问题9",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 1,
+      "hint": "Think about the key concepts in Turning Effects of Forces.",
+      "hint_zh": "想想Turning Effects of Forces中的关键概念。"
+    },
+    {
+      "id": "turning-ef-ex10",
+      "type": "short",
+      "prompt": "Question 10 about Turning Effects of Forces",
+      "prompt_zh": "关于Turning Effects of Forces的问题10",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Turning Effects of Forces.",
+      "hint_zh": "想想Turning Effects of Forces中的关键概念。"
+    },
+    {
+      "id": "turning-ef-ex11",
+      "type": "mcq",
+      "prompt": "Question 11 about Turning Effects of Forces",
+      "prompt_zh": "关于Turning Effects of Forces的问题11",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 3,
+      "hint": "Think about the key concepts in Turning Effects of Forces.",
+      "hint_zh": "想想Turning Effects of Forces中的关键概念。"
+    },
+    {
+      "id": "turning-ef-ex12",
+      "type": "short",
+      "prompt": "Question 12 about Turning Effects of Forces",
+      "prompt_zh": "关于Turning Effects of Forces的问题12",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Turning Effects of Forces.",
+      "hint_zh": "想想Turning Effects of Forces中的关键概念。"
+    },
+    {
+      "id": "turning-ef-ex13",
+      "type": "mcq",
+      "prompt": "Question 13 about Turning Effects of Forces",
+      "prompt_zh": "关于Turning Effects of Forces的问题13",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 3,
+      "hint": "Think about the key concepts in Turning Effects of Forces.",
+      "hint_zh": "想想Turning Effects of Forces中的关键概念。"
+    },
+    {
+      "id": "turning-ef-ex14",
+      "type": "short",
+      "prompt": "Question 14 about Turning Effects of Forces",
+      "prompt_zh": "关于Turning Effects of Forces的问题14",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Turning Effects of Forces.",
+      "hint_zh": "想想Turning Effects of Forces中的关键概念。"
+    },
+    {
+      "id": "turning-ef-ex15",
+      "type": "mcq",
+      "prompt": "Question 15 about Turning Effects of Forces",
+      "prompt_zh": "关于Turning Effects of Forces的问题15",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 3,
+      "hint": "Think about the key concepts in Turning Effects of Forces.",
+      "hint_zh": "想想Turning Effects of Forces中的关键概念。"
+    }
+  ]
+}

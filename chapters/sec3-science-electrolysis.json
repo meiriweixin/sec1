@@ -1,0 +1,187 @@
+{
+  "id": "electrolysis",
+  "title": "Electrolysis",
+  "title_zh": "电解",
+  "gradeLevel": "sec3",
+  "tag": "Chemistry",
+  "tag_zh": "化学",
+  "description": "Understanding electrolysis of molten compounds and aqueous solutions",
+  "description_zh": "理解熔融化合物和水溶液的电解",
+  "objectives": [
+    "Explain what electrolysis is and how it works",
+    "Predict products of electrolysis",
+    "Describe electrolysis of molten ionic compounds",
+    "Describe electrolysis of aqueous solutions"
+  ],
+  "objectives_zh": [
+    "解释什么是电解及其工作原理",
+    "预测电解产物",
+    "描述熔融离子化合物的电解",
+    "描述水溶液的电解"
+  ],
+  "sections": [],
+  "exercises": [
+    {
+      "id": "electrolys-ex1",
+      "type": "short",
+      "prompt": "Question 1 about Electrolysis",
+      "prompt_zh": "关于Electrolysis的问题1",
+      "answer": 0,
+      "hint": "Think about the key concepts in Electrolysis.",
+      "hint_zh": "想想Electrolysis中的关键概念。"
+    },
+    {
+      "id": "electrolys-ex2",
+      "type": "short",
+      "prompt": "Question 2 about Electrolysis",
+      "prompt_zh": "关于Electrolysis的问题2",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Electrolysis.",
+      "hint_zh": "想想Electrolysis中的关键概念。"
+    },
+    {
+      "id": "electrolys-ex3",
+      "type": "short",
+      "prompt": "Question 3 about Electrolysis",
+      "prompt_zh": "关于Electrolysis的问题3",
+      "answer": 2,
+      "hint": "Think about the key concepts in Electrolysis.",
+      "hint_zh": "想想Electrolysis中的关键概念。"
+    },
+    {
+      "id": "electrolys-ex4",
+      "type": "short",
+      "prompt": "Question 4 about Electrolysis",
+      "prompt_zh": "关于Electrolysis的问题4",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Electrolysis.",
+      "hint_zh": "想想Electrolysis中的关键概念。"
+    },
+    {
+      "id": "electrolys-ex5",
+      "type": "mcq",
+      "prompt": "Question 5 about Electrolysis",
+      "prompt_zh": "关于Electrolysis的问题5",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "hint": "Think about the key concepts in Electrolysis.",
+      "hint_zh": "想想Electrolysis中的关键概念。"
+    },
+    {
+      "id": "electrolys-ex6",
+      "type": "short",
+      "prompt": "Question 6 about Electrolysis",
+      "prompt_zh": "关于Electrolysis的问题6",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Electrolysis.",
+      "hint_zh": "想想Electrolysis中的关键概念。"
+    },
+    {
+      "id": "electrolys-ex7",
+      "type": "mcq",
+      "prompt": "Question 7 about Electrolysis",
+      "prompt_zh": "关于Electrolysis的问题7",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 2,
+      "hint": "Think about the key concepts in Electrolysis.",
+      "hint_zh": "想想Electrolysis中的关键概念。"
+    },
+    {
+      "id": "electrolys-ex8",
+      "type": "mcq",
+      "prompt": "Question 8 about Electrolysis",
+      "prompt_zh": "关于Electrolysis的问题8",
+      "choices": null,
+      "answer": "answer",
+      "hint": "Think about the key concepts in Electrolysis.",
+      "hint_zh": "想想Electrolysis中的关键概念。"
+    },
+    {
+      "id": "electrolys-ex9",
+      "type": "mcq",
+      "prompt": "Question 9 about Electrolysis",
+      "prompt_zh": "关于Electrolysis的问题9",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 1,
+      "hint": "Think about the key concepts in Electrolysis.",
+      "hint_zh": "想想Electrolysis中的关键概念。"
+    },
+    {
+      "id": "electrolys-ex10",
+      "type": "short",
+      "prompt": "Question 10 about Electrolysis",
+      "prompt_zh": "关于Electrolysis的问题10",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Electrolysis.",
+      "hint_zh": "想想Electrolysis中的关键概念。"
+    },
+    {
+      "id": "electrolys-ex11",
+      "type": "mcq",
+      "prompt": "Question 11 about Electrolysis",
+      "prompt_zh": "关于Electrolysis的问题11",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 3,
+      "hint": "Think about the key concepts in Electrolysis.",
+      "hint_zh": "想想Electrolysis中的关键概念。"
+    },
+    {
+      "id": "electrolys-ex12",
+      "type": "mcq",
+      "prompt": "Question 12 about Electrolysis",
+      "prompt_zh": "关于Electrolysis的问题12",
+      "choices": null,
+      "answer": "answer",
+      "hint": "Think about the key concepts in Electrolysis.",
+      "hint_zh": "想想Electrolysis中的关键概念。"
+    },
+    {
+      "id": "electrolys-ex13",
+      "type": "short",
+      "prompt": "Question 13 about Electrolysis",
+      "prompt_zh": "关于Electrolysis的问题13",
+      "answer": 2,
+      "hint": "Think about the key concepts in Electrolysis.",
+      "hint_zh": "想想Electrolysis中的关键概念。"
+    },
+    {
+      "id": "electrolys-ex14",
+      "type": "mcq",
+      "prompt": "Question 14 about Electrolysis",
+      "prompt_zh": "关于Electrolysis的问题14",
+      "choices": null,
+      "answer": "answer",
+      "hint": "Think about the key concepts in Electrolysis.",
+      "hint_zh": "想想Electrolysis中的关键概念。"
+    },
+    {
+      "id": "electrolys-ex15",
+      "type": "short",
+      "prompt": "Question 15 about Electrolysis",
+      "prompt_zh": "关于Electrolysis的问题15",
+      "answer": 0,
+      "hint": "Think about the key concepts in Electrolysis.",
+      "hint_zh": "想想Electrolysis中的关键概念。"
+    }
+  ]
+}

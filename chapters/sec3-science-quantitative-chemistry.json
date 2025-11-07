@@ -1,0 +1,181 @@
+{
+  "id": "quantitative-chemistry",
+  "title": "Quantitative Chemistry",
+  "title_zh": "定量化学",
+  "gradeLevel": "sec3",
+  "tag": "Chemistry",
+  "tag_zh": "化学",
+  "description": "Understanding the mole concept, chemical calculations and stoichiometry",
+  "description_zh": "理解摩尔概念、化学计算和化学计量学",
+  "objectives": [
+    "Understand the mole concept and Avogadro's constant",
+    "Calculate relative molecular mass and molar mass",
+    "Perform stoichiometric calculations",
+    "Calculate percentage composition and empirical formula"
+  ],
+  "objectives_zh": [
+    "理解摩尔概念和阿伏伽德罗常数",
+    "计算相对分子质量和摩尔质量",
+    "进行化学计量计算",
+    "计算百分比组成和经验式"
+  ],
+  "sections": [],
+  "exercises": [
+    {
+      "id": "quantitati-ex1",
+      "type": "short",
+      "prompt": "Question 1 about Quantitative Chemistry",
+      "prompt_zh": "关于Quantitative Chemistry的问题1",
+      "answer": 2,
+      "hint": "Think about the key concepts in Quantitative Chemistry.",
+      "hint_zh": "想想Quantitative Chemistry中的关键概念。"
+    },
+    {
+      "id": "quantitati-ex2",
+      "type": "short",
+      "prompt": "Question 2 about Quantitative Chemistry",
+      "prompt_zh": "关于Quantitative Chemistry的问题2",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Quantitative Chemistry.",
+      "hint_zh": "想想Quantitative Chemistry中的关键概念。"
+    },
+    {
+      "id": "quantitati-ex3",
+      "type": "short",
+      "prompt": "Question 3 about Quantitative Chemistry",
+      "prompt_zh": "关于Quantitative Chemistry的问题3",
+      "answer": 0,
+      "hint": "Think about the key concepts in Quantitative Chemistry.",
+      "hint_zh": "想想Quantitative Chemistry中的关键概念。"
+    },
+    {
+      "id": "quantitati-ex4",
+      "type": "mcq",
+      "prompt": "Question 4 about Quantitative Chemistry",
+      "prompt_zh": "关于Quantitative Chemistry的问题4",
+      "choices": null,
+      "answer": "answer",
+      "hint": "Think about the key concepts in Quantitative Chemistry.",
+      "hint_zh": "想想Quantitative Chemistry中的关键概念。"
+    },
+    {
+      "id": "quantitati-ex5",
+      "type": "short",
+      "prompt": "Question 5 about Quantitative Chemistry",
+      "prompt_zh": "关于Quantitative Chemistry的问题5",
+      "answer": 1,
+      "hint": "Think about the key concepts in Quantitative Chemistry.",
+      "hint_zh": "想想Quantitative Chemistry中的关键概念。"
+    },
+    {
+      "id": "quantitati-ex6",
+      "type": "mcq",
+      "prompt": "Question 6 about Quantitative Chemistry",
+      "prompt_zh": "关于Quantitative Chemistry的问题6",
+      "choices": null,
+      "answer": "answer",
+      "hint": "Think about the key concepts in Quantitative Chemistry.",
+      "hint_zh": "想想Quantitative Chemistry中的关键概念。"
+    },
+    {
+      "id": "quantitati-ex7",
+      "type": "mcq",
+      "prompt": "Question 7 about Quantitative Chemistry",
+      "prompt_zh": "关于Quantitative Chemistry的问题7",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 2,
+      "hint": "Think about the key concepts in Quantitative Chemistry.",
+      "hint_zh": "想想Quantitative Chemistry中的关键概念。"
+    },
+    {
+      "id": "quantitati-ex8",
+      "type": "short",
+      "prompt": "Question 8 about Quantitative Chemistry",
+      "prompt_zh": "关于Quantitative Chemistry的问题8",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Quantitative Chemistry.",
+      "hint_zh": "想想Quantitative Chemistry中的关键概念。"
+    },
+    {
+      "id": "quantitati-ex9",
+      "type": "short",
+      "prompt": "Question 9 about Quantitative Chemistry",
+      "prompt_zh": "关于Quantitative Chemistry的问题9",
+      "answer": 2,
+      "hint": "Think about the key concepts in Quantitative Chemistry.",
+      "hint_zh": "想想Quantitative Chemistry中的关键概念。"
+    },
+    {
+      "id": "quantitati-ex10",
+      "type": "mcq",
+      "prompt": "Question 10 about Quantitative Chemistry",
+      "prompt_zh": "关于Quantitative Chemistry的问题10",
+      "choices": null,
+      "answer": "answer",
+      "hint": "Think about the key concepts in Quantitative Chemistry.",
+      "hint_zh": "想想Quantitative Chemistry中的关键概念。"
+    },
+    {
+      "id": "quantitati-ex11",
+      "type": "short",
+      "prompt": "Question 11 about Quantitative Chemistry",
+      "prompt_zh": "关于Quantitative Chemistry的问题11",
+      "answer": 3,
+      "hint": "Think about the key concepts in Quantitative Chemistry.",
+      "hint_zh": "想想Quantitative Chemistry中的关键概念。"
+    },
+    {
+      "id": "quantitati-ex12",
+      "type": "short",
+      "prompt": "Question 12 about Quantitative Chemistry",
+      "prompt_zh": "关于Quantitative Chemistry的问题12",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Quantitative Chemistry.",
+      "hint_zh": "想想Quantitative Chemistry中的关键概念。"
+    },
+    {
+      "id": "quantitati-ex13",
+      "type": "mcq",
+      "prompt": "Question 13 about Quantitative Chemistry",
+      "prompt_zh": "关于Quantitative Chemistry的问题13",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "hint": "Think about the key concepts in Quantitative Chemistry.",
+      "hint_zh": "想想Quantitative Chemistry中的关键概念。"
+    },
+    {
+      "id": "quantitati-ex14",
+      "type": "short",
+      "prompt": "Question 14 about Quantitative Chemistry",
+      "prompt_zh": "关于Quantitative Chemistry的问题14",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Quantitative Chemistry.",
+      "hint_zh": "想想Quantitative Chemistry中的关键概念。"
+    },
+    {
+      "id": "quantitati-ex15",
+      "type": "mcq",
+      "prompt": "Question 15 about Quantitative Chemistry",
+      "prompt_zh": "关于Quantitative Chemistry的问题15",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 3,
+      "hint": "Think about the key concepts in Quantitative Chemistry.",
+      "hint_zh": "想想Quantitative Chemistry中的关键概念。"
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "id": "pressure-fluids",
+  "title": "Pressure in Fluids",
+  "title_zh": "流体中的压力",
+  "gradeLevel": "sec3",
+  "tag": "Physics",
+  "tag_zh": "物理",
+  "description": "Understanding pressure in liquids and gases, atmospheric pressure and applications",
+  "description_zh": "理解液体和气体中的压力、大气压力和应用",
+  "objectives": [
+    "Calculate pressure in liquids and gases",
+    "Explain atmospheric pressure and its effects",
+    "Understand hydraulic systems",
+    "Explain buoyancy and Archimedes' principle"
+  ],
+  "objectives_zh": [
+    "计算液体和气体中的压力",
+    "解释大气压力及其影响",
+    "理解液压系统",
+    "解释浮力和阿基米德原理"
+  ],
+  "sections": [],
+  "exercises": [
+    {
+      "id": "pressure-f-ex1",
+      "type": "mcq",
+      "prompt": "Question 1 about Pressure in Fluids",
+      "prompt_zh": "关于Pressure in Fluids的问题1",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 1,
+      "hint": "Think about the key concepts in Pressure in Fluids.",
+      "hint_zh": "想想Pressure in Fluids中的关键概念。"
+    },
+    {
+      "id": "pressure-f-ex2",
+      "type": "mcq",
+      "prompt": "Question 2 about Pressure in Fluids",
+      "prompt_zh": "关于Pressure in Fluids的问题2",
+      "choices": null,
+      "answer": "answer",
+      "hint": "Think about the key concepts in Pressure in Fluids.",
+      "hint_zh": "想想Pressure in Fluids中的关键概念。"
+    },
+    {
+      "id": "pressure-f-ex3",
+      "type": "mcq",
+      "prompt": "Question 3 about Pressure in Fluids",
+      "prompt_zh": "关于Pressure in Fluids的问题3",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 1,
+      "hint": "Think about the key concepts in Pressure in Fluids.",
+      "hint_zh": "想想Pressure in Fluids中的关键概念。"
+    },
+    {
+      "id": "pressure-f-ex4",
+      "type": "mcq",
+      "prompt": "Question 4 about Pressure in Fluids",
+      "prompt_zh": "关于Pressure in Fluids的问题4",
+      "choices": null,
+      "answer": "answer",
+      "hint": "Think about the key concepts in Pressure in Fluids.",
+      "hint_zh": "想想Pressure in Fluids中的关键概念。"
+    },
+    {
+      "id": "pressure-f-ex5",
+      "type": "mcq",
+      "prompt": "Question 5 about Pressure in Fluids",
+      "prompt_zh": "关于Pressure in Fluids的问题5",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 3,
+      "hint": "Think about the key concepts in Pressure in Fluids.",
+      "hint_zh": "想想Pressure in Fluids中的关键概念。"
+    },
+    {
+      "id": "pressure-f-ex6",
+      "type": "short",
+      "prompt": "Question 6 about Pressure in Fluids",
+      "prompt_zh": "关于Pressure in Fluids的问题6",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Pressure in Fluids.",
+      "hint_zh": "想想Pressure in Fluids中的关键概念。"
+    },
+    {
+      "id": "pressure-f-ex7",
+      "type": "short",
+      "prompt": "Question 7 about Pressure in Fluids",
+      "prompt_zh": "关于Pressure in Fluids的问题7",
+      "answer": 3,
+      "hint": "Think about the key concepts in Pressure in Fluids.",
+      "hint_zh": "想想Pressure in Fluids中的关键概念。"
+    },
+    {
+      "id": "pressure-f-ex8",
+      "type": "short",
+      "prompt": "Question 8 about Pressure in Fluids",
+      "prompt_zh": "关于Pressure in Fluids的问题8",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Pressure in Fluids.",
+      "hint_zh": "想想Pressure in Fluids中的关键概念。"
+    },
+    {
+      "id": "pressure-f-ex9",
+      "type": "mcq",
+      "prompt": "Question 9 about Pressure in Fluids",
+      "prompt_zh": "关于Pressure in Fluids的问题9",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "hint": "Think about the key concepts in Pressure in Fluids.",
+      "hint_zh": "想想Pressure in Fluids中的关键概念。"
+    },
+    {
+      "id": "pressure-f-ex10",
+      "type": "mcq",
+      "prompt": "Question 10 about Pressure in Fluids",
+      "prompt_zh": "关于Pressure in Fluids的问题10",
+      "choices": null,
+      "answer": "answer",
+      "hint": "Think about the key concepts in Pressure in Fluids.",
+      "hint_zh": "想想Pressure in Fluids中的关键概念。"
+    },
+    {
+      "id": "pressure-f-ex11",
+      "type": "short",
+      "prompt": "Question 11 about Pressure in Fluids",
+      "prompt_zh": "关于Pressure in Fluids的问题11",
+      "answer": 0,
+      "hint": "Think about the key concepts in Pressure in Fluids.",
+      "hint_zh": "想想Pressure in Fluids中的关键概念。"
+    },
+    {
+      "id": "pressure-f-ex12",
+      "type": "mcq",
+      "prompt": "Question 12 about Pressure in Fluids",
+      "prompt_zh": "关于Pressure in Fluids的问题12",
+      "choices": null,
+      "answer": "answer",
+      "hint": "Think about the key concepts in Pressure in Fluids.",
+      "hint_zh": "想想Pressure in Fluids中的关键概念。"
+    },
+    {
+      "id": "pressure-f-ex13",
+      "type": "short",
+      "prompt": "Question 13 about Pressure in Fluids",
+      "prompt_zh": "关于Pressure in Fluids的问题13",
+      "answer": 2,
+      "hint": "Think about the key concepts in Pressure in Fluids.",
+      "hint_zh": "想想Pressure in Fluids中的关键概念。"
+    },
+    {
+      "id": "pressure-f-ex14",
+      "type": "mcq",
+      "prompt": "Question 14 about Pressure in Fluids",
+      "prompt_zh": "关于Pressure in Fluids的问题14",
+      "choices": null,
+      "answer": "answer",
+      "hint": "Think about the key concepts in Pressure in Fluids.",
+      "hint_zh": "想想Pressure in Fluids中的关键概念。"
+    },
+    {
+      "id": "pressure-f-ex15",
+      "type": "mcq",
+      "prompt": "Question 15 about Pressure in Fluids",
+      "prompt_zh": "关于Pressure in Fluids的问题15",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "hint": "Think about the key concepts in Pressure in Fluids.",
+      "hint_zh": "想想Pressure in Fluids中的关键概念。"
+    }
+  ]
+}

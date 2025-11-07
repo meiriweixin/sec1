@@ -1,0 +1,182 @@
+{
+  "id": "biotechnology",
+  "title": "Biotechnology",
+  "title_zh": "生物技术",
+  "gradeLevel": "sec3",
+  "tag": "Biology",
+  "tag_zh": "生物",
+  "description": "Understanding applications of biotechnology including genetic engineering and fermentation",
+  "description_zh": "理解生物技术的应用，包括基因工程和发酵",
+  "objectives": [
+    "Explain what biotechnology is and its applications",
+    "Describe genetic engineering and its uses",
+    "Understand fermentation and its industrial uses",
+    "Discuss ethical issues in biotechnology"
+  ],
+  "objectives_zh": [
+    "解释什么是生物技术及其应用",
+    "描述基因工程及其用途",
+    "理解发酵及其工业用途",
+    "讨论生物技术中的伦理问题"
+  ],
+  "sections": [],
+  "exercises": [
+    {
+      "id": "biotechnol-ex1",
+      "type": "mcq",
+      "prompt": "Question 1 about Biotechnology",
+      "prompt_zh": "关于Biotechnology的问题1",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 1,
+      "hint": "Think about the key concepts in Biotechnology.",
+      "hint_zh": "想想Biotechnology中的关键概念。"
+    },
+    {
+      "id": "biotechnol-ex2",
+      "type": "mcq",
+      "prompt": "Question 2 about Biotechnology",
+      "prompt_zh": "关于Biotechnology的问题2",
+      "choices": null,
+      "answer": "answer",
+      "hint": "Think about the key concepts in Biotechnology.",
+      "hint_zh": "想想Biotechnology中的关键概念。"
+    },
+    {
+      "id": "biotechnol-ex3",
+      "type": "short",
+      "prompt": "Question 3 about Biotechnology",
+      "prompt_zh": "关于Biotechnology的问题3",
+      "answer": 1,
+      "hint": "Think about the key concepts in Biotechnology.",
+      "hint_zh": "想想Biotechnology中的关键概念。"
+    },
+    {
+      "id": "biotechnol-ex4",
+      "type": "short",
+      "prompt": "Question 4 about Biotechnology",
+      "prompt_zh": "关于Biotechnology的问题4",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Biotechnology.",
+      "hint_zh": "想想Biotechnology中的关键概念。"
+    },
+    {
+      "id": "biotechnol-ex5",
+      "type": "short",
+      "prompt": "Question 5 about Biotechnology",
+      "prompt_zh": "关于Biotechnology的问题5",
+      "answer": 3,
+      "hint": "Think about the key concepts in Biotechnology.",
+      "hint_zh": "想想Biotechnology中的关键概念。"
+    },
+    {
+      "id": "biotechnol-ex6",
+      "type": "short",
+      "prompt": "Question 6 about Biotechnology",
+      "prompt_zh": "关于Biotechnology的问题6",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Biotechnology.",
+      "hint_zh": "想想Biotechnology中的关键概念。"
+    },
+    {
+      "id": "biotechnol-ex7",
+      "type": "short",
+      "prompt": "Question 7 about Biotechnology",
+      "prompt_zh": "关于Biotechnology的问题7",
+      "answer": 3,
+      "hint": "Think about the key concepts in Biotechnology.",
+      "hint_zh": "想想Biotechnology中的关键概念。"
+    },
+    {
+      "id": "biotechnol-ex8",
+      "type": "short",
+      "prompt": "Question 8 about Biotechnology",
+      "prompt_zh": "关于Biotechnology的问题8",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Biotechnology.",
+      "hint_zh": "想想Biotechnology中的关键概念。"
+    },
+    {
+      "id": "biotechnol-ex9",
+      "type": "short",
+      "prompt": "Question 9 about Biotechnology",
+      "prompt_zh": "关于Biotechnology的问题9",
+      "answer": 2,
+      "hint": "Think about the key concepts in Biotechnology.",
+      "hint_zh": "想想Biotechnology中的关键概念。"
+    },
+    {
+      "id": "biotechnol-ex10",
+      "type": "mcq",
+      "prompt": "Question 10 about Biotechnology",
+      "prompt_zh": "关于Biotechnology的问题10",
+      "choices": null,
+      "answer": "answer",
+      "hint": "Think about the key concepts in Biotechnology.",
+      "hint_zh": "想想Biotechnology中的关键概念。"
+    },
+    {
+      "id": "biotechnol-ex11",
+      "type": "mcq",
+      "prompt": "Question 11 about Biotechnology",
+      "prompt_zh": "关于Biotechnology的问题11",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "hint": "Think about the key concepts in Biotechnology.",
+      "hint_zh": "想想Biotechnology中的关键概念。"
+    },
+    {
+      "id": "biotechnol-ex12",
+      "type": "mcq",
+      "prompt": "Question 12 about Biotechnology",
+      "prompt_zh": "关于Biotechnology的问题12",
+      "choices": null,
+      "answer": "answer",
+      "hint": "Think about the key concepts in Biotechnology.",
+      "hint_zh": "想想Biotechnology中的关键概念。"
+    },
+    {
+      "id": "biotechnol-ex13",
+      "type": "mcq",
+      "prompt": "Question 13 about Biotechnology",
+      "prompt_zh": "关于Biotechnology的问题13",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 2,
+      "hint": "Think about the key concepts in Biotechnology.",
+      "hint_zh": "想想Biotechnology中的关键概念。"
+    },
+    {
+      "id": "biotechnol-ex14",
+      "type": "mcq",
+      "prompt": "Question 14 about Biotechnology",
+      "prompt_zh": "关于Biotechnology的问题14",
+      "choices": null,
+      "answer": "answer",
+      "hint": "Think about the key concepts in Biotechnology.",
+      "hint_zh": "想想Biotechnology中的关键概念。"
+    },
+    {
+      "id": "biotechnol-ex15",
+      "type": "short",
+      "prompt": "Question 15 about Biotechnology",
+      "prompt_zh": "关于Biotechnology的问题15",
+      "answer": 3,
+      "hint": "Think about the key concepts in Biotechnology.",
+      "hint_zh": "想想Biotechnology中的关键概念。"
+    }
+  ]
+}

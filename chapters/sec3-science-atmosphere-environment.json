@@ -1,0 +1,180 @@
+{
+  "id": "atmosphere-environment",
+  "title": "Atmosphere & Environment",
+  "title_zh": "大气和环境",
+  "gradeLevel": "sec3",
+  "tag": "Chemistry",
+  "tag_zh": "化学",
+  "description": "Understanding air composition, pollution and climate change",
+  "description_zh": "理解空气组成、污染和气候变化",
+  "objectives": [
+    "Describe composition of clean air",
+    "Explain causes and effects of air pollution",
+    "Understand the greenhouse effect and global warming",
+    "Discuss solutions to environmental problems"
+  ],
+  "objectives_zh": [
+    "描述清洁空气的组成",
+    "解释空气污染的原因和影响",
+    "理解温室效应和全球变暖",
+    "讨论环境问题的解决方案"
+  ],
+  "sections": [],
+  "exercises": [
+    {
+      "id": "atmosphere-ex1",
+      "type": "short",
+      "prompt": "Question 1 about Atmosphere & Environment",
+      "prompt_zh": "关于Atmosphere & Environment的问题1",
+      "answer": 3,
+      "hint": "Think about the key concepts in Atmosphere & Environment.",
+      "hint_zh": "想想Atmosphere & Environment中的关键概念。"
+    },
+    {
+      "id": "atmosphere-ex2",
+      "type": "short",
+      "prompt": "Question 2 about Atmosphere & Environment",
+      "prompt_zh": "关于Atmosphere & Environment的问题2",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Atmosphere & Environment.",
+      "hint_zh": "想想Atmosphere & Environment中的关键概念。"
+    },
+    {
+      "id": "atmosphere-ex3",
+      "type": "short",
+      "prompt": "Question 3 about Atmosphere & Environment",
+      "prompt_zh": "关于Atmosphere & Environment的问题3",
+      "answer": 2,
+      "hint": "Think about the key concepts in Atmosphere & Environment.",
+      "hint_zh": "想想Atmosphere & Environment中的关键概念。"
+    },
+    {
+      "id": "atmosphere-ex4",
+      "type": "mcq",
+      "prompt": "Question 4 about Atmosphere & Environment",
+      "prompt_zh": "关于Atmosphere & Environment的问题4",
+      "choices": null,
+      "answer": "answer",
+      "hint": "Think about the key concepts in Atmosphere & Environment.",
+      "hint_zh": "想想Atmosphere & Environment中的关键概念。"
+    },
+    {
+      "id": "atmosphere-ex5",
+      "type": "short",
+      "prompt": "Question 5 about Atmosphere & Environment",
+      "prompt_zh": "关于Atmosphere & Environment的问题5",
+      "answer": 0,
+      "hint": "Think about the key concepts in Atmosphere & Environment.",
+      "hint_zh": "想想Atmosphere & Environment中的关键概念。"
+    },
+    {
+      "id": "atmosphere-ex6",
+      "type": "mcq",
+      "prompt": "Question 6 about Atmosphere & Environment",
+      "prompt_zh": "关于Atmosphere & Environment的问题6",
+      "choices": null,
+      "answer": "answer",
+      "hint": "Think about the key concepts in Atmosphere & Environment.",
+      "hint_zh": "想想Atmosphere & Environment中的关键概念。"
+    },
+    {
+      "id": "atmosphere-ex7",
+      "type": "short",
+      "prompt": "Question 7 about Atmosphere & Environment",
+      "prompt_zh": "关于Atmosphere & Environment的问题7",
+      "answer": 3,
+      "hint": "Think about the key concepts in Atmosphere & Environment.",
+      "hint_zh": "想想Atmosphere & Environment中的关键概念。"
+    },
+    {
+      "id": "atmosphere-ex8",
+      "type": "short",
+      "prompt": "Question 8 about Atmosphere & Environment",
+      "prompt_zh": "关于Atmosphere & Environment的问题8",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Atmosphere & Environment.",
+      "hint_zh": "想想Atmosphere & Environment中的关键概念。"
+    },
+    {
+      "id": "atmosphere-ex9",
+      "type": "mcq",
+      "prompt": "Question 9 about Atmosphere & Environment",
+      "prompt_zh": "关于Atmosphere & Environment的问题9",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "hint": "Think about the key concepts in Atmosphere & Environment.",
+      "hint_zh": "想想Atmosphere & Environment中的关键概念。"
+    },
+    {
+      "id": "atmosphere-ex10",
+      "type": "short",
+      "prompt": "Question 10 about Atmosphere & Environment",
+      "prompt_zh": "关于Atmosphere & Environment的问题10",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Atmosphere & Environment.",
+      "hint_zh": "想想Atmosphere & Environment中的关键概念。"
+    },
+    {
+      "id": "atmosphere-ex11",
+      "type": "mcq",
+      "prompt": "Question 11 about Atmosphere & Environment",
+      "prompt_zh": "关于Atmosphere & Environment的问题11",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 3,
+      "hint": "Think about the key concepts in Atmosphere & Environment.",
+      "hint_zh": "想想Atmosphere & Environment中的关键概念。"
+    },
+    {
+      "id": "atmosphere-ex12",
+      "type": "short",
+      "prompt": "Question 12 about Atmosphere & Environment",
+      "prompt_zh": "关于Atmosphere & Environment的问题12",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Atmosphere & Environment.",
+      "hint_zh": "想想Atmosphere & Environment中的关键概念。"
+    },
+    {
+      "id": "atmosphere-ex13",
+      "type": "mcq",
+      "prompt": "Question 13 about Atmosphere & Environment",
+      "prompt_zh": "关于Atmosphere & Environment的问题13",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "hint": "Think about the key concepts in Atmosphere & Environment.",
+      "hint_zh": "想想Atmosphere & Environment中的关键概念。"
+    },
+    {
+      "id": "atmosphere-ex14",
+      "type": "short",
+      "prompt": "Question 14 about Atmosphere & Environment",
+      "prompt_zh": "关于Atmosphere & Environment的问题14",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Atmosphere & Environment.",
+      "hint_zh": "想想Atmosphere & Environment中的关键概念。"
+    },
+    {
+      "id": "atmosphere-ex15",
+      "type": "short",
+      "prompt": "Question 15 about Atmosphere & Environment",
+      "prompt_zh": "关于Atmosphere & Environment的问题15",
+      "answer": 3,
+      "hint": "Think about the key concepts in Atmosphere & Environment.",
+      "hint_zh": "想想Atmosphere & Environment中的关键概念。"
+    }
+  ]
+}

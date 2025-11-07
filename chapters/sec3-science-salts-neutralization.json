@@ -1,0 +1,200 @@
+{
+  "id": "salts-neutralization",
+  "title": "Salts & Neutralization",
+  "title_zh": "盐和中和",
+  "gradeLevel": "sec3",
+  "tag": "Chemistry",
+  "tag_zh": "化学",
+  "description": "Understanding salt preparation methods and neutralization reactions",
+  "description_zh": "理解盐的制备方法和中和反应",
+  "objectives": [
+    "Describe methods of preparing salts",
+    "Write ionic equations for reactions",
+    "Explain neutralization reactions",
+    "Understand solubility rules for salts"
+  ],
+  "objectives_zh": [
+    "描述制备盐的方法",
+    "写出反应的离子方程式",
+    "解释中和反应",
+    "理解盐的溶解度规则"
+  ],
+  "sections": [],
+  "exercises": [
+    {
+      "id": "salts-neut-ex1",
+      "type": "short",
+      "prompt": "Question 1 about Salts & Neutralization",
+      "prompt_zh": "关于Salts & Neutralization的问题1",
+      "answer": 0,
+      "hint": "Think about the key concepts in Salts & Neutralization.",
+      "hint_zh": "想想Salts & Neutralization中的关键概念。"
+    },
+    {
+      "id": "salts-neut-ex2",
+      "type": "mcq",
+      "prompt": "Question 2 about Salts & Neutralization",
+      "prompt_zh": "关于Salts & Neutralization的问题2",
+      "choices": null,
+      "answer": "answer",
+      "hint": "Think about the key concepts in Salts & Neutralization.",
+      "hint_zh": "想想Salts & Neutralization中的关键概念。"
+    },
+    {
+      "id": "salts-neut-ex3",
+      "type": "mcq",
+      "prompt": "Question 3 about Salts & Neutralization",
+      "prompt_zh": "关于Salts & Neutralization的问题3",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 1,
+      "hint": "Think about the key concepts in Salts & Neutralization.",
+      "hint_zh": "想想Salts & Neutralization中的关键概念。"
+    },
+    {
+      "id": "salts-neut-ex4",
+      "type": "short",
+      "prompt": "Question 4 about Salts & Neutralization",
+      "prompt_zh": "关于Salts & Neutralization的问题4",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Salts & Neutralization.",
+      "hint_zh": "想想Salts & Neutralization中的关键概念。"
+    },
+    {
+      "id": "salts-neut-ex5",
+      "type": "mcq",
+      "prompt": "Question 5 about Salts & Neutralization",
+      "prompt_zh": "关于Salts & Neutralization的问题5",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 1,
+      "hint": "Think about the key concepts in Salts & Neutralization.",
+      "hint_zh": "想想Salts & Neutralization中的关键概念。"
+    },
+    {
+      "id": "salts-neut-ex6",
+      "type": "short",
+      "prompt": "Question 6 about Salts & Neutralization",
+      "prompt_zh": "关于Salts & Neutralization的问题6",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Salts & Neutralization.",
+      "hint_zh": "想想Salts & Neutralization中的关键概念。"
+    },
+    {
+      "id": "salts-neut-ex7",
+      "type": "mcq",
+      "prompt": "Question 7 about Salts & Neutralization",
+      "prompt_zh": "关于Salts & Neutralization的问题7",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 3,
+      "hint": "Think about the key concepts in Salts & Neutralization.",
+      "hint_zh": "想想Salts & Neutralization中的关键概念。"
+    },
+    {
+      "id": "salts-neut-ex8",
+      "type": "mcq",
+      "prompt": "Question 8 about Salts & Neutralization",
+      "prompt_zh": "关于Salts & Neutralization的问题8",
+      "choices": null,
+      "answer": "answer",
+      "hint": "Think about the key concepts in Salts & Neutralization.",
+      "hint_zh": "想想Salts & Neutralization中的关键概念。"
+    },
+    {
+      "id": "salts-neut-ex9",
+      "type": "mcq",
+      "prompt": "Question 9 about Salts & Neutralization",
+      "prompt_zh": "关于Salts & Neutralization的问题9",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "hint": "Think about the key concepts in Salts & Neutralization.",
+      "hint_zh": "想想Salts & Neutralization中的关键概念。"
+    },
+    {
+      "id": "salts-neut-ex10",
+      "type": "mcq",
+      "prompt": "Question 10 about Salts & Neutralization",
+      "prompt_zh": "关于Salts & Neutralization的问题10",
+      "choices": null,
+      "answer": "answer",
+      "hint": "Think about the key concepts in Salts & Neutralization.",
+      "hint_zh": "想想Salts & Neutralization中的关键概念。"
+    },
+    {
+      "id": "salts-neut-ex11",
+      "type": "short",
+      "prompt": "Question 11 about Salts & Neutralization",
+      "prompt_zh": "关于Salts & Neutralization的问题11",
+      "answer": 2,
+      "hint": "Think about the key concepts in Salts & Neutralization.",
+      "hint_zh": "想想Salts & Neutralization中的关键概念。"
+    },
+    {
+      "id": "salts-neut-ex12",
+      "type": "short",
+      "prompt": "Question 12 about Salts & Neutralization",
+      "prompt_zh": "关于Salts & Neutralization的问题12",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Salts & Neutralization.",
+      "hint_zh": "想想Salts & Neutralization中的关键概念。"
+    },
+    {
+      "id": "salts-neut-ex13",
+      "type": "mcq",
+      "prompt": "Question 13 about Salts & Neutralization",
+      "prompt_zh": "关于Salts & Neutralization的问题13",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "hint": "Think about the key concepts in Salts & Neutralization.",
+      "hint_zh": "想想Salts & Neutralization中的关键概念。"
+    },
+    {
+      "id": "salts-neut-ex14",
+      "type": "mcq",
+      "prompt": "Question 14 about Salts & Neutralization",
+      "prompt_zh": "关于Salts & Neutralization的问题14",
+      "choices": null,
+      "answer": "answer",
+      "hint": "Think about the key concepts in Salts & Neutralization.",
+      "hint_zh": "想想Salts & Neutralization中的关键概念。"
+    },
+    {
+      "id": "salts-neut-ex15",
+      "type": "mcq",
+      "prompt": "Question 15 about Salts & Neutralization",
+      "prompt_zh": "关于Salts & Neutralization的问题15",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 3,
+      "hint": "Think about the key concepts in Salts & Neutralization.",
+      "hint_zh": "想想Salts & Neutralization中的关键概念。"
+    }
+  ]
+}

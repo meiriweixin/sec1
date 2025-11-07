@@ -1,0 +1,210 @@
+{
+  "id": "static-electricity",
+  "title": "Static Electricity",
+  "title_zh": "静电",
+  "gradeLevel": "sec3",
+  "tag": "Physics",
+  "tag_zh": "物理",
+  "description": "Understanding electric charge, electrostatic forces and applications",
+  "description_zh": "理解电荷、静电力和应用",
+  "objectives": [
+    "Explain how objects become charged by friction",
+    "Describe the forces between charged objects",
+    "Explain electrostatic phenomena in everyday life",
+    "Understand applications and hazards of static electricity"
+  ],
+  "objectives_zh": [
+    "解释物体如何通过摩擦带电",
+    "描述带电物体之间的力",
+    "解释日常生活中的静电现象",
+    "理解静电的应用和危害"
+  ],
+  "sections": [
+    {
+      "id": "electric-charge",
+      "type": "text",
+      "title": "Electric Charge",
+      "title_zh": "电荷",
+      "content": "**Types of Charge:**\n• Positive charge (+)\n• Negative charge (-)\n• Neutral (equal positive and negative)\n\n**Properties:**\n• Like charges repel\n• Unlike charges attract\n• Charge is conserved (cannot be created or destroyed)\n• Charge can be transferred\n\n**Charging by Friction:**\nWhen two materials are rubbed together:\n• Electrons transfer from one material to the other\n• Material losing electrons becomes positive\n• Material gaining electrons becomes negative\n\n**Examples:**\n• Rubbing balloon on hair - balloon becomes negative\n• Rubbing plastic rod with cloth - rod becomes negative\n• Combing hair - comb becomes charged",
+      "content_zh": "**电荷类型：**\n• 正电荷（+）\n• 负电荷（-）\n• 中性（正负电荷相等）\n\n**性质：**\n• 同性电荷相斥\n• 异性电荷相吸\n• 电荷守恒（不能被创造或破坏）\n• 电荷可以转移\n\n**摩擦起电：**\n当两种材料摩擦在一起时：\n• 电子从一种材料转移到另一种材料\n• 失去电子的材料变为正电\n• 获得电子的材料变为负电\n\n**示例：**\n• 在头发上摩擦气球 - 气球变为负电\n• 用布摩擦塑料棒 - 棒变为负电\n• 梳头 - 梳子带电"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "static-ele-ex1",
+      "type": "mcq",
+      "prompt": "Question 1 about Static Electricity",
+      "prompt_zh": "关于Static Electricity的问题1",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "hint": "Think about the key concepts in Static Electricity.",
+      "hint_zh": "想想Static Electricity中的关键概念。"
+    },
+    {
+      "id": "static-ele-ex2",
+      "type": "short",
+      "prompt": "Question 2 about Static Electricity",
+      "prompt_zh": "关于Static Electricity的问题2",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Static Electricity.",
+      "hint_zh": "想想Static Electricity中的关键概念。"
+    },
+    {
+      "id": "static-ele-ex3",
+      "type": "mcq",
+      "prompt": "Question 3 about Static Electricity",
+      "prompt_zh": "关于Static Electricity的问题3",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "hint": "Think about the key concepts in Static Electricity.",
+      "hint_zh": "想想Static Electricity中的关键概念。"
+    },
+    {
+      "id": "static-ele-ex4",
+      "type": "mcq",
+      "prompt": "Question 4 about Static Electricity",
+      "prompt_zh": "关于Static Electricity的问题4",
+      "choices": null,
+      "answer": "answer",
+      "hint": "Think about the key concepts in Static Electricity.",
+      "hint_zh": "想想Static Electricity中的关键概念。"
+    },
+    {
+      "id": "static-ele-ex5",
+      "type": "mcq",
+      "prompt": "Question 5 about Static Electricity",
+      "prompt_zh": "关于Static Electricity的问题5",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "hint": "Think about the key concepts in Static Electricity.",
+      "hint_zh": "想想Static Electricity中的关键概念。"
+    },
+    {
+      "id": "static-ele-ex6",
+      "type": "mcq",
+      "prompt": "Question 6 about Static Electricity",
+      "prompt_zh": "关于Static Electricity的问题6",
+      "choices": null,
+      "answer": "answer",
+      "hint": "Think about the key concepts in Static Electricity.",
+      "hint_zh": "想想Static Electricity中的关键概念。"
+    },
+    {
+      "id": "static-ele-ex7",
+      "type": "mcq",
+      "prompt": "Question 7 about Static Electricity",
+      "prompt_zh": "关于Static Electricity的问题7",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "hint": "Think about the key concepts in Static Electricity.",
+      "hint_zh": "想想Static Electricity中的关键概念。"
+    },
+    {
+      "id": "static-ele-ex8",
+      "type": "mcq",
+      "prompt": "Question 8 about Static Electricity",
+      "prompt_zh": "关于Static Electricity的问题8",
+      "choices": null,
+      "answer": "answer",
+      "hint": "Think about the key concepts in Static Electricity.",
+      "hint_zh": "想想Static Electricity中的关键概念。"
+    },
+    {
+      "id": "static-ele-ex9",
+      "type": "mcq",
+      "prompt": "Question 9 about Static Electricity",
+      "prompt_zh": "关于Static Electricity的问题9",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 1,
+      "hint": "Think about the key concepts in Static Electricity.",
+      "hint_zh": "想想Static Electricity中的关键概念。"
+    },
+    {
+      "id": "static-ele-ex10",
+      "type": "mcq",
+      "prompt": "Question 10 about Static Electricity",
+      "prompt_zh": "关于Static Electricity的问题10",
+      "choices": null,
+      "answer": "answer",
+      "hint": "Think about the key concepts in Static Electricity.",
+      "hint_zh": "想想Static Electricity中的关键概念。"
+    },
+    {
+      "id": "static-ele-ex11",
+      "type": "short",
+      "prompt": "Question 11 about Static Electricity",
+      "prompt_zh": "关于Static Electricity的问题11",
+      "answer": 1,
+      "hint": "Think about the key concepts in Static Electricity.",
+      "hint_zh": "想想Static Electricity中的关键概念。"
+    },
+    {
+      "id": "static-ele-ex12",
+      "type": "mcq",
+      "prompt": "Question 12 about Static Electricity",
+      "prompt_zh": "关于Static Electricity的问题12",
+      "choices": null,
+      "answer": "answer",
+      "hint": "Think about the key concepts in Static Electricity.",
+      "hint_zh": "想想Static Electricity中的关键概念。"
+    },
+    {
+      "id": "static-ele-ex13",
+      "type": "short",
+      "prompt": "Question 13 about Static Electricity",
+      "prompt_zh": "关于Static Electricity的问题13",
+      "answer": 3,
+      "hint": "Think about the key concepts in Static Electricity.",
+      "hint_zh": "想想Static Electricity中的关键概念。"
+    },
+    {
+      "id": "static-ele-ex14",
+      "type": "short",
+      "prompt": "Question 14 about Static Electricity",
+      "prompt_zh": "关于Static Electricity的问题14",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Static Electricity.",
+      "hint_zh": "想想Static Electricity中的关键概念。"
+    },
+    {
+      "id": "static-ele-ex15",
+      "type": "mcq",
+      "prompt": "Question 15 about Static Electricity",
+      "prompt_zh": "关于Static Electricity的问题15",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 2,
+      "hint": "Think about the key concepts in Static Electricity.",
+      "hint_zh": "想想Static Electricity中的关键概念。"
+    }
+  ]
+}

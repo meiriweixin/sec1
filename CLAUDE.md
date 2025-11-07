@@ -32,14 +32,14 @@ This is **SG Learning**, an interactive educational platform for Singapore stude
 - Junior College 1-2 (JC 1-2, ages 17-18, pre-university)
 
 **Current Content**:
-- English Language (6 chapters, 90 exercises) - Sec 1
-- Chinese Language/华文 (6 chapters, 90 exercises) - Sec 1
-- Mathematics (16 chapters, 240 exercises) - Sec 1
-- Science (19 chapters, 257 exercises) - Sec 1
-- Computing (6 chapters, 90 exercises) - Sec 3
+- English Language (12 chapters, 180 exercises) - Sec 1 (6 ch) + Sec 2 (6 ch)
+- Chinese Language/华文 (12 chapters, 180 exercises) - Sec 1 (6 ch) + Sec 2 (6 ch)
+- Mathematics (38 chapters, 570 exercises) - Sec 1 (16 ch) + Sec 2 (14 ch) + Sec 3 (8 ch)
+- Science (49 chapters, 735 exercises) - Sec 1 (19 ch) + Sec 2 (15 ch) + Sec 3 (15 ch)
+- Computing (18 chapters, 270 exercises) - Sec 1 (6 ch) + Sec 2 (6 ch) + Sec 3 (6 ch)
 - AI Playground (10 modules, 27 activities) - available to all grade levels
 
-**Subjects**: 6 total across all grade levels
+**Total**: 129 chapters, 1,935 exercises across 6 subjects and 3 grade levels
 
 ## Development Commands
 
@@ -240,9 +240,11 @@ export type GradeLevel = 'sec1' | 'sec2' | 'sec3' | 'sec4' | 'jc1' | 'jc2';
 Use `add_grade_levels.py` to add `gradeLevel` property to existing chapters or update them in bulk.
 
 **Current Status**:
-- English, Chinese, Math, Science: All chapters designated as Secondary 1 (`"sec1"`)
-- Computing: All chapters designated as Secondary 3 (`"sec3"`)
-- Content for Sec 2, 4, JC 1-2 needs to be added in future
+- English, Chinese: Sec 1 and Sec 2 content available
+- Mathematics: Sec 1, Sec 2, and Sec 3 content available
+- Science: Sec 1, Sec 2, and Sec 3 content available
+- Computing: Sec 1, Sec 2, and Sec 3 content available
+- Content for Sec 4, JC 1-2 needs to be added in future
 
 **AI Playground**: The AI Playground subject does not have chapters and is available to all grade levels.
 
@@ -529,10 +531,11 @@ Failing to preserve existing fields will cause progress data to be reset, leadin
 ## Singapore MOE Curriculum Alignment
 
 **Current Status**: The app covers 5 core academic subjects aligned with Singapore MOE curriculum:
-- **Sec 1**: English, Chinese, Mathematics, Science (all complete)
-- **Sec 3**: Computing (complete, based on Skills of Computing syllabus)
+- **Sec 1**: English (6 ch), Chinese (6 ch), Mathematics (16 ch), Science (19 ch)
+- **Sec 2**: English (6 ch), Chinese (6 ch), Mathematics (14 ch), Science (15 ch), Computing (6 ch)
+- **Sec 3**: Mathematics (8 ch), Science (15 ch), Computing (6 ch)
 
-All chapters are verified against official MOE syllabuses.
+All chapters are verified against official MOE syllabuses. Science Sec 3 content includes NEW 2024 syllabus updates (Electromagnetic Spectrum, Polymers & Recycling, updated Ecology topics).
 
 Content aligned with Singapore Ministry of Education Secondary 1 syllabus:
 
@@ -549,10 +552,19 @@ Content aligned with Singapore Ministry of Education Secondary 1 syllabus:
   - **Geometry & Measurement** (7): Patterns & Sequences, Coordinates & Linear Graphs, Simple Inequalities, Angles & Basic Geometry, Triangles & Polygons, Perimeter & Area, Volume & Surface Area
   - **Statistics** (1): Statistics & Data Analysis
 
-- **Science**: 19 chapters across 3 disciplines
-  - **Physics** (7): Scientific Methods & Measurement, Physical Properties of Matter, Light & Reflection, Heat & Temperature, Forces and Motion, Electrical Systems, Pressure, Energy
-  - **Chemistry** (4): Particulate Model of Matter, Mixtures & Separation Techniques, Elements/Compounds/Chemical Formulas, Acids & Bases
-  - **Biology** (8): Structure & Functions of Cells, Digestive System, Respiratory System, Circulatory System, Human Reproduction, Classification, Food Chains & Food Webs, Adaptations
+- **Science**: 49 chapters across 3 disciplines and 3 grade levels
+  - **Sec 1** (19 chapters):
+    - Physics (7): Scientific Methods & Measurement, Physical Properties of Matter, Light & Reflection, Heat & Temperature, Forces and Motion, Electrical Systems, Pressure, Energy
+    - Chemistry (4): Particulate Model of Matter, Mixtures & Separation Techniques, Elements/Compounds/Chemical Formulas, Acids & Bases
+    - Biology (8): Structure & Functions of Cells, Digestive System, Respiratory System, Circulatory System, Human Reproduction, Classification, Food Chains & Food Webs, Adaptations
+  - **Sec 2** (15 chapters):
+    - Physics (5): Work/Energy/Power, Moments & Levers, Kinetic Particle Theory, Sound, Magnetism
+    - Chemistry (5): Chemical Changes, Oxidation & Reduction, Rate of Reaction, Reactivity Series, Chemical Bonding
+    - Biology (5): Photosynthesis, Transport in Plants, Respiration, Human Transport System, Coordination & Response
+  - **Sec 3** (15 chapters):
+    - Physics (6): Electromagnetic Spectrum (NEW), Current Electricity, Electromagnetism, Static Electricity, Turning Effects of Forces, Pressure in Fluids
+    - Chemistry (5): Quantitative Chemistry, Salts & Neutralization, Polymers & Recycling (NEW), Atmosphere & Environment, Electrolysis
+    - Biology (4): Reproduction & Cell Division (MERGED), Inheritance & Genetics, Ecology & Human Impact (UPDATED), Biotechnology
 
 **Computing** (Secondary 3 - Skills of Computing syllabus): 6 chapters (90 exercises total, 15 per chapter)
 - **Introduction to Computing**: Computer hardware/software, computing in society, Singapore Smart Nation, careers
@@ -604,20 +616,28 @@ Exercise components in `src/components/exercises/`:
 
 Several Python scripts exist for content generation (in root directory):
 
+**Language Content**:
 - **create-chinese-language-chapters.py**: Creates Chinese language chapters
 - **create-all-language-chapters.py**: Creates English language chapters
 - **integrate-language-subjects.py**: Integrates both English and Chinese subjects into `content.json`
+
+**Subject Content Generation**:
+- **create_sec1_*.py**, **create_sec2_*.py**, **create_sec3_*.py**: Generate chapters for specific grade levels and subjects
+- **create_sec*_exercises.py**: Add exercises to generated chapters
+- **integrate_sec*.py**: Merge generated chapters into `content.json`
 - **generate-content.py**: Generates expanded chapter content from templates
 - **integrate-all-chapters.py**: Merges generated chapters into `content.json`
+
+**Utilities**:
 - **randomize_answers.py**: Randomizes MCQ answer positions across all chapters to ensure even distribution
 - **add_grade_levels.py**: Bulk assigns `gradeLevel` property to chapters
 
 **Important**: All chapter files are stored in `chapters/` directory with naming convention:
-- English: `english-*.json`
-- Chinese: `chinese-*.json`
-- Math: `math-*.json`
-- Science: `science-*.json`
-- Computing: `computing-*.json`
+- English: `english-*.json` or `sec*-english-*.json`
+- Chinese: `chinese-*.json` or `sec*-chinese-*.json`
+- Math: `math-*.json` or `sec*-math-*.json`
+- Science: `science-*.json` or `sec*-science-*.json`
+- Computing: `computing-*.json` or `sec*-computing-*.json`
 
 **Workflow for bulk content additions**:
 1. Create individual chapter JSON files in `chapters/` directory

@@ -1,0 +1,180 @@
+{
+  "id": "ecology-human-impact",
+  "title": "Ecology & Human Impact",
+  "title_zh": "生态学和人类影响",
+  "gradeLevel": "sec3",
+  "tag": "Biology",
+  "tag_zh": "生物",
+  "description": "Understanding ecosystems, conservation and how human actions reduce effects of global warming - UPDATED topic",
+  "description_zh": "理解生态系统、保护以及人类行动如何减少全球变暖的影响 - 更新主题",
+  "objectives": [
+    "Understand energy flow in ecosystems",
+    "Explain nutrient cycles and their importance",
+    "Discuss human impact on the environment",
+    "Discuss how human actions can reduce effects of global warming"
+  ],
+  "objectives_zh": [
+    "理解生态系统中的能量流动",
+    "解释营养循环及其重要性",
+    "讨论人类对环境的影响",
+    "讨论人类行动如何减少全球变暖的影响"
+  ],
+  "sections": [],
+  "exercises": [
+    {
+      "id": "ecology-hu-ex1",
+      "type": "mcq",
+      "prompt": "Question 1 about Ecology & Human Impact",
+      "prompt_zh": "关于Ecology & Human Impact的问题1",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "hint": "Think about the key concepts in Ecology & Human Impact.",
+      "hint_zh": "想想Ecology & Human Impact中的关键概念。"
+    },
+    {
+      "id": "ecology-hu-ex2",
+      "type": "short",
+      "prompt": "Question 2 about Ecology & Human Impact",
+      "prompt_zh": "关于Ecology & Human Impact的问题2",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Ecology & Human Impact.",
+      "hint_zh": "想想Ecology & Human Impact中的关键概念。"
+    },
+    {
+      "id": "ecology-hu-ex3",
+      "type": "short",
+      "prompt": "Question 3 about Ecology & Human Impact",
+      "prompt_zh": "关于Ecology & Human Impact的问题3",
+      "answer": 0,
+      "hint": "Think about the key concepts in Ecology & Human Impact.",
+      "hint_zh": "想想Ecology & Human Impact中的关键概念。"
+    },
+    {
+      "id": "ecology-hu-ex4",
+      "type": "short",
+      "prompt": "Question 4 about Ecology & Human Impact",
+      "prompt_zh": "关于Ecology & Human Impact的问题4",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Ecology & Human Impact.",
+      "hint_zh": "想想Ecology & Human Impact中的关键概念。"
+    },
+    {
+      "id": "ecology-hu-ex5",
+      "type": "short",
+      "prompt": "Question 5 about Ecology & Human Impact",
+      "prompt_zh": "关于Ecology & Human Impact的问题5",
+      "answer": 3,
+      "hint": "Think about the key concepts in Ecology & Human Impact.",
+      "hint_zh": "想想Ecology & Human Impact中的关键概念。"
+    },
+    {
+      "id": "ecology-hu-ex6",
+      "type": "short",
+      "prompt": "Question 6 about Ecology & Human Impact",
+      "prompt_zh": "关于Ecology & Human Impact的问题6",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Ecology & Human Impact.",
+      "hint_zh": "想想Ecology & Human Impact中的关键概念。"
+    },
+    {
+      "id": "ecology-hu-ex7",
+      "type": "mcq",
+      "prompt": "Question 7 about Ecology & Human Impact",
+      "prompt_zh": "关于Ecology & Human Impact的问题7",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "hint": "Think about the key concepts in Ecology & Human Impact.",
+      "hint_zh": "想想Ecology & Human Impact中的关键概念。"
+    },
+    {
+      "id": "ecology-hu-ex8",
+      "type": "short",
+      "prompt": "Question 8 about Ecology & Human Impact",
+      "prompt_zh": "关于Ecology & Human Impact的问题8",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Ecology & Human Impact.",
+      "hint_zh": "想想Ecology & Human Impact中的关键概念。"
+    },
+    {
+      "id": "ecology-hu-ex9",
+      "type": "short",
+      "prompt": "Question 9 about Ecology & Human Impact",
+      "prompt_zh": "关于Ecology & Human Impact的问题9",
+      "answer": 0,
+      "hint": "Think about the key concepts in Ecology & Human Impact.",
+      "hint_zh": "想想Ecology & Human Impact中的关键概念。"
+    },
+    {
+      "id": "ecology-hu-ex10",
+      "type": "mcq",
+      "prompt": "Question 10 about Ecology & Human Impact",
+      "prompt_zh": "关于Ecology & Human Impact的问题10",
+      "choices": null,
+      "answer": "answer",
+      "hint": "Think about the key concepts in Ecology & Human Impact.",
+      "hint_zh": "想想Ecology & Human Impact中的关键概念。"
+    },
+    {
+      "id": "ecology-hu-ex11",
+      "type": "short",
+      "prompt": "Question 11 about Ecology & Human Impact",
+      "prompt_zh": "关于Ecology & Human Impact的问题11",
+      "answer": 3,
+      "hint": "Think about the key concepts in Ecology & Human Impact.",
+      "hint_zh": "想想Ecology & Human Impact中的关键概念。"
+    },
+    {
+      "id": "ecology-hu-ex12",
+      "type": "mcq",
+      "prompt": "Question 12 about Ecology & Human Impact",
+      "prompt_zh": "关于Ecology & Human Impact的问题12",
+      "choices": null,
+      "answer": "answer",
+      "hint": "Think about the key concepts in Ecology & Human Impact.",
+      "hint_zh": "想想Ecology & Human Impact中的关键概念。"
+    },
+    {
+      "id": "ecology-hu-ex13",
+      "type": "short",
+      "prompt": "Question 13 about Ecology & Human Impact",
+      "prompt_zh": "关于Ecology & Human Impact的问题13",
+      "answer": 3,
+      "hint": "Think about the key concepts in Ecology & Human Impact.",
+      "hint_zh": "想想Ecology & Human Impact中的关键概念。"
+    },
+    {
+      "id": "ecology-hu-ex14",
+      "type": "short",
+      "prompt": "Question 14 about Ecology & Human Impact",
+      "prompt_zh": "关于Ecology & Human Impact的问题14",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Ecology & Human Impact.",
+      "hint_zh": "想想Ecology & Human Impact中的关键概念。"
+    },
+    {
+      "id": "ecology-hu-ex15",
+      "type": "mcq",
+      "prompt": "Question 15 about Ecology & Human Impact",
+      "prompt_zh": "关于Ecology & Human Impact的问题15",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 3,
+      "hint": "Think about the key concepts in Ecology & Human Impact.",
+      "hint_zh": "想想Ecology & Human Impact中的关键概念。"
+    }
+  ]
+}

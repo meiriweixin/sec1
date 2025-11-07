@@ -1,0 +1,381 @@
+import json
+from datetime import datetime
+
+# Secondary 3 Mathematics chapters following Singapore MOE syllabus
+sec3_math_chapters = [
+    {
+        "id": "quadratic-functions-graphs-sec3",
+        "gradeLevel": "sec3",
+        "title": "Quadratic Functions & Graphs",
+        "title_zh": "二次函数与图形",
+        "description": "Master quadratic functions, their graphs, and applications including maximum/minimum problems",
+        "description_zh": "掌握二次函数、图形及其应用，包括最大/最小值问题",
+        "tag": "Algebra",
+        "tag_zh": "代数",
+        "objectives": [
+            "Graph quadratic functions and identify key features (vertex, axis of symmetry, y-intercept)",
+            "Solve quadratic equations by factorization, completing the square, and formula",
+            "Apply quadratic functions to real-world maximum/minimum problems",
+            "Understand the relationship between algebraic and graphical representations"
+        ],
+        "objectives_zh": [
+            "绘制二次函数图形并识别关键特征（顶点、对称轴、y截距）",
+            "用因式分解、配方法和公式求解二次方程",
+            "应用二次函数解决实际最大/最小值问题",
+            "理解代数表示与图形表示之间的关系"
+        ],
+        "sections": [
+            {
+                "id": "quadratic-function-basics",
+                "title": "Quadratic Function Basics",
+                "title_zh": "二次函数基础",
+                "type": "text",
+                "content": "A quadratic function has the form: y = ax² + bx + c, where a ≠ 0\n\nKey features:\n- Parabola shape: Opens upward if a > 0, downward if a < 0\n- Vertex: The turning point (maximum or minimum)\n- Axis of symmetry: x = -b/(2a)\n- y-intercept: The point where x = 0, which is (0, c)\n\nExample: y = x² - 4x + 3\n- Opens upward (a = 1 > 0)\n- Axis of symmetry: x = -(-4)/(2×1) = 2\n- Vertex at x = 2: y = 4 - 8 + 3 = -1, so vertex is (2, -1)\n- y-intercept: (0, 3)"
+            },
+            {
+                "id": "solving-quadratic-equations",
+                "title": "Solving Quadratic Equations",
+                "title_zh": "求解二次方程",
+                "type": "text",
+                "content": "Three methods to solve ax² + bx + c = 0:\n\n1. Factorization:\nx² - 5x + 6 = 0\n(x - 2)(x - 3) = 0\nx = 2 or x = 3\n\n2. Completing the Square:\nx² + 6x + 5 = 0\nx² + 6x = -5\nx² + 6x + 9 = -5 + 9\n(x + 3)² = 4\nx + 3 = ±2\nx = -1 or x = -5\n\n3. Quadratic Formula:\nx = [-b ± √(b² - 4ac)] / (2a)\n\nDiscriminant (b² - 4ac) tells us:\n- If > 0: Two real solutions\n- If = 0: One repeated solution\n- If < 0: No real solutions"
+            },
+            {
+                "id": "max-min-problems",
+                "title": "Maximum/Minimum Problems",
+                "title_zh": "最大/最小值问题",
+                "type": "text",
+                "content": "Quadratic functions are used to solve optimization problems.\n\nExample: A farmer has 100m of fencing to enclose a rectangular plot against a wall. Find dimensions for maximum area.\n\nLet width = x meters\nLength = 100 - 2x meters (only 3 sides need fencing)\nArea A = x(100 - 2x) = 100x - 2x²\nA = -2x² + 100x\n\nVertex at x = -100/(2×-2) = 25\nMaximum area when x = 25m, length = 50m\nMaximum area = 25 × 50 = 1250 m²\n\nSingapore context: A hawker wants to use 60m of divider to create the largest rectangular stall space."
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "id": "algebraic-fractions-sec3",
+        "gradeLevel": "sec3",
+        "title": "Algebraic Fractions",
+        "title_zh": "代数分式",
+        "description": "Simplify, add, subtract, multiply, and divide algebraic fractions and solve equations involving fractions",
+        "description_zh": "化简、加减乘除代数分式，求解含分式的方程",
+        "tag": "Algebra",
+        "tag_zh": "代数",
+        "objectives": [
+            "Simplify algebraic fractions by factorization",
+            "Add and subtract algebraic fractions with different denominators",
+            "Multiply and divide algebraic fractions",
+            "Solve equations involving algebraic fractions"
+        ],
+        "objectives_zh": [
+            "用因式分解化简代数分式",
+            "加减不同分母的代数分式",
+            "乘除代数分式",
+            "求解含代数分式的方程"
+        ],
+        "sections": [
+            {
+                "id": "simplifying-fractions",
+                "title": "Simplifying Algebraic Fractions",
+                "title_zh": "化简代数分式",
+                "type": "text",
+                "content": "Simplify by factorizing numerator and denominator:\n\nExample 1:\n(x² - 9) / (x² + 6x + 9)\n= (x + 3)(x - 3) / (x + 3)²\n= (x - 3) / (x + 3)\n\nExample 2:\n(2x² + 5x - 3) / (2x² - x - 1)\n= (2x - 1)(x + 3) / (2x + 1)(x - 1)\n\nKey: Always factorize first, then cancel common factors.\nNote: State restrictions (values that make denominator zero)."
+            },
+            {
+                "id": "operations-fractions",
+                "title": "Operations with Algebraic Fractions",
+                "title_zh": "代数分式运算",
+                "type": "text",
+                "content": "Addition/Subtraction: Find LCD (Lowest Common Denominator)\n\n2/x + 3/(x+1)\n= [2(x+1) + 3x] / [x(x+1)]\n= (2x + 2 + 3x) / [x(x+1)]\n= (5x + 2) / [x(x+1)]\n\nMultiplication: Multiply numerators and denominators\n(x² - 4)/(x + 3) × (x + 3)/(x + 2)\n= [(x-2)(x+2)]/(x+3) × (x+3)/(x+2)\n= (x - 2)/1 = x - 2\n\nDivision: Multiply by reciprocal\n(x + 1)/(x - 1) ÷ (x² - 1)/(x)\n= (x + 1)/(x - 1) × x/(x² - 1)\n= (x + 1)/(x - 1) × x/[(x+1)(x-1)]\n= x/(x - 1)²"
+            },
+            {
+                "id": "equations-fractions",
+                "title": "Equations with Fractions",
+                "title_zh": "含分式的方程",
+                "type": "text",
+                "content": "To solve equations with algebraic fractions:\n1. Find LCD\n2. Multiply both sides by LCD to eliminate fractions\n3. Solve resulting equation\n4. Check solutions (reject values that make denominator zero)\n\nExample:\n3/x + 2/(x-1) = 5\n\nLCD = x(x - 1)\nMultiply: 3(x-1) + 2x = 5x(x-1)\n3x - 3 + 2x = 5x² - 5x\n5x - 3 = 5x² - 5x\n0 = 5x² - 10x + 3\n\nUse quadratic formula to solve."
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "id": "coordinate-geometry-sec3",
+        "gradeLevel": "sec3",
+        "title": "Coordinate Geometry",
+        "title_zh": "坐标几何",
+        "description": "Study gradients, equations of straight lines, parallel and perpendicular lines, and applications",
+        "description_zh": "学习斜率、直线方程、平行线和垂直线及其应用",
+        "tag": "Geometry",
+        "tag_zh": "几何",
+        "objectives": [
+            "Calculate gradient of a line given two points",
+            "Find equations of lines in various forms (y = mx + c, ax + by = c)",
+            "Identify parallel and perpendicular lines using gradients",
+            "Solve problems involving coordinate geometry in real contexts"
+        ],
+        "objectives_zh": [
+            "计算给定两点的直线斜率",
+            "求不同形式的直线方程（y = mx + c, ax + by = c）",
+            "用斜率识别平行线和垂直线",
+            "解决实际情境中的坐标几何问题"
+        ],
+        "sections": [
+            {
+                "id": "gradient-basics",
+                "title": "Gradient and Equations of Lines",
+                "title_zh": "斜率与直线方程",
+                "type": "text",
+                "content": "Gradient (slope) m = (y₂ - y₁)/(x₂ - x₁)\n\nEquation of a line:\n1. Gradient-intercept form: y = mx + c\n   - m is gradient\n   - c is y-intercept\n\n2. Point-slope form:\n   Given point (x₁, y₁) and gradient m:\n   y - y₁ = m(x - x₁)\n\n3. General form: ax + by + c = 0\n\nExample: Find equation of line through (2, 5) and (4, 9)\nm = (9 - 5)/(4 - 2) = 4/2 = 2\nUsing y - y₁ = m(x - x₁):\ny - 5 = 2(x - 2)\ny - 5 = 2x - 4\ny = 2x + 1"
+            },
+            {
+                "id": "parallel-perpendicular",
+                "title": "Parallel & Perpendicular Lines",
+                "title_zh": "平行线与垂直线",
+                "type": "text",
+                "content": "Parallel Lines: Same gradient\nIf line 1 has gradient m₁ and line 2 has gradient m₂,\nParallel if m₁ = m₂\n\nExample: y = 3x + 2 and y = 3x - 5 are parallel (both have m = 3)\n\nPerpendicular Lines: Product of gradients = -1\nIf perpendicular, m₁ × m₂ = -1\nOr m₂ = -1/m₁\n\nExample: y = 2x + 1 and y = -½x + 3 are perpendicular\n(2 × -½ = -1)\n\nSingapore context: Two MRT lines cross at right angles. If one line has equation y = 3x + 5, find the equation of the perpendicular line passing through (6, 2)."
+            },
+            {
+                "id": "applications-coordinate",
+                "title": "Applications",
+                "title_zh": "应用",
+                "type": "text",
+                "content": "Real-world applications:\n\n1. Distance problems: Find if point lies on a line\n2. Area of triangles using coordinates\n3. Midpoint and section formulas\n4. Singapore contexts:\n   - Planning roads at right angles\n   - Calculating land area on coordinate grid\n   - GPS coordinates and navigation\n\nExample: A park has corners at A(0,0), B(8,0), C(8,6), D(0,6).\nFind:\na) Area of park = length × width = 8 × 6 = 48 units²\nb) Equation of diagonal AC: passes through (0,0) and (8,6)\n   m = 6/8 = 3/4\n   y = (3/4)x"
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "id": "similar-congruent-triangles-sec3",
+        "gradeLevel": "sec3",
+        "title": "Similar & Congruent Triangles",
+        "title_zh": "相似三角形与全等三角形",
+        "description": "Prove congruence and similarity of triangles, solve problems using these properties",
+        "description_zh": "证明三角形全等和相似，运用这些性质解题",
+        "tag": "Geometry",
+        "tag_zh": "几何",
+        "objectives": [
+            "Prove triangle congruence using SSS, SAS, ASA, AAS criteria",
+            "Prove triangle similarity using AA, SAS, SSS criteria",
+            "Apply properties of similar triangles to solve problems",
+            "Use congruence and similarity in geometric proofs"
+        ],
+        "objectives_zh": [
+            "用SSS、SAS、ASA、AAS准则证明三角形全等",
+            "用AA、SAS、SSS准则证明三角形相似",
+            "应用相似三角形性质解题",
+            "在几何证明中运用全等和相似"
+        ],
+        "sections": [
+            {
+                "id": "congruence-criteria",
+                "title": "Congruent Triangles",
+                "title_zh": "全等三角形",
+                "type": "text",
+                "content": "Two triangles are congruent if they have the same shape and size.\n\nCongruence Criteria:\n1. SSS: Three sides equal\n2. SAS: Two sides and included angle equal\n3. ASA: Two angles and included side equal\n4. AAS: Two angles and one side equal\n5. RHS: Right angle, hypotenuse, and one side equal\n\nNotation: △ABC ≅ △DEF means triangle ABC is congruent to triangle DEF\n\nCorresponding parts:\n- AB = DE, BC = EF, AC = DF\n- ∠A = ∠D, ∠B = ∠E, ∠C = ∠F\n\nProof structure:\n1. State what to prove\n2. Identify congruent parts\n3. State which criterion (SSS, SAS, etc.)\n4. Conclude triangles are congruent"
+            },
+            {
+                "id": "similarity-criteria",
+                "title": "Similar Triangles",
+                "title_zh": "相似三角形",
+                "type": "text",
+                "content": "Two triangles are similar if they have the same shape (not necessarily same size).\n\nSimilarity Criteria:\n1. AA (Angle-Angle): Two angles equal\n2. SAS: Two sides proportional and included angle equal\n3. SSS: Three sides proportional\n\nNotation: △ABC ~ △DEF means triangle ABC is similar to triangle DEF\n\nProperties:\n- Corresponding angles are equal\n- Corresponding sides are proportional: AB/DE = BC/EF = AC/DF = k (scale factor)\n\nExample: If △ABC ~ △DEF with scale factor 2:\n- If AB = 6cm, then DE = 3cm\n- If area of △ABC = 20cm², then area of △DEF = 20/4 = 5cm²\n  (Area ratio = k²)"
+            },
+            {
+                "id": "applications-similarity",
+                "title": "Applications of Similarity",
+                "title_zh": "相似的应用",
+                "type": "text",
+                "content": "Applications:\n\n1. Finding heights indirectly:\nA tree casts a 15m shadow when a 2m pole casts a 3m shadow.\nTree height: 2/3 = h/15, so h = 10m\n\n2. Map scales:\nOn a map with scale 1:50000, two buildings are 8cm apart.\nActual distance = 8 × 50000 = 400000cm = 4km\n\n3. Singapore context:\nMarina Bay Sands has three 55-storey towers. A scale model uses ratio 1:500.\nIf actual tower is 200m tall, model height = 200/500 = 0.4m = 40cm\n\n4. Enlargement problems:\nA photo is enlarged from 10cm × 15cm to 20cm × 30cm.\nScale factor = 2\nOriginal area = 150cm², New area = 150 × 4 = 600cm²"
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "id": "trigonometry-sec3",
+        "gradeLevel": "sec3",
+        "title": "Trigonometry",
+        "title_zh": "三角学",
+        "description": "Learn sine, cosine, tangent ratios and apply to solve problems in right-angled triangles",
+        "description_zh": "学习正弦、余弦、正切比，应用于求解直角三角形问题",
+        "tag": "Geometry",
+        "tag_zh": "几何",
+        "objectives": [
+            "Define and use sine, cosine, and tangent ratios",
+            "Solve problems involving angles of elevation and depression",
+            "Apply trigonometry to real-world problems (heights, distances)",
+            "Use calculator to find trigonometric values and angles"
+        ],
+        "objectives_zh": [
+            "定义和使用正弦、余弦、正切比",
+            "解决涉及仰角和俯角的问题",
+            "应用三角学于实际问题（高度、距离）",
+            "用计算器求三角函数值和角度"
+        ],
+        "sections": [
+            {
+                "id": "trig-ratios",
+                "title": "Trigonometric Ratios",
+                "title_zh": "三角比",
+                "type": "text",
+                "content": "In a right-angled triangle with angle θ:\n\nSOH-CAH-TOA:\n- sin θ = Opposite / Hypotenuse\n- cos θ = Adjacent / Hypotenuse\n- tan θ = Opposite / Adjacent\n\nExample: Right triangle with hypotenuse 10cm, opposite 6cm, adjacent 8cm\nsin θ = 6/10 = 0.6\ncos θ = 8/10 = 0.8\ntan θ = 6/8 = 0.75\n\nSpecial angles (to memorize):\nθ     30°   45°   60°\nsin   1/2   √2/2  √3/2\ncos   √3/2  √2/2  1/2\ntan   √3/3  1     √3\n\nUsing calculator:\nFind sin 35° ≈ 0.574\nFind angle: if sin θ = 0.5, then θ = sin⁻¹(0.5) = 30°"
+            },
+            {
+                "id": "elevation-depression",
+                "title": "Angles of Elevation & Depression",
+                "title_zh": "仰角与俯角",
+                "type": "text",
+                "content": "Angle of Elevation: Looking UP from horizontal\nAngle of Depression: Looking DOWN from horizontal\n\nBoth measured from horizontal line.\n\nExample: From a point 50m from the base of a building, the angle of elevation to the top is 40°.\nFind building height.\n\ntan 40° = h/50\nh = 50 × tan 40°\nh ≈ 50 × 0.839\nh ≈ 42m\n\nSingapore example: From the top of Marina Bay Sands (200m), the angle of depression to a boat is 25°. Find distance from building to boat.\n\ntan 25° = 200/d\nd = 200/tan 25°\nd ≈ 200/0.466\nd ≈ 429m"
+            },
+            {
+                "id": "applications-trigonometry",
+                "title": "Applications of Trigonometry",
+                "title_zh": "三角学应用",
+                "type": "text",
+                "content": "Real-world applications:\n\n1. Finding heights of buildings/trees\n2. Navigation and bearings\n3. Construction and engineering\n4. Surveying land\n\nSingapore contexts:\n\n1. HDB blocks: From 80m away, angle of elevation to top floor is 35°. Find block height.\n   h = 80 × tan 35° ≈ 56m\n\n2. Cable car: Singapore Cable Car travels at 15° angle. If horizontal distance is 1000m, find height difference.\n   h = 1000 × tan 15° ≈ 268m\n\n3. Esplanade roof: The curved roof creates a 20° angle. If base width is 120m, find maximum height at center.\n   h = 60 × tan 20° ≈ 22m\n\n4. Bearing problems: A ship sails 50km on bearing 060°, then 30km on bearing 150°. Find final distance from start."
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "id": "mensuration-3d-sec3",
+        "gradeLevel": "sec3",
+        "title": "Mensuration: 3D Shapes",
+        "title_zh": "立体图形的测量",
+        "description": "Calculate volumes and surface areas of prisms, cylinders, pyramids, cones, and spheres",
+        "description_zh": "计算棱柱、圆柱、棱锥、圆锥和球体的体积和表面积",
+        "tag": "Geometry",
+        "tag_zh": "几何",
+        "objectives": [
+            "Calculate volumes and surface areas of prisms and cylinders",
+            "Calculate volumes and surface areas of pyramids, cones, and spheres",
+            "Solve problems involving composite 3D shapes",
+            "Apply mensuration to real-world problems"
+        ],
+        "objectives_zh": [
+            "计算棱柱和圆柱的体积和表面积",
+            "计算棱锥、圆锥和球体的体积和表面积",
+            "解决涉及复合立体图形的问题",
+            "应用测量于实际问题"
+        ],
+        "sections": [
+            {
+                "id": "prisms-cylinders",
+                "title": "Prisms & Cylinders",
+                "title_zh": "棱柱与圆柱",
+                "type": "text",
+                "content": "Prism: Volume = Base Area × Height\nSurface Area = 2 × Base Area + Perimeter × Height\n\nCylinder (circular prism):\nVolume = πr²h\nCurved Surface Area = 2πrh\nTotal Surface Area = 2πr² + 2πrh = 2πr(r + h)\n\nExample: Water tank (cylinder) radius 2m, height 5m\nVolume = π(2)²(5) = 20π ≈ 62.8 m³\nIf 1 m³ = 1000 liters, tank holds 62,800 liters\n\nTriangular Prism:\nBase area = ½ × base × height\nVolume = (½ × base × height) × length\n\nSingapore context: A rectangular HDB water tank is 3m × 2m × 1.5m. Volume = 3 × 2 × 1.5 = 9m³ = 9000 liters."
+            },
+            {
+                "id": "pyramids-cones",
+                "title": "Pyramids, Cones & Spheres",
+                "title_zh": "棱锥、圆锥与球体",
+                "type": "text",
+                "content": "Pyramid: Volume = ⅓ × Base Area × Height\n\nCone:\nVolume = ⅓πr²h\nCurved Surface Area = πrl (where l = slant height)\nTotal Surface Area = πr² + πrl = πr(r + l)\n\nSphere:\nVolume = ⅔πr³\nSurface Area = 4πr²\n\nRelationships:\n- Cone volume = ⅓ cylinder volume (same base and height)\n- Pyramid volume = ⅓ prism volume (same base and height)\n\nExample: Ice cream cone, radius 3cm, height 10cm\nVolume = ⅓π(3)²(10) = 30π ≈ 94.2 cm³\n\nExample: Basketball radius 12cm\nVolume = ⅔π(12)³ ≈ 7238 cm³\nSurface Area = 4π(12)² ≈ 1810 cm²"
+            },
+            {
+                "id": "composite-shapes",
+                "title": "Composite 3D Shapes",
+                "title_zh": "复合立体图形",
+                "type": "text",
+                "content": "For composite shapes:\n1. Break down into simpler shapes\n2. Calculate volume/surface area of each part\n3. Add or subtract as needed\n\nExample: A silo consists of a cylinder (radius 5m, height 12m) topped with a hemisphere (radius 5m).\n\nVolume:\nCylinder = πr²h = π(5)²(12) = 300π m³\nHemisphere = ½ × ⅔πr³ = ⅓π(5)³ = 125π/3 m³\nTotal = 300π + 125π/3 = (900π + 125π)/3 = 1025π/3 ≈ 1072 m³\n\nSingapore contexts:\n- Esplanade theatres (spherical sections)\n- Marina Bay Sands rooftop pool (rectangular prism)\n- Cone-shaped traffic cones\n- Spherical water storage tanks\n\nPractical: A cylindrical water tank (r=3m, h=8m) costs $150 per m³. Total cost = π(3)²(8) × 150 ≈ $33,929"
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "id": "probability-sec3",
+        "gradeLevel": "sec3",
+        "title": "Probability",
+        "title_zh": "概率",
+        "description": "Calculate probabilities of single and combined events, use tree diagrams and Venn diagrams",
+        "description_zh": "计算单一和组合事件的概率，使用树状图和维恩图",
+        "tag": "Statistics",
+        "tag_zh": "统计",
+        "objectives": [
+            "Calculate probability of single events and combined events",
+            "Use tree diagrams to find probabilities of successive events",
+            "Apply addition and multiplication rules for probability",
+            "Solve real-world probability problems"
+        ],
+        "objectives_zh": [
+            "计算单一事件和组合事件的概率",
+            "用树状图求连续事件的概率",
+            "应用概率的加法和乘法规则",
+            "解决实际概率问题"
+        ],
+        "sections": [
+            {
+                "id": "basic-probability",
+                "title": "Basic Probability",
+                "title_zh": "基本概率",
+                "type": "text",
+                "content": "Probability = Number of favorable outcomes / Total number of possible outcomes\n\nP(A) = n(A) / n(S), where S is sample space\n\nProperties:\n- 0 ≤ P(A) ≤ 1\n- P(certain event) = 1\n- P(impossible event) = 0\n- P(not A) = 1 - P(A)\n\nExample: Rolling a die\nP(getting 4) = 1/6\nP(even number) = 3/6 = 1/2\nP(number > 4) = 2/6 = 1/3\nP(not getting 6) = 5/6\n\nSingapore context: In a class of 40 students, 15 take Chinese, 12 take Malay, 8 take Tamil, 5 take French.\nP(randomly selected student takes Chinese) = 15/40 = 3/8"
+            },
+            {
+                "id": "combined-events",
+                "title": "Combined Events & Rules",
+                "title_zh": "组合事件与规则",
+                "type": "text",
+                "content": "Addition Rule (OR):\nP(A or B) = P(A) + P(B) - P(A and B)\nIf mutually exclusive: P(A or B) = P(A) + P(B)\n\nMultiplication Rule (AND):\nIndependent events: P(A and B) = P(A) × P(B)\n\nExample: Drawing cards\nP(King or Queen) = 4/52 + 4/52 = 8/52 = 2/13 (mutually exclusive)\nP(Heart or King) = 13/52 + 4/52 - 1/52 = 16/52 = 4/13 (not mutually exclusive)\n\nExample: Tossing two coins\nP(both heads) = 1/2 × 1/2 = 1/4 (independent)\n\nWith replacement: Events are independent\nWithout replacement: Events are dependent\n\nExample: Bag with 5 red, 3 blue balls\nWith replacement: P(2 red) = 5/8 × 5/8 = 25/64\nWithout replacement: P(2 red) = 5/8 × 4/7 = 20/56 = 5/14"
+            },
+            {
+                "id": "tree-diagrams",
+                "title": "Tree Diagrams",
+                "title_zh": "树状图",
+                "type": "text",
+                "content": "Tree diagrams show all possible outcomes for successive events.\n\nSteps:\n1. Draw branches for first event with probabilities\n2. From each outcome, draw branches for second event\n3. Multiply along branches for combined probability\n4. Add probabilities for different paths to same outcome\n\nExample: Two-child family (B=Boy, G=Girl)\nFirst child: P(B)=1/2, P(G)=1/2\nSecond child: P(B)=1/2, P(G)=1/2\n\nPossible outcomes: BB, BG, GB, GG (each 1/4)\nP(exactly 1 boy) = P(BG) + P(GB) = 1/4 + 1/4 = 1/2\nP(at least 1 boy) = P(BB) + P(BG) + P(GB) = 3/4\n\nSingapore context: MRT train on time 85% of time. Taking train 2 days.\nP(on time both days) = 0.85 × 0.85 = 0.7225 = 72.25%\nP(late at least once) = 1 - 0.7225 = 0.2775 = 27.75%"
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "id": "data-analysis-sec3",
+        "gradeLevel": "sec3",
+        "title": "Statistical Data Analysis",
+        "title_zh": "统计数据分析",
+        "description": "Analyze data using mean, median, mode, range, standard deviation, and interpret statistical graphs",
+        "description_zh": "用平均数、中位数、众数、极差、标准差分析数据，解读统计图表",
+        "tag": "Statistics",
+        "tag_zh": "统计",
+        "objectives": [
+            "Calculate and interpret mean, median, mode, and range",
+            "Understand and calculate standard deviation as measure of spread",
+            "Create and interpret box plots and histograms",
+            "Compare data sets using statistical measures"
+        ],
+        "objectives_zh": [
+            "计算和解释平均数、中位数、众数和极差",
+            "理解和计算标准差作为离散度的度量",
+            "绘制和解读箱形图和直方图",
+            "用统计量比较数据集"
+        ],
+        "sections": [
+            {
+                "id": "measures-central-tendency",
+                "title": "Measures of Central Tendency",
+                "title_zh": "集中趋势的度量",
+                "type": "text",
+                "content": "Mean (Average): Sum of all values / Number of values\n\nMedian: Middle value when data is ordered\n- If n is odd: median is middle value\n- If n is even: median is average of two middle values\n\nMode: Most frequently occurring value\n\nRange: Highest value - Lowest value\n\nExample: Test scores: 56, 78, 89, 67, 78, 92, 45, 78, 88\n\nOrdered: 45, 56, 67, 78, 78, 78, 88, 89, 92\nMean = (45+56+67+78+78+78+88+89+92)/9 = 671/9 ≈ 74.6\nMedian = 78 (5th value)\nMode = 78 (appears 3 times)\nRange = 92 - 45 = 47\n\nWhen to use:\n- Mean: Normal distribution, no extreme outliers\n- Median: Skewed data or with outliers\n- Mode: Categorical data or most popular item"
+            },
+            {
+                "id": "standard-deviation",
+                "title": "Standard Deviation",
+                "title_zh": "标准差",
+                "type": "text",
+                "content": "Standard deviation measures how spread out data is from the mean.\n\nSmall SD: Data clustered near mean\nLarge SD: Data spread out\n\nCalculation steps:\n1. Find mean (x̄)\n2. Find each deviation from mean: (x - x̄)\n3. Square each deviation: (x - x̄)²\n4. Find mean of squared deviations: Σ(x - x̄)²/n\n5. Take square root: SD = √[Σ(x - x̄)²/n]\n\nExample: Test scores 70, 75, 80, 85, 90\nMean = 80\nDeviations: -10, -5, 0, 5, 10\nSquared: 100, 25, 0, 25, 100\nSum = 250\nVariance = 250/5 = 50\nSD = √50 ≈ 7.07\n\nInterpretation:\nClass A: Mean 75, SD 5 (consistent performance)\nClass B: Mean 75, SD 15 (variable performance)"
+            },
+            {
+                "id": "graphical-representation",
+                "title": "Box Plots & Histograms",
+                "title_zh": "箱形图与直方图",
+                "type": "text",
+                "content": "Box Plot (Box-and-Whisker):\nShows: Minimum, Q1, Median (Q2), Q3, Maximum\n\nQuartiles divide data into 4 equal parts:\n- Q1: 25th percentile\n- Q2: 50th percentile (median)\n- Q3: 75th percentile\n- IQR (Interquartile Range) = Q3 - Q1\n\nOutliers: Values beyond 1.5×IQR from Q1 or Q3\n\nHistogram:\n- Bar graph for continuous data\n- X-axis: Class intervals\n- Y-axis: Frequency or frequency density\n- No gaps between bars\n- Area represents frequency\n\nSingapore context:\nPSLE scores box plot shows:\n- Minimum: 150\n- Q1: 220\n- Median: 250\n- Q3: 270\n- Maximum: 290\nIQR = 270 - 220 = 50\nMost students score between 220-270"
+            }
+        ],
+        "exercises": []
+    }
+]
+
+# Save to JSON file
+with open('chapters/sec3-math-chapters.json', 'w', encoding='utf-8') as f:
+    json.dump(sec3_math_chapters, f, ensure_ascii=False, indent=2)
+
+print(f"Created {len(sec3_math_chapters)} Secondary 3 Mathematics chapters")
+print("Chapters:", [ch['title'] for ch in sec3_math_chapters])

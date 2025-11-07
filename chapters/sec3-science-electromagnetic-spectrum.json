@@ -1,0 +1,271 @@
+{
+  "id": "electromagnetic-spectrum",
+  "title": "Electromagnetic Spectrum",
+  "title_zh": "电磁波谱",
+  "gradeLevel": "sec3",
+  "tag": "Physics",
+  "tag_zh": "物理",
+  "description": "Understanding the electromagnetic spectrum and its applications in modern technology",
+  "description_zh": "了解电磁波谱及其在现代科技中的应用",
+  "objectives": [
+    "Understand the electromagnetic spectrum and its components",
+    "Describe how radio waves are used in astronomy and RFID tags",
+    "Explain how infrared is used in thermal imaging",
+    "Discuss beneficial and harmful effects of EM radiation"
+  ],
+  "objectives_zh": [
+    "理解电磁波谱及其组成部分",
+    "描述无线电波在天文学和RFID标签中的应用",
+    "解释红外线在热成像中的应用",
+    "讨论电磁辐射的有益和有害影响"
+  ],
+  "sections": [
+    {
+      "id": "em-spectrum-intro",
+      "type": "text",
+      "title": "What is the Electromagnetic Spectrum?",
+      "title_zh": "什么是电磁波谱？",
+      "content": "The electromagnetic (EM) spectrum is a continuous range of electromagnetic waves arranged according to their wavelength and frequency. All EM waves travel at the speed of light (3 × 10⁸ m/s) in a vacuum.\n\nThe spectrum includes (from longest wavelength to shortest):\n• Radio waves - longest wavelength, lowest frequency\n• Microwaves\n• Infrared radiation\n• Visible light (ROYGBIV)\n• Ultraviolet radiation\n• X-rays\n• Gamma rays - shortest wavelength, highest frequency\n\nKey relationship: As wavelength decreases, frequency and energy increase.",
+      "content_zh": "电磁波谱是根据波长和频率排列的连续电磁波范围。所有电磁波在真空中以光速（3×10⁸米/秒）传播。\n\n波谱包括（从最长波长到最短）：\n• 无线电波 - 最长波长，最低频率\n• 微波\n• 红外辐射\n• 可见光（红橙黄绿蓝靛紫）\n• 紫外线辐射\n• X射线\n• 伽马射线 - 最短波长，最高频率\n\n关键关系：波长减小时，频率和能量增加。"
+    },
+    {
+      "id": "radio-waves-applications",
+      "type": "text",
+      "title": "Radio Waves in Astronomy and RFID",
+      "title_zh": "无线电波在天文学和RFID中的应用",
+      "content": "**Radio Astronomy:**\nRadio telescopes detect radio waves emitted by celestial objects like stars, galaxies, and black holes. This allows astronomers to:\n• Study objects invisible to optical telescopes\n• Observe through dust clouds\n• Detect pulsars and quasars\n• Map the structure of galaxies\n\n**RFID (Radio Frequency Identification):**\nRFID tags use radio waves for automatic identification:\n• Used in EZ-Link cards for MRT/bus payments in Singapore\n• Library book tracking systems\n• Inventory management in stores\n• Access control cards\n• Pet microchip identification\n\nRFID tags contain a chip and antenna that respond to radio signals from readers.",
+      "content_zh": "**射电天文学：**\n射电望远镜探测恒星、星系和黑洞等天体发射的无线电波。这使天文学家能够：\n• 研究光学望远镜看不见的天体\n• 透过尘埃云观测\n• 探测脉冲星和类星体\n• 绘制星系结构图\n\n**RFID（射频识别）：**\nRFID标签使用无线电波进行自动识别：\n• 在新加坡的易通卡中用于地铁/巴士支付\n• 图书馆图书跟踪系统\n• 商店库存管理\n• 门禁卡\n• 宠物微芯片识别\n\nRFID标签包含一个芯片和天线，对读取器的无线电信号做出响应。"
+    },
+    {
+      "id": "infrared-thermal-imaging",
+      "type": "text",
+      "title": "Infrared and Thermal Imaging",
+      "title_zh": "红外线和热成像",
+      "content": "**Properties of Infrared (IR) Radiation:**\n• Wavelength longer than visible light but shorter than microwaves\n• All objects emit infrared radiation\n• Hotter objects emit more IR radiation\n• Can be felt as heat\n\n**Thermal Imaging Applications:**\n1. Medical diagnosis - detecting inflammation, blood flow issues\n2. Building inspection - finding heat leaks, insulation problems\n3. Night vision - seeing in darkness (used by military, wildlife researchers)\n4. Airport screening - detecting fever during disease outbreaks (COVID-19)\n5. Electrical inspection - identifying overheating components\n6. Search and rescue - locating people in darkness or smoke\n\n**How Thermal Cameras Work:**\nThey detect infrared radiation emitted by objects and convert it into a visible image, with different colors representing different temperatures.",
+      "content_zh": "**红外线（IR）辐射的性质：**\n• 波长比可见光长但比微波短\n• 所有物体都发射红外辐射\n• 更热的物体发射更多红外辐射\n• 可以感觉到热量\n\n**热成像应用：**\n1. 医学诊断 - 检测炎症、血流问题\n2. 建筑检查 - 发现热量泄漏、绝缘问题\n3. 夜视 - 在黑暗中看东西（军事、野生动物研究人员使用）\n4. 机场筛查 - 在疾病爆发期间检测发烧（COVID-19）\n5. 电气检查 - 识别过热部件\n6. 搜救 - 在黑暗或烟雾中定位人员\n\n**热像仪如何工作：**\n它们检测物体发射的红外辐射并将其转换为可见图像，不同颜色代表不同温度。"
+    },
+    {
+      "id": "em-radiation-effects",
+      "type": "text",
+      "title": "Effects of EM Radiation",
+      "title_zh": "电磁辐射的影响",
+      "content": "**Beneficial Effects:**\n• Radio waves - communication, broadcasting\n• Microwaves - cooking, satellite communication\n• Infrared - heating, thermal imaging, remote controls\n• Visible light - sight, photosynthesis, lighting\n• UV radiation - vitamin D production, sterilization\n• X-rays - medical imaging, security scanning\n• Gamma rays - cancer treatment, sterilizing medical equipment\n\n**Harmful Effects:**\n• UV radiation - skin burns, skin cancer, eye damage\n• X-rays - cell damage, increased cancer risk with overexposure\n• Gamma rays - severe radiation damage, mutations\n\n**Safety Precautions:**\n• Use sunscreen to protect from UV rays\n• Limit X-ray exposure (only when medically necessary)\n• Lead shielding for X-ray and gamma ray protection\n• Follow radiation safety guidelines in hospitals",
+      "content_zh": "**有益影响：**\n• 无线电波 - 通信、广播\n• 微波 - 烹饪、卫星通信\n• 红外线 - 加热、热成像、遥控器\n• 可见光 - 视觉、光合作用、照明\n• 紫外线辐射 - 维生素D生成、消毒\n• X射线 - 医学成像、安全扫描\n• 伽马射线 - 癌症治疗、医疗设备消毒\n\n**有害影响：**\n• 紫外线辐射 - 皮肤灼伤、皮肤癌、眼睛损伤\n• X射线 - 细胞损伤、过度暴露增加癌症风险\n• 伽马射线 - 严重辐射损伤、突变\n\n**安全预防措施：**\n• 使用防晒霜保护免受紫外线\n• 限制X射线暴露（仅在医学必要时）\n• 铅屏蔽保护免受X射线和伽马射线\n• 在医院遵循辐射安全指南"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "em-ex1",
+      "type": "mcq",
+      "prompt": "Which part of the electromagnetic spectrum has the longest wavelength?",
+      "prompt_zh": "电磁波谱的哪个部分具有最长的波长？",
+      "choices": [
+        "Radio waves",
+        "Microwaves",
+        "Infrared",
+        "Gamma rays"
+      ],
+      "answer": 0,
+      "hint": "Think about the order of EM waves from low to high energy.",
+      "hint_zh": "想想电磁波从低能量到高能量的顺序。"
+    },
+    {
+      "id": "em-ex2",
+      "type": "mcq",
+      "prompt": "What is the speed of all electromagnetic waves in a vacuum?",
+      "prompt_zh": "所有电磁波在真空中的速度是多少？",
+      "choices": [
+        "3 × 10⁶ m/s",
+        "3 × 10⁸ m/s",
+        "3 × 10¹⁰ m/s",
+        "Variable speed"
+      ],
+      "answer": 1,
+      "hint": "All EM waves travel at the speed of light.",
+      "hint_zh": "所有电磁波都以光速传播。"
+    },
+    {
+      "id": "em-ex3",
+      "type": "mcq",
+      "prompt": "How are radio waves used in astronomy?",
+      "prompt_zh": "无线电波如何在天文学中使用？",
+      "choices": [
+        "To detect radio signals from celestial objects",
+        "To heat up distant planets",
+        "To communicate with satellites only",
+        "To create artificial stars"
+      ],
+      "answer": 0,
+      "hint": "Radio telescopes detect signals from space.",
+      "hint_zh": "射电望远镜检测来自太空的信号。"
+    },
+    {
+      "id": "em-ex4",
+      "type": "mcq",
+      "prompt": "Which application uses RFID (Radio Frequency Identification) technology in Singapore?",
+      "prompt_zh": "新加坡哪个应用使用RFID（射频识别）技术？",
+      "choices": [
+        "EZ-Link cards for MRT payments",
+        "Solar panels",
+        "Mobile phone cameras",
+        "Air conditioners"
+      ],
+      "answer": 0,
+      "hint": "Think about contactless payment systems.",
+      "hint_zh": "想想非接触支付系统。"
+    },
+    {
+      "id": "em-ex5",
+      "type": "mcq",
+      "prompt": "What property of infrared radiation makes it useful for thermal imaging?",
+      "prompt_zh": "红外辐射的什么性质使其对热成像有用？",
+      "choices": [
+        "All objects emit infrared radiation based on their temperature",
+        "It can pass through all materials",
+        "It has the highest energy",
+        "It is visible to the human eye"
+      ],
+      "answer": 0,
+      "hint": "Hotter objects emit more IR radiation.",
+      "hint_zh": "更热的物体发射更多红外辐射。"
+    },
+    {
+      "id": "em-ex6",
+      "type": "mcq",
+      "prompt": "During COVID-19, thermal scanners at airports detected which type of EM radiation?",
+      "prompt_zh": "在COVID-19期间，机场的热扫描仪检测哪种类型的电磁辐射？",
+      "choices": [
+        "Ultraviolet",
+        "Infrared",
+        "Microwaves",
+        "Radio waves"
+      ],
+      "answer": 1,
+      "hint": "These scanners measure body temperature.",
+      "hint_zh": "这些扫描仪测量体温。"
+    },
+    {
+      "id": "em-ex7",
+      "type": "mcq",
+      "prompt": "As wavelength decreases in the EM spectrum, what happens to frequency and energy?",
+      "prompt_zh": "随着电磁波谱中波长减小，频率和能量会发生什么变化？",
+      "choices": [
+        "Frequency and energy both increase",
+        "Frequency increases but energy decreases",
+        "Frequency and energy both decrease",
+        "Frequency decreases but energy increases"
+      ],
+      "answer": 0,
+      "hint": "Wavelength is inversely proportional to frequency.",
+      "hint_zh": "波长与频率成反比。"
+    },
+    {
+      "id": "em-ex8",
+      "type": "mcq",
+      "prompt": "Why is lead shielding used in X-ray rooms?",
+      "prompt_zh": "为什么X射线室使用铅屏蔽？",
+      "choices": [
+        "Lead absorbs X-rays and protects people from exposure",
+        "Lead makes X-rays stronger",
+        "Lead is cheaper than other materials",
+        "Lead helps X-rays travel faster"
+      ],
+      "answer": 0,
+      "hint": "Lead is dense and blocks radiation.",
+      "hint_zh": "铅密度大，可以阻挡辐射。"
+    },
+    {
+      "id": "em-ex9",
+      "type": "mcq",
+      "prompt": "Which types of EM radiation have high energy and can be harmful to humans?",
+      "prompt_zh": "哪些类型的电磁辐射具有高能量并且对人类有害？",
+      "choices": [
+        "Radio waves",
+        "Visible light",
+        "Ultraviolet and X-rays",
+        "Infrared"
+      ],
+      "answer": 2,
+      "hint": "High energy radiation can damage cells.",
+      "hint_zh": "高能量辐射会损害细胞。"
+    },
+    {
+      "id": "em-ex10",
+      "type": "mcq",
+      "prompt": "What is a beneficial use of UV radiation?",
+      "prompt_zh": "紫外线辐射的有益用途是什么？",
+      "choices": [
+        "Cooking food",
+        "Sterilization of medical equipment",
+        "Charging phones",
+        "Lighting homes"
+      ],
+      "answer": 1,
+      "hint": "UV kills bacteria and viruses.",
+      "hint_zh": "紫外线杀死细菌和病毒。"
+    },
+    {
+      "id": "em-ex11",
+      "type": "short",
+      "prompt": "Name the part of the EM spectrum used for cooking food quickly in microwave ovens.",
+      "prompt_zh": "说出在微波炉中用于快速烹饪食物的电磁波谱部分的名称。",
+      "answer": "microwaves",
+      "hint": "The answer is in the name of the oven!",
+      "hint_zh": "答案就在炉子的名字里！"
+    },
+    {
+      "id": "em-ex12",
+      "type": "short",
+      "prompt": "What safety measure should you take to protect from excessive UV radiation from the sun?",
+      "prompt_zh": "您应该采取什么安全措施来保护自己免受太阳过量紫外线辐射的伤害？",
+      "answer": "use sunscreen",
+      "hint": "Think about what you apply to your skin.",
+      "hint_zh": "想想你在皮肤上涂什么。"
+    },
+    {
+      "id": "em-ex13",
+      "type": "mcq",
+      "prompt": "Which EM wave is used in remote controls for TVs and air conditioners?",
+      "prompt_zh": "哪种电磁波用于电视和空调的遥控器？",
+      "choices": [
+        "Radio waves",
+        "Infrared",
+        "Visible light",
+        "Microwaves"
+      ],
+      "answer": 1,
+      "hint": "This type of radiation can be felt as heat.",
+      "hint_zh": "这种类型的辐射可以感觉到热量。"
+    },
+    {
+      "id": "em-ex14",
+      "type": "mcq",
+      "prompt": "What happens to EM waves when wavelength increases?",
+      "prompt_zh": "当波长增加时，电磁波会发生什么？",
+      "choices": [
+        "Frequency increases",
+        "Frequency decreases",
+        "Energy increases",
+        "Speed increases"
+      ],
+      "answer": 1,
+      "hint": "Remember: wavelength and frequency are inversely related.",
+      "hint_zh": "记住：波长和频率成反比。"
+    },
+    {
+      "id": "em-ex15",
+      "type": "mcq",
+      "prompt": "Which part of the EM spectrum is used for medical imaging to see bones?",
+      "prompt_zh": "电磁波谱的哪个部分用于医学成像以查看骨骼？",
+      "choices": [
+        "Infrared",
+        "Visible light",
+        "X-rays",
+        "Radio waves"
+      ],
+      "answer": 2,
+      "hint": "This radiation can penetrate soft tissue but not bone.",
+      "hint_zh": "这种辐射可以穿透软组织但不能穿透骨骼。"
+    }
+  ]
+}

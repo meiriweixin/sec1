@@ -1,0 +1,2264 @@
+[
+  {
+    "id": "complex-sentences-sec2",
+    "gradeLevel": "sec2",
+    "title": "Complex Sentences & Clauses",
+    "title_zh": "复杂句和从句",
+    "description": "Master dependent and independent clauses, subordinating conjunctions, and sentence variety for more sophisticated writing",
+    "description_zh": "掌握从属和独立从句、从属连词以及句式变化，提升写作水平",
+    "tag": "Grammar",
+    "tag_zh": "语法",
+    "objectives": [
+      "Identify independent and dependent clauses",
+      "Use subordinating conjunctions correctly (although, because, while, unless)",
+      "Combine simple sentences into complex sentences",
+      "Avoid sentence fragments and run-ons with complex structures"
+    ],
+    "objectives_zh": [
+      "识别独立从句和从属从句",
+      "正确使用从属连词（although, because, while, unless）",
+      "将简单句组合成复杂句",
+      "避免复杂结构中的句子片段和连写句"
+    ],
+    "sections": [
+      {
+        "id": "independent-dependent-clauses",
+        "title": "Independent vs. Dependent Clauses",
+        "title_zh": "独立从句与从属从句",
+        "type": "text",
+        "content": "An independent clause can stand alone as a complete sentence. It has a subject and verb: The MRT train arrived.\n\nA dependent clause cannot stand alone. It begins with a subordinating conjunction: Although the MRT train arrived (incomplete - what happened?).\n\nWhen combined: Although the MRT train arrived, we missed it because we were late."
+      },
+      {
+        "id": "subordinating-conjunctions",
+        "title": "Subordinating Conjunctions",
+        "title_zh": "从属连词",
+        "type": "text",
+        "content": "Common subordinating conjunctions: although, because, since, while, when, if, unless, until, after, before.\n\nThey show relationships:\n- Cause/Effect: because, since\n- Contrast: although, while\n- Condition: if, unless\n- Time: when, after, before, until\n\nExample: Unless it rains, the NEA will lift the haze advisory."
+      },
+      {
+        "id": "sentence-variety",
+        "title": "Creating Sentence Variety",
+        "title_zh": "句式变化",
+        "type": "text",
+        "content": "Vary your sentence structure:\n1. Start with dependent clause: While studying at the National Library, I discovered a new interest.\n2. Start with independent clause: I discovered a new interest while studying at the National Library.\n3. Use multiple dependent clauses: When the exam ended, I felt relieved because I had prepared well.\n\nGood writers mix simple, compound, and complex sentences."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "complex-sentences-sec2-ex1",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Which of the following is a dependent clause?",
+        "prompt_zh": "Which of the following is a dependent clause?",
+        "choices": [
+          "The students studied hard",
+          "Although it was raining",
+          "The teacher arrived",
+          "We finished our homework"
+        ],
+        "choices_zh": [
+          "The students studied hard",
+          "Although it was raining",
+          "The teacher arrived",
+          "We finished our homework"
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Complex Sentences & Clauses concepts.",
+        "explanation_zh": "这测试对复杂句和从句概念的理解。"
+      },
+      {
+        "id": "complex-sentences-sec2-ex2",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Identify the subordinating conjunction: 'I will go to the library unless it closes early.'",
+        "prompt_zh": "Identify the subordinating conjunction: 'I will go to the library unless it closes early.'",
+        "choices": [
+          "will",
+          "unless",
+          "to",
+          "early"
+        ],
+        "choices_zh": [
+          "will",
+          "unless",
+          "to",
+          "early"
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Complex Sentences & Clauses concepts.",
+        "explanation_zh": "这测试对复杂句和从句概念的理解。"
+      },
+      {
+        "id": "complex-sentences-sec2-ex3",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Which sentence correctly combines these: 'The bus was late. We missed the movie.'",
+        "prompt_zh": "Which sentence correctly combines these: 'The bus was late. We missed the movie.'",
+        "choices": [
+          "The bus was late, we missed the movie.",
+          "Because the bus was late, we missed the movie.",
+          "The bus was late we missed the movie.",
+          "The bus was late and we missed the movie."
+        ],
+        "choices_zh": [
+          "The bus was late, we missed the movie.",
+          "Because the bus was late, we missed the movie.",
+          "The bus was late we missed the movie.",
+          "The bus was late and we missed the movie."
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Complex Sentences & Clauses concepts.",
+        "explanation_zh": "这测试对复杂句和从句概念的理解。"
+      },
+      {
+        "id": "complex-sentences-sec2-ex4",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Select the sentence with correct complex structure:",
+        "prompt_zh": "Select the sentence with correct complex structure:",
+        "choices": [
+          "While waiting for the MRT I read a book.",
+          "While waiting for the MRT, I read a book.",
+          "While waiting for the MRT; I read a book.",
+          "While waiting for the MRT. I read a book."
+        ],
+        "choices_zh": [
+          "While waiting for the MRT I read a book.",
+          "While waiting for the MRT, I read a book.",
+          "While waiting for the MRT; I read a book.",
+          "While waiting for the MRT. I read a book."
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Complex Sentences & Clauses concepts.",
+        "explanation_zh": "这测试对复杂句和从句概念的理解。"
+      },
+      {
+        "id": "complex-sentences-sec2-ex5",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Which subordinating conjunction shows cause/effect relationship?",
+        "prompt_zh": "Which subordinating conjunction shows cause/effect relationship?",
+        "choices": [
+          "although",
+          "while",
+          "because",
+          "unless"
+        ],
+        "choices_zh": [
+          "although",
+          "while",
+          "because",
+          "unless"
+        ],
+        "answer": 2,
+        "explanation": "This tests understanding of Complex Sentences & Clauses concepts.",
+        "explanation_zh": "这测试对复杂句和从句概念的理解。"
+      },
+      {
+        "id": "complex-sentences-sec2-ex6",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Fix this fragment: 'When the NEA issued the haze warning.'",
+        "prompt_zh": "Fix this fragment: 'When the NEA issued the haze warning.'",
+        "choices": [
+          "When the NEA issued the haze warning, schools closed early.",
+          "When the NEA issued the haze warning schools closed early.",
+          "The NEA issued the haze warning.",
+          "When the NEA issued."
+        ],
+        "choices_zh": [
+          "When the NEA issued the haze warning, schools closed early.",
+          "When the NEA issued the haze warning schools closed early.",
+          "The NEA issued the haze warning.",
+          "When the NEA issued."
+        ],
+        "answer": 0,
+        "explanation": "This tests understanding of Complex Sentences & Clauses concepts.",
+        "explanation_zh": "这测试对复杂句和从句概念的理解。"
+      },
+      {
+        "id": "complex-sentences-sec2-ex7",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Combine these sentences using a subordinating conjunction to show contrast: 'The exam was difficult. Most students passed.'",
+        "prompt_zh": "Combine these sentences using a subordinating conjunction to show contrast: 'The exam was difficult. Most students passed.'",
+        "choices": [
+          "The exam was difficult, and most students passed.",
+          "Although the exam was difficult, most students passed.",
+          "The exam was difficult because most students passed.",
+          "Most students passed, the exam was difficult."
+        ],
+        "choices_zh": [
+          "The exam was difficult, and most students passed.",
+          "Although the exam was difficult, most students passed.",
+          "The exam was difficult because most students passed.",
+          "Most students passed, the exam was difficult."
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Complex Sentences & Clauses concepts.",
+        "explanation_zh": "这测试对复杂句和从句概念的理解。"
+      },
+      {
+        "id": "complex-sentences-sec2-ex8",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Which sentence has INCORRECT comma usage with clauses?",
+        "prompt_zh": "Which sentence has INCORRECT comma usage with clauses?",
+        "choices": [
+          "After the rain stopped, we continued playing.",
+          "We continued playing after the rain stopped.",
+          "We continued playing, after the rain stopped.",
+          "If it rains tomorrow, the match will be postponed."
+        ],
+        "choices_zh": [
+          "After the rain stopped, we continued playing.",
+          "We continued playing after the rain stopped.",
+          "We continued playing, after the rain stopped.",
+          "If it rains tomorrow, the match will be postponed."
+        ],
+        "answer": 2,
+        "explanation": "This tests understanding of Complex Sentences & Clauses concepts.",
+        "explanation_zh": "这测试对复杂句和从句概念的理解。"
+      },
+      {
+        "id": "complex-sentences-sec2-ex9",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Select the sentence with two dependent clauses:",
+        "prompt_zh": "Select the sentence with two dependent clauses:",
+        "choices": [
+          "When I arrived at school, I realized that I had forgotten my textbook.",
+          "I studied hard, so I did well on the test.",
+          "The teacher explained the lesson carefully.",
+          "Students who work hard usually succeed."
+        ],
+        "choices_zh": [
+          "When I arrived at school, I realized that I had forgotten my textbook.",
+          "I studied hard, so I did well on the test.",
+          "The teacher explained the lesson carefully.",
+          "Students who work hard usually succeed."
+        ],
+        "answer": 0,
+        "explanation": "This tests understanding of Complex Sentences & Clauses concepts.",
+        "explanation_zh": "这测试对复杂句和从句概念的理解。"
+      },
+      {
+        "id": "complex-sentences-sec2-ex10",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Rewrite to start with a dependent clause: 'I will buy lunch at the hawker center if I have enough money.'",
+        "prompt_zh": "Rewrite to start with a dependent clause: 'I will buy lunch at the hawker center if I have enough money.'",
+        "choices": [
+          "If I have enough money, I will buy lunch at the hawker center.",
+          "I will buy lunch if I have enough money at the hawker center.",
+          "Lunch at the hawker center if I have enough money.",
+          "Having enough money, I will buy lunch."
+        ],
+        "choices_zh": [
+          "If I have enough money, I will buy lunch at the hawker center.",
+          "I will buy lunch if I have enough money at the hawker center.",
+          "Lunch at the hawker center if I have enough money.",
+          "Having enough money, I will buy lunch."
+        ],
+        "answer": 0,
+        "explanation": "This tests understanding of Complex Sentences & Clauses concepts.",
+        "explanation_zh": "这测试对复杂句和从句概念的理解。"
+      },
+      {
+        "id": "complex-sentences-sec2-ex11",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Identify the error: 'Because Singapore is a multicultural society. We celebrate many festivals.'",
+        "prompt_zh": "Identify the error: 'Because Singapore is a multicultural society. We celebrate many festivals.'",
+        "choices": [
+          "Incorrect subordinating conjunction",
+          "Fragment in first sentence - should be combined",
+          "Missing comma after 'society'",
+          "Wrong verb tense"
+        ],
+        "choices_zh": [
+          "Incorrect subordinating conjunction",
+          "Fragment in first sentence - should be combined",
+          "Missing comma after 'society'",
+          "Wrong verb tense"
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Complex Sentences & Clauses concepts.",
+        "explanation_zh": "这测试对复杂句和从句概念的理解。"
+      },
+      {
+        "id": "complex-sentences-sec2-ex12",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Which revision creates the MOST effective complex sentence? Original: 'The government implemented stricter measures. COVID-19 cases were rising.'",
+        "prompt_zh": "Which revision creates the MOST effective complex sentence? Original: 'The government implemented stricter measures. COVID-19 cases were rising.'",
+        "choices": [
+          "The government implemented stricter measures, and COVID-19 cases were rising.",
+          "Because COVID-19 cases were rising, the government implemented stricter measures.",
+          "COVID-19 cases were rising the government implemented measures.",
+          "The government implemented measures rising COVID-19 cases."
+        ],
+        "choices_zh": [
+          "The government implemented stricter measures, and COVID-19 cases were rising.",
+          "Because COVID-19 cases were rising, the government implemented stricter measures.",
+          "COVID-19 cases were rising the government implemented measures.",
+          "The government implemented measures rising COVID-19 cases."
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Complex Sentences & Clauses concepts.",
+        "explanation_zh": "这测试对复杂句和从句概念的理解。"
+      },
+      {
+        "id": "complex-sentences-sec2-ex13",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Combine THREE ideas into one complex sentence: 'The HDB upgrading works started. Residents were informed in advance. There were minimal complaints.'",
+        "prompt_zh": "Combine THREE ideas into one complex sentence: 'The HDB upgrading works started. Residents were informed in advance. There were minimal complaints.'",
+        "choices": [
+          "When the HDB upgrading works started, residents were informed in advance, so there were minimal complaints.",
+          "The HDB upgrading works started; residents were informed; minimal complaints.",
+          "Residents were informed when works started and complained minimally.",
+          "The works started and residents informed with minimal complaints."
+        ],
+        "choices_zh": [
+          "When the HDB upgrading works started, residents were informed in advance, so there were minimal complaints.",
+          "The HDB upgrading works started; residents were informed; minimal complaints.",
+          "Residents were informed when works started and complained minimally.",
+          "The works started and residents informed with minimal complaints."
+        ],
+        "answer": 0,
+        "explanation": "This tests understanding of Complex Sentences & Clauses concepts.",
+        "explanation_zh": "这测试对复杂句和从句概念的理解。"
+      },
+      {
+        "id": "complex-sentences-sec2-ex14",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Which sentence uses subordination MOST effectively to show logical relationship?",
+        "prompt_zh": "Which sentence uses subordination MOST effectively to show logical relationship?",
+        "choices": [
+          "The student failed the exam, and he did not study.",
+          "Although the student studied diligently, he struggled with the exam format.",
+          "The student failed because he studied.",
+          "When studying, the student failed the exam."
+        ],
+        "choices_zh": [
+          "The student failed the exam, and he did not study.",
+          "Although the student studied diligently, he struggled with the exam format.",
+          "The student failed because he studied.",
+          "When studying, the student failed the exam."
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Complex Sentences & Clauses concepts.",
+        "explanation_zh": "这测试对复杂句和从句概念的理解。"
+      },
+      {
+        "id": "complex-sentences-sec2-ex15",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Identify the sentence with correct punctuation of multiple clauses: Topic - Singapore's water management",
+        "prompt_zh": "Identify the sentence with correct punctuation of multiple clauses: Topic - Singapore's water management",
+        "choices": [
+          "Although Singapore is a small country we have achieved water sustainability because we invested in technology.",
+          "Although Singapore is a small country, we have achieved water sustainability because we invested in technology.",
+          "Although, Singapore is a small country we have achieved water sustainability, because we invested in technology.",
+          "Although Singapore is a small country we have achieved, water sustainability because we invested in technology."
+        ],
+        "choices_zh": [
+          "Although Singapore is a small country we have achieved water sustainability because we invested in technology.",
+          "Although Singapore is a small country, we have achieved water sustainability because we invested in technology.",
+          "Although, Singapore is a small country we have achieved water sustainability, because we invested in technology.",
+          "Although Singapore is a small country we have achieved, water sustainability because we invested in technology."
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Complex Sentences & Clauses concepts.",
+        "explanation_zh": "这测试对复杂句和从句概念的理解。"
+      }
+    ]
+  },
+  {
+    "id": "active-passive-voice-sec2",
+    "gradeLevel": "sec2",
+    "title": "Active & Passive Voice",
+    "title_zh": "主动语态与被动语态",
+    "description": "Understand when and how to use active and passive voice for different purposes in formal and informal writing",
+    "description_zh": "理解在正式和非正式写作中何时以及如何使用主动和被动语态",
+    "tag": "Grammar",
+    "tag_zh": "语法",
+    "objectives": [
+      "Distinguish between active and passive voice",
+      "Transform sentences from active to passive and vice versa",
+      "Recognize when passive voice is appropriate (scientific writing, formal reports)",
+      "Strengthen writing by using active voice when suitable"
+    ],
+    "objectives_zh": [
+      "区分主动语态和被动语态",
+      "将句子从主动语态转换为被动语态，反之亦然",
+      "识别何时适合使用被动语态（科学写作、正式报告）",
+      "在适当时使用主动语态加强写作"
+    ],
+    "sections": [
+      {
+        "id": "active-vs-passive",
+        "title": "Active vs. Passive Voice",
+        "title_zh": "主动语态与被动语态",
+        "type": "text",
+        "content": "Active voice: Subject performs the action.\nThe teacher marked the exam papers.\n\nPassive voice: Subject receives the action.\nThe exam papers were marked by the teacher.\n\nPassive voice structure: [Object] + be verb + past participle + (by + agent)\nThe agent (by the teacher) can be omitted if unknown or unimportant."
+      },
+      {
+        "id": "when-to-use-passive",
+        "title": "When to Use Passive Voice",
+        "title_zh": "何时使用被动语态",
+        "type": "text",
+        "content": "Use passive voice when:\n1. The action is more important than who did it: The Singapore Flyer was built in 2008.\n2. The doer is unknown: My bicycle was stolen.\n3. In scientific/formal writing: The solution was heated to 60 degrees C.\n4. To be tactful: A mistake was made (instead of You made a mistake).\n\nAvoid passive voice when it makes writing unclear or wordy."
+      },
+      {
+        "id": "transforming-voice",
+        "title": "Transforming Between Voices",
+        "title_zh": "语态转换",
+        "type": "text",
+        "content": "Active to Passive transformation:\n1. Active: The NEA monitors air quality.\n2. Identify object (air quality) and make it the subject\n3. Add correct be verb + past participle\n4. Passive: Air quality is monitored by the NEA.\n\nPassive to Active:\n1. Passive: The hawker center was renovated by HDB.\n2. Make the agent (HDB) the subject\n3. Active: HDB renovated the hawker center."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "active-passive-voice-sec2-ex1",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Identify the sentence in passive voice:",
+        "prompt_zh": "Identify the sentence in passive voice:",
+        "choices": [
+          "The chef prepared the laksa.",
+          "The laksa was prepared by the chef.",
+          "The chef is preparing laksa.",
+          "The chef prepares laksa daily."
+        ],
+        "choices_zh": [
+          "The chef prepared the laksa.",
+          "The laksa was prepared by the chef.",
+          "The chef is preparing laksa.",
+          "The chef prepares laksa daily."
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Active & Passive Voice concepts.",
+        "explanation_zh": "这测试对主动语态与被动语态概念的理解。"
+      },
+      {
+        "id": "active-passive-voice-sec2-ex2",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Which is the active voice version? 'The homework was completed by the students.'",
+        "prompt_zh": "Which is the active voice version? 'The homework was completed by the students.'",
+        "choices": [
+          "The homework completed the students.",
+          "The students were completing homework.",
+          "The students completed the homework.",
+          "Completing the homework by students."
+        ],
+        "choices_zh": [
+          "The homework completed the students.",
+          "The students were completing homework.",
+          "The students completed the homework.",
+          "Completing the homework by students."
+        ],
+        "answer": 2,
+        "explanation": "This tests understanding of Active & Passive Voice concepts.",
+        "explanation_zh": "这测试对主动语态与被动语态概念的理解。"
+      },
+      {
+        "id": "active-passive-voice-sec2-ex3",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "In passive voice, the subject _____ the action.",
+        "prompt_zh": "In passive voice, the subject _____ the action.",
+        "choices": [
+          "performs",
+          "receives",
+          "creates",
+          "ignores"
+        ],
+        "choices_zh": [
+          "performs",
+          "receives",
+          "creates",
+          "ignores"
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Active & Passive Voice concepts.",
+        "explanation_zh": "这测试对主动语态与被动语态概念的理解。"
+      },
+      {
+        "id": "active-passive-voice-sec2-ex4",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Change to passive: 'The teacher explained the lesson.'",
+        "prompt_zh": "Change to passive: 'The teacher explained the lesson.'",
+        "choices": [
+          "The lesson was explained by the teacher.",
+          "The lesson explained by the teacher.",
+          "The teacher was explained the lesson.",
+          "The lesson is explaining by the teacher."
+        ],
+        "choices_zh": [
+          "The lesson was explained by the teacher.",
+          "The lesson explained by the teacher.",
+          "The teacher was explained the lesson.",
+          "The lesson is explaining by the teacher."
+        ],
+        "answer": 0,
+        "explanation": "This tests understanding of Active & Passive Voice concepts.",
+        "explanation_zh": "这测试对主动语态与被动语态概念的理解。"
+      },
+      {
+        "id": "active-passive-voice-sec2-ex5",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Which word is essential in passive voice construction?",
+        "prompt_zh": "Which word is essential in passive voice construction?",
+        "choices": [
+          "have",
+          "be (is/was/were)",
+          "do",
+          "will"
+        ],
+        "choices_zh": [
+          "have",
+          "be (is/was/were)",
+          "do",
+          "will"
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Active & Passive Voice concepts.",
+        "explanation_zh": "这测试对主动语态与被动语态概念的理解。"
+      },
+      {
+        "id": "active-passive-voice-sec2-ex6",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Which sentence is MOST appropriate in passive voice?",
+        "prompt_zh": "Which sentence is MOST appropriate in passive voice?",
+        "choices": [
+          "I ate chicken rice for lunch.",
+          "The Singapore Botanic Gardens was designated a UNESCO World Heritage Site in 2015.",
+          "My mother cooks dinner every night.",
+          "Students complete their assignments on time."
+        ],
+        "choices_zh": [
+          "I ate chicken rice for lunch.",
+          "The Singapore Botanic Gardens was designated a UNESCO World Heritage Site in 2015.",
+          "My mother cooks dinner every night.",
+          "Students complete their assignments on time."
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Active & Passive Voice concepts.",
+        "explanation_zh": "这测试对主动语态与被动语态概念的理解。"
+      },
+      {
+        "id": "active-passive-voice-sec2-ex7",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Change to active voice: 'The national anthem is sung by students every morning.'",
+        "prompt_zh": "Change to active voice: 'The national anthem is sung by students every morning.'",
+        "choices": [
+          "Students sing the national anthem every morning.",
+          "The national anthem sings students every morning.",
+          "Students are singing the anthem.",
+          "Every morning students sung the anthem."
+        ],
+        "choices_zh": [
+          "Students sing the national anthem every morning.",
+          "The national anthem sings students every morning.",
+          "Students are singing the anthem.",
+          "Every morning students sung the anthem."
+        ],
+        "answer": 0,
+        "explanation": "This tests understanding of Active & Passive Voice concepts.",
+        "explanation_zh": "这测试对主动语态与被动语态概念的理解。"
+      },
+      {
+        "id": "active-passive-voice-sec2-ex8",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Which passive sentence CANNOT be easily converted to active because the agent is unknown?",
+        "prompt_zh": "Which passive sentence CANNOT be easily converted to active because the agent is unknown?",
+        "choices": [
+          "The window was broken by the ball.",
+          "My phone was stolen yesterday.",
+          "The report was written by John.",
+          "The cake was baked by my sister."
+        ],
+        "choices_zh": [
+          "The window was broken by the ball.",
+          "My phone was stolen yesterday.",
+          "The report was written by John.",
+          "The cake was baked by my sister."
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Active & Passive Voice concepts.",
+        "explanation_zh": "这测试对主动语态与被动语态概念的理解。"
+      },
+      {
+        "id": "active-passive-voice-sec2-ex9",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "In scientific writing, why is passive voice often preferred?",
+        "prompt_zh": "In scientific writing, why is passive voice often preferred?",
+        "choices": [
+          "It sounds more casual",
+          "It emphasizes the action/result rather than the researcher",
+          "It is shorter",
+          "It is easier to write"
+        ],
+        "choices_zh": [
+          "It sounds more casual",
+          "It emphasizes the action/result rather than the researcher",
+          "It is shorter",
+          "It is easier to write"
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Active & Passive Voice concepts.",
+        "explanation_zh": "这测试对主动语态与被动语态概念的理解。"
+      },
+      {
+        "id": "active-passive-voice-sec2-ex10",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Convert to passive and remove the agent: 'Someone left the laboratory door unlocked.'",
+        "prompt_zh": "Convert to passive and remove the agent: 'Someone left the laboratory door unlocked.'",
+        "choices": [
+          "Someone left the door unlocked.",
+          "The laboratory door was left unlocked.",
+          "The door unlocked was left.",
+          "Leaving the laboratory door unlocked."
+        ],
+        "choices_zh": [
+          "Someone left the door unlocked.",
+          "The laboratory door was left unlocked.",
+          "The door unlocked was left.",
+          "Leaving the laboratory door unlocked."
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Active & Passive Voice concepts.",
+        "explanation_zh": "这测试对主动语态与被动语态概念的理解。"
+      },
+      {
+        "id": "active-passive-voice-sec2-ex11",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Which sentence demonstrates INAPPROPRIATE use of passive voice (should be active)?",
+        "prompt_zh": "Which sentence demonstrates INAPPROPRIATE use of passive voice (should be active)?",
+        "choices": [
+          "The experiment was conducted at room temperature.",
+          "The form should be submitted by Friday.",
+          "My wallet was taken by me to school.",
+          "The decision was made after careful consideration."
+        ],
+        "choices_zh": [
+          "The experiment was conducted at room temperature.",
+          "The form should be submitted by Friday.",
+          "My wallet was taken by me to school.",
+          "The decision was made after careful consideration."
+        ],
+        "answer": 2,
+        "explanation": "This tests understanding of Active & Passive Voice concepts.",
+        "explanation_zh": "这测试对主动语态与被动语态概念的理解。"
+      },
+      {
+        "id": "active-passive-voice-sec2-ex12",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Rewrite in passive voice with correct structure: 'LTA will implement the new bus routes next month.'",
+        "prompt_zh": "Rewrite in passive voice with correct structure: 'LTA will implement the new bus routes next month.'",
+        "choices": [
+          "The new bus routes will be implemented by LTA next month.",
+          "The new bus routes will implement by LTA next month.",
+          "LTA will be implementing the new routes.",
+          "Next month will be implemented new bus routes."
+        ],
+        "choices_zh": [
+          "The new bus routes will be implemented by LTA next month.",
+          "The new bus routes will implement by LTA next month.",
+          "LTA will be implementing the new routes.",
+          "Next month will be implemented new bus routes."
+        ],
+        "answer": 0,
+        "explanation": "This tests understanding of Active & Passive Voice concepts.",
+        "explanation_zh": "这测试对主动语态与被动语态概念的理解。"
+      },
+      {
+        "id": "active-passive-voice-sec2-ex13",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Which revision improves this passive sentence? 'Mistakes were made in the calculation, and the wrong amount was charged to customers.'",
+        "prompt_zh": "Which revision improves this passive sentence? 'Mistakes were made in the calculation, and the wrong amount was charged to customers.'",
+        "choices": [
+          "We made mistakes in the calculation and charged customers the wrong amount.",
+          "Mistakes in calculation were made charging wrong amounts.",
+          "The calculation had mistakes and customers were charged wrong.",
+          "Making mistakes in calculation charged customers wrong amounts."
+        ],
+        "choices_zh": [
+          "We made mistakes in the calculation and charged customers the wrong amount.",
+          "Mistakes in calculation were made charging wrong amounts.",
+          "The calculation had mistakes and customers were charged wrong.",
+          "Making mistakes in calculation charged customers wrong amounts."
+        ],
+        "answer": 0,
+        "explanation": "This tests understanding of Active & Passive Voice concepts.",
+        "explanation_zh": "这测试对主动语态与被动语态概念的理解。"
+      },
+      {
+        "id": "active-passive-voice-sec2-ex14",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Identify the error in this passive construction: 'The new MRT line was opened by commuters last week.'",
+        "prompt_zh": "Identify the error in this passive construction: 'The new MRT line was opened by commuters last week.'",
+        "choices": [
+          "Wrong tense",
+          "Illogical agent - commuters did not open the line",
+          "Missing be verb",
+          "Wrong past participle"
+        ],
+        "choices_zh": [
+          "Wrong tense",
+          "Illogical agent - commuters did not open the line",
+          "Missing be verb",
+          "Wrong past participle"
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Active & Passive Voice concepts.",
+        "explanation_zh": "这测试对主动语态与被动语态概念的理解。"
+      },
+      {
+        "id": "active-passive-voice-sec2-ex15",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "In formal report writing, which sentence is MOST appropriate?",
+        "prompt_zh": "In formal report writing, which sentence is MOST appropriate?",
+        "choices": [
+          "We surveyed 200 students about their study habits.",
+          "200 students were surveyed about their study habits.",
+          "Surveying 200 students about study habits.",
+          "The survey was done by us on 200 students."
+        ],
+        "choices_zh": [
+          "We surveyed 200 students about their study habits.",
+          "200 students were surveyed about their study habits.",
+          "Surveying 200 students about study habits.",
+          "The survey was done by us on 200 students."
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Active & Passive Voice concepts.",
+        "explanation_zh": "这测试对主动语态与被动语态概念的理解。"
+      }
+    ]
+  },
+  {
+    "id": "persuasive-writing-sec2",
+    "gradeLevel": "sec2",
+    "title": "Persuasive Writing & Argumentation",
+    "title_zh": "说服性写作与论证",
+    "description": "Develop skills in building logical arguments, using evidence effectively, and writing persuasive essays",
+    "description_zh": "培养构建逻辑论证、有效使用证据和撰写说服性文章的技能",
+    "tag": "Writing",
+    "tag_zh": "写作",
+    "objectives": [
+      "Structure persuasive essays with clear thesis statements",
+      "Use evidence, examples, and reasoning to support arguments",
+      "Address counterarguments effectively",
+      "Employ persuasive techniques (ethos, pathos, logos)"
+    ],
+    "objectives_zh": [
+      "用清晰的论点陈述组织说服性文章",
+      "使用证据、例子和推理支持论点",
+      "有效处理反驳论点",
+      "运用说服技巧（信誉、情感、逻辑）"
+    ],
+    "sections": [
+      {
+        "id": "persuasive-essay-structure",
+        "title": "Persuasive Essay Structure",
+        "title_zh": "说服性文章结构",
+        "type": "text",
+        "content": "Persuasive essay structure:\n\n1. Introduction:\n   - Hook (question, statistic, anecdote)\n   - Background context\n   - Thesis statement (your position)\n\n2. Body Paragraphs (2-3):\n   - Topic sentence (one reason)\n   - Evidence (facts, statistics, examples)\n   - Explanation of how evidence supports thesis\n   - Transition to next paragraph\n\n3. Counterargument Paragraph:\n   - Acknowledge opposing view\n   - Refute with evidence\n\n4. Conclusion:\n   - Restate thesis\n   - Summarize main points\n   - Call to action or final thought"
+      },
+      {
+        "id": "using-evidence",
+        "title": "Using Evidence Effectively",
+        "title_zh": "有效使用证据",
+        "type": "text",
+        "content": "Strong evidence includes:\n- Statistics: According to NEA, recycling rates in Singapore increased to 61% in 2022.\n- Expert opinions: Dr. Lee from NUS states that...\n- Real examples: When Tampines implemented the zero-waste initiative...\n- Personal anecdotes (use sparingly): Last year at my school...\n\nAlways:\n1. Introduce evidence with a signal phrase\n2. Explain how it supports your point\n3. Cite sources when using external information"
+      },
+      {
+        "id": "persuasive-techniques",
+        "title": "Persuasive Techniques",
+        "title_zh": "说服技巧",
+        "type": "text",
+        "content": "Three persuasive appeals:\n\n1. Ethos (Credibility):\n   - Show expertise or trustworthiness\n   - As a student who uses public transport daily...\n\n2. Pathos (Emotion):\n   - Appeal to feelings\n   - Imagine if every Singaporean household reduced plastic waste...\n\n3. Logos (Logic):\n   - Use facts and reasoning\n   - If we increase bus frequency by 20%, waiting times will decrease proportionally.\n\nBalance all three for effective persuasion."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "persuasive-writing-sec2-ex1",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Which is the BEST thesis statement for a persuasive essay?",
+        "prompt_zh": "Which is the BEST thesis statement for a persuasive essay?",
+        "choices": [
+          "This essay is about school uniforms.",
+          "School uniforms are expensive.",
+          "Schools should abolish uniform requirements because they restrict self-expression and create financial burden.",
+          "I think uniforms are bad."
+        ],
+        "choices_zh": [
+          "This essay is about school uniforms.",
+          "School uniforms are expensive.",
+          "Schools should abolish uniform requirements because they restrict self-expression and create financial burden.",
+          "I think uniforms are bad."
+        ],
+        "answer": 2,
+        "explanation": "This tests understanding of Persuasive Writing & Argumentation concepts.",
+        "explanation_zh": "这测试对说服性写作与论证概念的理解。"
+      },
+      {
+        "id": "persuasive-writing-sec2-ex2",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Ethos appeals to:",
+        "prompt_zh": "Ethos appeals to:",
+        "choices": [
+          "Emotions",
+          "Logic and facts",
+          "Credibility and trust",
+          "Humor"
+        ],
+        "choices_zh": [
+          "Emotions",
+          "Logic and facts",
+          "Credibility and trust",
+          "Humor"
+        ],
+        "answer": 2,
+        "explanation": "This tests understanding of Persuasive Writing & Argumentation concepts.",
+        "explanation_zh": "这测试对说服性写作与论证概念的理解。"
+      },
+      {
+        "id": "persuasive-writing-sec2-ex3",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Which sentence uses a statistic as evidence?",
+        "prompt_zh": "Which sentence uses a statistic as evidence?",
+        "choices": [
+          "Many students support longer recess.",
+          "According to MOE data, 78% of students participate in at least one CCA.",
+          "Students really need more break time.",
+          "Everyone agrees that recess should be longer."
+        ],
+        "choices_zh": [
+          "Many students support longer recess.",
+          "According to MOE data, 78% of students participate in at least one CCA.",
+          "Students really need more break time.",
+          "Everyone agrees that recess should be longer."
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Persuasive Writing & Argumentation concepts.",
+        "explanation_zh": "这测试对说服性写作与论证概念的理解。"
+      },
+      {
+        "id": "persuasive-writing-sec2-ex4",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "What is the purpose of addressing counterarguments?",
+        "prompt_zh": "What is the purpose of addressing counterarguments?",
+        "choices": [
+          "To confuse readers",
+          "To show you considered opposing views and strengthen your argument",
+          "To make the essay longer",
+          "To disagree with everyone"
+        ],
+        "choices_zh": [
+          "To confuse readers",
+          "To show you considered opposing views and strengthen your argument",
+          "To make the essay longer",
+          "To disagree with everyone"
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Persuasive Writing & Argumentation concepts.",
+        "explanation_zh": "这测试对说服性写作与论证概念的理解。"
+      },
+      {
+        "id": "persuasive-writing-sec2-ex5",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Which transition word introduces a counterargument?",
+        "prompt_zh": "Which transition word introduces a counterargument?",
+        "choices": [
+          "Furthermore",
+          "Therefore",
+          "However",
+          "Additionally"
+        ],
+        "choices_zh": [
+          "Furthermore",
+          "Therefore",
+          "However",
+          "Additionally"
+        ],
+        "answer": 2,
+        "explanation": "This tests understanding of Persuasive Writing & Argumentation concepts.",
+        "explanation_zh": "这测试对说服性写作与论证概念的理解。"
+      },
+      {
+        "id": "persuasive-writing-sec2-ex6",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Which piece of evidence is STRONGEST for arguing 'Singapore should increase investment in renewable energy'?",
+        "prompt_zh": "Which piece of evidence is STRONGEST for arguing 'Singapore should increase investment in renewable energy'?",
+        "choices": [
+          "I believe renewable energy is good.",
+          "My neighbor has solar panels.",
+          "A study by NTU shows solar energy could reduce Singapore's carbon emissions by 25% by 2030.",
+          "Renewable energy is popular."
+        ],
+        "choices_zh": [
+          "I believe renewable energy is good.",
+          "My neighbor has solar panels.",
+          "A study by NTU shows solar energy could reduce Singapore's carbon emissions by 25% by 2030.",
+          "Renewable energy is popular."
+        ],
+        "answer": 2,
+        "explanation": "This tests understanding of Persuasive Writing & Argumentation concepts.",
+        "explanation_zh": "这测试对说服性写作与论证概念的理解。"
+      },
+      {
+        "id": "persuasive-writing-sec2-ex7",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Identify the persuasive technique: 'Imagine a Singapore where every student has equal access to quality education, regardless of family income.'",
+        "prompt_zh": "Identify the persuasive technique: 'Imagine a Singapore where every student has equal access to quality education, regardless of family income.'",
+        "choices": [
+          "Ethos",
+          "Pathos",
+          "Logos",
+          "None"
+        ],
+        "choices_zh": [
+          "Ethos",
+          "Pathos",
+          "Logos",
+          "None"
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Persuasive Writing & Argumentation concepts.",
+        "explanation_zh": "这测试对说服性写作与论证概念的理解。"
+      },
+      {
+        "id": "persuasive-writing-sec2-ex8",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Which sentence effectively refutes a counterargument about reducing plastic bag usage?",
+        "prompt_zh": "Which sentence effectively refutes a counterargument about reducing plastic bag usage?",
+        "choices": [
+          "Some people say reusable bags are inconvenient, but this is not true.",
+          "While critics argue that reusable bags are inconvenient, studies show that 82% of users adapt within two weeks and prefer them.",
+          "People who disagree are wrong about reusable bags.",
+          "Reusable bags are better despite what others think."
+        ],
+        "choices_zh": [
+          "Some people say reusable bags are inconvenient, but this is not true.",
+          "While critics argue that reusable bags are inconvenient, studies show that 82% of users adapt within two weeks and prefer them.",
+          "People who disagree are wrong about reusable bags.",
+          "Reusable bags are better despite what others think."
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Persuasive Writing & Argumentation concepts.",
+        "explanation_zh": "这测试对说服性写作与论证概念的理解。"
+      },
+      {
+        "id": "persuasive-writing-sec2-ex9",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "What is WRONG with this evidence? 'Everyone knows that teenagers need more sleep, so school should start later.'",
+        "prompt_zh": "What is WRONG with this evidence? 'Everyone knows that teenagers need more sleep, so school should start later.'",
+        "choices": [
+          "Uses 'everyone knows' without specific evidence",
+          "Wrong topic",
+          "Too short",
+          "Wrong tense"
+        ],
+        "choices_zh": [
+          "Uses 'everyone knows' without specific evidence",
+          "Wrong topic",
+          "Too short",
+          "Wrong tense"
+        ],
+        "answer": 0,
+        "explanation": "This tests understanding of Persuasive Writing & Argumentation concepts.",
+        "explanation_zh": "这测试对说服性写作与论证概念的理解。"
+      },
+      {
+        "id": "persuasive-writing-sec2-ex10",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Which conclusion is MOST effective for a persuasive essay?",
+        "prompt_zh": "Which conclusion is MOST effective for a persuasive essay?",
+        "choices": [
+          "In conclusion, I talked about homework.",
+          "As this essay has shown, reducing homework would benefit students.",
+          "By implementing a homework cap, schools can improve student wellbeing, reduce stress, and foster genuine love of learning. The time to act is now.",
+          "That is why homework is bad."
+        ],
+        "choices_zh": [
+          "In conclusion, I talked about homework.",
+          "As this essay has shown, reducing homework would benefit students.",
+          "By implementing a homework cap, schools can improve student wellbeing, reduce stress, and foster genuine love of learning. The time to act is now.",
+          "That is why homework is bad."
+        ],
+        "answer": 2,
+        "explanation": "This tests understanding of Persuasive Writing & Argumentation concepts.",
+        "explanation_zh": "这测试对说服性写作与论证概念的理解。"
+      },
+      {
+        "id": "persuasive-writing-sec2-ex11",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Evaluate this argument structure: 'Singapore should ban single-use plastics. Plastics harm the environment. Therefore, we should ban them.' What is the weakness?",
+        "prompt_zh": "Evaluate this argument structure: 'Singapore should ban single-use plastics. Plastics harm the environment. Therefore, we should ban them.' What is the weakness?",
+        "choices": [
+          "Wrong conclusion",
+          "Lacks specific evidence and fails to address counterarguments like economic impact",
+          "Too short",
+          "Uses wrong transition word"
+        ],
+        "choices_zh": [
+          "Wrong conclusion",
+          "Lacks specific evidence and fails to address counterarguments like economic impact",
+          "Too short",
+          "Uses wrong transition word"
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Persuasive Writing & Argumentation concepts.",
+        "explanation_zh": "这测试对说服性写作与论证概念的理解。"
+      },
+      {
+        "id": "persuasive-writing-sec2-ex12",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Which paragraph BEST combines ethos, pathos, and logos?",
+        "prompt_zh": "Which paragraph BEST combines ethos, pathos, and logos?",
+        "choices": [
+          "As a student who commutes daily (ethos), I have witnessed overcrowded buses causing students to arrive late and stressed (pathos). LTA data shows that increasing bus frequency by 15% would reduce wait times by an average of 8 minutes (logos).",
+          "Buses are too crowded and students are late.",
+          "I think buses should come more often because waiting is annoying.",
+          "LTA should increase buses because everyone agrees."
+        ],
+        "choices_zh": [
+          "As a student who commutes daily (ethos), I have witnessed overcrowded buses causing students to arrive late and stressed (pathos). LTA data shows that increasing bus frequency by 15% would reduce wait times by an average of 8 minutes (logos).",
+          "Buses are too crowded and students are late.",
+          "I think buses should come more often because waiting is annoying.",
+          "LTA should increase buses because everyone agrees."
+        ],
+        "answer": 0,
+        "explanation": "This tests understanding of Persuasive Writing & Argumentation concepts.",
+        "explanation_zh": "这测试对说服性写作与论证概念的理解。"
+      },
+      {
+        "id": "persuasive-writing-sec2-ex13",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "A student argues: 'Schools should eliminate exams because exams cause stress.' What is the BEST counterargument consideration?",
+        "prompt_zh": "A student argues: 'Schools should eliminate exams because exams cause stress.' What is the BEST counterargument consideration?",
+        "choices": [
+          "Exams are necessary.",
+          "While exams can cause stress, they also provide structured assessment, prepare students for university entrance requirements, and help identify knowledge gaps for targeted support.",
+          "Some students like exams.",
+          "Stress is bad."
+        ],
+        "choices_zh": [
+          "Exams are necessary.",
+          "While exams can cause stress, they also provide structured assessment, prepare students for university entrance requirements, and help identify knowledge gaps for targeted support.",
+          "Some students like exams.",
+          "Stress is bad."
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Persuasive Writing & Argumentation concepts.",
+        "explanation_zh": "这测试对说服性写作与论证概念的理解。"
+      },
+      {
+        "id": "persuasive-writing-sec2-ex14",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Which revision STRENGTHENS this weak claim? 'Social media is bad for teenagers.'",
+        "prompt_zh": "Which revision STRENGTHENS this weak claim? 'Social media is bad for teenagers.'",
+        "choices": [
+          "Social media is really bad for teenagers.",
+          "Excessive social media use correlates with increased anxiety and decreased face-to-face social skills among teenagers aged 13-17.",
+          "I believe social media harms teenagers.",
+          "Everyone knows social media is harmful."
+        ],
+        "choices_zh": [
+          "Social media is really bad for teenagers.",
+          "Excessive social media use correlates with increased anxiety and decreased face-to-face social skills among teenagers aged 13-17.",
+          "I believe social media harms teenagers.",
+          "Everyone knows social media is harmful."
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Persuasive Writing & Argumentation concepts.",
+        "explanation_zh": "这测试对说服性写作与论证概念的理解。"
+      },
+      {
+        "id": "persuasive-writing-sec2-ex15",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Analyze this persuasive technique: 'Join thousands of Singapore students who have already benefited from our tutoring program!' This primarily uses:",
+        "prompt_zh": "Analyze this persuasive technique: 'Join thousands of Singapore students who have already benefited from our tutoring program!' This primarily uses:",
+        "choices": [
+          "Bandwagon appeal (suggesting everyone is doing it)",
+          "Statistical evidence",
+          "Expert testimony",
+          "Logical reasoning"
+        ],
+        "choices_zh": [
+          "Bandwagon appeal (suggesting everyone is doing it)",
+          "Statistical evidence",
+          "Expert testimony",
+          "Logical reasoning"
+        ],
+        "answer": 0,
+        "explanation": "This tests understanding of Persuasive Writing & Argumentation concepts.",
+        "explanation_zh": "这测试对说服性写作与论证概念的理解。"
+      }
+    ]
+  },
+  {
+    "id": "descriptive-expository-writing-sec2",
+    "gradeLevel": "sec2",
+    "title": "Descriptive & Expository Writing",
+    "title_zh": "描写文与说明文",
+    "description": "Master techniques for vivid descriptive writing and clear expository writing to inform and explain",
+    "description_zh": "掌握生动描写和清晰说明的技巧，以告知和解释",
+    "tag": "Writing",
+    "tag_zh": "写作",
+    "objectives": [
+      "Use sensory details and figurative language in descriptive writing",
+      "Organize expository essays with clear topic sentences and transitions",
+      "Distinguish between description and explanation",
+      "Write clear process explanations and compare-contrast essays"
+    ],
+    "objectives_zh": [
+      "在描写文中使用感官细节和比喻语言",
+      "用清晰的主题句和过渡词组织说明文",
+      "区分描写和解释",
+      "撰写清晰的过程说明和比较对比文章"
+    ],
+    "sections": [
+      {
+        "id": "sensory-details",
+        "title": "Sensory Details & Imagery",
+        "title_zh": "感官细节与意象",
+        "type": "text",
+        "content": "Descriptive writing appeals to the five senses:\n\n- Sight: The durian's spiky green shell glistened under the market lights.\n- Sound: Hawkers shouted their prices above the sizzling of woks.\n- Smell: The aroma of freshly fried carrot cake filled the air.\n- Taste: The kaya toast was sweet and creamy with a hint of pandan.\n- Touch: The humid air clung to my skin as I walked through the MRT station.\n\nShow, don't tell: Instead of It was hot, write Sweat trickled down my back as I waited for the bus."
+      },
+      {
+        "id": "figurative-language",
+        "title": "Figurative Language",
+        "title_zh": "比喻语言",
+        "type": "text",
+        "content": "Enhance descriptions with:\n\n1. Simile (using like or as):\n   The MRT platform was as crowded as a hawker center at lunchtime.\n\n2. Metaphor (direct comparison):\n   Orchard Road is a river of shoppers on weekends.\n\n3. Personification (giving human qualities to objects):\n   The afternoon sun beat down mercilessly on the concrete.\n\n4. Hyperbole (exaggeration):\n   I have told you a million times to bring your EZ-Link card!\n\nUse figuratively language purposefully, not excessively."
+      },
+      {
+        "id": "expository-essay-structure",
+        "title": "Expository Essay Structure",
+        "title_zh": "说明文结构",
+        "type": "text",
+        "content": "Expository writing explains or informs:\n\nTypes:\n1. Process: How to apply for a student Concession Card\n2. Cause-Effect: Why Singapore experiences haze from neighboring countries\n3. Compare-Contrast: Public vs. Private schools in Singapore\n4. Problem-Solution: Addressing food waste in school canteens\n\nStructure:\n- Introduction with clear thesis\n- Body paragraphs with topic sentences\n- Strong transitions (Furthermore, In addition, However, Consequently)\n- Factual, objective tone\n- Conclusion summarizing main points"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "descriptive-expository-writing-sec2-ex1",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Which sentence uses sensory details BEST?",
+        "prompt_zh": "Which sentence uses sensory details BEST?",
+        "choices": [
+          "The food was good.",
+          "The satay was delicious.",
+          "The satay's smoky aroma wafted through the air, and the sweet peanut sauce dripped onto my fingers.",
+          "I ate satay."
+        ],
+        "choices_zh": [
+          "The food was good.",
+          "The satay was delicious.",
+          "The satay's smoky aroma wafted through the air, and the sweet peanut sauce dripped onto my fingers.",
+          "I ate satay."
+        ],
+        "answer": 2,
+        "explanation": "This tests understanding of Descriptive & Expository Writing concepts.",
+        "explanation_zh": "这测试对描写文与说明文概念的理解。"
+      },
+      {
+        "id": "descriptive-expository-writing-sec2-ex2",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Identify the simile:",
+        "prompt_zh": "Identify the simile:",
+        "choices": [
+          "The rain fell heavily.",
+          "The rain fell like silver needles.",
+          "The rain was cold.",
+          "Rain poured from the sky."
+        ],
+        "choices_zh": [
+          "The rain fell heavily.",
+          "The rain fell like silver needles.",
+          "The rain was cold.",
+          "Rain poured from the sky."
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Descriptive & Expository Writing concepts.",
+        "explanation_zh": "这测试对描写文与说明文概念的理解。"
+      },
+      {
+        "id": "descriptive-expository-writing-sec2-ex3",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Which is an example of personification?",
+        "prompt_zh": "Which is an example of personification?",
+        "choices": [
+          "The sun was bright.",
+          "The sun smiled down on the playground.",
+          "The sun rose at 7am.",
+          "We saw the sun."
+        ],
+        "choices_zh": [
+          "The sun was bright.",
+          "The sun smiled down on the playground.",
+          "The sun rose at 7am.",
+          "We saw the sun."
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Descriptive & Expository Writing concepts.",
+        "explanation_zh": "这测试对描写文与说明文概念的理解。"
+      },
+      {
+        "id": "descriptive-expository-writing-sec2-ex4",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "What type of expository essay explains steps? Topic: 'How to Apply for a Student EZ-Link Card'",
+        "prompt_zh": "What type of expository essay explains steps? Topic: 'How to Apply for a Student EZ-Link Card'",
+        "choices": [
+          "Cause-Effect",
+          "Compare-Contrast",
+          "Process",
+          "Problem-Solution"
+        ],
+        "choices_zh": [
+          "Cause-Effect",
+          "Compare-Contrast",
+          "Process",
+          "Problem-Solution"
+        ],
+        "answer": 2,
+        "explanation": "This tests understanding of Descriptive & Expository Writing concepts.",
+        "explanation_zh": "这测试对描写文与说明文概念的理解。"
+      },
+      {
+        "id": "descriptive-expository-writing-sec2-ex5",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Which transition word shows contrast in expository writing?",
+        "prompt_zh": "Which transition word shows contrast in expository writing?",
+        "choices": [
+          "Additionally",
+          "Furthermore",
+          "However",
+          "Consequently"
+        ],
+        "choices_zh": [
+          "Additionally",
+          "Furthermore",
+          "However",
+          "Consequently"
+        ],
+        "answer": 2,
+        "explanation": "This tests understanding of Descriptive & Expository Writing concepts.",
+        "explanation_zh": "这测试对描写文与说明文概念的理解。"
+      },
+      {
+        "id": "descriptive-expository-writing-sec2-ex6",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Revise this telling sentence to showing: 'The hawker center was busy.'",
+        "prompt_zh": "Revise this telling sentence to showing: 'The hawker center was busy.'",
+        "choices": [
+          "The hawker center had many people.",
+          "The hawker center was very busy with customers.",
+          "Diners jostled for seats while hawkers' shouts competed with sizzling woks and clattering plates.",
+          "It was a busy time at the hawker center."
+        ],
+        "choices_zh": [
+          "The hawker center had many people.",
+          "The hawker center was very busy with customers.",
+          "Diners jostled for seats while hawkers' shouts competed with sizzling woks and clattering plates.",
+          "It was a busy time at the hawker center."
+        ],
+        "answer": 2,
+        "explanation": "This tests understanding of Descriptive & Expository Writing concepts.",
+        "explanation_zh": "这测试对描写文与说明文概念的理解。"
+      },
+      {
+        "id": "descriptive-expository-writing-sec2-ex7",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Which sentence uses a metaphor effectively?",
+        "prompt_zh": "Which sentence uses a metaphor effectively?",
+        "choices": [
+          "Marina Bay Sands is a tall building.",
+          "Marina Bay Sands is like three towers.",
+          "Marina Bay Sands' rooftop infinity pool is a shimmering sapphire crown above the city.",
+          "Marina Bay Sands was built in 2010."
+        ],
+        "choices_zh": [
+          "Marina Bay Sands is a tall building.",
+          "Marina Bay Sands is like three towers.",
+          "Marina Bay Sands' rooftop infinity pool is a shimmering sapphire crown above the city.",
+          "Marina Bay Sands was built in 2010."
+        ],
+        "answer": 2,
+        "explanation": "This tests understanding of Descriptive & Expository Writing concepts.",
+        "explanation_zh": "这测试对描写文与说明文概念的理解。"
+      },
+      {
+        "id": "descriptive-expository-writing-sec2-ex8",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "For a compare-contrast essay about 'HDB flats vs. Condominiums,' which structure is MOST effective?",
+        "prompt_zh": "For a compare-contrast essay about 'HDB flats vs. Condominiums,' which structure is MOST effective?",
+        "choices": [
+          "Describe all HDB features, then all condo features separately",
+          "Alternate point-by-point: cost (HDB vs condo), amenities (HDB vs condo), space (HDB vs condo)",
+          "Only describe HDB flats",
+          "Write random facts about both"
+        ],
+        "choices_zh": [
+          "Describe all HDB features, then all condo features separately",
+          "Alternate point-by-point: cost (HDB vs condo), amenities (HDB vs condo), space (HDB vs condo)",
+          "Only describe HDB flats",
+          "Write random facts about both"
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Descriptive & Expository Writing concepts.",
+        "explanation_zh": "这测试对描写文与说明文概念的理解。"
+      },
+      {
+        "id": "descriptive-expository-writing-sec2-ex9",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Identify the weakness in this descriptive sentence: 'The durian smelled bad and tasted bad but some people like it.'",
+        "prompt_zh": "Identify the weakness in this descriptive sentence: 'The durian smelled bad and tasted bad but some people like it.'",
+        "choices": [
+          "Wrong tense",
+          "Lacks specific sensory details and uses vague words like 'bad'",
+          "Too long",
+          "Wrong punctuation"
+        ],
+        "choices_zh": [
+          "Wrong tense",
+          "Lacks specific sensory details and uses vague words like 'bad'",
+          "Too long",
+          "Wrong punctuation"
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Descriptive & Expository Writing concepts.",
+        "explanation_zh": "这测试对描写文与说明文概念的理解。"
+      },
+      {
+        "id": "descriptive-expository-writing-sec2-ex10",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Which topic sentence is BEST for an expository paragraph about cause-effect?",
+        "prompt_zh": "Which topic sentence is BEST for an expository paragraph about cause-effect?",
+        "choices": [
+          "Singapore has haze.",
+          "This paragraph is about haze.",
+          "Transboundary haze affects Singapore primarily due to forest fires in neighboring Indonesia.",
+          "Haze is bad for health."
+        ],
+        "choices_zh": [
+          "Singapore has haze.",
+          "This paragraph is about haze.",
+          "Transboundary haze affects Singapore primarily due to forest fires in neighboring Indonesia.",
+          "Haze is bad for health."
+        ],
+        "answer": 2,
+        "explanation": "This tests understanding of Descriptive & Expository Writing concepts.",
+        "explanation_zh": "这测试对描写文与说明文概念的理解。"
+      },
+      {
+        "id": "descriptive-expository-writing-sec2-ex11",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Which description uses sensory details from MULTIPLE senses most effectively?",
+        "prompt_zh": "Which description uses sensory details from MULTIPLE senses most effectively?",
+        "choices": [
+          "The night market was crowded.",
+          "The market was noisy and bright.",
+          "Under the glaring fluorescent lights, vendors' calls mingled with the crackle of frying oil, while the sweet-sour tang of pineapple tarts competed with the earthy scent of roasted chestnuts; I weaved through the jostling crowd, my hands sticky from pearl milk tea.",
+          "The night market had food, lights, and people."
+        ],
+        "choices_zh": [
+          "The night market was crowded.",
+          "The market was noisy and bright.",
+          "Under the glaring fluorescent lights, vendors' calls mingled with the crackle of frying oil, while the sweet-sour tang of pineapple tarts competed with the earthy scent of roasted chestnuts; I weaved through the jostling crowd, my hands sticky from pearl milk tea.",
+          "The night market had food, lights, and people."
+        ],
+        "answer": 2,
+        "explanation": "This tests understanding of Descriptive & Expository Writing concepts.",
+        "explanation_zh": "这测试对描写文与说明文概念的理解。"
+      },
+      {
+        "id": "descriptive-expository-writing-sec2-ex12",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Evaluate this figurative language: 'The MRT train was a silver snake slithering through underground tunnels.' What makes this effective?",
+        "prompt_zh": "Evaluate this figurative language: 'The MRT train was a silver snake slithering through underground tunnels.' What makes this effective?",
+        "choices": [
+          "It uses color words",
+          "The metaphor captures both the train's appearance and motion while evoking the dark, winding nature of tunnels",
+          "It mentions the MRT",
+          "It is a long sentence"
+        ],
+        "choices_zh": [
+          "It uses color words",
+          "The metaphor captures both the train's appearance and motion while evoking the dark, winding nature of tunnels",
+          "It mentions the MRT",
+          "It is a long sentence"
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Descriptive & Expository Writing concepts.",
+        "explanation_zh": "这测试对描写文与说明文概念的理解。"
+      },
+      {
+        "id": "descriptive-expository-writing-sec2-ex13",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "For a problem-solution expository essay on 'Food Waste in School Canteens,' which structure is MOST logical?",
+        "prompt_zh": "For a problem-solution expository essay on 'Food Waste in School Canteens,' which structure is MOST logical?",
+        "choices": [
+          "Solution, then problem, then more solutions",
+          "Problem description with causes, then proposed solutions with supporting evidence, then conclusion with call to action",
+          "Only describe the problem",
+          "Random facts about food waste"
+        ],
+        "choices_zh": [
+          "Solution, then problem, then more solutions",
+          "Problem description with causes, then proposed solutions with supporting evidence, then conclusion with call to action",
+          "Only describe the problem",
+          "Random facts about food waste"
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Descriptive & Expository Writing concepts.",
+        "explanation_zh": "这测试对描写文与说明文概念的理解。"
+      },
+      {
+        "id": "descriptive-expository-writing-sec2-ex14",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Which revision improves this weak description? 'The sunset was beautiful with nice colors.'",
+        "prompt_zh": "Which revision improves this weak description? 'The sunset was beautiful with nice colors.'",
+        "choices": [
+          "The sunset was very beautiful with pretty colors.",
+          "The sunset had beautiful colors in the sky.",
+          "Amber and crimson streaks blazed across the horizon, reflecting off the glass towers and turning Marina Bay into a mirror of molten gold.",
+          "The beautiful sunset had nice orange and red colors."
+        ],
+        "choices_zh": [
+          "The sunset was very beautiful with pretty colors.",
+          "The sunset had beautiful colors in the sky.",
+          "Amber and crimson streaks blazed across the horizon, reflecting off the glass towers and turning Marina Bay into a mirror of molten gold.",
+          "The beautiful sunset had nice orange and red colors."
+        ],
+        "answer": 2,
+        "explanation": "This tests understanding of Descriptive & Expository Writing concepts.",
+        "explanation_zh": "这测试对描写文与说明文概念的理解。"
+      },
+      {
+        "id": "descriptive-expository-writing-sec2-ex15",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Analyze this expository excerpt: 'Singapore's bilingual policy has several effects. First, it promotes multiculturalism. Second, it provides economic advantages. Third, it preserves heritage languages.' What expository technique is used?",
+        "prompt_zh": "Analyze this expository excerpt: 'Singapore's bilingual policy has several effects. First, it promotes multiculturalism. Second, it provides economic advantages. Third, it preserves heritage languages.' What expository technique is used?",
+        "choices": [
+          "Chronological order",
+          "Enumeration of multiple effects with clear transitions",
+          "Comparison",
+          "Personal narrative"
+        ],
+        "choices_zh": [
+          "Chronological order",
+          "Enumeration of multiple effects with clear transitions",
+          "Comparison",
+          "Personal narrative"
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Descriptive & Expository Writing concepts.",
+        "explanation_zh": "这测试对描写文与说明文概念的理解。"
+      }
+    ]
+  },
+  {
+    "id": "literary-devices-sec2",
+    "gradeLevel": "sec2",
+    "title": "Literary Devices & Analysis",
+    "title_zh": "文学手法与分析",
+    "description": "Identify and analyze literary devices including symbolism, irony, foreshadowing, and theme in literature",
+    "description_zh": "识别和分析文学手法，包括象征、讽刺、伏笔和主题",
+    "tag": "Reading",
+    "tag_zh": "阅读",
+    "objectives": [
+      "Identify symbolism, irony, and foreshadowing in texts",
+      "Analyze how literary devices contribute to theme and meaning",
+      "Distinguish between different types of irony",
+      "Write analytical paragraphs using textual evidence"
+    ],
+    "objectives_zh": [
+      "识别文本中的象征、讽刺和伏笔",
+      "分析文学手法如何促进主题和意义",
+      "区分不同类型的讽刺",
+      "使用文本证据撰写分析段落"
+    ],
+    "sections": [
+      {
+        "id": "symbolism",
+        "title": "Symbolism",
+        "title_zh": "象征手法",
+        "type": "text",
+        "content": "A symbol is something that represents something else beyond its literal meaning.\n\nCommon symbols:\n- Weather: Storm = conflict, sunshine = hope\n- Colors: Red = danger/passion, white = purity\n- Objects: Keys = freedom, walls = barriers\n\nExample: In a story about Singapore's independence, the national flag might symbolize unity and hope for the future.\n\nTo analyze symbolism:\n1. Identify the symbol\n2. Consider its literal meaning\n3. Determine its deeper significance\n4. Connect to the story's theme"
+      },
+      {
+        "id": "irony-types",
+        "title": "Types of Irony",
+        "title_zh": "讽刺的类型",
+        "type": "text",
+        "content": "Three types of irony:\n\n1. Verbal Irony: Saying the opposite of what you mean\n   - What lovely weather! (said during a thunderstorm)\n   - Includes sarcasm\n\n2. Situational Irony: Outcome opposite of what is expected\n   - A fire station burns down\n   - A student who never studies tops the class\n\n3. Dramatic Irony: Audience knows something characters do not\n   - In a story, readers know the helpful stranger is actually a thief, but the character trusts him\n\nIrony often reveals theme or creates humor."
+      },
+      {
+        "id": "foreshadowing-theme",
+        "title": "Foreshadowing & Theme",
+        "title_zh": "伏笔与主题",
+        "type": "text",
+        "content": "Foreshadowing: Hints about future events\n- Dark clouds gathering = trouble ahead\n- A character's warning = danger coming\n- Repeated images = significance later\n\nExample: As he pocketed the extra change, he did not notice the security camera above. (foreshadows getting caught)\n\nTheme: Central message or lesson\n- Not the same as topic (topic = friendship, theme = True friends support each other in difficult times)\n- Often universal and stated as a complete sentence\n- Revealed through characters' actions, conflicts, and resolutions\n\nSingapore literature often explores themes of multiculturalism, family expectations, and identity."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "literary-devices-sec2-ex1",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "In a story, a character finds an old key. The key most likely symbolizes:",
+        "prompt_zh": "In a story, a character finds an old key. The key most likely symbolizes:",
+        "choices": [
+          "A door",
+          "Freedom or a new opportunity",
+          "Metal",
+          "Lock"
+        ],
+        "choices_zh": [
+          "A door",
+          "Freedom or a new opportunity",
+          "Metal",
+          "Lock"
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Literary Devices & Analysis concepts.",
+        "explanation_zh": "这测试对文学手法与分析概念的理解。"
+      },
+      {
+        "id": "literary-devices-sec2-ex2",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Identify the type of irony: A character says 'Great weather for a picnic!' during a thunderstorm.",
+        "prompt_zh": "Identify the type of irony: A character says 'Great weather for a picnic!' during a thunderstorm.",
+        "choices": [
+          "Dramatic irony",
+          "Situational irony",
+          "Verbal irony",
+          "No irony"
+        ],
+        "choices_zh": [
+          "Dramatic irony",
+          "Situational irony",
+          "Verbal irony",
+          "No irony"
+        ],
+        "answer": 2,
+        "explanation": "This tests understanding of Literary Devices & Analysis concepts.",
+        "explanation_zh": "这测试对文学手法与分析概念的理解。"
+      },
+      {
+        "id": "literary-devices-sec2-ex3",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Which is an example of foreshadowing?",
+        "prompt_zh": "Which is an example of foreshadowing?",
+        "choices": [
+          "The sun rose at 7am.",
+          "Dark storm clouds gathered as they set out on their journey.",
+          "She ate breakfast.",
+          "The school bell rang."
+        ],
+        "choices_zh": [
+          "The sun rose at 7am.",
+          "Dark storm clouds gathered as they set out on their journey.",
+          "She ate breakfast.",
+          "The school bell rang."
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Literary Devices & Analysis concepts.",
+        "explanation_zh": "这测试对文学手法与分析概念的理解。"
+      },
+      {
+        "id": "literary-devices-sec2-ex4",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "A theme is:",
+        "prompt_zh": "A theme is:",
+        "choices": [
+          "The topic of the story",
+          "A central message or lesson expressed as a complete idea",
+          "The setting",
+          "The character's name"
+        ],
+        "choices_zh": [
+          "The topic of the story",
+          "A central message or lesson expressed as a complete idea",
+          "The setting",
+          "The character's name"
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Literary Devices & Analysis concepts.",
+        "explanation_zh": "这测试对文学手法与分析概念的理解。"
+      },
+      {
+        "id": "literary-devices-sec2-ex5",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "In a story, a broken mirror appears repeatedly. This is an example of:",
+        "prompt_zh": "In a story, a broken mirror appears repeatedly. This is an example of:",
+        "choices": [
+          "Metaphor",
+          "Symbolism through repeated imagery",
+          "Simile",
+          "Alliteration"
+        ],
+        "choices_zh": [
+          "Metaphor",
+          "Symbolism through repeated imagery",
+          "Simile",
+          "Alliteration"
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Literary Devices & Analysis concepts.",
+        "explanation_zh": "这测试对文学手法与分析概念的理解。"
+      },
+      {
+        "id": "literary-devices-sec2-ex6",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "In a story, readers know a character's drink is poisoned, but the character doesn't. This is:",
+        "prompt_zh": "In a story, readers know a character's drink is poisoned, but the character doesn't. This is:",
+        "choices": [
+          "Verbal irony",
+          "Situational irony",
+          "Dramatic irony",
+          "Foreshadowing"
+        ],
+        "choices_zh": [
+          "Verbal irony",
+          "Situational irony",
+          "Dramatic irony",
+          "Foreshadowing"
+        ],
+        "answer": 2,
+        "explanation": "This tests understanding of Literary Devices & Analysis concepts.",
+        "explanation_zh": "这测试对文学手法与分析概念的理解。"
+      },
+      {
+        "id": "literary-devices-sec2-ex7",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Analyze: In a story about Singapore's history, the national flag appears in the opening scene when a character emigrates, and again at the end when her grandchild achieves success. The flag symbolizes:",
+        "prompt_zh": "Analyze: In a story about Singapore's history, the national flag appears in the opening scene when a character emigrates, and again at the end when her grandchild achieves success. The flag symbolizes:",
+        "choices": [
+          "National identity, belonging, and generational connection to Singapore",
+          "Colors red and white",
+          "Government",
+          "Cloth"
+        ],
+        "choices_zh": [
+          "National identity, belonging, and generational connection to Singapore",
+          "Colors red and white",
+          "Government",
+          "Cloth"
+        ],
+        "answer": 0,
+        "explanation": "This tests understanding of Literary Devices & Analysis concepts.",
+        "explanation_zh": "这测试对文学手法与分析概念的理解。"
+      },
+      {
+        "id": "literary-devices-sec2-ex8",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Which statement is a theme (not just a topic)?",
+        "prompt_zh": "Which statement is a theme (not just a topic)?",
+        "choices": [
+          "The story is about friendship.",
+          "Friendship",
+          "True friends support each other through difficult times.",
+          "Two friends"
+        ],
+        "choices_zh": [
+          "The story is about friendship.",
+          "Friendship",
+          "True friends support each other through difficult times.",
+          "Two friends"
+        ],
+        "answer": 2,
+        "explanation": "This tests understanding of Literary Devices & Analysis concepts.",
+        "explanation_zh": "这测试对文学手法与分析概念的理解。"
+      },
+      {
+        "id": "literary-devices-sec2-ex9",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Identify the situational irony: A fire station _____.",
+        "prompt_zh": "Identify the situational irony: A fire station _____.",
+        "choices": [
+          "Has firefighters",
+          "Burns down",
+          "Has red trucks",
+          "Is located downtown"
+        ],
+        "choices_zh": [
+          "Has firefighters",
+          "Burns down",
+          "Has red trucks",
+          "Is located downtown"
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Literary Devices & Analysis concepts.",
+        "explanation_zh": "这测试对文学手法与分析概念的理解。"
+      },
+      {
+        "id": "literary-devices-sec2-ex10",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "A story opens: 'As Li Wei pocketed the exam answer key, he smiled. This was going to be easy.' This foreshadows:",
+        "prompt_zh": "A story opens: 'As Li Wei pocketed the exam answer key, he smiled. This was going to be easy.' This foreshadows:",
+        "choices": [
+          "Li Wei will succeed easily",
+          "Li Wei will likely face consequences for cheating",
+          "Li Wei is a good student",
+          "The exam is tomorrow"
+        ],
+        "choices_zh": [
+          "Li Wei will succeed easily",
+          "Li Wei will likely face consequences for cheating",
+          "Li Wei is a good student",
+          "The exam is tomorrow"
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Literary Devices & Analysis concepts.",
+        "explanation_zh": "这测试对文学手法与分析概念的理解。"
+      },
+      {
+        "id": "literary-devices-sec2-ex11",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "In a Singaporean short story, rain appears during every major conflict and sunshine appears during resolutions. How does this symbolism function?",
+        "prompt_zh": "In a Singaporean short story, rain appears during every major conflict and sunshine appears during resolutions. How does this symbolism function?",
+        "choices": [
+          "Weather symbolizes the characters' emotional states and reinforces the story's movement between conflict and resolution",
+          "Rain means it is monsoon season",
+          "The author likes weather",
+          "It creates setting"
+        ],
+        "choices_zh": [
+          "Weather symbolizes the characters' emotional states and reinforces the story's movement between conflict and resolution",
+          "Rain means it is monsoon season",
+          "The author likes weather",
+          "It creates setting"
+        ],
+        "answer": 0,
+        "explanation": "This tests understanding of Literary Devices & Analysis concepts.",
+        "explanation_zh": "这测试对文学手法与分析概念的理解。"
+      },
+      {
+        "id": "literary-devices-sec2-ex12",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Analyze this excerpt: 'Ah Ma carefully folded the traditional kebaya her grandmother had given her. Tomorrow, she would donate it to the museum. Her granddaughter preferred jeans.' What theme does this symbolism suggest?",
+        "prompt_zh": "Analyze this excerpt: 'Ah Ma carefully folded the traditional kebaya her grandmother had given her. Tomorrow, she would donate it to the museum. Her granddaughter preferred jeans.' What theme does this symbolism suggest?",
+        "choices": [
+          "Clothing changes",
+          "Generational change and the tension between preserving tradition and embracing modernity",
+          "Museums collect clothes",
+          "Jeans are comfortable"
+        ],
+        "choices_zh": [
+          "Clothing changes",
+          "Generational change and the tension between preserving tradition and embracing modernity",
+          "Museums collect clothes",
+          "Jeans are comfortable"
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Literary Devices & Analysis concepts.",
+        "explanation_zh": "这测试对文学手法与分析概念的理解。"
+      },
+      {
+        "id": "literary-devices-sec2-ex13",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "A student writes: 'The theme of the story is friendship.' What is the problem with this theme statement?",
+        "prompt_zh": "A student writes: 'The theme of the story is friendship.' What is the problem with this theme statement?",
+        "choices": [
+          "It identifies a topic, not a theme; theme should be a complete statement about friendship like 'True friendship requires honesty even when it is difficult'",
+          "Wrong spelling",
+          "Too short",
+          "Wrong punctuation"
+        ],
+        "choices_zh": [
+          "It identifies a topic, not a theme; theme should be a complete statement about friendship like 'True friendship requires honesty even when it is difficult'",
+          "Wrong spelling",
+          "Too short",
+          "Wrong punctuation"
+        ],
+        "answer": 0,
+        "explanation": "This tests understanding of Literary Devices & Analysis concepts.",
+        "explanation_zh": "这测试对文学手法与分析概念的理解。"
+      },
+      {
+        "id": "literary-devices-sec2-ex14",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "In a story, a character who constantly preaches honesty is revealed to have been lying throughout. This is BEST described as:",
+        "prompt_zh": "In a story, a character who constantly preaches honesty is revealed to have been lying throughout. This is BEST described as:",
+        "choices": [
+          "Dramatic irony",
+          "Situational irony that reveals hypocrisy",
+          "Foreshadowing",
+          "Symbolism"
+        ],
+        "choices_zh": [
+          "Dramatic irony",
+          "Situational irony that reveals hypocrisy",
+          "Foreshadowing",
+          "Symbolism"
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Literary Devices & Analysis concepts.",
+        "explanation_zh": "这测试对文学手法与分析概念的理解。"
+      },
+      {
+        "id": "literary-devices-sec2-ex15",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "A story about workers building Singapore's early infrastructure repeatedly mentions 'laying foundations.' Beyond literal meaning, this most likely symbolizes:",
+        "prompt_zh": "A story about workers building Singapore's early infrastructure repeatedly mentions 'laying foundations.' Beyond literal meaning, this most likely symbolizes:",
+        "choices": [
+          "Construction work",
+          "Singapore's nation-building and the foundation for future prosperity",
+          "Concrete",
+          "Buildings"
+        ],
+        "choices_zh": [
+          "Construction work",
+          "Singapore's nation-building and the foundation for future prosperity",
+          "Concrete",
+          "Buildings"
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Literary Devices & Analysis concepts.",
+        "explanation_zh": "这测试对文学手法与分析概念的理解。"
+      }
+    ]
+  },
+  {
+    "id": "critical-reading-sec2",
+    "gradeLevel": "sec2",
+    "title": "Critical Reading & Inference",
+    "title_zh": "批判性阅读与推理",
+    "description": "Develop advanced comprehension skills including making inferences, drawing conclusions, and evaluating author's purpose and perspective",
+    "description_zh": "培养高级理解技能，包括推理、得出结论以及评估作者的目的和观点",
+    "tag": "Reading",
+    "tag_zh": "阅读",
+    "objectives": [
+      "Make logical inferences based on textual evidence",
+      "Evaluate author's perspective and bias",
+      "Distinguish between fact and opinion",
+      "Analyze author's tone and purpose (inform, persuade, entertain)"
+    ],
+    "objectives_zh": [
+      "基于文本证据进行逻辑推理",
+      "评估作者的观点和偏见",
+      "区分事实和观点",
+      "分析作者的语气和目的（告知、说服、娱乐）"
+    ],
+    "sections": [
+      {
+        "id": "making-inferences",
+        "title": "Making Inferences",
+        "title_zh": "推理",
+        "type": "text",
+        "content": "An inference is a logical conclusion based on evidence and reasoning.\n\nText: Sarah slammed her locker shut and stomped down the hallway, ignoring her friends' greetings.\n\nInference: Sarah is angry or upset about something.\n\nTo make good inferences:\n1. Look for clues (actions, dialogue, descriptions)\n2. Use prior knowledge\n3. Ask What does this suggest?\n4. Support inference with evidence from text\n\nAvoid: Wild guesses without textual support"
+      },
+      {
+        "id": "fact-vs-opinion",
+        "title": "Fact vs. Opinion",
+        "title_zh": "事实与观点",
+        "type": "text",
+        "content": "Fact: Can be verified or proven\n- Singapore gained independence in 1965. (checkable)\n- The Merlion is located at Marina Bay. (verifiable)\n\nOpinion: Personal belief or judgment\n- Singapore is the best country in Southeast Asia. (subjective)\n- Chicken rice is delicious. (personal taste)\n\nWatch for opinion markers:\n- I think, I believe, in my opinion\n- Should, ought to, must\n- Adjectives (best, worst, beautiful, terrible)\n\nCritical readers distinguish facts from opinions to evaluate arguments."
+      },
+      {
+        "id": "authors-purpose-tone",
+        "title": "Author's Purpose & Tone",
+        "title_zh": "作者的目的与语气",
+        "type": "text",
+        "content": "Author's Purpose:\n1. Inform: Provide facts (textbooks, news articles)\n2. Persuade: Convince readers (editorials, advertisements)\n3. Entertain: Amuse or engage (stories, poems)\n\nAuthor's Tone (attitude toward subject):\n- Formal vs. Informal\n- Serious, humorous, sarcastic, sympathetic, critical\n\nClues to tone:\n- Word choice (diction)\n- Sentence structure\n- Details included/excluded\n\nExample: A news article about youth volunteerism using words like inspiring and commendable has an approving tone.\n\nBias: Unfair preference for or against something. Look for one-sided arguments and loaded language."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "critical-reading-sec2-ex1",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Which statement is a FACT?",
+        "prompt_zh": "Which statement is a FACT?",
+        "choices": [
+          "Singapore's Changi Airport is the best in the world.",
+          "Singapore consists of 63 islands.",
+          "Chili crab is delicious.",
+          "Everyone should visit Singapore."
+        ],
+        "choices_zh": [
+          "Singapore's Changi Airport is the best in the world.",
+          "Singapore consists of 63 islands.",
+          "Chili crab is delicious.",
+          "Everyone should visit Singapore."
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Critical Reading & Inference concepts.",
+        "explanation_zh": "这测试对批判性阅读与推理概念的理解。"
+      },
+      {
+        "id": "critical-reading-sec2-ex2",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Text: 'Jamie slammed his textbook shut and stared out the window, ignoring his friend's question.' What can you infer?",
+        "prompt_zh": "Text: 'Jamie slammed his textbook shut and stared out the window, ignoring his friend's question.' What can you infer?",
+        "choices": [
+          "Jamie is happy",
+          "Jamie is frustrated or upset",
+          "Jamie likes windows",
+          "Jamie is hungry"
+        ],
+        "choices_zh": [
+          "Jamie is happy",
+          "Jamie is frustrated or upset",
+          "Jamie likes windows",
+          "Jamie is hungry"
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Critical Reading & Inference concepts.",
+        "explanation_zh": "这测试对批判性阅读与推理概念的理解。"
+      },
+      {
+        "id": "critical-reading-sec2-ex3",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Which word indicates an opinion?",
+        "prompt_zh": "Which word indicates an opinion?",
+        "choices": [
+          "Singapore has four official languages.",
+          "The temperature reached 32 degrees.",
+          "Marina Bay Sands is beautiful.",
+          "The MRT opened in 1987."
+        ],
+        "choices_zh": [
+          "Singapore has four official languages.",
+          "The temperature reached 32 degrees.",
+          "Marina Bay Sands is beautiful.",
+          "The MRT opened in 1987."
+        ],
+        "answer": 2,
+        "explanation": "This tests understanding of Critical Reading & Inference concepts.",
+        "explanation_zh": "这测试对批判性阅读与推理概念的理解。"
+      },
+      {
+        "id": "critical-reading-sec2-ex4",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "An author writing a textbook chapter about Singapore's water management has what purpose?",
+        "prompt_zh": "An author writing a textbook chapter about Singapore's water management has what purpose?",
+        "choices": [
+          "To persuade",
+          "To entertain",
+          "To inform",
+          "To confuse"
+        ],
+        "choices_zh": [
+          "To persuade",
+          "To entertain",
+          "To inform",
+          "To confuse"
+        ],
+        "answer": 2,
+        "explanation": "This tests understanding of Critical Reading & Inference concepts.",
+        "explanation_zh": "这测试对批判性阅读与推理概念的理解。"
+      },
+      {
+        "id": "critical-reading-sec2-ex5",
+        "type": "mcq",
+        "difficulty": "easy",
+        "prompt": "Which sentence contains bias?",
+        "prompt_zh": "Which sentence contains bias?",
+        "choices": [
+          "The government implemented new policies.",
+          "The foolish opposition rejected the obviously superior plan.",
+          "Two parties debated the policy.",
+          "Citizens voted in the election."
+        ],
+        "choices_zh": [
+          "The government implemented new policies.",
+          "The foolish opposition rejected the obviously superior plan.",
+          "Two parties debated the policy.",
+          "Citizens voted in the election."
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Critical Reading & Inference concepts.",
+        "explanation_zh": "这测试对批判性阅读与推理概念的理解。"
+      },
+      {
+        "id": "critical-reading-sec2-ex6",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Text: 'The canteen auntie smiled warmly as she served extra vegetables onto my plate, though I hadn't requested them.' What is the BEST inference about the auntie's motivation?",
+        "prompt_zh": "Text: 'The canteen auntie smiled warmly as she served extra vegetables onto my plate, though I hadn't requested them.' What is the BEST inference about the auntie's motivation?",
+        "choices": [
+          "She made a mistake",
+          "She dislikes the student",
+          "She cares about students eating healthily",
+          "She has too many vegetables"
+        ],
+        "choices_zh": [
+          "She made a mistake",
+          "She dislikes the student",
+          "She cares about students eating healthily",
+          "She has too many vegetables"
+        ],
+        "answer": 2,
+        "explanation": "This tests understanding of Critical Reading & Inference concepts.",
+        "explanation_zh": "这测试对批判性阅读与推理概念的理解。"
+      },
+      {
+        "id": "critical-reading-sec2-ex7",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Analyze this statement: 'Studies show that 65% of Singaporean students participate in CCAs. Clearly, schools should make CCA mandatory for all students.' What is the logical flaw?",
+        "prompt_zh": "Analyze this statement: 'Studies show that 65% of Singaporean students participate in CCAs. Clearly, schools should make CCA mandatory for all students.' What is the logical flaw?",
+        "choices": [
+          "The conclusion doesn't necessarily follow; 65% participation might indicate sufficient voluntary engagement",
+          "Wrong percentage",
+          "Wrong topic",
+          "No flaw"
+        ],
+        "choices_zh": [
+          "The conclusion doesn't necessarily follow; 65% participation might indicate sufficient voluntary engagement",
+          "Wrong percentage",
+          "Wrong topic",
+          "No flaw"
+        ],
+        "answer": 0,
+        "explanation": "This tests understanding of Critical Reading & Inference concepts.",
+        "explanation_zh": "这测试对批判性阅读与推理概念的理解。"
+      },
+      {
+        "id": "critical-reading-sec2-ex8",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "An editorial about building a new MRT line uses phrases like 'wasteful spending' and 'questionable necessity.' The author's tone is:",
+        "prompt_zh": "An editorial about building a new MRT line uses phrases like 'wasteful spending' and 'questionable necessity.' The author's tone is:",
+        "choices": [
+          "Neutral",
+          "Critical and disapproving",
+          "Enthusiastic",
+          "Confused"
+        ],
+        "choices_zh": [
+          "Neutral",
+          "Critical and disapproving",
+          "Enthusiastic",
+          "Confused"
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Critical Reading & Inference concepts.",
+        "explanation_zh": "这测试对批判性阅读与推理概念的理解。"
+      },
+      {
+        "id": "critical-reading-sec2-ex9",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Which evidence would BEST support distinguishing fact from opinion in this claim: 'Henderson Waves is Singapore's most beautiful bridge.'",
+        "prompt_zh": "Which evidence would BEST support distinguishing fact from opinion in this claim: 'Henderson Waves is Singapore's most beautiful bridge.'",
+        "choices": [
+          "The word 'beautiful' indicates subjective opinion; facts would be 'Henderson Waves is Singapore's highest pedestrian bridge at 36 meters'",
+          "It mentions Henderson Waves",
+          "Bridges are structures",
+          "The sentence has adjectives"
+        ],
+        "choices_zh": [
+          "The word 'beautiful' indicates subjective opinion; facts would be 'Henderson Waves is Singapore's highest pedestrian bridge at 36 meters'",
+          "It mentions Henderson Waves",
+          "Bridges are structures",
+          "The sentence has adjectives"
+        ],
+        "answer": 0,
+        "explanation": "This tests understanding of Critical Reading & Inference concepts.",
+        "explanation_zh": "这测试对批判性阅读与推理概念的理解。"
+      },
+      {
+        "id": "critical-reading-sec2-ex10",
+        "type": "mcq",
+        "difficulty": "medium",
+        "prompt": "Text: 'After three weeks of drought, the reservoir levels dropped to 40%. Experts warned of potential water rationing.' What can you validly infer?",
+        "prompt_zh": "Text: 'After three weeks of drought, the reservoir levels dropped to 40%. Experts warned of potential water rationing.' What can you validly infer?",
+        "choices": [
+          "It will definitely rain tomorrow",
+          "Singapore may face water supply challenges if drought continues",
+          "Reservoirs are useless",
+          "Experts are always wrong"
+        ],
+        "choices_zh": [
+          "It will definitely rain tomorrow",
+          "Singapore may face water supply challenges if drought continues",
+          "Reservoirs are useless",
+          "Experts are always wrong"
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Critical Reading & Inference concepts.",
+        "explanation_zh": "这测试对批判性阅读与推理概念的理解。"
+      },
+      {
+        "id": "critical-reading-sec2-ex11",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Analyze this excerpt from an article: 'While proponents claim the new grading system promotes holistic learning, critics rightly point out that it creates confusion and unfairly disadvantages high-achieving students.' Identify the bias.",
+        "prompt_zh": "Analyze this excerpt from an article: 'While proponents claim the new grading system promotes holistic learning, critics rightly point out that it creates confusion and unfairly disadvantages high-achieving students.' Identify the bias.",
+        "choices": [
+          "The author uses 'rightly' to signal agreement with critics, revealing bias against the new system",
+          "The word 'grading'",
+          "Mention of students",
+          "No bias present"
+        ],
+        "choices_zh": [
+          "The author uses 'rightly' to signal agreement with critics, revealing bias against the new system",
+          "The word 'grading'",
+          "Mention of students",
+          "No bias present"
+        ],
+        "answer": 0,
+        "explanation": "This tests understanding of Critical Reading & Inference concepts.",
+        "explanation_zh": "这测试对批判性阅读与推理概念的理解。"
+      },
+      {
+        "id": "critical-reading-sec2-ex12",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "A travel blog states: 'Singapore offers world-class attractions (Fact). Every tourist will absolutely love Gardens by the Bay (Opinion). The Gardens opened in 2012 (Fact). It's obviously the most impressive garden in Asia (Opinion).' How many opinion statements?",
+        "prompt_zh": "A travel blog states: 'Singapore offers world-class attractions (Fact). Every tourist will absolutely love Gardens by the Bay (Opinion). The Gardens opened in 2012 (Fact). It's obviously the most impressive garden in Asia (Opinion).' How many opinion statements?",
+        "choices": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "choices_zh": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Critical Reading & Inference concepts.",
+        "explanation_zh": "这测试对批判性阅读与推理概念的理解。"
+      },
+      {
+        "id": "critical-reading-sec2-ex13",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Complex inference: 'The Principal announced that the school carnival raised $15,000. This exceeded the goal by $3,000. She thanked the Parent Support Group especially.' What can you infer about PSG's role?",
+        "prompt_zh": "Complex inference: 'The Principal announced that the school carnival raised $15,000. This exceeded the goal by $3,000. She thanked the Parent Support Group especially.' What can you infer about PSG's role?",
+        "choices": [
+          "PSG attended the carnival",
+          "PSG likely played a significant role in organizing or contributing to the carnival's success",
+          "PSG set the goal",
+          "PSG received the money"
+        ],
+        "choices_zh": [
+          "PSG attended the carnival",
+          "PSG likely played a significant role in organizing or contributing to the carnival's success",
+          "PSG set the goal",
+          "PSG received the money"
+        ],
+        "answer": 1,
+        "explanation": "This tests understanding of Critical Reading & Inference concepts.",
+        "explanation_zh": "这测试对批判性阅读与推理概念的理解。"
+      },
+      {
+        "id": "critical-reading-sec2-ex14",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Evaluate author's purpose: An article presents data on youth unemployment, interviews affected youth, discusses policy options, and concludes with 'Parliament must act now.' The primary purpose is:",
+        "prompt_zh": "Evaluate author's purpose: An article presents data on youth unemployment, interviews affected youth, discusses policy options, and concludes with 'Parliament must act now.' The primary purpose is:",
+        "choices": [
+          "Pure information",
+          "Entertainment",
+          "To inform readers AND persuade policymakers to take action",
+          "To confuse readers"
+        ],
+        "choices_zh": [
+          "Pure information",
+          "Entertainment",
+          "To inform readers AND persuade policymakers to take action",
+          "To confuse readers"
+        ],
+        "answer": 2,
+        "explanation": "This tests understanding of Critical Reading & Inference concepts.",
+        "explanation_zh": "这测试对批判性阅读与推理概念的理解。"
+      },
+      {
+        "id": "critical-reading-sec2-ex15",
+        "type": "mcq",
+        "difficulty": "hard",
+        "prompt": "Critical analysis: 'A recent survey found that 70% of students prefer online learning. This clearly proves that schools should eliminate in-person classes.' What critical reading skill identifies the flaw?",
+        "prompt_zh": "Critical analysis: 'A recent survey found that 70% of students prefer online learning. This clearly proves that schools should eliminate in-person classes.' What critical reading skill identifies the flaw?",
+        "choices": [
+          "Recognizing that preference does not equal effectiveness; the author conflates student preference with educational quality and ignores other factors",
+          "Checking the math",
+          "Counting words",
+          "Grammar checking"
+        ],
+        "choices_zh": [
+          "Recognizing that preference does not equal effectiveness; the author conflates student preference with educational quality and ignores other factors",
+          "Checking the math",
+          "Counting words",
+          "Grammar checking"
+        ],
+        "answer": 0,
+        "explanation": "This tests understanding of Critical Reading & Inference concepts.",
+        "explanation_zh": "这测试对批判性阅读与推理概念的理解。"
+      }
+    ]
+  }
+]

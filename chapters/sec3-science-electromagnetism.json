@@ -1,0 +1,207 @@
+{
+  "id": "electromagnetism",
+  "title": "Electromagnetism",
+  "title_zh": "电磁学",
+  "gradeLevel": "sec3",
+  "tag": "Physics",
+  "tag_zh": "物理",
+  "description": "Understanding magnetic fields, electromagnets and their applications in motors and generators",
+  "description_zh": "理解磁场、电磁铁及其在电机和发电机中的应用",
+  "objectives": [
+    "Describe magnetic fields around magnets and current-carrying wires",
+    "Explain how electromagnets work and factors affecting their strength",
+    "Understand the working principles of electric motors",
+    "Explain electromagnetic induction and generators"
+  ],
+  "objectives_zh": [
+    "描述磁铁和载流导线周围的磁场",
+    "解释电磁铁的工作原理和影响其强度的因素",
+    "理解电动机的工作原理",
+    "解释电磁感应和发电机"
+  ],
+  "sections": [
+    {
+      "id": "magnetic-fields",
+      "type": "text",
+      "title": "Magnetic Fields",
+      "title_zh": "磁场",
+      "content": "**Magnetic Field:**\n• Region where magnetic force is experienced\n• Represented by magnetic field lines\n• Direction: from North pole to South pole\n• Stronger fields have closer field lines\n\n**Magnetic Field Around a Bar Magnet:**\n• Field lines emerge from North pole\n• Field lines enter at South pole\n• Field lines never cross\n• Strongest at the poles\n\n**Magnetic Field Around a Current-Carrying Wire:**\n• Circular field lines around the wire\n• Direction given by right-hand grip rule\n• Field strength increases with current\n• Field strength decreases with distance\n\n**Magnetic Field in a Solenoid:**\n• Coil of wire produces strong uniform field inside\n• Field pattern similar to bar magnet\n• Strength increases with:\n  - More turns of wire\n  - Greater current\n  - Iron core inserted",
+      "content_zh": "**磁场：**\n• 经历磁力的区域\n• 由磁场线表示\n• 方向：从北极到南极\n• 更强的场有更近的场线\n\n**条形磁铁周围的磁场：**\n• 场线从北极出现\n• 场线在南极进入\n• 场线从不交叉\n• 在极点处最强\n\n**载流导线周围的磁场：**\n• 导线周围的圆形场线\n• 方向由右手握拳规则给出\n• 场强随电流增加\n• 场强随距离减小\n\n**螺线管中的磁场：**\n• 线圈在内部产生强均匀场\n• 场型类似于条形磁铁\n• 强度随以下因素增加：\n  - 更多线圈匝数\n  - 更大电流\n  - 插入铁芯"
+    },
+    {
+      "id": "electromagnets",
+      "type": "text",
+      "title": "Electromagnets",
+      "title_zh": "电磁铁",
+      "content": "**What is an Electromagnet?**\nA coil of wire (solenoid) that becomes magnetic when current flows through it. The magnetism can be switched on and off.\n\n**Factors Affecting Electromagnet Strength:**\n1. **Number of turns** - more turns = stronger magnet\n2. **Current** - larger current = stronger magnet\n3. **Core material** - soft iron core makes it much stronger\n4. **Core shape** - U-shaped core concentrates field\n\n**Advantages over Permanent Magnets:**\n• Can be switched on/off\n• Strength can be adjusted\n• Magnetic poles can be reversed\n• Can be very strong\n\n**Applications in Singapore and Worldwide:**\n• MRT train door locks\n• Electric bells and buzzers\n• Scrapyard cranes (lifting metal)\n• Circuit breakers\n• Relays and switches\n• Hard disk drives\n• Loudspeakers\n• MRI scanners in hospitals",
+      "content_zh": "**什么是电磁铁？**\n当电流通过线圈（螺线管）时，它会变成磁性的。磁性可以打开和关闭。\n\n**影响电磁铁强度的因素：**\n1. **匝数** - 更多匝数=更强的磁铁\n2. **电流** - 更大电流=更强的磁铁\n3. **芯材料** - 软铁芯使其更强\n4. **芯形状** - U形芯集中场\n\n**相对于永久磁铁的优势：**\n• 可以打开/关闭\n• 强度可以调节\n• 磁极可以反转\n• 可以非常强\n\n**在新加坡和全球的应用：**\n• 地铁列车门锁\n• 电铃和蜂鸣器\n• 废料场起重机（提升金属）\n• 断路器\n• 继电器和开关\n• 硬盘驱动器\n• 扬声器\n• 医院的MRI扫描仪"
+    },
+    {
+      "id": "electric-motors",
+      "type": "text",
+      "title": "Electric Motors",
+      "title_zh": "电动机",
+      "content": "**Principle:**\nElectric motors convert electrical energy to kinetic energy using the motor effect (force on current-carrying wire in magnetic field).\n\n**How a DC Motor Works:**\n1. Current flows through coil in magnetic field\n2. Forces act on opposite sides of coil\n3. Forces cause turning effect (moment)\n4. Coil rotates\n5. Commutator reverses current every half turn\n6. This keeps coil rotating in same direction\n\n**Components:**\n• **Coil** - carries current\n• **Permanent magnets** - provide magnetic field\n• **Commutator** - split ring that reverses current\n• **Brushes** - maintain electrical contact\n\n**Increasing Motor Speed:**\n• Increase current\n• More turns in coil\n• Stronger magnets\n• Better commutator design\n\n**Applications:**\n• Electric fans and air conditioners\n• Electric cars and bicycles\n• Washing machines and dryers\n• Power tools and drills\n• Computer cooling fans\n• Toy cars",
+      "content_zh": "**原理：**\n电动机使用电动机效应（磁场中载流导线上的力）将电能转换为动能。\n\n**直流电动机如何工作：**\n1. 电流通过磁场中的线圈\n2. 力作用在线圈的相对侧\n3. 力产生转动效应（力矩）\n4. 线圈旋转\n5. 换向器每半圈反转电流\n6. 这使线圈保持同一方向旋转\n\n**组件：**\n• **线圈** - 携带电流\n• **永久磁铁** - 提供磁场\n• **换向器** - 反转电流的分裂环\n• **电刷** - 保持电接触\n\n**增加电动机速度：**\n• 增加电流\n• 线圈更多匝数\n• 更强的磁铁\n• 更好的换向器设计\n\n**应用：**\n• 电风扇和空调\n• 电动汽车和自行车\n• 洗衣机和烘干机\n• 电动工具和钻头\n• 计算机冷却风扇\n• 玩具车"
+    },
+    {
+      "id": "electromagnetic-induction",
+      "type": "text",
+      "title": "Electromagnetic Induction & Generators",
+      "title_zh": "电磁感应和发电机",
+      "content": "**Electromagnetic Induction:**\nVoltage is induced when:\n• A conductor moves through a magnetic field, OR\n• The magnetic field through a conductor changes\n\n**Faraday's Law:**\nInduced voltage increases with:\n• Faster movement\n• Stronger magnetic field\n• More turns in coil\n\n**Lenz's Law:**\nInduced current opposes the change that caused it.\n\n**How a Generator Works:**\n1. Coil rotates in magnetic field\n2. Magnetic flux through coil changes\n3. Voltage induced in coil\n4. Current flows in external circuit\n5. Slip rings maintain continuous contact\n\n**AC Generator produces:**\n• Alternating current (changes direction)\n• Sinusoidal voltage output\n\n**Applications:**\n• Power stations (turbines turn generators)\n• Bicycle dynamos (wheel turns generator)\n• Wind turbines\n• Hydroelectric dams\n• Portable generators\n\n**Energy Conversion:**\nKinetic Energy → Electrical Energy",
+      "content_zh": "**电磁感应：**\n当以下情况时会感应电压：\n• 导体通过磁场移动，或\n• 通过导体的磁场改变\n\n**法拉第定律：**\n感应电压随以下因素增加：\n• 更快的运动\n• 更强的磁场\n• 线圈更多匝数\n\n**楞次定律：**\n感应电流反对引起它的变化。\n\n**发电机如何工作：**\n1. 线圈在磁场中旋转\n2. 通过线圈的磁通量改变\n3. 在线圈中感应电压\n4. 电流在外部电路中流动\n5. 滑环保持连续接触\n\n**交流发电机产生：**\n• 交流电（改变方向）\n• 正弦电压输出\n\n**应用：**\n• 发电站（涡轮机转动发电机）\n• 自行车发电机（车轮转动发电机）\n• 风力涡轮机\n• 水电大坝\n• 便携式发电机\n\n**能量转换：**\n动能→电能"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "electromag-ex1",
+      "type": "short",
+      "prompt": "Question 1 about Electromagnetism",
+      "prompt_zh": "关于Electromagnetism的问题1",
+      "answer": 2,
+      "hint": "Think about the key concepts in Electromagnetism.",
+      "hint_zh": "想想Electromagnetism中的关键概念。"
+    },
+    {
+      "id": "electromag-ex2",
+      "type": "short",
+      "prompt": "Question 2 about Electromagnetism",
+      "prompt_zh": "关于Electromagnetism的问题2",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Electromagnetism.",
+      "hint_zh": "想想Electromagnetism中的关键概念。"
+    },
+    {
+      "id": "electromag-ex3",
+      "type": "short",
+      "prompt": "Question 3 about Electromagnetism",
+      "prompt_zh": "关于Electromagnetism的问题3",
+      "answer": 2,
+      "hint": "Think about the key concepts in Electromagnetism.",
+      "hint_zh": "想想Electromagnetism中的关键概念。"
+    },
+    {
+      "id": "electromag-ex4",
+      "type": "short",
+      "prompt": "Question 4 about Electromagnetism",
+      "prompt_zh": "关于Electromagnetism的问题4",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Electromagnetism.",
+      "hint_zh": "想想Electromagnetism中的关键概念。"
+    },
+    {
+      "id": "electromag-ex5",
+      "type": "short",
+      "prompt": "Question 5 about Electromagnetism",
+      "prompt_zh": "关于Electromagnetism的问题5",
+      "answer": 1,
+      "hint": "Think about the key concepts in Electromagnetism.",
+      "hint_zh": "想想Electromagnetism中的关键概念。"
+    },
+    {
+      "id": "electromag-ex6",
+      "type": "mcq",
+      "prompt": "Question 6 about Electromagnetism",
+      "prompt_zh": "关于Electromagnetism的问题6",
+      "choices": null,
+      "answer": "answer",
+      "hint": "Think about the key concepts in Electromagnetism.",
+      "hint_zh": "想想Electromagnetism中的关键概念。"
+    },
+    {
+      "id": "electromag-ex7",
+      "type": "mcq",
+      "prompt": "Question 7 about Electromagnetism",
+      "prompt_zh": "关于Electromagnetism的问题7",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 2,
+      "hint": "Think about the key concepts in Electromagnetism.",
+      "hint_zh": "想想Electromagnetism中的关键概念。"
+    },
+    {
+      "id": "electromag-ex8",
+      "type": "short",
+      "prompt": "Question 8 about Electromagnetism",
+      "prompt_zh": "关于Electromagnetism的问题8",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Electromagnetism.",
+      "hint_zh": "想想Electromagnetism中的关键概念。"
+    },
+    {
+      "id": "electromag-ex9",
+      "type": "short",
+      "prompt": "Question 9 about Electromagnetism",
+      "prompt_zh": "关于Electromagnetism的问题9",
+      "answer": 2,
+      "hint": "Think about the key concepts in Electromagnetism.",
+      "hint_zh": "想想Electromagnetism中的关键概念。"
+    },
+    {
+      "id": "electromag-ex10",
+      "type": "short",
+      "prompt": "Question 10 about Electromagnetism",
+      "prompt_zh": "关于Electromagnetism的问题10",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Electromagnetism.",
+      "hint_zh": "想想Electromagnetism中的关键概念。"
+    },
+    {
+      "id": "electromag-ex11",
+      "type": "short",
+      "prompt": "Question 11 about Electromagnetism",
+      "prompt_zh": "关于Electromagnetism的问题11",
+      "answer": 1,
+      "hint": "Think about the key concepts in Electromagnetism.",
+      "hint_zh": "想想Electromagnetism中的关键概念。"
+    },
+    {
+      "id": "electromag-ex12",
+      "type": "short",
+      "prompt": "Question 12 about Electromagnetism",
+      "prompt_zh": "关于Electromagnetism的问题12",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Electromagnetism.",
+      "hint_zh": "想想Electromagnetism中的关键概念。"
+    },
+    {
+      "id": "electromag-ex13",
+      "type": "mcq",
+      "prompt": "Question 13 about Electromagnetism",
+      "prompt_zh": "关于Electromagnetism的问题13",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 1,
+      "hint": "Think about the key concepts in Electromagnetism.",
+      "hint_zh": "想想Electromagnetism中的关键概念。"
+    },
+    {
+      "id": "electromag-ex14",
+      "type": "mcq",
+      "prompt": "Question 14 about Electromagnetism",
+      "prompt_zh": "关于Electromagnetism的问题14",
+      "choices": null,
+      "answer": "answer",
+      "hint": "Think about the key concepts in Electromagnetism.",
+      "hint_zh": "想想Electromagnetism中的关键概念。"
+    },
+    {
+      "id": "electromag-ex15",
+      "type": "short",
+      "prompt": "Question 15 about Electromagnetism",
+      "prompt_zh": "关于Electromagnetism的问题15",
+      "answer": 1,
+      "hint": "Think about the key concepts in Electromagnetism.",
+      "hint_zh": "想想Electromagnetism中的关键概念。"
+    }
+  ]
+}

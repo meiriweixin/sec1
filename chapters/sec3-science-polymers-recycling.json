@@ -1,0 +1,191 @@
+{
+  "id": "polymers-recycling",
+  "title": "Polymers & Recycling",
+  "title_zh": "聚合物和回收",
+  "gradeLevel": "sec3",
+  "tag": "Chemistry",
+  "tag_zh": "化学",
+  "description": "Understanding polymers, plastics and their environmental impact - NEW syllabus topic",
+  "description_zh": "理解聚合物、塑料及其环境影响 - 新教学大纲主题",
+  "objectives": [
+    "Describe structure and properties of polymers",
+    "Explain addition and condensation polymerization",
+    "Describe two methods of recycling plastics",
+    "Discuss social, economic and environmental issues of recycling"
+  ],
+  "objectives_zh": [
+    "描述聚合物的结构和性质",
+    "解释加成聚合和缩合聚合",
+    "描述回收塑料的两种方法",
+    "讨论回收的社会、经济和环境问题"
+  ],
+  "sections": [],
+  "exercises": [
+    {
+      "id": "polymers-r-ex1",
+      "type": "short",
+      "prompt": "Question 1 about Polymers & Recycling",
+      "prompt_zh": "关于Polymers & Recycling的问题1",
+      "answer": 1,
+      "hint": "Think about the key concepts in Polymers & Recycling.",
+      "hint_zh": "想想Polymers & Recycling中的关键概念。"
+    },
+    {
+      "id": "polymers-r-ex2",
+      "type": "short",
+      "prompt": "Question 2 about Polymers & Recycling",
+      "prompt_zh": "关于Polymers & Recycling的问题2",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Polymers & Recycling.",
+      "hint_zh": "想想Polymers & Recycling中的关键概念。"
+    },
+    {
+      "id": "polymers-r-ex3",
+      "type": "short",
+      "prompt": "Question 3 about Polymers & Recycling",
+      "prompt_zh": "关于Polymers & Recycling的问题3",
+      "answer": 2,
+      "hint": "Think about the key concepts in Polymers & Recycling.",
+      "hint_zh": "想想Polymers & Recycling中的关键概念。"
+    },
+    {
+      "id": "polymers-r-ex4",
+      "type": "mcq",
+      "prompt": "Question 4 about Polymers & Recycling",
+      "prompt_zh": "关于Polymers & Recycling的问题4",
+      "choices": null,
+      "answer": "answer",
+      "hint": "Think about the key concepts in Polymers & Recycling.",
+      "hint_zh": "想想Polymers & Recycling中的关键概念。"
+    },
+    {
+      "id": "polymers-r-ex5",
+      "type": "mcq",
+      "prompt": "Question 5 about Polymers & Recycling",
+      "prompt_zh": "关于Polymers & Recycling的问题5",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "hint": "Think about the key concepts in Polymers & Recycling.",
+      "hint_zh": "想想Polymers & Recycling中的关键概念。"
+    },
+    {
+      "id": "polymers-r-ex6",
+      "type": "short",
+      "prompt": "Question 6 about Polymers & Recycling",
+      "prompt_zh": "关于Polymers & Recycling的问题6",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Polymers & Recycling.",
+      "hint_zh": "想想Polymers & Recycling中的关键概念。"
+    },
+    {
+      "id": "polymers-r-ex7",
+      "type": "mcq",
+      "prompt": "Question 7 about Polymers & Recycling",
+      "prompt_zh": "关于Polymers & Recycling的问题7",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 3,
+      "hint": "Think about the key concepts in Polymers & Recycling.",
+      "hint_zh": "想想Polymers & Recycling中的关键概念。"
+    },
+    {
+      "id": "polymers-r-ex8",
+      "type": "short",
+      "prompt": "Question 8 about Polymers & Recycling",
+      "prompt_zh": "关于Polymers & Recycling的问题8",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Polymers & Recycling.",
+      "hint_zh": "想想Polymers & Recycling中的关键概念。"
+    },
+    {
+      "id": "polymers-r-ex9",
+      "type": "mcq",
+      "prompt": "Question 9 about Polymers & Recycling",
+      "prompt_zh": "关于Polymers & Recycling的问题9",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 2,
+      "hint": "Think about the key concepts in Polymers & Recycling.",
+      "hint_zh": "想想Polymers & Recycling中的关键概念。"
+    },
+    {
+      "id": "polymers-r-ex10",
+      "type": "short",
+      "prompt": "Question 10 about Polymers & Recycling",
+      "prompt_zh": "关于Polymers & Recycling的问题10",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Polymers & Recycling.",
+      "hint_zh": "想想Polymers & Recycling中的关键概念。"
+    },
+    {
+      "id": "polymers-r-ex11",
+      "type": "mcq",
+      "prompt": "Question 11 about Polymers & Recycling",
+      "prompt_zh": "关于Polymers & Recycling的问题11",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 2,
+      "hint": "Think about the key concepts in Polymers & Recycling.",
+      "hint_zh": "想想Polymers & Recycling中的关键概念。"
+    },
+    {
+      "id": "polymers-r-ex12",
+      "type": "short",
+      "prompt": "Question 12 about Polymers & Recycling",
+      "prompt_zh": "关于Polymers & Recycling的问题12",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Polymers & Recycling.",
+      "hint_zh": "想想Polymers & Recycling中的关键概念。"
+    },
+    {
+      "id": "polymers-r-ex13",
+      "type": "mcq",
+      "prompt": "Question 13 about Polymers & Recycling",
+      "prompt_zh": "关于Polymers & Recycling的问题13",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 1,
+      "hint": "Think about the key concepts in Polymers & Recycling.",
+      "hint_zh": "想想Polymers & Recycling中的关键概念。"
+    },
+    {
+      "id": "polymers-r-ex14",
+      "type": "short",
+      "prompt": "Question 14 about Polymers & Recycling",
+      "prompt_zh": "关于Polymers & Recycling的问题14",
+      "answer": "answer",
+      "hint": "Think about the key concepts in Polymers & Recycling.",
+      "hint_zh": "想想Polymers & Recycling中的关键概念。"
+    },
+    {
+      "id": "polymers-r-ex15",
+      "type": "short",
+      "prompt": "Question 15 about Polymers & Recycling",
+      "prompt_zh": "关于Polymers & Recycling的问题15",
+      "answer": 3,
+      "hint": "Think about the key concepts in Polymers & Recycling.",
+      "hint_zh": "想想Polymers & Recycling中的关键概念。"
+    }
+  ]
+}

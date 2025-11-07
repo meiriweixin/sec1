@@ -1,0 +1,271 @@
+{
+  "id": "current-electricity",
+  "title": "Current Electricity",
+  "title_zh": "电流",
+  "gradeLevel": "sec3",
+  "tag": "Physics",
+  "tag_zh": "物理",
+  "description": "Understanding electric current, voltage, resistance and circuit analysis",
+  "description_zh": "理解电流、电压、电阻和电路分析",
+  "objectives": [
+    "Define current, voltage and resistance with their SI units",
+    "Apply Ohm's Law to solve circuit problems",
+    "Analyze series and parallel circuits",
+    "Calculate power and energy in electrical circuits"
+  ],
+  "objectives_zh": [
+    "定义电流、电压和电阻及其国际单位",
+    "应用欧姆定律解决电路问题",
+    "分析串联和并联电路",
+    "计算电路中的功率和能量"
+  ],
+  "sections": [
+    {
+      "id": "current-voltage-resistance",
+      "type": "text",
+      "title": "Current, Voltage and Resistance",
+      "title_zh": "电流、电压和电阻",
+      "content": "**Electric Current (I):**\n• Flow of electric charge through a conductor\n• SI unit: ampere (A)\n• Measured using ammeter (connected in series)\n• Direction: from positive to negative terminal (conventional current)\n\n**Voltage/Potential Difference (V):**\n• Energy transferred per unit charge\n• SI unit: volt (V)\n• Measured using voltmeter (connected in parallel)\n• Battery/cell provides voltage\n\n**Resistance (R):**\n• Opposition to current flow\n• SI unit: ohm (Ω)\n• Factors affecting resistance:\n  - Length (longer = more resistance)\n  - Cross-sectional area (thicker = less resistance)\n  - Material (conductivity)\n  - Temperature",
+      "content_zh": "**电流（I）：**\n• 电荷通过导体的流动\n• 国际单位：安培（A）\n• 使用电流表测量（串联连接）\n• 方向：从正极到负极（常规电流）\n\n**电压/电位差（V）：**\n• 每单位电荷传递的能量\n• 国际单位：伏特（V）\n• 使用电压表测量（并联连接）\n• 电池/电池提供电压\n\n**电阻（R）：**\n• 对电流流动的阻力\n• 国际单位：欧姆（Ω）\n• 影响电阻的因素：\n  - 长度（更长=更多电阻）\n  - 横截面积（更粗=更少电阻）\n  - 材料（导电性）\n  - 温度"
+    },
+    {
+      "id": "ohms-law",
+      "type": "text",
+      "title": "Ohm's Law",
+      "title_zh": "欧姆定律",
+      "content": "**Ohm's Law:**\nV = IR\n\nWhere:\n• V = voltage (V)\n• I = current (A)\n• R = resistance (Ω)\n\n**Key Points:**\n• Voltage is directly proportional to current (at constant resistance)\n• Current decreases as resistance increases (at constant voltage)\n• A graph of V vs I gives a straight line for ohmic conductors\n\n**Example:**\nIf a resistor has resistance 10Ω and current 2A flows through it:\nV = IR = 2 × 10 = 20V\n\n**Applications:**\n• Calculating required resistance for circuits\n• Determining safe current levels\n• Designing electrical systems",
+      "content_zh": "**欧姆定律：**\nV = IR\n\n其中：\n• V = 电压（V）\n• I = 电流（A）\n• R = 电阻（Ω）\n\n**要点：**\n• 电压与电流成正比（恒定电阻时）\n• 电流随电阻增加而减小（恒定电压时）\n• 欧姆导体的V对I图给出直线\n\n**示例：**\n如果电阻器的电阻为10Ω，流过2A电流：\nV = IR = 2 × 10 = 20V\n\n**应用：**\n• 计算电路所需电阻\n• 确定安全电流水平\n• 设计电气系统"
+    },
+    {
+      "id": "series-parallel-circuits",
+      "type": "text",
+      "title": "Series and Parallel Circuits",
+      "title_zh": "串联和并联电路",
+      "content": "**Series Circuits:**\n• Components connected in a single loop\n• Same current through all components (I₁ = I₂ = I₃)\n• Total voltage = sum of individual voltages (V_total = V₁ + V₂ + V₃)\n• Total resistance = sum of individual resistances (R_total = R₁ + R₂ + R₃)\n• If one component fails, circuit breaks\n\n**Parallel Circuits:**\n• Components connected across multiple branches\n• Same voltage across all components (V₁ = V₂ = V₃ = V_total)\n• Total current = sum of branch currents (I_total = I₁ + I₂ + I₃)\n• Total resistance: 1/R_total = 1/R₁ + 1/R₂ + 1/R₃\n• If one component fails, others continue working\n\n**Home Wiring:**\nHouses use parallel circuits so:\n• All appliances get same voltage (230V in Singapore)\n• Appliances work independently\n• Can switch devices on/off without affecting others",
+      "content_zh": "**串联电路：**\n• 组件连接在单个回路中\n• 所有组件的电流相同（I₁ = I₂ = I₃）\n• 总电压=各个电压之和（V_总 = V₁ + V₂ + V₃）\n• 总电阻=各个电阻之和（R_总 = R₁ + R₂ + R₃）\n• 如果一个组件失效，电路断开\n\n**并联电路：**\n• 组件跨多个分支连接\n• 所有组件的电压相同（V₁ = V₂ = V₃ = V_总）\n• 总电流=分支电流之和（I_总 = I₁ + I₂ + I₃）\n• 总电阻：1/R_总 = 1/R₁ + 1/R₂ + 1/R₃\n• 如果一个组件失效，其他组件继续工作\n\n**家庭布线：**\n房屋使用并联电路，因此：\n• 所有电器获得相同电压（新加坡为230V）\n• 电器独立工作\n• 可以打开/关闭设备而不影响其他设备"
+    },
+    {
+      "id": "electrical-power-energy",
+      "type": "text",
+      "title": "Electrical Power and Energy",
+      "title_zh": "电功率和电能",
+      "content": "**Electrical Power (P):**\n• Rate of energy transfer\n• SI unit: watt (W) or kilowatt (kW)\n• Formulas:\n  - P = VI (power = voltage × current)\n  - P = I²R (power = current² × resistance)\n  - P = V²/R (power = voltage² / resistance)\n\n**Electrical Energy (E):**\n• Total energy consumed\n• SI unit: joule (J) or kilowatt-hour (kWh)\n• Formula: E = Pt (energy = power × time)\n• 1 kWh = 3,600,000 J\n\n**Example:**\nA 2kW heater runs for 3 hours:\nEnergy = 2kW × 3h = 6 kWh\n\n**Electricity Bills in Singapore:**\n• Charged per kWh consumed\n• SP Group charges about $0.30 per kWh\n• Cost = Energy (kWh) × Tariff\n• Energy-efficient appliances save money",
+      "content_zh": "**电功率（P）：**\n• 能量传递速率\n• 国际单位：瓦特（W）或千瓦（kW）\n• 公式：\n  - P = VI（功率=电压×电流）\n  - P = I²R（功率=电流²×电阻）\n  - P = V²/R（功率=电压²/电阻）\n\n**电能（E）：**\n• 消耗的总能量\n• 国际单位：焦耳（J）或千瓦时（kWh）\n• 公式：E = Pt（能量=功率×时间）\n• 1千瓦时 = 3,600,000焦耳\n\n**示例：**\n一个2千瓦的加热器运行3小时：\n能量 = 2千瓦 × 3小时 = 6千瓦时\n\n**新加坡的电费单：**\n• 按消耗的千瓦时收费\n• SP集团每千瓦时收费约$0.30\n• 费用=能量（kWh）×电价\n• 节能电器省钱"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ce-ex1",
+      "type": "mcq",
+      "prompt": "What is the SI unit of electric current?",
+      "prompt_zh": "电流的国际单位是什么？",
+      "choices": [
+        "Volt (V)",
+        "Ampere (A)",
+        "Ohm (Ω)",
+        "Watt (W)"
+      ],
+      "answer": 1,
+      "hint": "This unit is named after a French physicist.",
+      "hint_zh": "这个单位以一位法国物理学家的名字命名。"
+    },
+    {
+      "id": "ce-ex2",
+      "type": "mcq",
+      "prompt": "Which instrument is used to measure voltage?",
+      "prompt_zh": "哪种仪器用于测量电压？",
+      "choices": [
+        "Ammeter",
+        "Voltmeter",
+        "Thermometer",
+        "Barometer"
+      ],
+      "answer": 1,
+      "hint": "This instrument is connected in parallel.",
+      "hint_zh": "这个仪器是并联连接的。"
+    },
+    {
+      "id": "ce-ex3",
+      "type": "mcq",
+      "prompt": "According to Ohm's Law, if voltage increases and resistance stays the same, what happens to current?",
+      "prompt_zh": "根据欧姆定律，如果电压增加而电阻保持不变，电流会发生什么变化？",
+      "choices": [
+        "Increases",
+        "Decreases",
+        "Stays the same",
+        "Becomes zero"
+      ],
+      "answer": 0,
+      "hint": "V = IR, so I = V/R",
+      "hint_zh": "V = IR，所以I = V/R"
+    },
+    {
+      "id": "ce-ex4",
+      "type": "mcq",
+      "prompt": "A resistor has resistance 10Ω and current 2A flows through it. What is the voltage?",
+      "prompt_zh": "电阻器的电阻为10Ω，流过2A电流。电压是多少？",
+      "choices": [
+        "5V",
+        "12V",
+        "20V",
+        "0.2V"
+      ],
+      "answer": 2,
+      "hint": "Use Ohm's Law: V = IR",
+      "hint_zh": "使用欧姆定律：V = IR"
+    },
+    {
+      "id": "ce-ex5",
+      "type": "mcq",
+      "prompt": "In a series circuit, what is the same for all components?",
+      "prompt_zh": "在串联电路中，所有组件的什么是相同的？",
+      "choices": [
+        "Voltage",
+        "Current",
+        "Resistance",
+        "Power"
+      ],
+      "answer": 1,
+      "hint": "There is only one path for charge to flow.",
+      "hint_zh": "电荷只有一个流动路径。"
+    },
+    {
+      "id": "ce-ex6",
+      "type": "mcq",
+      "prompt": "In a parallel circuit, what is the same across all branches?",
+      "prompt_zh": "在并联电路中，所有分支上的什么是相同的？",
+      "choices": [
+        "Current",
+        "Voltage",
+        "Resistance",
+        "None of the above"
+      ],
+      "answer": 1,
+      "hint": "All branches are connected to the same two points.",
+      "hint_zh": "所有分支都连接到相同的两个点。"
+    },
+    {
+      "id": "ce-ex7",
+      "type": "mcq",
+      "prompt": "Three resistors (2Ω, 3Ω, 5Ω) are connected in series. What is the total resistance?",
+      "prompt_zh": "三个电阻器（2Ω、3Ω、5Ω）串联连接。总电阻是多少？",
+      "choices": [
+        "1Ω",
+        "10Ω",
+        "0.1Ω",
+        "1.03Ω"
+      ],
+      "answer": 1,
+      "hint": "In series: R_total = R1 + R2 + R3",
+      "hint_zh": "在串联中：R_总 = R1 + R2 + R3"
+    },
+    {
+      "id": "ce-ex8",
+      "type": "mcq",
+      "prompt": "Why are household appliances connected in parallel circuits in Singapore homes?",
+      "prompt_zh": "为什么新加坡家庭中的家用电器连接在并联电路中？",
+      "choices": [
+        "So each appliance can work independently and receives 230V",
+        "To save electricity",
+        "To reduce heat",
+        "To make wiring simpler"
+      ],
+      "answer": 0,
+      "hint": "Think about what happens when one appliance is switched off.",
+      "hint_zh": "想想当一个电器关闭时会发生什么。"
+    },
+    {
+      "id": "ce-ex9",
+      "type": "mcq",
+      "prompt": "What is the formula for electrical power in terms of voltage and current?",
+      "prompt_zh": "电功率用电压和电流表示的公式是什么？",
+      "choices": [
+        "P = VI",
+        "P = V/I",
+        "P = I/V",
+        "P = V + I"
+      ],
+      "answer": 0,
+      "hint": "Power = Voltage × Current",
+      "hint_zh": "功率 = 电压 × 电流"
+    },
+    {
+      "id": "ce-ex10",
+      "type": "mcq",
+      "prompt": "A 2kW heater runs for 3 hours. How much energy is consumed in kWh?",
+      "prompt_zh": "一个2千瓦的加热器运行3小时。消耗多少千瓦时的能量？",
+      "choices": [
+        "5 kWh",
+        "6 kWh",
+        "0.67 kWh",
+        "2000 kWh"
+      ],
+      "answer": 1,
+      "hint": "Energy (kWh) = Power (kW) × Time (h)",
+      "hint_zh": "能量（kWh）= 功率（kW）× 时间（h）"
+    },
+    {
+      "id": "ce-ex11",
+      "type": "short",
+      "prompt": "What is the SI unit for electrical resistance?",
+      "prompt_zh": "电阻的国际单位是什么？",
+      "answer": "ohm",
+      "hint": "It's represented by the Greek letter Ω.",
+      "hint_zh": "它用希腊字母Ω表示。"
+    },
+    {
+      "id": "ce-ex12",
+      "type": "short",
+      "prompt": "What is the typical household voltage in Singapore?",
+      "prompt_zh": "新加坡典型的家庭电压是多少？",
+      "answer": "230",
+      "hint": "It's higher than in the USA (110V).",
+      "hint_zh": "它比美国（110V）高。"
+    },
+    {
+      "id": "ce-ex13",
+      "type": "mcq",
+      "prompt": "If SP Group charges $0.30 per kWh, how much does it cost to run a 2kW aircon for 5 hours?",
+      "prompt_zh": "如果SP集团每千瓦时收费$0.30，运行一个2千瓦的空调5小时需要多少钱？",
+      "choices": [
+        "$1.50",
+        "$3.00",
+        "$10.00",
+        "$30.00"
+      ],
+      "answer": 1,
+      "hint": "Cost = Energy (kWh) × Tariff. First calculate energy: 2kW × 5h = 10kWh",
+      "hint_zh": "费用 = 能量（kWh）× 电价。首先计算能量：2千瓦 × 5小时 = 10千瓦时"
+    },
+    {
+      "id": "ce-ex14",
+      "type": "mcq",
+      "prompt": "An ammeter should be connected in ____ to measure current correctly.",
+      "prompt_zh": "电流表应该____连接以正确测量电流。",
+      "choices": [
+        "Series",
+        "Parallel",
+        "Either way",
+        "Not connected"
+      ],
+      "answer": 0,
+      "hint": "Current must flow through the ammeter.",
+      "hint_zh": "电流必须流过电流表。"
+    },
+    {
+      "id": "ce-ex15",
+      "type": "mcq",
+      "prompt": "What happens to total resistance when more resistors are added in parallel?",
+      "prompt_zh": "当在并联中添加更多电阻器时，总电阻会发生什么变化？",
+      "choices": [
+        "Increases",
+        "Decreases",
+        "Stays the same",
+        "Becomes infinite"
+      ],
+      "answer": 1,
+      "hint": "More parallel paths means easier for current to flow.",
+      "hint_zh": "更多并联路径意味着电流更容易流动。"
+    }
+  ]
+}

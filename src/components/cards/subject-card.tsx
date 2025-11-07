@@ -101,7 +101,24 @@ export function SubjectCard({ subject }: SubjectCardProps) {
   const progressPercentage = totalChapters > 0 ? Math.min(100, (completedChapters / totalChapters) * 100) : 0;
   
   const title = language === 'zh' && subject.title_zh ? subject.title_zh : subject.title;
-  const description = language === 'zh' && subject.description_zh ? subject.description_zh : subject.description;
+
+  // Generate grade-level-specific description
+  const getGradeLevelDescription = () => {
+    const gradeName = language === 'zh'
+      ? (gradeLevel === 'sec1' ? '中一' : gradeLevel === 'sec2' ? '中二' : gradeLevel === 'sec3' ? '中三' : gradeLevel === 'sec4' ? '中四' : gradeLevel === 'jc1' ? 'JC 1' : 'JC 2')
+      : (gradeLevel === 'sec1' ? 'Secondary 1' : gradeLevel === 'sec2' ? 'Secondary 2' : gradeLevel === 'sec3' ? 'Secondary 3' : gradeLevel === 'sec4' ? 'Secondary 4' : gradeLevel === 'jc1' ? 'JC 1' : 'JC 2');
+
+    const baseDescription = language === 'zh' && subject.description_zh ? subject.description_zh : subject.description;
+
+    // Add "for [Grade]" suffix
+    if (language === 'zh') {
+      return `${baseDescription}（${gradeName}）`;
+    } else {
+      return `${baseDescription} for ${gradeName}`;
+    }
+  };
+
+  const description = getGradeLevelDescription();
 
   const getColorClasses = (color: string) => {
     switch (color) {
