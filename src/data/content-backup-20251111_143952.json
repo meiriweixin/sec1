@@ -15277,7 +15277,7 @@
               "type": "text",
               "title": "Substitution Method",
               "title_zh": "代入法",
-              "content": "To solve simultaneous equations by substitution:\n\n1. Make one variable the subject in one equation\n2. Substitute into the other equation\n3. Solve for the remaining variable\n4. Find the other variable\n\n**Example: Singapore hawker stalls**\n\nIf 2 plates of chicken rice and 3 drinks cost $12, and 1 plate costs $2 more than a drink, find the prices.",
+              "content": "To solve simultaneous equations by substitution: 1) Make one variable the subject in one equation, 2) Substitute into the other equation, 3) Solve for the remaining variable, 4) Find the other variable. Example: Singapore hawker stalls - if 2 plates of chicken rice and 3 drinks cost $12, and 1 plate costs $2 more than a drink, find the prices.",
               "content_zh": "用代入法求解二元一次方程组：1）在一个方程中将一个变量表示为另一个的函数，2）代入另一个方程，3）求解剩余变量，4）求另一个变量。例如：新加坡小贩摊位 - 如果2盘鸡饭和3杯饮料共12元，1盘比1杯贵2元，求价格。"
             },
             {
