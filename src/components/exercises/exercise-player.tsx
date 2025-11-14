@@ -4,9 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
-import { useStore } from "@/lib/store";
+import { useStore, VoteDifficulty } from "@/lib/store";
 import { useTranslations } from "@/lib/i18n";
-import { ChevronLeft, ChevronRight, CheckCircle, XCircle, HelpCircle } from "lucide-react";
+import { ChevronLeft, ChevronRight, CheckCircle, XCircle, HelpCircle, ThumbsUp, Flame, AlertTriangle } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { MCQExercise } from "./mcq-exercise";
 import { ShortAnswerExercise } from "./short-answer-exercise";
@@ -61,7 +61,7 @@ export function ExercisePlayer({
   const [attempts, setAttempts] = useState<Record<string, number>>({});
   const [showHint, setShowHint] = useState(false);
   const [showExplanation, setShowExplanation] = useState(false);
-  const { language } = useStore();
+  const { language, voteExercise, getExerciseVote } = useStore();
   const t = useTranslations(language);
 
   // Update URL when exercise changes
@@ -72,6 +72,9 @@ export function ExercisePlayer({
   const exercise = exercises[currentExercise];
   const isLastExercise = currentExercise === exercises.length - 1;
   const isFirstExercise = currentExercise === 0;
+
+  // Get current vote for this exercise (must be after exercise is defined)
+  const currentVote = getExerciseVote(subjectId, chapterId, exercise?.id || '');
 
   const prompt = language === 'zh' && exercise?.prompt_zh ? exercise.prompt_zh : exercise?.prompt;
   const hint = language === 'zh' && exercise?.hint_zh ? exercise.hint_zh : exercise?.hint;
@@ -127,6 +130,12 @@ export function ExercisePlayer({
     // Mark as 0 score and move to next
     setScores({ ...scores, [exercise.id]: 0 });
     handleNext();
+  };
+
+  const handleVote = (vote: VoteDifficulty) => {
+    if (exercise) {
+      voteExercise(subjectId, chapterId, exercise.id, vote);
+    }
   };
 
   const renderExercise = () => {
@@ -193,13 +202,45 @@ export function ExercisePlayer({
         >
           <Card className="lesson-card mb-6">
             <CardHeader>
-              <div className="flex items-start justify-between">
-                <div className="flex-1">
-                  <CardTitle className="text-xl mb-2">
-                    {t.question} {currentExercise + 1}
-                  </CardTitle>
-                  <p className="text-base text-foreground">{prompt}</p>
+              {/* Title and Vote Buttons Row */}
+              <div className="flex items-center justify-between mb-3">
+                <CardTitle className="text-xl">
+                  {t.question} {currentExercise + 1}
+                </CardTitle>
+
+                <div className="flex items-center gap-2">
+                  <span className="text-sm text-muted-foreground">
+                    {language === 'zh' ? '难度评价：' : 'Rate difficulty:'}
+                  </span>
+                  <Button
+                    variant={currentVote === 'easy' ? 'default' : 'outline'}
+                    size="sm"
+                    onClick={() => handleVote('easy')}
+                    className="gap-1.5"
+                  >
+                    <ThumbsUp className="h-4 w-4" />
+                    {language === 'zh' ? '简单' : 'Easy'}
+                  </Button>
+                  <Button
+                    variant={currentVote === 'hard' ? 'default' : 'outline'}
+                    size="sm"
+                    onClick={() => handleVote('hard')}
+                    className="gap-1.5"
+                  >
+                    <Flame className="h-4 w-4" />
+                    {language === 'zh' ? '困难' : 'Hard'}
+                  </Button>
+                  <Button
+                    variant={currentVote === 'issue' ? 'default' : 'outline'}
+                    size="sm"
+                    onClick={() => handleVote('issue')}
+                    className="gap-1.5"
+                  >
+                    <AlertTriangle className="h-4 w-4" />
+                    {language === 'zh' ? '有问题' : 'Issue'}
+                  </Button>
                 </div>
+
                 {scores[exercise.id] !== undefined && (
                   <div className="ml-4">
                     {scores[exercise.id] >= 80 ? (
@@ -212,6 +253,9 @@ export function ExercisePlayer({
                   </div>
                 )}
               </div>
+
+              {/* Question Prompt */}
+              <p className="text-base text-foreground">{prompt}</p>
             </CardHeader>
             <CardContent className="space-y-6">
               {renderExercise()}

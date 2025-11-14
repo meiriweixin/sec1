@@ -74,6 +74,7 @@ The app uses Zustand with persistence for global state management (`src/lib/stor
 - **Grade Level Selection**: Current grade level (sec1, sec2, sec3, sec4, jc1, jc2)
 - **Learning Progress**: **User-specific** per-chapter tracking of sections completed, exercises completed, scores, time spent
 - **AI Module Progress**: **User-specific** tracking for AI Playground modules
+- **Exercise Votes**: **User-specific** difficulty ratings (easy/hard/issue) for individual exercises
 
 **CRITICAL: User-Specific Progress Architecture**
 
@@ -83,6 +84,7 @@ Progress data is stored separately for each user using their user ID as a key:
 // Store structure
 allUsersProgress: Record<string, Progress[]>  // userId → Progress[]
 allUsersAIProgress: Record<string, Record<string, AIModuleProgress>>  // userId → aiProgress
+allUsersExerciseVotes: Record<string, ExerciseVote[]>  // userId → ExerciseVote[]
 ```
 
 **When accessing progress in components:**
@@ -103,6 +105,8 @@ const { progress, aiProgress } = useStore(); // These fields don't exist!
 - `getChapterProgress(subjectId, chapterId)`: Retrieves progress for current user's specific chapter
 - `getSubjectProgress(subjectId)`: Returns all chapter progress for current user in a subject
 - `toggleAIModuleComplete(moduleId)`: Marks AI modules as complete for current user
+- `voteExercise(subjectId, chapterId, exerciseId, vote)`: Records or updates user's difficulty vote for an exercise
+- `getExerciseVote(subjectId, chapterId, exerciseId)`: Retrieves user's current vote for an exercise (returns 'easy' | 'hard' | 'issue' | null)
 
 **Why user-specific?**
 - Different users (email, Google, guest) maintain separate progress
@@ -168,6 +172,32 @@ Custom animated visualizations in `src/components/animations/`:
 - `ForceMotion`: Forces and motion simulation
 
 **To add new animation**: Create component in `animations/`, then reference in `content.json` by component name (without `.tsx`).
+
+### Lesson Content Rendering
+
+The `LessonPlayer` component (`src/components/lesson/lesson-player.tsx`) uses **ReactMarkdown** with `remark-gfm` plugin to render lesson content with full markdown support.
+
+**Supported markdown features:**
+- Paragraphs (separated by `\n\n`)
+- Headings (# ## ###)
+- Bold (**text**) and italics (*text*)
+- Numbered lists (1. 2. 3.)
+- Bullet lists (- or *)
+- Tables (GitHub-flavored markdown)
+- Code blocks with syntax highlighting
+- Inline code (`code`)
+
+**Custom styling:**
+The component applies Tailwind prose classes with custom overrides for:
+- Paragraph spacing (`mb-4`)
+- Heading hierarchy with proper sizing
+- List indentation and spacing
+- Table borders and padding
+- Code block styling with monospace font
+- Dark mode support via `dark:prose-invert`
+
+**Content storage format:**
+All lesson content in `content.json` should be stored as markdown strings with proper escape sequences (`\n\n` for line breaks). The ReactMarkdown component will automatically render the markdown to HTML with appropriate styling.
 
 ### Routing Structure
 
@@ -590,6 +620,12 @@ Exercise components in `src/components/exercises/`:
     - 60% for correct answer on third or later attempts
     - 0% if skipped without correct answer
   - **Average score**: Displayed as "X% Average" badge, calculated as sum of all exercise scores divided by number of completed exercises
+  - **Exercise Voting System**: Students can rate difficulty of each exercise
+    - Three vote options: Easy, Hard, Issue
+    - Vote buttons displayed in header row aligned with question title
+    - Votes are user-specific and persisted to localStorage
+    - Students can re-vote by clicking a different button
+    - Selected vote is highlighted with filled button style
 
 - **mcq-exercise.tsx**: Multiple choice (single answer)
   - Radio button selection
@@ -697,7 +733,47 @@ Deploy via Lovable dashboard:
 2. Click Share → Publish
 3. Optionally connect custom domain in Project > Settings > Domains
 
+## Content Formatting Requirements
+
+### Lesson Content Must Use Markdown
+
+Lesson content in `content.json` must be formatted with proper markdown syntax to display correctly in the app. The `LessonPlayer` component uses ReactMarkdown to render content.
+
+**Required markdown formatting:**
+- Use `\n\n` for paragraph breaks
+- Use numbered lists: `1. Item one\n2. Item two`
+- Use `**bold**` for emphasis and section headers
+- Use proper spacing between sections
+
+**Example of properly formatted content:**
+```json
+{
+  "type": "text",
+  "content": "To solve simultaneous equations by substitution:\n\n1. Make one variable the subject in one equation\n2. Substitute into the other equation\n3. Solve for the remaining variable\n4. Find the other variable\n\n**Example: Singapore hawker stalls**\n\nIf 2 plates of chicken rice and 3 drinks cost $12, and 1 plate costs $2 more than a drink, find the prices."
+}
+```
+
+**Formatting Script:**
+Use `format_content_markdown.py` to automatically add markdown formatting to plain text content. The script:
+- Creates automatic backups before making changes
+- Converts numbered lists to proper markdown format
+- Adds paragraph breaks at sentence boundaries
+- Bolds section headers (Example:, Key Terms:, etc.)
+- Processes all text sections and explanations
+
+Run with: `python format_content_markdown.py`
+
 ## Common Issues and Troubleshooting
+
+### Lesson Content Displays as One Paragraph
+
+**Symptom**: Lesson text appears as one long paragraph without line breaks, bullet points, or proper formatting.
+
+**Cause**: Content in `content.json` is stored as plain text without markdown formatting (no `\n\n` for paragraphs, no list markers).
+
+**Fix**: Add proper markdown syntax to the content field:
+1. Use the `format_content_markdown.py` script to automatically format existing content
+2. Or manually add markdown: `\n\n` for paragraph breaks, `1. 2. 3.` for numbered lists, `**bold**` for headers
 
 ### Exercise Questions Not Displaying
 

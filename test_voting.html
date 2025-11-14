@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vote System Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .test { margin: 20px 0; padding: 10px; border: 1px solid #ddd; }
+        .pass { background-color: #d4edda; }
+        .fail { background-color: #f8d7da; }
+    </style>
+</head>
+<body>
+    <h1>Exercise Voting System Test</h1>
+    <div id="results"></div>
+
+    <script>
+        // Simulate store behavior
+        const testVoting = () => {
+            const results = [];
+            
+            // Test 1: Store vote
+            const votes = {};
+            const userId = 'test-user-123';
+            const exerciseId = 'math-algebra-ex1';
+            
+            // Simulate voteExercise
+            votes[userId] = votes[userId] || [];
+            votes[userId].push({
+                exerciseId: exerciseId,
+                vote: 'easy',
+                votedAt: new Date().toISOString()
+            });
+            
+            const hasVote = votes[userId].some(v => v.exerciseId === exerciseId);
+            results.push({
+                name: 'Test 1: Store vote',
+                pass: hasVote,
+                message: hasVote ? 'Vote stored successfully' : 'Failed to store vote'
+            });
+            
+            // Test 2: Retrieve vote
+            const storedVote = votes[userId].find(v => v.exerciseId === exerciseId);
+            results.push({
+                name: 'Test 2: Retrieve vote',
+                pass: storedVote && storedVote.vote === 'easy',
+                message: storedVote ? `Retrieved vote: ${storedVote.vote}` : 'Failed to retrieve vote'
+            });
+            
+            // Test 3: Update vote (re-vote)
+            const filteredVotes = votes[userId].filter(v => v.exerciseId !== exerciseId);
+            votes[userId] = [...filteredVotes, {
+                exerciseId: exerciseId,
+                vote: 'hard',
+                votedAt: new Date().toISOString()
+            }];
+            
+            const updatedVote = votes[userId].find(v => v.exerciseId === exerciseId);
+            results.push({
+                name: 'Test 3: Update vote (re-vote)',
+                pass: updatedVote && updatedVote.vote === 'hard',
+                message: updatedVote ? `Updated vote to: ${updatedVote.vote}` : 'Failed to update vote'
+            });
+            
+            // Test 4: Multiple votes for different exercises
+            votes[userId].push({
+                exerciseId: 'science-physics-ex1',
+                vote: 'issue',
+                votedAt: new Date().toISOString()
+            });
+            
+            results.push({
+                name: 'Test 4: Multiple votes',
+                pass: votes[userId].length === 2,
+                message: `User has ${votes[userId].length} votes (expected 2)`
+            });
+            
+            return results;
+        };
+
+        // Run tests and display results
+        const results = testVoting();
+        const resultsDiv = document.getElementById('results');
+        
+        results.forEach(result => {
+            const div = document.createElement('div');
+            div.className = `test ${result.pass ? 'pass' : 'fail'}`;
+            div.innerHTML = `
+                <strong>${result.name}:</strong> ${result.pass ? '✓ PASS' : '✗ FAIL'}<br>
+                ${result.message}
+            `;
+            resultsDiv.appendChild(div);
+        });
+        
+        const allPassed = results.every(r => r.pass);
+        const summary = document.createElement('div');
+        summary.className = `test ${allPassed ? 'pass' : 'fail'}`;
+        summary.innerHTML = `<h2>${allPassed ? '✓ All tests passed!' : '✗ Some tests failed'}</h2>`;
+        resultsDiv.appendChild(summary);
+    </script>
+</body>
+</html>

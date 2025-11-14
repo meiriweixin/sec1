@@ -46,6 +46,14 @@ export interface AIModuleProgress {
 
 export type GradeLevel = 'sec1' | 'sec2' | 'sec3' | 'sec4' | 'jc1' | 'jc2';
 
+export type VoteDifficulty = 'easy' | 'hard' | 'issue';
+
+export interface ExerciseVote {
+  exerciseId: string; // format: "subjectId-chapterId-exerciseId"
+  vote: VoteDifficulty;
+  votedAt: string; // ISO 8601
+}
+
 export interface UserState {
   user: User | null;
   language: 'en' | 'zh';
@@ -54,6 +62,7 @@ export interface UserState {
   // User-specific progress stored by userId
   allUsersProgress: Record<string, Progress[]>; // userId → Progress[]
   allUsersAIProgress: Record<string, Record<string, AIModuleProgress>>; // userId → aiProgress
+  allUsersExerciseVotes: Record<string, ExerciseVote[]>; // userId → ExerciseVote[]
   currentSubject: string | null;
   currentChapter: string | null;
   _hasHydrated: boolean; // Internal flag to track if store has loaded from localStorage
@@ -75,6 +84,8 @@ export interface UserState {
   getReviewQueue: () => Progress[];
   getDueReviews: () => Progress[];
   setHasHydrated: (state: boolean) => void; // Method to set hydration state
+  voteExercise: (subjectId: string, chapterId: string, exerciseId: string, vote: VoteDifficulty) => void;
+  getExerciseVote: (subjectId: string, chapterId: string, exerciseId: string) => VoteDifficulty | null;
 }
 
 /**
@@ -131,6 +142,7 @@ export const useStore = create<UserState>()(
       gradeLevel: 'sec1', // Default to Secondary 1
       allUsersProgress: {},
       allUsersAIProgress: {},
+      allUsersExerciseVotes: {},
       currentSubject: null,
       currentChapter: null,
       _hasHydrated: false,
@@ -349,6 +361,44 @@ export const useStore = create<UserState>()(
       },
 
       setHasHydrated: (state) => set({ _hasHydrated: state }),
+
+      voteExercise: (subjectId, chapterId, exerciseId, vote) => {
+        const state = get();
+        const userId = state.user?.id;
+        if (!userId) return;
+
+        const fullExerciseId = `${subjectId}-${chapterId}-${exerciseId}`;
+        const userVotes = state.allUsersExerciseVotes[userId] || [];
+
+        // Remove existing vote for this exercise if any
+        const filteredVotes = userVotes.filter(v => v.exerciseId !== fullExerciseId);
+
+        // Add new vote
+        const newVote: ExerciseVote = {
+          exerciseId: fullExerciseId,
+          vote,
+          votedAt: new Date().toISOString(),
+        };
+
+        set({
+          allUsersExerciseVotes: {
+            ...state.allUsersExerciseVotes,
+            [userId]: [...filteredVotes, newVote],
+          },
+        });
+      },
+
+      getExerciseVote: (subjectId, chapterId, exerciseId) => {
+        const state = get();
+        const userId = state.user?.id;
+        if (!userId) return null;
+
+        const fullExerciseId = `${subjectId}-${chapterId}-${exerciseId}`;
+        const userVotes = state.allUsersExerciseVotes[userId] || [];
+        const vote = userVotes.find(v => v.exerciseId === fullExerciseId);
+
+        return vote?.vote || null;
+      },
     }),
     {
       name: 'sg-learning-app-storage',
@@ -359,6 +409,7 @@ export const useStore = create<UserState>()(
         gradeLevel: state.gradeLevel,
         allUsersProgress: state.allUsersProgress,
         allUsersAIProgress: state.allUsersAIProgress,
+        allUsersExerciseVotes: state.allUsersExerciseVotes,
       }),
       onRehydrateStorage: () => {
         // This runs synchronously when the store is created
