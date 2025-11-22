@@ -17,6 +17,8 @@ import ParabolaGraph from "@/components/animations/ParabolaGraph";
 import LinearGraphInteractive from "@/components/animations/LinearGraphInteractive";
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
 
 interface Section {
   id: string;
@@ -90,31 +92,35 @@ export function LessonPlayer({ sections, onComplete, chapterId, subjectId }: Les
         return (
           <div className="prose prose-lg max-w-none dark:prose-invert text-foreground">
             <ReactMarkdown
-              remarkPlugins={[remarkGfm]}
+              remarkPlugins={[remarkGfm, remarkMath]}
+              rehypePlugins={[rehypeKatex]}
               components={{
-                p: ({children}) => <p className="mb-4 leading-relaxed">{children}</p>,
-                h1: ({children}) => <h1 className="text-2xl font-bold mb-4 mt-6">{children}</h1>,
-                h2: ({children}) => <h2 className="text-xl font-bold mb-3 mt-5">{children}</h2>,
-                h3: ({children}) => <h3 className="text-lg font-bold mb-2 mt-4">{children}</h3>,
-                strong: ({children}) => <strong className="font-bold text-primary">{children}</strong>,
-                ul: ({children}) => <ul className="list-disc list-inside mb-4 space-y-2">{children}</ul>,
-                ol: ({children}) => <ol className="list-decimal list-inside mb-4 space-y-2">{children}</ol>,
-                li: ({children}) => <li className="ml-4">{children}</li>,
-                table: ({children}) => <table className="min-w-full border-collapse border border-border my-4">{children}</table>,
-                thead: ({children}) => <thead className="bg-muted">{children}</thead>,
-                tbody: ({children}) => <tbody>{children}</tbody>,
-                tr: ({children}) => <tr className="border-b border-border">{children}</tr>,
-                th: ({children}) => <th className="border border-border px-4 py-2 text-left font-semibold">{children}</th>,
-                td: ({children}) => <td className="border border-border px-4 py-2">{children}</td>,
-                code: ({children}) => <code className="bg-muted px-1.5 py-0.5 rounded text-sm font-mono">{children}</code>,
-                pre: ({children}) => <pre className="bg-muted p-4 rounded-lg overflow-x-auto my-4">{children}</pre>,
+                p: ({ children }) => <p className="mb-4 leading-relaxed">{children}</p>,
+                h1: ({ children }) => <h1 className="text-2xl font-bold mb-4 mt-6">{children}</h1>,
+                h2: ({ children }) => <h2 className="text-xl font-bold mb-3 mt-5">{children}</h2>,
+                h3: ({ children }) => <h3 className="text-lg font-bold mb-2 mt-4">{children}</h3>,
+                strong: ({ children }) => <strong className="font-bold text-primary">{children}</strong>,
+                ul: ({ children }) => <ul className="list-disc list-inside mb-4 space-y-2">{children}</ul>,
+                ol: ({ children }) => <ol className="list-decimal list-inside mb-4 space-y-2">{children}</ol>,
+                li: ({ children }) => <li className="ml-4">{children}</li>,
+                table: ({ children }) => <table className="min-w-full border-collapse border border-border my-4">{children}</table>,
+                thead: ({ children }) => <thead className="bg-muted">{children}</thead>,
+                tbody: ({ children }) => <tbody>{children}</tbody>,
+                tr: ({ children }) => <tr className="border-b border-border">{children}</tr>,
+                th: ({ children }) => <th className="border border-border px-4 py-2 text-left font-semibold">{children}</th>,
+                td: ({ children }) => <td className="border border-border px-4 py-2">{children}</td>,
+                code: ({ children }) => <code className="bg-muted px-1.5 py-0.5 rounded text-sm font-mono">{children}</code>,
+                pre: ({ children }) => <pre className="bg-muted p-4 rounded-lg overflow-x-auto my-4">{children}</pre>,
               }}
             >
               {content}
             </ReactMarkdown>
             {explanation && (
               <div className="mt-4 p-4 bg-muted/50 rounded-lg text-sm text-muted-foreground">
-                <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                <ReactMarkdown
+                  remarkPlugins={[remarkGfm, remarkMath]}
+                  rehypePlugins={[rehypeKatex]}
+                >
                   {explanation}
                 </ReactMarkdown>
               </div>
@@ -230,13 +236,12 @@ export function LessonPlayer({ sections, onComplete, chapterId, subjectId }: Les
             <button
               key={index}
               onClick={() => setCurrentSection(index)}
-              className={`w-3 h-3 rounded-full transition-colors ${
-                index === currentSection
-                  ? 'bg-primary'
-                  : index < currentSection
+              className={`w-3 h-3 rounded-full transition-colors ${index === currentSection
+                ? 'bg-primary'
+                : index < currentSection
                   ? 'bg-success'
                   : 'bg-muted'
-              }`}
+                }`}
             />
           ))}
         </div>

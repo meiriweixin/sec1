@@ -13,6 +13,7 @@ import { ArrowLeft, BookOpen, PenTool, Trophy, Clock, RotateCcw, X } from "lucid
 import { motion } from "framer-motion";
 import contentData from "@/data/content.json";
 import { useToast } from "@/hooks/use-toast";
+import { aiContentStore } from "@/lib/ai-content-store";
 
 export default function ChapterView() {
   const { subjectId, chapterId } = useParams();
@@ -41,8 +42,16 @@ export default function ChapterView() {
   if (!user || !subjectId || !chapterId) return null;
 
   const subject = contentData.subjects.find(s => s.id === subjectId);
-  const chapter = subject?.chapters.find(c => c.id === chapterId);
-  
+  let chapter = subject?.chapters.find(c => c.id === chapterId);
+
+  // If not found in content.json, check AI content store
+  if (!chapter && user) {
+    const aiChapter = aiContentStore.getChapter(user.id, chapterId);
+    if (aiChapter) {
+      chapter = aiChapter;
+    }
+  }
+
   if (!subject || !chapter) {
     return (
       <div className="min-h-screen bg-background">

@@ -34,12 +34,14 @@ This is **SG Learning**, an interactive educational platform for Singapore stude
 **Current Content**:
 - English Language (12 chapters, 180 exercises) - Sec 1 (6 ch) + Sec 2 (6 ch)
 - Chinese Language/华文 (12 chapters, 180 exercises) - Sec 1 (6 ch) + Sec 2 (6 ch)
-- Mathematics (38 chapters, 570 exercises) - Sec 1 (16 ch) + Sec 2 (14 ch) + Sec 3 (8 ch)
+- Mathematics (44 chapters, 660 exercises) - Sec 1 (16 ch) + Sec 2 (14 ch) + Sec 3 (8 ch) + Sec 4 (6 ch)
 - Science (49 chapters, 735 exercises) - Sec 1 (19 ch) + Sec 2 (15 ch) + Sec 3 (15 ch)
 - Computing (18 chapters, 270 exercises) - Sec 1 (6 ch) + Sec 2 (6 ch) + Sec 3 (6 ch)
 - AI Playground (10 modules, 27 activities) - available to all grade levels
 
-**Total**: 129 chapters, 1,935 exercises across 6 subjects and 3 grade levels
+**Total**: 135 chapters, 2,025 exercises across 6 subjects and 4 grade levels
+
+**All Sec 3 Science chapters now have comprehensive lesson content** (33 sections added across 11 chapters in late 2024)
 
 ## Development Commands
 
@@ -175,7 +177,7 @@ Custom animated visualizations in `src/components/animations/`:
 
 ### Lesson Content Rendering
 
-The `LessonPlayer` component (`src/components/lesson/lesson-player.tsx`) uses **ReactMarkdown** with `remark-gfm` plugin to render lesson content with full markdown support.
+The `LessonPlayer` component (`src/components/lesson/lesson-player.tsx`) uses **ReactMarkdown** with `remark-gfm`, `remark-math`, and `rehype-katex` plugins to render lesson content with full markdown and math support.
 
 **Supported markdown features:**
 - Paragraphs (separated by `\n\n`)
@@ -186,6 +188,7 @@ The `LessonPlayer` component (`src/components/lesson/lesson-player.tsx`) uses **
 - Tables (GitHub-flavored markdown)
 - Code blocks with syntax highlighting
 - Inline code (`code`)
+- **Math formulas**: Inline math `$x^2$` and display math `$$\frac{a}{b}$$` using KaTeX
 
 **Custom styling:**
 The component applies Tailwind prose classes with custom overrides for:
@@ -198,6 +201,12 @@ The component applies Tailwind prose classes with custom overrides for:
 
 **Content storage format:**
 All lesson content in `content.json` should be stored as markdown strings with proper escape sequences (`\n\n` for line breaks). The ReactMarkdown component will automatically render the markdown to HTML with appropriate styling.
+
+**Math rendering in exercises:**
+Exercise questions, choices, hints, and explanations also support math formulas using the same markdown + KaTeX system. The following components render math:
+- `exercise-player.tsx` - Question prompts, hints, explanations
+- `mcq-exercise.tsx` - Multiple choice options
+- All exercise types support LaTeX math in their text fields
 
 ### Routing Structure
 
@@ -271,10 +280,10 @@ Use `add_grade_levels.py` to add `gradeLevel` property to existing chapters or u
 
 **Current Status**:
 - English, Chinese: Sec 1 and Sec 2 content available
-- Mathematics: Sec 1, Sec 2, and Sec 3 content available
-- Science: Sec 1, Sec 2, and Sec 3 content available
+- Mathematics: Sec 1, Sec 2, Sec 3, and Sec 4 content available
+- Science: Sec 1, Sec 2, and Sec 3 content available (all chapters have lesson content)
 - Computing: Sec 1, Sec 2, and Sec 3 content available
-- Content for Sec 4, JC 1-2 needs to be added in future
+- Content for JC 1-2 needs to be added in future
 
 **AI Playground**: The AI Playground subject does not have chapters and is available to all grade levels.
 
@@ -564,8 +573,11 @@ Failing to preserve existing fields will cause progress data to be reset, leadin
 - **Sec 1**: English (6 ch), Chinese (6 ch), Mathematics (16 ch), Science (19 ch)
 - **Sec 2**: English (6 ch), Chinese (6 ch), Mathematics (14 ch), Science (15 ch), Computing (6 ch)
 - **Sec 3**: Mathematics (8 ch), Science (15 ch), Computing (6 ch)
+- **Sec 4**: Mathematics (6 ch)
 
 All chapters are verified against official MOE syllabuses. Science Sec 3 content includes NEW 2024 syllabus updates (Electromagnetic Spectrum, Polymers & Recycling, updated Ecology topics).
+
+**Important**: All 15 Sec 3 Science chapters now have comprehensive lesson content with 3-4 sections each, including Singapore-specific examples (NEWater, MRT, HDB, etc.). This was completed in late 2024 to address the gap where 11 chapters had exercises but no lessons.
 
 Content aligned with Singapore Ministry of Education Secondary 1 syllabus:
 
@@ -658,11 +670,22 @@ Several Python scripts exist for content generation (in root directory):
 - **integrate-language-subjects.py**: Integrates both English and Chinese subjects into `content.json`
 
 **Subject Content Generation**:
-- **create_sec1_*.py**, **create_sec2_*.py**, **create_sec3_*.py**: Generate chapters for specific grade levels and subjects
+- **create_sec1_*.py**, **create_sec2_*.py**, **create_sec3_*.py**, **create_sec4_*.py**: Generate chapters for specific grade levels and subjects
 - **create_sec*_exercises.py**: Add exercises to generated chapters
 - **integrate_sec*.py**: Merge generated chapters into `content.json`
 - **generate-content.py**: Generates expanded chapter content from templates
 - **integrate-all-chapters.py**: Merges generated chapters into `content.json`
+
+**Lesson Content Creation**:
+- **create_sec3_science_lessons.py**: Creates comprehensive lesson content for Sec 3 Science chapters
+- **complete_sec3_science_lessons.py**: Adds lessons for additional Sec 3 Science chapters
+- **final_sec3_science_lessons.py**: Completes remaining Sec 3 Science lesson content
+- **absolute_final_sec3_science.py**: Final batch of Sec 3 Science lessons (Reproduction, Salts, Forces)
+
+**Content Enhancement**:
+- **enhance_exercise_explanations.py**: Transforms exercise explanations to pedagogical 6-step format
+- **enhance_science_singapore_context.py**: Adds Singapore-specific examples to Science lessons
+- **fix_lesson_formatting.py**: Fixes broken markdown and enhances lesson structure
 
 **Utilities**:
 - **randomize_answers.py**: Randomizes MCQ answer positions across all chapters to ensure even distribution
@@ -946,3 +969,171 @@ Methods:
 - External link warnings
 - Progress tracking with completion badges
 - Responsive grid layout for module cards
+
+## AI Exam Upload Feature (NEW)
+
+The app now supports AI-powered exam paper analysis using Azure OpenAI GPT-4o Vision. Students can upload scanned exam images, and the system automatically generates comprehensive lesson content and exercises.
+
+### Architecture
+
+**Core Services** (`src/lib/`):
+- **azure-openai.ts**: Azure OpenAI GPT-4o integration
+  - `extractQuestionsFromImage()`: Vision API to extract questions from images
+  - `generateLessonContent()`: Creates lessons, exercises, and objectives
+  - `isConfigured()`: Checks if Azure credentials are set
+- **ai-content-store.ts**: localStorage-based storage for AI-generated chapters
+  - User-specific storage using `userId` as key
+  - CRUD operations: `getChapters()`, `saveChapter()`, `updateChapter()`, `deleteChapter()`
+  - Storage key: `'sg-learning-ai-chapters'`
+
+**UI Components** (`src/components/`):
+- **ExamUpload.tsx**: Modal for uploading and processing exam images
+  - **Multiple file upload support**: Students can upload multiple exam pages at once
+  - File validation (JPG, PNG, WEBP, PDF, max 10MB per file, 50MB total)
+  - Multi-stage progress: uploading → extracting → generating → complete
+  - Sequential processing to avoid API rate limits
+  - Merges questions from all images into single comprehensive lesson
+  - Preview grid showing thumbnails of all selected images
+  - Shows extracted question summary before generation
+- **ContentReview.tsx**: Modal for reviewing and editing AI-generated content
+  - Tabbed interface: Sections | Exercises | Objectives
+  - Inline editing with markdown preview
+  - Content validation before saving
+
+**Integration Points**:
+- **SubjectDetail.tsx**: "Upload Exam Paper" button, modals for upload and review
+- **ChapterCard.tsx**: Purple "AI Generated" badge with Sparkles icon
+- **ChapterView.tsx**: Loads AI chapters from `aiContentStore` if not found in `content.json`
+
+### Environment Configuration
+
+Required variables in `.env` (see `.env.example`):
+```bash
+VITE_AZURE_OPENAI_API_KEY=your-api-key
+VITE_AZURE_OPENAI_ENDPOINT=https://your-resource.openai.azure.com/
+VITE_AZURE_OPENAI_DEPLOYMENT_NAME=gpt-4o
+```
+
+Get credentials from: https://portal.azure.com
+
+### Workflow
+
+1. Student selects grade level and subject
+2. Clicks "Upload Exam Paper" button in SubjectDetail page
+3. Uploads one or more exam images (supports multiple pages) → AI extracts questions from each image
+4. System merges all extracted questions and analyzes difficulty
+5. AI generates bilingual lesson content with Singapore context based on combined questions
+6. Student reviews and edits content in ContentReview modal
+7. Saves as new chapter → appears in chapter list with "AI Generated" badge
+
+### Data Structures
+
+**ExamExtraction**:
+```typescript
+{
+  title: string;
+  gradeLevel: string;
+  subject: string;
+  questions: ExtractedQuestion[];
+  topics: string[];
+}
+```
+
+**GeneratedContent** (extends AIGeneratedChapter):
+```typescript
+{
+  chapterId: string;
+  title: string;
+  title_zh: string;
+  description: string;
+  description_zh: string;
+  gradeLevel: string;
+  objectives: string[];
+  objectives_zh: string[];
+  sections: Section[];
+  exercises: Exercise[];
+  isAIGenerated: true;
+  createdAt: string;
+  createdBy: string; // userId
+  subjectId: string;
+}
+```
+
+### Content Generation
+
+AI generates:
+- **3-4 lesson sections** with markdown formatting
+- **10-15 exercises** matching exam difficulty (easy/medium/hard)
+- **Bilingual content** (English and Chinese)
+- **Singapore context** (NEWater, MRT, HDB, hawker centers)
+- **Pedagogical explanations** (6-step format: Problem → Key Concept → Steps → Answer → Common Mistakes → Tips)
+
+### Important Notes
+
+- **Cost**: Each upload costs ~$0.02-0.10 depending on image complexity
+- **Rate Limits**: Azure OpenAI has rate limits; consider client-side throttling
+- **Content Quality**: AI-generated content should be reviewed before student use
+- **User-Specific**: AI chapters are stored per user ID, not globally shared
+- **Grade Filtering**: AI chapters are filtered by selected grade level like regular chapters
+- **Progress Tracking**: AI chapters use same progress tracking as regular chapters
+
+### Testing
+
+1. Add Azure credentials to `.env` file
+2. Restart dev server: `npm run dev`
+3. Login and select a grade level
+4. Navigate to any subject
+5. Click "Upload Exam Paper"
+6. Upload one or more test exam images (try multiple pages to test merging)
+7. Verify preview grid shows all selected images
+8. Wait for processing (30-60 seconds for single image, longer for multiple)
+9. Review generated content with merged questions from all images
+10. Save and verify chapter appears with AI badge
+
+### Troubleshooting
+
+**"Azure OpenAI is not configured"**:
+- Check `.env` file has all three `VITE_AZURE_OPENAI_*` variables
+- Restart dev server after adding variables
+- Verify variables start with `VITE_` prefix
+
+**Upload fails or times out**:
+- Check Azure OpenAI API key is valid
+- Verify endpoint URL is correct
+- Ensure each image file size < 10MB (50MB total for multiple files)
+- Check stable internet connection
+- For multiple files, processing time increases (sequential to avoid rate limits)
+- Reduce number of files if timing out
+
+**AI chapters don't appear**:
+- Verify user is logged in
+- Check browser localStorage for `'sg-learning-ai-chapters'`
+- Clear localStorage if corrupted: `localStorage.removeItem('sg-learning-ai-chapters')`
+- **Store hydration timing**: AI chapters load in SubjectDetail.tsx only after `_hasHydrated` is true
+- Check browser console for debug logs:
+  - `[AI Store] Total chapters in storage: N` - Shows total chapters saved
+  - `Loaded AI chapters: N for user: [userId] subject: [subjectId]` - Shows filtered chapters loaded
+  - If chapters aren't loading, verify user ID matches between save and load operations
+- **User ID consistency**:
+  - Email/password login: Always uses `id: "user1"` (hardcoded in Login.tsx)
+  - Google login: Uses `id: "google_[sub]"` (consistent per Google account)
+  - Guest mode: Uses `id: "guest"`
+  - AI chapters are user-specific, so different users won't see each other's chapters
+
+See [AI_EXAM_UPLOAD_INTEGRATION.md](AI_EXAM_UPLOAD_INTEGRATION.md) for detailed integration guide.
+
+### Known Issue: AI Chapters and Store Hydration
+
+**Problem**: AI-generated chapters may not appear after page refresh if loaded before Zustand store hydration completes.
+
+**Solution**: The `SubjectDetail.tsx` useEffect that loads AI chapters now depends on `_hasHydrated`:
+```typescript
+useEffect(() => {
+  if (_hasHydrated && user && subjectId) {
+    const chapters = aiContentStore.getChapters(user.id, subjectId);
+    setAIChapters(chapters);
+  }
+}, [_hasHydrated, user, subjectId]);
+```
+
+This ensures user data is fully loaded from localStorage before attempting to retrieve AI chapters. Debug logging has been added to both `ai-content-store.ts` and `SubjectDetail.tsx` to help diagnose persistence issues.

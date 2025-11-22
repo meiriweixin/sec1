@@ -13,6 +13,10 @@ import { ShortAnswerExercise } from "./short-answer-exercise";
 import { DragOrderExercise } from "./drag-order-exercise";
 import { MatchingExercise } from "./matching-exercise";
 import confetti from "canvas-confetti";
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
 
 interface Exercise {
   id: string;
@@ -255,7 +259,14 @@ export function ExercisePlayer({
               </div>
 
               {/* Question Prompt */}
-              <p className="text-base text-foreground">{prompt}</p>
+              <div className="text-base text-foreground prose prose-sm max-w-none dark:prose-invert">
+                <ReactMarkdown
+                  remarkPlugins={[remarkGfm, remarkMath]}
+                  rehypePlugins={[rehypeKatex]}
+                >
+                  {prompt}
+                </ReactMarkdown>
+              </div>
             </CardHeader>
             <CardContent className="space-y-6">
               {renderExercise()}
@@ -269,9 +280,16 @@ export function ExercisePlayer({
                 >
                   <div className="flex items-start space-x-2">
                     <HelpCircle className="h-5 w-5 text-warning mt-0.5" />
-                    <div>
+                    <div className="flex-1">
                       <p className="font-medium text-sm mb-1">{t.hint}</p>
-                      <p className="text-sm text-muted-foreground">{hint}</p>
+                      <div className="text-sm text-muted-foreground prose prose-sm max-w-none dark:prose-invert">
+                        <ReactMarkdown
+                          remarkPlugins={[remarkGfm, remarkMath]}
+                          rehypePlugins={[rehypeKatex]}
+                        >
+                          {hint}
+                        </ReactMarkdown>
+                      </div>
                     </div>
                   </div>
                 </motion.div>
@@ -286,9 +304,16 @@ export function ExercisePlayer({
                 >
                   <div className="flex items-start space-x-2">
                     <CheckCircle className="h-5 w-5 text-success mt-0.5" />
-                    <div>
+                    <div className="flex-1">
                       <p className="font-medium text-sm mb-1">{t.explanation}</p>
-                      <p className="text-sm text-muted-foreground">{explanation}</p>
+                      <div className="text-sm text-muted-foreground prose prose-sm max-w-none dark:prose-invert">
+                        <ReactMarkdown
+                          remarkPlugins={[remarkGfm, remarkMath]}
+                          rehypePlugins={[rehypeKatex]}
+                        >
+                          {explanation}
+                        </ReactMarkdown>
+                      </div>
                     </div>
                   </div>
                 </motion.div>

@@ -7,6 +7,10 @@ import { useStore } from "@/lib/store";
 import { useTranslations } from "@/lib/i18n";
 import { motion } from "framer-motion";
 import { CheckCircle, XCircle } from "lucide-react";
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
 
 interface MCQExerciseProps {
   exercise: {
@@ -146,7 +150,17 @@ export function MCQExercise({
                 disabled={hasSubmitted}
                 onCheckedChange={(checked) => handleMultipleChange(index, checked as boolean)}
               />
-              <Label className="flex-1 cursor-pointer">{choice}</Label>
+              <div className="flex-1 cursor-pointer prose prose-sm max-w-none dark:prose-invert">
+                <ReactMarkdown
+                  remarkPlugins={[remarkGfm, remarkMath]}
+                  rehypePlugins={[rehypeKatex]}
+                  components={{
+                    p: ({ children }) => <span>{children}</span>
+                  }}
+                >
+                  {choice}
+                </ReactMarkdown>
+              </div>
               {getChoiceIcon(index)}
             </motion.div>
           ))}
@@ -172,7 +186,17 @@ export function MCQExercise({
                   } ${hasSubmitted ? "cursor-default" : ""}`}
                 >
                   <RadioGroupItem value={index.toString()} id={`choice-${index}`} />
-                  <span className="flex-1">{choice}</span>
+                  <div className="flex-1 prose prose-sm max-w-none dark:prose-invert">
+                    <ReactMarkdown
+                      remarkPlugins={[remarkGfm, remarkMath]}
+                      rehypePlugins={[rehypeKatex]}
+                      components={{
+                        p: ({ children }) => <span>{children}</span>
+                      }}
+                    >
+                      {choice}
+                    </ReactMarkdown>
+                  </div>
                   {getChoiceIcon(index)}
                 </Label>
               </motion.div>

@@ -5,7 +5,7 @@ import { ProgressRing } from "@/components/ui/progress-ring";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { useStore } from "@/lib/store";
 import { useTranslations } from "@/lib/i18n";
-import { Play, CheckCircle, Clock, AlertCircle, RotateCcw } from "lucide-react";
+import { Play, CheckCircle, Clock, AlertCircle, RotateCcw, Sparkles } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 
@@ -27,9 +27,10 @@ interface ChapterCardProps {
   chapter: Chapter;
   subjectId: string;
   index: number;
+  isAIGenerated?: boolean;
 }
 
-export function ChapterCard({ chapter, subjectId, index }: ChapterCardProps) {
+export function ChapterCard({ chapter, subjectId, index, isAIGenerated }: ChapterCardProps) {
   const { language, getChapterProgress } = useStore();
   const t = useTranslations(language);
   const navigate = useNavigate();
@@ -138,6 +139,12 @@ export function ChapterCard({ chapter, subjectId, index }: ChapterCardProps) {
               <div className="flex items-center flex-wrap gap-2 mb-2">
                 {getStatusIcon()}
                 {getStatusBadge()}
+                {isAIGenerated && (
+                  <Badge variant="secondary" className="bg-purple-100 text-purple-700 dark:bg-purple-900 dark:text-purple-300">
+                    <Sparkles className="w-3 h-3 mr-1" />
+                    {language === 'zh' ? 'AI生成' : 'AI Generated'}
+                  </Badge>
+                )}
                 {tag && (
                   <Badge variant="outline" className={`text-xs font-medium ${getTagColor()}`}>
                     {tag}
