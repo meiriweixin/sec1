@@ -644,8 +644,20 @@ Exercise components in `src/components/exercises/`:
   - Shows correct/incorrect feedback with explanations
 
 - **short-answer-exercise.tsx**: Text input questions
-  - Supports validators: `"fraction"`, `"equation"`, `"exact"`, `"numeric"`
-  - Case-insensitive matching for text answers
+  - **Smart validation (default)**: Flexible answer matching with normalization
+    - Unicode subscript/superscript handling (H₂O = H2O)
+    - Whitespace normalization
+    - Symbol equivalence (× = *, ÷ = /)
+    - Article removal (the, a, an)
+    - Punctuation handling
+    - Word-based matching for multi-word answers
+  - Specialized validators:
+    - `"numeric"`: Float comparison with ±0.001 tolerance (41 exercises)
+    - `"fraction"`: Fraction/decimal equivalence (2 exercises)
+    - `"strict"`: Exact case-insensitive match (rare, for formatting-critical exercises)
+    - `"equation"`: Special equation validation (1 exercise)
+  - Case-insensitive by default
+  - All previously "exact" validators updated to use smart default (146 exercises)
 
 - **drag-order-exercise.tsx**: Drag-and-drop ordering
   - Uses `react-dnd` with HTML5Backend

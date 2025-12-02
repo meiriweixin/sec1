@@ -10334,8 +10334,8 @@
               "title": "Expanding Brackets",
               "title_zh": "展开括号",
               "content": "a(b + c) = ab + ac",
-              "explanation": "**DISTRIBUTIVE LAW**: Multiply outside term by **EACH** term inside.\n\n**Example:**\n\n3(x + 2) = 3×x + 3×2 = 3x + 6\n\nWith negatives: -2(x + 4) = -2x - 8\n\n**Remember:** The sign outside affects **ALL** terms inside!",
-              "explanation_zh": "**分配律：** 将括号外的项乘以括号内的**每一项**。\n\n**例子：**\n\n3(x + 2) = 3×x + 3×2 = 3x + 6\n\n**负数：** -2(x + 4) = -2x - 8\n\n**记住：** 外面的符号影响里面**所有**的项！"
+              "explanation": "**DISTRIBUTIVE LAW**: Multiply outside term by **EACH **term inside. \n\n**Example:**\n\n 3(x +\n2. = 3×x + 3×2 = 3x +\n6.\n\nWith negatives: -2(x +\n4. = -2x -\n8. \n\n**Remember:**\n\n The sign outside affects **ALL **terms inside!",
+              "explanation_zh": "分配律：将括号外的项乘以括号内的每一项。例子：3(x +\n2. = 3×x + 3×2 = 3x + 6。负数：-2(x +\n4. = -2x - 8。记住：外面的符号影响里面所有的项！"
             },
             {
               "id": "factorizing",

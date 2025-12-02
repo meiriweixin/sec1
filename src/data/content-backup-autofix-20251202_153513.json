@@ -9588,7 +9588,7 @@
               "type": "text",
               "title": "Factors and Multiples",
               "title_zh": "因数和倍数",
-              "content": "A factor divides a number exactly. A multiple is the product of a number and any integer.\n\nFor example, factors of 12 are 1, 2, 3, 4, 6,\n12. Multiples of 3 are 3, 6, 9, 12, ...",
+              "content": "A factor divides a number exactly. A multiple is the product of a number and any integer.\n\nFor example, factors of 12 are 1, 2, 3, 4, 6,\n12.\n\nMultiples of 3 are 3, 6, 9, 12, ...",
               "content_zh": "因数是能整除某数的数。倍数是一个数与任何整数的乘积。例如，12的因数是1, 2, 3, 4, 6, 12。3的倍数是3, 6, 9, 12, ..."
             }
           ],
@@ -10306,7 +10306,7 @@
               "type": "text",
               "title": "Like Terms",
               "title_zh": "同类项",
-              "content": "**LIKE TERMS **have the same variables raised to the same powers.\n\nOnly like terms can be combined. \n\n**Examples:**\n\n 2x and 5x are like terms. 4x and 5x² are **NOT**like terms (different powers).\n\nCombining: 3x + 5x = 8x (add coefficients).\n\nRule: Add or subtract coefficients, keep variable part same.",
+              "content": "**LIKE TERMS **have the same variables raised to the same powers.\n\nOnly like terms can be combined. \n\n**Examples:**\n\n 2x and 5x are like terms. 4x and 5x² are **NOT **like terms (different powers).\n\nCombining: 3x + 5x = 8x (add coefficients).\n\nRule: Add or subtract coefficients, keep variable part same.",
               "content_zh": "同类项具有相同的变量和相同的幂。只有同类项可以合并。例子：2x和5x是同类项。4x和5x²不是同类项（不同幂次）。合并：3x + 5x = 8x（加系数）。规则：对系数进行加减，变量部分保持不变。"
             },
             {
@@ -10334,8 +10334,8 @@
               "title": "Expanding Brackets",
               "title_zh": "展开括号",
               "content": "a(b + c) = ab + ac",
-              "explanation": "**DISTRIBUTIVE LAW**: Multiply outside term by **EACH** term inside.\n\n**Example:**\n\n3(x + 2) = 3×x + 3×2 = 3x + 6\n\nWith negatives: -2(x + 4) = -2x - 8\n\n**Remember:** The sign outside affects **ALL** terms inside!",
-              "explanation_zh": "**分配律：** 将括号外的项乘以括号内的**每一项**。\n\n**例子：**\n\n3(x + 2) = 3×x + 3×2 = 3x + 6\n\n**负数：** -2(x + 4) = -2x - 8\n\n**记住：** 外面的符号影响里面**所有**的项！"
+              "explanation": "**DISTRIBUTIVE LAW**: Multiply outside term by **EACH **term inside. \n\n**Example:**\n\n 3(x +\n2. = 3×x + 3×2 = 3x +\n6.\n\nWith negatives: -2(x +\n4. = -2x -\n8. \n\n**Remember:**\n\n The sign outside affects **ALL **terms inside!",
+              "explanation_zh": "分配律：将括号外的项乘以括号内的每一项。例子：3(x +\n2. = 3×x + 3×2 = 3x + 6。负数：-2(x +\n4. = -2x - 8。记住：外面的符号影响里面所有的项！"
             },
             {
               "id": "factorizing",
@@ -10358,7 +10358,7 @@
               "type": "text",
               "title": "Real-World Applications",
               "title_zh": "实际应用",
-              "content": "Algebra helps solve real problems. \n\n**Examples:**\n\n Perimeter of rectangle P = 2(l + w).\n\nCost calculation: Total = price × quantity.\n\nTemperature conversion: F = (9/5)C +\n32. Distance: d = speed × time.\n\nDiscount: Sale price = Original × (1 - discount%).\n\nAlgebra lets us write formulas once and use for any values!",
+              "content": "Algebra helps solve real problems. \n\n**Examples:**\n\n Perimeter of rectangle P = 2(l + w).\n\nCost calculation: Total = price × quantity.\n\nTemperature conversion: F = (9/5)C +\n32.\n\nDistance: d = speed × time.\n\nDiscount: Sale price = Original × (1 - discount%).\n\nAlgebra lets us write formulas once and use for any values!",
               "content_zh": "代数帮助解决实际问题。例子：矩形周长P = 2(l + w)。成本计算：总计 = 价格 × 数量。温度转换：F = (9/5)C + 32。距离：d = 速度 × 时间。折扣：售价 = 原价 × (1 - 折扣%)。代数让我们可以写一次公式，然后用于任何值！"
             }
           ],
@@ -10769,7 +10769,7 @@
               "type": "text",
               "title": "Word Problem Applications",
               "title_zh": "文字题应用",
-              "content": "Real-world problems can be solved using equations. Follow these steps:\n\n5 STEPS TO SOLVE WORD PROBLEMS:\n1) READ carefully and identify what you need to find\n2) CHOOSE a variable (let x = the unknown)\n3) WRITE an equation using the given information\n4) SOLVE the equation\n5) CHECK if the answer makes sense in context\n\nExample 1 (Singapore context): A book costs $x. After a 20% discount (0.8x), it costs $12. Find the original price.\n\nEquation: 0.8x = 12\nSolve: x = 12 ÷ 0.8 = 15\nAnswer: The book originally cost $15. Example 2: Sarah has 3 more apples than Tom. Together they have 15 apples. How many does Tom have?\nLet x = Tom's apples\nSarah has x + 3 apples\nEquation: x + (x + 3) = 15\nSimplify: 2x + 3 = 15\nSolve: 2x = 12, x = 6\nAnswer: Tom has 6 apples, Sarah has 9 apples.\n\nExample 3 (GST): An item costs $x before 9% GST. Total price with GST is $32.70. Find x.\n\nEquation: x + 0.09x = 32.70\nSimplify: 1.09x = 32.70\nSolve: x = 32.70 ÷ 1.09 = 30\nAnswer: The item costs $30 before GST.",
+              "content": "Real-world problems can be solved using equations. Follow these steps:\n\n5 STEPS TO SOLVE WORD PROBLEMS:\n1) READ carefully and identify what you need to find\n2) CHOOSE a variable (let x = the unknown)\n3) WRITE an equation using the given information\n4) SOLVE the equation\n5) CHECK if the answer makes sense in context\n\nExample 1 (Singapore context): A book costs $x. After a 20% discount (0.8x), it costs $12. Find the original price.\nEquation: 0.8x = 12\nSolve: x = 12 ÷ 0.8 = 15\nAnswer: The book originally cost $15.\n\nExample 2: Sarah has 3 more apples than Tom. Together they have 15 apples. How many does Tom have?\nLet x = Tom's apples\nSarah has x + 3 apples\nEquation: x + (x + 3) = 15\nSimplify: 2x + 3 = 15\nSolve: 2x = 12, x = 6\nAnswer: Tom has 6 apples, Sarah has 9 apples.\n\nExample 3 (GST): An item costs $x before 9% GST. Total price with GST is $32.70. Find x.\nEquation: x + 0.09x = 32.70\nSimplify: 1.09x = 32.70\nSolve: x = 32.70 ÷ 1.09 = 30\nAnswer: The item costs $30 before GST.",
               "content_zh": "现实世界的问题可以用方程求解。遵循以下步骤：\n\n解文字题的5个步骤：\n1) 仔细阅读并确定你需要找到什么\n2) 选择一个变量（设x =未知数）\n3) 使用给定信息写方程\n4) 求解方程\n5) 检查答案在上下文中是否合理\n\n例1（新加坡背景）：一本书价格为$x。打8折（0.8x）后价格为$12。求原价。\n方程：0.8x = 12\n求解：x = 12 ÷ 0.8 = 15\n答案：书的原价是$15。\n\n例2：莎拉比汤姆多3个苹果。他们一共有15个苹果。汤姆有多少个？\n设x =汤姆的苹果数\n莎拉有x + 3个苹果\n方程：x + (x + 3) = 15\n简化：2x + 3 = 15\n求解：2x = 12，x = 6\n答案：汤姆有6个苹果，莎拉有9个苹果。\n\n例3（消费税）：一件商品加9%消费税前价格为$x。含税总价为$32.70。求x。\n方程：x + 0.09x = 32.70\n简化：1.09x = 32.70\n求解：x = 32.70 ÷ 1.09 = 30\n答案：商品税前价格为$30。"
             }
           ],
@@ -11122,7 +11122,7 @@
               "type": "text",
               "title": "What is a Quadratic Equation?",
               "title_zh": "什么是一元二次方程？",
-              "content": "A QUADRATIC EQUATION is an equation where the highest power of the variable is 2. STANDARD FORM: ax² + bx + c = 0, where a ≠ 0. Examples:\n• x² + 5x + 6 = 0 (a=1, b=5, c=6)\n• 2x² - 3x + 1 = 0 (a=2, b=-3, c=1)\n• x² - 4 = 0 (a=1, b=0, c=-4)\n• 3x² + 6x = 0 (a=3, b=6, c=0)\n\nNOT quadratic:\n• x + 5 = 0 (linear, power is 1)\n• x³ + 2x = 0 (cubic, power is 3)\n\nKEY FEATURES:\n• Can have 0, 1, or 2 real solutions (roots)\n• Graph is a U-shaped curve called a PARABOLA\n• Coefficient 'a' determines if parabola opens upward (a>0) or downward (a<0)",
+              "content": "A QUADRATIC EQUATION is an equation where the highest power of the variable is 2. STANDARD FORM: ax² + bx + c = 0, where a ≠ 0.\n\nExamples:\n• x² + 5x + 6 = 0 (a=1, b=5, c=6)\n• 2x² - 3x + 1 = 0 (a=2, b=-3, c=1)\n• x² - 4 = 0 (a=1, b=0, c=-4)\n• 3x² + 6x = 0 (a=3, b=6, c=0)\n\nNOT quadratic:\n• x + 5 = 0 (linear, power is 1)\n• x³ + 2x = 0 (cubic, power is 3)\n\nKEY FEATURES:\n• Can have 0, 1, or 2 real solutions (roots)\n• Graph is a U-shaped curve called a PARABOLA\n• Coefficient 'a' determines if parabola opens upward (a>0) or downward (a<0)",
               "content_zh": "一元二次方程是变量的最高次幂为2的方程。标准形式：ax² + bx + c = 0，其中a ≠ 0。\n\n例子：\n• x² + 5x + 6 = 0 (a=1, b=5, c=6)\n• 2x² - 3x + 1 = 0 (a=2, b=-3, c=1)\n• x² - 4 = 0 (a=1, b=0, c=-4)\n• 3x² + 6x = 0 (a=3, b=6, c=0)\n\n不是一元二次方程：\n• x + 5 = 0 (一次方程，次幂为1)\n• x³ + 2x = 0 (三次方程，次幂为3)\n\n关键特征：\n• 可以有0、1或2个实数解（根）\n• 图形是U形曲线，称为抛物线\n• 系数'a'决定抛物线开口向上（a>0）或向下（a<0）"
             },
             {
@@ -11174,7 +11174,7 @@
               "type": "text",
               "title": "Real-World Applications",
               "title_zh": "实际应用",
-              "content": "Quadratic equations model many real-world situations:\n\nCOMMON APPLICATIONS:\n1. PROJECTILE MOTION: Height of thrown objects\n2. AREA PROBLEMS: Finding dimensions of rectangles\n3. NUMBER PROBLEMS: Consecutive integers, products\n4. BUSINESS: Profit maximization, break-even points\n\nExample 1 (Area - Singapore context):\nA rectangular HDB garden has length 3m more than its width. Area is 40m². Find dimensions.\n\nLet w = width\nLength = w + 3\nArea: w(w + 3) = 40\nw² + 3w = 40\nw² + 3w - 40 = 0\nFactor: (w + 8)(w - 5) = 0\nw = -8 (reject, width must be positive) OR w = 5\nWidth = 5m, Length = 8m\n\nExample 2 (Projectile):\nA ball is thrown upward from ground with equation h = -5t² + 20t, where h is height (meters) and t is time (seconds).\n\nWhen does it hit the ground?\n\nSet h = 0:\n-5t² + 20t = 0\n-5t(t - 4) = 0\nt = 0 (launch) OR t = 4 (landing)\nAnswer: The ball hits the ground after 4 seconds.\n\nExample 3 (Numbers):\nTwo consecutive positive integers have a product of 56. Find them.\n\nLet first number = n\nSecond number = n + 1\nProduct: n(n + 1) = 56\nn² + n = 56\nn² + n - 56 = 0\nFactor: (n + 8)(n - 7) = 0\nn = -8 (reject) OR n = 7\nNumbers: 7 and 8\n\nSTRATEGY:\n1) Define variable carefully\n2) Write equation from given information\n3) Rearrange to standard form\n4) Solve using any method\n5) Check if solution makes sense in context",
+              "content": "Quadratic equations model many real-world situations:\n\nCOMMON APPLICATIONS:\n1. PROJECTILE MOTION: Height of thrown objects\n2. AREA PROBLEMS: Finding dimensions of rectangles\n3. NUMBER PROBLEMS: Consecutive integers, products\n4. BUSINESS: Profit maximization, break-even points\n\nExample 1 (Area - Singapore context):\nA rectangular HDB garden has length 3m more than its width. Area is 40m². Find dimensions.\n\nLet w = width\nLength = w + 3\nArea: w(w + 3) = 40\nw² + 3w = 40\nw² + 3w - 40 = 0\nFactor: (w + 8)(w - 5) = 0\nw = -8 (reject, width must be positive) OR w = 5\nWidth = 5m, Length = 8m\n\nExample 2 (Projectile):\nA ball is thrown upward from ground with equation h = -5t² + 20t, where h is height (meters) and t is time (seconds).\nWhen does it hit the ground?\n\nSet h = 0:\n-5t² + 20t = 0\n-5t(t - 4) = 0\nt = 0 (launch) OR t = 4 (landing)\nAnswer: The ball hits the ground after 4 seconds.\n\nExample 3 (Numbers):\nTwo consecutive positive integers have a product of 56. Find them.\n\nLet first number = n\nSecond number = n + 1\nProduct: n(n + 1) = 56\nn² + n = 56\nn² + n - 56 = 0\nFactor: (n + 8)(n - 7) = 0\nn = -8 (reject) OR n = 7\nNumbers: 7 and 8\n\nSTRATEGY:\n1) Define variable carefully\n2) Write equation from given information\n3) Rearrange to standard form\n4) Solve using any method\n5) Check if solution makes sense in context",
               "content_zh": "一元二次方程可以模拟许多现实世界的情况：\n\n常见应用：\n1. 抛体运动：投掷物体的高度\n2. 面积问题：求矩形的尺寸\n3. 数字问题：连续整数、乘积\n4. 商业：利润最大化、盈亏平衡点\n\n例1（面积 - 新加坡背景）：\n一个矩形的组屋花园长度比宽度多3米。面积是40平方米。求尺寸。\n\n设宽度 = w\n长度 = w + 3\n面积：w(w + 3) = 40\nw² + 3w = 40\nw² + 3w - 40 = 0\n因式分解：(w + 8)(w - 5) = 0\nw = -8（舍去，宽度必须为正）或 w = 5\n宽度 = 5米，长度 = 8米\n\n例2（抛体）：\n一个球从地面向上抛出，方程为h = -5t² + 20t，其中h是高度（米），t是时间（秒）。\n球何时落地？\n\n令h = 0：\n-5t² + 20t = 0\n-5t(t - 4) = 0\nt = 0（发射）或 t = 4（落地）\n答案：球在4秒后落地。\n\n例3（数字）：\n两个连续正整数的乘积是56。求它们。\n\n设第一个数 = n\n第二个数 = n + 1\n乘积：n(n + 1) = 56\nn² + n = 56\nn² + n - 56 = 0\n因式分解：(n + 8)(n - 7) = 0\nn = -8（舍去）或 n = 7\n数字：7和8\n\n策略：\n1) 仔细定义变量\n2) 根据给定信息写方程\n3) 整理成标准形式\n4) 用任何方法求解\n5) 检查解在上下文中是否合理"
             }
           ],
@@ -11884,7 +11884,7 @@
               "type": "text",
               "title": "Converting Forms",
               "title_zh": "转换形式",
-              "content": "**PERCENTAGE**to **DECIMAL**: Divide by\n100. \n\n**Example:**\n\n25% = 0.\n25. **DECIMAL**to **PERCENTAGE**: Multiply by\n100. \n\n**Example:**\n\n0.6 = 60%. **PERCENTAGE**to **FRACTION**: Write over 100 and simplify. \n\n**Example:**\n\n40% = 40/100 = 2/\n5. Common to remember: 1/2 = 50%, 1/4 = 25%, 1/5 = 20%.",
+              "content": "**PERCENTAGE **to **DECIMAL**: Divide by\n100. \n\n**Example:**\n\n 25% = 0.\n25. **DECIMAL **to **PERCENTAGE**: Multiply by\n100. \n\n**Example:**\n\n 0.6 = 60%. **PERCENTAGE **to **FRACTION**: Write over 100 and simplify. \n\n**Example:**\n\n 40% = 40/100 = 2/\n5.\n\nCommon to remember: 1/2 = 50%, 1/4 = 25%, 1/5 = 20%.",
               "content_zh": "百分数到小数：除以100。例：25% = 0.25。小数到百分数：乘以100。例：0.6 = 60%。百分数到分数：写成100的分数并简化。例：40% = 40/100 = 2/5。常用记住：1/2 = 50%，1/4 = 25%，1/5 = 20%。"
             },
             {
@@ -11901,7 +11901,7 @@
               "type": "text",
               "title": "Percentage Increase and Decrease",
               "title_zh": "百分比增减",
-              "content": "**INCREASE**: New = Original × (1 + %). \n**Example:**\n\nIncrease $50 by 20% = 50 × 1.20 = $\n60.**DECREASE**: New = Original × (1 - %). \n**Example:**\n\nDecrease $200 by 30% = 200 × 0.70 = $\n140.**FINDING CHANGE**: Change% = (Change/Original) × 100%.",
+              "content": "**INCREASE**: New = Original × (1 + %). \n**Example:**\n\n Increase $50 by 20% = 50 × 1.20 = $\n60.**DECREASE**: New = Original × (1 - %). \n**Example:**\n\n Decrease $200 by 30% = 200 × 0.70 = $\n140.**FINDING CHANGE**: Change% = (Change/Original) × 100%.",
               "content_zh": "增加：新值 = 原值 × (1 + %)。例：$50增加20% = 50 × 1.20 = $60。减少：新值 = 原值 × (1 - %)。例：$200减少30% = 200 × 0.70 = $140。求变化：变化% = (变化量/原值) × 100%。"
             },
             {
@@ -11909,7 +11909,7 @@
               "type": "text",
               "title": "GST Applications",
               "title_zh": "消费税应用",
-              "content": "In Singapore, **GST**is 9%.\n\nPrice with **GST** = Original × 1.\n09. \n**Example:**\n\n$100 item,**GST** = $9, Total = $\n109. Finding original price: Original = Total ÷ 1.\n09. \n**Example:**\n\nTotal $218, Original = 218 ÷ 1.09 = $200.",
+              "content": "In Singapore, **GST**is 9%.\n\nPrice with **GST** = Original × 1.\n09. \n**Example:**\n\n $100 item,**GST** = $9, Total = $\n109.\n\nFinding original price: Original = Total ÷ 1.\n09. \n**Example:**\n\n Total $218, Original = 218 ÷ 1.09 = $200.",
               "content_zh": "在新加坡，消费税为9%。含税价格 = 原价 × 1.09。例：$100商品，消费税 = $9，总计 = $109。求原价：原价 = 总价 ÷ 1.09。例：总计$218，原价 = 218 ÷ 1.09 = $200。"
             },
             {
@@ -11917,7 +11917,7 @@
               "type": "text",
               "title": "Discounts and Sale Prices",
               "title_zh": "折扣和促销价",
-              "content": "**DISCOUNT**reduces price.\n\nSale Price = Original × (1 - Discount%). \n\n**Example:**\n\n$80 with 25% off = 80 × 0.75 = $\n60. Multiple discounts: Apply one after another,**NOT**by adding! \n**Example:**\n\n20% off then 10% off on $100 = 100 × 0.80 × 0.90 = $72 (**NOT**30% off which would be $70).",
+              "content": "**DISCOUNT**reduces price.\n\nSale Price = Original × (1 - Discount%). \n\n**Example:**\n\n $80 with 25% off = 80 × 0.75 = $\n60.\n\nMultiple discounts: Apply one after another,**NOT **by adding! \n**Example:**\n\n 20% off then 10% off on $100 = 100 × 0.80 × 0.90 = $72 (**NOT**30% off which would be $70).",
               "content_zh": "折扣降低价格。促销价 = 原价 × (1 - 折扣%)。例：$80享25%折扣 = 80 × 0.75 = $60。多重折扣：逐个应用，不是相加！例：$100先20%折扣再10%折扣 = 100 × 0.80 × 0.90 = $72（不是30%折扣的$70）。"
             },
             {
@@ -11925,7 +11925,7 @@
               "type": "text",
               "title": "Profit, Loss and Markup",
               "title_zh": "盈利、亏损和加价",
-              "content": "**PROFIT**: Selling Price > Cost.\n\nProfit% = (Profit/Cost) × 100%. \n**Example:**\n\nBuy $60, sell $\n80. Profit = $20, Profit% = (20/\n60. × 100% = 33.33%.**LOSS**: Selling Price < Cost.\n\nFinding**SP**with profit:**SP** =**CP** × (1 + Profit%).\n\nFinding**CP**:**CP** =**SP** ÷ (1 + Profit%).",
+              "content": "**PROFIT**: Selling Price > Cost.\n\nProfit% = (Profit/Cost) × 100%. \n**Example:**\n\n Buy $60, sell $\n80.\n\nProfit = $20, Profit% = (20/\n60. × 100% = 33.33%.**LOSS**: Selling Price < Cost.\n\nFinding**SP **with profit:**SP** =**CP** × (1 + Profit%).\n\nFinding**CP**:**CP** =**SP** ÷ (1 + Profit%).",
               "content_zh": "盈利：售价>成本。盈利% = (盈利/成本) × 100%。例：$60买入，$80卖出。盈利 = $20，盈利% = (20/\n60. × 100% = 33.33%。亏损：售价<成本。有盈利求售价：售价 = 成本价 × (1 + 盈利%)。求成本价：成本价 = 售价 ÷ (1 + 盈利%)。"
             },
             {
@@ -12240,7 +12240,7 @@
               "type": "text",
               "title": "Arithmetic Sequences",
               "title_zh": "等差数列",
-              "content": "An arithmetic sequence has a constant difference between consecutive terms. **FORMULA**: nth term = a + (n-1)d, where a = first term, d = common difference, n = term number. \n\n**Example:**\n\n2, 5, 8, 11, ... has first term a=2, common difference d=\n3. To find 5th term: a₅ = 2 + (5-1)×3 = 2 + 12 = 14.",
+              "content": "An arithmetic sequence has a constant difference between consecutive terms. **FORMULA**: nth term = a + (n-1)d, where a = first term, d = common difference, n = term number. \n\n**Example:**\n\n 2, 5, 8, 11, ... has first term a=2, common difference d=\n3.\n\nTo find 5th term: a₅ = 2 + (5-1)×3 = 2 + 12 = 14.",
               "content_zh": "等差数列的连续项之间有恒定的差。公式：第n项 = a + (n-1)d，其中a = 首项，d = 公差，n = 项数。例子：2, 5, 8, 11, ...首项a=2，公差d=3。求第5项：a₅ = 2 + (5-1)×3 = 2 + 12 = 14。"
             },
             {
@@ -12248,7 +12248,7 @@
               "type": "example",
               "title": "Example: Finding Terms in a Sequence",
               "title_zh": "例子：找数列中的项",
-              "content": "Problem: A sequence starts 7, 12, 17, 22, ... Find the 20th term.\n\nStep 1: Identify the pattern\n- First term a = 7\n- Common difference d = 12 - 7 = 5\n- This is arithmetic (constant difference)\n\nStep 2: Use the formula\n- nth term = a + (n-1)d\n- 20th term = 7 + (20-1)×5\n- = 7 + 19×5\n- = 7 + 95\n- = 102\n\nAnswer: The 20th term is 102. Check: Count forward: 7, 12, 17, 22, 27... (adding 5 each time makes sense!)\n\nSingapore Context: MRT stations are numbered sequentially. If station numbers increase by 5 (NS1, NS6, NS11...), what would be the 15th station number? Using the formula: 1 + (15-1)×5 = 71, so NS71!",
+              "content": "Problem: A sequence starts 7, 12, 17, 22, ... Find the 20th term.\n\nStep 1: Identify the pattern\n- First term a = 7\n- Common difference d = 12 - 7 = 5\n- This is arithmetic (constant difference)\n\nStep 2: Use the formula\n- nth term = a + (n-1)d\n- 20th term = 7 + (20-1)×5\n- = 7 + 19×5\n- = 7 + 95\n- = 102\n\nAnswer: The 20th term is 102.\n\nCheck: Count forward: 7, 12, 17, 22, 27... (adding 5 each time makes sense!)\n\nSingapore Context: MRT stations are numbered sequentially. If station numbers increase by 5 (NS1, NS6, NS11...), what would be the 15th station number? Using the formula: 1 + (15-1)×5 = 71, so NS71!",
               "content_zh": "问题：数列开始为7, 12, 17, 22, ...求第20项。\n\n步骤1：识别模式\n- 首项a = 7\n- 公差d = 12 - 7 = 5\n- 这是等差数列（恒定差）\n\n步骤2：使用公式\n- 第n项 = a + (n-1)d\n- 第20项 = 7 + (20-1)×5\n- = 7 + 19×5\n- = 7 + 95\n- = 102\n\n答案：第20项是102。\n\n检查：向前数：7, 12, 17, 22, 27...（每次加5有道理！）\n\n新加坡情境：地铁站顺序编号。如果站号增加5（NS1, NS6, NS11...），第15个站号是什么？使用公式：1 + (15-1)×5 = 71，所以是NS71！"
             },
             {
@@ -12256,7 +12256,7 @@
               "type": "text",
               "title": "Geometric Patterns",
               "title_zh": "几何模式",
-              "content": "**GEOMETRIC SEQUENCE**: Each term is multiplied by a constant ratio.\n\nFormula: nth term = a × r^(n-1), where r = common ratio. \n\n**Example:**\n\n2, 6, 18, 54, ... has ratio r = 3 (each term × 3).\n\nFinding patterns: Look for addition (arithmetic) or multiplication (geometric).\n\nVisual patterns: Dots, shapes, tiles can form sequences too!",
+              "content": "**GEOMETRIC SEQUENCE**: Each term is multiplied by a constant ratio.\n\nFormula: nth term = a × r^(n-1), where r = common ratio. \n\n**Example:**\n\n 2, 6, 18, 54, ... has ratio r = 3 (each term × 3).\n\nFinding patterns: Look for addition (arithmetic) or multiplication (geometric).\n\nVisual patterns: Dots, shapes, tiles can form sequences too!",
               "content_zh": "几何数列：每项乘以常数比。公式：第n项 = a × r^(n-1)，其中r = 公比。例子：2, 6, 18, 54, ...比r = 3（每项×3）。找模式：寻找加法（等差）或乘法（等比）。视觉模式：点、形状、瓷砖也可以形成数列！"
             },
             {
@@ -12645,7 +12645,7 @@
               "type": "text",
               "title": "Understanding Y-Intercept (c)",
               "title_zh": "理解Y截距(c)",
-              "content": "The Y-INTERCEPT (c) is where the line crosses the y-axis. At this point, x = 0. FINDING Y-INTERCEPT:\n1) From equation y = mx + c: The value of c is the y-intercept\n2) From graph: Look where the line crosses the y-axis\n3) Substitute x = 0 into equation: y = m(0) + c = c\n\nCOORDINATE OF Y-INTERCEPT: (0, c)\n\nExamples:\n• y = 2x + 5: y-intercept = 5, point (0, 5)\n• y = 3x - 4: y-intercept = -4, point (0, -4)\n• y = -x: y-intercept = 0, point (0, 0) - passes through origin\n\nREAL-WORLD MEANING:\nThe y-intercept is the STARTING VALUE or INITIAL AMOUNT when x = 0. Example (Singapore context): Phone plan costs\ny = 0.10x + 15\n• m = 0.10 (10 cents per minute)\n• c = 15 ($15 monthly base fee)\n• Y-intercept (0, 15) means even with 0 minutes, you pay $15",
+              "content": "The Y-INTERCEPT (c) is where the line crosses the y-axis. At this point, x = 0.\n\nFINDING Y-INTERCEPT:\n1) From equation y = mx + c: The value of c is the y-intercept\n2) From graph: Look where the line crosses the y-axis\n3) Substitute x = 0 into equation: y = m(0) + c = c\n\nCOORDINATE OF Y-INTERCEPT: (0, c)\n\nExamples:\n• y = 2x + 5: y-intercept = 5, point (0, 5)\n• y = 3x - 4: y-intercept = -4, point (0, -4)\n• y = -x: y-intercept = 0, point (0, 0) - passes through origin\n\nREAL-WORLD MEANING:\nThe y-intercept is the STARTING VALUE or INITIAL AMOUNT when x = 0.\n\nExample (Singapore context): Phone plan costs\ny = 0.10x + 15\n• m = 0.10 (10 cents per minute)\n• c = 15 ($15 monthly base fee)\n• Y-intercept (0, 15) means even with 0 minutes, you pay $15",
               "content_zh": "Y截距(c)是直线与y轴的交点。在这一点，x = 0。\n\n找Y截距：\n1) 从方程y = mx + c：c的值就是y截距\n2) 从图形：看直线在哪里与y轴相交\n3) 将x = 0代入方程：y = m(0) + c = c\n\nY截距的坐标：(0, c)\n\n例子：\n• y = 2x + 5：y截距 = 5，点(0, 5)\n• y = 3x - 4：y截距 = -4，点(0, -4)\n• y = -x：y截距 = 0，点(0, 0) - 通过原点\n\n实际意义：\nY截距是当x = 0时的起始值或初始量。\n\n例子（新加坡背景）：电话套餐费用\ny = 0.10x + 15\n• m = 0.10（每分钟10分）\n• c = 15（每月$15基本费）\n• Y截距(0, 15)意味着即使0分钟，你也要付$15"
             },
             {
@@ -13028,7 +13028,7 @@
               "type": "text",
               "title": "Understanding Inequalities",
               "title_zh": "理解不等式",
-              "content": "An inequality shows that one value is greater or less than another. **INEQUALITY SYMBOLS**: < (less than), > (greater than), ≤ (less than or equal to), ≥ (greater than or equal to). \n\n**Examples:**\n\n x > 3 means x is greater than\n3. x ≤ 5 means x can be 5 or any number less than\n5. Inequalities describe **RANGES**of values, not just one specific value.\n\nReal-life uses: Budget constraints (spend ≤ $100), Age requirements (age ≥ 13), Speed limits (speed ≤ 90 km/h).",
+              "content": "An inequality shows that one value is greater or less than another. **INEQUALITY SYMBOLS**: < (less than), > (greater than), ≤ (less than or equal to), ≥ (greater than or equal to). \n\n**Examples:**\n\n x > 3 means x is greater than\n3. x ≤ 5 means x can be 5 or any number less than\n5.\n\nInequalities describe **RANGES **of values, not just one specific value.\n\nReal-life uses: Budget constraints (spend ≤ $100), Age requirements (age ≥ 13), Speed limits (speed ≤ 90 km/h).",
               "content_zh": "不等式表明一个值大于或小于另一个值。不等式符号：<（小于）、>（大于）、≤（小于或等于）、≥（大于或等于）。例子：x > 3表示x大于3。x ≤ 5表示x可以是5或任何小于5的数。不等式描述值的范围，而不仅仅是一个特定值。实际用途：预算约束（支出≤$100）、年龄要求（年龄≥13）、速度限制（速度≤90公里/小时）。"
             },
             {
@@ -13036,7 +13036,7 @@
               "type": "text",
               "title": "Solving Inequalities",
               "title_zh": "求解不等式",
-              "content": "Solving inequalities is similar to solving equations. **KEY RULES**:\n1. Add or subtract the same value from both sides\n2. Multiply or divide by positive numbers - inequality stays same\n3. **IMPORTANT**: When multiplying/dividing by **NEGATIVE**numbers, **FLIP**the inequality sign! Steps to solve: Isolate the variable using inverse operations, Keep track of the inequality sign, Check your solution makes sense. \n\n**Example:**\n\nx + 5 >\n8. Subtract 5: x >\n3. All values greater than 3 work!",
+              "content": "Solving inequalities is similar to solving equations. **KEY RULES**:\n1.\n\nAdd or subtract the same value from both sides\n2.\n\nMultiply or divide by positive numbers - inequality stays same\n3. **IMPORTANT**: When multiplying/dividing by **NEGATIVE **numbers, **FLIP **the inequality sign! Steps to solve: Isolate the variable using inverse operations, Keep track of the inequality sign, Check your solution makes sense. \n\n**Example:**\n\n x + 5 >\n8.\n\nSubtract 5: x >\n3.\n\nAll values greater than 3 work!",
               "content_zh": "求解不等式类似于求解方程。关键规则：1）两边加减相同值，2）乘除正数 - 不等式符号不变，3）重要：乘除负数时，翻转不等式符号！求解步骤：使用逆运算隔离变量，跟踪不等式符号，检查解是否合理。例子：x + 5 > 8。减5：x > 3。所有大于3的值都成立！"
             },
             {
@@ -13052,7 +13052,7 @@
               "type": "text",
               "title": "Representing on Number Line",
               "title_zh": "在数轴上表示",
-              "content": "Number lines show inequality solutions visually. **CONVENTIONS**: Open circle ○ for < or > (value **NOT**included), Closed/filled circle ● for ≤ or ≥ (value **IS**included), Arrow shows direction (left for less, right for greater). \n\n**Examples:**\n\n x > 3: Open circle at 3, arrow right. x ≤ -2: Closed circle at -2, arrow left.\n\nReading: All values covered by the arrow are solutions!",
+              "content": "Number lines show inequality solutions visually. **CONVENTIONS**: Open circle ○ for < or > (value **NOT **included), Closed/filled circle ● for ≤ or ≥ (value **IS **included), Arrow shows direction (left for less, right for greater). \n\n**Examples:**\n\n x > 3: Open circle at 3, arrow right. x ≤ -2: Closed circle at -2, arrow left.\n\nReading: All values covered by the arrow are solutions!",
               "content_zh": "数轴直观地显示不等式解。约定：空心圆○表示<或>（不包括该值），实心圆●表示≤或≥（包括该值），箭头显示方向（左表示小于，右表示大于）。例子：x > 3：3处空心圆，箭头向右。x ≤ -2：-2处实心圆，箭头向左。读取：箭头覆盖的所有值都是解！"
             },
             {
@@ -13068,7 +13068,7 @@
               "type": "text",
               "title": "Real-World Constraints",
               "title_zh": "实际约束",
-              "content": "Inequalities model real-world constraints and limitations.\n\nCommon applications: Budget problems (cost ≤ budget), Time constraints (time ≤ deadline), Capacity limits (quantity ≤ maximum), Age/height restrictions (age ≥ minimum).\n\nWhen solving word problems:\n1. Define variable\n2. Write inequality from words\n3. Solve inequality\n4. Interpret answer in context. \n\n**Remember:**\n\n Solutions must make sense in real life (can't have negative people, fractional items, etc.)!",
+              "content": "Inequalities model real-world constraints and limitations.\n\nCommon applications: Budget problems (cost ≤ budget), Time constraints (time ≤ deadline), Capacity limits (quantity ≤ maximum), Age/height restrictions (age ≥ minimum).\n\nWhen solving word problems:\n1.\n\nDefine variable\n2.\n\nWrite inequality from words\n3.\n\nSolve inequality\n4.\n\nInterpret answer in context. \n\n**Remember:**\n\n Solutions must make sense in real life (can't have negative people, fractional items, etc.)!",
               "content_zh": "不等式模拟实际约束和限制。常见应用：预算问题（成本≤预算）、时间约束（时间≤截止时间）、容量限制（数量≤最大值）、年龄/身高限制（年龄≥最小值）。解决文字题时：1）定义变量，2）从文字写出不等式，3）求解不等式，4）在上下文中解释答案。记住：解必须在现实生活中有意义（不能有负人数、分数项目等）！"
             },
             {
@@ -13761,7 +13761,7 @@
               "type": "text",
               "title": "Triangle Angle Sum",
               "title_zh": "三角形内角和",
-              "content": "The sum of angles in any triangle is always 180°.\n\nThis fundamental property helps solve many geometry problems. **WHY**180°? If you tear off the three corners of any triangle and arrange them, they form a straight line! This is one of the most important rules in geometry. **FINDING MISSING ANGLES**: If you know 2 angles, subtract their sum from 180° to find the third.\n\nWorks for**ALL**triangles - big, small, tall, flat - every triangle follows this rule!",
+              "content": "The sum of angles in any triangle is always 180°.\n\nThis fundamental property helps solve many geometry problems. **WHY**180°? If you tear off the three corners of any triangle and arrange them, they form a straight line! This is one of the most important rules in geometry. **FINDING MISSING ANGLES**: If you know 2 angles, subtract their sum from 180° to find the third.\n\nWorks for**ALL **triangles - big, small, tall, flat - every triangle follows this rule!",
               "content_zh": "任何三角形的内角和总是180°。这个基本性质有助于解决许多几何问题。为什么是180°？如果你撕下任何三角形的三个角并排列它们，它们形成一条直线！这是几何学中最重要的规则之一。求缺失的角：如果你知道2个角，从180°减去它们的和来找第三个角。适用于所有三角形 - 大的、小的、高的、扁平的 - 每个三角形都遵循这个规则！"
             },
             {
@@ -13777,7 +13777,7 @@
               "type": "text",
               "title": "Types of Triangles",
               "title_zh": "三角形的类型",
-              "content": "Triangles are classified by **SIDES**and **ANGLES**.\n\nBy **SIDES**: **EQUILATERAL** - all 3 sides equal, all angles 60°. **ISOSCELES** - 2 sides equal, 2 angles equal. **SCALENE** - all sides different, all angles different.\n\nBy **ANGLES**: **ACUTE** - all angles < 90°. **RIGHT** - one angle = 90°. **OBTUSE** - one angle > 90°. A triangle can be both! \n\n**Example:**\n\nRight isosceles has 90°, 45°, 45° with 2 equal sides.",
+              "content": "Triangles are classified by **SIDES **and **ANGLES**.\n\nBy **SIDES**: **EQUILATERAL** - all 3 sides equal, all angles 60°. **ISOSCELES** - 2 sides equal, 2 angles equal. **SCALENE** - all sides different, all angles different.\n\nBy **ANGLES**: **ACUTE** - all angles < 90°. **RIGHT** - one angle = 90°. **OBTUSE** - one angle > 90°. A triangle can be both! \n\n**Example:**\n\n Right isosceles has 90°, 45°, 45° with 2 equal sides.",
               "content_zh": "三角形按边和角分类。按边：等边三角形 - 所有3条边相等，所有角60°。等腰三角形 - 2条边相等，2个角相等。不等边三角形 - 所有边不同，所有角不同。按角：锐角三角形 - 所有角<90°。直角三角形 - 一个角=90°。钝角三角形 - 一个角>90°。一个三角形可以同时是两种！例子：直角等腰三角形有90°、45°、45°和2条相等的边。"
             },
             {
@@ -14149,7 +14149,7 @@
               "type": "text",
               "title": "Rectangles and Squares",
               "title_zh": "矩形和正方形",
-              "content": "**RECTANGLE**formulas: Perimeter = 2(length + width) or P = 2l + 2w, Area = length × width or A = l × w.\n\nWhy 2(l + w)? You have 2 long sides and 2 short sides. **SQUARE** (special rectangle): All 4 sides equal.\n\nPerimeter = 4 × side or P = 4s, Area = side × side or A = s².\n\nTips: If perimeter is given, work backwards to find sides.\n\nArea in m² means multiply meters by meters.",
+              "content": "**RECTANGLE **formulas: Perimeter = 2(length + width) or P = 2l + 2w, Area = length × width or A = l × w.\n\nWhy 2(l + w)? You have 2 long sides and 2 short sides. **SQUARE** (special rectangle): All 4 sides equal.\n\nPerimeter = 4 × side or P = 4s, Area = side × side or A = s².\n\nTips: If perimeter is given, work backwards to find sides.\n\nArea in m² means multiply meters by meters.",
               "content_zh": "矩形公式：周长 = 2(长 + 宽)或P = 2l + 2w，面积 = 长 × 宽或A = l × w。为什么是2(l + w)？你有2条长边和2条短边。正方形（特殊矩形）：所有4条边相等。周长 = 4 × 边或P = 4s，面积 = 边 × 边或A = s²。提示：如果给出周长，倒推找边。平方米的面积意味着米乘以米。"
             },
             {
@@ -14165,7 +14165,7 @@
               "type": "text",
               "title": "Triangle Area",
               "title_zh": "三角形面积",
-              "content": "**TRIANGLE AREA**formula: Area = ½ × base × height or A = ½bh. **BASE** = any side of triangle (usually the bottom).**HEIGHT** = perpendicular distance from base to opposite vertex (must be at**RIGHT ANGLE **to base!).\n\nCommon mistake: Height is**NOT**the slanted side - it must be perpendicular! Why ½? A triangle is half of a rectangle.\n\nPerimeter = sum of all 3 sides.",
+              "content": "**TRIANGLE AREA**formula: Area = ½ × base × height or A = ½bh. **BASE** = any side of triangle (usually the bottom).**HEIGHT** = perpendicular distance from base to opposite vertex (must be at**RIGHT ANGLE **to base!).\n\nCommon mistake: Height is**NOT **the slanted side - it must be perpendicular! Why ½? A triangle is half of a rectangle.\n\nPerimeter = sum of all 3 sides.",
               "content_zh": "三角形面积公式：面积 = ½ × 底 × 高或A = ½bh。底=三角形的任何一边（通常是底部）。高=从底到对顶点的垂直距离（必须与底成直角！）。常见错误：高不是倾斜边 - 它必须是垂直的！为什么是½？三角形是矩形的一半。周长=所有3条边的和。"
             },
             {
@@ -14181,7 +14181,7 @@
               "type": "text",
               "title": "Circles - Circumference and Area",
               "title_zh": "圆 - 周长和面积",
-              "content": "Circle parts: **RADIUS** (r) = center to edge, **DIAMETER** (d) = across through center (d = 2r). **CIRCUMFERENCE** (perimeter of circle): C = 2πr or C = πd. **AREA**: A = πr². π (pi) ≈ 3.14 or 22/\n7. Formulas to remember: C = 2πr (circumference uses radius once), A = πr² (area uses radius squared).\n\nIf diameter given, find radius first: r = d ÷\n2. Use calculator's π button or 3.14 for calculations.",
+              "content": "Circle parts: **RADIUS** (r) = center to edge, **DIAMETER** (d) = across through center (d = 2r). **CIRCUMFERENCE** (perimeter of circle): C = 2πr or C = πd. **AREA**: A = πr². π (pi) ≈ 3.14 or 22/\n7.\n\nFormulas to remember: C = 2πr (circumference uses radius once), A = πr² (area uses radius squared).\n\nIf diameter given, find radius first: r = d ÷\n2.\n\nUse calculator's π button or 3.14 for calculations.",
               "content_zh": "圆的部分：半径(r) = 从圆心到边缘，直径(d) = 通过圆心的横跨(d = 2r)。周长（圆的周长）：C = 2πr或C = πd。面积：A = πr²。π（圆周率）≈ 3.14或22/7。要记住的公式：C = 2πr（周长使用半径一次），A = πr²（面积使用半径的平方）。如果给出直径，先求半径：r = d ÷ 2。使用计算器的π按钮或3.14进行计算。"
             },
             {
@@ -14548,7 +14548,7 @@
               "type": "text",
               "title": "Reading Bar Charts and Pie Charts",
               "title_zh": "读取条形图和饼图",
-              "content": "**CHARTS**visualize data to make patterns easier to see. **BAR CHART**: Uses bars to show quantities.\n\nHorizontal or vertical bars.\n\nEach bar represents a category.\n\nHeight/length shows value.\n\nGood for comparing amounts. **PIE CHART**: Circle divided into slices (sectors).\n\nEach slice represents part of whole.\n\nAngle/area shows proportion.\n\nTotal always = 100% or 360°.\n\nGood for showing parts of a whole.\n\nReading charts:\n1. Check title and labels\n2. Read axis scales carefully\n3. Compare bar heights or slice sizes\n4. Look for patterns or trends.",
+              "content": "**CHARTS **visualize data to make patterns easier to see. **BAR CHART**: Uses bars to show quantities.\n\nHorizontal or vertical bars.\n\nEach bar represents a category.\n\nHeight/length shows value.\n\nGood for comparing amounts. **PIE CHART**: Circle divided into slices (sectors).\n\nEach slice represents part of whole.\n\nAngle/area shows proportion.\n\nTotal always = 100% or 360°.\n\nGood for showing parts of a whole.\n\nReading charts:\n1.\n\nCheck title and labels\n2.\n\nRead axis scales carefully\n3.\n\nCompare bar heights or slice sizes\n4.\n\nLook for patterns or trends.",
               "content_zh": "图表将数据可视化，使模式更容易看到。条形图：使用条形显示数量。水平或垂直条形。每个条形代表一个类别。高度/长度显示值。适合比较数量。饼图：圆分成片（扇形）。每片代表整体的一部分。角度/面积显示比例。总计总是=100%或360°。适合显示整体的各部分。读图表：1）检查标题和标签，2）仔细阅读轴刻度，3）比较条形高度或扇形大小，4）寻找模式或趋势。"
             },
             {
@@ -14564,7 +14564,7 @@
               "type": "text",
               "title": "Frequency Tables",
               "title_zh": "频率表",
-              "content": "**FREQUENCY TABLE **organizes data showing how often each value appears.\n\nComponents: **VALUE**or **CATEGORY** (what's being counted), **FREQUENCY** (how many times it appears), **TALLY**marks (optional, for counting: |||| = 5).\n\nCan also show: **CUMULATIVE FREQUENCY** (running total), **RELATIVE FREQUENCY** (proportion or %).\n\nSteps to make frequency table:\n1. List all unique values\n2. Use tally marks to count\n3. Write frequency numbers\n4. Check total matches data count.\n\nUse frequency tables to: Find mode (highest frequency), See data distribution, Organize survey results.",
+              "content": "**FREQUENCY TABLE **organizes data showing how often each value appears.\n\nComponents: **VALUE **or **CATEGORY** (what's being counted), **FREQUENCY** (how many times it appears), **TALLY **marks (optional, for counting: |||| = 5).\n\nCan also show: **CUMULATIVE FREQUENCY** (running total), **RELATIVE FREQUENCY** (proportion or %).\n\nSteps to make frequency table:\n1.\n\nList all unique values\n2.\n\nUse tally marks to count\n3.\n\nWrite frequency numbers\n4.\n\nCheck total matches data count.\n\nUse frequency tables to: Find mode (highest frequency), See data distribution, Organize survey results.",
               "content_zh": "频率表组织数据，显示每个值出现的频率。组成部分：值或类别（被计数的内容），频率（出现的次数），记号（可选，用于计数：|||| = 5）。还可以显示：累积频率（累计总数），相对频率（比例或%）。制作频率表的步骤：1）列出所有唯一值，2）使用记号计数，3）写出频率数字，4）检查总数与数据计数匹配。使用频率表：找众数（最高频率），查看数据分布，组织调查结果。"
             },
             {
@@ -15271,7 +15271,7 @@
               "type": "text",
               "title": "Elimination Method",
               "title_zh": "消元法",
-              "content": "To solve by elimination:\n1. Make coefficients of one variable equal by multiplying\n2. Add or subtract equations to eliminate that variable\n3. Solve for remaining variable\n4. Substitute back to find the other.\n\nUseful for Singapore transportation problems (**MRT** + bus trips).",
+              "content": "To solve by elimination:\n1.\n\nMake coefficients of one variable equal by multiplying\n2.\n\nAdd or subtract equations to eliminate that variable\n3.\n\nSolve for remaining variable\n4.\n\nSubstitute back to find the other.\n\nUseful for Singapore transportation problems (**MRT** + bus trips).",
               "content_zh": "用消元法求解：1）通过乘法使一个变量的系数相等，2）加减方程消去该变量，3）求解剩余变量，4）代回求另一个。适用于新加坡交通问题（地铁+巴士行程）。"
             },
             {
@@ -15543,7 +15543,7 @@
               "type": "text",
               "title": "Factorization",
               "title_zh": "因式分解",
-              "content": "Factorize by:\n1. Common factors\n2. Grouping\n3. Difference of two squares (a²-b²=(a+b)(a-b)).\n\nUsed in Singapore construction calculations for **HDB**floor areas.",
+              "content": "Factorize by:\n1.\n\nCommon factors\n2.\n\nGrouping\n3.\n\nDifference of two squares (a²-b²=(a+b)(a-b)).\n\nUsed in Singapore construction calculations for **HDB**floor areas.",
               "content_zh": "因式分解：1）提公因式，2）分组，3）平方差公式(a²-b²=(a+b)(a-b))。用于新加坡组屋楼面面积的建筑计算。"
             },
             {
@@ -15551,7 +15551,7 @@
               "type": "text",
               "title": "Changing the Subject",
               "title_zh": "改变公式主项",
-              "content": "To make x the subject:\n1. Move terms not containing x to one side\n2. Isolate x by inverse operations. \n\n**Example:**\n\nConvert temperature formulas C = (F-32)×5/9 (Singapore uses Celsius, understand Fahrenheit).",
+              "content": "To make x the subject:\n1.\n\nMove terms not containing x to one side\n2.\n\nIsolate x by inverse operations. \n\n**Example:**\n\n Convert temperature formulas C = (F-32)×5/9 (Singapore uses Celsius, understand Fahrenheit).",
               "content_zh": "将x作为主项：1）将不含x的项移到一边，2）用逆运算分离x。例如：转换温度公式C = (F-32)×5/9（新加坡使用摄氏度，理解华氏度）。"
             }
           ],
@@ -15807,7 +15807,7 @@
               "type": "text",
               "title": "Factorizing Quadratics",
               "title_zh": "因式分解二次式",
-              "content": "To factorize x²+bx+c, find two numbers that multiply to c and add to b.\n\nFor ax²+bx+c, use cross-method or grouping. \n\n**Example:**\n\nCalculate rectangular**HDB**room dimensions when area is known.",
+              "content": "To factorize x²+bx+c, find two numbers that multiply to c and add to b.\n\nFor ax²+bx+c, use cross-method or grouping. \n\n**Example:**\n\n Calculate rectangular**HDB **room dimensions when area is known.",
               "content_zh": "因式分解x²+bx+c，找两个数相乘等于c，相加等于b。对于ax²+bx+c，使用十字相乘法或分组。例如：已知面积计算组屋房间矩形尺寸。"
             },
             {
@@ -15815,7 +15815,7 @@
               "type": "text",
               "title": "Solving by Factorization",
               "title_zh": "用因式分解求解",
-              "content": "**Steps:**\n\n1. Rearrange to ax²+bx+c=0\n2. Factorize to (x+p)(x+q)=0\n3. Set each factor to zero: x+p=0 or x+q=\n0. Used in Singapore projectile motion (throwing objects).",
+              "content": "**Steps:**\n\n1.\n\nRearrange to ax²+bx+c=0\n2.\n\nFactorize to (x+p)(x+q)=0\n3.\n\nSet each factor to zero: x+p=0 or x+q=\n0.\n\nUsed in Singapore projectile motion (throwing objects).",
               "content_zh": "步骤：1）重排为ax²+bx+c=0，2）因式分解为(x+p)(x+q)=0，3）令每个因子为零：x+p=0或x+q=0。用于新加坡抛物运动（投掷物体）。"
             },
             {
@@ -16079,7 +16079,7 @@
               "type": "text",
               "title": "Function Notation",
               "title_zh": "函数符号",
-              "content": "f(x) means 'function of x'.\n\nIf f(x)=2x+3, then f(5)=2(5)+3=\n13. \n\n**Example:**\n\nSingapore taxi fare function f(d)=base+rate×distance, where d is distance in km.",
+              "content": "f(x) means 'function of x'.\n\nIf f(x)=2x+3, then f(5)=2(5)+3=\n13. \n\n**Example:**\n\n Singapore taxi fare function f(d)=base+rate×distance, where d is distance in km.",
               "content_zh": "f(x)表示'x的函数'。如果f(x)=2x+3，则f(5)=2(5)+3=13。例如：新加坡出租车费用函数f(d)=起步价+单价×距离，其中d是公里距离。"
             },
             {
@@ -16095,7 +16095,7 @@
               "type": "text",
               "title": "Drawing Graphs",
               "title_zh": "绘制图形",
-              "content": "Plot points by substituting x values into function.\n\nJoin points smoothly for linear/quadratic functions. \n\n**Example:**\n\nGraph Singapore**MRT**crowd levels by time of day.",
+              "content": "Plot points by substituting x values into function.\n\nJoin points smoothly for linear/quadratic functions. \n\n**Example:**\n\n Graph Singapore**MRT **crowd levels by time of day.",
               "content_zh": "通过将x值代入函数绘制点。对于线性/二次函数平滑连接点。例如：绘制新加坡地铁客流量随时间变化的图形。"
             }
           ],
@@ -16351,7 +16351,7 @@
               "type": "text",
               "title": "Solving Inequalities",
               "title_zh": "求解不等式",
-              "content": "Solve like equations, but reverse inequality sign when multiplying/dividing by negative number. \n\n**Example:**\n\nSingapore student budget - if you have $50 and items cost $7 each, how many can you buy? 7x ≤ 50, x ≤ 7.14, so maximum 7 items.",
+              "content": "Solve like equations, but reverse inequality sign when multiplying/dividing by negative number. \n\n**Example:**\n\n Singapore student budget - if you have $50 and items cost $7 each, how many can you buy? 7x ≤ 50, x ≤ 7.14, so maximum 7 items.",
               "content_zh": "像方程一样求解，但乘除负数时反转不等号。例如：新加坡学生预算 - 如果你有50元，物品每件7元，能买多少？7x ≤ 50，x ≤ 7.14，所以最多7件。"
             },
             {
@@ -16631,7 +16631,7 @@
               "type": "text",
               "title": "Negative and Zero Indices",
               "title_zh": "负指数和零指数",
-              "content": "Any number to power 0 equals 1: 5⁰=\n1. Negative power is reciprocal: 2⁻³ = 1/2³ = 1/\n8. Used in Singapore science: measuring small quantities in labs.",
+              "content": "Any number to power 0 equals 1: 5⁰=\n1.\n\nNegative power is reciprocal: 2⁻³ = 1/2³ = 1/\n8.\n\nUsed in Singapore science: measuring small quantities in labs.",
               "content_zh": "任何数的0次方等于1：5⁰=1。负指数是倒数：2⁻³ = 1/2³ = 1/8。用于新加坡科学：实验室测量微小量。"
             },
             {
@@ -16639,7 +16639,7 @@
               "type": "text",
               "title": "Scientific Notation",
               "title_zh": "科学记数法",
-              "content": "Write large/small numbers as a × 10ⁿ where 1≤a<\n10. Singapore examples: Area = 733.1 km² = 7.331 × 10² km², Population density = 8,000/km² = 8 × 10³/km².",
+              "content": "Write large/small numbers as a × 10ⁿ where 1≤a<\n10.\n\nSingapore examples: Area = 733.1 km² = 7.331 × 10² km², Population density = 8,000/km² = 8 × 10³/km².",
               "content_zh": "将大/小数字写成a × 10ⁿ，其中1≤a<10。新加坡例子：面积 = 733.1 km² = 7.331 × 10² km²，人口密度 = 8,000/km² = 8 × 10³/km²。"
             }
           ],
@@ -16895,7 +16895,7 @@
               "type": "text",
               "title": "Congruent Triangles",
               "title_zh": "全等三角形",
-              "content": "Triangles are congruent if same shape and size.\n\nTests: **SSS** (3 sides equal),**SAS** (2 sides and included angle),**ASA** (2 angles and included side),**RHS** (right angle, hypotenuse, side).\n\nSingapore construction: ensuring**HDB**building frames are identical.",
+              "content": "Triangles are congruent if same shape and size.\n\nTests: **SSS** (3 sides equal),**SAS** (2 sides and included angle),**ASA** (2 angles and included side),**RHS** (right angle, hypotenuse, side).\n\nSingapore construction: ensuring**HDB **building frames are identical.",
               "content_zh": "三角形形状和大小相同则全等。判定：**SSS**（三边相等）、**SAS**（两边及夹角）、**ASA**（两角及夹边）、**RHS**（直角、斜边、边）。新加坡建筑：确保组屋建筑框架相同。"
             },
             {
@@ -17167,7 +17167,7 @@
               "type": "text",
               "title": "Pythagoras in 2D",
               "title_zh": "二维勾股定理",
-              "content": "For right-angled triangle: a²+b²=c² where c is hypotenuse.\n\nFind missing side: rearrange formula. \n\n**Example:**\n\nCalculate diagonal distance across rectangular**HDB**void deck, or shortest path across Singapore Botanic Gardens rectangular lawn.",
+              "content": "For right-angled triangle: a²+b²=c² where c is hypotenuse.\n\nFind missing side: rearrange formula. \n\n**Example:**\n\n Calculate diagonal distance across rectangular**HDB **void deck, or shortest path across Singapore Botanic Gardens rectangular lawn.",
               "content_zh": "对于直角三角形：a²+b²=c²，其中c是斜边。求缺边：重排公式。例如：计算组屋空地矩形对角线距离，或穿过新加坡植物园矩形草坪的最短路径。"
             },
             {
@@ -17175,7 +17175,7 @@
               "type": "text",
               "title": "Pythagoras in 3D",
               "title_zh": "三维勾股定理",
-              "content": "For cuboid with length l, width w, height h: diagonal d² = l²+w²+h².\n\nApply twice: first find base diagonal, then use with height. \n\n**Example:**\n\n**HDB**room corner to opposite corner distance, or lift cable length.",
+              "content": "For cuboid with length l, width w, height h: diagonal d² = l²+w²+h².\n\nApply twice: first find base diagonal, then use with height. \n\n**Example:**\n\n**HDB **room corner to opposite corner distance, or lift cable length.",
               "content_zh": "对于长方体，长l、宽w、高h：对角线d² = l²+w²+h²。应用两次：先求底面对角线，再与高度使用。例如：组屋房间角到对角的距离，或电梯电缆长度。"
             },
             {
@@ -17439,7 +17439,7 @@
               "type": "text",
               "title": "Parts of a Circle",
               "title_zh": "圆的各部分",
-              "content": "Radius: center to circumference.\n\nDiameter: 2 × radius, passes through center.\n\nChord: line joining two points on circle.\n\nArc: part of circumference.\n\nTangent: line touching circle at one point. \n\n**Example:**\n\nSingapore's roundabouts (circular roads).",
+              "content": "Radius: center to circumference.\n\nDiameter: 2 × radius, passes through center.\n\nChord: line joining two points on circle.\n\nArc: part of circumference.\n\nTangent: line touching circle at one point. \n\n**Example:**\n\n Singapore's roundabouts (circular roads).",
               "content_zh": "半径：圆心到圆周。直径：2 × 半径，通过圆心。弦：连接圆上两点的线。弧：圆周的一部分。切线：在一点接触圆的线。例如：新加坡的环岛（圆形道路）。"
             },
             {
@@ -17455,7 +17455,7 @@
               "type": "text",
               "title": "Tangent Properties",
               "title_zh": "切线性质",
-              "content": "Tangent perpendicular to radius at point of contact.\n\nTwo tangents from external point are equal length. \n\n**Example:**\n\nSingapore cable car routes touch circular supports, wheel spokes perpendicular to rim.",
+              "content": "Tangent perpendicular to radius at point of contact.\n\nTwo tangents from external point are equal length. \n\n**Example:**\n\n Singapore cable car routes touch circular supports, wheel spokes perpendicular to rim.",
               "content_zh": "切线在切点处垂直于半径。从外部点引的两条切线长度相等。例如：新加坡缆车路线接触圆形支架，车轮辐条垂直于边缘。"
             }
           ],
@@ -17711,7 +17711,7 @@
               "type": "text",
               "title": "Area of Quadrilaterals",
               "title_zh": "四边形的面积",
-              "content": "Trapezium: A = ½(a+b)h where a, b are parallel sides, h is height.\n\nParallelogram: A = base × height. \n\n**Example:**\n\nSingapore**HDB**multi-storey carpark ramps (trapezoidal), playground designs.",
+              "content": "Trapezium: A = ½(a+b)h where a, b are parallel sides, h is height.\n\nParallelogram: A = base × height. \n\n**Example:**\n\n Singapore**HDB **multi-storey carpark ramps (trapezoidal), playground designs.",
               "content_zh": "梯形：A = ½(a+b)h，其中a、b是平行边，h是高。平行四边形：A = 底 × 高。例如：新加坡组屋多层停车场坡道（梯形）、游乐场设计。"
             },
             {
@@ -17991,7 +17991,7 @@
               "type": "text",
               "title": "Pyramids and Cones",
               "title_zh": "棱锥和圆锥",
-              "content": "Pyramid: V = ⅓ × base area × height.\n\nCone: V = ⅓πr²h, Surface area = πr² + πrl (l=slant height). \n\n**Example:**\n\nSingapore roof designs, traffic cones, decorative structures.",
+              "content": "Pyramid: V = ⅓ × base area × height.\n\nCone: V = ⅓πr²h, Surface area = πr² + πrl (l=slant height). \n\n**Example:**\n\n Singapore roof designs, traffic cones, decorative structures.",
               "content_zh": "棱锥：V = ⅓ × 底面积 × 高。圆锥：V = ⅓πr²h，表面积 = πr² + πrl（l=斜高）。例如：新加坡屋顶设计、交通锥、装饰结构。"
             },
             {
@@ -18255,7 +18255,7 @@
               "type": "text",
               "title": "Measures of Central Tendency",
               "title_zh": "集中趋势的度量",
-              "content": "Mean: sum ÷ count.\n\nMedian: middle value when ordered.\n\nMode: most frequent value. \n\n**Example:**\n\nAverage temperature in Singapore (mean 28°C), median**HDB**resale price, most common family size (mode).",
+              "content": "Mean: sum ÷ count.\n\nMedian: middle value when ordered.\n\nMode: most frequent value. \n\n**Example:**\n\n Average temperature in Singapore (mean 28°C), median**HDB **resale price, most common family size (mode).",
               "content_zh": "均值：总和 ÷ 数量。中位数：排序后的中间值。众数：最频繁的值。例如：新加坡平均温度（均值28°C）、组屋转售价格中位数、最常见家庭规模（众数）。"
             },
             {
@@ -18263,7 +18263,7 @@
               "type": "text",
               "title": "Range and Spread",
               "title_zh": "极差和分布",
-              "content": "Range: highest - lowest value.\n\nMeasures spread of data.\n\nLarge range = more variation. \n\n**Example:**\n\nSingapore daily temperature range (24-33°C = 9°C range), exam scores range.",
+              "content": "Range: highest - lowest value.\n\nMeasures spread of data.\n\nLarge range = more variation. \n\n**Example:**\n\n Singapore daily temperature range (24-33°C = 9°C range), exam scores range.",
               "content_zh": "极差：最高值 - 最低值。测量数据分布。大极差 = 更多变化。例如：新加坡日温差（24-33°C = 9°C极差）、考试分数极差。"
             },
             {
@@ -18271,7 +18271,7 @@
               "type": "text",
               "title": "Statistical Charts",
               "title_zh": "统计图表",
-              "content": "Bar charts: compare categories.\n\nPie charts: show proportions.\n\nLine graphs: show trends over time. \n\n**Example:**\n\nSingapore population growth chart, ethnic composition pie chart,**MRT**ridership trends.",
+              "content": "Bar charts: compare categories.\n\nPie charts: show proportions.\n\nLine graphs: show trends over time. \n\n**Example:**\n\n Singapore population growth chart, ethnic composition pie chart,**MRT **ridership trends.",
               "content_zh": "条形图：比较类别。饼图：显示比例。折线图：显示随时间的趋势。例如：新加坡人口增长图表、种族组成饼图、地铁乘客量趋势。"
             }
           ],
@@ -18535,7 +18535,7 @@
               "type": "text",
               "title": "Combined Events",
               "title_zh": "复合事件",
-              "content": "**AND**: multiply probabilities (P(A and B) = P(A) × P(B) if independent).**OR**: add probabilities (P(A or B) = P(A) + P(B) if mutually exclusive). \n**Example:**\n\nProbability of catching both**MRT**and bus on time.",
+              "content": "**AND**: multiply probabilities (P(A and B) = P(A) × P(B) if independent).**OR**: add probabilities (P(A or B) = P(A) + P(B) if mutually exclusive). \n**Example:**\n\n Probability of catching both**MRT **and bus on time.",
               "content_zh": "与：乘概率（如果独立，P(A且B) = P(A) × P(B)）。或：加概率（如果互斥，P(A或B) = P(A) + P(B)）。例如：地铁和公交车都准点的概率。"
             },
             {
@@ -18543,7 +18543,7 @@
               "type": "text",
               "title": "Probability Trees",
               "title_zh": "概率树",
-              "content": "Tree diagrams show all possible outcomes with probabilities on branches.\n\nMultiply along branches for final probability. \n\n**Example:**\n\nSingapore weather forecasts (sunny/rainy over multiple days).",
+              "content": "Tree diagrams show all possible outcomes with probabilities on branches.\n\nMultiply along branches for final probability. \n\n**Example:**\n\n Singapore weather forecasts (sunny/rainy over multiple days).",
               "content_zh": "树形图显示所有可能结果，分支上标概率。沿分支相乘得最终概率。例如：新加坡天气预报（多日晴天/雨天）。"
             }
           ],
@@ -18799,7 +18799,7 @@
               "type": "text",
               "title": "Set Notation",
               "title_zh": "集合符号",
-              "content": "Set: collection of objects.\n\nElement: ∈ (belongs to).\n\nSubset: ⊆.\n\nEmpty set: ∅. \n\n**Example:**\n\nSet of Singapore**MRT**lines = {Red, Green, Purple, Yellow, Blue, Brown, Grey}, set of primes < 10 = {2,3,5,7}.",
+              "content": "Set: collection of objects.\n\nElement: ∈ (belongs to).\n\nSubset: ⊆.\n\nEmpty set: ∅. \n\n**Example:**\n\n Set of Singapore**MRT **lines = {Red, Green, Purple, Yellow, Blue, Brown, Grey}, set of primes < 10 = {2,3,5,7}.",
               "content_zh": "集合：对象的集合。元素：∈（属于）。子集：⊆。空集：∅。例如：新加坡地铁线路集合 = {红、绿、紫、黄、蓝、棕、灰}，小于10的质数集合 = {2,3,5,7}。"
             },
             {
@@ -18807,7 +18807,7 @@
               "type": "text",
               "title": "Set Operations",
               "title_zh": "集合运算",
-              "content": "Union A∪B: all elements in A or B.\n\nIntersection A∩B: elements in both A and B.\n\nComplement A': elements not in A. \n\n**Example:**\n\nStudents taking Math ∪ Science, students in both Chess ∩ Robotics clubs.",
+              "content": "Union A∪B: all elements in A or B.\n\nIntersection A∩B: elements in both A and B.\n\nComplement A': elements not in A. \n\n**Example:**\n\n Students taking Math ∪ Science, students in both Chess ∩ Robotics clubs.",
               "content_zh": "并集A∪B：A或B中的所有元素。交集A∩B：同时在A和B中的元素。补集A'：不在A中的元素。例如：选数学∪科学的学生，同时参加国际象棋∩机器人俱乐部的学生。"
             },
             {
@@ -18815,7 +18815,7 @@
               "type": "text",
               "title": "Venn Diagrams",
               "title_zh": "维恩图",
-              "content": "Visual representation of sets using overlapping circles.\n\nOverlap shows intersection.\n\nUse to solve problems with 2-3 sets. \n\n**Example:**\n\nSingapore students studying Mandarin, Malay, Tamil; students playing football, basketball.",
+              "content": "Visual representation of sets using overlapping circles.\n\nOverlap shows intersection.\n\nUse to solve problems with 2-3 sets. \n\n**Example:**\n\n Singapore students studying Mandarin, Malay, Tamil; students playing football, basketball.",
               "content_zh": "使用重叠圆圈直观表示集合。重叠显示交集。用于解决2-3个集合的问题。例如：学习华语、马来语、泰米尔语的新加坡学生；踢足球、打篮球的学生。"
             }
           ],
@@ -20079,7 +20079,7 @@
               "title": "Applications",
               "title_zh": "应用",
               "type": "text",
-              "content": "Real-world applications:\n\n1. Distance problems: Find if point lies on a line\n2. Area of triangles using coordinates\n3. Midpoint and section formulas\n4. Singapore contexts:\n   - Planning roads at right angles\n   - Calculating land area on coordinate grid\n   - GPS coordinates and navigation\n\nExample: A park has corners at A(0,0), B(8,0), C(8,6), D(0,6).\n\nFind:\na) Area of park = length × width = 8 × 6 = 48 units²\nb) Equation of diagonal AC: passes through (0,0) and (8,6)\n   m = 6/8 = 3/4\n   y = (3/4)x"
+              "content": "Real-world applications:\n\n1. Distance problems: Find if point lies on a line\n2. Area of triangles using coordinates\n3. Midpoint and section formulas\n4. Singapore contexts:\n   - Planning roads at right angles\n   - Calculating land area on coordinate grid\n   - GPS coordinates and navigation\n\nExample: A park has corners at A(0,0), B(8,0), C(8,6), D(0,6).\nFind:\na) Area of park = length × width = 8 × 6 = 48 units²\nb) Equation of diagonal AC: passes through (0,0) and (8,6)\n   m = 6/8 = 3/4\n   y = (3/4)x"
             }
           ],
           "exercises": [
@@ -22547,7 +22547,7 @@
               "title": "Tree Diagrams",
               "title_zh": "树状图",
               "type": "text",
-              "content": "Tree diagrams show all possible outcomes for successive events.\n\nSteps:\n1. Draw branches for first event with probabilities\n2. From each outcome, draw branches for second event\n3. Multiply along branches for combined probability\n4. Add probabilities for different paths to same outcome\n\nExample: Two-child family (B=Boy, G=Girl)\nFirst child: P(B)=1/2, P(G)=1/2\nSecond child: P(B)=1/2, P(G)=1/2\n\nPossible outcomes: BB, BG, GB, GG (each 1/4)\nP(exactly 1 boy) = P(BG) + P(GB) = 1/4 + 1/4 = 1/2\nP(at least 1 boy) = P(BB) + P(BG) + P(GB) = 3/4\n\nSingapore context: MRT train on time 85% of time. Taking train 2 days.\n\nP(on time both days) = 0.85 × 0.85 = 0.7225 = 72.25%\nP(late at least once) = 1 - 0.7225 = 0.2775 = 27.75%"
+              "content": "Tree diagrams show all possible outcomes for successive events.\n\nSteps:\n1. Draw branches for first event with probabilities\n2. From each outcome, draw branches for second event\n3. Multiply along branches for combined probability\n4. Add probabilities for different paths to same outcome\n\nExample: Two-child family (B=Boy, G=Girl)\nFirst child: P(B)=1/2, P(G)=1/2\nSecond child: P(B)=1/2, P(G)=1/2\n\nPossible outcomes: BB, BG, GB, GG (each 1/4)\nP(exactly 1 boy) = P(BG) + P(GB) = 1/4 + 1/4 = 1/2\nP(at least 1 boy) = P(BB) + P(BG) + P(GB) = 3/4\n\nSingapore context: MRT train on time 85% of time. Taking train 2 days.\nP(on time both days) = 0.85 × 0.85 = 0.7225 = 72.25%\nP(late at least once) = 1 - 0.7225 = 0.2775 = 27.75%"
             }
           ],
           "exercises": [
@@ -28501,7 +28501,7 @@
               "type": "example",
               "title": "Mirror Reflection Calculations",
               "title_zh": "镜子反射计算",
-              "content": "**Example 1: Simple Mirror Reflection**\n\nA light ray hits a plane (flat) mirror at an angle of 35° to the normal.\n\nWhat is the angle of reflection?\n\n**Solution:**\nUsing the Law of Reflection: Angle of incidence = Angle of reflection\nAngle of incidence = 35°\nTherefore, angle of reflection = 35°\n\n**Example 2: Calculating Angles**\n\nA light ray hits a mirror. The angle between the incident ray and the reflected ray is 80°.\n\nFind the angle of incidence and angle of reflection.\n\n**Solution:**\nStep 1: Draw a diagram showing the incident ray, reflected ray, and normal\n\nStep 2: The angle between incident and reflected rays = 80°\nThis means: angle i + angle r = 80°\n\nStep 3: From the Law of Reflection: angle i = angle r\n\nStep 4: Substituting: angle i + angle i = 80°\n2 × angle i = 80°\nangle i = 40°\n\nStep 5: Therefore, angle r = 40° (since angle i = angle r)\n\n**Answer:** Angle of incidence = 40°, Angle of reflection = 40°\n\n**Example 3: Periscope in Singapore's Submarines**\n\nSingapore's Navy submarines use periscopes with two plane mirrors positioned at 45° angles. Light from above water hits the first mirror at 45°, reflects down, hits the second mirror at 45°, and reflects horizontally to the viewer's eye.\n\nFor each mirror:\n- Angle of incidence = 45°\n- Angle of reflection = 45° (following the Law of Reflection)\n\nThis allows submarine crew to see above water while staying submerged!",
+              "content": "**Example 1: Simple Mirror Reflection**\n\nA light ray hits a plane (flat) mirror at an angle of 35° to the normal.\nWhat is the angle of reflection?\n\n**Solution:**\nUsing the Law of Reflection: Angle of incidence = Angle of reflection\nAngle of incidence = 35°\nTherefore, angle of reflection = 35°\n\n**Example 2: Calculating Angles**\n\nA light ray hits a mirror. The angle between the incident ray and the reflected ray is 80°.\nFind the angle of incidence and angle of reflection.\n\n**Solution:**\nStep 1: Draw a diagram showing the incident ray, reflected ray, and normal\n\nStep 2: The angle between incident and reflected rays = 80°\nThis means: angle i + angle r = 80°\n\nStep 3: From the Law of Reflection: angle i = angle r\n\nStep 4: Substituting: angle i + angle i = 80°\n2 × angle i = 80°\nangle i = 40°\n\nStep 5: Therefore, angle r = 40° (since angle i = angle r)\n\n**Answer:** Angle of incidence = 40°, Angle of reflection = 40°\n\n**Example 3: Periscope in Singapore's Submarines**\n\nSingapore's Navy submarines use periscopes with two plane mirrors positioned at 45° angles. Light from above water hits the first mirror at 45°, reflects down, hits the second mirror at 45°, and reflects horizontally to the viewer's eye.\n\nFor each mirror:\n- Angle of incidence = 45°\n- Angle of reflection = 45° (following the Law of Reflection)\n\nThis allows submarine crew to see above water while staying submerged!",
               "content_zh": "**例子1：简单镜子反射**\n\n一束光线以与法线成35°的角度照射到平面（平坦）镜子上。\n反射角是多少？\n\n**解决方案：**\n使用反射定律：入射角=反射角\n入射角=35°\n因此，反射角=35°\n\n**例子2：计算角度**\n\n一束光线照射到镜子上。入射光线和反射光线之间的角度是80°。\n找出入射角和反射角。\n\n**解决方案：**\n步骤1：画一个显示入射光线、反射光线和法线的图\n\n步骤2：入射光线和反射光线之间的角度=80°\n这意味着：角度i +角度r = 80°\n\n步骤3：从反射定律：角度i =角度r\n\n步骤4：代入：角度i +角度i = 80°\n2×角度i = 80°\n角度i = 40°\n\n步骤5：因此，角度r = 40°（因为角度i =角度r）\n\n**答案：**入射角=40°，反射角=40°\n\n**例子3：新加坡潜艇中的潜望镜**\n\n新加坡海军潜艇使用带有两个以45°角放置的平面镜的潜望镜。来自水面上的光以45°照射到第一面镜子，向下反射，以45°照射到第二面镜子，并水平反射到观察者的眼睛。\n\n对于每面镜子：\n- 入射角=45°\n- 反射角=45°（遵循反射定律）\n\n这使潜艇船员在保持潜水状态的同时可以看到水面上的情况！"
             },
             {
@@ -28922,7 +28922,7 @@
               "type": "text",
               "title": "Understanding Heat vs Temperature",
               "title_zh": "理解热与温度",
-              "content": "Heat and temperature are related but different concepts:\n\n**Temperature:**\n- Measures how hot or cold an object is\n- Measured in degrees Celsius (°C) or Kelvin (K)\n- Depends on the average kinetic energy of particles\n- A single cup of hot water has a high temperature\n\n**Heat:**\n- A form of energy that flows from hot to cold objects\n- Measured in Joules (J) or kilojoules (kJ)\n- Depends on temperature AND the amount of substance\n- The total thermal energy in an object\n\n**Key principle:** Heat always flows from objects at higher temperature to objects at lower temperature until they reach thermal equilibrium (same temperature).\n\n**Example to illustrate the difference:**\nA cup of boiling water (100°C) has high temperature but relatively little heat energy.\n\nA swimming pool of warm water (30°C) has lower temperature but much MORE total heat energy because it contains millions of times more water.\n\n**Singapore Context:**\n\n🔹 **Tropical climate**: Average temperature 27-28°C year-round\n🔹 **Urban heat island effect**: City center 2-3°C warmer than surrounding areas\n🔹 **Cooling systems**: All HDB flats, MRT stations, and buildings use air conditioning\n🔹 **Heat index**: Combines temperature and humidity for \"feels like\" temperature",
+              "content": "Heat and temperature are related but different concepts:\n\n**Temperature:**\n- Measures how hot or cold an object is\n- Measured in degrees Celsius (°C) or Kelvin (K)\n- Depends on the average kinetic energy of particles\n- A single cup of hot water has a high temperature\n\n**Heat:**\n- A form of energy that flows from hot to cold objects\n- Measured in Joules (J) or kilojoules (kJ)\n- Depends on temperature AND the amount of substance\n- The total thermal energy in an object\n\n**Key principle:** Heat always flows from objects at higher temperature to objects at lower temperature until they reach thermal equilibrium (same temperature).\n\n**Example to illustrate the difference:**\nA cup of boiling water (100°C) has high temperature but relatively little heat energy.\nA swimming pool of warm water (30°C) has lower temperature but much MORE total heat energy because it contains millions of times more water.\n\n**Singapore Context:**\n\n🔹 **Tropical climate**: Average temperature 27-28°C year-round\n🔹 **Urban heat island effect**: City center 2-3°C warmer than surrounding areas\n🔹 **Cooling systems**: All HDB flats, MRT stations, and buildings use air conditioning\n🔹 **Heat index**: Combines temperature and humidity for \"feels like\" temperature",
               "content_zh": "热和温度是相关但不同的概念：\n\n**温度：**\n- 测量物体的冷热程度\n- 以摄氏度（°C）或开尔文（K）测量\n- 取决于粒子的平均动能\n- 一杯热水具有高温度\n\n**热：**\n- 从热物体流向冷物体的能量形式\n- 以焦耳（J）或千焦耳（kJ）测量\n- 取决于温度和物质的量\n- 物体中的总热能\n\n**关键原则：**热量总是从温度较高的物体流向温度较低的物体，直到它们达到热平衡（相同温度）。\n\n**说明差异的例子：**\n一杯沸水（100°C）具有高温度但相对较少的热能。\n一个温暖的游泳池（30°C）具有较低的温度，但总热能要多得多，因为它含有数百万倍的水。"
             },
             {
@@ -33060,7 +33060,7 @@
               "type": "text",
               "title": "Concentration & Surface Area",
               "title_zh": "浓度和表面积",
-              "content": "Higher concentration and larger surface area increase reaction rate by providing more particles for collisions. \n\n**Example:**\n\npowdered sugar dissolves faster than sugar cubes.",
+              "content": "Higher concentration and larger surface area increase reaction rate by providing more particles for collisions. \n\n**Example:**\n\n powdered sugar dissolves faster than sugar cubes.",
               "content_zh": "较高的浓度和较大的表面积通过提供更多的粒子进行碰撞来增加反应速率。例如：糖粉比方糖溶解得更快。"
             },
             {
@@ -33332,7 +33332,7 @@
               "type": "text",
               "title": "Displacement Reactions",
               "title_zh": "置换反应",
-              "content": "A more reactive metal can displace a less reactive metal from its compound. \n\n**Example:**\n\nZinc + Copper sulfate → Zinc sulfate + Copper",
+              "content": "A more reactive metal can displace a less reactive metal from its compound. \n\n**Example:**\n\n Zinc + Copper sulfate → Zinc sulfate + Copper",
               "content_zh": "活动性较强的金属可以从其化合物中置换活动性较弱的金属。例如：锌 + 硫酸铜 → 硫酸锌 + 铜"
             },
             {
@@ -33596,7 +33596,7 @@
               "type": "text",
               "title": "Ionic Bonding",
               "title_zh": "离子键",
-              "content": "Ionic bonding involves transfer of electrons from metal to non-metal, forming positive and negative ions held together by electrostatic attraction. \n\n**Example:**\n\nNaCl (sodium chloride, table salt used in Singapore hawker food).",
+              "content": "Ionic bonding involves transfer of electrons from metal to non-metal, forming positive and negative ions held together by electrostatic attraction. \n\n**Example:**\n\n NaCl (sodium chloride, table salt used in Singapore hawker food).",
               "content_zh": "离子键涉及电子从金属转移到非金属，形成通过静电吸引力结合在一起的正离子和负离子。例如：NaCl（氯化钠，新加坡小贩食品中使用的食盐）。"
             },
             {
@@ -33604,7 +33604,7 @@
               "type": "text",
               "title": "Covalent Bonding",
               "title_zh": "共价键",
-              "content": "Covalent bonding involves sharing of electrons between non-metal atoms. \n\n**Example:**\n\nH₂O, CO₂, CH₄ (methane, natural gas used in Singapore homes).",
+              "content": "Covalent bonding involves sharing of electrons between non-metal atoms. \n\n**Example:**\n\n H₂O, CO₂, CH₄ (methane, natural gas used in Singapore homes).",
               "content_zh": "共价键涉及非金属原子之间的电子共享。例如：H₂O、CO₂、CH₄（甲烷，新加坡家庭使用的天然气）。"
             },
             {
@@ -33868,7 +33868,7 @@
               "type": "text",
               "title": "Work Done",
               "title_zh": "功",
-              "content": "Work done = Force × Distance moved in direction of force.\n\nUnit: Joule (J). \n\n**Example:**\n\nLifting shopping bags up**HDB**stairs.",
+              "content": "Work done = Force × Distance moved in direction of force.\n\nUnit: Joule (J). \n\n**Example:**\n\n Lifting shopping bags up**HDB **stairs.",
               "content_zh": "功 = 力 × 在力的方向上移动的距离。单位：焦耳(J)。例如：将购物袋提上组屋楼梯。"
             },
             {
@@ -33884,7 +33884,7 @@
               "type": "text",
               "title": "Power",
               "title_zh": "功率",
-              "content": "Power = Work done ÷ Time taken.\n\nUnit: Watt (W). 1 W = 1 J/s. \n\n**Example:**\n\nSingapore's**MRT**trains have high power motors for quick acceleration.",
+              "content": "Power = Work done ÷ Time taken.\n\nUnit: Watt (W). 1 W = 1 J/s. \n\n**Example:**\n\n Singapore's**MRT **trains have high power motors for quick acceleration.",
               "content_zh": "功率 = 功 ÷ 时间。单位：瓦特(W)。1 W = 1 J/s。例如：新加坡地铁列车具有用于快速加速的高功率电机。"
             }
           ],
@@ -34140,7 +34140,7 @@
               "type": "text",
               "title": "Moment of a Force",
               "title_zh": "力矩",
-              "content": "Moment = Force × Perpendicular distance from pivot.\n\nUnit: Newton-meter (Nm).\n\nThe turning effect of a force. \n\n**Example:**\n\nOpening a door - easier to push far from hinges.",
+              "content": "Moment = Force × Perpendicular distance from pivot.\n\nUnit: Newton-meter (Nm).\n\nThe turning effect of a force. \n\n**Example:**\n\n Opening a door - easier to push far from hinges.",
               "content_zh": "力矩 = 力 × 从支点的垂直距离。单位：牛顿米(Nm)。力的转动效应。例如：开门 - 在远离铰链处推更容易。"
             },
             {
@@ -36337,7 +36337,7 @@
               "type": "text",
               "title": "Reflex Actions",
               "title_zh": "反射动作",
-              "content": "Automatic, rapid, protective responses.\n\nReflex arc: receptor → sensory neuron → relay neuron → motor neuron → effector. \n\n**Example:**\n\npulling hand from hot object.",
+              "content": "Automatic, rapid, protective responses.\n\nReflex arc: receptor → sensory neuron → relay neuron → motor neuron → effector. \n\n**Example:**\n\n pulling hand from hot object.",
               "content_zh": "自动、快速、保护性反应。反射弧：感受器 → 感觉神经元 → 中继神经元 → 运动神经元 → 效应器。例如：从热物体上拉手。"
             },
             {
@@ -39955,21 +39955,21 @@
               "type": "text",
               "title": "Main Computer Components",
               "title_zh": "计算机主要组件",
-              "content": "**CPU** (Central Processing Unit) is the brain - processes instructions. **RAM** (Random Access Memory) is temporary storage - holds data while computer is on.\n\nStorage (Hard Drive/**SSD**) is permanent storage - saves files.\n\nMotherboard connects all components. \n\n**Example:**\n\nSingapore student doing homework - **CPU**processes calculations, **RAM**holds open documents, storage saves completed work."
+              "content": "**CPU** (Central Processing Unit) is the brain - processes instructions. **RAM** (Random Access Memory) is temporary storage - holds data while computer is on.\n\nStorage (Hard Drive/**SSD**) is permanent storage - saves files.\n\nMotherboard connects all components. \n\n**Example:**\n\n Singapore student doing homework - **CPU **processes calculations, **RAM **holds open documents, storage saves completed work."
             },
             {
               "id": "input-output-devices",
               "type": "text",
               "title": "Input & Output Devices",
               "title_zh": "输入输出设备",
-              "content": "Input devices send data **TO**computer: Keyboard (text), Mouse (pointing), Microphone (sound), Camera (images/video), Scanner (documents).\n\nOutput devices receive data **FROM**computer: Monitor (display), Printer (paper), Speakers (sound), Headphones (audio).\n\nSome devices are both: Touchscreen (input touch, output display), **VR**headset.\n\nSingapore schools use interactive whiteboards - both input and output."
+              "content": "Input devices send data **TO **computer: Keyboard (text), Mouse (pointing), Microphone (sound), Camera (images/video), Scanner (documents).\n\nOutput devices receive data **FROM **computer: Monitor (display), Printer (paper), Speakers (sound), Headphones (audio).\n\nSome devices are both: Touchscreen (input touch, output display), **VR **headset.\n\nSingapore schools use interactive whiteboards - both input and output."
             },
             {
               "id": "how-computers-work",
               "type": "text",
               "title": "How Computers Process Data",
               "title_zh": "计算机如何处理数据",
-              "content": "Input-Process-Output cycle:\n1. Input: User enters data (keyboard/mouse)\n2. Process: **CPU**executes instructions using **RAM\n**3. Output: Results displayed or saved. \n\n**Example:**\n\nSingapore student searches online - Input: Type 'Singapore history', Process: Computer sends request to Google servers, retrieves results, Output: Display search results on screen.\n\nEverything happens in milliseconds!"
+              "content": "Input-Process-Output cycle:\n1.\n\nInput: User enters data (keyboard/mouse)\n2.\n\nProcess: **CPU **executes instructions using **RAM\n**3.\n\nOutput: Results displayed or saved. \n\n**Example:**\n\n Singapore student searches online - Input: Type 'Singapore history', Process: Computer sends request to Google servers, retrieves results, Output: Display search results on screen.\n\nEverything happens in milliseconds!"
             },
             {
               "id": "types-of-devices",
@@ -40231,14 +40231,14 @@
               "type": "text",
               "title": "What is an Algorithm?",
               "title_zh": "什么是算法？",
-              "content": "Algorithm = step-by-step instructions to complete a task.\n\nLike a recipe for cooking! \n\n**Example:**\n\nMaking Milo -\n1. Boil water\n2. Put 3 spoons Milo in cup\n3. Pour hot water\n4. Stir\n5. Enjoy! Algorithms must be: Clear (no confusion), Ordered (correct sequence), Finite (must end).\n\nSingapore traffic lights use algorithms to control light changes based on traffic flow and time."
+              "content": "Algorithm = step-by-step instructions to complete a task.\n\nLike a recipe for cooking! \n\n**Example:**\n\n Making Milo -\n1.\n\nBoil water\n2.\n\nPut 3 spoons Milo in cup\n3.\n\nPour hot water\n4.\n\nStir\n5.\n\nEnjoy! Algorithms must be: Clear (no confusion), Ordered (correct sequence), Finite (must end).\n\nSingapore traffic lights use algorithms to control light changes based on traffic flow and time."
             },
             {
               "id": "sequences",
               "type": "text",
               "title": "Sequences & Patterns",
               "title_zh": "序列与模式",
-              "content": "Sequence is ordered list: 2, 4, 6, 8 (adding 2 each time).\n\nPattern is repeating design: Red, Blue, Red, Blue.\n\nFinding patterns helps solve problems faster. \n\n**Example:**\n\nSingapore bus numbers - 14, 14A, 14e follow pattern (same route, different stops).\n\nNumber patterns: 5, 10, 15, 20 (multiply by 5).\n\nUnderstanding patterns is key to computational thinking."
+              "content": "Sequence is ordered list: 2, 4, 6, 8 (adding 2 each time).\n\nPattern is repeating design: Red, Blue, Red, Blue.\n\nFinding patterns helps solve problems faster. \n\n**Example:**\n\n Singapore bus numbers - 14, 14A, 14e follow pattern (same route, different stops).\n\nNumber patterns: 5, 10, 15, 20 (multiply by 5).\n\nUnderstanding patterns is key to computational thinking."
             },
             {
               "id": "decomposition",
@@ -40252,7 +40252,7 @@
               "type": "text",
               "title": "Focus on What Matters",
               "title_zh": "关注重要内容",
-              "content": "Abstraction means ignoring unnecessary details, focusing on important information. \n\n**Example:**\n\nSingapore **MRT**map - Shows stations and lines, but **NOT**exact distances or street names.\n\nThat's abstraction - only essential info shown.\n\nWhen giving directions: 'Take Red Line to Orchard, then Green Line to Bugis' - abstract (simple).\n\nNot: 'Travel 2.3km northeast, turn at 103.8° heading...' - too detailed.\n\nAbstraction makes problems simpler."
+              "content": "Abstraction means ignoring unnecessary details, focusing on important information. \n\n**Example:**\n\n Singapore **MRT **map - Shows stations and lines, but **NOT **exact distances or street names.\n\nThat's abstraction - only essential info shown.\n\nWhen giving directions: 'Take Red Line to Orchard, then Green Line to Bugis' - abstract (simple).\n\nNot: 'Travel 2.3km northeast, turn at 103.8° heading...' - too detailed.\n\nAbstraction makes problems simpler."
             }
           ],
           "exercises": [
@@ -40507,28 +40507,28 @@
               "type": "text",
               "title": "What is Block Programming?",
               "title_zh": "什么是积木式编程？",
-              "content": "Block programming uses colorful blocks instead of typing code.\n\nSnap blocks together like **LEGO**! Popular tools: Scratch (**MIT**), Blockly (Google), Code.org.\n\nBlocks include: Motion (move sprite), Looks (change appearance), Sound (play music), Events (when clicked), Control (if/repeat). \n\n**Example:**\n\nMake Singapore Merlion sprite move - 'When green flag clicked' + 'Move 10 steps' + 'Say Hello for 2 seconds'.\n\nNo typing errors, focus on logic!"
+              "content": "Block programming uses colorful blocks instead of typing code.\n\nSnap blocks together like **LEGO**! Popular tools: Scratch (**MIT**), Blockly (Google), Code.org.\n\nBlocks include: Motion (move sprite), Looks (change appearance), Sound (play music), Events (when clicked), Control (if/repeat). \n\n**Example:**\n\n Make Singapore Merlion sprite move - 'When green flag clicked' + 'Move 10 steps' + 'Say Hello for 2 seconds'.\n\nNo typing errors, focus on logic!"
             },
             {
               "id": "sequence-blocks",
               "type": "text",
               "title": "Sequence - Order Matters",
               "title_zh": "顺序 - 顺序很重要",
-              "content": "Sequence = blocks run in order from top to bottom. \n\n**Example:**\n\nSingapore flag animation -\n1. Set background to red\n2. Draw white crescent\n3. Draw 5 stars\n4. Play national anthem.\n\nIf order wrong (anthem before drawing), looks strange! Programs execute one instruction at a time, in sequence.\n\nPractice: Create program to introduce yourself -\n1. Say name\n2. Show age\n3. Say school\n4. Say hobby."
+              "content": "Sequence = blocks run in order from top to bottom. \n\n**Example:**\n\n Singapore flag animation -\n1.\n\nSet background to red\n2.\n\nDraw white crescent\n3.\n\nDraw 5 stars\n4.\n\nPlay national anthem.\n\nIf order wrong (anthem before drawing), looks strange! Programs execute one instruction at a time, in sequence.\n\nPractice: Create program to introduce yourself -\n1.\n\nSay name\n2.\n\nShow age\n3.\n\nSay school\n4.\n\nSay hobby."
             },
             {
               "id": "loops-repetition",
               "type": "text",
               "title": "Loops - Repetition",
               "title_zh": "循环 - 重复",
-              "content": "Loops repeat actions. 'Repeat 10' block runs code 10 times. 'Forever' loop runs continuously. \n\n**Example:**\n\nDraw square - Repeat 4 times: Move 50 steps, Turn 90 degrees.\n\nWithout loop, need to write same code 4 times! Singapore **EZ**-Link card tapping - Loop checks: While balance > 0, allow entry. 'Repeat until' loops until condition is true.\n\nUse loops to avoid repetitive code."
+              "content": "Loops repeat actions. 'Repeat 10' block runs code 10 times. 'Forever' loop runs continuously. \n\n**Example:**\n\n Draw square - Repeat 4 times: Move 50 steps, Turn 90 degrees.\n\nWithout loop, need to write same code 4 times! Singapore **EZ**-Link card tapping - Loop checks: While balance > 0, allow entry. 'Repeat until' loops until condition is true.\n\nUse loops to avoid repetitive code."
             },
             {
               "id": "conditions-selection",
               "type": "text",
               "title": "If-Then - Making Decisions",
               "title_zh": "If-Then - 做决定",
-              "content": "If-Then blocks make decisions.\n\nStructure: 'If condition Then action'. \n\n**Example:**\n\nSingapore weather program - 'If temperature > 30, Say Very Hot!, Else Say Pleasant'.\n\nConditions use comparisons: = (equal), > (greater), < (less).\n\nCombination: 'If raining **AND**temperature < 25, Say Cold rain'.\n\nSingapore school attendance - 'If student present, Mark attendance, Else Send absence alert'.\n\nComputers make millions of if-then decisions per second."
+              "content": "If-Then blocks make decisions.\n\nStructure: 'If condition Then action'. \n\n**Example:**\n\n Singapore weather program - 'If temperature > 30, Say Very Hot!, Else Say Pleasant'.\n\nConditions use comparisons: = (equal), > (greater), < (less).\n\nCombination: 'If raining **AND **temperature < 25, Say Cold rain'.\n\nSingapore school attendance - 'If student present, Mark attendance, Else Send absence alert'.\n\nComputers make millions of if-then decisions per second."
             }
           ],
           "exercises": [
@@ -41059,14 +41059,14 @@
               "type": "text",
               "title": "How the Internet Works",
               "title_zh": "互联网如何工作",
-              "content": "Internet = worldwide network of connected computers.\n\nWhen you visit website:\n1. Type **URL** (www.moe.gov.sg)\n2. Computer sends request through router\n3. Request travels through many routers worldwide\n4. Reaches web server\n5. Server sends webpage back to you.\n\nAll in milliseconds! **IP**address is computer's location (like postal code). **DNS**translates website names to **IP**addresses.\n\nSingapore has excellent internet infrastructure - fast fiber broadband connections."
+              "content": "Internet = worldwide network of connected computers.\n\nWhen you visit website:\n1.\n\nType **URL** (www.moe.gov.sg)\n2.\n\nComputer sends request through router\n3.\n\nRequest travels through many routers worldwide\n4.\n\nReaches web server\n5.\n\nServer sends webpage back to you.\n\nAll in milliseconds! **IP **address is computer's location (like postal code). **DNS **translates website names to **IP **addresses.\n\nSingapore has excellent internet infrastructure - fast fiber broadband connections."
             },
             {
               "id": "online-safety",
               "type": "text",
               "title": "Staying Safe Online",
               "title_zh": "在线保持安全",
-              "content": "Online safety rules:\n1. Never share passwords\n2. Don't give personal info (**NRIC**, address, phone) to strangers\n3. Think before posting - internet is permanent\n4. Tell adult if something uncomfortable\n5. Use privacy settings on social media.\n\nStrong passwords: 8+ characters, mix letters/numbers/symbols, different for each site. \n\n**Example:**\n\n'S1ng@p0re#2024' (but don't use this - make your own!).\n\nSingapore Cyber Security Agency (**CSA**) provides safety resources."
+              "content": "Online safety rules:\n1.\n\nNever share passwords\n2.\n\nDon't give personal info (**NRIC**, address, phone) to strangers\n3.\n\nThink before posting - internet is permanent\n4.\n\nTell adult if something uncomfortable\n5.\n\nUse privacy settings on social media.\n\nStrong passwords: 8+ characters, mix letters/numbers/symbols, different for each site. \n\n**Example:**\n\n 'S1ng@p0re#2024' (but don't use this - make your own!).\n\nSingapore Cyber Security Agency (**CSA**) provides safety resources."
             },
             {
               "id": "online-threats",
@@ -41080,7 +41080,7 @@
               "type": "text",
               "title": "Your Digital Footprint",
               "title_zh": "你的数字足迹",
-              "content": "Digital footprint = trail of data you leave online.\n\nEverything you post, like, share stays online - maybe forever! Future employers, schools can search your name.\n\nTips:\n1. Google yourself - see what others find\n2. Set social media to private\n3. Don't post anything embarrassing\n4. Be kind online - messages can be screenshot\n5. Think: Would I want teachers/parents to see this? Singapore schools emphasize positive digital citizenship. \n\n**Remember:**\n\n 'What happens online, stays online.'"
+              "content": "Digital footprint = trail of data you leave online.\n\nEverything you post, like, share stays online - maybe forever! Future employers, schools can search your name.\n\nTips:\n1.\n\nGoogle yourself - see what others find\n2.\n\nSet social media to private\n3.\n\nDon't post anything embarrassing\n4.\n\nBe kind online - messages can be screenshot\n5.\n\nThink: Would I want teachers/parents to see this? Singapore schools emphasize positive digital citizenship. \n\n**Remember:**\n\n 'What happens online, stays online.'"
             }
           ],
           "exercises": [
@@ -41342,7 +41342,7 @@
               "type": "text",
               "title": "Creating Presentations",
               "title_zh": "创建演示文稿",
-              "content": "Presentation software: PowerPoint, Google Slides, Keynote.\n\nEach slide = one idea.\n\nGood presentations:\n1. Clear title on each slide\n2. Large text (not tiny!)\n3. Few words (use images)\n4. Consistent colors/fonts\n5. Animations sparingly. 6-6 rule: Max 6 lines per slide, 6 words per line.\n\nSingapore students present projects using slides.\n\nPractice speaking skills - don't just read slides! Engage audience with questions, videos, demos."
+              "content": "Presentation software: PowerPoint, Google Slides, Keynote.\n\nEach slide = one idea.\n\nGood presentations:\n1.\n\nClear title on each slide\n2.\n\nLarge text (not tiny!)\n3.\n\nFew words (use images)\n4.\n\nConsistent colors/fonts\n5.\n\nAnimations sparingly. 6-6 rule: Max 6 lines per slide, 6 words per line.\n\nSingapore students present projects using slides.\n\nPractice speaking skills - don't just read slides! Engage audience with questions, videos, demos."
             },
             {
               "id": "spreadsheets-basics",
@@ -41356,7 +41356,7 @@
               "type": "text",
               "title": "Collaborating Online",
               "title_zh": "在线协作",
-              "content": "Cloud tools enable teamwork: Google Workspace (Docs, Sheets, Slides), Microsoft 365, Zoom, Google Meet.\n\nShare documents - multiple people edit simultaneously.\n\nSee who's editing in real-time.\n\nComment/suggest features for feedback.\n\nVideo calls for group discussions.\n\nSingapore schools use Google Classroom and Microsoft Teams for online learning.\n\nBest practices:\n1. Communicate clearly\n2. Respect others' ideas\n3. Complete your part on time\n4. Check spelling/grammar before sharing\n5. Use appropriate language and tone."
+              "content": "Cloud tools enable teamwork: Google Workspace (Docs, Sheets, Slides), Microsoft 365, Zoom, Google Meet.\n\nShare documents - multiple people edit simultaneously.\n\nSee who's editing in real-time.\n\nComment/suggest features for feedback.\n\nVideo calls for group discussions.\n\nSingapore schools use Google Classroom and Microsoft Teams for online learning.\n\nBest practices:\n1.\n\nCommunicate clearly\n2.\n\nRespect others' ideas\n3.\n\nComplete your part on time\n4.\n\nCheck spelling/grammar before sharing\n5.\n\nUse appropriate language and tone."
             }
           ],
           "exercises": [
@@ -41611,28 +41611,28 @@
               "type": "text",
               "title": "What are Algorithms?",
               "title_zh": "什么是算法？",
-              "content": "An algorithm is a step-by-step procedure to solve a problem.\n\nLike a recipe for cooking or directions to a destination.\n\nIn computing, algorithms tell computers exactly what to do. \n\n**Example:**\n\nSingapore **MRT**route planning - finding shortest path from Jurong East to Changi Airport involves an algorithm that considers all possible routes and selects the optimal one."
+              "content": "An algorithm is a step-by-step procedure to solve a problem.\n\nLike a recipe for cooking or directions to a destination.\n\nIn computing, algorithms tell computers exactly what to do. \n\n**Example:**\n\n Singapore **MRT **route planning - finding shortest path from Jurong East to Changi Airport involves an algorithm that considers all possible routes and selects the optimal one."
             },
             {
               "id": "flowchart-symbols",
               "type": "text",
               "title": "Flowchart Symbols",
               "title_zh": "流程图符号",
-              "content": "Flowcharts use standard symbols: Oval (Start/End), Rectangle (Process/Action), Diamond (Decision/Question), Parallelogram (Input/Output), Arrow (Flow direction). \n\n**Example:**\n\n**ATM**withdrawal flowchart - Check**PIN** → Verify balance → Decision: Sufficient funds? → If Yes: Dispense cash, If No: Display error."
+              "content": "Flowcharts use standard symbols: Oval (Start/End), Rectangle (Process/Action), Diamond (Decision/Question), Parallelogram (Input/Output), Arrow (Flow direction). \n\n**Example:**\n\n**ATM **withdrawal flowchart - Check**PIN** → Verify balance → Decision: Sufficient funds? → If Yes: Dispense cash, If No: Display error."
             },
             {
               "id": "pseudocode",
               "type": "text",
               "title": "Pseudocode Basics",
               "title_zh": "伪代码基础",
-              "content": "Pseudocode is plain language description of algorithm steps, between human language and programming code.\n\nUses keywords like **IF**,**THEN**,**ELSE**,**WHILE**,**FOR**,**INPUT**,**OUTPUT**.\n\nExample for finding max of 3 numbers:**INPUT**num1, num2, num3 /**IF**num1 > num2**AND**num1 > num3**THEN**max = num1 /**ELSE IF **num2 > num3**THEN**max = num2 /**ELSE**max = num3 /**OUTPUT**max"
+              "content": "Pseudocode is plain language description of algorithm steps, between human language and programming code.\n\nUses keywords like **IF**,**THEN**,**ELSE**,**WHILE**,**FOR**,**INPUT**,**OUTPUT**.\n\nExample for finding max of 3 numbers:**INPUT **num1, num2, num3 /**IF **num1 > num2**AND **num1 > num3**THEN **max = num1 /**ELSE IF **num2 > num3**THEN **max = num2 /**ELSE **max = num3 /**OUTPUT **max"
             },
             {
               "id": "algorithm-efficiency",
               "type": "text",
               "title": "Algorithm Efficiency",
               "title_zh": "算法效率",
-              "content": "Efficient algorithms use fewer steps and resources.\n\nLinear search checks each item one-by-one (slow for large lists).\n\nBinary search divides search space in half each step (much faster for sorted lists). \n\n**Example:**\n\nFinding contact in phone with 1000 entries - Linear: up to 1000 checks, Binary: max 10 checks.\n\nSingapore government systems process millions of transactions daily, efficiency is critical."
+              "content": "Efficient algorithms use fewer steps and resources.\n\nLinear search checks each item one-by-one (slow for large lists).\n\nBinary search divides search space in half each step (much faster for sorted lists). \n\n**Example:**\n\n Finding contact in phone with 1000 entries - Linear: up to 1000 checks, Binary: max 10 checks.\n\nSingapore government systems process millions of transactions daily, efficiency is critical."
             }
           ],
           "exercises": [
@@ -41887,28 +41887,28 @@
               "type": "text",
               "title": "Introduction to Python",
               "title_zh": "Python简介",
-              "content": "Python is a beginner-friendly programming language used worldwide.\n\nCreated by Guido van Rossum in\n1991. Used by Google, **NASA**, Singapore government agencies.\n\nEasy to read: print('Hello Singapore!') displays text.\n\nPython is interpreted - runs line by line.\n\nCase-sensitive: 'Name' and 'name' are different."
+              "content": "Python is a beginner-friendly programming language used worldwide.\n\nCreated by Guido van Rossum in\n1991.\n\nUsed by Google, **NASA**, Singapore government agencies.\n\nEasy to read: print('Hello Singapore!') displays text.\n\nPython is interpreted - runs line by line.\n\nCase-sensitive: 'Name' and 'name' are different."
             },
             {
               "id": "variables-data-types",
               "type": "text",
               "title": "Variables & Data Types",
               "title_zh": "变量与数据类型",
-              "content": "Variables store data: age = 13, name = 'Ali', height = 1.\n65. Data types: int (whole numbers), float (decimals), str (text in quotes), bool (True/False).\n\nPython auto-detects type. \n\n**Example:**\n\nprice = 5.50 (float), quantity = 3 (int), total = price * quantity (result: 16.5). \n\n**Singapore context:**\n\n gst_rate = 0.09, total_with_gst = price * (1 + gst_rate)"
+              "content": "Variables store data: age = 13, name = 'Ali', height = 1.\n65.\n\nData types: int (whole numbers), float (decimals), str (text in quotes), bool (True/False).\n\nPython auto-detects type. \n\n**Example:**\n\n price = 5.50 (float), quantity = 3 (int), total = price * quantity (result: 16.5). \n\n**Singapore context:**\n\n gst_rate = 0.09, total_with_gst = price * (1 + gst_rate)"
             },
             {
               "id": "input-output",
               "type": "text",
               "title": "Input and Output",
               "title_zh": "输入与输出",
-              "content": "output: print() displays information. print('Welcome!') or print(age).\n\nInput: input() gets user data as string. name = input('Enter your name: ').\n\nConvert to number: age = int(input('Enter age: ')).\n\nExample program: Calculate **MRT**fare - distance = float(input('Distance in km: ')) / fare = 0.77 + (distance * 0.\n08. / print('Fare: $' + str(fare))"
+              "content": "output: print() displays information. print('Welcome!') or print(age).\n\nInput: input() gets user data as string. name = input('Enter your name: ').\n\nConvert to number: age = int(input('Enter age: ')).\n\nExample program: Calculate **MRT **fare - distance = float(input('Distance in km: ')) / fare = 0.77 + (distance * 0.\n08. / print('Fare: $' + str(fare))"
             },
             {
               "id": "operators",
               "type": "text",
               "title": "Operators in Python",
               "title_zh": "Python运算符",
-              "content": "Arithmetic: + - * / (division) // (integer division) % (remainder) ** (power). \n\n**Example:**\n\n17 % 5 = 2 (remainder).\n\nComparison: == (equal) != (not equal) > < >= <=.\n\nReturns True/False. \n\n**Example:**\n\nage >= 13 checks if teenager.\n\nLogical: and, or, not. \n\n**Example:**\n\nif age >= 13 and age <= 19 then teenager.\n\nSingapore **PSLE**score calculation uses these operators."
+              "content": "Arithmetic: + - * / (division) // (integer division) % (remainder) ** (power). \n\n**Example:**\n\n 17 % 5 = 2 (remainder).\n\nComparison: == (equal) != (not equal) > < >= <=.\n\nReturns True/False. \n\n**Example:**\n\n age >= 13 checks if teenager.\n\nLogical: and, or, not. \n\n**Example:**\n\n if age >= 13 and age <= 19 then teenager.\n\nSingapore **PSLE **score calculation uses these operators."
             }
           ],
           "exercises": [
@@ -42163,28 +42163,28 @@
               "type": "text",
               "title": "If Statements",
               "title_zh": "If语句",
-              "content": "if statement makes decisions: if condition: do something.\n\nUse indentation (4 spaces). \n\n**Example:**\n\nif age >= 18: print('Can vote'). elif (else if) for multiple conditions: if score >= 75: grade = 'A' / elif score >= 60: grade = 'B' / else: grade = 'C'.\n\nSingapore O-Level grading uses multiple conditions."
+              "content": "if statement makes decisions: if condition: do something.\n\nUse indentation (4 spaces). \n\n**Example:**\n\n if age >= 18: print('Can vote'). elif (else if) for multiple conditions: if score >= 75: grade = 'A' / elif score >= 60: grade = 'B' / else: grade = 'C'.\n\nSingapore O-Level grading uses multiple conditions."
             },
             {
               "id": "for-loops",
               "type": "text",
               "title": "For Loops",
               "title_zh": "For循环",
-              "content": "for loop repeats known number of times. range(n) generates 0 to n-\n1. \n\n**Example:**\n\nfor i in range(5): print(i) outputs 0,1,2,3\n4. range(start, stop, step): range(1, 10\n2. gives 1,3,5,7\n9. Calculate total: total = 0 / for i in range(1, 6): total = total + i / Result:\n15. Used in Singapore bus arrival times app to check next 5 buses."
+              "content": "for loop repeats known number of times. range(n) generates 0 to n-\n1. \n\n**Example:**\n\n for i in range(5): print(i) outputs 0,1,2,3\n4. range(start, stop, step): range(1, 10\n2. gives 1,3,5,7\n9.\n\nCalculate total: total = 0 / for i in range(1, 6): total = total + i / Result:\n15.\n\nUsed in Singapore bus arrival times app to check next 5 buses."
             },
             {
               "id": "while-loops",
               "type": "text",
               "title": "While Loops",
               "title_zh": "While循环",
-              "content": "while loop repeats while condition is True. \n\n**Example:**\n\ncount = 1 / while count <= 5: print(count) / count = count +\n1. Use when repetitions unknown. **ATM PIN **validation: attempts = 0 / while attempts < 3: pin = input('Enter **PIN**: ') / if pin == '1234': break / attempts = attempts + 1 / else: print('Card blocked'). \n\n**Important:**\n\n ensure loop eventually ends (no infinite loops)."
+              "content": "while loop repeats while condition is True. \n\n**Example:**\n\n count = 1 / while count <= 5: print(count) / count = count +\n1.\n\nUse when repetitions unknown. **ATM PIN **validation: attempts = 0 / while attempts < 3: pin = input('Enter **PIN**: ') / if pin == '1234': break / attempts = attempts + 1 / else: print('Card blocked'). \n\n**Important:**\n\n ensure loop eventually ends (no infinite loops)."
             },
             {
               "id": "nested-structures",
               "type": "text",
               "title": "Nested Structures",
               "title_zh": "嵌套结构",
-              "content": "Loops and if statements can be nested (one inside another). \n\n**Example:**\n\nPrint multiplication table: for row in range(1, 4): / for col in range(1, 4): / product = row * col / print(product, end=' ') / print().\n\nSingapore class seating arrangement uses nested loops to assign seats by row and column."
+              "content": "Loops and if statements can be nested (one inside another). \n\n**Example:**\n\n Print multiplication table: for row in range(1, 4): / for col in range(1, 4): / product = row * col / print(product, end=' ') / print().\n\nSingapore class seating arrangement uses nested loops to assign seats by row and column."
             }
           ],
           "exercises": [
@@ -42446,21 +42446,21 @@
               "type": "text",
               "title": "List Operations",
               "title_zh": "列表操作",
-              "content": "Slicing: numbers[1:4] gets elements at index 1,2,\n3. numbers[:3] first 3 elements. numbers[2:] from index 2 to end.\n\nConcatenate: list1 + list\n2. Repeat: [0] * 5 creates [0,0,0,0,0].\n\nCheck membership: if 'Ali' in students.\n\nSort: numbers.sort() arranges in order.\n\nReverse: numbers.reverse().\n\nUsed in Singapore e-commerce sites to manage shopping cart items."
+              "content": "Slicing: numbers[1:4] gets elements at index 1,2,\n3. numbers[:3] first 3 elements. numbers[2:] from index 2 to end.\n\nConcatenate: list1 + list\n2.\n\nRepeat: [0] * 5 creates [0,0,0,0,0].\n\nCheck membership: if 'Ali' in students.\n\nSort: numbers.sort() arranges in order.\n\nReverse: numbers.reverse().\n\nUsed in Singapore e-commerce sites to manage shopping cart items."
             },
             {
               "id": "strings",
               "type": "text",
               "title": "String Manipulation",
               "title_zh": "字符串操作",
-              "content": "Strings are sequences of characters.\n\nAccess like lists: name = 'Singapore' / name[0] is 'S'.\n\nLength: len(name) =\n9. Methods: upper(), lower(), strip(), split(), replace(). \n\n**Example:**\n\nmessage = '  Hello World  ' / message.strip() removes spaces = 'Hello World' / message.split() creates ['Hello', 'World'].\n\nCheck substring: if 'ore' in name (True).\n\nUsed in Singapore **NRIC**validation."
+              "content": "Strings are sequences of characters.\n\nAccess like lists: name = 'Singapore' / name[0] is 'S'.\n\nLength: len(name) =\n9.\n\nMethods: upper(), lower(), strip(), split(), replace(). \n\n**Example:**\n\n message = '  Hello World  ' / message.strip() removes spaces = 'Hello World' / message.split() creates ['Hello', 'World'].\n\nCheck substring: if 'ore' in name (True).\n\nUsed in Singapore **NRIC **validation."
             },
             {
               "id": "iterating-collections",
               "type": "text",
               "title": "Iterating Through Collections",
               "title_zh": "遍历集合",
-              "content": "Use for loop to process each element.\n\nFor list: for student in students: print(student).\n\nFor string: for char in 'Singapore': print(char).\n\nWith index: for i in range(len(students)): print(i, students[i]). \n\n**Example:**\n\nCalculate average - scores = [85, 92, 78, 90] / total = 0 / for score in scores: total = total + score / average = total / len(scores).\n\nSingapore temperature monitoring system processes daily readings this way."
+              "content": "Use for loop to process each element.\n\nFor list: for student in students: print(student).\n\nFor string: for char in 'Singapore': print(char).\n\nWith index: for i in range(len(students)): print(i, students[i]). \n\n**Example:**\n\n Calculate average - scores = [85, 92, 78, 90] / total = 0 / for score in scores: total = total + score / average = total / len(scores).\n\nSingapore temperature monitoring system processes daily readings this way."
             }
           ],
           "exercises": [
@@ -42715,28 +42715,28 @@
               "type": "text",
               "title": "Defining Functions",
               "title_zh": "定义函数",
-              "content": "Function is reusable block of code.\n\nDefine with def: def greet(): / print('Hello!').\n\nCall: greet().\n\nWith parameters: def greet(name): / print('Hello ' + name + '!').\n\nMultiple parameters: def add(a, b): / result = a + b / return result. \n\n**Example:**\n\nSingapore **GST**calculator - def add_gst(price): / gst = price * 0.09 / total = price + gst / return total"
+              "content": "Function is reusable block of code.\n\nDefine with def: def greet(): / print('Hello!').\n\nCall: greet().\n\nWith parameters: def greet(name): / print('Hello ' + name + '!').\n\nMultiple parameters: def add(a, b): / result = a + b / return result. \n\n**Example:**\n\n Singapore **GST **calculator - def add_gst(price): / gst = price * 0.09 / total = price + gst / return total"
             },
             {
               "id": "return-values",
               "type": "text",
               "title": "Return Values",
               "title_zh": "返回值",
-              "content": "return sends value back to caller.\n\nFunction stops at return. \n\n**Example:**\n\ndef max_of_two(a, b): / if a > b: return a / else: return b.\n\nUse returned value: largest = max_of_two(10,\n15. / print(largest).\n\nCan return multiple values as tuple: def min_max(numbers): / return min(numbers), max(numbers).\n\nSingapore grade calculator returns grade and points."
+              "content": "return sends value back to caller.\n\nFunction stops at return. \n\n**Example:**\n\n def max_of_two(a, b): / if a > b: return a / else: return b.\n\nUse returned value: largest = max_of_two(10,\n15. / print(largest).\n\nCan return multiple values as tuple: def min_max(numbers): / return min(numbers), max(numbers).\n\nSingapore grade calculator returns grade and points."
             },
             {
               "id": "variable-scope",
               "type": "text",
               "title": "Variable Scope",
               "title_zh": "变量作用域",
-              "content": "Local variables exist only inside function.\n\nGlobal variables exist everywhere. \n\n**Example:**\n\ntotal = 0 (global) / def add_score(score): / total = total + score (Error! Can't modify global in function) / Use global keyword or pass as parameter.\n\nBest practice: minimize global variables. \n\n**Example:**\n\nSingapore point-of-sale system uses local variables in each transaction function for safety."
+              "content": "Local variables exist only inside function.\n\nGlobal variables exist everywhere. \n\n**Example:**\n\n total = 0 (global) / def add_score(score): / total = total + score (Error! Can't modify global in function) / Use global keyword or pass as parameter.\n\nBest practice: minimize global variables. \n\n**Example:**\n\n Singapore point-of-sale system uses local variables in each transaction function for safety."
             },
             {
               "id": "modules",
               "type": "text",
               "title": "Python Modules",
               "title_zh": "Python模块",
-              "content": "Module is file containing Python code you can import.\n\nBuilt-in modules: math, random, datetime.\n\nImport: import math / math.sqrt(\n16. = 4.\n0. Import specific: from random import randint / dice = randint(1, 6).\n\nCreate own module: Save functions in file 'mytools.py', then import mytools.\n\nSingapore apps use datetime module for scheduling: from datetime import datetime / now = datetime.now() / print(now.strftime('%d/%m/%Y %H:%M'))"
+              "content": "Module is file containing Python code you can import.\n\nBuilt-in modules: math, random, datetime.\n\nImport: import math / math.sqrt(\n16. = 4.\n0.\n\nImport specific: from random import randint / dice = randint(1, 6).\n\nCreate own module: Save functions in file 'mytools.py', then import mytools.\n\nSingapore apps use datetime module for scheduling: from datetime import datetime / now = datetime.now() / print(now.strftime('%d/%m/%Y %H:%M'))"
             }
           ],
           "exercises": [
@@ -42998,7 +42998,7 @@
               "type": "text",
               "title": "Semantic HTML",
               "title_zh": "语义化HTML",
-              "content": "Semantic tags describe meaning: <header>, <nav>, <main>, <article>, <section>, <aside>, <footer>.\n\nBetter than generic <div>. \n\n**Example:**\n\nSingapore school website - <header> contains logo and menu, <nav> has navigation links, <main> contains main content, <article> for news posts, <footer> for contact info.\n\nBenefits: Accessibility (screen readers), **SEO** (search engines understand structure)."
+              "content": "Semantic tags describe meaning: <header>, <nav>, <main>, <article>, <section>, <aside>, <footer>.\n\nBetter than generic <div>. \n\n**Example:**\n\n Singapore school website - <header> contains logo and menu, <nav> has navigation links, <main> contains main content, <article> for news posts, <footer> for contact info.\n\nBenefits: Accessibility (screen readers), **SEO** (search engines understand structure)."
             },
             {
               "id": "css-basics",

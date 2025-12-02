@@ -136,7 +136,18 @@ export function LessonPlayer({ sections, onComplete, chapterId, subjectId }: Les
                 {content}
               </div>
               {explanation && (
-                <p className="text-sm text-muted-foreground">{explanation}</p>
+                <div className="text-sm text-muted-foreground text-left">
+                  <ReactMarkdown
+                    remarkPlugins={[remarkGfm, remarkMath]}
+                    rehypePlugins={[rehypeKatex]}
+                    components={{
+                      p: ({ children }) => <p className="mb-3">{children}</p>,
+                      strong: ({ children }) => <strong className="font-bold text-primary">{children}</strong>,
+                    }}
+                  >
+                    {explanation}
+                  </ReactMarkdown>
+                </div>
               )}
             </div>
           </div>

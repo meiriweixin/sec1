@@ -45,27 +45,85 @@ export function ShortAnswerExercise({
 
   const correctAnswer = language === 'zh' && exercise.answer_zh ? exercise.answer_zh : exercise.answer;
 
+  /**
+   * Normalize answer for flexible matching
+   * Handles: Unicode subscripts/superscripts, whitespace, symbols, punctuation, articles
+   */
+  const normalizeAnswer = (text: string): string => {
+    return text
+      .trim()
+      .toLowerCase()
+      // Unicode subscripts (₀-₉) to normal numbers
+      .replace(/[₀-₉]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 0x2080 + 0x30))
+      // Unicode superscripts (⁰-⁹) to normal numbers
+      .replace(/[⁰¹²³⁴⁵⁶⁷⁸⁹]/g, (c) => {
+        const map: Record<string, string> = {
+          '⁰': '0', '¹': '1', '²': '2', '³': '3', '⁴': '4',
+          '⁵': '5', '⁶': '6', '⁷': '7', '⁸': '8', '⁹': '9'
+        };
+        return map[c] || c;
+      })
+      // Symbol normalization
+      .replace(/×/g, '*')
+      .replace(/÷/g, '/')
+      // Whitespace normalization
+      .replace(/\s+/g, ' ')
+      .replace(/\s*([,/\-+])\s*/g, '$1')
+      // Remove trailing punctuation only
+      .replace(/[.,;:!?'"]+$/, '')
+      // Remove common articles
+      .replace(/\b(the|a|an)\b/g, '')
+      .trim();
+  };
+
+  /**
+   * Smart validation with flexible matching
+   * Allows reasonable formatting variations while maintaining correctness
+   */
+  const validateAnswerSmart = (input: string, correct: string): boolean => {
+    const normInput = normalizeAnswer(input);
+    const normCorrect = normalizeAnswer(correct);
+
+    // Exact match after normalization
+    if (normInput === normCorrect) return true;
+
+    // Single-word flexibility
+    const inputWords = normInput.split(' ').filter(w => w.length > 0);
+    const correctWords = normCorrect.split(' ').filter(w => w.length > 0);
+
+    // If correct answer is single word, check if it appears in input
+    if (correctWords.length === 1 && inputWords.includes(correctWords[0])) return true;
+
+    // If input is single word, check if it matches any word in correct answer
+    if (inputWords.length === 1 && correctWords.includes(inputWords[0])) return true;
+
+    // Check if all words in correct answer appear in input (order doesn't matter)
+    if (correctWords.every(word => inputWords.includes(word))) return true;
+
+    return false;
+  };
+
   const validateAnswer = (input: string): boolean => {
     const normalizedInput = input.trim().toLowerCase();
     const normalizedCorrect = correctAnswer.trim().toLowerCase();
 
     switch (exercise.validator) {
       case "numeric":
-        // For numeric answers, parse and compare numbers
+        // For numeric answers, parse and compare numbers with tolerance
         const inputNum = parseFloat(normalizedInput);
         const correctNum = parseFloat(normalizedCorrect);
         return !isNaN(inputNum) && !isNaN(correctNum) && Math.abs(inputNum - correctNum) < 0.001;
-      
+
       case "fraction":
         // For fractions, accept different formats (e.g., "1/5" or "0.2")
         if (normalizedInput === normalizedCorrect) return true;
-        
+
         // Try to evaluate as fraction
         if (normalizedInput.includes("/")) {
           const [num, den] = normalizedInput.split("/").map(n => parseFloat(n.trim()));
           if (!isNaN(num) && !isNaN(den) && den !== 0) {
             const inputValue = num / den;
-            
+
             // Check if correct answer is also a fraction
             if (normalizedCorrect.includes("/")) {
               const [correctNum, correctDen] = normalizedCorrect.split("/").map(n => parseFloat(n.trim()));
@@ -79,21 +137,20 @@ export function ShortAnswerExercise({
           }
         }
         return false;
-      
+
       case "exact":
-        // Exact match required
+      case "strict":
+        // Strict case-insensitive exact match only (for exercises requiring exact formatting)
         return normalizedInput === normalizedCorrect;
-      
+
+      case "smart":
+        // Smart flexible matching (new recommended default)
+        return validateAnswerSmart(input, correctAnswer);
+
       default:
-        // Default: case-insensitive match with some flexibility
-        // Remove common punctuation and extra spaces
-        const cleanInput = normalizedInput.replace(/[.,;:!?'"]/g, "").replace(/\s+/g, " ");
-        const cleanCorrect = normalizedCorrect.replace(/[.,;:!?'"]/g, "").replace(/\s+/g, " ");
-        
-        // Check for exact match or if one contains the other (for single word answers)
-        return cleanInput === cleanCorrect || 
-               (cleanCorrect.split(" ").length === 1 && cleanInput.includes(cleanCorrect)) ||
-               (cleanInput.split(" ").length === 1 && cleanCorrect.includes(cleanInput));
+        // Default: Use smart validation for maximum flexibility
+        // This handles Unicode normalization, whitespace, punctuation, etc.
+        return validateAnswerSmart(input, correctAnswer);
     }
   };
 
