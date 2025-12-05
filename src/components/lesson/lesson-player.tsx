@@ -15,6 +15,9 @@ import { FractionVisual } from "@/components/animations/fraction-visual";
 import { ForceMotion } from "@/components/animations/force-motion";
 import ParabolaGraph from "@/components/animations/ParabolaGraph";
 import LinearGraphInteractive from "@/components/animations/LinearGraphInteractive";
+import OscillatingSpring from "@/components/animations/OscillatingSpring";
+import ElectricFieldVisualizer from "@/components/animations/ElectricFieldVisualizer";
+import ACWaveformVisualizer from "@/components/animations/ACWaveformVisualizer";
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import remarkMath from 'remark-math';
@@ -179,6 +182,12 @@ export function LessonPlayer({ sections, onComplete, chapterId, subjectId }: Les
         return <ParabolaGraph {...section.props} />;
       case "LinearGraphInteractive":
         return <LinearGraphInteractive {...section.props} />;
+      case "OscillatingSpring":
+        return <OscillatingSpring {...section.props} />;
+      case "ElectricFieldVisualizer":
+        return <ElectricFieldVisualizer {...section.props} />;
+      case "ACWaveformVisualizer":
+        return <ACWaveformVisualizer {...section.props} />;
       default:
         return (
           <div className="text-center p-8 bg-muted/30 rounded-lg">

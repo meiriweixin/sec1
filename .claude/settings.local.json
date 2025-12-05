@@ -23,7 +23,8 @@
       "Bash(echo:*)",
       "Bash(netstat:*)",
       "Bash(findstr:*)",
-      "Bash(taskkill:*)"
+      "Bash(taskkill:*)",
+      "Bash(grep:*)"
     ],
     "deny": [],
     "ask": []

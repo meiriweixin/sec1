@@ -1,0 +1,170 @@
+[
+  {
+    "id": "integration-techniques-jc2",
+    "title": "Integration Techniques",
+    "title_zh": "积分技巧",
+    "gradeLevel": "jc2",
+    "description": "Master various integration methods including substitution, by parts, and partial fractions",
+    "description_zh": "掌握各种积分方法，包括替换、分部积分和部分分式",
+    "objectives": [
+      "Apply integration by substitution for composite functions",
+      "Use integration by parts for products of functions",
+      "Decompose rational functions into partial fractions before integrating"
+    ],
+    "objectives_zh": [
+      "应用替换法积分复合函数",
+      "使用分部积分法处理函数乘积",
+      "将有理函数分解为部分分式后积分"
+    ],
+    "sections": [
+      {
+        "id": "integration-substitution",
+        "type": "text",
+        "title": "Integration by Substitution",
+        "title_zh": "替换积分法",
+        "content": "**Integration by substitution** is the reverse of the chain rule for differentiation. It allows us to transform a complex integral into a simpler one.\n\n**Key Formula:**\nIf u = g(x), then ∫f(g(x))g'(x) dx = ∫f(u) du\n\n**Steps for substitution:**\n1. Identify the inner function u = g(x)\n2. Find du/dx and rearrange to get dx in terms of du\n3. Substitute both u and dx into the integral\n4. Integrate with respect to u\n5. Substitute back to express answer in terms of x\n\n**Example: Singapore MRT expansion**\n\nThe rate of construction of a new MRT line (in meters per day) is modeled by v(t) = 2t(t² + 1)³, where t is time in months. To find the total length constructed, we integrate:\n\n∫2t(t² + 1)³ dt\n\nLet u = t² + 1, then du/dt = 2t, so du = 2t dt\n\nThe integral becomes: ∫u³ du = u⁴/4 + C = (t² + 1)⁴/4 + C\n\nThis technique is essential for Singapore's infrastructure planning and construction timelines."
+      },
+      {
+        "id": "integration-by-parts",
+        "type": "text",
+        "title": "Integration by Parts",
+        "title_zh": "分部积分",
+        "content": "**Integration by parts** is the reverse of the product rule for differentiation. It's used when integrating products of functions.\n\n**Formula:**\n∫u dv = uv - ∫v du\n\nAlternatively: ∫u(x)v'(x) dx = u(x)v(x) - ∫u'(x)v(x) dx\n\n**ILATE rule** for choosing u (in priority order):\n- **I**nverse trig functions (arcsin, arctan)\n- **L**ogarithmic functions (ln x, log x)\n- **A**lgebraic functions (x², 3x + 1)\n- **T**rigonometric functions (sin x, cos x)\n- **E**xponential functions (eˣ, 2ˣ)\n\n**Example: Singapore population modeling**\n\nSuppose Singapore's aging population density in a certain district is modeled by ∫x e^(-x) dx (where x represents age groups).\n\nUsing ILATE: u = x (algebraic), dv = e^(-x) dx\n\nThen: du = dx, v = -e^(-x)\n\nApplying formula:\n∫x e^(-x) dx = x(-e^(-x)) - ∫(-e^(-x)) dx\n= -xe^(-x) + ∫e^(-x) dx\n= -xe^(-x) - e^(-x) + C\n= -e^(-x)(x + 1) + C\n\nThis helps government agencies plan healthcare and senior services."
+      },
+      {
+        "id": "partial-fractions",
+        "type": "text",
+        "title": "Partial Fractions in Integration",
+        "title_zh": "部分分式积分",
+        "content": "**Partial fractions** is a technique to break down complex rational functions into simpler fractions that are easier to integrate.\n\n**When to use:**\nWhen integrating f(x)/g(x) where both are polynomials and degree of f < degree of g.\n\n**Types of partial fractions:**\n\n1. **Distinct linear factors:** (x - a)(x - b)\n   A/(x - a) + B/(x - b)\n\n2. **Repeated linear factors:** (x - a)²\n   A/(x - a) + B/(x - a)²\n\n3. **Irreducible quadratic:** (x² + bx + c)\n   (Ax + B)/(x² + bx + c)\n\n**Example: Singapore investment returns**\n\nInvesting in Singapore's CPF generates returns that can be modeled by integrating:\n\n∫(5x + 7)/((x + 1)(x + 3)) dx\n\nDecompose: (5x + 7)/((x + 1)(x + 3)) = A/(x + 1) + B/(x + 3)\n\nMultiply through: 5x + 7 = A(x + 3) + B(x + 1)\n\nSolving: x = -1: 2 = 2A, so A = 1\n         x = -3: -8 = -2B, so B = 4\n\nTherefore:\n∫(5x + 7)/((x + 1)(x + 3)) dx = ∫[1/(x + 1) + 4/(x + 3)] dx\n= ln|x + 1| + 4ln|x + 3| + C\n\nThis technique is crucial for financial modeling and actuarial calculations in Singapore's insurance and pension sectors."
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "id": "definite-integrals-applications-jc2",
+    "title": "Definite Integrals & Applications",
+    "title_zh": "定积分与应用",
+    "gradeLevel": "jc2",
+    "description": "Apply definite integrals to calculate areas, volumes, and solve real-world problems",
+    "description_zh": "应用定积分计算面积、体积并解决实际问题",
+    "objectives": [
+      "Evaluate definite integrals using the fundamental theorem of calculus",
+      "Calculate areas between curves",
+      "Find volumes of revolution using disk and shell methods"
+    ],
+    "objectives_zh": [
+      "使用微积分基本定理求定积分",
+      "计算曲线之间的面积",
+      "使用圆盘法和壳法求旋转体体积"
+    ],
+    "sections": [
+      {
+        "id": "fundamental-theorem",
+        "type": "text",
+        "title": "Fundamental Theorem of Calculus",
+        "title_zh": "微积分基本定理",
+        "content": "**The Fundamental Theorem of Calculus** connects differentiation and integration, showing they are inverse operations.\n\n**Part 1:** If F'(x) = f(x), then ∫ₐᵇ f(x) dx = F(b) - F(a)\n\nThis is written as: ∫ₐᵇ f(x) dx = [F(x)]ₐᵇ\n\n**Properties of definite integrals:**\n1. ∫ₐᵇ f(x) dx = -∫ᵇₐ f(x) dx (reversing limits changes sign)\n2. ∫ₐᵇ f(x) dx = ∫ₐᶜ f(x) dx + ∫ᶜᵇ f(x) dx (additivity)\n3. ∫ₐᵇ kf(x) dx = k∫ₐᵇ f(x) dx (constant multiple)\n\n**Example: Singapore Changi Airport expansion**\n\nThe rate of passenger traffic growth at Changi Airport is modeled by f(t) = 2t + 5 million passengers per year, where t is years since 2020.\n\nTo find total passengers from 2020 to 2025:\n\n∫₀⁵ (2t + 5) dt = [t² + 5t]₀⁵\n= (25 + 25) - (0 + 0)\n= 50 million passengers\n\nThis helps Changi Airport Group plan terminal expansions and staffing requirements."
+      },
+      {
+        "id": "area-between-curves",
+        "type": "text",
+        "title": "Area Between Curves",
+        "title_zh": "曲线间面积",
+        "content": "**Area between two curves** is found by integrating the difference between the upper and lower functions.\n\n**Formula:**\nArea = ∫ₐᵇ [f(x) - g(x)] dx, where f(x) ≥ g(x) on [a, b]\n\n**Steps:**\n1. Sketch both curves to identify intersection points\n2. Determine which function is above the other\n3. Find intersection points by solving f(x) = g(x)\n4. Integrate the difference from left intersection to right intersection\n\n**Example: Singapore land reclamation**\n\nSingapore's coastline before reclamation is modeled by y₁ = x² and after reclamation by y₂ = 2x (where units are in kilometers).\n\nFind the reclaimed area between x = 0 and x = 2:\n\nIntersections: x² = 2x → x(x - 2) = 0 → x = 0 or x = 2\n\nFor 0 ≤ x ≤ 2: 2x ≥ x² (linear is above parabola)\n\nArea = ∫₀² (2x - x²) dx\n= [x² - x³/3]₀²\n= (4 - 8/3) - 0\n= 12/3 - 8/3\n= 4/3 square kilometers\n\nSingapore has increased its land area by over 25% through reclamation projects, carefully calculated using similar integration techniques."
+      },
+      {
+        "id": "volumes-revolution",
+        "type": "text",
+        "title": "Volumes of Revolution",
+        "title_zh": "旋转体体积",
+        "content": "**Volumes of revolution** are formed when a region is rotated about an axis. We use integration to find these volumes.\n\n**Disk Method** (rotation about x-axis):\nV = π∫ₐᵇ [f(x)]² dx\n\n**Washer Method** (region between two curves):\nV = π∫ₐᵇ {[R(x)]² - [r(x)]²} dx\n\nwhere R(x) = outer radius, r(x) = inner radius\n\n**Example: Singapore's Marina Bay Sands towers**\n\nImagine designing a decorative structure where the cross-section at height x meters follows y = √x for 0 ≤ x ≤ 4.\n\nRotating this about the x-axis gives volume:\n\nV = π∫₀⁴ (√x)² dx\n= π∫₀⁴ x dx\n= π[x²/2]₀⁴\n= π(16/2 - 0)\n= 8π cubic meters\n\n**Alternative: Shell Method** (rotation about y-axis):\nV = 2π∫ₐᵇ x·f(x) dx\n\nArchitectural firms in Singapore use these calculations for designing unique structures like the ArtScience Museum's lotus-inspired architecture, ensuring structural integrity and material efficiency."
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "id": "differential-equations-jc2",
+    "title": "Differential Equations",
+    "title_zh": "微分方程",
+    "gradeLevel": "jc2",
+    "description": "Solve first-order differential equations and apply them to real-world growth and decay problems",
+    "description_zh": "求解一阶微分方程并应用于实际增长和衰减问题",
+    "objectives": [
+      "Solve separable differential equations",
+      "Form differential equations from given information",
+      "Apply differential equations to exponential growth and decay models"
+    ],
+    "objectives_zh": [
+      "求解可分离变量的微分方程",
+      "根据给定信息建立微分方程",
+      "将微分方程应用于指数增长和衰减模型"
+    ],
+    "sections": [
+      {
+        "id": "separable-variables",
+        "type": "text",
+        "title": "Separable Differential Equations",
+        "title_zh": "可分离变量微分方程",
+        "content": "**Separable differential equations** can be written in the form dy/dx = f(x)g(y), where the variables can be separated.\n\n**Method:**\n1. Rearrange to separate variables: (1/g(y)) dy = f(x) dx\n2. Integrate both sides: ∫(1/g(y)) dy = ∫f(x) dx\n3. Solve for y if possible\n4. Use initial conditions to find the constant of integration\n\n**General form:**\ndy/dx = f(x)/h(y) → h(y) dy = f(x) dx\n\n**Example: Singapore COVID-19 modeling (2020)**\n\nThe rate of infection spread was modeled by: dI/dt = 0.3I(1000 - I)\n\nwhere I is the number of infected persons and t is time in days.\n\nThis is separable:\ndI/[I(1000 - I)] = 0.3 dt\n\nUsing partial fractions:\n1/[I(1000 - I)] = A/I + B/(1000 - I)\n1 = A(1000 - I) + BI\n\nSolving: A = 1/1000, B = 1/1000\n\nIntegrating:\n(1/1000)[ln|I| - ln|1000 - I|] = 0.3t + C\n\nThis type of **logistic growth model** was used by Singapore's Ministry of Health to predict infection trajectories and plan healthcare capacity during the pandemic."
+      },
+      {
+        "id": "growth-decay",
+        "type": "text",
+        "title": "Exponential Growth and Decay",
+        "title_zh": "指数增长与衰减",
+        "content": "**Exponential growth and decay** follows the differential equation: dy/dt = ky\n\nwhere k is the growth/decay constant.\n\n**Solution:** y = Ae^(kt)\n\n**Special cases:**\n- If k > 0: exponential growth\n- If k < 0: exponential decay\n- If k = 0: constant (no change)\n\n**Half-life formula** (decay):\nIf y = y₀e^(-kt), then half-life T_{1/2} = (ln 2)/k\n\n**Doubling time formula** (growth):\nIf y = y₀e^(kt), then doubling time T_d = (ln 2)/k\n\n**Example: Singapore's solar panel adoption**\n\nThe number of households with solar panels N(t) grows according to:\ndN/dt = 0.15N\n\nwith N(0) = 5000 households in 2020.\n\nSeparating variables:\ndN/N = 0.15 dt\n\nIntegrating:\nln|N| = 0.15t + C\nN = Ae^(0.15t)\n\nUsing initial condition:\n5000 = Ae^0 → A = 5000\n\nTherefore: N(t) = 5000e^(0.15t)\n\nDoubling time: T_d = (ln 2)/0.15 ≈ 4.6 years\n\nThis model helps the Energy Market Authority (EMA) plan Singapore's renewable energy infrastructure and solar panel installation targets for 2030."
+      },
+      {
+        "id": "forming-de",
+        "type": "text",
+        "title": "Forming Differential Equations",
+        "title_zh": "建立微分方程",
+        "content": "**Forming differential equations** from word problems requires translating rate-of-change statements into mathematical expressions.\n\n**Common phrases and their meanings:**\n- \"rate of change proportional to...\" → dy/dx = ky\n- \"rate of increase is constant\" → dy/dx = k\n- \"rate decreases proportionally to amount\" → dy/dx = -ky\n- \"rate proportional to product\" → dy/dx = ky(M - y)\n\n**Newton's Law of Cooling:**\ndT/dt = -k(T - T_env)\n\nwhere T is object temperature and T_env is ambient temperature.\n\n**Example: NEWater cooling process**\n\nWhen NEWater is produced at Singapore's reclamation plants, it must be cooled from 80°C to storage temperature. The cooling rate is proportional to the temperature difference from the ambient 25°C.\n\nForm the differential equation:\n\"The rate of cooling is proportional to the difference between water temperature T and ambient temperature\"\n\ndT/dt = -k(T - 25)\n\nwhere k > 0 (negative because temperature is decreasing).\n\nSeparating variables:\ndT/(T - 25) = -k dt\n\nIntegrating:\nln|T - 25| = -kt + C\nT - 25 = Ae^(-kt)\nT = 25 + Ae^(-kt)\n\nWith initial condition T(0) = 80:\n80 = 25 + A → A = 55\n\nFinal solution: T(t) = 25 + 55e^(-kt)\n\nPUB (Public Utilities Board) uses such models to optimize cooling systems in NEWater production, ensuring energy efficiency while meeting water quality standards."
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "id": "maclaurin-series-jc2",
+    "title": "Maclaurin Series",
+    "title_zh": "麦克劳林级数",
+    "gradeLevel": "jc2",
+    "description": "Expand functions as infinite series and use them for approximations",
+    "description_zh": "将函数展开为无穷级数并用于近似计算",
+    "objectives": [
+      "Derive Maclaurin series expansions for standard functions",
+      "Use series to approximate function values",
+      "Apply series expansions to solve problems"
+    ],
+    "objectives_zh": [
+      "推导标准函数的麦克劳林级数展开",
+      "使用级数近似函数值",
+      "应用级数展开解决问题"
+    ],
+    "sections": [
+      {
+        "id": "maclaurin-formula",
+        "type": "text",
+        "title": "Maclaurin Series Formula",
+        "title_zh": "麦克劳林级数公式",
+        "content": "**Maclaurin series** is a Taylor series expansion about x = 0. It represents a function as an infinite polynomial.\n\n**General formula:**\nf(x) = f(0) + f'(0)x + [f''(0)/2!]x² + [f'''(0)/3!]x³ + ...\n\nMore compactly:\nf(x) = Σ [f^(n)(0)/n!]x^n (from n=0 to ∞)\n\n**Standard Maclaurin series:**\n\n1. **e^x** = 1 + x + x²/2! + x³/3! + x⁴/4! + ...\n\n2. **sin x** = x - x³/3! + x⁵/5! - x⁷/7! + ...\n\n3. **cos x** = 1 - x²/2! + x⁴/4! - x⁶/6! + ...\n\n4. **ln(1 + x)** = x - x²/2 + x³/3 - x⁴/4 + ... (for -1 < x ≤ 1)\n\n5. **(1 + x)^n** = 1 + nx + [n(n-1)/2!]x² + [n(n-1)(n-2)/3!]x³ + ...\n\n**Example: Singapore's GPS accuracy**\n\nGPS satellites use small-angle approximations based on series expansions. For small angles θ (in radians):\n\nsin θ ≈ θ - θ³/6\ncos θ ≈ 1 - θ²/2\n\nFor θ = 0.1 radians (about 5.7°):\nsin(0.1) ≈ 0.1 - (0.1)³/6 = 0.1 - 0.000167 ≈ 0.09983\nActual: sin(0.1) = 0.09983...\n\nError: < 0.001%!\n\nSingapore's Land Transport Authority uses these approximations in GPS calculations for autonomous vehicle navigation and real-time traffic systems."
+      },
+      {
+        "id": "series-operations",
+        "type": "text",
+        "title": "Operations with Series",
+        "title_zh": "级数运算",
+        "content": "**Operations with Maclaurin series** allow us to find expansions of more complex functions.\n\n**Addition/Subtraction:**\nIf f(x) = Σaₙx^n and g(x) = Σbₙx^n, then:\nf(x) ± g(x) = Σ(aₙ ± bₙ)x^n\n\n**Multiplication by constant:**\nkf(x) = Σ(kaₙ)x^n\n\n**Substitution:**\nIf f(x) = Σaₙx^n, then f(kx) = Σaₙ(kx)^n\n\n**Differentiation:**\nf'(x) = Σ(naₙ)x^(n-1)\n\n**Integration:**\n∫f(x)dx = C + Σ[aₙ/(n+1)]x^(n+1)\n\n**Example: Singapore engineering applications**\n\nFind the expansion of f(x) = e^(2x) up to x³:\n\nUsing e^x = 1 + x + x²/2! + x³/3! + ...\n\nSubstitute 2x for x:\ne^(2x) = 1 + 2x + (2x)²/2! + (2x)³/3! + ...\n= 1 + 2x + 4x²/2 + 8x³/6 + ...\n= 1 + 2x + 2x² + (4/3)x³ + ...\n\n**Another example:** e^x · cos x\n\ne^x = 1 + x + x²/2 + x³/6 + ...\ncos x = 1 - x²/2 + x⁴/24 - ...\n\nMultiplying (up to x³):\ne^x · cos x ≈ (1 + x + x²/2 + x³/6)(1 - x²/2)\n= 1 + x + x²/2 + x³/6 - x²/2 - x³/2\n= 1 + x + x³/6 - x³/2\n= 1 + x - x³/3 + ...\n\nSingapore's aerospace engineers use these techniques for designing aircraft control systems and satellite trajectory calculations."
+      },
+      {
+        "id": "approximations",
+        "type": "text",
+        "title": "Approximations Using Series",
+        "title_zh": "使用级数近似",
+        "content": "**Series approximations** are powerful tools for estimating function values when x is small.\n\n**Guidelines for approximations:**\n1. Use more terms for better accuracy\n2. Valid only for small |x| (usually |x| < 1)\n3. Alternating series: error < first omitted term\n4. Non-alternating series: error estimation more complex\n\n**Small-angle approximations** (x in radians, |x| << 1):\n- sin x ≈ x\n- cos x ≈ 1 - x²/2\n- tan x ≈ x\n- e^x ≈ 1 + x\n- ln(1 + x) ≈ x\n\n**Example: Singapore's bridge engineering**\n\nWhen designing the Helix Bridge, engineers need to calculate cable tensions. For small deflections, the relationship involves √(1 + x) where x is small.\n\nUsing binomial expansion:\n(1 + x)^(1/2) = 1 + (1/2)x + [(1/2)(-1/2)/2!]x² + ...\n= 1 + x/2 - x²/8 + ...\n\nFor x = 0.04 (4% deflection):\n√(1.04) ≈ 1 + 0.04/2 - (0.04)²/8\n= 1 + 0.02 - 0.0002\n= 1.0198\n\nActual: √1.04 = 1.0198039...\n\nError: < 0.0001%!\n\n**Financial application:**\n\nSingapore banks use approximations for compound interest with small rates:\n\ne^(0.05) ≈ 1 + 0.05 + (0.05)²/2 = 1 + 0.05 + 0.00125 = 1.05125\n\nThis approximates continuous compounding at 5% annual rate, helping calculate returns on fixed deposits and bonds."
+      }
+    ],
+    "exercises": []
+  }
+]

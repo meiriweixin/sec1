@@ -1,0 +1,92 @@
+[
+  {
+    "id": "measurement-jc1-physics",
+    "title": "Measurement",
+    "title_zh": "测量",
+    "gradeLevel": "jc1",
+    "description": "Physical quantities, units, errors, and uncertainties",
+    "description_zh": "物理量、单位、误差和不确定性",
+    "tag": "Physics",
+    "tag_zh": "物理",
+    "objectives": [
+      "Understand base and derived quantities and their SI units",
+      "Perform unit conversions and dimensional analysis",
+      "Analyze errors, uncertainties, and significant figures in measurements"
+    ],
+    "objectives_zh": [
+      "理解基本量和导出量及其国际单位",
+      "进行单位换算和量纲分析",
+      "分析测量中的误差、不确定性和有效数字"
+    ],
+    "sections": [
+      {
+        "id": "physical-quantities-units",
+        "type": "text",
+        "title": "Physical Quantities and SI Units",
+        "title_zh": "物理量和国际单位",
+        "content": "**Physical quantities** are properties that can be measured, such as length, mass, time, and temperature. In physics, we use the **International System of Units (SI)** to ensure consistency worldwide.\n\n**Base Quantities and SI Units:**\n\n1. **Length** - meter (m)\n2. **Mass** - kilogram (kg)\n3. **Time** - second (s)\n4. **Electric current** - ampere (A)\n5. **Temperature** - kelvin (K)\n6. **Amount of substance** - mole (mol)\n7. **Luminous intensity** - candela (cd)\n\n**Derived Quantities:**\n\nDerived quantities are combinations of base quantities:\n- **Velocity** = displacement / time → m/s or m s⁻¹\n- **Acceleration** = velocity / time → m/s² or m s⁻²\n- **Force** = mass × acceleration → kg m s⁻² (newton, N)\n- **Energy** = force × distance → kg m² s⁻² (joule, J)\n- **Power** = energy / time → kg m² s⁻³ (watt, W)\n\n**Example: Singapore MRT System**\n\nThe Downtown Line (DTL) from Bukit Panjang to Expo is approximately **42 km** long. If a train completes this journey in **70 minutes**, we can calculate:\n\n- Distance: $s = 42 \\text{ km} = 42,000 \\text{ m}$\n- Time: $t = 70 \\text{ min} = 4,200 \\text{ s}$\n- Average velocity: $v = \\frac{s}{t} = \\frac{42,000}{4,200} = 10 \\text{ m/s}$\n\nThis demonstrates how derived quantities (velocity) come from base quantities (length and time).\n\n**Prefixes:**\n\nCommon SI prefixes used in Singapore measurements:\n- **Giga (G)** = 10⁹ → Singapore's power consumption: ~50 GW peak\n- **Mega (M)** = 10⁶ → Changi Airport passengers: ~5.5 million/month\n- **Kilo (k)** = 10³ → MRT fare distances in km\n- **Milli (m)** = 10⁻³ → Rainfall in mm (Singapore average: 2,340 mm/year)\n- **Micro (μ)** = 10⁻⁶ → Particulate matter PM2.5 (air quality)\n- **Nano (n)** = 10⁻⁹ → Semiconductor manufacturing (GlobalFoundries: 7 nm chips)\n\n**Homogeneity of Equations:**\n\nPhysical equations must be dimensionally consistent. For example, in the equation $s = ut + \\frac{1}{2}at^2$:\n- Left side: [L] (length)\n- Right side: [LT⁻¹][T] + [LT⁻²][T²] = [L] + [L] = [L] ✓\n\nThis principle helps verify equations and detect errors."
+      },
+      {
+        "id": "scalars-vectors",
+        "type": "text",
+        "title": "Scalars and Vectors",
+        "title_zh": "标量和矢量",
+        "content": "**Scalar quantities** have magnitude only, while **vector quantities** have both magnitude and direction.\n\n**Scalars:**\n- Distance, speed, mass, time, energy, temperature\n- Can be added algebraically: 5 kg + 3 kg = 8 kg\n\n**Vectors:**\n- Displacement, velocity, acceleration, force, momentum\n- Must consider direction when adding\n\n**Vector Addition:**\n\nTwo methods for adding vectors:\n1. **Parallelogram method** - Draw vectors head-to-tail\n2. **Component method** - Resolve into x and y components\n\n**Example: Singapore Cable Car System**\n\nA cable car travels from Mount Faber to Sentosa. If the horizontal distance is **1,650 m** and the vertical drop is **150 m**, the total displacement is:\n\n$$d = \\sqrt{(1650)^2 + (150)^2} = \\sqrt{2,722,500 + 22,500} = 1,657 \\text{ m}$$\n\nThe angle below horizontal:\n$$\\theta = \\tan^{-1}\\left(\\frac{150}{1650}\\right) = 5.2°$$\n\nThe displacement is **1,657 m at 5.2° below horizontal**, not just 1,800 m total distance traveled.\n\n**Vector Resolution:**\n\nFor a vector $\\vec{F}$ at angle $\\theta$ from horizontal:\n- Horizontal component: $F_x = F \\cos \\theta$\n- Vertical component: $F_y = F \\sin \\theta$\n\n**Example: F1 Singapore Grand Prix**\n\nWhen a race car rounds Turn 7 (Singapore Sling) at **200 km/h (55.6 m/s)** on a banking angle of **10°**, the velocity components are:\n- Parallel to track: $v_{\\parallel} = 55.6 \\cos 10° = 54.7 \\text{ m/s}$\n- Perpendicular to track: $v_{\\perp} = 55.6 \\sin 10° = 9.7 \\text{ m/s}$\n\n**Vector Subtraction:**\n\nTo subtract vector $\\vec{B}$ from $\\vec{A}$, add the negative of $\\vec{B}$:\n$$\\vec{A} - \\vec{B} = \\vec{A} + (-\\vec{B})$$\n\nThis is useful for finding **displacement** when you know initial and final position vectors."
+      },
+      {
+        "id": "errors-uncertainties",
+        "type": "text",
+        "title": "Errors and Uncertainties",
+        "title_zh": "误差和不确定性",
+        "content": "**Errors** are the differences between measured and true values. **Uncertainties** quantify the range within which the true value likely lies.\n\n**Types of Errors:**\n\n1. **Systematic Errors** - Consistent bias in one direction\n   - **Zero error**: Instrument doesn't read zero when it should\n   - **Calibration error**: Instrument poorly calibrated\n   - **Example**: A vernier caliper with +0.02 mm zero error will consistently read 0.02 mm too high\n   - **Singapore context**: NEWater quality sensors require monthly calibration to avoid systematic errors\n\n2. **Random Errors** - Unpredictable variations\n   - Reading errors from parallax\n   - Fluctuations in experimental conditions\n   - **Example**: Timing a swinging pendulum manually causes random variations ±0.1 s\n   - **Minimized by**: Taking multiple readings and averaging\n\n**Accuracy vs Precision:**\n\n- **Accuracy**: How close measurements are to the true value\n- **Precision**: How close measurements are to each other\n\n**Example: Singapore Weather Station**\n\nA weather station at Changi measures temperature. If the true temperature is 30.0°C:\n- **Accurate and precise**: Readings of 29.9, 30.0, 30.1°C (close to true value and each other)\n- **Precise but inaccurate**: Readings of 32.0, 32.1, 32.0°C (close to each other but wrong)\n- **Accurate but imprecise**: Readings of 28.0, 30.0, 32.0°C (average is correct but spread out)\n\n**Uncertainty Calculation:**\n\nFor a single measurement with instrument resolution $\\Delta x$:\n$$\\text{Absolute uncertainty} = \\frac{\\Delta x}{2}$$\n\nFor example, a ruler with 1 mm divisions has absolute uncertainty ±0.5 mm.\n\n**Percentage Uncertainty:**\n$$\\text{Percentage uncertainty} = \\frac{\\text{absolute uncertainty}}{\\text{measured value}} \\times 100\\%$$\n\n**Example: Measuring HDB Flat Dimensions**\n\nMeasuring a room length of 5.2 m with a tape measure (±0.001 m resolution):\n- Absolute uncertainty = ±0.0005 m\n- Percentage uncertainty = $\\frac{0.0005}{5.2} \\times 100\\% = 0.01\\%$\n\n**Combining Uncertainties:**\n\nWhen **adding or subtracting**, add absolute uncertainties:\n$$\\text{If } z = x + y, \\text{ then } \\Delta z = \\Delta x + \\Delta y$$\n\nWhen **multiplying or dividing**, add percentage uncertainties:\n$$\\text{If } z = x \\times y, \\text{ then } \\frac{\\Delta z}{z} = \\frac{\\Delta x}{x} + \\frac{\\Delta y}{y}$$\n\nWhen **raising to a power**:\n$$\\text{If } z = x^n, \\text{ then } \\frac{\\Delta z}{z} = n \\times \\frac{\\Delta x}{x}$$\n\n**Significant Figures:**\n\nRules for significant figures:\n1. All non-zero digits are significant\n2. Zeros between non-zero digits are significant\n3. Leading zeros are NOT significant\n4. Trailing zeros after decimal point ARE significant\n\n**Example: Singapore Reservoir Capacity**\n\nMarina Reservoir capacity = 2,900,000 m³ (2 significant figures)\nWritten in scientific notation: $2.9 \\times 10^6 \\text{ m}^3$\n\n**PUB water quality standards**: pH = 7.0 ± 0.5 (2 significant figures, shows uncertainty)\n\n**Recording Results:**\n\nAlways record results as: **measured value ± absolute uncertainty**\n\nExample: Length of Helix Bridge = $280 \\text{ m} ± 2 \\text{ m}$\n\nThis means the true length is between 278 m and 282 m."
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "id": "kinematics-jc1-physics",
+    "title": "Kinematics",
+    "title_zh": "运动学",
+    "gradeLevel": "jc1",
+    "description": "Motion in one and two dimensions, including displacement, velocity, and acceleration",
+    "description_zh": "一维和二维运动,包括位移、速度和加速度",
+    "tag": "Physics",
+    "tag_zh": "物理",
+    "objectives": [
+      "Define and distinguish displacement, velocity, and acceleration",
+      "Apply equations of motion to solve kinematics problems",
+      "Analyze motion using displacement-time and velocity-time graphs",
+      "Solve projectile motion problems in two dimensions"
+    ],
+    "objectives_zh": [
+      "定义并区分位移、速度和加速度",
+      "应用运动方程解决运动学问题",
+      "使用位移-时间和速度-时间图分析运动",
+      "解决二维抛体运动问题"
+    ],
+    "sections": [
+      {
+        "id": "displacement-velocity-acceleration",
+        "type": "text",
+        "title": "Displacement, Velocity, and Acceleration",
+        "title_zh": "位移、速度和加速度",
+        "content": "**Kinematics** is the study of motion without considering the forces that cause it.\n\n**Displacement ($s$)**:\n- Vector quantity representing change in position\n- Displacement ≠ Distance (displacement considers direction)\n- Unit: meter (m)\n\n**Example: Circle Line MRT**\n\nA train traveling from Serangoon → Paya Lebar → Dakota → Serangoon completes a loop:\n- **Distance traveled**: ~15 km (along the track)\n- **Displacement**: 0 m (returns to starting point)\n\n**Velocity ($v$)**:\n- Rate of change of displacement\n- $v = \\frac{\\Delta s}{\\Delta t}$ (average velocity)\n- $v = \\frac{ds}{dt}$ (instantaneous velocity)\n- Unit: m/s or m s⁻¹\n\n**Speed vs Velocity:**\n- **Speed** is scalar (magnitude only)\n- **Velocity** is vector (magnitude and direction)\n\n**Example: Singapore Marathon**\n\n42.195 km marathon from Orchard Road → Gardens by the Bay → return:\n- **Average speed** = $\\frac{42,195 \\text{ m}}{\\text{time}}$\n- **Average velocity** = Much lower (net displacement is small as route loops back)\n\n**Acceleration ($a$)**:\n- Rate of change of velocity\n- $a = \\frac{\\Delta v}{\\Delta t}$ (average acceleration)\n- $a = \\frac{dv}{dt}$ (instantaneous acceleration)\n- Unit: m/s² or m s⁻²\n\n**Example: MRT Train Acceleration**\n\nWhen an MRT train accelerates from Bishan station:\n- Initial velocity: $u = 0 \\text{ m/s}$ (at rest)\n- Final velocity: $v = 20 \\text{ m/s}$ (after 10 seconds)\n- Acceleration: $a = \\frac{20 - 0}{10} = 2 \\text{ m/s}^2$\n\n**Deceleration** (negative acceleration):\nWhen the same train brakes approaching the next station:\n- Initial velocity: $u = 20 \\text{ m/s}$\n- Final velocity: $v = 0 \\text{ m/s}$ (stops in 8 seconds)\n- Acceleration: $a = \\frac{0 - 20}{8} = -2.5 \\text{ m/s}^2$\n\n**Uniform Acceleration:**\n\nWhen acceleration is constant, we have **equations of motion**:\n\n1. $v = u + at$\n2. $s = ut + \\frac{1}{2}at^2$\n3. $v^2 = u^2 + 2as$\n4. $s = \\frac{1}{2}(u + v)t$\n\nWhere:\n- $u$ = initial velocity\n- $v$ = final velocity\n- $a$ = acceleration\n- $s$ = displacement\n- $t$ = time\n\n**Example: Sentosa Express Monorail**\n\nThe monorail accelerates uniformly from Sentosa Station ($u = 0$) at $a = 1.5 \\text{ m/s}^2$ for $t = 6 \\text{ s}$. Find the displacement.\n\nUsing $s = ut + \\frac{1}{2}at^2$:\n$$s = 0(6) + \\frac{1}{2}(1.5)(6)^2 = 0 + 0.5(1.5)(36) = 27 \\text{ m}$$\n\nThe monorail travels 27 meters during acceleration."
+      },
+      {
+        "id": "graphical-analysis",
+        "type": "text",
+        "title": "Graphical Analysis of Motion",
+        "title_zh": "运动的图解分析",
+        "content": "**Displacement-Time Graphs:**\n\nThe **gradient** of a displacement-time graph gives **velocity**:\n$$v = \\frac{\\Delta s}{\\Delta t} = \\text{gradient of } s\\text{-}t \\text{ graph}$$\n\n**Example: Marina Bay Sands SkyPark Elevator**\n\nAn elevator ascends 200 m to the SkyPark in 60 seconds:\n- Graph shows straight line from (0, 0) to (60, 200)\n- Gradient = $\\frac{200}{60} = 3.33 \\text{ m/s}$ (constant upward velocity)\n\n**Velocity-Time Graphs:**\n\nTwo key features:\n1. **Gradient** gives **acceleration**: $a = \\frac{\\Delta v}{\\Delta t}$\n2. **Area under curve** gives **displacement**: $s = \\int v \\, dt$\n\n**Example: Singapore Grand Prix Lap**\n\nA race car accelerates from pit lane:\n- Stage 1 (0-5 s): Linear increase from 0 to 50 m/s → $a = \\frac{50}{5} = 10 \\text{ m/s}^2$\n- Stage 2 (5-20 s): Constant 50 m/s → $a = 0 \\text{ m/s}^2$\n- Stage 3 (20-25 s): Linear decrease to 20 m/s → $a = \\frac{20-50}{5} = -6 \\text{ m/s}^2$\n\n**Displacement** = Area under v-t graph:\n- Stage 1: $\\frac{1}{2}(5)(50) = 125 \\text{ m}$\n- Stage 2: $(15)(50) = 750 \\text{ m}$\n- Stage 3: $\\frac{1}{2}(5)(50+20) = 175 \\text{ m}$\n- **Total**: $125 + 750 + 175 = 1,050 \\text{ m}$\n\n**Acceleration-Time Graphs:**\n\n- **Area under curve** gives **change in velocity**: $\\Delta v = \\int a \\, dt$\n\n**Motion Graph Relationships:**\n\n| Graph Type | Gradient | Area Under Curve |\n|------------|----------|------------------|\n| $s$-$t$ | Velocity ($v$) | N/A |\n| $v$-$t$ | Acceleration ($a$) | Displacement ($s$) |\n| $a$-$t$ | Rate of change of $a$ | Change in velocity ($\\Delta v$) |\n\n**Example: Lift in CapitaGreen Tower**\n\nAn express lift in CapitaGreen (40 floors) has this velocity profile:\n- 0-2 s: Accelerates at 2 m/s² (gradient = +2)\n- 2-15 s: Constant 6 m/s (gradient = 0)\n- 15-17 s: Decelerates at -3 m/s² (gradient = -3)\n\n**Displacement calculation:**\n- Phase 1: $s_1 = \\frac{1}{2}(2)(2 \\times 2) = 4 \\text{ m}$\n- Phase 2: $s_2 = (15-2)(6) = 78 \\text{ m}$\n- Phase 3: $s_3 = \\frac{1}{2}(2)(6+0) = 6 \\text{ m}$\n- **Total height**: $4 + 78 + 6 = 88 \\text{ m}$ (approximately 22 floors)"
+      },
+      {
+        "id": "projectile-motion",
+        "type": "text",
+        "title": "Projectile Motion",
+        "title_zh": "抛体运动",
+        "content": "**Projectile motion** involves motion in two dimensions under the influence of gravity, with:\n- **Horizontal motion**: Constant velocity (no acceleration)\n- **Vertical motion**: Constant acceleration due to gravity ($g = 9.81 \\text{ m/s}^2$ downward)\n\n**Key Principles:**\n\n1. **Independence of horizontal and vertical motion**\n2. **Horizontal velocity is constant**: $v_x = u \\cos \\theta$\n3. **Vertical motion follows equations of motion** with $a = -g$\n\n**Equations for Projectile Motion:**\n\nInitial velocity $u$ at angle $\\theta$ from horizontal:\n- **Horizontal component**: $u_x = u \\cos \\theta$\n- **Vertical component**: $u_y = u \\sin \\theta$\n\n**Horizontal displacement** (range):\n$$R = u_x t = (u \\cos \\theta) t$$\n\n**Vertical displacement**:\n$$y = u_y t - \\frac{1}{2}gt^2 = (u \\sin \\theta) t - \\frac{1}{2}gt^2$$\n\n**Maximum height** (when $v_y = 0$):\n$$H = \\frac{u^2 \\sin^2 \\theta}{2g}$$\n\n**Time of flight** (returns to same level):\n$$T = \\frac{2u \\sin \\theta}{g}$$\n\n**Example: Gardens by the Bay Water Fountain**\n\nA fountain in Gardens by the Bay shoots water at $u = 15 \\text{ m/s}$ at $\\theta = 60°$ from horizontal. Find the maximum height and range.\n\n**Maximum height:**\n$$H = \\frac{(15)^2 \\sin^2 60°}{2(9.81)} = \\frac{225 \\times 0.75}{19.62} = 8.6 \\text{ m}$$\n\n**Time of flight:**\n$$T = \\frac{2(15) \\sin 60°}{9.81} = \\frac{30 \\times 0.866}{9.81} = 2.65 \\text{ s}$$\n\n**Range:**\n$$R = (15 \\cos 60°)(2.65) = (15 \\times 0.5)(2.65) = 19.9 \\text{ m}$$\n\n**Example: Singapore Flyer Water View**\n\nA tourist drops a coin from the Singapore Flyer at height $h = 165 \\text{ m}$ while the capsule is moving horizontally at $v_x = 0.26 \\text{ m/s}$ (circumference 540 m / revolution time 2,100 s).\n\n**Time to hit ground:**\nUsing $h = \\frac{1}{2}gt^2$:\n$$165 = \\frac{1}{2}(9.81)t^2$$\n$$t = \\sqrt{\\frac{2 \\times 165}{9.81}} = \\sqrt{33.64} = 5.8 \\text{ s}$$\n\n**Horizontal distance traveled:**\n$$x = v_x t = 0.26 \\times 5.8 = 1.5 \\text{ m}$$\n\nThe coin lands 1.5 m away from directly below the drop point.\n\n**Trajectory Equation:**\n\nEliminating time from the parametric equations:\n$$y = x \\tan \\theta - \\frac{gx^2}{2u^2 \\cos^2 \\theta}$$\n\nThis is a **parabola**, the characteristic shape of projectile motion.\n\n**Example: ArtScience Museum Water Feature**\n\nWater is projected horizontally at $v_0 = 8 \\text{ m/s}$ from height $h = 5 \\text{ m}$.\n\n**Time to fall:**\n$$t = \\sqrt{\\frac{2h}{g}} = \\sqrt{\\frac{2 \\times 5}{9.81}} = 1.01 \\text{ s}$$\n\n**Horizontal range:**\n$$R = v_0 t = 8 \\times 1.01 = 8.1 \\text{ m}$$"
+      }
+    ],
+    "exercises": []
+  }
+]
