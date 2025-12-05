@@ -220,8 +220,7 @@ jc1_chemistry_complete = [
             }
         ],
         "exercises": []
-    }
-]
+    },
 
     {
         "id": "chemical-equilibrium-jc1-chem",
