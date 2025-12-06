@@ -21,7 +21,18 @@ export default function Subjects() {
 
   if (!user) return null;
 
-  const subjects = contentData.subjects;
+  // Filter subjects based on grade level
+  const subjects = contentData.subjects.filter(subject => {
+    // AI Playground is available to all grade levels
+    if (subject.id === 'ai-playground') return true;
+
+    // Check if subject has any chapters for the current grade level
+    const hasChaptersForGrade = subject.chapters?.some(
+      chapter => chapter.gradeLevel === gradeLevel
+    );
+
+    return hasChaptersForGrade;
+  });
 
   return (
     <div className="min-h-screen bg-background">

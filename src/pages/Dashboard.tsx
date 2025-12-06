@@ -28,7 +28,18 @@ export default function Dashboard() {
   const userId = user?.id;
   const progress = userId ? (allUsersProgress[userId] || []) : [];
 
-  const subjects = contentData.subjects;
+  // Filter subjects based on grade level
+  const subjects = contentData.subjects.filter(subject => {
+    // AI Playground is available to all grade levels
+    if (subject.id === 'ai-playground') return true;
+
+    // Check if subject has any chapters for the current grade level
+    const hasChaptersForGrade = subject.chapters?.some(
+      chapter => chapter.gradeLevel === gradeLevel
+    );
+
+    return hasChaptersForGrade;
+  });
 
   // Filter chapters by selected grade level
   const totalChapters = subjects.reduce((acc, subject) => {
