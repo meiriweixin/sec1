@@ -30,8 +30,15 @@ export default function Dashboard() {
 
   // Filter subjects based on grade level
   const subjects = contentData.subjects.filter(subject => {
-    // AI Playground is available to all grade levels
-    if (subject.id === 'ai-playground') return true;
+    // AI Playground is only shown when 'ai' grade is selected
+    if (subject.id === 'ai-playground') {
+      return gradeLevel === 'ai';
+    }
+
+    // For 'ai' grade level, only show AI Playground
+    if (gradeLevel === 'ai') {
+      return false;
+    }
 
     // Check if subject has any chapters for the current grade level
     const hasChaptersForGrade = subject.chapters?.some(
@@ -100,8 +107,11 @@ export default function Dashboard() {
                     {gradeLevel === 'sec2' && (language === 'zh' ? '中二' : 'Secondary 2')}
                     {gradeLevel === 'sec3' && (language === 'zh' ? '中三' : 'Secondary 3')}
                     {gradeLevel === 'sec4' && (language === 'zh' ? '中四' : 'Secondary 4')}
+                    {gradeLevel === 'olevel' && (language === 'zh' ? 'O水准备考' : 'O-Level Exam Prep')}
                     {gradeLevel === 'jc1' && 'JC 1'}
                     {gradeLevel === 'jc2' && 'JC 2'}
+                    {gradeLevel === 'alevel' && (language === 'zh' ? 'A水准备考' : 'A-Level Exam Prep')}
+                    {gradeLevel === 'ai' && (language === 'zh' ? '人工智能' : 'Artificial Intelligence')}
                   </p>
                 </div>
                 <Button

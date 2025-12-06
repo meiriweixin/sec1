@@ -1,0 +1,603 @@
+{
+  "english": [
+    {
+      "id": "olevel-english-paper1-prep",
+      "title": "O-Level English Paper 1: Writing",
+      "title_zh": "O水准英语试卷一：写作",
+      "gradeLevel": "sec4",
+      "tag": "Exam Prep",
+      "tag_zh": "考试准备",
+      "description": "Master situational writing and continuous writing for O-Level English Paper 1",
+      "description_zh": "掌握O水准英语试卷一的情境写作和连续写作技巧",
+      "objectives": [
+        "Write effective situational texts (emails, letters, reports, speeches)",
+        "Master narrative, descriptive, expository, and argumentative essays",
+        "Apply editing and proofreading skills",
+        "Manage time effectively during the exam"
+      ],
+      "objectives_zh": [
+        "撰写有效的情境文本（电子邮件、信函、报告、演讲稿）",
+        "掌握记叙文、描写文、说明文和议论文",
+        "应用编辑和校对技能",
+        "在考试中有效管理时间"
+      ],
+      "sections": [
+        {
+          "id": "paper1-overview",
+          "type": "text",
+          "title": "Paper 1 Structure and Requirements",
+          "title_zh": "试卷一结构与要求",
+          "content": "## O-Level English Paper 1 Overview\n\n**Duration**: 1 hour 50 minutes\n**Total Marks**: 70 marks (35% of total grade)\n\n### Three Sections:\n\n**Section A: Editing (10 marks)**\n- Identify and correct 12 grammatical/spelling errors in a short text\n- Common errors: subject-verb agreement, tenses, articles, spelling\n\n**Section B: Situational Writing (30 marks)**\n- Write 250-350 words based on a given situation\n- Text types: formal/informal emails, letters, reports, articles, speeches\n- Must address all bullet points in the question\n\n**Section C: Continuous Writing (30 marks)**\n- Choose 1 from 4 topics\n- Write 350-500 words\n- Types: narrative, descriptive, expository, argumentative\n\n### Time Management Strategy:\n- Editing: 15 minutes\n- Situational Writing: 35 minutes\n- Continuous Writing: 50 minutes\n- Proofreading: 10 minutes"
+        },
+        {
+          "id": "situational-writing-guide",
+          "type": "text",
+          "title": "Situational Writing Strategies",
+          "title_zh": "情境写作策略",
+          "content": "## Mastering Situational Writing\n\n### Key Success Factors:\n\n**1. Understand the Context (PACT)**\n- **P**urpose: Why are you writing?\n- **A**udience: Who are you writing to?\n- **C**ontext: What's the situation?\n- **T**one: Formal or informal?\n\n**2. Address ALL Bullet Points**\n- Each bullet point carries marks\n- Develop each point with relevant details\n- Use the visual stimulus for additional ideas\n\n**3. Format Correctly**\n\n**Formal Email/Letter:**\n```\nDear Mr/Ms [Name],\n\n[Opening - state purpose]\n[Body paragraphs - address bullet points]\n[Closing - call to action]\n\nYours sincerely,\n[Your name]\n```\n\n**Report:**\n```\nTitle: [Report Title]\nPrepared by: [Name]\nDate: [Date]\n\n1. Introduction\n2. Findings\n3. Recommendations\n4. Conclusion\n```\n\n### Singapore Context Examples:\n- Write to the principal about improving school facilities\n- Email to NEA about littering issues in your neighbourhood\n- Report on a community event at your local CC"
+        },
+        {
+          "id": "continuous-writing-techniques",
+          "type": "text",
+          "title": "Continuous Writing Excellence",
+          "title_zh": "连续写作技巧",
+          "content": "## Excelling in Continuous Writing\n\n### Essay Types and Approaches:\n\n**1. Narrative Writing**\n- Use vivid descriptions and sensory details\n- Show, don't tell emotions\n- Build tension and create a satisfying ending\n- Example opening: *The morning sun cast long shadows across Bishan Park as I took my first nervous steps...*\n\n**2. Descriptive Writing**\n- Paint pictures with words\n- Use figurative language (similes, metaphors, personification)\n- Engage all five senses\n- Example: *The hawker centre hummed with the symphony of sizzling woks and clattering dishes...*\n\n**3. Expository Writing**\n- Clear thesis statement\n- Well-organized paragraphs with topic sentences\n- Evidence and examples to support points\n- Balanced conclusion\n\n**4. Argumentative Writing**\n- Strong thesis with clear stance\n- Counter-arguments and rebuttals\n- Logical reasoning and evidence\n- Persuasive conclusion\n\n### Common Mistakes to Avoid:\n- Starting with \"This essay is about...\"\n- Using informal language in formal essays\n- Rushing the ending\n- Not proofreading for careless errors"
+        }
+      ],
+      "exercises": []
+    },
+    {
+      "id": "olevel-english-paper2-prep",
+      "title": "O-Level English Paper 2: Comprehension",
+      "title_zh": "O水准英语试卷二：理解",
+      "gradeLevel": "sec4",
+      "tag": "Exam Prep",
+      "tag_zh": "考试准备",
+      "description": "Excel in visual text, narrative, and non-narrative comprehension with summary writing",
+      "description_zh": "在视觉文本、叙事文和非叙事文理解及摘要写作中取得优异成绩",
+      "objectives": [
+        "Analyze visual texts effectively (advertisements, infographics)",
+        "Answer inference and language questions accurately",
+        "Write concise and accurate summaries",
+        "Identify author's purpose, tone, and techniques"
+      ],
+      "objectives_zh": [
+        "有效分析视觉文本（广告、信息图表）",
+        "准确回答推断和语言问题",
+        "撰写简洁准确的摘要",
+        "识别作者的目的、语气和技巧"
+      ],
+      "sections": [
+        {
+          "id": "paper2-overview",
+          "type": "text",
+          "title": "Paper 2 Structure",
+          "title_zh": "试卷二结构",
+          "content": "## O-Level English Paper 2 Overview\n\n**Duration**: 1 hour 50 minutes\n**Total Marks**: 50 marks (35% of total grade)\n\n### Three Sections:\n\n**Section A: Visual Text (15 marks)**\n- 1-2 visual/multimodal texts (advertisements, posters, infographics)\n- Questions on explicit information, inference, evaluation\n\n**Section B: Narrative Text (15 marks)**\n- Personal recount or short story\n- Understanding, inference, and language questions\n\n**Section C: Non-Narrative Text + Summary (20 marks)**\n- Article or informational text\n- Comprehension questions (12 marks)\n- 80-word summary (8 marks)\n\n### Time Allocation:\n- Visual Text: 20 minutes\n- Narrative Text: 25 minutes\n- Non-Narrative + Summary: 55 minutes\n- Review: 10 minutes"
+        },
+        {
+          "id": "answering-techniques",
+          "type": "text",
+          "title": "Comprehension Answering Techniques",
+          "title_zh": "理解答题技巧",
+          "content": "## Question Types and How to Answer\n\n### 1. Factual Questions\n- Look for explicit information in the text\n- Quote or paraphrase accurately\n- Answer in complete sentences\n\n### 2. Inference Questions\n*\"What does this suggest about...?\"*\n- Read between the lines\n- Use evidence + interpretation\n- Format: [Quote/Evidence] + [Interpretation]\n\n### 3. Vocabulary in Context\n*\"What does the word '...' mean as used in line X?\"*\n- Consider the context, not dictionary definition\n- Replace with your answer to check if it fits\n- Example: \"The news spread like wildfire\" - wildfire means *quickly and uncontrollably*\n\n### 4. Language for Effect\n*\"Why did the writer use...?\"*\n- Identify the technique (metaphor, personification, etc.)\n- Explain the effect on the reader\n- Link to the writer's purpose\n\n### 5. Personal Response\n*\"Do you agree that...?\"*\n- State your opinion clearly\n- Provide reasons with evidence from text AND personal knowledge\n- Use balanced language"
+        },
+        {
+          "id": "summary-writing",
+          "type": "text",
+          "title": "Summary Writing Skills",
+          "title_zh": "摘要写作技巧",
+          "content": "## Mastering the 80-Word Summary\n\n### Step-by-Step Approach:\n\n**1. Read the Question Carefully**\n- Identify exactly what to summarize\n- Note the word limit (80 words, +/- 10%)\n\n**2. Identify Relevant Points**\n- Read the specified paragraphs\n- Underline key points that answer the question\n- Aim for 6-8 content points\n\n**3. Paraphrase Effectively**\n- Use synonyms\n- Change sentence structures\n- Combine ideas where possible\n\n**4. Write Fluently**\n- Use connectors: *Firstly, Moreover, Additionally, Furthermore*\n- Ensure grammatical accuracy\n- Check the word count\n\n### Common Mistakes:\n- Copying directly from the passage\n- Including irrelevant information\n- Exceeding word limit significantly\n- Missing key content points\n\n### Practice Example:\n*Summarize the benefits of reading mentioned in the passage.*\n\n**Original**: \"Reading regularly helps to expand one's vocabulary. It also improves concentration and memory. Furthermore, books expose readers to different perspectives and cultures.\"\n\n**Summary**: \"Reading enhances vocabulary, concentration, and memory while broadening one's understanding of diverse viewpoints and cultures.\""
+        }
+      ],
+      "exercises": []
+    },
+    {
+      "id": "olevel-english-oral-listening-prep",
+      "title": "O-Level English Paper 3 & 4: Listening and Oral",
+      "title_zh": "O水准英语试卷三和四：听力与口试",
+      "gradeLevel": "sec4",
+      "tag": "Exam Prep",
+      "tag_zh": "考试准备",
+      "description": "Prepare for listening comprehension and oral communication assessments",
+      "description_zh": "准备听力理解和口语交际评估",
+      "objectives": [
+        "Develop effective listening and note-taking strategies",
+        "Read aloud with proper pronunciation, fluency, and expression",
+        "Engage confidently in stimulus-based conversations",
+        "Express and justify opinions on various topics"
+      ],
+      "objectives_zh": [
+        "培养有效的听力和笔记策略",
+        "用正确的发音、流利度和表达朗读",
+        "自信地参与基于刺激材料的对话",
+        "表达和论证对各种话题的观点"
+      ],
+      "sections": [
+        {
+          "id": "listening-strategies",
+          "type": "text",
+          "title": "Listening Comprehension Strategies",
+          "title_zh": "听力理解策略",
+          "content": "## Paper 3: Listening Comprehension\n\n**Duration**: ~45 minutes\n**Total Marks**: 30 marks (10% of total grade)\n\n### Format:\n- **Section A** (20 marks): Various listening tasks\n- **Section B** (10 marks): Note-taking and summary\n\n### Effective Listening Strategies:\n\n**Before Listening:**\n- Read all questions first\n- Predict possible answers\n- Note keywords to listen for\n\n**During Listening:**\n- Stay focused - recordings play twice\n- Take brief notes using abbreviations\n- Don't panic if you miss something - wait for replay\n\n**Note-Taking Tips:**\n- Use abbreviations: w/ (with), b/c (because), → (leads to)\n- Write keywords, not full sentences\n- Use numbers and bullet points\n\n### Common Question Types:\n- Multiple choice\n- Short answer\n- Matching\n- Gap-fill/completion"
+        },
+        {
+          "id": "oral-exam-prep",
+          "type": "text",
+          "title": "Oral Examination Preparation",
+          "title_zh": "口试准备",
+          "content": "## Paper 4: Oral Communication\n\n**Duration**: ~20 minutes (including preparation)\n**Total Marks**: 30 marks (20% of total grade)\n\n### Components:\n\n**Part 1: Reading Aloud (10 marks)**\n- 10 minutes preparation\n- Read a passage with proper:\n  - Pronunciation\n  - Fluency (smooth, natural pace)\n  - Expression (convey meaning and emotion)\n\n**Tips for Reading Aloud:**\n- Look for punctuation cues\n- Group words meaningfully\n- Vary tone for different content\n- Make eye contact occasionally\n\n**Part 2: Spoken Interaction (20 marks)**\n\n**(a) Stimulus-Based Conversation (10 marks)**\n- View a visual stimulus (photo, poster)\n- Answer 2-3 questions about it\n- Describe what you see and share your views\n\n**(b) Extended Conversation (10 marks)**\n- Discuss the broader topic\n- Express and justify opinions\n- Respond to examiner's questions naturally\n\n### Useful Phrases:\n- \"In my opinion...\"\n- \"I believe this is important because...\"\n- \"From my experience in Singapore...\"\n- \"On the other hand, some might argue...\"\n- \"To illustrate this point...\""
+        },
+        {
+          "id": "current-affairs-topics",
+          "type": "text",
+          "title": "Current Affairs Topics for Discussion",
+          "title_zh": "讨论的时事话题",
+          "content": "## Common Oral Discussion Topics\n\n### Singapore-Specific Issues:\n1. **Technology and Society**\n   - Smart Nation initiatives\n   - Social media's impact on youth\n   - Screen time and mental health\n\n2. **Environment**\n   - Climate change and Singapore\n   - Reducing plastic use\n   - Sustainable living\n\n3. **Education**\n   - Stress and competition in schools\n   - Value of co-curricular activities\n   - Future of learning with AI\n\n4. **Social Issues**\n   - Caring for the elderly\n   - Racial harmony and integration\n   - Mental health awareness\n\n5. **Youth and Culture**\n   - Preserving local heritage\n   - Work-life balance\n   - Volunteerism and community service\n\n### How to Stay Prepared:\n- Read The Straits Times and CNA regularly\n- Watch current affairs programs\n- Discuss news with family and friends\n- Form opinions with supporting reasons"
+        }
+      ],
+      "exercises": []
+    }
+  ],
+  "chinese": [
+    {
+      "id": "olevel-chinese-paper1-prep",
+      "title": "O水准华文试卷一：写作",
+      "title_zh": "O水准华文试卷一：写作",
+      "gradeLevel": "sec4",
+      "tag": "Exam Prep",
+      "tag_zh": "考试准备",
+      "description": "掌握O水准华文试卷一的实用文和作文写作技巧",
+      "description_zh": "掌握O水准华文试卷一的实用文和作文写作技巧",
+      "objectives": [
+        "撰写各类实用文（电邮、书信、报告、演讲稿）",
+        "掌握记叙文、说明文和议论文的写作技巧",
+        "正确使用标点符号和格式",
+        "在考试中有效分配时间"
+      ],
+      "objectives_zh": [
+        "撰写各类实用文（电邮、书信、报告、演讲稿）",
+        "掌握记叙文、说明文和议论文的写作技巧",
+        "正确使用标点符号和格式",
+        "在考试中有效分配时间"
+      ],
+      "sections": [
+        {
+          "id": "paper1-structure",
+          "type": "text",
+          "title": "试卷一结构",
+          "title_zh": "试卷一结构",
+          "content": "## O水准华文试卷一概述\n\n**时间**：1小时50分钟\n**总分**：70分\n\n### 两个部分：\n\n**甲部：实用文（30分）**\n- 根据情境撰写实用文\n- 字数：200-300字\n- 类型：电邮、书信、报告、演讲稿、通知等\n- 需回应所有要点\n\n**乙部：作文（40分）**\n- 四选一\n- 字数：350-500字\n- 类型：记叙文、说明文、议论文\n\n### 时间分配建议：\n- 实用文：40分钟\n- 作文：60分钟\n- 检查：10分钟"
+        },
+        {
+          "id": "practical-writing",
+          "type": "text",
+          "title": "实用文写作技巧",
+          "title_zh": "实用文写作技巧",
+          "content": "## 实用文写作要点\n\n### 常见实用文格式：\n\n**电邮格式：**\n```\n收件人：[邮箱地址]\n主题：[明确的主题]\n\n[称呼]：\n\n[开头：说明目的]\n[内容：回应各要点]\n[结尾：期待回复/致谢]\n\n[署名]\n```\n\n**书信格式：**\n- 日期（右上角）\n- 收信人称呼\n- 正文（分段）\n- 结语和署名\n\n### 评分标准：\n1. **内容**（12分）：回应所有要点，内容充实\n2. **语言**（12分）：用词准确，语句通顺\n3. **格式**（6分）：格式正确，标点恰当\n\n### 新加坡情境示例：\n- 写信给校长建议改善学校设施\n- 向民众俱乐部提交活动报告\n- 为环保活动撰写演讲稿"
+        },
+        {
+          "id": "composition-skills",
+          "type": "text",
+          "title": "作文写作技巧",
+          "title_zh": "作文写作技巧",
+          "content": "## 作文类型与技巧\n\n### 1. 记叙文\n**特点**：叙述事件经过，表达感悟\n\n**写作技巧**：\n- 开头引人入胜（设置悬念、引用名言）\n- 按时间顺序或倒叙安排情节\n- 运用细节描写（动作、语言、心理）\n- 结尾点明主题，升华感情\n\n**好开头示例**：\n*\"那天，巴刹里挤满了人，我紧握着妈妈给我的二十块钱，心里既紧张又兴奋——这是我第一次独自买菜。\"*\n\n### 2. 说明文\n**特点**：说明事物、解释原理\n\n**写作技巧**：\n- 开门见山说明主题\n- 采用恰当的说明方法（举例、比较、分类）\n- 条理清晰，层次分明\n- 语言准确客观\n\n### 3. 议论文\n**特点**：表达观点，论证说理\n\n**结构**：\n- 引论：提出论点\n- 本论：论据论证（举例、引用、对比）\n- 结论：总结强调\n\n### 常见错误：\n- 偏离题目\n- 缺乏具体事例\n- 结尾草率\n- 标点使用不当"
+        }
+      ],
+      "exercises": []
+    },
+    {
+      "id": "olevel-chinese-paper2-prep",
+      "title": "O水准华文试卷二：理解与综合填空",
+      "title_zh": "O水准华文试卷二：理解与综合填空",
+      "gradeLevel": "sec4",
+      "tag": "Exam Prep",
+      "tag_zh": "考试准备",
+      "description": "掌握阅读理解和综合填空的答题技巧",
+      "description_zh": "掌握阅读理解和综合填空的答题技巧",
+      "objectives": [
+        "掌握各类阅读理解题型的答题技巧",
+        "准确理解文章的中心思想和写作手法",
+        "提高综合填空的准确率",
+        "学会时间管理策略"
+      ],
+      "objectives_zh": [
+        "掌握各类阅读理解题型的答题技巧",
+        "准确理解文章的中心思想和写作手法",
+        "提高综合填空的准确率",
+        "学会时间管理策略"
+      ],
+      "sections": [
+        {
+          "id": "paper2-structure",
+          "type": "text",
+          "title": "试卷二结构",
+          "title_zh": "试卷二结构",
+          "content": "## O水准华文试卷二概述\n\n**时间**：1小时45分钟\n**总分**：60分\n\n### 三个部分：\n\n**甲部：综合填空（10分）**\n- 两篇短文，每篇5个填空\n- 考查语法、词汇、语境理解\n\n**乙部：阅读理解一（25分）**\n- 两篇现代文\n- 包括理解题、词语解释、写作手法分析\n\n**丙部：阅读理解二（25分）**\n- 一篇较长的文章\n- 深层理解题、主旨分析、个人观点题\n\n### 时间分配：\n- 综合填空：15分钟\n- 阅读理解一：40分钟\n- 阅读理解二：40分钟\n- 检查：10分钟"
+        },
+        {
+          "id": "cloze-techniques",
+          "type": "text",
+          "title": "综合填空技巧",
+          "title_zh": "综合填空技巧",
+          "content": "## 综合填空答题策略\n\n### 常考内容：\n\n**1. 关联词**\n- 因果：因为...所以、由于...因此\n- 转折：虽然...但是、尽管...却\n- 递进：不但...而且、不仅...还\n- 条件：只要...就、即使...也\n\n**2. 固定搭配**\n- 动宾搭配：采取措施、发挥作用\n- 形容词搭配：浓厚的兴趣、丰富的经验\n\n**3. 语境理解**\n- 根据上下文推断词义\n- 注意句子之间的逻辑关系\n\n### 答题步骤：\n1. 通读全文，理解大意\n2. 分析空格前后的语境\n3. 考虑语法和搭配要求\n4. 验证答案是否通顺\n\n### 常见错误词：\n- 的/得/地 混用\n- 在/再 混淆\n- 做/作 不分"
+        },
+        {
+          "id": "comprehension-skills",
+          "type": "text",
+          "title": "阅读理解技巧",
+          "title_zh": "阅读理解技巧",
+          "content": "## 阅读理解答题技巧\n\n### 题型分析：\n\n**1. 信息提取题**\n- 直接从文中找答案\n- 完整回答所有部分\n- 示例：\"作者提到了哪些原因？\"（需列出所有原因）\n\n**2. 词语理解题**\n- 联系上下文解释\n- 不要只查字典意思\n- 示例：\"'一石二鸟'在文中指什么？\"→ 解释具体所指\n\n**3. 推断理解题**\n- 结合文本信息进行推理\n- 答案需有文本依据\n- 示例：\"从这段话可以看出作者是怎样的人？\"\n\n**4. 写作手法题**\n- 识别修辞手法（比喻、拟人、排比、夸张）\n- 分析其表达效果\n- 格式：手法 + 内容 + 效果\n\n**5. 主旨概括题**\n- 找中心句或总结全文\n- 用自己的话概括\n- 包含：对象 + 核心内容 + 意义\n\n**6. 个人观点题**\n- 表明立场\n- 联系文本和生活经验\n- 论证充分，条理清晰"
+        }
+      ],
+      "exercises": []
+    },
+    {
+      "id": "olevel-chinese-oral-listening-prep",
+      "title": "O水准华文口试与听力",
+      "title_zh": "O水准华文口试与听力",
+      "gradeLevel": "sec4",
+      "tag": "Exam Prep",
+      "tag_zh": "考试准备",
+      "description": "准备口试朗读、会话和听力理解考试",
+      "description_zh": "准备口试朗读、会话和听力理解考试",
+      "objectives": [
+        "朗读时发音准确、语调自然",
+        "看图会话表达清晰、内容充实",
+        "听力时快速捕捉关键信息",
+        "培养日常华语使用的信心"
+      ],
+      "objectives_zh": [
+        "朗读时发音准确、语调自然",
+        "看图会话表达清晰、内容充实",
+        "听力时快速捕捉关键信息",
+        "培养日常华语使用的信心"
+      ],
+      "sections": [
+        {
+          "id": "oral-exam",
+          "type": "text",
+          "title": "口试准备",
+          "title_zh": "口试准备",
+          "content": "## 华文口试\n\n**时间**：约15分钟\n**总分**：50分\n\n### 两个部分：\n\n**甲部：朗读（20分）**\n- 准备时间：10分钟\n- 朗读一篇短文\n- 评分标准：发音、语调、流利度\n\n**朗读技巧：**\n- 注意多音字（如：行、着、了）\n- 根据标点停顿\n- 语气要符合内容\n- 不要读得太快\n\n**乙部：看图会话（30分）**\n- 根据图片回答问题\n- 发表个人看法\n\n### 会话技巧：\n\n**看图描述**\n- 先整体后局部\n- 人物+地点+活动\n- 加入细节描写\n\n**发表意见**\n- 先表明立场\n- 给出2-3个理由\n- 联系自身经历\n- 语句完整，条理清晰\n\n**常用句式**\n- 我认为/我觉得...\n- 从我的角度来看...\n- 这让我想起了...\n- 一方面...另一方面..."
+        },
+        {
+          "id": "listening-exam",
+          "type": "text",
+          "title": "听力理解",
+          "title_zh": "听力理解",
+          "content": "## 华文听力考试\n\n**时间**：约30分钟\n**总分**：30分\n\n### 考试内容：\n- 多段录音材料\n- 每段播放两次\n- 选择题和填空题\n\n### 听力技巧：\n\n**听前准备**\n- 快速浏览题目\n- 预测可能的答案\n- 划出关键词\n\n**听时策略**\n- 集中注意力\n- 边听边记关键词\n- 第一遍抓大意，第二遍填细节\n\n**常考内容类型**\n1. 对话（购物、问路、预约）\n2. 公告（通知、广播）\n3. 访谈（人物介绍、观点表达）\n4. 叙事（故事、经历）\n\n### 速记技巧：\n- 用符号：→（导致）、↑（增加）、↓（减少）\n- 记数字和名称\n- 抓住转折词后的信息\n\n### 日常练习建议：\n- 收听华语新闻（8频道、958城市频道）\n- 看华语节目\n- 与家人朋友用华语交流"
+        }
+      ],
+      "exercises": []
+    }
+  ],
+  "math": [
+    {
+      "id": "olevel-math-algebra-prep",
+      "title": "O-Level Math: Algebra Mastery",
+      "title_zh": "O水准数学：代数精通",
+      "gradeLevel": "sec4",
+      "tag": "Exam Prep",
+      "tag_zh": "考试准备",
+      "description": "Master algebraic techniques for O-Level Mathematics",
+      "description_zh": "掌握O水准数学的代数技巧",
+      "objectives": [
+        "Solve linear and quadratic equations efficiently",
+        "Master simultaneous equations and inequalities",
+        "Apply algebraic manipulation techniques",
+        "Tackle challenging word problems"
+      ],
+      "objectives_zh": [
+        "高效求解线性和二次方程",
+        "掌握联立方程和不等式",
+        "应用代数运算技巧",
+        "解决挑战性应用题"
+      ],
+      "sections": [
+        {
+          "id": "algebra-overview",
+          "type": "text",
+          "title": "O-Level Algebra Topics",
+          "title_zh": "O水准代数课题",
+          "content": "## O-Level Mathematics: Algebra\n\n### Key Topics:\n\n**1. Algebraic Expressions**\n- Expansion and factorization\n- Algebraic fractions\n- Changing the subject of a formula\n\n**2. Equations**\n- Linear equations\n- Quadratic equations (factorization, formula, completing the square)\n- Simultaneous equations (substitution, elimination, graphical)\n- Fractional equations\n\n**3. Inequalities**\n- Linear inequalities\n- Representing solutions on number lines\n\n**4. Functions and Graphs**\n- Linear functions: $y = mx + c$\n- Quadratic functions: $y = ax^2 + bx + c$\n- Cubic and reciprocal functions\n- Graph transformations\n\n### Exam Weightage:\nAlgebra typically accounts for 35-40% of the O-Level Math paper."
+        },
+        {
+          "id": "quadratic-equations",
+          "type": "text",
+          "title": "Solving Quadratic Equations",
+          "title_zh": "求解二次方程",
+          "content": "## Quadratic Equations: Three Methods\n\n### 1. Factorization\nBest when equation factors nicely.\n\n**Example**: $x^2 - 5x + 6 = 0$\n$(x - 2)(x - 3) = 0$\n$x = 2$ or $x = 3$\n\n### 2. Quadratic Formula\nFor any quadratic: $ax^2 + bx + c = 0$\n\n$$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$$\n\n**Example**: $2x^2 + 5x - 3 = 0$\n$a = 2, b = 5, c = -3$\n$x = \\frac{-5 \\pm \\sqrt{25 + 24}}{4} = \\frac{-5 \\pm 7}{4}$\n$x = 0.5$ or $x = -3$\n\n### 3. Completing the Square\nUseful for finding turning points.\n\n**Example**: $x^2 + 6x + 2 = 0$\n$(x + 3)^2 - 9 + 2 = 0$\n$(x + 3)^2 = 7$\n$x = -3 \\pm \\sqrt{7}$\n\n### The Discriminant: $D = b^2 - 4ac$\n- $D > 0$: Two distinct real roots\n- $D = 0$: One repeated root\n- $D < 0$: No real roots"
+        },
+        {
+          "id": "simultaneous-equations",
+          "type": "text",
+          "title": "Simultaneous Equations",
+          "title_zh": "联立方程",
+          "content": "## Simultaneous Equations\n\n### Method 1: Substitution\nBest when one equation is easily rearranged.\n\n**Example**:\n$y = 2x + 1$ ... (1)\n$3x + 2y = 12$ ... (2)\n\nSubstitute (1) into (2):\n$3x + 2(2x + 1) = 12$\n$3x + 4x + 2 = 12$\n$7x = 10$\n$x = \\frac{10}{7}$\n\n### Method 2: Elimination\nBest when coefficients are similar.\n\n**Example**:\n$2x + 3y = 8$ ... (1)\n$5x - 3y = 13$ ... (2)\n\nAdd (1) + (2):\n$7x = 21$\n$x = 3$, then $y = \\frac{2}{3}$\n\n### Linear-Quadratic Systems\n\n**Example**:\n$y = x + 2$\n$y = x^2 - x - 2$\n\nSubstitute: $x + 2 = x^2 - x - 2$\n$x^2 - 2x - 4 = 0$\nSolve using quadratic formula.\n\n### Singapore Context Problem:\n*At a hawker centre, 3 plates of chicken rice and 2 drinks cost $13.50. 2 plates of chicken rice and 3 drinks cost $12. Find the cost of each item.*"
+        }
+      ],
+      "exercises": []
+    },
+    {
+      "id": "olevel-math-geometry-prep",
+      "title": "O-Level Math: Geometry & Trigonometry",
+      "title_zh": "O水准数学：几何与三角学",
+      "gradeLevel": "sec4",
+      "tag": "Exam Prep",
+      "tag_zh": "考试准备",
+      "description": "Master geometry, trigonometry, and mensuration for O-Level Mathematics",
+      "description_zh": "掌握O水准数学的几何、三角学和测量",
+      "objectives": [
+        "Apply properties of angles, triangles, and circles",
+        "Use trigonometric ratios to solve problems",
+        "Calculate areas and volumes of complex shapes",
+        "Solve 3D problems involving Pythagoras and trigonometry"
+      ],
+      "objectives_zh": [
+        "应用角度、三角形和圆的性质",
+        "使用三角比求解问题",
+        "计算复杂图形的面积和体积",
+        "求解涉及勾股定理和三角学的三维问题"
+      ],
+      "sections": [
+        {
+          "id": "geometry-topics",
+          "type": "text",
+          "title": "Geometry Topics Overview",
+          "title_zh": "几何课题概述",
+          "content": "## O-Level Geometry & Measurement\n\n### Key Topics:\n\n**1. Angle Properties**\n- Angles in parallel lines\n- Angles in triangles and polygons\n- Angles in circles\n\n**2. Congruence and Similarity**\n- Congruent triangles (SSS, SAS, ASA, RHS)\n- Similar triangles and figures\n- Scale factor for lengths, areas, volumes\n\n**3. Pythagoras' Theorem**\n- 2D applications\n- 3D applications\n\n**4. Trigonometry**\n- Basic ratios: sin, cos, tan\n- Solving right-angled triangles\n- Angles of elevation and depression\n- Bearings\n\n**5. Mensuration**\n- Perimeter and area\n- Arc length and sector area\n- Volume and surface area\n- Prisms, cylinders, pyramids, cones, spheres\n\n**6. Circle Properties**\n- Angle at center = 2 × angle at circumference\n- Angles in semicircle = 90°\n- Tangent perpendicular to radius"
+        },
+        {
+          "id": "trigonometry-basics",
+          "type": "text",
+          "title": "Trigonometry Essentials",
+          "title_zh": "三角学基础",
+          "content": "## Trigonometry for O-Level\n\n### Basic Ratios (SOH-CAH-TOA)\n\n$$\\sin\\theta = \\frac{\\text{Opposite}}{\\text{Hypotenuse}}$$\n\n$$\\cos\\theta = \\frac{\\text{Adjacent}}{\\text{Hypotenuse}}$$\n\n$$\\tan\\theta = \\frac{\\text{Opposite}}{\\text{Adjacent}}$$\n\n### Special Angles\n| Angle | sin | cos | tan |\n|-------|-----|-----|-----|\n| 30° | 0.5 | $\\frac{\\sqrt{3}}{2}$ | $\\frac{1}{\\sqrt{3}}$ |\n| 45° | $\\frac{\\sqrt{2}}{2}$ | $\\frac{\\sqrt{2}}{2}$ | 1 |\n| 60° | $\\frac{\\sqrt{3}}{2}$ | 0.5 | $\\sqrt{3}$ |\n\n### Bearings\n- Measured clockwise from North\n- Always given as 3 digits (e.g., 045°, 270°)\n\n**Example**: *From Changi Airport, a plane flies on a bearing of 315° for 200 km. How far north and west has it traveled?*\n\n- Distance north = $200 \\cos 45° = 141.4$ km\n- Distance west = $200 \\sin 45° = 141.4$ km\n\n### Angles of Elevation and Depression\n- Elevation: looking UP from horizontal\n- Depression: looking DOWN from horizontal"
+        },
+        {
+          "id": "mensuration-formulas",
+          "type": "text",
+          "title": "Mensuration Formulas",
+          "title_zh": "测量公式",
+          "content": "## Essential Mensuration Formulas\n\n### 2D Shapes\n| Shape | Area | Perimeter |\n|-------|------|----------|\n| Rectangle | $l \\times w$ | $2(l + w)$ |\n| Triangle | $\\frac{1}{2}bh$ | Sum of sides |\n| Circle | $\\pi r^2$ | $2\\pi r$ |\n| Trapezium | $\\frac{1}{2}(a+b)h$ | Sum of sides |\n| Sector | $\\frac{\\theta}{360°} \\times \\pi r^2$ | $2r + \\frac{\\theta}{360°} \\times 2\\pi r$ |\n\n### 3D Shapes\n| Shape | Volume | Surface Area |\n|-------|--------|-------------|\n| Cuboid | $l \\times w \\times h$ | $2(lw + wh + lh)$ |\n| Cylinder | $\\pi r^2 h$ | $2\\pi r^2 + 2\\pi rh$ |\n| Cone | $\\frac{1}{3}\\pi r^2 h$ | $\\pi r^2 + \\pi rl$ |\n| Sphere | $\\frac{4}{3}\\pi r^3$ | $4\\pi r^2$ |\n| Pyramid | $\\frac{1}{3} \\times \\text{base} \\times h$ | Base + triangular faces |\n\n### Similar Figures\nIf scale factor for lengths is $k$:\n- Area scale factor = $k^2$\n- Volume scale factor = $k^3$\n\n**Example**: *If a model building is 1:50 scale, and the real building has volume 125,000 m³, what is the model's volume?*\n$V_{model} = \\frac{125000}{50^3} = 1$ m³"
+        }
+      ],
+      "exercises": []
+    },
+    {
+      "id": "olevel-math-stats-prep",
+      "title": "O-Level Math: Statistics & Probability",
+      "title_zh": "O水准数学：统计与概率",
+      "gradeLevel": "sec4",
+      "tag": "Exam Prep",
+      "tag_zh": "考试准备",
+      "description": "Master statistics and probability for O-Level Mathematics",
+      "description_zh": "掌握O水准数学的统计与概率",
+      "objectives": [
+        "Calculate and interpret statistical measures",
+        "Construct and analyze cumulative frequency curves",
+        "Apply probability rules to combined events",
+        "Solve problems using tree diagrams and Venn diagrams"
+      ],
+      "objectives_zh": [
+        "计算和解释统计量度",
+        "构建和分析累积频率曲线",
+        "将概率规则应用于组合事件",
+        "使用树形图和韦恩图解决问题"
+      ],
+      "sections": [
+        {
+          "id": "statistics-overview",
+          "type": "text",
+          "title": "Statistics for O-Level",
+          "title_zh": "O水准统计学",
+          "content": "## Statistics Topics\n\n### Measures of Central Tendency\n\n**Mean**: $\\bar{x} = \\frac{\\sum x}{n}$ or $\\bar{x} = \\frac{\\sum fx}{\\sum f}$ (grouped data)\n\n**Median**: Middle value when data is ordered\n- For grouped data, use cumulative frequency curve\n\n**Mode**: Most frequent value\n\n### Measures of Spread\n\n**Range**: Highest - Lowest\n\n**Interquartile Range (IQR)**: $Q_3 - Q_1$\n\n**Standard Deviation**: \n$$\\sigma = \\sqrt{\\frac{\\sum(x - \\bar{x})^2}{n}}$$\n\n### Data Representation\n- Histograms (frequency density for unequal intervals)\n- Cumulative frequency curves\n- Box-and-whisker plots\n- Stem-and-leaf diagrams\n\n### Cumulative Frequency\n- Plot upper boundaries against cumulative frequencies\n- Read off median (50%), Q₁ (25%), Q₃ (75%)\n- Find percentiles"
+        },
+        {
+          "id": "probability-concepts",
+          "type": "text",
+          "title": "Probability Concepts",
+          "title_zh": "概率概念",
+          "content": "## Probability for O-Level\n\n### Basic Probability\n$$P(A) = \\frac{\\text{Number of favorable outcomes}}{\\text{Total number of outcomes}}$$\n\n$0 \\leq P(A) \\leq 1$\n\n$P(A') = 1 - P(A)$ (complement)\n\n### Combined Events\n\n**Addition Rule** (OR):\n- Mutually exclusive: $P(A \\text{ or } B) = P(A) + P(B)$\n- Not mutually exclusive: $P(A \\text{ or } B) = P(A) + P(B) - P(A \\text{ and } B)$\n\n**Multiplication Rule** (AND):\n- Independent events: $P(A \\text{ and } B) = P(A) \\times P(B)$\n- Dependent events: $P(A \\text{ and } B) = P(A) \\times P(B|A)$\n\n### Tree Diagrams\n- Show all possible outcomes\n- Multiply along branches (AND)\n- Add between branches (OR)\n\n### Sample Space\n- List all possible outcomes\n- Use for systematic counting\n\n**Example**: *Two dice are rolled. Find P(sum = 7).*\nFavorable outcomes: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1)\n$P(\\text{sum} = 7) = \\frac{6}{36} = \\frac{1}{6}$"
+        },
+        {
+          "id": "probability-problems",
+          "type": "text",
+          "title": "Solving Probability Problems",
+          "title_zh": "解决概率问题",
+          "content": "## Problem-Solving Strategies\n\n### \"Without Replacement\" Problems\n\n**Example**: *A bag contains 4 red and 3 blue balls. Two balls are drawn without replacement. Find P(both red).*\n\n$P(\\text{both red}) = \\frac{4}{7} \\times \\frac{3}{6} = \\frac{12}{42} = \\frac{2}{7}$\n\n### \"At Least One\" Problems\n\nUse: $P(\\text{at least one}) = 1 - P(\\text{none})$\n\n**Example**: *P(at least one 6 in three dice rolls)*\n$P(\\text{no 6}) = (\\frac{5}{6})^3 = \\frac{125}{216}$\n$P(\\text{at least one 6}) = 1 - \\frac{125}{216} = \\frac{91}{216}$\n\n### Singapore Context Problems\n\n*At a bus stop, the probability of Bus 170 arriving within 5 minutes is 0.3, and for Bus 174 is 0.4. Assuming independence, find the probability that:*\n\n*a) Both buses arrive within 5 minutes*\n$P = 0.3 \\times 0.4 = 0.12$\n\n*b) At least one bus arrives within 5 minutes*\n$P = 1 - (0.7 \\times 0.6) = 1 - 0.42 = 0.58$\n\n### Common Mistakes:\n- Forgetting to reduce denominator for \"without replacement\"\n- Using addition instead of multiplication for AND\n- Not considering all cases in \"at least\" problems"
+        }
+      ],
+      "exercises": []
+    }
+  ],
+  "science": [
+    {
+      "id": "olevel-science-physics-prep",
+      "title": "O-Level Combined Science: Physics",
+      "title_zh": "O水准综合科学：物理",
+      "gradeLevel": "sec4",
+      "tag": "Physics",
+      "tag_zh": "物理",
+      "description": "Comprehensive Physics revision for O-Level Combined Science",
+      "description_zh": "O水准综合科学物理综合复习",
+      "objectives": [
+        "Master key Physics concepts and formulas",
+        "Apply Physics principles to solve problems",
+        "Understand common exam question patterns",
+        "Develop effective answering techniques"
+      ],
+      "objectives_zh": [
+        "掌握关键物理概念和公式",
+        "应用物理原理解决问题",
+        "了解常见考试题型",
+        "培养有效的答题技巧"
+      ],
+      "sections": [
+        {
+          "id": "physics-topics",
+          "type": "text",
+          "title": "O-Level Physics Topics",
+          "title_zh": "O水准物理课题",
+          "content": "## O-Level Combined Science: Physics\n\n### Core Topics:\n\n**1. Measurement**\n- Physical quantities and SI units\n- Measurement techniques\n- Scalars and vectors\n\n**2. Newtonian Mechanics**\n- Kinematics (speed, velocity, acceleration)\n- Dynamics (Newton's laws, mass, weight)\n- Turning effects of forces\n- Pressure\n\n**3. Energy, Work, and Power**\n- Forms of energy\n- Energy conversion and conservation\n- Work done = Force × Distance\n- Power = Work/Time\n\n**4. Thermal Physics**\n- Kinetic theory\n- Heat capacity and latent heat\n- Transfer of thermal energy\n\n**5. Waves**\n- General wave properties\n- Light (reflection, refraction)\n- Sound\n- Electromagnetic spectrum\n\n**6. Electricity and Magnetism**\n- Static electricity\n- Current electricity (I = Q/t, V = W/Q)\n- D.C. circuits\n- Practical electricity\n- Magnetism and electromagnetism"
+        },
+        {
+          "id": "physics-formulas",
+          "type": "text",
+          "title": "Essential Physics Formulas",
+          "title_zh": "物理基本公式",
+          "content": "## Key Physics Formulas\n\n### Mechanics\n- Speed: $v = \\frac{d}{t}$\n- Acceleration: $a = \\frac{v - u}{t}$\n- Equations of motion:\n  - $v = u + at$\n  - $s = ut + \\frac{1}{2}at^2$\n  - $v^2 = u^2 + 2as$\n- Force: $F = ma$\n- Weight: $W = mg$\n- Pressure: $P = \\frac{F}{A}$\n- Moment: $\\text{Moment} = F \\times d$\n\n### Energy\n- Kinetic energy: $KE = \\frac{1}{2}mv^2$\n- Gravitational PE: $PE = mgh$\n- Work done: $W = Fd$\n- Power: $P = \\frac{W}{t}$ or $P = Fv$\n- Efficiency: $\\eta = \\frac{\\text{useful output}}{\\text{total input}} \\times 100\\%$\n\n### Waves\n- Wave equation: $v = f\\lambda$\n- Frequency: $f = \\frac{1}{T}$\n\n### Electricity\n- Current: $I = \\frac{Q}{t}$\n- Voltage: $V = \\frac{W}{Q}$ or $V = IR$\n- Power: $P = IV = I^2R = \\frac{V^2}{R}$\n- Energy: $E = Pt = IVt$\n- Resistors in series: $R_T = R_1 + R_2$\n- Resistors in parallel: $\\frac{1}{R_T} = \\frac{1}{R_1} + \\frac{1}{R_2}$"
+        },
+        {
+          "id": "physics-problem-solving",
+          "type": "text",
+          "title": "Physics Problem-Solving Techniques",
+          "title_zh": "物理解题技巧",
+          "content": "## Problem-Solving Strategies\n\n### Step-by-Step Approach:\n1. **Read carefully** - identify what's given and what's asked\n2. **Draw a diagram** if helpful\n3. **List known values** with units\n4. **Choose the right formula**\n5. **Substitute and solve**\n6. **Check units** and reasonableness\n\n### Common Question Types:\n\n**1. Calculation Questions**\n- Always show working\n- Include units in final answer\n- Use appropriate significant figures\n\n**2. Explain/Describe Questions**\n- Use scientific terms\n- Be specific, not vague\n- Link cause and effect\n\n**3. Compare Questions**\n- State similarities AND differences\n- Use comparative language\n\n### Singapore Context Examples:\n\n*The MRT train accelerates uniformly from rest to 80 km/h in 20 s. Calculate:*\n\n*a) The acceleration*\n$u = 0$, $v = 80 \\text{ km/h} = 22.2 \\text{ m/s}$, $t = 20 \\text{ s}$\n$a = \\frac{v - u}{t} = \\frac{22.2 - 0}{20} = 1.11 \\text{ m/s}^2$\n\n*b) Distance traveled during acceleration*\n$s = \\frac{u + v}{2} \\times t = \\frac{0 + 22.2}{2} \\times 20 = 222 \\text{ m}$"
+        }
+      ],
+      "exercises": []
+    },
+    {
+      "id": "olevel-science-chemistry-prep",
+      "title": "O-Level Combined Science: Chemistry",
+      "title_zh": "O水准综合科学：化学",
+      "gradeLevel": "sec4",
+      "tag": "Chemistry",
+      "tag_zh": "化学",
+      "description": "Comprehensive Chemistry revision for O-Level Combined Science",
+      "description_zh": "O水准综合科学化学综合复习",
+      "objectives": [
+        "Master fundamental Chemistry concepts",
+        "Balance chemical equations accurately",
+        "Perform mole calculations confidently",
+        "Understand reaction types and conditions"
+      ],
+      "objectives_zh": [
+        "掌握基础化学概念",
+        "准确配平化学方程式",
+        "自信进行摩尔计算",
+        "理解反应类型和条件"
+      ],
+      "sections": [
+        {
+          "id": "chemistry-topics",
+          "type": "text",
+          "title": "O-Level Chemistry Topics",
+          "title_zh": "O水准化学课题",
+          "content": "## O-Level Combined Science: Chemistry\n\n### Core Topics:\n\n**1. Matter and Atomic Structure**\n- Particulate nature of matter\n- Atomic structure (protons, neutrons, electrons)\n- Electronic configuration\n- Periodic Table\n\n**2. Chemical Bonding**\n- Ionic bonding\n- Covalent bonding\n- Metallic bonding\n- Properties of different types of substances\n\n**3. Formulae, Equations, and Moles**\n- Writing chemical formulae\n- Balancing equations\n- Mole concept and calculations\n- Limiting reagent\n\n**4. Acids, Bases, and Salts**\n- Properties of acids and bases\n- pH scale and indicators\n- Neutralization reactions\n- Preparation of salts\n\n**5. The Atmosphere and Environment**\n- Composition of air\n- Carbon cycle\n- Air pollution and climate change\n\n**6. Metals and Reactivity**\n- Reactivity series\n- Extraction of metals\n- Rusting and prevention\n\n**7. Organic Chemistry (if applicable)**\n- Alkanes and alkenes\n- Alcohols and carboxylic acids\n- Polymers"
+        },
+        {
+          "id": "mole-calculations",
+          "type": "text",
+          "title": "Mole Calculations",
+          "title_zh": "摩尔计算",
+          "content": "## The Mole Concept\n\n### Key Formulas:\n\n**Number of moles:**\n$$n = \\frac{m}{M_r}$$\nwhere m = mass (g), M_r = molar mass (g/mol)\n\n**For gases at r.t.p. (20°C, 1 atm):**\n$$n = \\frac{V}{24}$$\nwhere V = volume in dm³\n\n**For solutions:**\n$$n = c \\times V$$\nwhere c = concentration (mol/dm³), V = volume (dm³)\n\n### Worked Example:\n\n*Calculate the mass of magnesium needed to react completely with 50 cm³ of 2.0 mol/dm³ hydrochloric acid.*\n\n**Step 1**: Write the equation\n$Mg + 2HCl → MgCl_2 + H_2$\n\n**Step 2**: Calculate moles of HCl\n$n_{HCl} = 2.0 \\times \\frac{50}{1000} = 0.10 \\text{ mol}$\n\n**Step 3**: Use mole ratio\nFrom equation: 1 mol Mg : 2 mol HCl\n$n_{Mg} = \\frac{0.10}{2} = 0.05 \\text{ mol}$\n\n**Step 4**: Calculate mass\n$m = n \\times M_r = 0.05 \\times 24 = 1.2 \\text{ g}$"
+        },
+        {
+          "id": "chemical-equations",
+          "type": "text",
+          "title": "Writing and Balancing Equations",
+          "title_zh": "书写和配平方程式",
+          "content": "## Chemical Equations\n\n### Steps to Balance Equations:\n\n1. Write the unbalanced equation\n2. Count atoms on each side\n3. Balance one element at a time (start with metals)\n4. Adjust coefficients (not subscripts)\n5. Check all atoms balance\n\n### Example:\n\nUnbalanced: $Fe + O_2 → Fe_2O_3$\n\nStep 1: Balance Fe: $2Fe + O_2 → Fe_2O_3$ ✗ (3 O on right)\nStep 2: Balance O: $2Fe + \\frac{3}{2}O_2 → Fe_2O_3$\nStep 3: Remove fractions: $4Fe + 3O_2 → 2Fe_2O_3$ ✓\n\n### Types of Reactions:\n\n**1. Synthesis**: $A + B → AB$\n$2Mg + O_2 → 2MgO$\n\n**2. Decomposition**: $AB → A + B$\n$CaCO_3 → CaO + CO_2$\n\n**3. Single displacement**: $A + BC → AC + B$\n$Zn + CuSO_4 → ZnSO_4 + Cu$\n\n**4. Double displacement**: $AB + CD → AD + CB$\n$AgNO_3 + NaCl → AgCl + NaNO_3$\n\n**5. Neutralization**: Acid + Base → Salt + Water\n$HCl + NaOH → NaCl + H_2O$\n\n### State Symbols:\n- (s) solid, (l) liquid, (g) gas, (aq) aqueous"
+        }
+      ],
+      "exercises": []
+    },
+    {
+      "id": "olevel-science-biology-prep",
+      "title": "O-Level Combined Science: Biology",
+      "title_zh": "O水准综合科学：生物",
+      "gradeLevel": "sec4",
+      "tag": "Biology",
+      "tag_zh": "生物",
+      "description": "Comprehensive Biology revision for O-Level Combined Science",
+      "description_zh": "O水准综合科学生物综合复习",
+      "objectives": [
+        "Understand cell structure and life processes",
+        "Explain human body systems clearly",
+        "Apply knowledge of ecology and environment",
+        "Master genetics and inheritance"
+      ],
+      "objectives_zh": [
+        "理解细胞结构和生命过程",
+        "清楚解释人体系统",
+        "应用生态学和环境知识",
+        "掌握遗传学和遗传"
+      ],
+      "sections": [
+        {
+          "id": "biology-topics",
+          "type": "text",
+          "title": "O-Level Biology Topics",
+          "title_zh": "O水准生物课题",
+          "content": "## O-Level Combined Science: Biology\n\n### Core Topics:\n\n**1. Cell Structure and Organisation**\n- Animal and plant cells\n- Cell organelles and functions\n- Tissues, organs, and systems\n- Movement of substances (diffusion, osmosis)\n\n**2. Nutrition**\n- Nutrients and balanced diet\n- Digestive system\n- Enzymes in digestion\n- Photosynthesis\n\n**3. Transport**\n- Circulatory system\n- Blood components and functions\n- Heart structure and cardiac cycle\n- Transport in plants (xylem, phloem)\n\n**4. Respiration and Gas Exchange**\n- Aerobic and anaerobic respiration\n- Respiratory system\n- Gas exchange in lungs and alveoli\n\n**5. Excretion**\n- Kidney structure and function\n- Urine formation\n\n**6. Coordination and Response**\n- Nervous system\n- Hormonal control\n- Eye structure and function\n\n**7. Reproduction**\n- Human reproductive systems\n- Menstrual cycle\n- Fertilization and development\n\n**8. Inheritance**\n- DNA and chromosomes\n- Genetic crosses\n- Variation and natural selection"
+        },
+        {
+          "id": "biology-diagrams",
+          "type": "text",
+          "title": "Important Biology Diagrams",
+          "title_zh": "重要生物图表",
+          "content": "## Key Diagrams to Master\n\n### Cell Diagrams\n- Animal cell: nucleus, cytoplasm, cell membrane, mitochondria, ribosomes\n- Plant cell: + cell wall, chloroplast, large vacuole\n\n### Human Body Systems\n\n**1. Digestive System**\n- Label: mouth, esophagus, stomach, liver, pancreas, small intestine, large intestine, rectum, anus\n- Know the function of each organ\n- Enzyme action sites\n\n**2. Heart**\n- 4 chambers: left/right atrium, left/right ventricle\n- Valves: tricuspid, bicuspid, semi-lunar\n- Blood vessels: vena cava, pulmonary artery/vein, aorta\n- Direction of blood flow\n\n**3. Lungs**\n- Trachea, bronchi, bronchioles, alveoli\n- Gas exchange at alveoli\n- Adaptations for gas exchange\n\n**4. Kidney**\n- Nephron structure\n- Bowman's capsule, glomerulus, tubule, collecting duct\n- Filtration, reabsorption, secretion\n\n### Tips for Drawing:\n- Use pencil\n- Draw clearly and neatly\n- Label with horizontal lines\n- Include magnification if required"
+        },
+        {
+          "id": "genetics-basics",
+          "type": "text",
+          "title": "Genetics and Inheritance",
+          "title_zh": "遗传学与遗传",
+          "content": "## Genetics for O-Level\n\n### Key Terms:\n- **Gene**: Unit of inheritance on chromosome\n- **Allele**: Different forms of a gene\n- **Genotype**: Genetic makeup (e.g., Bb)\n- **Phenotype**: Physical characteristic (e.g., brown eyes)\n- **Dominant**: Allele that shows in heterozygote (B)\n- **Recessive**: Allele hidden in heterozygote (b)\n- **Homozygous**: Same alleles (BB or bb)\n- **Heterozygous**: Different alleles (Bb)\n\n### Genetic Crosses (Punnett Squares)\n\n**Example**: Cross between two heterozygous brown-eyed individuals (Bb × Bb)\n\n```\n       B      b\n  B   BB     Bb\n  b   Bb     bb\n```\n\n**Results**:\n- Genotypic ratio: 1 BB : 2 Bb : 1 bb\n- Phenotypic ratio: 3 brown : 1 blue\n- 75% brown eyes, 25% blue eyes\n\n### Inheritance of Sex\n- Females: XX\n- Males: XY\n- 50% chance of each sex\n\n### Singapore Health Connection:\n*Genetic screening is available at Singapore hospitals for conditions like thalassemia. Understanding genetics helps couples make informed decisions about family planning.*"
+        }
+      ],
+      "exercises": []
+    }
+  ],
+  "computing": [
+    {
+      "id": "olevel-computing-prep",
+      "title": "O-Level Computing: Exam Preparation",
+      "title_zh": "O水准电脑：考试准备",
+      "gradeLevel": "sec4",
+      "tag": "Exam Prep",
+      "tag_zh": "考试准备",
+      "description": "Comprehensive preparation for O-Level Computing examination",
+      "description_zh": "O水准电脑考试综合准备",
+      "objectives": [
+        "Master computational thinking and problem-solving",
+        "Write efficient and well-documented code",
+        "Understand data representation and manipulation",
+        "Apply computing ethics and digital citizenship principles"
+      ],
+      "objectives_zh": [
+        "掌握计算思维和问题解决",
+        "编写高效且有良好文档的代码",
+        "理解数据表示和处理",
+        "应用计算伦理和数字公民原则"
+      ],
+      "sections": [
+        {
+          "id": "computing-overview",
+          "type": "text",
+          "title": "O-Level Computing Overview",
+          "title_zh": "O水准电脑概述",
+          "content": "## O-Level Computing Examination\n\n### Exam Format:\n\n**Paper 1: Theory (2 hours)**\n- 60% of total grade\n- Short answer and structured questions\n- Topics: All theoretical concepts\n\n**Paper 2: Practical (2 hours)**\n- 40% of total grade\n- Programming tasks using Python\n- Problem-solving and coding\n\n### Core Topics:\n\n**1. Data and Information**\n- Data types (integer, real, string, boolean)\n- Data representation (binary, hexadecimal)\n- Data validation and verification\n\n**2. Algorithms**\n- Algorithm design (flowcharts, pseudocode)\n- Searching (linear, binary)\n- Sorting (bubble, insertion, merge)\n\n**3. Programming**\n- Python programming\n- Variables, selection, iteration\n- Functions and procedures\n- Lists and file handling\n\n**4. Computer Systems**\n- Hardware and software\n- Operating systems\n- Networks and the internet\n\n**5. Ethics and Society**\n- Copyright and intellectual property\n- Privacy and data protection (PDPA)\n- Cybersecurity"
+        },
+        {
+          "id": "programming-concepts",
+          "type": "text",
+          "title": "Python Programming Essentials",
+          "title_zh": "Python编程基础",
+          "content": "## Python for O-Level Computing\n\n### Data Types\n```python\n# Integer\nage = 16\n\n# Float\nprice = 4.50\n\n# String\nname = \"John\"\n\n# Boolean\nis_student = True\n\n# List\nscores = [85, 92, 78, 90]\n```\n\n### Selection (If-Else)\n```python\ngrade = int(input(\"Enter your grade: \"))\n\nif grade >= 75:\n    print(\"Distinction\")\nelif grade >= 50:\n    print(\"Pass\")\nelse:\n    print(\"Fail\")\n```\n\n### Iteration (Loops)\n```python\n# For loop\nfor i in range(5):\n    print(i)  # Prints 0 to 4\n\n# While loop\ncount = 0\nwhile count < 5:\n    print(count)\n    count += 1\n```\n\n### Functions\n```python\ndef calculate_area(length, width):\n    \"\"\"Calculate area of rectangle\"\"\"\n    area = length * width\n    return area\n\n# Calling the function\nresult = calculate_area(5, 3)\nprint(result)  # Output: 15\n```\n\n### File Handling\n```python\n# Writing to file\nwith open(\"data.txt\", \"w\") as f:\n    f.write(\"Hello, World!\")\n\n# Reading from file\nwith open(\"data.txt\", \"r\") as f:\n    content = f.read()\n    print(content)\n```"
+        },
+        {
+          "id": "algorithms-practice",
+          "type": "text",
+          "title": "Algorithm Design and Problem-Solving",
+          "title_zh": "算法设计和问题解决",
+          "content": "## Algorithm Practice\n\n### Linear Search\n```python\ndef linear_search(arr, target):\n    for i in range(len(arr)):\n        if arr[i] == target:\n            return i  # Return index if found\n    return -1  # Return -1 if not found\n```\n\n### Binary Search (for sorted lists)\n```python\ndef binary_search(arr, target):\n    low = 0\n    high = len(arr) - 1\n    \n    while low <= high:\n        mid = (low + high) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            low = mid + 1\n        else:\n            high = mid - 1\n    return -1\n```\n\n### Bubble Sort\n```python\ndef bubble_sort(arr):\n    n = len(arr)\n    for i in range(n - 1):\n        for j in range(n - 1 - i):\n            if arr[j] > arr[j + 1]:\n                arr[j], arr[j + 1] = arr[j + 1], arr[j]\n    return arr\n```\n\n### Problem-Solving Steps:\n1. **Understand** the problem\n2. **Identify** inputs and outputs\n3. **Design** algorithm (pseudocode/flowchart)\n4. **Code** the solution\n5. **Test** with different inputs\n6. **Debug** and refine\n\n### Singapore Example:\n*Write a program to calculate the total MRT fare for a journey, including the 10% GST and a $0.50 card fee.*"
+        }
+      ],
+      "exercises": []
+    }
+  ]
+}

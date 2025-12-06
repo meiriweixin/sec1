@@ -14,8 +14,11 @@ const gradeLevels: { value: GradeLevel; label_en: string; label_zh: string }[] =
   { value: 'sec2', label_en: 'Sec 2', label_zh: '中二' },
   { value: 'sec3', label_en: 'Sec 3', label_zh: '中三' },
   { value: 'sec4', label_en: 'Sec 4', label_zh: '中四' },
+  { value: 'olevel', label_en: 'O-Level', label_zh: 'O水准' },
   { value: 'jc1', label_en: 'JC 1', label_zh: 'JC 1' },
   { value: 'jc2', label_en: 'JC 2', label_zh: 'JC 2' },
+  { value: 'alevel', label_en: 'A-Level', label_zh: 'A水准' },
+  { value: 'ai', label_en: 'AI', label_zh: 'AI' },
 ];
 
 export default function GradeLevelSelector() {

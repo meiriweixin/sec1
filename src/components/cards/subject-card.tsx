@@ -104,9 +104,18 @@ export function SubjectCard({ subject }: SubjectCardProps) {
 
   // Generate grade-level-specific description
   const getGradeLevelDescription = () => {
-    const gradeName = language === 'zh'
-      ? (gradeLevel === 'sec1' ? '中一' : gradeLevel === 'sec2' ? '中二' : gradeLevel === 'sec3' ? '中三' : gradeLevel === 'sec4' ? '中四' : gradeLevel === 'jc1' ? 'JC 1' : 'JC 2')
-      : (gradeLevel === 'sec1' ? 'Secondary 1' : gradeLevel === 'sec2' ? 'Secondary 2' : gradeLevel === 'sec3' ? 'Secondary 3' : gradeLevel === 'sec4' ? 'Secondary 4' : gradeLevel === 'jc1' ? 'JC 1' : 'JC 2');
+    const gradeNameMap: Record<string, { en: string; zh: string }> = {
+      sec1: { en: 'Secondary 1', zh: '中一' },
+      sec2: { en: 'Secondary 2', zh: '中二' },
+      sec3: { en: 'Secondary 3', zh: '中三' },
+      sec4: { en: 'Secondary 4', zh: '中四' },
+      olevel: { en: 'O-Level', zh: 'O水准' },
+      jc1: { en: 'JC 1', zh: 'JC 1' },
+      jc2: { en: 'JC 2', zh: 'JC 2' },
+      alevel: { en: 'A-Level', zh: 'A水准' },
+      ai: { en: 'AI', zh: 'AI' },
+    };
+    const gradeName = language === 'zh' ? gradeNameMap[gradeLevel]?.zh : gradeNameMap[gradeLevel]?.en;
 
     const baseDescription = language === 'zh' && subject.description_zh ? subject.description_zh : subject.description;
 

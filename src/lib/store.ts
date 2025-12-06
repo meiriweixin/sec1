@@ -44,7 +44,7 @@ export interface AIModuleProgress {
   doneAt?: string;
 }
 
-export type GradeLevel = 'sec1' | 'sec2' | 'sec3' | 'sec4' | 'jc1' | 'jc2';
+export type GradeLevel = 'sec1' | 'sec2' | 'sec3' | 'sec4' | 'olevel' | 'jc1' | 'jc2' | 'alevel' | 'ai';
 
 export type VoteDifficulty = 'easy' | 'hard' | 'issue';
 

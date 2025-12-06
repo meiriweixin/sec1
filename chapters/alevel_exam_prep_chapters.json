@@ -1,0 +1,422 @@
+{
+  "math": [
+    {
+      "id": "alevel-math-paper1-prep",
+      "title": "A-Level H2 Math Paper 1: Pure Mathematics",
+      "title_zh": "A水准H2数学试卷一：纯数学",
+      "gradeLevel": "jc2",
+      "tag": "Exam Prep",
+      "tag_zh": "考试准备",
+      "description": "Master Pure Mathematics topics for H2 Mathematics Paper 1",
+      "description_zh": "掌握H2数学试卷一的纯数学课题",
+      "objectives": [
+        "Apply advanced calculus techniques (integration, differentiation)",
+        "Solve complex algebraic problems including complex numbers",
+        "Master sequences, series, and mathematical induction",
+        "Excel in vectors and 3D coordinate geometry"
+      ],
+      "objectives_zh": [
+        "应用高级微积分技巧（积分、微分）",
+        "解决复杂代数问题包括复数",
+        "掌握数列、级数和数学归纳法",
+        "精通向量和三维坐标几何"
+      ],
+      "sections": [
+        {
+          "id": "paper1-overview",
+          "type": "text",
+          "title": "Paper 1 Structure and Topics",
+          "title_zh": "试卷一结构与课题",
+          "content": "## H2 Mathematics Paper 1: Pure Mathematics\n\n**Duration**: 3 hours\n**Total Marks**: 100 marks (approximately 44% of total grade)\n\n### Topics Covered:\n\n**1. Functions and Graphs**\n- Domain, range, and function types\n- Graphical transformations\n- Modulus functions\n\n**2. Equations and Inequalities**\n- Polynomial equations\n- System of equations\n- Inequalities with modulus\n\n**3. Sequences and Series**\n- Arithmetic and geometric progressions\n- Summation notation\n- Mathematical induction\n- Convergence of series\n\n**4. Vectors**\n- 3D vectors\n- Scalar and vector products\n- Lines and planes in 3D\n- Intersection and shortest distance problems\n\n**5. Complex Numbers**\n- Argand diagram\n- Polar and exponential form\n- De Moivre's theorem\n- Roots of unity\n\n**6. Calculus**\n- Differentiation techniques\n- Integration techniques\n- Differential equations\n- Maclaurin series\n\n### Time Management:\n- Aim for approximately 1.8 minutes per mark\n- Attempt easier questions first\n- Leave time to check work"
+        },
+        {
+          "id": "calculus-strategies",
+          "type": "text",
+          "title": "Advanced Calculus Strategies",
+          "title_zh": "高级微积分策略",
+          "content": "## Calculus for A-Level\n\n### Differentiation Techniques\n\n**1. Chain Rule**: $\\frac{dy}{dx} = \\frac{dy}{du} \\cdot \\frac{du}{dx}$\n\n**2. Product Rule**: $\\frac{d}{dx}(uv) = u\\frac{dv}{dx} + v\\frac{du}{dx}$\n\n**3. Quotient Rule**: $\\frac{d}{dx}\\left(\\frac{u}{v}\\right) = \\frac{v\\frac{du}{dx} - u\\frac{dv}{dx}}{v^2}$\n\n**4. Implicit Differentiation**:\nFor $x^2 + y^2 = 25$:\n$2x + 2y\\frac{dy}{dx} = 0 \\Rightarrow \\frac{dy}{dx} = -\\frac{x}{y}$\n\n### Integration Techniques\n\n**1. Substitution**:\n$$\\int x\\sqrt{x^2 + 1} \\, dx$$\nLet $u = x^2 + 1$, then $du = 2x \\, dx$\n\n**2. Integration by Parts**:\n$$\\int u \\, dv = uv - \\int v \\, du$$\n\n**3. Partial Fractions**:\n$$\\frac{1}{(x-1)(x+2)} = \\frac{A}{x-1} + \\frac{B}{x+2}$$\n\n### Differential Equations\n\n**Separable**: $\\frac{dy}{dx} = f(x)g(y)$\n\n**First-order linear**: $\\frac{dy}{dx} + P(x)y = Q(x)$\nUse integrating factor: $e^{\\int P(x) \\, dx}$"
+        },
+        {
+          "id": "complex-numbers-mastery",
+          "type": "text",
+          "title": "Complex Numbers Mastery",
+          "title_zh": "复数精通",
+          "content": "## Complex Numbers\n\n### Representations\n\n**Cartesian form**: $z = x + iy$\n\n**Polar form**: $z = r(\\cos\\theta + i\\sin\\theta) = r \\text{ cis } \\theta$\n\n**Exponential form**: $z = re^{i\\theta}$\n\nwhere $r = |z| = \\sqrt{x^2 + y^2}$ and $\\theta = \\arg(z) = \\tan^{-1}\\left(\\frac{y}{x}\\right)$\n\n### De Moivre's Theorem\n\n$$[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$$\n\n### Finding Roots\n\nThe $n$th roots of $z = r \\text{ cis } \\theta$ are:\n$$z_k = \\sqrt[n]{r} \\text{ cis } \\left(\\frac{\\theta + 2k\\pi}{n}\\right), \\quad k = 0, 1, 2, ..., n-1$$\n\n### Example Problem:\n\n*Find the cube roots of $8i$.*\n\n**Step 1**: Convert to polar form\n$8i = 8 \\text{ cis } \\frac{\\pi}{2}$\n\n**Step 2**: Apply root formula\n$z_k = \\sqrt[3]{8} \\text{ cis } \\left(\\frac{\\pi/2 + 2k\\pi}{3}\\right) = 2 \\text{ cis } \\left(\\frac{\\pi + 4k\\pi}{6}\\right)$\n\n**Step 3**: Find three roots (k = 0, 1, 2)\n- $z_0 = 2 \\text{ cis } \\frac{\\pi}{6} = \\sqrt{3} + i$\n- $z_1 = 2 \\text{ cis } \\frac{5\\pi}{6} = -\\sqrt{3} + i$\n- $z_2 = 2 \\text{ cis } \\frac{3\\pi}{2} = -2i$"
+        }
+      ],
+      "exercises": []
+    },
+    {
+      "id": "alevel-math-paper2-prep",
+      "title": "A-Level H2 Math Paper 2: Statistics",
+      "title_zh": "A水准H2数学试卷二：统计学",
+      "gradeLevel": "jc2",
+      "tag": "Exam Prep",
+      "tag_zh": "考试准备",
+      "description": "Excel in Statistics and Probability for H2 Mathematics Paper 2",
+      "description_zh": "精通H2数学试卷二的统计学和概率",
+      "objectives": [
+        "Apply probability theory and distributions",
+        "Master hypothesis testing procedures",
+        "Calculate confidence intervals accurately",
+        "Interpret statistical results in context"
+      ],
+      "objectives_zh": [
+        "应用概率理论和分布",
+        "掌握假设检验程序",
+        "准确计算置信区间",
+        "在情境中解释统计结果"
+      ],
+      "sections": [
+        {
+          "id": "paper2-overview",
+          "type": "text",
+          "title": "Paper 2 Structure",
+          "title_zh": "试卷二结构",
+          "content": "## H2 Mathematics Paper 2: Statistics\n\n**Duration**: 3 hours\n**Total Marks**: 100 marks (approximately 56% includes Pure Math section)\n\n### Statistics Topics (approximately 60 marks):\n\n**1. Probability**\n- Conditional probability\n- Bayes' theorem\n- Independent and mutually exclusive events\n\n**2. Discrete Random Variables**\n- Probability distributions\n- Binomial distribution: $X \\sim B(n, p)$\n- Poisson distribution: $X \\sim Po(\\lambda)$\n- Expectation and variance\n\n**3. Normal Distribution**\n- Standard normal distribution\n- Normal approximation to binomial\n- Sampling distribution of sample mean\n- Central Limit Theorem\n\n**4. Sampling and Estimation**\n- Point estimation\n- Confidence intervals\n- Unbiased estimators\n\n**5. Hypothesis Testing**\n- Z-tests for population mean\n- t-tests (if applicable)\n- Type I and Type II errors\n- Significance levels and p-values\n\n**6. Correlation and Regression**\n- Product moment correlation coefficient\n- Linear regression\n- Residual analysis"
+        },
+        {
+          "id": "probability-distributions",
+          "type": "text",
+          "title": "Probability Distributions",
+          "title_zh": "概率分布",
+          "content": "## Key Distributions\n\n### Binomial Distribution: $X \\sim B(n, p)$\n\n**Conditions**:\n- Fixed number of trials (n)\n- Each trial has two outcomes (success/failure)\n- Constant probability of success (p)\n- Independent trials\n\n**Formulas**:\n- $P(X = r) = \\binom{n}{r} p^r (1-p)^{n-r}$\n- $E(X) = np$\n- $Var(X) = np(1-p)$\n\n### Poisson Distribution: $X \\sim Po(\\lambda)$\n\n**Conditions**:\n- Events occur randomly and independently\n- Average rate is constant (λ events per unit)\n\n**Formulas**:\n- $P(X = r) = \\frac{e^{-\\lambda} \\lambda^r}{r!}$\n- $E(X) = Var(X) = \\lambda$\n\n### Normal Distribution: $X \\sim N(\\mu, \\sigma^2)$\n\n**Standardization**: $Z = \\frac{X - \\mu}{\\sigma}$\n\n**Key Properties**:\n- Symmetric about mean\n- 68-95-99.7 rule\n- $P(\\mu - \\sigma < X < \\mu + \\sigma) \\approx 0.68$\n\n### Normal Approximation to Binomial\n\nWhen $n$ is large and $np > 5$ and $n(1-p) > 5$:\n$X \\sim B(n, p) \\approx N(np, np(1-p))$\n\nDon't forget continuity correction!"
+        },
+        {
+          "id": "hypothesis-testing",
+          "type": "text",
+          "title": "Hypothesis Testing",
+          "title_zh": "假设检验",
+          "content": "## Hypothesis Testing Procedure\n\n### 5-Step Procedure:\n\n**Step 1: State Hypotheses**\n- $H_0$: Null hypothesis (what we test against)\n- $H_1$: Alternative hypothesis (what we want to show)\n\n**Step 2: State Significance Level**\n- Usually α = 0.05 or α = 0.01\n\n**Step 3: Calculate Test Statistic**\n- For testing population mean: $Z = \\frac{\\bar{X} - \\mu_0}{\\sigma/\\sqrt{n}}$\n\n**Step 4: Find Critical Value or P-value**\n- Compare test statistic with critical value, OR\n- Compare p-value with significance level\n\n**Step 5: Conclusion**\n- Reject or do not reject $H_0$\n- State conclusion in context\n\n### Example:\n\n*A manufacturer claims that the mean battery life is 500 hours. A sample of 40 batteries has mean life 495 hours. Population standard deviation is 25 hours. Test at 5% significance level.*\n\n**Solution**:\n- $H_0: \\mu = 500$, $H_1: \\mu \\neq 500$ (two-tailed)\n- α = 0.05, critical values: ±1.96\n- $Z = \\frac{495 - 500}{25/\\sqrt{40}} = \\frac{-5}{3.95} = -1.27$\n- Since $|{-1.27}| < 1.96$, do not reject $H_0$\n- **Conclusion**: There is insufficient evidence at 5% level to conclude that the mean battery life differs from 500 hours.\n\n### Type I and Type II Errors:\n- **Type I**: Rejecting $H_0$ when it's true (probability = α)\n- **Type II**: Not rejecting $H_0$ when it's false (probability = β)"
+        }
+      ],
+      "exercises": []
+    },
+    {
+      "id": "alevel-math-exam-strategies",
+      "title": "A-Level H2 Math: Exam Strategies",
+      "title_zh": "A水准H2数学：考试策略",
+      "gradeLevel": "jc2",
+      "tag": "Exam Prep",
+      "tag_zh": "考试准备",
+      "description": "Essential exam techniques and problem-solving strategies for H2 Math",
+      "description_zh": "H2数学必备考试技巧和解题策略",
+      "objectives": [
+        "Develop effective time management strategies",
+        "Master the art of showing mathematical working",
+        "Learn to verify answers quickly",
+        "Handle challenging problem types confidently"
+      ],
+      "objectives_zh": [
+        "培养有效的时间管理策略",
+        "掌握展示数学过程的技巧",
+        "学会快速验证答案",
+        "自信地处理挑战性题型"
+      ],
+      "sections": [
+        {
+          "id": "exam-techniques",
+          "type": "text",
+          "title": "Exam Techniques",
+          "title_zh": "考试技巧",
+          "content": "## A-Level Math Exam Strategies\n\n### Time Management\n\n**Paper 1 (3 hours, 100 marks)**:\n- Average 1.8 minutes per mark\n- Read through entire paper first (5 mins)\n- Attempt questions you're confident with first\n- Leave 15 minutes for checking\n\n### Showing Working\n\n**Do**:\n- Show all key steps\n- Write formulas before substituting\n- State conditions/assumptions\n- Box or underline final answers\n- Include units where applicable\n\n**Don't**:\n- Skip steps even if the answer seems obvious\n- Cross out work unless completely wrong\n- Use correction fluid (use single line strikethrough)\n\n### Common Mistakes to Avoid\n\n1. **Sign errors**: Especially in calculus and complex numbers\n2. **Missing solutions**: Check for multiple cases\n3. **Domain restrictions**: Remember $\\ln x$ requires $x > 0$\n4. **Forgetting constants**: +C for indefinite integrals\n5. **Calculator mode**: Ensure radian mode for calculus\n\n### Verification Strategies\n\n- Substitute answer back into original equation\n- Check dimensions/units make sense\n- Use alternative methods when possible\n- Estimate to check magnitude"
+        },
+        {
+          "id": "problem-types",
+          "type": "text",
+          "title": "Common Problem Types",
+          "title_zh": "常见题型",
+          "content": "## Tackling Different Question Types\n\n### 1. \"Show that\" Questions\n- Must arrive at EXACT expression given\n- Start from given information\n- Show every algebraic step\n- Cannot work backwards\n\n### 2. \"Hence\" Questions\n- MUST use the result from previous part\n- Don't start from scratch\n- Often involves substitution or modification\n\n### 3. \"Explain\" Questions\n- Use mathematical terminology\n- Be precise and concise\n- Reference specific conditions/properties\n\n### 4. Application Problems\n- Identify the mathematical model\n- Define variables clearly\n- State assumptions\n- Interpret answer in context\n\n### 5. Proof Questions\n- Mathematical induction structure:\n  1. Base case (usually n = 1)\n  2. Inductive hypothesis (assume true for n = k)\n  3. Inductive step (prove for n = k + 1)\n  4. Conclusion\n\n### Singapore Context Example:\n\n*The population of Singapore grew from 4 million in 2000 to 5.5 million in 2020. Assuming exponential growth, find the population in 2025.*\n\n$P(t) = P_0 e^{kt}$\n$5.5 = 4e^{20k}$\n$k = \\frac{1}{20}\\ln(1.375) = 0.0159$\n$P(25) = 4e^{0.0159 \\times 25} = 5.95$ million"
+        },
+        {
+          "id": "graphing-calculator",
+          "type": "text",
+          "title": "Graphing Calculator Tips",
+          "title_zh": "图形计算器技巧",
+          "content": "## Maximizing Your GC\n\n### Essential Functions\n\n**1. Graphing**\n- Plot functions to visualize\n- Find intersections (2nd CALC)\n- Identify turning points\n- Check asymptotic behavior\n\n**2. Solving Equations**\n- Numerical solver for complex equations\n- System of equations (MATRIX > RREF)\n\n**3. Statistics**\n- 1-Var Stats for mean, standard deviation\n- 2-Var Stats for regression\n- Distribution functions (normalcdf, invNorm)\n\n**4. Integration**\n- fnInt for definite integrals\n- Verify manual calculations\n\n### Distribution Functions on TI-84\n\n**Binomial**:\n- `binompdf(n, p, x)`: P(X = x)\n- `binomcdf(n, p, x)`: P(X ≤ x)\n\n**Poisson**:\n- `poissonpdf(λ, x)`: P(X = x)\n- `poissoncdf(λ, x)`: P(X ≤ x)\n\n**Normal**:\n- `normalcdf(lower, upper, μ, σ)`: P(lower < X < upper)\n- `invNorm(p, μ, σ)`: Find x such that P(X < x) = p\n\n### Important Notes\n- Show working even if you use GC\n- GC answers should verify, not replace working\n- Keep answers in exact form when required\n- Round appropriately (usually 3 s.f. unless specified)"
+        }
+      ],
+      "exercises": []
+    }
+  ],
+  "physics-jc": [
+    {
+      "id": "alevel-physics-paper1-prep",
+      "title": "A-Level H2 Physics Paper 1: Multiple Choice",
+      "title_zh": "A水准H2物理试卷一：选择题",
+      "gradeLevel": "jc2",
+      "tag": "Exam Prep",
+      "tag_zh": "考试准备",
+      "description": "Strategies for tackling H2 Physics Paper 1 Multiple Choice",
+      "description_zh": "应对H2物理试卷一选择题的策略",
+      "objectives": [
+        "Master rapid problem-solving techniques",
+        "Apply elimination strategies effectively",
+        "Recognize common question patterns",
+        "Avoid common MCQ traps"
+      ],
+      "objectives_zh": [
+        "掌握快速解题技巧",
+        "有效应用排除法策略",
+        "识别常见题型模式",
+        "避免常见选择题陷阱"
+      ],
+      "sections": [
+        {
+          "id": "paper1-format",
+          "type": "text",
+          "title": "Paper 1 Format and Strategy",
+          "title_zh": "试卷一格式与策略",
+          "content": "## H2 Physics Paper 1: Multiple Choice\n\n**Duration**: 1 hour 15 minutes\n**Total Marks**: 40 marks (30 questions)\n**Weightage**: 20% of total grade\n\n### Question Distribution by Topic:\n\n- **Measurement**: 1-2 questions\n- **Newtonian Mechanics**: 5-6 questions\n- **Thermal Physics**: 3-4 questions\n- **Oscillations and Waves**: 4-5 questions\n- **Electricity and Magnetism**: 5-6 questions\n- **Modern Physics**: 3-4 questions\n- **Practical Skills**: 2-3 questions\n\n### Time Strategy:\n- Average 2.5 minutes per question\n- First pass: Answer all questions you know (skip hard ones)\n- Second pass: Return to skipped questions\n- Never leave any blank (no negative marking)\n\n### Elimination Strategy:\n1. Read ALL options before deciding\n2. Cross out obviously wrong options\n3. Look for extreme words (always, never, all, none)\n4. Check units and dimensions\n5. Use estimation when exact calculation is difficult"
+        },
+        {
+          "id": "mcq-techniques",
+          "type": "text",
+          "title": "MCQ Solving Techniques",
+          "title_zh": "选择题解题技巧",
+          "content": "## Quick Solving Techniques\n\n### 1. Dimensional Analysis\n\n*Which expression gives the period of a simple pendulum?*\n\n- Check: Period has dimension [T]\n- $\\sqrt{\\frac{l}{g}}$ has dimension $\\sqrt{\\frac{[L]}{[LT^{-2}]}} = \\sqrt{[T^2]} = [T]$ ✓\n\n### 2. Limiting Cases\n\nTest what happens at extreme values:\n- When $x → 0$ or $x → ∞$\n- When angle → 0° or 90°\n- When resistance → 0 or → ∞\n\n### 3. Order of Magnitude\n\nEstimate before calculating:\n- Speed of sound ≈ 340 m/s\n- Gravitational field strength ≈ 10 m/s²\n- Elementary charge ≈ 1.6 × 10⁻¹⁹ C\n- Speed of light ≈ 3 × 10⁸ m/s\n\n### 4. Graph Interpretation\n\n**Gradient** = Physical quantity (e.g., velocity, acceleration)\n**Area under curve** = Physical quantity (e.g., displacement, work done)\n**Intercepts** = Initial or final conditions\n\n### 5. Common Traps\n\n- Confusing scalar and vector quantities\n- Missing negative signs\n- Using wrong formula variant\n- Not converting units (e.g., cm to m)\n- Confusing parallel and series combinations"
+        },
+        {
+          "id": "key-formulas-physics",
+          "type": "text",
+          "title": "Essential Physics Formulas",
+          "title_zh": "物理必备公式",
+          "content": "## Key Formulas for Quick Reference\n\n### Mechanics\n- $v = u + at$, $s = ut + \\frac{1}{2}at^2$, $v^2 = u^2 + 2as$\n- $F = ma$, $W = mg$\n- $p = mv$, $F = \\frac{dp}{dt}$\n- $W = Fd\\cos\\theta$, $P = Fv$\n- $KE = \\frac{1}{2}mv^2$, $PE = mgh$\n- $\\tau = Fr\\sin\\theta$, $\\tau = I\\alpha$\n\n### Waves\n- $v = f\\lambda$\n- $n = \\frac{c}{v} = \\frac{\\sin\\theta_1}{\\sin\\theta_2}$\n- Double slit: $\\lambda = \\frac{ax}{D}$\n- Single slit: $a\\sin\\theta = n\\lambda$\n\n### Electricity\n- $V = IR$, $P = IV = I^2R = \\frac{V^2}{R}$\n- $E = \\frac{V}{d}$, $F = qE$\n- $W = qV$\n- Capacitor: $C = \\frac{Q}{V}$, $E = \\frac{1}{2}CV^2$\n\n### Electromagnetism\n- $F = BIL\\sin\\theta$\n- $F = Bqv\\sin\\theta$\n- $\\epsilon = -\\frac{d\\Phi}{dt}$\n- $\\Phi = BA\\cos\\theta$\n\n### Modern Physics\n- $E = hf = \\frac{hc}{\\lambda}$\n- $E = mc^2$\n- $\\lambda = \\frac{h}{p} = \\frac{h}{mv}$\n- Decay: $N = N_0 e^{-\\lambda t}$, $t_{1/2} = \\frac{\\ln 2}{\\lambda}$"
+        }
+      ],
+      "exercises": []
+    },
+    {
+      "id": "alevel-physics-paper2-prep",
+      "title": "A-Level H2 Physics Paper 2: Structured Questions",
+      "title_zh": "A水准H2物理试卷二：结构题",
+      "gradeLevel": "jc2",
+      "tag": "Exam Prep",
+      "tag_zh": "考试准备",
+      "description": "Master structured question techniques for H2 Physics Paper 2",
+      "description_zh": "掌握H2物理试卷二结构题技巧",
+      "objectives": [
+        "Structure answers clearly and logically",
+        "Show complete working in calculations",
+        "Write effective explanations and definitions",
+        "Tackle data analysis questions confidently"
+      ],
+      "objectives_zh": [
+        "清晰有逻辑地组织答案",
+        "在计算中展示完整过程",
+        "撰写有效的解释和定义",
+        "自信地处理数据分析题"
+      ],
+      "sections": [
+        {
+          "id": "paper2-format",
+          "type": "text",
+          "title": "Paper 2 Format",
+          "title_zh": "试卷二格式",
+          "content": "## H2 Physics Paper 2: Structured Questions\n\n**Duration**: 2 hours\n**Total Marks**: 80 marks\n**Weightage**: 40% of total grade\n\n### Structure:\n- Section A (40 marks): Compulsory short-answer questions\n- Section B (40 marks): Longer structured questions\n\n### Topics Tested:\n\n**Core Topics**:\n1. Measurement\n2. Newtonian Mechanics\n3. Thermal Physics\n4. Oscillations and Waves\n5. Electricity and Magnetism\n6. Modern Physics (Quantum, Nuclear)\n\n### Question Types:\n\n1. **Define/State** (1-2 marks): Give precise definitions\n2. **Explain** (2-4 marks): Describe mechanism or reasoning\n3. **Calculate/Show** (3-5 marks): Numerical problems\n4. **Sketch/Draw** (2-3 marks): Graphs or diagrams\n5. **Discuss** (3-4 marks): Evaluate or compare\n\n### Time Management:\n- 1.5 minutes per mark\n- Read all questions first\n- Allocate time proportionally to marks"
+        },
+        {
+          "id": "answering-techniques",
+          "type": "text",
+          "title": "Answering Techniques",
+          "title_zh": "答题技巧",
+          "content": "## How to Answer Different Question Types\n\n### 1. Definition Questions\n\n**Formula**: Quantity being defined + key relationship + units/conditions\n\n**Example**: *Define electric field strength.*\n\n\"Electric field strength is the force per unit positive charge acting on a small test charge placed at that point.\"\n\n### 2. Explanation Questions\n\n**Structure**: Cause → Effect → Link to question\n\n**Example**: *Explain why the resistance of a metal increases with temperature.*\n\n\"As temperature increases, the amplitude of vibration of metal ions increases. This leads to more frequent collisions between conduction electrons and ions, reducing the drift velocity of electrons. Since current (I = nAvd) decreases for same voltage, resistance (V/I) increases.\"\n\n### 3. Calculation Questions\n\n**Structure**:\n1. State relevant formula\n2. Substitute values with units\n3. Show working\n4. State answer with correct units and s.f.\n\n**Example**:\n\"Using $P = IV$\"\n$P = 3.0 \\times 12$\n$P = 36$ W\n\n### 4. Graph Sketching\n\n- Label axes with quantities and units\n- Show key features (intercepts, gradients, asymptotes)\n- Mark important values\n- Use smooth curves, not point-to-point"
+        },
+        {
+          "id": "common-topics",
+          "type": "text",
+          "title": "High-Yield Topics",
+          "title_zh": "高频考点",
+          "content": "## Frequently Tested Concepts\n\n### 1. Circular Motion and Gravitation\n\n- Centripetal force: $F = \\frac{mv^2}{r} = mr\\omega^2$\n- Orbital mechanics: $\\frac{GMm}{r^2} = \\frac{mv^2}{r}$\n- Gravitational potential: $\\phi = -\\frac{GM}{r}$\n\n### 2. Electric and Magnetic Fields\n\n- Motion in uniform fields\n- Force on moving charges\n- Electromagnetic induction\n- Lenz's law applications\n\n### 3. Waves and Superposition\n\n- Standing waves and harmonics\n- Interference patterns\n- Diffraction gratings\n- Path difference and phase difference\n\n### 4. Quantum Physics\n\n- Photoelectric effect\n- Wave-particle duality\n- Energy levels and transitions\n- de Broglie wavelength\n\n### 5. Nuclear Physics\n\n- Binding energy and mass defect\n- Radioactive decay\n- Half-life calculations\n- Nuclear reactions (fission, fusion)\n\n### Singapore Context:\n\n*Singapore's first satellite, TeLEOS-1, orbits at 550 km above Earth's surface. Calculate:*\n\n*a) Orbital velocity*\n*b) Period of revolution*\n*c) Gravitational field strength at that altitude*"
+        }
+      ],
+      "exercises": []
+    },
+    {
+      "id": "alevel-physics-paper3-prep",
+      "title": "A-Level H2 Physics Paper 3: Long Questions",
+      "title_zh": "A水准H2物理试卷三：长题",
+      "gradeLevel": "jc2",
+      "tag": "Exam Prep",
+      "tag_zh": "考试准备",
+      "description": "Excel in H2 Physics Paper 3 long-form questions and data analysis",
+      "description_zh": "在H2物理试卷三长题和数据分析中取得优异成绩",
+      "objectives": [
+        "Handle extended response questions",
+        "Analyze experimental data accurately",
+        "Plan and evaluate experimental procedures",
+        "Apply physics to real-world contexts"
+      ],
+      "objectives_zh": [
+        "处理扩展回答题",
+        "准确分析实验数据",
+        "规划和评估实验程序",
+        "将物理应用于现实情境"
+      ],
+      "sections": [
+        {
+          "id": "paper3-format",
+          "type": "text",
+          "title": "Paper 3 Format",
+          "title_zh": "试卷三格式",
+          "content": "## H2 Physics Paper 3: Long Questions\n\n**Duration**: 2 hours\n**Total Marks**: 80 marks\n**Weightage**: 40% of total grade\n\n### Structure:\n- Section A (40 marks): Data analysis and planning questions\n- Section B (40 marks): Application and synthesis questions\n\n### Focus Areas:\n\n**1. Planning Experiments**\n- Identify variables (independent, dependent, controlled)\n- Describe procedures\n- Suggest improvements\n- Estimate uncertainties\n\n**2. Data Analysis**\n- Draw and interpret graphs\n- Calculate gradients and intercepts\n- Use log graphs for power laws\n- Propagate uncertainties\n\n**3. Applications**\n- Real-world physics scenarios\n- Extended problem solving\n- Cross-topic questions\n\n### Answering Extended Questions:\n\n1. Read the entire question first\n2. Plan your answer structure\n3. Use diagrams where helpful\n4. Link all parts coherently\n5. Check calculations at the end"
+        },
+        {
+          "id": "data-analysis",
+          "type": "text",
+          "title": "Data Analysis Skills",
+          "title_zh": "数据分析技能",
+          "content": "## Handling Experimental Data\n\n### Graph Drawing\n\n**Requirements**:\n- Title describing the relationship\n- Labeled axes with units\n- Appropriate scale (use >50% of graph paper)\n- Best-fit line (not dot-to-dot)\n- Show anomalous points (don't ignore them)\n\n### Finding Relationships\n\n**Linear relationship**: $y = mx + c$\n- Plot directly, gradient = m, intercept = c\n\n**Power law**: $y = kx^n$\n- Plot $\\log y$ vs $\\log x$\n- Gradient = n, intercept = $\\log k$\n\n**Exponential**: $y = y_0 e^{kx}$\n- Plot $\\ln y$ vs x\n- Gradient = k, intercept = $\\ln y_0$\n\n### Uncertainty Calculations\n\n**Addition/Subtraction**: Add absolute uncertainties\n$\\Delta(A + B) = \\Delta A + \\Delta B$\n\n**Multiplication/Division**: Add percentage uncertainties\n$\\frac{\\Delta(AB)}{AB} = \\frac{\\Delta A}{A} + \\frac{\\Delta B}{B}$\n\n**Powers**: Multiply percentage uncertainty by power\n$\\frac{\\Delta(A^n)}{A^n} = n \\times \\frac{\\Delta A}{A}$\n\n### Example:\n*Period of pendulum: $T = 2\\pi\\sqrt{\\frac{l}{g}}$*\n*If l = 0.800 ± 0.002 m and T = 1.79 ± 0.01 s*\n*Find g and its uncertainty.*"
+        },
+        {
+          "id": "planning-experiments",
+          "type": "text",
+          "title": "Planning Experiments",
+          "title_zh": "规划实验",
+          "content": "## Experimental Planning\n\n### Structure Your Plan:\n\n**1. Aim**: What relationship are you investigating?\n\n**2. Variables**:\n- Independent: What you change\n- Dependent: What you measure\n- Controlled: What you keep constant\n\n**3. Apparatus**: List all equipment needed\n\n**4. Procedure**: Step-by-step method\n\n**5. Measurements**: How to take readings\n\n**6. Analysis**: How to process data (graphs, calculations)\n\n**7. Safety**: Relevant precautions\n\n### Improving Experiments\n\n**To improve accuracy**:\n- Use more precise instruments\n- Take more readings and average\n- Use larger values (e.g., more oscillations)\n- Reduce systematic errors\n\n**To improve reliability**:\n- Repeat measurements\n- Control variables better\n- Use appropriate techniques\n\n### Common Experimental Techniques\n\n**Timing oscillations**:\n- Time 10+ complete oscillations\n- Use fiducial marker\n- Start timing from extreme position\n\n**Measuring small distances**:\n- Use travelling microscope\n- Use diffraction patterns\n\n**Measuring temperature changes**:\n- Use data logger for continuous monitoring\n- Insulate to reduce heat loss"
+        }
+      ],
+      "exercises": []
+    }
+  ],
+  "chemistry-jc": [
+    {
+      "id": "alevel-chemistry-paper1-prep",
+      "title": "A-Level H2 Chemistry Paper 1: Multiple Choice",
+      "title_zh": "A水准H2化学试卷一：选择题",
+      "gradeLevel": "jc2",
+      "tag": "Exam Prep",
+      "tag_zh": "考试准备",
+      "description": "Strategies for tackling H2 Chemistry Paper 1 Multiple Choice",
+      "description_zh": "应对H2化学试卷一选择题的策略",
+      "objectives": [
+        "Apply quick calculation methods for chemistry",
+        "Master common MCQ question patterns",
+        "Develop efficient elimination strategies",
+        "Avoid common chemistry misconceptions"
+      ],
+      "objectives_zh": [
+        "应用化学快速计算方法",
+        "掌握常见选择题题型",
+        "培养高效排除法策略",
+        "避免常见化学误解"
+      ],
+      "sections": [
+        {
+          "id": "paper1-overview",
+          "type": "text",
+          "title": "Paper 1 Format and Strategy",
+          "title_zh": "试卷一格式与策略",
+          "content": "## H2 Chemistry Paper 1: Multiple Choice\n\n**Duration**: 1 hour\n**Total Marks**: 30 marks (30 questions)\n**Weightage**: 15% of total grade\n\n### Question Distribution:\n\n**Physical Chemistry** (~10 questions)\n- Atomic structure\n- Chemical bonding\n- The mole concept\n- Thermodynamics\n- Kinetics\n- Equilibria\n- Electrochemistry\n\n**Inorganic Chemistry** (~8 questions)\n- Periodic Table\n- Groups II and VII\n- Transition elements\n\n**Organic Chemistry** (~12 questions)\n- Nomenclature and isomerism\n- Reaction mechanisms\n- Organic synthesis\n- Instrumental techniques\n\n### Time Strategy:\n- 2 minutes per question maximum\n- First pass: 20 minutes for confident answers\n- Second pass: 15 minutes for harder questions\n- Review: 5 minutes\n\n### Key Success Factors:\n- Strong conceptual understanding\n- Quick mental calculations\n- Pattern recognition\n- Systematic elimination"
+        },
+        {
+          "id": "quick-calculations",
+          "type": "text",
+          "title": "Quick Calculation Techniques",
+          "title_zh": "快速计算技巧",
+          "content": "## Essential Quick Calculations\n\n### Mole Calculations\n\n**Shortcuts**:\n- 24 dm³ = 1 mole gas at r.t.p.\n- Concentration × Volume (dm³) = moles\n- Mass ÷ Molar mass = moles\n\n### Oxidation States\n\n**Quick Rules**:\n- Elements: 0\n- Monatomic ions: Ion charge\n- H: +1 (except metal hydrides: -1)\n- O: -2 (except peroxides: -1)\n- Sum = overall charge\n\n### Percentage Calculations\n\n**Yield**: $\\frac{\\text{actual}}{\\text{theoretical}} \\times 100\\%$\n\n**Atom economy**: $\\frac{M_r \\text{ of desired product}}{\\sum M_r \\text{ of all products}} \\times 100\\%$\n\n### Balancing Equations\n\n**Half-equation method**:\n1. Identify what's oxidized and reduced\n2. Balance atoms (add H₂O for O, H⁺ for H)\n3. Balance charges with electrons\n4. Combine half-equations\n\n### Rate Calculations\n\n**First order**: $t_{1/2}$ is constant\n**Second order**: $t_{1/2} \\propto \\frac{1}{[A]_0}$\n\n### Equilibrium Calculations\n\nICE table approach:\n- Initial, Change, Equilibrium\n- Use stoichiometry for changes"
+        },
+        {
+          "id": "common-patterns",
+          "type": "text",
+          "title": "Common Question Patterns",
+          "title_zh": "常见题型模式",
+          "content": "## Recognizing Question Patterns\n\n### Pattern 1: Structure and Bonding\n\n*Which has the highest boiling point?*\n- Consider: Ionic > Covalent with H-bonding > Polar > Non-polar\n- Van der Waals: ↑ molecular size = ↑ bp\n\n### Pattern 2: Reaction Prediction\n\n*What is the product when X reacts with Y?*\n- Identify functional groups\n- Recall typical reactions\n- Consider reaction conditions\n\n### Pattern 3: Data Interpretation\n\n*Given energy diagram/graph, deduce...*\n- Read axes carefully\n- Identify key features (peaks, gradients)\n- Apply relevant concepts\n\n### Pattern 4: Isomerism\n\n*How many structural isomers exist?*\n- Systematic approach: vary chain length first\n- Then functional group position\n- Check for duplicates\n\n### Pattern 5: Mechanism\n\n*Which intermediate is formed?*\n- Know common intermediates (carbocation, carbanion, radical)\n- Consider stability factors\n- Check for rearrangements\n\n### Common Traps:\n- Ignoring state symbols\n- Forgetting lone pairs in structures\n- Confusing Ka and Kb expressions\n- Misidentifying chiral centres\n- Overlooking resonance structures"
+        }
+      ],
+      "exercises": []
+    },
+    {
+      "id": "alevel-chemistry-paper2-prep",
+      "title": "A-Level H2 Chemistry Paper 2: Structured Questions",
+      "title_zh": "A水准H2化学试卷二：结构题",
+      "gradeLevel": "jc2",
+      "tag": "Exam Prep",
+      "tag_zh": "考试准备",
+      "description": "Master structured questions for H2 Chemistry Paper 2",
+      "description_zh": "掌握H2化学试卷二结构题",
+      "objectives": [
+        "Write clear and accurate chemical explanations",
+        "Draw mechanisms with correct arrow conventions",
+        "Perform multi-step calculations accurately",
+        "Structure extended answers effectively"
+      ],
+      "objectives_zh": [
+        "撰写清晰准确的化学解释",
+        "用正确的箭头规范画机理",
+        "准确进行多步计算",
+        "有效组织扩展答案"
+      ],
+      "sections": [
+        {
+          "id": "paper2-format",
+          "type": "text",
+          "title": "Paper 2 Format",
+          "title_zh": "试卷二格式",
+          "content": "## H2 Chemistry Paper 2: Structured Questions\n\n**Duration**: 2 hours\n**Total Marks**: 75 marks\n**Weightage**: 30% of total grade\n\n### Structure:\n- Compulsory structured questions\n- Covers all three sections: Physical, Inorganic, Organic\n- Questions increase in difficulty\n\n### Mark Allocation:\n- 1 mark: Single fact or simple statement\n- 2 marks: Explanation with reasoning\n- 3-4 marks: Extended response or calculation\n- 5+ marks: Multi-part question\n\n### Common Question Types:\n\n1. **Define/State**: Precise definitions\n2. **Explain**: Reasoning with examples\n3. **Calculate**: Show full working\n4. **Draw**: Structures, mechanisms, graphs\n5. **Suggest**: Apply knowledge to new situations\n6. **Compare**: Similarities and differences\n7. **Predict**: Based on patterns and trends\n\n### Time Management:\n- 1.6 minutes per mark\n- Answer in order (usually designed to help)\n- Allocate time proportionally to marks"
+        },
+        {
+          "id": "mechanism-drawing",
+          "type": "text",
+          "title": "Drawing Mechanisms",
+          "title_zh": "画机理",
+          "content": "## Mechanism Drawing Guidelines\n\n### Arrow Conventions:\n\n- **Full arrow** (⟶): Two electrons moving\n- **Half arrow** (↷): One electron moving (radicals)\n- Arrow starts from electrons/bond\n- Arrow points to where electrons go\n\n### Nucleophilic Substitution (SN1 and SN2)\n\n**SN2**: One-step, concerted\n- Arrow from nucleophile to C\n- Arrow from C-X bond to X (leaving group)\n- Inversion of configuration\n\n**SN1**: Two-step via carbocation\n- Step 1: C-X bond breaks → carbocation + X⁻\n- Step 2: Nucleophile attacks carbocation\n- Racemisation occurs\n\n### Electrophilic Addition (Alkenes)\n\n1. π electrons attack electrophile\n2. Carbocation intermediate forms\n3. Nucleophile attacks carbocation\n\n### Electrophilic Aromatic Substitution\n\n1. π electrons attack electrophile → σ complex\n2. Base removes H⁺ → restore aromaticity\n\n### Common Mistakes:\n- Arrow direction wrong\n- Missing lone pairs\n- Incorrect intermediate charges\n- Forgetting to show stereochemistry\n- Not using curly arrows (straight lines incorrect)"
+        },
+        {
+          "id": "extended-answers",
+          "type": "text",
+          "title": "Writing Extended Answers",
+          "title_zh": "撰写扩展答案",
+          "content": "## Effective Extended Responses\n\n### Explaining Trends\n\n**Structure**:\n1. State the trend\n2. Identify the relevant factor\n3. Explain the mechanism\n4. Link to the observation\n\n**Example**: *Explain why boiling points increase down Group VII.*\n\n\"Going down Group VII, atomic radius increases [factor]. This leads to more electrons and a larger electron cloud [mechanism]. Therefore, van der Waals forces (instantaneous dipole-induced dipole attractions) become stronger [link]. More energy is required to overcome these forces, so boiling points increase [observation].\"\n\n### Comparing Substances\n\n**Structure**:\n- Address each comparison point\n- Use comparative language (higher, stronger, more)\n- Provide reasons for each difference\n\n### Describing Reactions\n\n**Include**:\n- Reagents and conditions\n- Type of reaction\n- Observations\n- Products formed\n- Balanced equation\n\n### Calculation Responses\n\n**Structure**:\n1. State the relevant formula/relationship\n2. Show substitution of values with units\n3. Calculate intermediate steps if needed\n4. State final answer with correct units and s.f.\n\n### Key Phrases to Use:\n- \"This is because...\"\n- \"As a result of...\"\n- \"This leads to...\"\n- \"In contrast to...\"\n- \"Consequently...\""
+        }
+      ],
+      "exercises": []
+    },
+    {
+      "id": "alevel-chemistry-paper3-prep",
+      "title": "A-Level H2 Chemistry Paper 3: Free Response",
+      "title_zh": "A水准H2化学试卷三：自由回答",
+      "gradeLevel": "jc2",
+      "tag": "Exam Prep",
+      "tag_zh": "考试准备",
+      "description": "Excel in H2 Chemistry Paper 3 data analysis and synthesis questions",
+      "description_zh": "在H2化学试卷三数据分析和综合题中取得优异成绩",
+      "objectives": [
+        "Analyze experimental data accurately",
+        "Plan and evaluate chemical experiments",
+        "Synthesize knowledge across topics",
+        "Apply chemistry to novel contexts"
+      ],
+      "objectives_zh": [
+        "准确分析实验数据",
+        "规划和评估化学实验",
+        "综合各课题知识",
+        "将化学应用于新情境"
+      ],
+      "sections": [
+        {
+          "id": "paper3-format",
+          "type": "text",
+          "title": "Paper 3 Format",
+          "title_zh": "试卷三格式",
+          "content": "## H2 Chemistry Paper 3: Free Response\n\n**Duration**: 2 hours\n**Total Marks**: 80 marks\n**Weightage**: 40% of total grade\n\n### Structure:\n\n**Section A** (60 marks):\n- 4-5 compulsory structured questions\n- Emphasis on Physical and Inorganic Chemistry\n- Data analysis and experimental questions\n\n**Section B** (20 marks):\n- Choose 1 from 2 questions\n- Often organic synthesis or application\n- Extended response format\n\n### Focus Areas:\n\n1. **Data Analysis**\n- Interpret graphs and tables\n- Calculate quantities from data\n- Draw conclusions from results\n\n2. **Experimental Planning**\n- Design procedures\n- Identify sources of error\n- Suggest improvements\n\n3. **Organic Synthesis**\n- Multi-step synthesis\n- Reaction pathway planning\n- Stereochemical considerations\n\n4. **Applications**\n- Industrial processes\n- Environmental chemistry\n- Biochemistry connections"
+        },
+        {
+          "id": "organic-synthesis",
+          "type": "text",
+          "title": "Organic Synthesis Strategies",
+          "title_zh": "有机合成策略",
+          "content": "## Multi-Step Organic Synthesis\n\n### Retrosynthetic Analysis\n\n**Approach**: Work backwards from product\n1. Identify functional groups in target\n2. Determine what could form them\n3. Continue until reaching starting material\n4. Reverse the analysis for forward synthesis\n\n### Common Transformations:\n\n**Building Carbon Chains**:\n- Grignard reactions: R-MgBr + carbonyl → alcohol\n- Friedel-Crafts alkylation\n- Nucleophilic addition to nitriles\n\n**Functional Group Interconversions**:\n```\nAlkene ← Alcohol → Aldehyde → Carboxylic acid\n  ↓         ↓         ↓\nHaloalkane  Ketone    Ester\n```\n\n### Key Reagents and Conditions:\n\n| Transformation | Reagent/Condition |\n|---------------|-------------------|\n| Alcohol → Aldehyde | PCC or K₂Cr₂O₇/H⁺ (distill) |\n| Alcohol → Ketone | K₂Cr₂O₇/H⁺ (heat) |\n| Aldehyde → Carboxylic acid | K₂Cr₂O₇/H⁺ (heat) |\n| Alkene → Alcohol | H₂O/H⁺ or steam |\n| Carboxylic acid → Ester | Alcohol + conc H₂SO₄ |\n| Ester → Alcohol | LiAlH₄ or NaBH₄ |\n\n### Synthesis Planning Tips:\n- Consider stereochemistry requirements\n- Protect sensitive functional groups\n- Choose economical routes\n- Consider atom economy and yield"
+        },
+        {
+          "id": "data-interpretation",
+          "type": "text",
+          "title": "Data Interpretation",
+          "title_zh": "数据解释",
+          "content": "## Analyzing Chemical Data\n\n### Spectroscopy Interpretation\n\n**IR Spectroscopy**:\n| Peak (cm⁻¹) | Bond |\n|-------------|------|\n| 3200-3600 | O-H, N-H (broad for H-bonding) |\n| 2850-3000 | C-H |\n| 1650-1750 | C=O |\n| 1600-1680 | C=C |\n\n**Mass Spectrometry**:\n- M⁺ peak = molecular mass\n- Common losses: 15 (CH₃), 29 (CHO), 45 (OC₂H₅)\n- Isotope patterns: Cl (3:1), Br (1:1)\n\n**NMR Spectroscopy** (¹H NMR):\n- Chemical shift indicates environment\n- Integration shows H ratio\n- Splitting pattern (n+1 rule)\n\n### Rate Data Analysis\n\n**Initial rates method**:\n- Compare experiments with one variable changed\n- Determine order with respect to each reactant\n\n**Graphical methods**:\n- Zero order: [A] vs t is linear\n- First order: ln[A] vs t is linear\n- Second order: 1/[A] vs t is linear\n\n### Equilibrium Data\n\n- Calculate Kc or Kp from concentrations/pressures\n- Use ICE tables for changes\n- Apply Le Chatelier's principle for predictions\n\n### Singapore Example:\n*The Jurong Island petrochemical complex produces ethene for polyethylene synthesis. Given production data and yield curves, calculate optimal conditions for maximum output.*"
+        }
+      ],
+      "exercises": []
+    }
+  ]
+}
