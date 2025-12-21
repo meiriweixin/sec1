@@ -1,0 +1,1385 @@
+{
+  "subjects": [
+    {
+      "id": "humanities",
+      "title": "Humanities",
+      "title_zh": "人文",
+      "description": "History and Geography for Secondary 1",
+      "description_zh": "中一历史与地理",
+      "color": "from-amber-500 to-orange-600",
+      "chapters": [
+        {
+          "id": "understanding-history",
+          "title": "Understanding History",
+          "title_zh": "理解历史",
+          "gradeLevel": "sec1",
+          "tag": "History",
+          "tag_zh": "历史",
+          "description": "What is history and how do historians work?",
+          "description_zh": "什么是历史？历史学家如何工作？",
+          "objectives": [
+            "Understand what history is and why it matters",
+            "Learn about historical sources and evidence",
+            "Develop skills in analyzing historical perspectives"
+          ],
+          "objectives_zh": [
+            "理解什么是历史及其重要性",
+            "学习历史资料和证据",
+            "培养分析历史观点的技能"
+          ],
+          "sections": [
+            {
+              "id": "what-is-history",
+              "type": "text",
+              "title": "What is History?",
+              "title_zh": "什么是历史？",
+              "content": "**What is History?**\n\nHistory is the study of the past. It helps us understand how people lived, what they believed, and how societies changed over time.\n\n**Why Study History?**\n\n1. **Learn from the past**: Understanding past mistakes helps us make better decisions today\n2. **Understand the present**: Many current issues have historical roots\n3. **Preserve our heritage**: History keeps our cultural identity alive\n4. **Develop critical thinking**: Analyzing historical evidence teaches us to question and evaluate information\n\n**Example: Singapore's History**\n\nSingapore's transformation from a small fishing village to a modern global city took only 200 years. By studying this journey, we understand:\n- How our ancestors overcame challenges\n- Why certain policies were adopted\n- How different communities contributed to nation-building\n\n**Key Terms:**\n- **Primary source**: Original evidence from the time period (letters, artifacts, photos)\n- **Secondary source**: Analysis written later by historians (textbooks, documentaries)\n- **Perspective**: Different viewpoints on the same historical event",
+              "content_zh": "**什么是历史？**\n\n历史是对过去的研究。它帮助我们了解人们如何生活、他们的信仰以及社会如何随时间变化。\n\n**为什么学习历史？**\n\n1. **从过去学习**：理解过去的错误帮助我们今天做出更好的决策\n2. **理解现在**：许多当前问题都有历史根源\n3. **保护我们的遗产**：历史保持我们的文化认同\n4. **培养批判性思维**：分析历史证据教会我们质疑和评估信息\n\n**例子：新加坡的历史**\n\n新加坡从一个小渔村转变为现代化全球城市仅用了200年。通过研究这段旅程，我们理解：\n- 我们的祖先如何克服挑战\n- 为什么采取某些政策\n- 不同社区如何为建国做出贡献\n\n**关键术语：**\n- **第一手资料**：来自该时期的原始证据（信件、文物、照片）\n- **第二手资料**：历史学家后来撰写的分析（教科书、纪录片）\n- **观点**：对同一历史事件的不同看法"
+            },
+            {
+              "id": "historical-sources",
+              "type": "text",
+              "title": "Historical Sources and Evidence",
+              "title_zh": "历史资料和证据",
+              "content": "**Types of Historical Sources**\n\n**Primary Sources** (First-hand evidence):\n- **Written records**: Diaries, letters, official documents, newspapers\n- **Visual sources**: Photographs, paintings, posters, maps\n- **Physical artifacts**: Tools, pottery, buildings, coins\n- **Oral testimony**: Interviews with people who experienced events\n\n**Secondary Sources** (Second-hand analysis):\n- History textbooks\n- Documentary films\n- Biographies written by historians\n- Museum exhibitions\n\n**Evaluating Sources**\n\nWhen analyzing historical sources, ask:\n\n1. **Who created it?** (Author's background and bias)\n2. **When was it created?** (Time period and context)\n3. **Why was it created?** (Purpose: inform, persuade, entertain?)\n4. **Is it reliable?** (Cross-check with other sources)\n\n**Example: Raffles' Founding of Singapore**\n\nDifferent sources tell different stories:\n- **British records** emphasize Raffles' vision and leadership\n- **Malay chronicles** highlight the Sultan's role and local context\n- **Chinese accounts** focus on immigrant experiences\n\nHistorians must consider ALL perspectives to get the complete picture.\n\n**Singapore Example: Oral History Centre**\n\nThe National Archives of Singapore has recorded over 4,000 oral history interviews. These first-hand accounts from pioneers, war survivors, and everyday Singaporeans provide invaluable insights into our nation's development.",
+              "content_zh": "**历史资料的类型**\n\n**第一手资料**（直接证据）：\n- **书面记录**：日记、信件、官方文件、报纸\n- **视觉资料**：照片、绘画、海报、地图\n- **实物文物**：工具、陶器、建筑物、硬币\n- **口述证词**：对经历事件的人的采访\n\n**第二手资料**（间接分析）：\n- 历史教科书\n- 纪录片\n- 历史学家撰写的传记\n- 博物馆展览\n\n**评估资料**\n\n分析历史资料时，要问：\n\n1. **谁创建的？**（作者的背景和偏见）\n2. **何时创建？**（时期和背景）\n3. **为何创建？**（目的：告知、说服、娱乐？）\n4. **可靠吗？**（与其他资料交叉核对）\n\n**例子：莱佛士建立新加坡**\n\n不同资料讲述不同故事：\n- **英国记录**强调莱佛士的远见和领导力\n- **马来编年史**突出苏丹的角色和当地背景\n- **中国记录**关注移民经历\n\n历史学家必须考虑所有观点才能得到完整的画面。\n\n**新加坡例子：口述历史中心**\n\n新加坡国家档案馆已记录超过4,000个口述历史访谈。这些来自先驱者、战争幸存者和普通新加坡人的第一手资料为我们国家的发展提供了宝贵的见解。"
+            },
+            {
+              "id": "multiple-perspectives",
+              "type": "text",
+              "title": "Multiple Perspectives in History",
+              "title_zh": "历史中的多重观点",
+              "content": "**Why Different Perspectives Matter**\n\nThe same historical event can be viewed differently depending on:\n- **Nationality**: British vs. local perspectives on colonialism\n- **Social class**: Elite vs. common people's experiences\n- **Gender**: Men's vs. women's roles in society\n- **Time period**: How views change over generations\n\n**Example: Japanese Occupation of Singapore (1942-1945)**\n\n**Perspective 1: British Military**\n- Focus on military defeat and strategic failures\n- Emphasis on eventually reclaiming the colony\n\n**Perspective 2: Local Chinese Community**\n- Experienced Sook Ching massacre and persecution\n- Remembers suffering and resistance efforts\n\n**Perspective 3: Local Malay Community**\n- Different treatment under Japanese rule\n- Some administrative cooperation\n\n**Perspective 4: Local Indian Community**\n- Indian National Army formation\n- Complex feelings about Japanese promises of Indian independence\n\n**Learning from Multiple Perspectives**\n\nUnderstanding different viewpoints helps us:\n1. Develop empathy and tolerance\n2. Avoid oversimplified narratives\n3. Make balanced judgments\n4. Appreciate Singapore's multicultural society\n\n**Activity: Fort Canning Excavations**\n\nArchaeological digs at Fort Canning Hill have uncovered:\n- 14th-century Majapahit artifacts (pre-colonial Singapore)\n- British colonial-era structures\n- Japanese military fortifications\n\nEach layer tells a different story of Singapore's past, showing how our island has been home to many cultures throughout history.",
+              "content_zh": "**为什么不同观点很重要**\n\n同一历史事件可以根据以下因素有不同看法：\n- **国籍**：英国vs.当地对殖民主义的看法\n- **社会阶层**：精英vs.普通人的经历\n- **性别**：男性vs.女性在社会中的角色\n- **时期**：观点如何随代际变化\n\n**例子：日本占领新加坡（1942-1945）**\n\n**观点1：英国军方**\n- 关注军事失败和战略失误\n- 强调最终收复殖民地\n\n**观点2：本地华人社区**\n- 经历了肃清大屠杀和迫害\n- 记住苦难和抵抗努力\n\n**观点3：本地马来社区**\n- 在日本统治下受到不同对待\n- 一些行政合作\n\n**观点4：本地印度社区**\n- 印度国民军的成立\n- 对日本承诺印度独立的复杂感受\n\n**从多重观点学习**\n\n理解不同观点帮助我们：\n1. 培养同理心和宽容\n2. 避免过于简化的叙述\n3. 做出平衡的判断\n4. 欣赏新加坡的多元文化社会\n\n**活动：福康宁山发掘**\n\n福康宁山的考古挖掘发现了：\n- 14世纪满者伯夷文物（殖民前新加坡）\n- 英国殖民时期建筑\n- 日本军事工事\n\n每一层都讲述了新加坡过去的不同故事，展示了我们的岛屿在历史上如何成为许多文化的家园。"
+            }
+          ],
+          "exercises": [
+            {
+              "id": "hist1-ex1",
+              "type": "mcq",
+              "difficulty": "easy",
+              "prompt": "What is history?",
+              "prompt_zh": "什么是历史？",
+              "choices": [
+                "The study of the past",
+                "The study of mathematics",
+                "The study of languages",
+                "The study of future predictions"
+              ],
+              "choices_zh": [
+                "对过去的研究",
+                "对数学的研究",
+                "对语言的研究",
+                "对未来预测的研究"
+              ],
+              "answer": 0,
+              "explanation": "History is the study of the past, helping us understand how people lived, what they believed, and how societies changed over time.",
+              "explanation_zh": "历史是对过去的研究，帮助我们了解人们如何生活、他们的信仰以及社会如何随时间变化。"
+            },
+            {
+              "id": "hist1-ex2",
+              "type": "mcq",
+              "difficulty": "easy",
+              "prompt": "Which of the following is a PRIMARY source?",
+              "prompt_zh": "以下哪项是第一手资料？",
+              "choices": [
+                "A diary written during World War II",
+                "A history textbook about World War II",
+                "A documentary film about World War II",
+                "A museum exhibition about World War II"
+              ],
+              "choices_zh": [
+                "二战期间写的日记",
+                "关于二战的历史教科书",
+                "关于二战的纪录片",
+                "关于二战的博物馆展览"
+              ],
+              "answer": 0,
+              "explanation": "A diary written during World War II is a primary source because it was created at the time by someone who experienced the events first-hand.",
+              "explanation_zh": "二战期间写的日记是第一手资料，因为它是由经历事件的人在当时创建的。"
+            },
+            {
+              "id": "hist1-ex3",
+              "type": "mcq",
+              "difficulty": "medium",
+              "prompt": "Why do historians study multiple perspectives of the same historical event?",
+              "prompt_zh": "为什么历史学家要研究同一历史事件的多种观点？",
+              "choices": [
+                "To get a more complete and balanced understanding",
+                "Because they cannot find enough sources",
+                "To make history more complicated",
+                "To prove one side is always wrong"
+              ],
+              "choices_zh": [
+                "为了获得更完整和平衡的理解",
+                "因为他们找不到足够的资料",
+                "为了让历史更复杂",
+                "为了证明一方总是错的"
+              ],
+              "answer": 0,
+              "explanation": "Historians study multiple perspectives to avoid oversimplified narratives and gain a complete, balanced understanding of historical events.",
+              "explanation_zh": "历史学家研究多种观点以避免过于简化的叙述，并获得对历史事件的完整、平衡的理解。"
+            },
+            {
+              "id": "hist1-ex4",
+              "type": "short",
+              "difficulty": "medium",
+              "prompt": "What is the difference between a primary source and a secondary source?",
+              "prompt_zh": "第一手资料和第二手资料有什么区别？",
+              "answer": "Primary sources are original evidence from the time period, while secondary sources are analyses written later by historians",
+              "answer_zh": "第一手资料是来自该时期的原始证据，而第二手资料是历史学家后来撰写的分析",
+              "validator": "smart",
+              "explanation": "Primary sources (letters, artifacts, photos) are first-hand evidence, while secondary sources (textbooks, documentaries) are interpretations created after the fact.",
+              "explanation_zh": "第一手资料（信件、文物、照片）是直接证据，而第二手资料（教科书、纪录片）是事后创建的解释。"
+            },
+            {
+              "id": "hist1-ex5",
+              "type": "mcq",
+              "difficulty": "hard",
+              "prompt": "During the Japanese Occupation of Singapore (1942-1945), different communities had different experiences. Why is it important to understand ALL these perspectives?",
+              "prompt_zh": "在日本占领新加坡期间（1942-1945），不同社区有不同的经历。为什么理解所有这些观点很重要？",
+              "choices": [
+                "It helps us develop empathy and appreciate Singapore's multicultural society",
+                "It makes the story longer and more interesting",
+                "It proves one community suffered more than others",
+                "It is required by the textbook"
+              ],
+              "choices_zh": [
+                "它帮助我们培养同理心并欣赏新加坡的多元文化社会",
+                "它使故事更长更有趣",
+                "它证明一个社区比其他社区受苦更多",
+                "这是教科书的要求"
+              ],
+              "answer": 0,
+              "explanation": "Understanding multiple perspectives helps us develop empathy, make balanced judgments, and appreciate Singapore's diverse multicultural heritage.",
+              "explanation_zh": "理解多种观点帮助我们培养同理心，做出平衡的判断，并欣赏新加坡多元的多元文化遗产。"
+            },
+            {
+              "id": "hist1-ex6",
+              "type": "mcq",
+              "difficulty": "easy",
+              "prompt": "What does the Singapore Oral History Centre collect?",
+              "prompt_zh": "新加坡口述历史中心收集什么？",
+              "choices": [
+                "First-hand accounts from Singaporeans",
+                "Ancient artifacts",
+                "Old buildings",
+                "Foreign documents"
+              ],
+              "choices_zh": [
+                "新加坡人的第一手资料",
+                "古代文物",
+                "旧建筑",
+                "外国文件"
+              ],
+              "answer": 0,
+              "explanation": "The Oral History Centre has recorded over 4,000 interviews with pioneers, war survivors, and everyday Singaporeans.",
+              "explanation_zh": "口述历史中心已记录超过4,000个与先驱者、战争幸存者和普通新加坡人的访谈。"
+            },
+            {
+              "id": "hist1-ex7",
+              "type": "short",
+              "difficulty": "medium",
+              "prompt": "Give an example of how studying history helps us make better decisions today.",
+              "prompt_zh": "举例说明学习历史如何帮助我们今天做出更好的决策。",
+              "answer": "Learning from past mistakes",
+              "answer_zh": "从过去的错误中学习",
+              "validator": "smart",
+              "explanation": "By understanding past mistakes and successes, we can make more informed decisions and avoid repeating errors.",
+              "explanation_zh": "通过理解过去的错误和成功，我们可以做出更明智的决策并避免重复错误。"
+            },
+            {
+              "id": "hist1-ex8",
+              "type": "mcq",
+              "difficulty": "medium",
+              "prompt": "When evaluating a historical source, which question should you ask?",
+              "prompt_zh": "评估历史资料时，你应该问哪个问题？",
+              "choices": [
+                "All of the above",
+                "Who created it?",
+                "When was it created?",
+                "Why was it created?"
+              ],
+              "choices_zh": [
+                "以上所有",
+                "谁创建的？",
+                "何时创建？",
+                "为何创建？"
+              ],
+              "answer": 0,
+              "explanation": "When evaluating sources, historians ask: who, when, why, and whether it is reliable by cross-checking with other sources.",
+              "explanation_zh": "评估资料时，历史学家会问：谁、何时、为何，以及通过与其他资料交叉核对是否可靠。"
+            },
+            {
+              "id": "hist1-ex9",
+              "type": "mcq",
+              "difficulty": "hard",
+              "prompt": "Different accounts of Raffles' founding of Singapore emphasize different aspects. Which is the BEST approach for historians?",
+              "prompt_zh": "关于莱佛士建立新加坡的不同记载强调不同方面。哪种是历史学家的最佳方法？",
+              "choices": [
+                "Consider all perspectives to get the complete picture",
+                "Only trust British records",
+                "Only trust local chronicles",
+                "Ignore contradictory accounts"
+              ],
+              "choices_zh": [
+                "考虑所有观点以获得完整画面",
+                "只信任英国记录",
+                "只信任当地编年史",
+                "忽略矛盾的记载"
+              ],
+              "answer": 0,
+              "explanation": "Historians must consider all perspectives (British, Malay, Chinese accounts) to understand the full story of Singapore's founding.",
+              "explanation_zh": "历史学家必须考虑所有观点（英国、马来、中国记载）以理解新加坡建国的完整故事。"
+            },
+            {
+              "id": "hist1-ex10",
+              "type": "short",
+              "difficulty": "easy",
+              "prompt": "Name one type of visual historical source.",
+              "prompt_zh": "说出一种视觉历史资料。",
+              "answer": "photograph",
+              "answer_zh": "照片",
+              "validator": "smart",
+              "explanation": "Visual sources include photographs, paintings, posters, and maps that provide evidence about the past.",
+              "explanation_zh": "视觉资料包括照片、绘画、海报和地图，它们提供关于过去的证据。"
+            },
+            {
+              "id": "hist1-ex11",
+              "type": "drag-order",
+              "difficulty": "medium",
+              "prompt": "Arrange the steps for analyzing a historical source in order:",
+              "prompt_zh": "按顺序排列分析历史资料的步骤：",
+              "items": [
+                "Who created it?",
+                "When was it created?",
+                "Why was it created?",
+                "Is it reliable?"
+              ],
+              "items_zh": [
+                "谁创建的？",
+                "何时创建？",
+                "为何创建？",
+                "可靠吗？"
+              ],
+              "answer": [
+                "Who created it?",
+                "When was it created?",
+                "Why was it created?",
+                "Is it reliable?"
+              ],
+              "explanation": "When analyzing sources, historians first identify who and when, then understand why it was created, and finally evaluate its reliability.",
+              "explanation_zh": "分析资料时，历史学家首先确定谁和何时，然后理解为何创建，最后评估其可靠性。"
+            },
+            {
+              "id": "hist1-ex12",
+              "type": "mcq",
+              "difficulty": "medium",
+              "prompt": "Fort Canning archaeological excavations found artifacts from different time periods. What does this show?",
+              "prompt_zh": "福康宁考古挖掘发现了不同时期的文物。这说明什么？",
+              "choices": [
+                "Singapore has been home to many cultures throughout history",
+                "The site was only used during colonial times",
+                "Ancient artifacts are not valuable",
+                "Only British artifacts are found there"
+              ],
+              "choices_zh": [
+                "新加坡在历史上一直是许多文化的家园",
+                "该遗址仅在殖民时期使用",
+                "古代文物没有价值",
+                "那里只发现英国文物"
+              ],
+              "answer": 0,
+              "explanation": "Fort Canning excavations uncovered 14th-century Majapahit artifacts, British colonial structures, and Japanese fortifications, showing Singapore's multicultural past.",
+              "explanation_zh": "福康宁挖掘发现了14世纪满者伯夷文物、英国殖民建筑和日本工事，显示了新加坡的多元文化过去。"
+            },
+            {
+              "id": "hist1-ex13",
+              "type": "short",
+              "difficulty": "hard",
+              "prompt": "Why is it important to cross-check historical sources?",
+              "prompt_zh": "为什么交叉核对历史资料很重要？",
+              "answer": "to verify reliability and accuracy",
+              "answer_zh": "验证可靠性和准确性",
+              "validator": "smart",
+              "explanation": "Cross-checking sources helps historians verify information, detect bias, and ensure accuracy before drawing conclusions.",
+              "explanation_zh": "交叉核对资料帮助历史学家验证信息、检测偏见并在得出结论前确保准确性。"
+            },
+            {
+              "id": "hist1-ex14",
+              "type": "mcq",
+              "difficulty": "easy",
+              "prompt": "Which is an example of a secondary source?",
+              "prompt_zh": "哪个是第二手资料的例子？",
+              "choices": [
+                "A history textbook",
+                "A soldier's letter from war",
+                "An ancient coin",
+                "A newspaper from 1945"
+              ],
+              "choices_zh": [
+                "历史教科书",
+                "士兵的战争信件",
+                "古代硬币",
+                "1945年的报纸"
+              ],
+              "answer": 0,
+              "explanation": "A history textbook is a secondary source because it is written later by historians who analyze primary sources.",
+              "explanation_zh": "历史教科书是第二手资料，因为它是由历史学家后来分析第一手资料撰写的。"
+            },
+            {
+              "id": "hist1-ex15",
+              "type": "mcq",
+              "difficulty": "hard",
+              "prompt": "If you find contradictory information in two historical sources about the same event, what should you do?",
+              "prompt_zh": "如果你在两个关于同一事件的历史资料中发现矛盾信息，你应该怎么做？",
+              "choices": [
+                "Investigate both sources, check their reliability, and seek additional sources",
+                "Always believe the older source",
+                "Always believe the newer source",
+                "Ignore both sources"
+              ],
+              "choices_zh": [
+                "调查两个资料，检查其可靠性，并寻找其他资料",
+                "总是相信较旧的资料",
+                "总是相信较新的资料",
+                "忽略两个资料"
+              ],
+              "answer": 0,
+              "explanation": "When sources contradict, historians investigate both, evaluate their reliability, and look for additional sources to clarify the truth.",
+              "explanation_zh": "当资料矛盾时，历史学家会调查两者，评估其可靠性，并寻找其他资料来澄清真相。"
+            }
+          ]
+        },
+        {
+          "id": "early-southeast-asia",
+          "title": "Early Southeast Asia",
+          "title_zh": "早期东南亚",
+          "gradeLevel": "sec1",
+          "tag": "History",
+          "tag_zh": "历史",
+          "description": "Ancient civilizations and trade in Southeast Asia",
+          "description_zh": "东南亚的古代文明和贸易",
+          "objectives": [
+            "Understand early Southeast Asian kingdoms",
+            "Learn about maritime trade routes",
+            "Explore cultural influences from India and China"
+          ],
+          "objectives_zh": [
+            "了解早期东南亚王国",
+            "学习海上贸易路线",
+            "探索来自印度和中国的文化影响"
+          ],
+          "sections": [
+            {
+              "id": "ancient-kingdoms",
+              "type": "text",
+              "title": "Ancient Kingdoms of Southeast Asia",
+              "title_zh": "东南亚的古代王国",
+              "content": "**Major Early Kingdoms (300-1500 CE)**\n\n**1. Srivijaya Empire (7th-13th century)**\n- **Location**: Sumatra (modern-day Indonesia)\n- **Power**: Controlled the Straits of Malacca\n- **Economy**: Maritime trade and piracy control\n- **Religion**: Mahayana Buddhism\n- **Legacy**: Influenced Malay language and culture\n\n**2. Majapahit Empire (13th-16th century)**\n- **Location**: Java (modern-day Indonesia)\n- **Peak**: 1350 CE under King Hayam Wuruk\n- **Territory**: Controlled much of maritime Southeast Asia including early Singapore (Temasek)\n- **Religion**: Hinduism-Buddhism blend\n- **Evidence**: Archaeological findings at Fort Canning Hill in Singapore\n\n**3. Angkor Empire (9th-15th century)**\n- **Location**: Cambodia\n- **Famous site**: Angkor Wat temple complex\n- **Achievement**: Advanced irrigation and engineering\n- **Religion**: Hinduism, later Buddhism\n\n**Connection to Singapore**\n\nSingapore (known as **Temasek** in ancient times) was:\n- A minor trading outpost under Srivijaya influence\n- Later part of the Majapahit trading network\n- Mentioned in Chinese texts as early as 3rd century CE\n- Named 'Singapura' (Lion City) around 1299 CE by a Srivijayan prince\n\n**Archaeological Evidence**\n\nExcavations at Fort Canning and Empress Place have found:\n- Chinese ceramics from Song and Yuan dynasties\n- Indian glass beads\n- Javanese goldwork\n- Evidence of a 14th-century settlement",
+              "content_zh": "**主要早期王国（公元300-1500年）**\n\n**1. 室利佛逝帝国（7-13世纪）**\n- **地点**：苏门答腊（今印度尼西亚）\n- **权力**：控制马六甲海峡\n- **经济**：海上贸易和海盗控制\n- **宗教**：大乘佛教\n- **遗产**：影响马来语言和文化\n\n**2. 满者伯夷帝国（13-16世纪）**\n- **地点**：爪哇（今印度尼西亚）\n- **巅峰**：1350年在哈亚姆·乌鲁克国王统治下\n- **领土**：控制大部分海洋东南亚，包括早期新加坡（淡马锡）\n- **宗教**：印度教-佛教融合\n- **证据**：新加坡福康宁山的考古发现\n\n**3. 吴哥帝国（9-15世纪）**\n- **地点**：柬埔寨\n- **著名遗址**：吴哥窟寺庙群\n- **成就**：先进的灌溉和工程\n- **宗教**：印度教，后来是佛教\n\n**与新加坡的联系**\n\n新加坡（古代称为**淡马锡**）是：\n- 室利佛逝影响下的小型贸易站\n- 后来成为满者伯夷贸易网络的一部分\n- 中国文献早在公元3世纪就提到\n- 约1299年被室利佛逝王子命名为\"狮城\"\n\n**考古证据**\n\n福康宁和皇后坊的挖掘发现了：\n- 宋朝和元朝的中国陶瓷\n- 印度玻璃珠\n- 爪哇金工艺品\n- 14世纪定居点的证据"
+            },
+            {
+              "id": "maritime-trade",
+              "type": "text",
+              "title": "Maritime Trade Routes",
+              "title_zh": "海上贸易路线",
+              "content": "**The Ancient Maritime Silk Road**\n\n**What was traded?**\n\n**From China:**\n- Silk fabrics\n- Porcelain and ceramics\n- Tea\n- Paper\n\n**From India:**\n- Cotton textiles\n- Spices (pepper, cardamom)\n- Precious stones\n- Religious texts\n\n**From Southeast Asia:**\n- Spices (cloves, nutmeg from Moluccas)\n- Aromatic woods\n- Gold and tin\n- Forest products (camphor, resins)\n\n**From Middle East/Arabia:**\n- Frankincense and myrrh\n- Glassware\n- Carpets\n- Horses\n\n**Key Trade Routes**\n\n1. **Southern Route**: China → Vietnam → Malacca Straits → India → Middle East\n2. **Northern Route**: China → Philippines → Borneo → Java → India\n\n**Strategic Importance of Singapore/Temasek**\n\n- Located at the southern tip of the Malay Peninsula\n- Natural harbor for monsoon-dependent ships\n- Controlled access between Indian Ocean and South China Sea\n- Provided fresh water and supplies for traders\n\n**Monsoon Winds**\n\nTraders relied on predictable monsoon patterns:\n- **Northeast monsoon** (November-March): Ships sailed from China to Southeast Asia\n- **Southwest monsoon** (May-September): Return journey from Southeast Asia to China\n- Ships would wait months in ports like Temasek for wind changes\n\n**Cultural Exchange**\n\nTrade brought more than goods:\n- **Religion**: Buddhism and Hinduism from India\n- **Language**: Sanskrit words in Malay\n- **Architecture**: Temple designs\n- **Technology**: Shipbuilding techniques, navigation tools\n\n**Singapore's Modern Legacy**\n\nToday, Singapore remains one of the world's busiest ports, continuing its ancient role as a trading hub. The Port of Singapore handles over 37 million containers annually, making it the second-busiest container port globally.",
+              "content_zh": "**古代海上丝绸之路**\n\n**交易什么？**\n\n**来自中国：**\n- 丝绸织物\n- 瓷器和陶瓷\n- 茶\n- 纸\n\n**来自印度：**\n- 棉织品\n- 香料（胡椒、豆蔻）\n- 宝石\n- 宗教文献\n\n**来自东南亚：**\n- 香料（来自摩鹿加群岛的丁香、肉豆蔻）\n- 芳香木材\n- 黄金和锡\n- 森林产品（樟脑、树脂）\n\n**来自中东/阿拉伯：**\n- 乳香和没药\n- 玻璃器皿\n- 地毯\n- 马匹\n\n**主要贸易路线**\n\n1. **南线**：中国 → 越南 → 马六甲海峡 → 印度 → 中东\n2. **北线**：中国 → 菲律宾 → 婆罗洲 → 爪哇 → 印度\n\n**新加坡/淡马锡的战略重要性**\n\n- 位于马来半岛南端\n- 依赖季风的船只的天然港口\n- 控制印度洋和南中国海之间的通道\n- 为贸易商提供淡水和补给\n\n**季风**\n\n贸易商依赖可预测的季风模式：\n- **东北季风**（11月-3月）：船只从中国航行到东南亚\n- **西南季风**（5月-9月）：从东南亚返回中国\n- 船只会在淡马锡等港口等待数月以等待风向变化\n\n**文化交流**\n\n贸易带来的不仅是商品：\n- **宗教**：来自印度的佛教和印度教\n- **语言**：马来语中的梵语词汇\n- **建筑**：寺庙设计\n- **技术**：造船技术、导航工具\n\n**新加坡的现代遗产**\n\n今天，新加坡仍然是世界上最繁忙的港口之一，延续其作为贸易枢纽的古老角色。新加坡港每年处理超过3700万个集装箱，使其成为全球第二繁忙的集装箱港口。"
+            },
+            {
+              "id": "cultural-influences",
+              "type": "text",
+              "title": "Indian and Chinese Influences",
+              "title_zh": "印度和中国的影响",
+              "content": "**Indian Cultural Influence (Indianization)**\n\n**Religion and Philosophy:**\n- Hinduism and Buddhism spread through trade and missionary activity\n- Sanskrit became the language of religion and scholarship\n- Concept of divine kingship (god-kings)\n\n**Architecture:**\n- Temple construction techniques\n- Use of stone monuments\n- Borobudur (Java) and Angkor Wat (Cambodia) show Indian influence\n\n**Literature and Arts:**\n- Indian epics (Ramayana, Mahabharata) adapted locally\n- Sanskrit writing system influenced local scripts\n- Classical dance forms\n\n**Political Systems:**\n- Concepts of kingship and statecraft\n- Administrative organization\n- Legal codes based on Indian models\n\n**Chinese Cultural Influence (Sinicization)**\n\n**Trade and Economics:**\n- Chinese merchants established communities in port cities\n- Introduction of Chinese coinage systems\n- Ceramic technology and production\n\n**Technology:**\n- Shipbuilding techniques (junk ships)\n- Navigation tools (compass)\n- Agricultural methods (wet rice cultivation)\n\n**Philosophy and Governance:**\n- Confucian values in some kingdoms\n- Tributary system (smaller kingdoms paid tribute to Chinese emperors)\n- Civil service examination concepts\n\n**Cultural Artifacts:**\n- Chinese ceramics highly valued\n- Porcelain used as status symbols\n- Chinese motifs in local art\n\n**Synthesis in Southeast Asia**\n\nSoutheast Asian societies didn't simply copy Indian or Chinese culture. Instead, they created unique blends:\n\n**Example: Javanese Wayang Kulit (Shadow Puppets)**\n- Uses Indian epic stories (Ramayana)\n- But adapted with local characters and humor\n- Performance style unique to Java\n- Shows selective adoption and creative adaptation\n\n**Singapore's Multicultural Heritage**\n\nThis ancient pattern of cultural blending continues today:\n- **Little India**: Hindu temples, Indian cuisine, traditional music\n- **Chinatown**: Chinese temples, clan associations, TCM shops\n- **Kampong Glam**: Malay-Muslim culture, Sultan Mosque\n- All coexisting in one small island, just like ancient trading ports\n\n**Archaeological Evidence in Singapore**\n\nFindings at Fort Canning show cultural mixing:\n- Gold ornaments with Hindu-Buddhist motifs\n- Chinese ceramics for daily use\n- Islamic gravestones from 14th century\n- Shows Singapore was always a multicultural crossroads",
+              "content_zh": "**印度文化影响（印度化）**\n\n**宗教和哲学：**\n- 印度教和佛教通过贸易和传教活动传播\n- 梵语成为宗教和学术语言\n- 神圣王权概念（神王）\n\n**建筑：**\n- 寺庙建筑技术\n- 石碑的使用\n- 婆罗浮屠（爪哇）和吴哥窟（柬埔寨）显示印度影响\n\n**文学和艺术：**\n- 印度史诗（罗摩衍那、摩诃婆罗多）的本地改编\n- 梵文书写系统影响本地文字\n- 古典舞蹈形式\n\n**政治制度：**\n- 王权和治国理念\n- 行政组织\n- 基于印度模式的法律法规\n\n**中国文化影响（中国化）**\n\n**贸易和经济：**\n- 中国商人在港口城市建立社区\n- 引入中国货币系统\n- 陶瓷技术和生产\n\n**技术：**\n- 造船技术（帆船）\n- 导航工具（指南针）\n- 农业方法（水稻种植）\n\n**哲学和治理：**\n- 一些王国的儒家价值观\n- 朝贡制度（较小王国向中国皇帝进贡）\n- 科举考试概念\n\n**文化文物：**\n- 中国陶瓷高度重视\n- 瓷器用作身份象征\n- 本地艺术中的中国图案\n\n**东南亚的综合**\n\n东南亚社会不是简单地复制印度或中国文化。相反，他们创造了独特的融合：\n\n**例子：爪哇皮影戏**\n- 使用印度史诗故事（罗摩衍那）\n- 但加入本地角色和幽默进行改编\n- 爪哇独特的表演风格\n- 显示选择性采用和创造性改编\n\n**新加坡的多元文化遗产**\n\n这种古老的文化融合模式今天仍在继续：\n- **小印度**：印度庙宇、印度美食、传统音乐\n- **牛车水**：中国庙宇、宗乡会馆、中药店\n- **甘榜格南**：马来-穆斯林文化、苏丹回教堂\n- 所有这些都共存于一个小岛上，就像古代贸易港口\n\n**新加坡的考古证据**\n\n福康宁的发现显示文化融合：\n- 带有印度教-佛教图案的金饰品\n- 日常使用的中国陶瓷\n- 14世纪的伊斯兰墓碑\n- 显示新加坡一直是多元文化的十字路口"
+            }
+          ],
+          "exercises": [
+            {
+              "id": "sea-ex1",
+              "type": "mcq",
+              "difficulty": "easy",
+              "prompt": "Which empire controlled the Straits of Malacca from the 7th to 13th century?",
+              "prompt_zh": "哪个帝国在7世纪到13世纪控制马六甲海峡？",
+              "choices": [
+                "Srivijaya Empire",
+                "Majapahit Empire",
+                "Angkor Empire",
+                "Ming Dynasty"
+              ],
+              "choices_zh": [
+                "室利佛逝帝国",
+                "满者伯夷帝国",
+                "吴哥帝国",
+                "明朝"
+              ],
+              "answer": 0,
+              "explanation": "The Srivijaya Empire was based in Sumatra and controlled the strategic Straits of Malacca.",
+              "explanation_zh": "室利佛逝帝国位于苏门答腊，控制着战略性的马六甲海峡。"
+            },
+            {
+              "id": "sea-ex2",
+              "type": "mcq",
+              "difficulty": "medium",
+              "prompt": "What was ancient Singapore called?",
+              "prompt_zh": "古代新加坡叫什么？",
+              "choices": [
+                "Temasek",
+                "Malacca",
+                "Batavia",
+                "Ayutthaya"
+              ],
+              "choices_zh": [
+                "淡马锡",
+                "马六甲",
+                "巴达维亚",
+                "大城"
+              ],
+              "answer": 0,
+              "explanation": "Singapore was known as Temasek in ancient times before being renamed Singapura (Lion City) around 1299 CE.",
+              "explanation_zh": "新加坡在古代被称为淡马锡，后来在1299年左右被重命名为狮城。"
+            },
+            {
+              "id": "sea-ex3",
+              "type": "short",
+              "difficulty": "medium",
+              "prompt": "Name one type of goods traded from Southeast Asia along the Maritime Silk Road.",
+              "prompt_zh": "说出一种沿着海上丝绸之路从东南亚交易的商品。",
+              "answer": "spices",
+              "answer_zh": "香料",
+              "validator": "smart",
+              "explanation": "Southeast Asia exported spices (cloves, nutmeg), aromatic woods, gold, and tin.",
+              "explanation_zh": "东南亚出口香料（丁香、肉豆蔻）、芳香木材、黄金和锡。"
+            },
+            {
+              "id": "sea-ex4",
+              "type": "mcq",
+              "difficulty": "hard",
+              "prompt": "Why was Singapore's location strategically important for ancient trade?",
+              "prompt_zh": "为什么新加坡的位置对古代贸易具有战略重要性？",
+              "choices": [
+                "It controlled access between the Indian Ocean and South China Sea",
+                "It had the largest population",
+                "It produced the most spices",
+                "It had the biggest army"
+              ],
+              "choices_zh": [
+                "它控制印度洋和南中国海之间的通道",
+                "它拥有最大的人口",
+                "它生产最多的香料",
+                "它拥有最大的军队"
+              ],
+              "answer": 0,
+              "explanation": "Singapore's location at the southern tip of the Malay Peninsula allowed it to control the strategic passage between two major seas.",
+              "explanation_zh": "新加坡位于马来半岛南端的位置使其能够控制两个主要海洋之间的战略通道。"
+            },
+            {
+              "id": "sea-ex5",
+              "type": "mcq",
+              "difficulty": "medium",
+              "prompt": "What were the monsoon winds used for in ancient maritime trade?",
+              "prompt_zh": "古代海上贸易中季风有什么用？",
+              "choices": [
+                "To predict when ships could sail between regions",
+                "To generate electricity",
+                "To water crops",
+                "To signal danger"
+              ],
+              "choices_zh": [
+                "预测船只何时可以在不同地区航行",
+                "发电",
+                "灌溉农作物",
+                "发出危险信号"
+              ],
+              "answer": 0,
+              "explanation": "Traders relied on predictable monsoon patterns: Northeast monsoon (Nov-Mar) for China to SEA, Southwest monsoon (May-Sep) for return journey.",
+              "explanation_zh": "贸易商依赖可预测的季风模式：东北季风（11月-3月）从中国到东南亚，西南季风（5月-9月）返回。"
+            },
+            {
+              "id": "sea-ex6",
+              "type": "short",
+              "difficulty": "easy",
+              "prompt": "What religion was spread to Southeast Asia from India?",
+              "prompt_zh": "什么宗教从印度传播到东南亚？",
+              "answer": "Buddhism",
+              "answer_zh": "佛教",
+              "validator": "smart",
+              "explanation": "Both Buddhism and Hinduism spread from India to Southeast Asia through trade and missionary activity.",
+              "explanation_zh": "佛教和印度教都通过贸易和传教活动从印度传播到东南亚。"
+            },
+            {
+              "id": "sea-ex7",
+              "type": "mcq",
+              "difficulty": "easy",
+              "prompt": "Where was Angkor Wat built?",
+              "prompt_zh": "吴哥窟建在哪里？",
+              "choices": [
+                "Cambodia",
+                "Thailand",
+                "Vietnam",
+                "Singapore"
+              ],
+              "choices_zh": [
+                "柬埔寨",
+                "泰国",
+                "越南",
+                "新加坡"
+              ],
+              "answer": 0,
+              "explanation": "Angkor Wat is a famous temple complex in Cambodia, built during the Angkor Empire period.",
+              "explanation_zh": "吴哥窟是柬埔寨著名的寺庙群，建于吴哥帝国时期。"
+            },
+            {
+              "id": "sea-ex8",
+              "type": "mcq",
+              "difficulty": "hard",
+              "prompt": "Archaeological findings at Fort Canning include artifacts from which dynasties?",
+              "prompt_zh": "福康宁的考古发现包括哪些朝代的文物？",
+              "choices": [
+                "Song and Yuan dynasties",
+                "Only British colonial period",
+                "Only Malay sultanate period",
+                "Modern Singapore only"
+              ],
+              "choices_zh": [
+                "宋朝和元朝",
+                "仅英国殖民时期",
+                "仅马来苏丹国时期",
+                "仅现代新加坡"
+              ],
+              "answer": 0,
+              "explanation": "Fort Canning excavations found Chinese ceramics from Song and Yuan dynasties, along with Indian glass beads and Javanese goldwork.",
+              "explanation_zh": "福康宁挖掘发现了宋朝和元朝的中国陶瓷，以及印度玻璃珠和爪哇金工艺品。"
+            },
+            {
+              "id": "sea-ex9",
+              "type": "short",
+              "difficulty": "medium",
+              "prompt": "What year was Singapore renamed from Temasek to Singapura?",
+              "prompt_zh": "新加坡从淡马锡更名为狮城是哪一年？",
+              "answer": "1299",
+              "answer_zh": "1299",
+              "validator": "smart",
+              "explanation": "Around 1299 CE, a Srivijayan prince renamed Temasek to Singapura, meaning Lion City.",
+              "explanation_zh": "约1299年，一位室利佛逝王子将淡马锡更名为狮城。"
+            },
+            {
+              "id": "sea-ex10",
+              "type": "mcq",
+              "difficulty": "medium",
+              "prompt": "How did Chinese culture influence Southeast Asia?",
+              "prompt_zh": "中国文化如何影响东南亚？",
+              "choices": [
+                "Through trade, technology, and governance concepts",
+                "Only through military conquest",
+                "It did not influence Southeast Asia",
+                "Only through religion"
+              ],
+              "choices_zh": [
+                "通过贸易、技术和治理概念",
+                "仅通过军事征服",
+                "它没有影响东南亚",
+                "仅通过宗教"
+              ],
+              "answer": 0,
+              "explanation": "Chinese culture influenced SEA through trade (ceramics, coinage), technology (shipbuilding, navigation), and governance (tributary system, civil service concepts).",
+              "explanation_zh": "中国文化通过贸易（陶瓷、货币）、技术（造船、导航）和治理（朝贡制度、科举概念）影响东南亚。"
+            },
+            {
+              "id": "sea-ex11",
+              "type": "mcq",
+              "difficulty": "easy",
+              "prompt": "What was traded FROM China along the Maritime Silk Road?",
+              "prompt_zh": "沿着海上丝绸之路从中国交易什么？",
+              "choices": [
+                "Silk and porcelain",
+                "Spices and gold",
+                "Horses and carpets",
+                "Timber and rice"
+              ],
+              "choices_zh": [
+                "丝绸和瓷器",
+                "香料和黄金",
+                "马匹和地毯",
+                "木材和大米"
+              ],
+              "answer": 0,
+              "explanation": "China exported silk, porcelain, tea, and paper along the Maritime Silk Road.",
+              "explanation_zh": "中国沿着海上丝绸之路出口丝绸、瓷器、茶和纸。"
+            },
+            {
+              "id": "sea-ex12",
+              "type": "short",
+              "difficulty": "hard",
+              "prompt": "Why did Southeast Asian societies selectively adapt rather than simply copy Indian and Chinese cultures?",
+              "prompt_zh": "为什么东南亚社会选择性地适应而不是简单地复制印度和中国文化？",
+              "answer": "to create unique blends suited to local contexts",
+              "answer_zh": "创造适合当地环境的独特融合",
+              "validator": "smart",
+              "explanation": "SEA societies adapted foreign influences creatively, blending them with local traditions to create unique cultures like Javanese Wayang Kulit.",
+              "explanation_zh": "东南亚社会创造性地适应外来影响，将其与当地传统融合，创造出像爪哇皮影戏这样的独特文化。"
+            },
+            {
+              "id": "sea-ex13",
+              "type": "mcq",
+              "difficulty": "medium",
+              "prompt": "What does the presence of Islamic gravestones from the 14th century at Fort Canning show?",
+              "prompt_zh": "福康宁14世纪伊斯兰墓碑的存在说明什么？",
+              "choices": [
+                "Singapore was a multicultural crossroads",
+                "Only Muslims lived in Singapore",
+                "Islam was the only religion",
+                "Singapore had no contact with other cultures"
+              ],
+              "choices_zh": [
+                "新加坡是多元文化的十字路口",
+                "只有穆斯林住在新加坡",
+                "伊斯兰教是唯一的宗教",
+                "新加坡与其他文化没有接触"
+              ],
+              "answer": 0,
+              "explanation": "The mix of Hindu-Buddhist, Chinese, and Islamic artifacts shows Singapore has always been a multicultural trading hub.",
+              "explanation_zh": "印度教-佛教、中国和伊斯兰文物的混合显示新加坡一直是多元文化的贸易枢纽。"
+            },
+            {
+              "id": "sea-ex14",
+              "type": "mcq",
+              "difficulty": "easy",
+              "prompt": "What is Singapore's busiest port rank globally today?",
+              "prompt_zh": "今天新加坡最繁忙的港口在全球排名第几？",
+              "choices": [
+                "Second-busiest container port",
+                "Not in top 10",
+                "Tenth-busiest",
+                "Busiest in the world"
+              ],
+              "choices_zh": [
+                "第二繁忙的集装箱港口",
+                "不在前10名",
+                "第十繁忙",
+                "世界上最繁忙"
+              ],
+              "answer": 0,
+              "explanation": "Singapore handles over 37 million containers annually, making it the second-busiest container port globally, continuing its ancient trading heritage.",
+              "explanation_zh": "新加坡每年处理超过3700万个集装箱，使其成为全球第二繁忙的集装箱港口，延续其古老的贸易传统。"
+            },
+            {
+              "id": "sea-ex15",
+              "type": "drag-order",
+              "difficulty": "medium",
+              "prompt": "Arrange these Southeast Asian empires from oldest to most recent:",
+              "prompt_zh": "按从最古老到最近期排列这些东南亚帝国：",
+              "items": [
+                "Srivijaya Empire",
+                "Majapahit Empire",
+                "Angkor Empire"
+              ],
+              "items_zh": [
+                "室利佛逝帝国",
+                "满者伯夷帝国",
+                "吴哥帝国"
+              ],
+              "answer": [
+                "Srivijaya Empire",
+                "Angkor Empire",
+                "Majapahit Empire"
+              ],
+              "explanation": "Srivijaya (7th-13th c), Angkor (9th-15th c), Majapahit (13th-16th c)",
+              "explanation_zh": "室利佛逝（7-13世纪），吴哥（9-15世纪），满者伯夷（13-16世纪）"
+            }
+          ]
+        },
+        {
+          "id": "physical-geography",
+          "title": "Introduction to Physical Geography",
+          "title_zh": "自然地理导论",
+          "gradeLevel": "sec1",
+          "tag": "Geography",
+          "tag_zh": "地理",
+          "description": "Understanding Earth's physical features and processes",
+          "description_zh": "了解地球的自然特征和过程",
+          "objectives": [
+            "Learn about Earth's structure and landforms",
+            "Understand weather and climate patterns",
+            "Explore natural resources and ecosystems"
+          ],
+          "objectives_zh": [
+            "了解地球结构和地貌",
+            "理解天气和气候模式",
+            "探索自然资源和生态系统"
+          ],
+          "sections": [
+            {
+              "id": "earth-structure",
+              "type": "text",
+              "title": "Earth Structure and Landforms",
+              "title_zh": "地球结构和地貌",
+              "content": "**Layers of the Earth**\n\n1. **Crust** (outer layer)\n   - Thinnest layer (5-70 km thick)\n   - **Continental crust**: Land masses (thicker, less dense)\n   - **Oceanic crust**: Ocean floor (thinner, more dense)\n   - Where we live!\n\n2. **Mantle** (middle layer)\n   - 2,900 km thick\n   - Made of semi-molten rock (magma)\n   - Slow convection currents drive plate movement\n\n3. **Core** (innermost layer)\n   - **Outer core**: Liquid iron and nickel (2,300 km thick)\n   - **Inner core**: Solid iron and nickel (1,200 km radius)\n   - Temperatures up to 5,500°C!\n\n**Major Landforms**\n\n**Mountains:**\n- Formed by tectonic plate collision\n- Example: Himalayas (still growing 5mm per year!)\n- Tallest in SE Asia: Mount Kinabalu (Borneo, 4,095m)\n\n**Valleys:**\n- Created by river erosion or glaciers\n- V-shaped valleys from rivers\n- U-shaped valleys from glaciers\n\n**Plains:**\n- Large, flat areas\n- Often fertile for agriculture\n- Example: Central Plains of Thailand (rice farming)\n\n**Plateaus:**\n- Elevated flat areas\n- Example: Tibetan Plateau (\"Roof of the World\")\n\n**Islands:**\n- Land surrounded by water\n- **Volcanic islands**: Formed by underwater volcanoes (e.g., Hawaii)\n- **Continental islands**: Separated from mainland (e.g., Singapore!)\n\n**Singapore Geography**\n\nSingapore is:\n- A low-lying island (highest point: Bukit Timah Hill, 163.63m)\n- Part of the Sunda Shelf (connected to mainland during ice ages)\n- Composed mainly of sedimentary rocks and granite\n- Has 63 smaller islands (e.g., Sentosa, Pulau Ubin)\n- Originally hilly, but many hills flattened for development",
+              "content_zh": "**地球的层次**\n\n1. **地壳**（外层）\n   - 最薄的层（5-70公里厚）\n   - **大陆地壳**：陆地（较厚、密度较低）\n   - **海洋地壳**：海底（较薄、密度较高）\n   - 我们居住的地方！\n\n2. **地幔**（中间层）\n   - 2,900公里厚\n   - 由半熔融岩石（岩浆）组成\n   - 缓慢的对流推动板块运动\n\n3. **地核**（最内层）\n   - **外核**：液态铁和镍（2,300公里厚）\n   - **内核**：固态铁和镍（1,200公里半径）\n   - 温度高达5,500°C！\n\n**主要地貌**\n\n**山脉：**\n- 由构造板块碰撞形成\n- 例子：喜马拉雅山（仍在以每年5毫米的速度增长！）\n- 东南亚最高：京那巴鲁山（婆罗洲，4,095米）\n\n**山谷：**\n- 由河流侵蚀或冰川形成\n- 河流形成V形山谷\n- 冰川形成U形山谷\n\n**平原：**\n- 大片平坦区域\n- 通常适合农业\n- 例子：泰国中部平原（水稻种植）\n\n**高原：**\n- 高海拔平坦区域\n- 例子：青藏高原（世界屋脊）\n\n**岛屿：**\n- 被水环绕的陆地\n- **火山岛**：由海底火山形成（如夏威夷）\n- **大陆岛**：从大陆分离（如新加坡！）\n\n**新加坡的地理**\n\n新加坡是：\n- 低洼岛屿（最高点：武吉知马山，163.63米）\n- 巽他陆架的一部分（冰河时期与大陆相连）\n- 主要由沉积岩和花岗岩组成\n- 有63个较小的岛屿（如圣淘沙、乌敏岛）\n- 原本多山，但许多山丘因开发而被夷平"
+            },
+            {
+              "id": "weather-climate",
+              "type": "text",
+              "title": "Weather and Climate",
+              "title_zh": "天气和气候",
+              "content": "**What is the difference between Weather and Climate?**\n\n**Weather**:\n- The day-to-day condition of the atmosphere\n- Changes frequently (hourly or daily)\n- Includes temperature, rainfall, wind, humidity\n- Example: \"Today is hot and sunny\"\n\n**Climate**:\n- The average weather over a long period (30+ years)\n- Remains relatively stable\n- Describes typical patterns in a region\n- Example: \"Singapore has a tropical climate\"\n\n**Major Climate Zones**\n\n**1. Tropical Climate**\n- Location: Near the equator (0° latitude)\n- Temperature: Hot all year (25-30°C)\n- Rainfall: Heavy and frequent\n- Examples: Singapore, Malaysia, Indonesia\n- Vegetation: Rainforests, mangroves\n\n**2. Temperate Climate**\n- Location: Mid-latitudes (30-60°)\n- Temperature: Moderate, four distinct seasons\n- Rainfall: Moderate, varies by season\n- Examples: United Kingdom, Japan, parts of China\n- Vegetation: Deciduous and coniferous forests\n\n**3. Polar Climate**\n- Location: Near the poles (60-90°)\n- Temperature: Very cold all year\n- Rainfall: Low (mostly snow)\n- Examples: Antarctica, Arctic regions\n- Vegetation: Tundra, ice\n\n**Singapore's Tropical Rainforest Climate**\n\nSingapore is located 1° north of the equator, giving it a **tropical rainforest climate** (also called equatorial climate).\n\n**Characteristics**:\n- **Temperature**: 25-32°C year-round (minimal variation)\n- **Humidity**: High (70-90%)\n- **Rainfall**: Heavy (average 2,400mm per year)\n- **Seasons**: No distinct seasons, but two monsoon periods\n\n**Monsoon Seasons**:\n\n1. **Northeast Monsoon** (December-March)\n   - More rainfall, especially in December and January\n   - Cooler temperatures (24-30°C)\n   - Winds blow from northeast\n\n2. **Southwest Monsoon** (June-September)\n   - Less rainfall, but still frequent showers\n   - Warmer and drier\n   - Winds blow from southwest\n\n**Inter-monsoon periods** (April-May, October-November):\n- Thunderstorms in late afternoon\n- Highest temperatures of the year\n\n**Why Understanding Climate Matters**\n\nFor Singapore:\n- **Urban Planning**: Buildings designed for ventilation and rain drainage\n- **Agriculture**: Limited by tropical conditions, focus on vertical farming\n- **Water Management**: Heavy rainfall captured in reservoirs\n- **Energy**: Air conditioning increases electricity demand\n- **Tourism**: Affects visitor numbers and activities\n\n**Climate Change Impact on Singapore**\n\nSingapore is vulnerable to climate change:\n- Rising sea levels (low-lying island)\n- Increased temperatures (already hot climate)\n- More extreme weather (heavier rainfall, floods)\n- Government response: Climate Action Plan, coastal protection",
+              "content_zh": "**天气和气候有什么区别？**\n\n**天气**：\n- 大气的日常状况\n- 频繁变化（每小时或每天）\n- 包括温度、降雨、风、湿度\n- 例子：今天炎热晴朗\n\n**气候**：\n- 长期（30年以上）的平均天气\n- 相对稳定\n- 描述地区的典型模式\n- 例子：新加坡有热带气候\n\n**主要气候带**\n\n**1. 热带气候**\n- 位置：赤道附近（0°纬度）\n- 温度：全年炎热（25-30°C）\n- 降雨：频繁且大量\n- 例子：新加坡、马来西亚、印度尼西亚\n- 植被：热带雨林、红树林\n\n**2. 温带气候**\n- 位置：中纬度（30-60°）\n- 温度：温和，四季分明\n- 降雨：适中，随季节变化\n- 例子：英国、日本、中国部分地区\n- 植被：落叶林和针叶林\n\n**3. 极地气候**\n- 位置：极地附近（60-90°）\n- 温度：全年非常寒冷\n- 降雨：低（主要是雪）\n- 例子：南极洲、北极地区\n- 植被：苔原、冰\n\n**新加坡的热带雨林气候**\n\n新加坡位于赤道以北1°，拥有**热带雨林气候**（也称赤道气候）。\n\n**特征**：\n- **温度**：全年25-32°C（变化极小）\n- **湿度**：高（70-90%）\n- **降雨**：大量（年平均2,400毫米）\n- **季节**：没有明显季节，但有两个季风期\n\n**季风季节**：\n\n1. **东北季风**（12月-3月）\n   - 降雨较多，尤其是12月和1月\n   - 温度较低（24-30°C）\n   - 风从东北吹来\n\n2. **西南季风**（6月-9月）\n   - 降雨较少，但仍有频繁阵雨\n   - 更温暖干燥\n   - 风从西南吹来\n\n**季风间期**（4月-5月，10月-11月）：\n- 下午晚些时候有雷暴\n- 全年最高温度\n\n**理解气候的重要性**\n\n对新加坡而言：\n- **城市规划**：建筑设计考虑通风和排水\n- **农业**：受热带条件限制，专注垂直农业\n- **水资源管理**：大量降雨储存在水库中\n- **能源**：空调增加电力需求\n- **旅游业**：影响游客数量和活动\n\n**气候变化对新加坡的影响**\n\n新加坡容易受气候变化影响：\n- 海平面上升（低洼岛屿）\n- 温度升高（已经是炎热气候）\n- 更极端的天气（更大的降雨、洪水）\n- 政府应对：气候行动计划、海岸保护"
+            },
+            {
+              "id": "human-environment",
+              "type": "text",
+              "title": "Human-Environment Interaction",
+              "title_zh": "人与环境的互动",
+              "content": "**How do humans interact with the environment?**\n\nHumans both **adapt to** and **modify** their environment to meet their needs.\n\n**Three Types of Human-Environment Interaction**\n\n**1. Humans Depend on the Environment**\n\nWe rely on the environment for:\n- **Food**: Agriculture, fishing, livestock\n- **Water**: Rivers, lakes, rainfall\n- **Materials**: Wood, minerals, fossil fuels\n- **Energy**: Solar, wind, hydroelectric power\n- **Recreation**: Parks, beaches, nature reserves\n\n**Singapore Example**: \n- Despite being a small island, Singapore imports 90% of its food\n- We depend on neighboring countries (Malaysia, Indonesia) for resources\n- Our location at the Straits of Malacca made us a natural trading hub\n\n**2. Humans Adapt to the Environment**\n\nWe adjust our lifestyles to suit natural conditions:\n- **Clothing**: Light, breathable fabrics in tropical Singapore\n- **Housing**: HDB flats designed with ventilation, void decks for airflow\n- **Agriculture**: Tropical crops (durian, mangoes) instead of temperate fruits\n- **Daily life**: Indoor activities during hot afternoons, open-air hawker centers\n\n**Singapore Adaptations**:\n- **Tropical heat**: Air conditioning in most buildings\n- **Heavy rainfall**: Covered walkways, drainage systems\n- **Limited land**: Vertical development (high-rise buildings)\n- **No natural resources**: Focus on human capital and services\n\n**3. Humans Modify the Environment**\n\nWe change the environment to suit our needs:\n- **Land reclamation**: Creating new land from the sea\n- **Deforestation**: Clearing forests for farms or cities\n- **Dams and reservoirs**: Controlling water supply\n- **Urban development**: Building cities and infrastructure\n\n**Singapore's Environmental Modifications**\n\n**Land Reclamation**:\n- Singapore has grown from 581 km² (1960s) to 734 km² (2020s)\n- Reclaimed areas: Marina Bay, Changi Airport, Jurong Island\n- By 2030, Singapore aims to reach 766 km²\n\n**Water Management**:\n- **17 reservoirs** collect rainwater (covers 2/3 of Singapore)\n- **NEWater**: Recycled water technology\n- **Desalination**: Converting seawater to drinking water\n- **Four National Taps**: Local catchment, imported water, NEWater, desalinated water\n\n**Green Spaces**:\n- Despite urbanization, Singapore maintains **47% green cover**\n- Nature reserves: Bukit Timah, Central Catchment\n- Park connector network: 300+ km linking parks\n- Gardens by the Bay: Transforming reclaimed land into iconic green space\n\n**Environmental Challenges in Singapore**\n\n**1. Limited Land**\n- Only 734 km² total land area\n- Population: 5.9 million people\n- Solution: Vertical development, underground spaces (MRT, reservoirs)\n\n**2. No Natural Resources**\n- No oil, minerals, or natural gas\n- Solution: Human capital development, knowledge economy\n\n**3. Water Scarcity**\n- High demand, limited natural water sources\n- Solution: Four National Taps strategy\n\n**4. Climate Change**\n- Rising sea levels threaten low-lying island\n- Solution: Coastal protection (Marina Barrage, future barriers)\n\n**Sustainable Development**\n\nSingapore aims to balance economic growth with environmental protection:\n\n**Singapore Green Plan 2030**:\n- Plant 1 million more trees\n- Reduce waste sent to landfills by 30%\n- All new buildings to be Super Low Energy from 2030\n- Increase solar energy production\n- Expand park connector network to 500 km\n\n**Individual Actions**:\n- Use public transport (MRT, buses)\n- Reduce, reuse, recycle\n- Conserve water and electricity\n- Support sustainable products\n- Participate in environmental activities (Clean & Green Singapore)\n\n**Conclusion**\n\nUnderstanding human-environment interaction helps us:\n- Appreciate how geography shapes our lives\n- Make responsible environmental choices\n- Plan for a sustainable future\n- Balance development with conservation",
+              "content_zh": "**人类如何与环境互动？**\n\n人类既**适应**环境，也**改造**环境以满足需求。\n\n**三种人与环境互动类型**\n\n**1. 人类依赖环境**\n\n我们依赖环境获取：\n- **食物**：农业、捕鱼、畜牧\n- **水**：河流、湖泊、降雨\n- **材料**：木材、矿物、化石燃料\n- **能源**：太阳能、风能、水电\n- **娱乐**：公园、海滩、自然保护区\n\n**新加坡例子**：\n- 尽管是小岛，新加坡进口90%的食物\n- 我们依赖邻国（马来西亚、印度尼西亚）获取资源\n- 我们在马六甲海峡的位置使我们成为天然贸易枢纽\n\n**2. 人类适应环境**\n\n我们调整生活方式以适应自然条件：\n- **服装**：新加坡热带气候下穿轻便透气的衣物\n- **住房**：组屋设计考虑通风，底层空地促进气流\n- **农业**：热带作物（榴莲、芒果）而非温带水果\n- **日常生活**：炎热下午的室内活动，露天小贩中心\n\n**新加坡的适应**：\n- **热带炎热**：大多数建筑有空调\n- **大量降雨**：有盖走道、排水系统\n- **土地有限**：垂直发展（高层建筑）\n- **无自然资源**：专注人力资本和服务业\n\n**3. 人类改造环境**\n\n我们改变环境以满足需求：\n- **填海造陆**：从海中创造新土地\n- **森林砍伐**：清理森林用于农业或城市\n- **水坝和水库**：控制供水\n- **城市发展**：建设城市和基础设施\n\n**新加坡的环境改造**\n\n**填海造陆**：\n- 新加坡从1960年代的581平方公里增长到2020年代的734平方公里\n- 填海区域：滨海湾、樟宜机场、裕廊岛\n- 到2030年，新加坡目标达到766平方公里\n\n**水资源管理**：\n- **17个水库**收集雨水（覆盖新加坡2/3）\n- **新生水**：回收水技术\n- **海水淡化**：将海水转化为饮用水\n- **四大水龙头**：本地集水区、进口水、新生水、淡化水\n\n**绿色空间**：\n- 尽管城市化，新加坡保持**47%绿化覆盖**\n- 自然保护区：武吉知马、中央集水区\n- 公园连道网络：300多公里连接公园\n- 滨海湾花园：将填海土地转变为标志性绿色空间\n\n**新加坡的环境挑战**\n\n**1. 土地有限**\n- 总土地面积仅734平方公里\n- 人口：590万人\n- 解决方案：垂直发展、地下空间（地铁、水库）\n\n**2. 无自然资源**\n- 无石油、矿物或天然气\n- 解决方案：人力资本发展、知识经济\n\n**3. 水资源短缺**\n- 高需求、有限的天然水源\n- 解决方案：四大水龙头战略\n\n**4. 气候变化**\n- 海平面上升威胁低洼岛屿\n- 解决方案：海岸保护（滨海堤坝、未来屏障）\n\n**可持续发展**\n\n新加坡旨在平衡经济增长与环境保护：\n\n**新加坡绿色计划2030**：\n- 种植100万棵树\n- 减少30%送往垃圾填埋场的废物\n- 2030年起所有新建筑为超低能耗建筑\n- 增加太阳能生产\n- 将公园连道网络扩展到500公里\n\n**个人行动**：\n- 使用公共交通（地铁、巴士）\n- 减少、重用、回收\n- 节约水电\n- 支持可持续产品\n- 参与环境活动（清洁与绿化新加坡）\n\n**结论**\n\n理解人与环境互动帮助我们：\n- 欣赏地理如何塑造我们的生活\n- 做出负责任的环境选择\n- 规划可持续的未来\n- 平衡发展与保护"
+            }
+          ],
+          "exercises": [
+            {
+              "id": "geo1-ex1",
+              "type": "mcq",
+              "difficulty": "easy",
+              "prompt": "What is the outermost layer of the Earth called?",
+              "prompt_zh": "地球的最外层叫什么？",
+              "choices": [
+                "Crust",
+                "Mantle",
+                "Core",
+                "Atmosphere"
+              ],
+              "choices_zh": [
+                "地壳",
+                "地幔",
+                "地核",
+                "大气层"
+              ],
+              "answer": 0,
+              "explanation": "The crust is Earth's thinnest outer layer (5-70 km thick), where we live.",
+              "explanation_zh": "地壳是地球最薄的外层（5-70公里厚），我们居住的地方。"
+            },
+            {
+              "id": "geo1-ex2",
+              "type": "mcq",
+              "difficulty": "medium",
+              "prompt": "What is Singapore's highest natural point?",
+              "prompt_zh": "新加坡的最高天然点是什么？",
+              "choices": [
+                "Bukit Timah Hill (163.63m)",
+                "Mount Faber",
+                "Marina Bay Sands",
+                "Sentosa Peak"
+              ],
+              "choices_zh": [
+                "武吉知马山（163.63米）",
+                "花柏山",
+                "滨海湾金沙",
+                "圣淘沙峰"
+              ],
+              "answer": 0,
+              "explanation": "Bukit Timah Hill is Singapore's highest natural point at 163.63 meters above sea level.",
+              "explanation_zh": "武吉知马山是新加坡最高的天然点，海拔163.63米。"
+            },
+            {
+              "id": "geo1-ex3",
+              "type": "short",
+              "difficulty": "easy",
+              "prompt": "What type of climate does Singapore have?",
+              "prompt_zh": "新加坡有什么类型的气候？",
+              "answer": "tropical",
+              "answer_zh": "热带",
+              "validator": "smart",
+              "explanation": "Singapore has a tropical rainforest climate with hot, humid weather year-round.",
+              "explanation_zh": "新加坡有热带雨林气候，全年炎热潮湿。"
+            },
+            {
+              "id": "geo1-ex4",
+              "type": "mcq",
+              "difficulty": "medium",
+              "prompt": "What is the difference between weather and climate?",
+              "prompt_zh": "天气和气候有什么区别？",
+              "choices": [
+                "Weather is short-term, climate is long-term average",
+                "They are the same thing",
+                "Weather is only rain, climate is only temperature",
+                "Climate changes daily"
+              ],
+              "choices_zh": [
+                "天气是短期的，气候是长期平均",
+                "它们是同一回事",
+                "天气只是雨，气候只是温度",
+                "气候每天变化"
+              ],
+              "answer": 0,
+              "explanation": "Weather refers to short-term atmospheric conditions (hours/days), while climate is the long-term average weather pattern (30+ years).",
+              "explanation_zh": "天气指短期大气条件（数小时/数天），而气候是长期平均天气模式（30年以上）。"
+            },
+            {
+              "id": "geo1-ex5",
+              "type": "mcq",
+              "difficulty": "hard",
+              "prompt": "Why does Singapore have no distinct seasons?",
+              "prompt_zh": "为什么新加坡没有明显的季节？",
+              "choices": [
+                "It is very close to the equator (1.3°N)",
+                "It is too small",
+                "It has no mountains",
+                "It is surrounded by water"
+              ],
+              "choices_zh": [
+                "它非常靠近赤道（北纬1.3°）",
+                "它太小了",
+                "它没有山脉",
+                "它被水环绕"
+              ],
+              "answer": 0,
+              "explanation": "Singapore's location at 1.3°N latitude (almost on the equator) means the sun is overhead year-round, resulting in consistent temperatures with no seasonal variation.",
+              "explanation_zh": "新加坡位于北纬1.3°（几乎在赤道上），意味着太阳全年在头顶，导致温度一致，无季节变化。"
+            },
+            {
+              "id": "geo1-ex6",
+              "type": "short",
+              "difficulty": "medium",
+              "prompt": "How thick is the Earth's crust?",
+              "prompt_zh": "地壳有多厚？",
+              "answer": "5-70 km",
+              "answer_zh": "5-70公里",
+              "validator": "smart",
+              "explanation": "The Earth's crust varies from 5 km (oceanic) to 70 km (continental) thick.",
+              "explanation_zh": "地壳厚度从5公里（海洋）到70公里（大陆）不等。"
+            },
+            {
+              "id": "geo1-ex7",
+              "type": "mcq",
+              "difficulty": "easy",
+              "prompt": "During which months is Singapore's wetter monsoon period?",
+              "prompt_zh": "新加坡的较湿润季风期在哪几个月？",
+              "choices": [
+                "December-March",
+                "June-September",
+                "April-May",
+                "All year round"
+              ],
+              "choices_zh": [
+                "12月-3月",
+                "6月-9月",
+                "4月-5月",
+                "全年"
+              ],
+              "answer": 0,
+              "explanation": "The Northeast Monsoon (December-March) is Singapore's wetter period with more frequent heavy rain.",
+              "explanation_zh": "东北季风（12月-3月）是新加坡较湿润时期，更频繁的大雨。"
+            },
+            {
+              "id": "geo1-ex8",
+              "type": "mcq",
+              "difficulty": "medium",
+              "prompt": "What causes Singapore's afternoon thunderstorms during inter-monsoon periods?",
+              "prompt_zh": "季风过渡期新加坡下午雷暴的原因是什么？",
+              "choices": [
+                "Intense heating and rapid evaporation",
+                "Cold air from the north",
+                "Ocean currents",
+                "Mountain winds"
+              ],
+              "choices_zh": [
+                "强烈加热和快速蒸发",
+                "来自北方的冷空气",
+                "洋流",
+                "山风"
+              ],
+              "answer": 0,
+              "explanation": "During inter-monsoon periods, intense heating causes rapid evaporation and convection, leading to frequent afternoon thunderstorms.",
+              "explanation_zh": "在季风过渡期，强烈加热导致快速蒸发和对流，导致频繁的下午雷暴。"
+            },
+            {
+              "id": "geo1-ex9",
+              "type": "short",
+              "difficulty": "easy",
+              "prompt": "Name one landform created by tectonic plate collision.",
+              "prompt_zh": "说出一个由构造板块碰撞形成的地貌。",
+              "answer": "mountains",
+              "answer_zh": "山脉",
+              "validator": "smart",
+              "explanation": "Mountains like the Himalayas are formed when tectonic plates collide and push up the Earth's crust.",
+              "explanation_zh": "像喜马拉雅山这样的山脉是在构造板块碰撞并推高地壳时形成的。"
+            },
+            {
+              "id": "geo1-ex10",
+              "type": "mcq",
+              "difficulty": "hard",
+              "prompt": "What is Singapore's average annual rainfall?",
+              "prompt_zh": "新加坡的年平均降雨量是多少？",
+              "choices": [
+                "2,400mm",
+                "1,200mm",
+                "3,600mm",
+                "500mm"
+              ],
+              "choices_zh": [
+                "2,400毫米",
+                "1,200毫米",
+                "3,600毫米",
+                "500毫米"
+              ],
+              "answer": 0,
+              "explanation": "Singapore receives an average of 2,400mm of rainfall annually, distributed fairly evenly throughout the year.",
+              "explanation_zh": "新加坡年平均降雨量2,400毫米，全年分布相当均匀。"
+            },
+            {
+              "id": "geo1-ex11",
+              "type": "mcq",
+              "difficulty": "easy",
+              "prompt": "Which layer of Earth contains semi-molten rock (magma)?",
+              "prompt_zh": "地球的哪一层含有半熔融岩石（岩浆）？",
+              "choices": [
+                "Mantle",
+                "Crust",
+                "Outer core",
+                "Inner core"
+              ],
+              "choices_zh": [
+                "地幔",
+                "地壳",
+                "外核",
+                "内核"
+              ],
+              "answer": 0,
+              "explanation": "The mantle (2,900 km thick) contains semi-molten rock, with slow convection currents that drive plate movement.",
+              "explanation_zh": "地幔（2,900公里厚）含有半熔融岩石，缓慢的对流推动板块运动。"
+            },
+            {
+              "id": "geo1-ex12",
+              "type": "short",
+              "difficulty": "medium",
+              "prompt": "What percentage humidity does Singapore typically have?",
+              "prompt_zh": "新加坡通常的湿度是多少？",
+              "answer": "80-90%",
+              "answer_zh": "80-90%",
+              "validator": "smart",
+              "explanation": "Singapore's humidity ranges from 80-90%, making the air feel very sticky and warm.",
+              "explanation_zh": "新加坡的湿度范围为80-90%，使空气感觉非常粘和温暖。"
+            },
+            {
+              "id": "geo1-ex13",
+              "type": "mcq",
+              "difficulty": "medium",
+              "prompt": "How many smaller islands does Singapore have besides the main island?",
+              "prompt_zh": "除了主岛外，新加坡有多少个较小的岛屿？",
+              "choices": [
+                "63",
+                "10",
+                "100",
+                "5"
+              ],
+              "choices_zh": [
+                "63",
+                "10",
+                "100",
+                "5"
+              ],
+              "answer": 0,
+              "explanation": "Singapore comprises 63 smaller islands besides the main island, including Sentosa and Pulau Ubin.",
+              "explanation_zh": "除主岛外，新加坡包括63个较小的岛屿，包括圣淘沙和乌敏岛。"
+            },
+            {
+              "id": "geo1-ex14",
+              "type": "mcq",
+              "difficulty": "hard",
+              "prompt": "Why are Singapore's buildings designed with covered walkways and air conditioning?",
+              "prompt_zh": "为什么新加坡的建筑设计有有盖走道和空调？",
+              "choices": [
+                "To adapt to frequent rain and high heat/humidity",
+                "For aesthetic reasons only",
+                "To save construction costs",
+                "To prevent earthquakes"
+              ],
+              "choices_zh": [
+                "适应频繁降雨和高温/湿度",
+                "仅出于美学原因",
+                "节省建设成本",
+                "预防地震"
+              ],
+              "answer": 0,
+              "explanation": "Singapore's tropical climate (frequent rain, high heat and humidity) requires buildings to be designed with covered walkways and air conditioning for comfort.",
+              "explanation_zh": "新加坡的热带气候（频繁降雨、高温和湿度）要求建筑设计有有盖走道和空调以提供舒适。"
+            },
+            {
+              "id": "geo1-ex15",
+              "type": "drag-order",
+              "difficulty": "medium",
+              "prompt": "Arrange Earth's layers from outermost to innermost:",
+              "prompt_zh": "按从最外层到最内层排列地球的层次：",
+              "items": [
+                "Crust",
+                "Mantle",
+                "Outer Core",
+                "Inner Core"
+              ],
+              "items_zh": [
+                "地壳",
+                "地幔",
+                "外核",
+                "内核"
+              ],
+              "answer": [
+                "Crust",
+                "Mantle",
+                "Outer Core",
+                "Inner Core"
+              ],
+              "explanation": "Earth's structure from outside to inside: Crust → Mantle → Outer Core → Inner Core",
+              "explanation_zh": "地球结构从外到内：地壳 → 地幔 → 外核 → 内核"
+            }
+          ]
+        },
+        {
+          "id": "map-skills",
+          "title": "Map Reading and Geographic Skills",
+          "title_zh": "地图阅读和地理技能",
+          "gradeLevel": "sec1",
+          "tag": "Geography",
+          "tag_zh": "地理",
+          "description": "Learn to read maps, use coordinates, and understand scale",
+          "description_zh": "学习阅读地图、使用坐标和理解比例尺",
+          "objectives": [
+            "Read and interpret different types of maps",
+            "Use latitude and longitude coordinates",
+            "Calculate distance using map scale",
+            "Understand map symbols and legends"
+          ],
+          "objectives_zh": [
+            "阅读和解释不同类型的地图",
+            "使用经纬度坐标",
+            "使用地图比例尺计算距离",
+            "理解地图符号和图例"
+          ],
+          "sections": [
+            {
+              "id": "types-of-maps",
+              "type": "text",
+              "title": "Types of Maps",
+              "title_zh": "地图的类型",
+              "content": "**What is a map?**\n\nA **map** is a visual representation of an area showing physical features, political boundaries, and other information. Maps help us understand spatial relationships and navigate the world.\n\n**Key Elements of a Map**\n\nEvery good map should have:\n1. **Title**: What the map shows\n2. **Legend/Key**: Symbols and their meanings\n3. **Scale**: Relationship between map distance and real distance\n4. **Compass Rose**: Shows directions (N, S, E, W)\n5. **Grid Lines**: Latitude and longitude lines (for larger maps)\n\n**Major Types of Maps**\n\n**1. Physical Maps**\n\nShow natural features of the Earth:\n- **Landforms**: Mountains, valleys, plains, plateaus\n- **Water bodies**: Rivers, lakes, oceans\n- **Elevation**: Height above sea level (using colors)\n- **Vegetation**: Forests, deserts, grasslands\n\n**Color coding**:\n- Green: Low elevation (plains, lowlands)\n- Yellow/Brown: Medium elevation (hills)\n- Dark brown: High elevation (mountains)\n- Blue: Water bodies\n\n**Singapore Example**: A physical map of Singapore would show:\n- Bukit Timah Hill (highest point at 163m)\n- Reservoirs (MacRitchie, Bedok, etc.)\n- Coastal areas and islands\n- Mangrove swamps in the north\n\n**2. Political Maps**\n\nShow human-made boundaries and divisions:\n- **Countries and borders**\n- **States/provinces**\n- **Cities and towns**\n- **Capital cities** (often marked with a star ★)\n\n**Does NOT show**: Physical features like mountains or rivers (except major ones)\n\n**Singapore Example**: A political map of Singapore would show:\n- 5 regions (Central, East, North, Northeast, West)\n- Planning areas (28 total)\n- Neighboring countries (Malaysia, Indonesia)\n- Major towns (Ang Mo Kio, Tampines, Jurong West, etc.)\n\n**3. Topographic Maps**\n\nDetailed maps showing both physical and human features:\n- **Contour lines**: Lines connecting points of equal elevation\n- **Roads and trails**\n- **Buildings and structures**\n- **Vegetation**\n- **Water features**\n\n**Reading contour lines**:\n- Lines close together = Steep slope\n- Lines far apart = Gentle slope\n- Concentric circles = Hill or depression\n\n**Use**: Hiking, urban planning, military operations\n\n**4. Thematic Maps**\n\nShow specific themes or topics:\n- **Climate maps**: Temperature, rainfall zones\n- **Population density maps**: Where people live\n- **Economic maps**: Industries, agriculture, trade routes\n- **Transportation maps**: Roads, railways, MRT lines\n- **Tourism maps**: Attractions, hotels, restaurants\n\n**Singapore Examples**:\n- **MRT map**: Shows train lines and stations\n- **Rainfall map**: Shows annual rainfall distribution\n- **Population density map**: Shows HDB concentrations\n- **Heritage map**: Shows historical sites and monuments\n\n**5. Road Maps**\n\nShow transportation networks:\n- Highways and expressways\n- Major roads\n- Neighborhoods\n- Points of interest\n\n**Singapore Example**: Singapore Street Directory shows:\n- Expressways (PIE, CTE, ECP, etc.)\n- Major roads with names\n- Bus stops and MRT stations\n- Shopping centers and landmarks\n\n**Modern Digital Maps**\n\n**Online Maps (Google Maps, Apple Maps)**:\n- Real-time traffic updates\n- Satellite imagery\n- Street View (360° photos)\n- Route planning\n- Points of interest (restaurants, shops)\n\n**GPS Navigation**:\n- Turn-by-turn directions\n- Estimated arrival times\n- Alternative routes\n- Voice guidance\n\n**Why Different Maps?**\n\nDifferent maps serve different purposes:\n- **Hikers** need topographic maps (elevation, trails)\n- **Drivers** need road maps (routes, exits)\n- **Students** need political maps (countries, capitals)\n- **Tourists** need thematic maps (attractions, food)\n- **Scientists** need physical maps (landforms, climate)\n\n**Map Skills in Singapore**\n\nUnderstanding maps helps you:\n- Navigate using MRT and bus maps\n- Plan routes using Google Maps\n- Understand news about neighboring countries\n- Appreciate Singapore's geography (small but well-organized)\n- Learn about your neighborhood (planning areas)\n- Explore heritage trails and nature reserves\n\n**Activity**: Compare different maps of Singapore (physical, political, MRT, heritage) and notice what each emphasizes.",
+              "content_zh": "**什么是地图？**\n\n**地图**是一个区域的视觉表示，显示物理特征、政治边界和其他信息。地图帮助我们理解空间关系和导航世界。\n\n**地图的关键要素**\n\n每张好地图都应该有：\n1. **标题**：地图显示的内容\n2. **图例/图标**：符号及其含义\n3. **比例尺**：地图距离与实际距离的关系\n4. **罗盘玫瑰**：显示方向（北、南、东、西）\n5. **网格线**：纬度和经度线（用于较大的地图）\n\n**主要地图类型**\n\n**1. 自然地图**\n\n显示地球的自然特征：\n- **地形**：山脉、山谷、平原、高原\n- **水体**：河流、湖泊、海洋\n- **海拔**：海拔高度（使用颜色）\n- **植被**：森林、沙漠、草原\n\n**颜色编码**：\n- 绿色：低海拔（平原、低地）\n- 黄色/棕色：中等海拔（丘陵）\n- 深棕色：高海拔（山脉）\n- 蓝色：水体\n\n**新加坡例子**：新加坡的自然地图会显示：\n- 武吉知马山（最高点163米）\n- 水库（麦里芝、勿洛等）\n- 沿海地区和岛屿\n- 北部的红树林沼泽\n\n**2. 政治地图**\n\n显示人造边界和分区：\n- **国家和边界**\n- **州/省**\n- **城市和城镇**\n- **首都**（通常用星星★标记）\n\n**不显示**：山脉或河流等物理特征（主要的除外）\n\n**新加坡例子**：新加坡的政治地图会显示：\n- 5个区域（中部、东部、北部、东北部、西部）\n- 规划区（共28个）\n- 邻国（马来西亚、印度尼西亚）\n- 主要城镇（宏茂桥、淡滨尼、裕廊西等）\n\n**3. 地形图**\n\n详细地图显示物理和人类特征：\n- **等高线**：连接海拔相等点的线\n- **道路和小径**\n- **建筑物和结构**\n- **植被**\n- **水特征**\n\n**阅读等高线**：\n- 线条紧密 = 陡坡\n- 线条稀疏 = 缓坡\n- 同心圆 = 山丘或凹陷\n\n**用途**：徒步旅行、城市规划、军事行动\n\n**4. 主题地图**\n\n显示特定主题或话题：\n- **气候地图**：温度、降雨带\n- **人口密度地图**：人们居住的地方\n- **经济地图**：工业、农业、贸易路线\n- **交通地图**：道路、铁路、地铁线路\n- **旅游地图**：景点、酒店、餐厅\n\n**新加坡例子**：\n- **地铁地图**：显示列车线路和车站\n- **降雨地图**：显示年降雨量分布\n- **人口密度地图**：显示组屋集中地\n- **遗产地图**：显示历史遗址和纪念碑\n\n**5. 道路地图**\n\n显示交通网络：\n- 高速公路和快速路\n- 主要道路\n- 社区\n- 兴趣点\n\n**新加坡例子**：新加坡街道指南显示：\n- 快速路（PIE、CTE、ECP等）\n- 有名称的主要道路\n- 巴士站和地铁站\n- 购物中心和地标\n\n**现代数字地图**\n\n**在线地图（谷歌地图、苹果地图）**：\n- 实时交通更新\n- 卫星图像\n- 街景（360°照片）\n- 路线规划\n- 兴趣点（餐厅、商店）\n\n**GPS导航**：\n- 逐步方向指引\n- 预计到达时间\n- 替代路线\n- 语音指导\n\n**为什么有不同的地图？**\n\n不同的地图服务于不同的目的：\n- **徒步旅行者**需要地形图（海拔、小径）\n- **司机**需要道路地图（路线、出口）\n- **学生**需要政治地图（国家、首都）\n- **游客**需要主题地图（景点、食物）\n- **科学家**需要自然地图（地形、气候）\n\n**新加坡的地图技能**\n\n理解地图帮助你：\n- 使用地铁和巴士地图导航\n- 使用谷歌地图规划路线\n- 了解有关邻国的新闻\n- 欣赏新加坡的地理（小但组织良好）\n- 了解你的社区（规划区）\n- 探索遗产小径和自然保护区\n\n**活动**：比较新加坡的不同地图（自然、政治、地铁、遗产），注意每张地图强调的内容。"
+            },
+            {
+              "id": "coordinates-scale",
+              "type": "text",
+              "title": "Coordinates and Map Scale",
+              "title_zh": "坐标和地图比例尺",
+              "content": "**Understanding Coordinates**\n\nCoordinates help us pinpoint exact locations on a map or globe using a grid system.\n\n**The Global Grid System**\n\n**Latitude Lines** (Parallels):\n- Run **east-west** (horizontal)\n- Measure distance **north or south** of the equator\n- Range: 0° (Equator) to 90°N (North Pole) and 90°S (South Pole)\n- Major lines:\n  - **Equator** (0°) - divides Earth into Northern and Southern hemispheres\n  - **Tropic of Cancer** (23.5°N)\n  - **Tropic of Capricorn** (23.5°S)\n  - **Arctic Circle** (66.5°N)\n  - **Antarctic Circle** (66.5°S)\n\n**Longitude Lines** (Meridians):\n- Run **north-south** (vertical)\n- Measure distance **east or west** of the Prime Meridian\n- Range: 0° (Prime Meridian) to 180°E and 180°W\n- Major line:\n  - **Prime Meridian** (0°) - passes through Greenwich, London\n  - **International Date Line** (180°)\n\n**How to Write Coordinates**\n\nFormat: (Latitude, Longitude)\n\nExamples:\n- **Singapore**: 1.3°N, 103.8°E (or 1.3, 103.8)\n- **London**: 51.5°N, 0.1°W\n- **Sydney**: 33.9°S, 151.2°E\n- **New York**: 40.7°N, 74.0°W\n\n**Singapore's Location**:\n- Just 1.3° north of the **Equator** (tropical climate!)\n- 103.8° east of the **Prime Meridian**\n- Between Malaysia (north) and Indonesia (south)\n- Strategic position on major sea trade routes\n\n**Four-Figure and Six-Figure Grid References**\n\nUsed on detailed maps (like topographic maps) for precise locations.\n\n**Four-Figure Grid Reference**:\n1. Read the **easting** (number along the bottom, left to right)\n2. Read the **northing** (number along the side, bottom to top)\n3. Example: Grid square **5238** means:\n   - Easting: 52\n   - Northing: 38\n\n**Six-Figure Grid Reference** (more precise):\n1. Divide each grid square into tenths\n2. Estimate how many tenths across and up\n3. Example: **523384** means:\n   - Easting: 52 + 3 tenths = 52.3\n   - Northing: 38 + 4 tenths = 38.4\n\n**Use in Singapore**:\n- Emergency services use precise coordinates\n- Orienteering competitions use grid references\n- Military and police use six-figure references\n\n**Understanding Map Scale**\n\n**Map scale** shows the relationship between distance on a map and actual distance on the ground.\n\n**Three Ways to Show Scale**\n\n**1. Ratio/Representative Fraction (RF)**\n\nFormat: 1:X or 1/X\n\nExamples:\n- **1:50,000** means 1 cm on the map = 50,000 cm (500m) in reality\n- **1:100,000** means 1 cm on the map = 100,000 cm (1 km) in reality\n\n**Small-scale maps** (e.g., 1:1,000,000):\n- Show large areas (whole countries, continents)\n- Less detail\n- Good for general reference\n\n**Large-scale maps** (e.g., 1:10,000):\n- Show small areas (neighborhoods, towns)\n- More detail\n- Good for navigation and planning\n\n**2. Linear/Bar Scale**\n\nA visual ruler showing actual distances\n\n**Advantage**: Still accurate even if map is photocopied or resized\n\n**3. Statement Scale**\n\nWritten description:\n- \"1 centimeter equals 5 kilometers\"\n- \"1 inch equals 1 mile\"\n\n**Calculating Distances Using Scale**\n\n**Example 1**: Using 1:50,000 scale\n- Measure map distance: 4 cm\n- Calculate: 4 cm × 50,000 = 200,000 cm = 2 km\n\n**Example 2**: Using statement scale (1 cm = 2 km)\n- Measure map distance: 3.5 cm\n- Calculate: 3.5 cm × 2 km = 7 km\n\n**Singapore Example**:\nOn a 1:50,000 map of Singapore:\n- Distance from City Hall MRT to Changi Airport: ~8 cm on map\n- Real distance: 8 cm × 50,000 = 400,000 cm = 4 km (approximately correct!)\n\n**Compass Directions**\n\n**Cardinal Directions** (main directions):\n- **N** - North (top)\n- **S** - South (bottom)\n- **E** - East (right)\n- **W** - West (left)\n\n**Intercardinal Directions** (in-between):\n- **NE** - Northeast\n- **SE** - Southeast\n- **SW** - Southwest\n- **NW** - Northwest\n\n**Using a Compass Rose**:\n1. Find the compass rose on the map\n2. Align north with the top of the map\n3. Determine the direction between two points\n\n**Example**:\n- Jurong is **west** of the city center\n- Changi Airport is **east** of the city center\n- Malaysia is **north** of Singapore\n\n**Bearing** (precise direction):\n- Measured in degrees (0°-360°)\n- 0° (or 360°) = North\n- 90° = East\n- 180° = South\n- 270° = West\n\n**Practical Applications in Singapore**\n\n**1. Using Google Maps**:\n- Shows your exact coordinates (tap on location)\n- Measures distances between points\n- Provides turn-by-turn directions with compass bearings\n\n**2. Emergency Services**:\n- Police/ambulance use GPS coordinates for precise locations\n- Especially important in large parks or nature reserves\n\n**3. National Parks**:\n- Trail maps use grid references\n- MacRitchie Reservoir, Bukit Timah Nature Reserve maps show coordinates\n\n**4. Urban Planning**:\n- URA Master Plan uses coordinate systems\n- Developers use precise coordinates for land plots\n\n**Map Reading Skills Summary**\n\nTo read a map effectively:\n1. Check the **title** (what does it show?)\n2. Read the **legend** (understand symbols)\n3. Note the **scale** (how to measure distances)\n4. Use the **compass rose** (find directions)\n5. Use **grid references** (locate specific points)\n6. Consider **coordinates** (global positioning)\n\n**Practice**: Next time you use Google Maps, try to:\n- Find your current coordinates\n- Identify which direction you're facing\n- Calculate distance to your destination\n- Use the scale bar to estimate walking time",
+              "content_zh": "**理解坐标**\n\n坐标帮助我们使用网格系统在地图或地球仪上精确定位位置。\n\n**全球网格系统**\n\n**纬线**（平行线）：\n- 沿**东西方向**（水平）\n- 测量距**赤道的南北距离**\n- 范围：0°（赤道）到90°N（北极）和90°S（南极）\n- 主要线条：\n  - **赤道**（0°）- 将地球分为北半球和南半球\n  - **北回归线**（23.5°N）\n  - **南回归线**（23.5°S）\n  - **北极圈**（66.5°N）\n  - **南极圈**（66.5°S）\n\n**经线**（子午线）：\n- 沿**南北方向**（垂直）\n- 测量距**本初子午线的东西距离**\n- 范围：0°（本初子午线）到180°E和180°W\n- 主要线条：\n  - **本初子午线**（0°）- 穿过伦敦格林威治\n  - **国际日期变更线**（180°）\n\n**如何书写坐标**\n\n格式：（纬度，经度）\n\n例子：\n- **新加坡**：1.3°N，103.8°E（或1.3，103.8）\n- **伦敦**：51.5°N，0.1°W\n- **悉尼**：33.9°S，151.2°E\n- **纽约**：40.7°N，74.0°W\n\n**新加坡的位置**：\n- 距**赤道**仅1.3°（热带气候！）\n- 距**本初子午线**东103.8°\n- 位于马来西亚（北）和印度尼西亚（南）之间\n- 主要海上贸易路线的战略位置\n\n**四位和六位网格参考**\n\n用于详细地图（如地形图）的精确位置。\n\n**四位网格参考**：\n1. 读取**东向**（底部的数字，从左到右）\n2. 读取**北向**（侧面的数字，从下到上）\n3. 例子：网格方格**5238**表示：\n   - 东向：52\n   - 北向：38\n\n**六位网格参考**（更精确）：\n1. 将每个网格方格分成十份\n2. 估计横向和纵向的十分之几\n3. 例子：**523384**表示：\n   - 东向：52 + 3/10 = 52.3\n   - 北向：38 + 4/10 = 38.4\n\n**在新加坡的使用**：\n- 紧急服务使用精确坐标\n- 定向越野比赛使用网格参考\n- 军队和警察使用六位参考\n\n**理解地图比例尺**\n\n**地图比例尺**显示地图上的距离与地面实际距离之间的关系。\n\n**三种显示比例尺的方式**\n\n**1. 比率/代表性分数（RF）**\n\n格式：1:X或1/X\n\n例子：\n- **1:50,000**表示地图上1厘米 = 实际50,000厘米（500米）\n- **1:100,000**表示地图上1厘米 = 实际100,000厘米（1公里）\n\n**小比例尺地图**（例如1:1,000,000）：\n- 显示大区域（整个国家、大陆）\n- 细节较少\n- 适合一般参考\n\n**大比例尺地图**（例如1:10,000）：\n- 显示小区域（社区、城镇）\n- 细节更多\n- 适合导航和规划\n\n**2. 线性/条形比例尺**\n\n显示实际距离的视觉标尺\n\n**优点**：即使地图被复印或调整大小，仍然准确\n\n**3. 陈述比例尺**\n\n书面描述：\n- \"1厘米等于5公里\"\n- \"1英寸等于1英里\"\n\n**使用比例尺计算距离**\n\n**例子1**：使用1:50,000比例尺\n- 测量地图距离：4厘米\n- 计算：4厘米 × 50,000 = 200,000厘米 = 2公里\n\n**例子2**：使用陈述比例尺（1厘米 = 2公里）\n- 测量地图距离：3.5厘米\n- 计算：3.5厘米 × 2公里 = 7公里\n\n**新加坡例子**：\n在1:50,000的新加坡地图上：\n- 从政府大厦地铁到樟宜机场的距离：地图上约8厘米\n- 实际距离：8厘米 × 50,000 = 400,000厘米 = 4公里（大约正确！）\n\n**罗盘方向**\n\n**基本方向**（主要方向）：\n- **N** - 北（顶部）\n- **S** - 南（底部）\n- **E** - 东（右侧）\n- **W** - 西（左侧）\n\n**中间方向**（之间）：\n- **NE** - 东北\n- **SE** - 东南\n- **SW** - 西南\n- **NW** - 西北\n\n**使用罗盘玫瑰**：\n1. 在地图上找到罗盘玫瑰\n2. 将北方与地图顶部对齐\n3. 确定两点之间的方向\n\n**例子**：\n- 裕廊在市中心**西部**\n- 樟宜机场在市中心**东部**\n- 马来西亚在新加坡**北部**\n\n**方位**（精确方向）：\n- 以度数测量（0°-360°）\n- 0°（或360°）= 北\n- 90° = 东\n- 180° = 南\n- 270° = 西\n\n**新加坡的实际应用**\n\n**1. 使用谷歌地图**：\n- 显示您的确切坐标（点击位置）\n- 测量点之间的距离\n- 提供带罗盘方位的逐步方向\n\n**2. 紧急服务**：\n- 警察/救护车使用GPS坐标精确定位\n- 在大型公园或自然保护区尤其重要\n\n**3. 国家公园**：\n- 步道地图使用网格参考\n- 麦里芝水库、武吉知马自然保护区地图显示坐标\n\n**4. 城市规划**：\n- URA总体规划使用坐标系统\n- 开发商使用精确坐标进行土地规划\n\n**地图阅读技能总结**\n\n有效阅读地图：\n1. 检查**标题**（显示什么？）\n2. 阅读**图例**（理解符号）\n3. 注意**比例尺**（如何测量距离）\n4. 使用**罗盘玫瑰**（找方向）\n5. 使用**网格参考**（定位特定点）\n6. 考虑**坐标**（全球定位）\n\n**练习**：下次使用谷歌地图时，尝试：\n- 找到您当前的坐标\n- 识别您面向的方向\n- 计算到目的地的距离\n- 使用比例尺估计步行时间"
+            },
+            {
+              "id": "reading-interpreting-maps",
+              "type": "text",
+              "title": "Reading and Interpreting Maps",
+              "title_zh": "阅读和解释地图",
+              "content": "**How to Read and Interpret Maps Effectively**\n\nMap reading is an essential skill for understanding geography, navigating, and making informed decisions.\n\n**Step-by-Step Guide to Reading Maps**\n\n**Step 1: Identify the Map Title**\n\nThe title tells you:\n- What area is shown (Singapore, Southeast Asia, World)\n- What theme is presented (physical, political, climate)\n- Time period (if historical map)\n\nExample: \"Political Map of Southeast Asia, 2024\"\n\n**Step 2: Check the Legend/Key**\n\nThe legend explains all symbols, colors, and patterns:\n\n**Common Symbols**:\n- ★ Capital city\n- ● Major city\n- ○ Town\n- ✈ Airport\n- ⛰ Mountain peak\n- ~ River\n- === Highway/expressway\n- --- Road\n- -·-·- International boundary\n\n**Color Meanings**:\n- **Blue** - Water (oceans, rivers, lakes)\n- **Green** - Low elevation, forests, parks\n- **Brown/Yellow** - Higher elevation, mountains\n- **Red** - Major roads, important features\n- **Purple** - Special features (military, restricted areas)\n\n**Step 3: Note the Scale**\n\nUnderstand how to measure real-world distances:\n- Use a ruler to measure map distance\n- Apply the scale to calculate actual distance\n- Remember: Small-scale = large area, less detail\n\n**Step 4: Orient with the Compass Rose**\n\n- Find north (usually at top)\n- Determine directions between locations\n- Understand relative positions\n\n**Step 5: Use Grid References**\n\n- Identify eastings (horizontal) and northings (vertical)\n- Locate specific features using coordinates\n- Cross-reference with index if available\n\n**Interpreting Different Map Types**\n\n**Physical Maps - What to Look For**:\n\n1. **Elevation Patterns**:\n   - Green/yellow = lowlands (good for agriculture, settlements)\n   - Brown/dark brown = highlands (less populated, tourism, forestry)\n   - Flat areas = plains (farming, cities)\n\n2. **Water Features**:\n   - Rivers: Transportation routes, water supply, settlement locations\n   - Coastlines: Ports, trade, fishing industries\n   - Lakes/reservoirs: Water storage, recreation\n\n3. **Climate Clues**:\n   - Distance from equator (latitude)\n   - Proximity to water bodies\n   - Mountain ranges (create rain shadows)\n\n**Singapore Physical Map Example**:\n- Very flat terrain (highest point only 163m)\n- Numerous reservoirs (water security)\n- Coastal island with many smaller islands\n- Mangrove areas in northwest (Sungei Buloh)\n\n**Political Maps - What to Look For**:\n\n1. **Boundaries**:\n   - International borders (thick lines)\n   - State/regional borders (thin lines)\n   - Administrative divisions\n\n2. **Cities**:\n   - Capital cities (starred)\n   - Population centers (circle size indicates population)\n   - Urban vs. rural areas\n\n3. **Names**:\n   - Country names (ALL CAPS)\n   - City names (Regular case)\n   - Water body names (Italics)\n\n**Singapore Political Map Example**:\n- City-state (no internal political divisions)\n- 5 regions for planning (not administrative)\n- Neighboring countries: Malaysia (Johor), Indonesia (Riau Islands)\n- Closest major cities: Johor Bahru, Batam\n\n**Thematic Maps - What to Look For**:\n\n**Population Density Map**:\n- Dark colors = high density (many people per km²)\n- Light colors = low density\n- Patterns: Urban vs. rural, coastal vs. inland\n\n**Singapore**: Very high density (8,000+ people per km²), concentrated in HDB estates\n\n**Climate Map**:\n- Color zones represent different climates\n- Look for patterns related to latitude, altitude, proximity to water\n\n**Singapore**: Tropical rainforest climate (all year hot and wet)\n\n**Economic/Resource Map**:\n- Symbols show industries, crops, minerals\n- Understand economic activities by region\n\n**Singapore**: Service economy (finance, trade, tourism), limited natural resources\n\n**Analyzing Maps: Key Questions**\n\n**Location Questions**:\n- Where is this place?\n- What are its coordinates?\n- What is it near? (relative location)\n\n**Place Questions**:\n- What are its physical features?\n- What is the climate?\n- What makes it unique?\n\n**Region Questions**:\n- What region is it part of? (Southeast Asia, tropics)\n- What do places in this region have in common?\n- How is it different from other regions?\n\n**Movement Questions**:\n- How do people/goods move through this area?\n- What transportation routes exist?\n- What barriers to movement are there?\n\n**Human-Environment Interaction Questions**:\n- How have humans adapted to this environment?\n- How have humans modified this environment?\n- What environmental challenges exist?\n\n**Practical Map Reading Skills**\n\n**1. Finding Your Location on a Map**:\n- Identify landmarks around you\n- Match landmarks to map symbols\n- Use compass or GPS for orientation\n- Cross-reference street names\n\n**2. Planning a Route**:\n- Identify start and end points\n- Find the shortest or fastest route\n- Note landmarks along the way\n- Estimate distance using scale\n- Consider terrain (hills, rivers to cross)\n\n**3. Understanding Contour Lines** (Topographic Maps):\n\nContour lines show elevation:\n- Each line represents specific height (e.g., 10m intervals)\n- Lines close together = steep slope\n- Lines far apart = gentle slope\n- Concentric circles = hill or mountain\n- Contour lines never cross (except cliffs)\n\n**Reading Slope**:\n```\nGentle slope: ________________\n              ________________\n              ________________\n\nSteep slope:  |||||||||||||||\n              |||||||||||||||\n              |||||||||||||||\n```\n\n**4. Measuring Distance**:\n\nMethod 1: Straight line\n- Use ruler on map\n- Apply scale\n- Calculate\n\nMethod 2: Curved route (like roads)\n- Use string or paper strip\n- Follow the route\n- Straighten and measure\n- Apply scale\n\n**Common Map Reading Mistakes**\n\n**Mistake 1**: Ignoring the scale\n- Fix: Always check scale before estimating distances\n\n**Mistake 2**: Confusing north with \"up\"\n- Fix: Always use compass rose, not map orientation\n\n**Mistake 3**: Misreading symbols\n- Fix: Always refer to the legend\n\n**Mistake 4**: Ignoring contour lines\n- Fix: Use contours to understand terrain difficulty\n\n**Mistake 5**: Not updating maps\n- Fix: Check publication date, use current maps for navigation\n\n**Modern Map Tools**\n\n**Google Maps Features**:\n1. **Satellite View**: See actual aerial photos\n2. **Street View**: 360° ground-level photos\n3. **Terrain View**: Shows elevation and landforms\n4. **Traffic View**: Real-time traffic conditions\n5. **Transit View**: Public transport routes\n\n**Using GPS with Maps**:\n- Shows your exact position\n- Tracks movement in real-time\n- Provides turn-by-turn navigation\n- Works with topographic maps for hiking\n\n**Singapore Map Reading Applications**\n\n**1. MRT System Map**:\n- Not geographically accurate (schematic)\n- Shows connections, not exact locations\n- Read by following colored lines\n- Transfer stations have multiple colors\n\n**2. HDB Estate Maps**:\n- Show block numbers, facilities\n- Help locate specific addresses\n- Usually include void deck locations\n\n**3. Park Connector Maps**:\n- Show cycling/walking routes\n- Link parks and green spaces\n- Include distances and estimated times\n\n**4. Heritage Trail Maps**:\n- Highlight historical sites\n- Numbered routes to follow\n- Include brief descriptions\n\n**5. OneMap Singapore**:\n- Official government mapping service\n- Combines physical, political, and thematic data\n- Interactive layers (planning areas, flood zones, heritage sites)\n- Useful for students, researchers, planners\n\n**Practice Exercise: Analyzing a Map of Singapore**\n\nGiven a map of Singapore, you should be able to:\n\n1. **Identify**:\n   - Title and type of map\n   - Scale (1:X,XXX)\n   - Key landmarks (Marina Bay, Changi Airport, Sentosa)\n\n2. **Locate**:\n   - Your school using address\n   - Nearest MRT station\n   - Neighboring countries\n\n3. **Measure**:\n   - Distance from east to west (approx. 50 km)\n   - Distance from north to south (approx. 27 km)\n   - Distance from your home to school\n\n4. **Describe**:\n   - Singapore's position (1°N of equator, 103°E)\n   - Physical features (flat, coastal, many islands)\n   - Major regions (Central, East, West, North, Northeast)\n\n5. **Explain**:\n   - Why Singapore's location is strategic for trade\n   - How land reclamation has changed the coastline\n   - Why water reservoirs are important (limited freshwater)\n\n**Conclusion**\n\nEffective map reading combines:\n- Technical skills (scale, coordinates, symbols)\n- Analytical thinking (patterns, relationships, significance)\n- Practical application (navigation, planning, decision-making)\n\nRegular practice with different map types will improve your geographic literacy and spatial awareness!",
+              "content_zh": "**如何有效阅读和解释地图**\n\n地图阅读是理解地理、导航和做出明智决策的基本技能。\n\n**阅读地图的分步指南**\n\n**步骤1：识别地图标题**\n\n标题告诉您：\n- 显示什么区域（新加坡、东南亚、世界）\n- 呈现什么主题（自然、政治、气候）\n- 时间段（如果是历史地图）\n\n例子：\"2024年东南亚政治地图\"\n\n**步骤2：检查图例/图标**\n\n图例解释所有符号、颜色和图案：\n\n**常见符号**：\n- ★ 首都\n- ● 主要城市\n- ○ 城镇\n- ✈ 机场\n- ⛰ 山峰\n- ~ 河流\n- === 高速公路/快速路\n- --- 道路\n- -·-·- 国际边界\n\n**颜色含义**：\n- **蓝色** - 水（海洋、河流、湖泊）\n- **绿色** - 低海拔、森林、公园\n- **棕色/黄色** - 较高海拔、山脉\n- **红色** - 主要道路、重要特征\n- **紫色** - 特殊特征（军事、限制区域）\n\n**步骤3：注意比例尺**\n\n了解如何测量真实世界的距离：\n- 使用尺子测量地图距离\n- 应用比例尺计算实际距离\n- 记住：小比例尺 = 大区域，细节较少\n\n**步骤4：使用罗盘玫瑰定向**\n\n- 找到北方（通常在顶部）\n- 确定位置之间的方向\n- 理解相对位置\n\n**步骤5：使用网格参考**\n\n- 识别东向（水平）和北向（垂直）\n- 使用坐标定位特定特征\n- 如有索引，交叉参考\n\n**解释不同类型的地图**\n\n**自然地图 - 要寻找什么**：\n\n1. **海拔模式**：\n   - 绿色/黄色 = 低地（适合农业、定居点）\n   - 棕色/深棕色 = 高地（人口较少、旅游、林业）\n   - 平坦区域 = 平原（农业、城市）\n\n2. **水特征**：\n   - 河流：运输路线、供水、定居点位置\n   - 海岸线：港口、贸易、渔业\n   - 湖泊/水库：蓄水、娱乐\n\n3. **气候线索**：\n   - 距赤道的距离（纬度）\n   - 靠近水体\n   - 山脉（造成雨影）\n\n**新加坡自然地图例子**：\n- 非常平坦的地形（最高点仅163米）\n- 众多水库（水安全）\n- 沿海岛屿，有许多小岛\n- 西北部的红树林地区（双溪布洛）\n\n**政治地图 - 要寻找什么**：\n\n1. **边界**：\n   - 国际边界（粗线）\n   - 州/地区边界（细线）\n   - 行政区划\n\n2. **城市**：\n   - 首都（带星号）\n   - 人口中心（圆圈大小表示人口）\n   - 城市与农村地区\n\n3. **名称**：\n   - 国家名称（全大写）\n   - 城市名称（常规大小写）\n   - 水体名称（斜体）\n\n**新加坡政治地图例子**：\n- 城市国家（无内部政治区划）\n- 5个规划区域（非行政区）\n- 邻国：马来西亚（柔佛）、印度尼西亚（廖内群岛）\n- 最近的主要城市：新山、巴淡岛\n\n**主题地图 - 要寻找什么**：\n\n**人口密度地图**：\n- 深色 = 高密度（每平方公里人数多）\n- 浅色 = 低密度\n- 模式：城市与农村、沿海与内陆\n\n**新加坡**：非常高密度（8,000+人/平方公里），集中在组屋区\n\n**气候地图**：\n- 颜色区域代表不同气候\n- 寻找与纬度、海拔、靠近水的模式\n\n**新加坡**：热带雨林气候（全年炎热潮湿）\n\n**经济/资源地图**：\n- 符号显示工业、作物、矿物\n- 按地区了解经济活动\n\n**新加坡**：服务经济（金融、贸易、旅游），自然资源有限\n\n**分析地图：关键问题**\n\n**位置问题**：\n- 这个地方在哪里？\n- 它的坐标是什么？\n- 它靠近什么？（相对位置）\n\n**地点问题**：\n- 它的物理特征是什么？\n- 气候如何？\n- 什么使它独特？\n\n**区域问题**：\n- 它属于什么区域？（东南亚、热带）\n- 该区域的地方有什么共同点？\n- 它与其他区域有何不同？\n\n**移动问题**：\n- 人/货物如何通过这个区域移动？\n- 存在什么运输路线？\n- 有什么移动障碍？\n\n**人与环境互动问题**：\n- 人类如何适应这个环境？\n- 人类如何改造这个环境？\n- 存在什么环境挑战？\n\n**实用地图阅读技能**\n\n**1. 在地图上找到您的位置**：\n- 识别周围的地标\n- 将地标与地图符号匹配\n- 使用罗盘或GPS定向\n- 交叉参考街道名称\n\n**2. 规划路线**：\n- 识别起点和终点\n- 找到最短或最快路线\n- 注意沿途地标\n- 使用比例尺估计距离\n- 考虑地形（山丘、需要穿越的河流）\n\n**3. 理解等高线**（地形图）：\n\n等高线显示海拔：\n- 每条线代表特定高度（例如10米间隔）\n- 线条紧密 = 陡坡\n- 线条稀疏 = 缓坡\n- 同心圆 = 山丘或山峰\n- 等高线永远不会交叉（悬崖除外）\n\n**4. 测量距离**：\n\n方法1：直线\n- 在地图上使用尺子\n- 应用比例尺\n- 计算\n\n方法2：曲线路线（如道路）\n- 使用线或纸条\n- 跟随路线\n- 拉直并测量\n- 应用比例尺\n\n**常见地图阅读错误**\n\n**错误1**：忽略比例尺\n- 修复：在估计距离之前始终检查比例尺\n\n**错误2**：将北方与\"上\"混淆\n- 修复：始终使用罗盘玫瑰，而非地图方向\n\n**错误3**：误读符号\n- 修复：始终参考图例\n\n**错误4**：忽略等高线\n- 修复：使用等高线理解地形难度\n\n**错误5**：不更新地图\n- 修复：检查出版日期，使用当前地图导航\n\n**现代地图工具**\n\n**谷歌地图功能**：\n1. **卫星视图**：查看实际航空照片\n2. **街景**：360°地面照片\n3. **地形视图**：显示海拔和地形\n4. **交通视图**：实时交通状况\n5. **公交视图**：公共交通路线\n\n**使用GPS和地图**：\n- 显示您的确切位置\n- 实时跟踪移动\n- 提供逐步导航\n- 适用于徒步旅行的地形图\n\n**新加坡地图阅读应用**\n\n**1. 地铁系统地图**：\n- 不是地理精确的（示意图）\n- 显示连接，而非确切位置\n- 通过跟随彩色线条阅读\n- 换乘站有多种颜色\n\n**2. 组屋区地图**：\n- 显示组屋号码、设施\n- 帮助定位特定地址\n- 通常包括底层空地位置\n\n**3. 公园连道地图**：\n- 显示骑行/步行路线\n- 连接公园和绿色空间\n- 包括距离和预计时间\n\n**4. 遗产小径地图**：\n- 突出历史遗址\n- 编号路线跟随\n- 包括简要描述\n\n**5. OneMap新加坡**：\n- 官方政府地图服务\n- 结合自然、政治和主题数据\n- 交互式图层（规划区、洪水区、遗产遗址）\n- 对学生、研究人员、规划者有用\n\n**练习：分析新加坡地图**\n\n给定新加坡地图，您应该能够：\n\n1. **识别**：\n   - 标题和地图类型\n   - 比例尺（1:X,XXX）\n   - 关键地标（滨海湾、樟宜机场、圣淘沙）\n\n2. **定位**：\n   - 使用地址找到您的学校\n   - 最近的地铁站\n   - 邻国\n\n3. **测量**：\n   - 从东到西的距离（约50公里）\n   - 从北到南的距离（约27公里）\n   - 从您家到学校的距离\n\n4. **描述**：\n   - 新加坡的位置（赤道以北1°，东经103°）\n   - 物理特征（平坦、沿海、许多岛屿）\n   - 主要区域（中部、东部、西部、北部、东北部）\n\n5. **解释**：\n   - 为什么新加坡的位置对贸易至关重要\n   - 填海造陆如何改变了海岸线\n   - 为什么水库很重要（淡水有限）\n\n**结论**\n\n有效的地图阅读结合：\n- 技术技能（比例尺、坐标、符号）\n- 分析思维（模式、关系、意义）\n- 实际应用（导航、规划、决策）\n\n定期练习不同类型的地图将提高您的地理素养和空间意识！"
+            }
+          ],
+          "exercises": [
+            {
+              "id": "map-ex1",
+              "type": "mcq",
+              "difficulty": "easy",
+              "prompt": "What type of map shows natural features like mountains and rivers?",
+              "prompt_zh": "什么类型的地图显示山脉和河流等自然特征？",
+              "choices": [
+                "Physical map",
+                "Political map",
+                "Road map",
+                "Thematic map"
+              ],
+              "choices_zh": [
+                "自然地图",
+                "政治地图",
+                "道路地图",
+                "专题地图"
+              ],
+              "answer": 0,
+              "explanation": "Physical maps show natural features using colors to represent elevation (green for lowlands, brown for highlands).",
+              "explanation_zh": "自然地图使用颜色显示自然特征以代表海拔（绿色代表低地，棕色代表高地）。"
+            },
+            {
+              "id": "map-ex2",
+              "type": "mcq",
+              "difficulty": "medium",
+              "prompt": "What are Singapore's approximate coordinates?",
+              "prompt_zh": "新加坡的大致坐标是什么？",
+              "choices": [
+                "1.3°N, 103.8°E",
+                "40°N, 74°W",
+                "51°N, 0°E",
+                "35°S, 150°E"
+              ],
+              "choices_zh": [
+                "北纬1.3°，东经103.8°",
+                "北纬40°，西经74°",
+                "北纬51°，东经0°",
+                "南纬35°，东经150°"
+              ],
+              "answer": 0,
+              "explanation": "Singapore is located at 1.3°N latitude and 103.8°E longitude, very close to the equator.",
+              "explanation_zh": "新加坡位于北纬1.3°和东经103.8°，非常靠近赤道。"
+            },
+            {
+              "id": "map-ex3",
+              "type": "short",
+              "difficulty": "easy",
+              "prompt": "What is the line at 0° latitude called?",
+              "prompt_zh": "0°纬度的线叫什么？",
+              "answer": "equator",
+              "answer_zh": "赤道",
+              "validator": "smart",
+              "explanation": "The equator is the line at 0° latitude that divides Earth into Northern and Southern hemispheres.",
+              "explanation_zh": "赤道是0°纬度的线，将地球分为北半球和南半球。"
+            },
+            {
+              "id": "map-ex4",
+              "type": "mcq",
+              "difficulty": "hard",
+              "prompt": "On a map with scale 1:50,000, if two points are 4 cm apart, what is the real distance?",
+              "prompt_zh": "在比例尺为1:50,000的地图上，如果两点相距4厘米，实际距离是多少？",
+              "choices": [
+                "2 km",
+                "4 km",
+                "200 m",
+                "20 km"
+              ],
+              "choices_zh": [
+                "2公里",
+                "4公里",
+                "200米",
+                "20公里"
+              ],
+              "answer": 0,
+              "explanation": "4 cm × 50,000 = 200,000 cm = 2,000 m = 2 km",
+              "explanation_zh": "4厘米 × 50,000 = 200,000厘米 = 2,000米 = 2公里"
+            },
+            {
+              "id": "map-ex5",
+              "type": "mcq",
+              "difficulty": "medium",
+              "prompt": "What does the compass rose on a map show?",
+              "prompt_zh": "地图上的罗盘玫瑰显示什么？",
+              "choices": [
+                "Cardinal directions (N, S, E, W)",
+                "Scale",
+                "Elevation",
+                "Population"
+              ],
+              "choices_zh": [
+                "基本方向（北、南、东、西）",
+                "比例尺",
+                "海拔",
+                "人口"
+              ],
+              "answer": 0,
+              "explanation": "The compass rose shows cardinal directions (North, South, East, West) and sometimes intercardinal directions (NE, SE, SW, NW).",
+              "explanation_zh": "罗盘玫瑰显示基本方向（北、南、东、西）以及有时的中间方向（东北、东南、西南、西北）。"
+            },
+            {
+              "id": "map-ex6",
+              "type": "short",
+              "difficulty": "medium",
+              "prompt": "What is the line at 0° longitude called?",
+              "prompt_zh": "0°经度的线叫什么？",
+              "answer": "Prime Meridian",
+              "answer_zh": "本初子午线",
+              "validator": "smart",
+              "explanation": "The Prime Meridian at 0° longitude passes through Greenwich, UK and divides Earth into Eastern and Western hemispheres.",
+              "explanation_zh": "本初子午线在0°经度经过英国格林威治，将地球分为东半球和西半球。"
+            },
+            {
+              "id": "map-ex7",
+              "type": "mcq",
+              "difficulty": "easy",
+              "prompt": "Why is the Singapore MRT map considered a schematic map?",
+              "prompt_zh": "为什么新加坡地铁地图被认为是示意图？",
+              "choices": [
+                "It shows connections but not accurate distances",
+                "It shows exact geographic locations",
+                "It is drawn to scale",
+                "It only shows one MRT line"
+              ],
+              "choices_zh": [
+                "它显示连接但距离不准确",
+                "它显示准确的地理位置",
+                "它按比例绘制",
+                "它只显示一条地铁线"
+              ],
+              "answer": 0,
+              "explanation": "The MRT map is schematic because it prioritizes clarity of connections over accurate geographic distances or locations.",
+              "explanation_zh": "地铁地图是示意性的，因为它优先考虑连接的清晰度而非准确的地理距离或位置。"
+            },
+            {
+              "id": "map-ex8",
+              "type": "mcq",
+              "difficulty": "hard",
+              "prompt": "What does a four-figure grid reference identify?",
+              "prompt_zh": "四位网格参考识别什么？",
+              "choices": [
+                "A whole grid square (1 km²)",
+                "An exact point",
+                "A 100m × 100m area",
+                "A city"
+              ],
+              "choices_zh": [
+                "整个网格方块（1平方公里）",
+                "一个确切点",
+                "100米 × 100米区域",
+                "一个城市"
+              ],
+              "answer": 0,
+              "explanation": "A four-figure grid reference (e.g., 5834) identifies a whole 1 km² grid square, while a six-figure reference is more precise (100m × 100m).",
+              "explanation_zh": "四位网格参考（如5834）识别整个1平方公里的网格方块，而六位参考更精确（100米 × 100米）。"
+            },
+            {
+              "id": "map-ex9",
+              "type": "short",
+              "difficulty": "easy",
+              "prompt": "What technology uses satellites to find your exact location?",
+              "prompt_zh": "什么技术使用卫星查找你的确切位置？",
+              "answer": "GPS",
+              "answer_zh": "GPS",
+              "validator": "smart",
+              "explanation": "GPS (Global Positioning System) uses satellites to determine location, powering navigation apps like Google Maps.",
+              "explanation_zh": "GPS（全球定位系统）使用卫星确定位置，为谷歌地图等导航应用提供动力。"
+            },
+            {
+              "id": "map-ex10",
+              "type": "mcq",
+              "difficulty": "medium",
+              "prompt": "On topographic maps, what do contour lines that are close together indicate?",
+              "prompt_zh": "在地形图上，靠近的等高线表示什么？",
+              "choices": [
+                "Steep slope",
+                "Gentle slope",
+                "Flat land",
+                "Water body"
+              ],
+              "choices_zh": [
+                "陡坡",
+                "缓坡",
+                "平地",
+                "水体"
+              ],
+              "answer": 0,
+              "explanation": "Close contour lines indicate a steep slope, while lines far apart indicate a gentle slope.",
+              "explanation_zh": "靠近的等高线表示陡坡，而相距较远的线表示缓坡。"
+            },
+            {
+              "id": "map-ex11",
+              "type": "mcq",
+              "difficulty": "easy",
+              "prompt": "What essential element explains the symbols and colors on a map?",
+              "prompt_zh": "哪个基本元素解释地图上的符号和颜色？",
+              "choices": [
+                "Legend/Key",
+                "Title",
+                "Scale",
+                "Compass rose"
+              ],
+              "choices_zh": [
+                "图例/图标",
+                "标题",
+                "比例尺",
+                "罗盘玫瑰"
+              ],
+              "answer": 0,
+              "explanation": "The legend or key explains what the symbols and colors on a map represent.",
+              "explanation_zh": "图例或图标解释地图上的符号和颜色代表什么。"
+            },
+            {
+              "id": "map-ex12",
+              "type": "short",
+              "difficulty": "medium",
+              "prompt": "At what degree bearing is East?",
+              "prompt_zh": "东方位的度数是多少？",
+              "answer": "90",
+              "answer_zh": "90",
+              "validator": "smart",
+              "explanation": "East is at 90° bearing, measured clockwise from North (0°/360°).",
+              "explanation_zh": "东方位在90°，从北方（0°/360°）顺时针测量。"
+            },
+            {
+              "id": "map-ex13",
+              "type": "mcq",
+              "difficulty": "hard",
+              "prompt": "What is OneMap Singapore used for?",
+              "prompt_zh": "OneMap新加坡用于什么？",
+              "choices": [
+                "Government mapping portal with GIS data layers",
+                "Private navigation app",
+                "Gaming map",
+                "Weather forecasting"
+              ],
+              "choices_zh": [
+                "带有GIS数据层的政府地图门户",
+                "私人导航应用",
+                "游戏地图",
+                "天气预报"
+              ],
+              "answer": 0,
+              "explanation": "OneMap is Singapore's government mapping portal using GIS (Geographic Information Systems) to combine multiple data layers for urban planning.",
+              "explanation_zh": "OneMap是新加坡的政府地图门户，使用GIS（地理信息系统）结合多个数据层进行城市规划。"
+            },
+            {
+              "id": "map-ex14",
+              "type": "mcq",
+              "difficulty": "medium",
+              "prompt": "Which scale shows MORE detail of a smaller area?",
+              "prompt_zh": "哪个比例尺显示更小区域的更多细节？",
+              "choices": [
+                "Large scale (1:50,000)",
+                "Small scale (1:1,000,000)",
+                "They show the same detail",
+                "Neither shows detail"
+              ],
+              "choices_zh": [
+                "大比例尺（1:50,000）",
+                "小比例尺（1:1,000,000）",
+                "它们显示相同的细节",
+                "都不显示细节"
+              ],
+              "answer": 0,
+              "explanation": "Large scale maps (1:50,000) show more detail of smaller areas, while small scale maps (1:1,000,000) show less detail of larger areas.",
+              "explanation_zh": "大比例尺地图（1:50,000）显示更小区域的更多细节，而小比例尺地图（1:1,000,000）显示更大区域的更少细节。"
+            },
+            {
+              "id": "map-ex15",
+              "type": "drag-order",
+              "difficulty": "medium",
+              "prompt": "Arrange these directions in clockwise order starting from North:",
+              "prompt_zh": "从北方开始按顺时针顺序排列这些方向：",
+              "items": [
+                "North",
+                "East",
+                "South",
+                "West"
+              ],
+              "items_zh": [
+                "北",
+                "东",
+                "南",
+                "西"
+              ],
+              "answer": [
+                "North",
+                "East",
+                "South",
+                "West"
+              ],
+              "explanation": "Clockwise from North: N (0°) → E (90°) → S (180°) → W (270°)",
+              "explanation_zh": "从北方顺时针：北（0°）→ 东（90°）→ 南（180°）→ 西（270°）"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

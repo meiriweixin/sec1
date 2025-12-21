@@ -1,0 +1,13 @@
+{
+  "subjects": [
+    {
+      "id": "humanities",
+      "title": "Humanities",
+      "title_zh": "人文",
+      "description": "History and Geography for Secondary 1",
+      "description_zh": "中一历史与地理",
+      "color": "from-amber-500 to-orange-600",
+      "chapters": []
+    }
+  ]
+}
