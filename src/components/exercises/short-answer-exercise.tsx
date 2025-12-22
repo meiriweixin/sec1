@@ -79,6 +79,7 @@ export function ShortAnswerExercise({
   /**
    * Smart validation with flexible matching
    * Allows reasonable formatting variations while maintaining correctness
+   * Enhanced for Humanities-style answers (essays, explanations)
    */
   const validateAnswerSmart = (input: string, correct: string): boolean => {
     const normInput = normalizeAnswer(input);
@@ -100,7 +101,81 @@ export function ShortAnswerExercise({
     // Check if all words in correct answer appear in input (order doesn't matter)
     if (correctWords.every(word => inputWords.includes(word))) return true;
 
+    // === ENHANCED MATCHING FOR LONGER ANSWERS ===
+
+    // Remove common stop words for comparison
+    const stopWords = ['is', 'are', 'was', 'were', 'be', 'been', 'being', 'have', 'has', 'had',
+      'do', 'does', 'did', 'will', 'would', 'could', 'should', 'may', 'might', 'must',
+      'shall', 'can', 'need', 'dare', 'ought', 'used', 'to', 'of', 'in', 'for', 'on',
+      'with', 'at', 'by', 'from', 'as', 'into', 'through', 'during', 'before', 'after',
+      'above', 'below', 'between', 'under', 'again', 'further', 'then', 'once', 'here',
+      'there', 'when', 'where', 'why', 'how', 'all', 'each', 'few', 'more', 'most',
+      'other', 'some', 'such', 'no', 'nor', 'not', 'only', 'own', 'same', 'so', 'than',
+      'too', 'very', 'just', 'and', 'but', 'if', 'or', 'because', 'until', 'while',
+      'that', 'which', 'who', 'whom', 'this', 'these', 'those', 'it', 'its'];
+
+    const getKeyWords = (words: string[]) =>
+      words.filter(w => w.length > 2 && !stopWords.includes(w));
+
+    const inputKeyWords = getKeyWords(inputWords);
+    const correctKeyWords = getKeyWords(correctWords);
+
+    // For longer answers (3+ key words), check if enough key words match
+    if (correctKeyWords.length >= 3) {
+      const matchingKeyWords = correctKeyWords.filter(word =>
+        inputKeyWords.some(inputWord =>
+          inputWord === word ||
+          inputWord.includes(word) ||
+          word.includes(inputWord) ||
+          // Allow for slight typos (1-2 char difference for words > 4 chars)
+          (word.length > 4 && inputWord.length > 4 &&
+           levenshteinDistance(word, inputWord) <= 2)
+        )
+      );
+
+      // Accept if 60%+ of key words match (more lenient for essays)
+      const matchRatio = matchingKeyWords.length / correctKeyWords.length;
+      if (matchRatio >= 0.6) return true;
+    }
+
+    // Check if input contains the main concept (first 2-3 key words)
+    if (correctKeyWords.length >= 2) {
+      const mainConcepts = correctKeyWords.slice(0, 3);
+      const conceptsFound = mainConcepts.filter(concept =>
+        inputKeyWords.some(word => word.includes(concept) || concept.includes(word))
+      );
+      if (conceptsFound.length >= Math.ceil(mainConcepts.length * 0.6)) return true;
+    }
+
+    // Substring match for short answers embedded in longer responses
+    if (normCorrect.length <= 30 && normInput.includes(normCorrect)) return true;
+    if (normInput.length <= 30 && normCorrect.includes(normInput)) return true;
+
     return false;
+  };
+
+  /**
+   * Calculate Levenshtein distance between two strings
+   * Used for typo tolerance in smart validation
+   */
+  const levenshteinDistance = (str1: string, str2: string): number => {
+    const m = str1.length;
+    const n = str2.length;
+    const dp: number[][] = Array(m + 1).fill(null).map(() => Array(n + 1).fill(0));
+
+    for (let i = 0; i <= m; i++) dp[i][0] = i;
+    for (let j = 0; j <= n; j++) dp[0][j] = j;
+
+    for (let i = 1; i <= m; i++) {
+      for (let j = 1; j <= n; j++) {
+        if (str1[i - 1] === str2[j - 1]) {
+          dp[i][j] = dp[i - 1][j - 1];
+        } else {
+          dp[i][j] = 1 + Math.min(dp[i - 1][j], dp[i][j - 1], dp[i - 1][j - 1]);
+        }
+      }
+    }
+    return dp[m][n];
   };
 
   const validateAnswer = (input: string): boolean => {
