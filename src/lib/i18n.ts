@@ -83,6 +83,23 @@ export const translations = {
     view: "View",
     review: "Review",
 
+    // Review Page
+    wrongAnswers: "Wrong Answers",
+    reviewWrongAnswers: "Review your incorrectly answered questions",
+    markReviewing: "Mark as Reviewing",
+    markUnderstood: "Mark as Understood",
+    similarQuestions: "Similar Questions",
+    generateSimilar: "Generate similar practice questions",
+    noWrongAnswers: "No wrong answers to review",
+    allCorrect: "Great job! You've answered all questions correctly.",
+    originalQuestion: "Original Question",
+    practiceMore: "Practice More",
+    generatingSimilar: "Generating similar questions...",
+    aiNotConfigured: "AI is not configured. Please set up Azure OpenAI.",
+    reviewing: "Reviewing",
+    understood: "Understood",
+    backToReview: "Back to Review",
+
     // Common
     loading: "Loading...",
     error: "Error",
@@ -180,6 +197,23 @@ export const translations = {
     reviewDueToday: "今日需复习",
     view: "查看",
     review: "复习",
+
+    // Review Page
+    wrongAnswers: "错题回顾",
+    reviewWrongAnswers: "复习你答错的题目",
+    markReviewing: "标记为复习中",
+    markUnderstood: "标记为已理解",
+    similarQuestions: "类似题目",
+    generateSimilar: "生成类似练习题",
+    noWrongAnswers: "没有错题需要复习",
+    allCorrect: "太棒了！你已正确回答所有问题。",
+    originalQuestion: "原题目",
+    practiceMore: "继续练习",
+    generatingSimilar: "正在生成类似题目...",
+    aiNotConfigured: "AI未配置。请设置Azure OpenAI。",
+    reviewing: "复习中",
+    understood: "已理解",
+    backToReview: "返回复习",
 
     // Common
     loading: "加载中...",

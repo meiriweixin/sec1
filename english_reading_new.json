@@ -1,0 +1,192 @@
+[
+  {
+    "id": "eng-read-16",
+    "type": "mcq",
+    "prompt": "Read the passage:\n\n\"The Singapore Botanic Gardens, established in 1859, is the only tropical garden to be honoured as a UNESCO World Heritage Site. Spanning 82 hectares, it houses more than 10,000 species of plants. The Gardens played a crucial role in introducing rubber cultivation to Southeast Asia, which transformed the region's economy.\"\n\nWhat is the main purpose of this passage?",
+    "choices": [
+      "To describe the history and significance of the Singapore Botanic Gardens",
+      "To explain how rubber is cultivated",
+      "To list all UNESCO World Heritage Sites",
+      "To compare tropical and temperate gardens"
+    ],
+    "answer": 0,
+    "explanation": "The passage focuses on the history (established 1859), significance (UNESCO World Heritage Site), and impact (rubber cultivation) of the Singapore Botanic Gardens.",
+    "validator": "smart"
+  },
+  {
+    "id": "eng-read-17",
+    "type": "short",
+    "prompt": "Based on the passage about Singapore Botanic Gardens, what economic impact did the Gardens have on Southeast Asia?",
+    "answer": "introduced rubber cultivation",
+    "hint": "Look for information about how the Gardens 'transformed' the region.",
+    "explanation": "The passage states that the Gardens 'played a crucial role in introducing rubber cultivation to Southeast Asia, which transformed the region's economy.'",
+    "validator": "smart"
+  },
+  {
+    "id": "eng-read-18",
+    "type": "mcq",
+    "prompt": "Read the passage:\n\n\"Hawker centres are the heart of Singapore's food culture. These open-air food courts offer a dizzying array of local dishes at affordable prices. From chicken rice to laksa, each stall specializes in perfecting a single dish, often passed down through generations. In 2020, Singapore's hawker culture was inscribed on UNESCO's Representative List of the Intangible Cultural Heritage of Humanity.\"\n\nWhat can you infer about hawker stall owners from this passage?",
+    "choices": [
+      "They typically focus on mastering one dish rather than offering many",
+      "They all serve chicken rice and laksa",
+      "They only cook for tourists",
+      "They have formal culinary training"
+    ],
+    "answer": 0,
+    "explanation": "The passage states 'each stall specializes in perfecting a single dish', implying stall owners focus on mastering one dish.",
+    "validator": "smart"
+  },
+  {
+    "id": "eng-read-19",
+    "type": "multi",
+    "prompt": "Based on the hawker centre passage, which statements are TRUE? (Select all that apply)",
+    "choices": [
+      "Hawker centres are an important part of Singapore's culture",
+      "Food at hawker centres is generally affordable",
+      "UNESCO recognized Singapore's hawker culture",
+      "Hawker centres are indoor facilities"
+    ],
+    "answer": [0, 1, 2],
+    "explanation": "The passage confirms: hawker centres are 'the heart of Singapore's food culture' (important), offer food 'at affordable prices', and were 'inscribed on UNESCO's Representative List'. However, they are described as 'open-air', not indoor.",
+    "validator": "smart"
+  },
+  {
+    "id": "eng-read-20",
+    "type": "mcq",
+    "prompt": "Read the passage:\n\n\"Mr. Tan adjusted his spectacles and peered at the old photograph. The kampong where he grew up was unrecognizable now—gleaming HDB flats stood where attap houses once clustered. He remembered catching spiders in the lalang grass, swimming in the monsoon drains after heavy rains. His grandchildren would never know that world, he thought with a bittersweet smile.\"\n\nWhat is the author's tone in this passage?",
+    "choices": [
+      "Nostalgic and reflective",
+      "Angry and resentful",
+      "Excited and optimistic",
+      "Confused and uncertain"
+    ],
+    "answer": 0,
+    "explanation": "Words like 'bittersweet smile', memories of childhood activities, and the contrast between past and present suggest a nostalgic, reflective tone.",
+    "validator": "smart"
+  },
+  {
+    "id": "eng-read-21",
+    "type": "short",
+    "prompt": "In the passage about Mr. Tan, what word shows he has mixed feelings about the changes?",
+    "answer": "bittersweet",
+    "hint": "Look for a word that combines both positive and negative emotions.",
+    "explanation": "'Bittersweet' means experiencing both happiness and sadness simultaneously, perfectly capturing Mr. Tan's mixed feelings.",
+    "validator": "smart"
+  },
+  {
+    "id": "eng-read-22",
+    "type": "mcq",
+    "prompt": "Read the passage:\n\n\"The Merlion, Singapore's iconic half-lion, half-fish statue, symbolizes the nation's origins. The lion head represents Singapura—the original Sanskrit name meaning 'Lion City'—while the fish body acknowledges Singapore's history as a fishing village called Temasek. Standing 8.6 meters tall at Marina Bay, this mythical creature has become synonymous with Singapore itself.\"\n\nWhat is the relationship between the Merlion's design and Singapore's history?",
+    "choices": [
+      "Each part of the Merlion represents a different period in Singapore's past",
+      "The Merlion was designed to attract tourists",
+      "The Merlion is based on an ancient local legend",
+      "The Merlion was created to replace an older monument"
+    ],
+    "answer": 0,
+    "explanation": "The lion head represents the 'Lion City' (Singapura) name, while the fish body represents the fishing village (Temasek) history—two different historical periods.",
+    "validator": "smart"
+  },
+  {
+    "id": "eng-read-23",
+    "type": "drag-order",
+    "prompt": "Arrange these events from the Merlion passage in chronological order:",
+    "items": [
+      "Singapore was a fishing village called Temasek",
+      "The place was named Singapura (Lion City)",
+      "The Merlion statue was built at Marina Bay"
+    ],
+    "answer": [
+      "Singapore was a fishing village called Temasek",
+      "The place was named Singapura (Lion City)",
+      "The Merlion statue was built at Marina Bay"
+    ],
+    "explanation": "Chronologically: Temasek (ancient fishing village) → Singapura (later name) → Merlion (modern statue)."
+  },
+  {
+    "id": "eng-read-24",
+    "type": "mcq",
+    "prompt": "Read the passage:\n\n\"'Singlish,' Singapore's unique English-based creole, blends English with Malay, Hokkien, Teochew, Cantonese, and Tamil. While the government promotes Standard English through the 'Speak Good English Movement,' many Singaporeans view Singlish as a beloved marker of local identity. Phrases like 'can lah' and 'alamak' pepper everyday conversations, creating a linguistic tapestry that reflects the nation's multicultural heritage.\"\n\nWhat is the author's perspective on Singlish?",
+    "choices": [
+      "Balanced—acknowledging both official concerns and cultural value",
+      "Strongly negative—Singlish should be eliminated",
+      "Strongly positive—Singlish is better than Standard English",
+      "Indifferent—the author has no opinion"
+    ],
+    "answer": 0,
+    "explanation": "The author presents both the government's promotion of Standard English AND Singaporeans' view of Singlish as 'beloved', showing a balanced perspective.",
+    "validator": "smart"
+  },
+  {
+    "id": "eng-read-25",
+    "type": "short",
+    "prompt": "According to the Singlish passage, what metaphor does the author use to describe the mix of languages?",
+    "answer": "linguistic tapestry",
+    "hint": "Look for a phrase that compares the language mix to something woven together.",
+    "explanation": "The author uses 'linguistic tapestry' to describe how different languages are woven together in Singlish.",
+    "validator": "smart"
+  },
+  {
+    "id": "eng-read-26",
+    "type": "mcq",
+    "prompt": "Read the passage:\n\n\"Every August 9th, Singapore celebrates National Day with a grand parade, spectacular fireworks, and heartfelt renditions of patriotic songs. The Red Lions parachute team descends from the sky, fighter jets roar overhead in formation, and citizens wave the national flag. Yet beyond the pageantry, the day serves as a reminder of the nation's journey from a small colonial outpost to a thriving global city.\"\n\nWhat is the author suggesting about National Day?",
+    "choices": [
+      "It has both celebratory and reflective purposes",
+      "It is only about entertainment and shows",
+      "It celebrates Singapore's colonial past",
+      "It is becoming less popular"
+    ],
+    "answer": 0,
+    "explanation": "The phrase 'Yet beyond the pageantry' signals that National Day is more than just celebration—it's also 'a reminder of the nation's journey.'",
+    "validator": "smart"
+  },
+  {
+    "id": "eng-read-27",
+    "type": "multi",
+    "prompt": "From the National Day passage, which activities are mentioned? (Select all that apply)",
+    "choices": [
+      "Parachute team performance",
+      "Fireworks display",
+      "Fighter jet flyover",
+      "Marathon race"
+    ],
+    "answer": [0, 1, 2],
+    "explanation": "The passage mentions: Red Lions parachute team, fireworks, and fighter jets. A marathon is not mentioned.",
+    "validator": "smart"
+  },
+  {
+    "id": "eng-read-28",
+    "type": "mcq",
+    "prompt": "Read the passage:\n\n\"Climate change poses an existential threat to Singapore. As a low-lying island nation, rising sea levels could submerge significant portions of the coastline. The government has pledged $100 billion over the next century for coastal protection measures, including sea walls and land reclamation. However, experts warn that adaptation alone is insufficient—global cooperation to reduce emissions remains essential.\"\n\nWhat is the main argument of this passage?",
+    "choices": [
+      "Singapore must both adapt locally and support global climate action",
+      "Singapore's coastal protection is already sufficient",
+      "Climate change only affects Singapore's coastline",
+      "The government should spend more than $100 billion"
+    ],
+    "answer": 0,
+    "explanation": "The passage presents Singapore's adaptation efforts BUT concludes that 'adaptation alone is insufficient—global cooperation to reduce emissions remains essential.'",
+    "validator": "smart"
+  },
+  {
+    "id": "eng-read-29",
+    "type": "short",
+    "prompt": "In the climate change passage, what phrase indicates that climate change is a severe threat?",
+    "answer": "existential threat",
+    "hint": "Look for a phrase at the beginning that describes the level of danger.",
+    "explanation": "'Existential threat' means a threat to existence itself—the most severe type of danger possible.",
+    "validator": "smart"
+  },
+  {
+    "id": "eng-read-30",
+    "type": "match",
+    "prompt": "Match each reading skill with its definition:",
+    "pairs": [
+      {"left": "Inference", "right": "Drawing conclusions from clues"},
+      {"left": "Main Idea", "right": "The central message of a text"},
+      {"left": "Tone", "right": "The author's attitude"},
+      {"left": "Evidence", "right": "Facts that support a claim"}
+    ],
+    "explanation": "These are fundamental reading comprehension skills: inference (reading between the lines), main idea (central point), tone (author's attitude), and evidence (supporting facts)."
+  }
+]

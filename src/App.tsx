@@ -16,6 +16,7 @@ import AIModuleDetail from "./pages/AIModuleDetail";
 import AIProgress from "./pages/AIProgress";
 import AISafety from "./pages/AISafety";
 import NotFound from "./pages/NotFound";
+import Review from "./pages/Review";
 
 const queryClient = new QueryClient();
 
@@ -37,6 +38,7 @@ const App = () => (
               <Route path="/subjects" element={<Subjects />} />
               <Route path="/subjects/:subjectId" element={<SubjectDetail />} />
               <Route path="/subjects/:subjectId/:chapterId" element={<ChapterView />} />
+              <Route path="/subjects/:subjectId/:chapterId/review" element={<Review />} />
               <Route path="/ai" element={<AIPlayground />} />
               <Route path="/ai/modules/:moduleId" element={<AIModuleDetail />} />
               <Route path="/ai/progress" element={<AIProgress />} />

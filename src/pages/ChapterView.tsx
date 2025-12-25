@@ -9,7 +9,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Badge } from "@/components/ui/badge";
 import { useStore } from "@/lib/store";
 import { useTranslations } from "@/lib/i18n";
-import { ArrowLeft, BookOpen, PenTool, Trophy, Clock, RotateCcw, X } from "lucide-react";
+import { ArrowLeft, BookOpen, PenTool, Trophy, Clock, RotateCcw, X, AlertCircle } from "lucide-react";
 import { motion } from "framer-motion";
 import contentData from "@/data/content.json";
 import { useToast } from "@/hooks/use-toast";
@@ -19,7 +19,7 @@ export default function ChapterView() {
   const { subjectId, chapterId } = useParams();
   const navigate = useNavigate();
   const [searchParams, setSearchParams] = useSearchParams();
-  const { user, language, getChapterProgress, updateProgress, _hasHydrated } = useStore();
+  const { user, language, getChapterProgress, updateProgress, _hasHydrated, getWrongAnswers } = useStore();
   const t = useTranslations(language);
   const { toast } = useToast();
 
@@ -155,6 +155,8 @@ export default function ChapterView() {
 
   const lessonProgress = (completedSections.length / chapter.sections.length) * 100;
   const exerciseProgress = (completedExercises.length / chapter.exercises.length) * 100;
+  const wrongAnswerIds = getWrongAnswers(subjectId, chapterId);
+  const wrongAnswerCount = wrongAnswerIds.length;
 
   return (
     <div className="min-h-screen bg-background">
@@ -241,6 +243,19 @@ export default function ChapterView() {
                       <Clock className="mr-1 h-3 w-3" />
                       {progress.totalTimeSpent} min
                     </Badge>
+                  )}
+                  {wrongAnswerCount > 0 && (
+                    <div className="mt-3">
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        onClick={() => navigate(`/subjects/${subjectId}/${chapterId}/review`)}
+                        className="gap-2 border-destructive/50 text-destructive hover:bg-destructive/10"
+                      >
+                        <AlertCircle className="h-4 w-4" />
+                        {t.wrongAnswers || 'Wrong Answers'} ({wrongAnswerCount})
+                      </Button>
+                    </div>
                   )}
                 </div>
               </div>

@@ -54,6 +54,14 @@ export interface ExerciseVote {
   votedAt: string; // ISO 8601
 }
 
+export type ReviewStatus = 'reviewing' | 'understood';
+
+export interface WrongAnswerReview {
+  exerciseId: string; // format: "subjectId-chapterId-exerciseId"
+  status: ReviewStatus;
+  updatedAt: string; // ISO 8601
+}
+
 export interface UserState {
   user: User | null;
   language: 'en' | 'zh';
@@ -63,6 +71,7 @@ export interface UserState {
   allUsersProgress: Record<string, Progress[]>; // userId → Progress[]
   allUsersAIProgress: Record<string, Record<string, AIModuleProgress>>; // userId → aiProgress
   allUsersExerciseVotes: Record<string, ExerciseVote[]>; // userId → ExerciseVote[]
+  allUsersWrongAnswerReviews: Record<string, WrongAnswerReview[]>; // userId → WrongAnswerReview[]
   currentSubject: string | null;
   currentChapter: string | null;
   _hasHydrated: boolean; // Internal flag to track if store has loaded from localStorage
@@ -86,6 +95,9 @@ export interface UserState {
   setHasHydrated: (state: boolean) => void; // Method to set hydration state
   voteExercise: (subjectId: string, chapterId: string, exerciseId: string, vote: VoteDifficulty) => void;
   getExerciseVote: (subjectId: string, chapterId: string, exerciseId: string) => VoteDifficulty | null;
+  setWrongAnswerStatus: (subjectId: string, chapterId: string, exerciseId: string, status: ReviewStatus) => void;
+  getWrongAnswerStatus: (subjectId: string, chapterId: string, exerciseId: string) => ReviewStatus | null;
+  getWrongAnswers: (subjectId: string, chapterId: string) => string[]; // Returns exerciseIds with score < 100
 }
 
 /**
@@ -143,6 +155,7 @@ export const useStore = create<UserState>()(
       allUsersProgress: {},
       allUsersAIProgress: {},
       allUsersExerciseVotes: {},
+      allUsersWrongAnswerReviews: {},
       currentSubject: null,
       currentChapter: null,
       _hasHydrated: false,
@@ -399,6 +412,62 @@ export const useStore = create<UserState>()(
 
         return vote?.vote || null;
       },
+
+      setWrongAnswerStatus: (subjectId, chapterId, exerciseId, status) => {
+        const state = get();
+        const userId = state.user?.id;
+        if (!userId) return;
+
+        const fullExerciseId = `${subjectId}-${chapterId}-${exerciseId}`;
+        const userReviews = state.allUsersWrongAnswerReviews[userId] || [];
+
+        // Remove existing review for this exercise if any
+        const filteredReviews = userReviews.filter(r => r.exerciseId !== fullExerciseId);
+
+        // Add new review status
+        const newReview: WrongAnswerReview = {
+          exerciseId: fullExerciseId,
+          status,
+          updatedAt: new Date().toISOString(),
+        };
+
+        set({
+          allUsersWrongAnswerReviews: {
+            ...state.allUsersWrongAnswerReviews,
+            [userId]: [...filteredReviews, newReview],
+          },
+        });
+      },
+
+      getWrongAnswerStatus: (subjectId, chapterId, exerciseId) => {
+        const state = get();
+        const userId = state.user?.id;
+        if (!userId) return null;
+
+        const fullExerciseId = `${subjectId}-${chapterId}-${exerciseId}`;
+        const userReviews = state.allUsersWrongAnswerReviews[userId] || [];
+        const review = userReviews.find(r => r.exerciseId === fullExerciseId);
+
+        return review?.status || null;
+      },
+
+      getWrongAnswers: (subjectId, chapterId) => {
+        const state = get();
+        const userId = state.user?.id;
+        if (!userId) return [];
+
+        const userProgress = state.allUsersProgress[userId] || [];
+        const chapterProgress = userProgress.find(
+          p => p.subjectId === subjectId && p.chapterId === chapterId
+        );
+
+        if (!chapterProgress || !chapterProgress.exerciseScores) return [];
+
+        // Return exerciseIds with score < 100 (wrong or partially wrong answers)
+        return Object.entries(chapterProgress.exerciseScores)
+          .filter(([_, score]) => score < 100)
+          .map(([exerciseId]) => exerciseId);
+      },
     }),
     {
       name: 'sg-learning-app-storage',
@@ -410,6 +479,7 @@ export const useStore = create<UserState>()(
         allUsersProgress: state.allUsersProgress,
         allUsersAIProgress: state.allUsersAIProgress,
         allUsersExerciseVotes: state.allUsersExerciseVotes,
+        allUsersWrongAnswerReviews: state.allUsersWrongAnswerReviews,
       }),
       onRehydrateStorage: () => {
         // This runs synchronously when the store is created

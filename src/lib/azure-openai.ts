@@ -332,6 +332,109 @@ Return JSON matching this structure:
       reader.readAsDataURL(file);
     });
   }
+
+  /**
+   * Generate similar practice questions based on an original question
+   */
+  async generateSimilarQuestions(
+    originalQuestion: {
+      prompt: string;
+      type: 'mcq' | 'multi' | 'short' | 'drag-order' | 'match';
+      choices?: string[];
+      answer: number | number[] | string | string[];
+      explanation?: string;
+    },
+    subject: string,
+    gradeLevel: string,
+    count: number = 3
+  ): Promise<Array<{
+    id: string;
+    type: 'mcq' | 'multi' | 'short';
+    prompt: string;
+    prompt_zh: string;
+    choices?: string[];
+    choices_zh?: string[];
+    answer: number | string;
+    explanation: string;
+    explanation_zh: string;
+  }>> {
+    if (!this.isConfigured()) {
+      throw new Error('Azure OpenAI is not configured. Please set environment variables.');
+    }
+
+    const systemPrompt = `You are an expert Singapore MOE curriculum teacher.
+Generate ${count} similar practice questions based on the original question provided.
+The new questions should:
+1. Test the same concept but with different numbers, contexts, or scenarios
+2. Match the difficulty level of the original question
+3. Be appropriate for ${gradeLevel} ${subject} students
+4. Include Singapore-specific contexts where appropriate (NEWater, MRT, HDB, hawker centres, etc.)
+5. Have clear, educational explanations
+
+Return valid JSON only.`;
+
+    const userPrompt = `Original Question:
+${originalQuestion.prompt}
+
+Type: ${originalQuestion.type}
+${originalQuestion.choices ? `Choices: ${originalQuestion.choices.join(', ')}` : ''}
+Answer: ${JSON.stringify(originalQuestion.answer)}
+${originalQuestion.explanation ? `Explanation: ${originalQuestion.explanation}` : ''}
+
+Generate ${count} similar questions in this exact JSON format:
+{
+  "questions": [
+    {
+      "id": "similar-1",
+      "type": "${originalQuestion.type === 'multi' ? 'mcq' : originalQuestion.type}",
+      "prompt": "Question text in English",
+      "prompt_zh": "问题文本（中文）",
+      "choices": ["Option A", "Option B", "Option C", "Option D"],
+      "choices_zh": ["选项A", "选项B", "选项C", "选项D"],
+      "answer": 0,
+      "explanation": "Clear explanation of the answer...",
+      "explanation_zh": "答案解释（中文）..."
+    }
+  ]
+}
+
+For short answer questions, omit choices and use string answer.`;
+
+    try {
+      const response = await fetch(
+        `${this.config.endpoint}openai/deployments/${this.config.deploymentName}/chat/completions?api-version=2024-02-15-preview`,
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'api-key': this.config.apiKey,
+          },
+          body: JSON.stringify({
+            messages: [
+              { role: 'system', content: systemPrompt },
+              { role: 'user', content: userPrompt },
+            ],
+            max_tokens: 3000,
+            temperature: 0.7,
+            response_format: { type: 'json_object' },
+          }),
+        }
+      );
+
+      if (!response.ok) {
+        const error = await response.json();
+        throw new Error(`Azure OpenAI API error: ${error.error?.message || response.statusText}`);
+      }
+
+      const data = await response.json();
+      const content = data.choices[0].message.content;
+      const parsed = JSON.parse(content);
+      return parsed.questions || [];
+    } catch (error) {
+      console.error('Error generating similar questions:', error);
+      throw error;
+    }
+  }
 }
 
 // Export singleton instance
