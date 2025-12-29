@@ -4,9 +4,11 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog";
 import { useStore, VoteDifficulty } from "@/lib/store";
 import { useTranslations } from "@/lib/i18n";
-import { ChevronLeft, ChevronRight, CheckCircle, XCircle, HelpCircle, ThumbsUp, Flame, AlertTriangle } from "lucide-react";
+import { azureOpenAIService } from "@/lib/azure-openai";
+import { ChevronLeft, ChevronRight, CheckCircle, XCircle, HelpCircle, ThumbsUp, Flame, AlertTriangle, Sparkles, Loader2, AlertCircle } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { MCQExercise } from "./mcq-exercise";
 import { ShortAnswerExercise } from "./short-answer-exercise";
@@ -38,6 +40,18 @@ interface Exercise {
   validator?: string;
 }
 
+interface SimilarQuestion {
+  id: string;
+  type: 'mcq' | 'multi' | 'short';
+  prompt: string;
+  prompt_zh: string;
+  choices?: string[];
+  choices_zh?: string[];
+  answer: number | string;
+  explanation: string;
+  explanation_zh: string;
+}
+
 interface ExercisePlayerProps {
   exercises: Exercise[];
   onComplete: (scores: Record<string, number>) => void;
@@ -65,8 +79,16 @@ export function ExercisePlayer({
   const [attempts, setAttempts] = useState<Record<string, number>>({});
   const [showHint, setShowHint] = useState(false);
   const [showExplanation, setShowExplanation] = useState(false);
-  const { language, voteExercise, getExerciseVote } = useStore();
+  const { language, gradeLevel, voteExercise, getExerciseVote } = useStore();
   const t = useTranslations(language);
+
+  // Similar Questions state
+  const [showSimilarModal, setShowSimilarModal] = useState(false);
+  const [similarQuestions, setSimilarQuestions] = useState<SimilarQuestion[]>([]);
+  const [isGeneratingSimilar, setIsGeneratingSimilar] = useState(false);
+  const [similarError, setSimilarError] = useState<string | null>(null);
+  const [practiceAnswers, setPracticeAnswers] = useState<Record<string, number | string | null>>({});
+  const [practiceResults, setPracticeResults] = useState<Record<string, boolean>>({});
 
   // Update URL when exercise changes
   useEffect(() => {
@@ -139,6 +161,55 @@ export function ExercisePlayer({
   const handleVote = (vote: VoteDifficulty) => {
     if (exercise) {
       voteExercise(subjectId, chapterId, exercise.id, vote);
+    }
+  };
+
+  const handleGenerateSimilar = async () => {
+    if (!exercise) return;
+
+    setSimilarQuestions([]);
+    setPracticeAnswers({});
+    setPracticeResults({});
+    setSimilarError(null);
+    setShowSimilarModal(true);
+
+    if (!azureOpenAIService.isConfigured()) {
+      setSimilarError(t.aiNotConfigured || 'AI is not configured. Please set up Azure OpenAI.');
+      return;
+    }
+
+    setIsGeneratingSimilar(true);
+
+    try {
+      const questions = await azureOpenAIService.generateSimilarQuestions(
+        {
+          prompt: language === 'zh' && exercise.prompt_zh ? exercise.prompt_zh : exercise.prompt,
+          type: exercise.type,
+          choices: language === 'zh' && exercise.choices_zh ? exercise.choices_zh : exercise.choices,
+          answer: exercise.answer,
+          explanation: language === 'zh' && exercise.explanation_zh ? exercise.explanation_zh : exercise.explanation
+        },
+        subjectId,
+        gradeLevel,
+        3
+      );
+
+      setSimilarQuestions(questions);
+    } catch (error) {
+      console.error('Error generating similar questions:', error);
+      setSimilarError(error instanceof Error ? error.message : 'Failed to generate questions');
+    } finally {
+      setIsGeneratingSimilar(false);
+    }
+  };
+
+  const handlePracticeAnswer = (questionId: string, answer: number | string) => {
+    setPracticeAnswers(prev => ({ ...prev, [questionId]: answer }));
+
+    const question = similarQuestions.find(q => q.id === questionId);
+    if (question) {
+      const isCorrect = question.answer === answer;
+      setPracticeResults(prev => ({ ...prev, [questionId]: isCorrect }));
     }
   };
 
@@ -318,6 +389,24 @@ export function ExercisePlayer({
                   </div>
                 </motion.div>
               )}
+
+              {/* Similar Questions Button - shows after answering */}
+              {scores[exercise.id] !== undefined && (
+                <motion.div
+                  initial={{ opacity: 0, y: -10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  className="flex justify-center pt-2"
+                >
+                  <Button
+                    variant="outline"
+                    onClick={handleGenerateSimilar}
+                    className="gap-2 border-primary text-primary hover:bg-primary/10"
+                  >
+                    <Sparkles className="h-4 w-4" />
+                    {t.similarQuestions || 'Similar Questions'}
+                  </Button>
+                </motion.div>
+              )}
             </CardContent>
           </Card>
         </motion.div>
@@ -363,8 +452,8 @@ export function ExercisePlayer({
               Skip
             </Button>
           )}
-          <Button 
-            onClick={handleNext} 
+          <Button
+            onClick={handleNext}
             className="btn-primary"
             disabled={!scores[exercise.id] && !isLastExercise}
           >
@@ -373,6 +462,146 @@ export function ExercisePlayer({
           </Button>
         </div>
       </div>
+
+      {/* Similar Questions Modal */}
+      <Dialog open={showSimilarModal} onOpenChange={setShowSimilarModal}>
+        <DialogContent className="max-w-3xl max-h-[80vh] overflow-y-auto">
+          <DialogHeader>
+            <DialogTitle className="flex items-center gap-2">
+              <Sparkles className="h-5 w-5 text-primary" />
+              {t.similarQuestions || 'Similar Questions'}
+            </DialogTitle>
+            <DialogDescription>
+              {t.generateSimilar || 'Practice with similar questions to reinforce your learning'}
+            </DialogDescription>
+          </DialogHeader>
+
+          <div className="space-y-6 mt-4">
+            {/* Original Question */}
+            {exercise && (
+              <div className="p-4 bg-muted/50 rounded-lg">
+                <p className="font-medium text-sm mb-2">{t.originalQuestion || 'Original Question'}</p>
+                <div className="text-sm prose prose-sm max-w-none dark:prose-invert">
+                  <ReactMarkdown
+                    remarkPlugins={[remarkGfm, remarkMath]}
+                    rehypePlugins={[rehypeKatex]}
+                  >
+                    {prompt}
+                  </ReactMarkdown>
+                </div>
+              </div>
+            )}
+
+            {/* Loading State */}
+            {isGeneratingSimilar && (
+              <div className="flex items-center justify-center py-12">
+                <Loader2 className="h-8 w-8 animate-spin text-primary mr-3" />
+                <span className="text-muted-foreground">{t.generatingSimilar || 'Generating similar questions...'}</span>
+              </div>
+            )}
+
+            {/* Error State */}
+            {similarError && (
+              <div className="flex items-center gap-3 p-4 bg-destructive/10 border border-destructive/20 rounded-lg">
+                <AlertCircle className="h-5 w-5 text-destructive" />
+                <p className="text-destructive">{similarError}</p>
+              </div>
+            )}
+
+            {/* Similar Questions */}
+            {similarQuestions.length > 0 && (
+              <div className="space-y-4">
+                <h3 className="font-semibold">{t.practiceMore || 'Practice More'}</h3>
+                {similarQuestions.map((question, index) => {
+                  const questionPrompt = language === 'zh' ? question.prompt_zh : question.prompt;
+                  const questionChoices = language === 'zh' ? question.choices_zh : question.choices;
+                  const questionExplanation = language === 'zh' ? question.explanation_zh : question.explanation;
+                  const hasAnswered = practiceAnswers[question.id] !== undefined;
+                  const isCorrect = practiceResults[question.id];
+
+                  return (
+                    <Card key={question.id} className={`${hasAnswered ? (isCorrect ? 'border-success/50' : 'border-destructive/50') : ''}`}>
+                      <CardHeader>
+                        <CardTitle className="text-base flex items-center gap-2">
+                          {t.question} {index + 1}
+                          {hasAnswered && (
+                            isCorrect
+                              ? <CheckCircle className="h-5 w-5 text-success" />
+                              : <XCircle className="h-5 w-5 text-destructive" />
+                          )}
+                        </CardTitle>
+                        <div className="prose prose-sm max-w-none dark:prose-invert">
+                          <ReactMarkdown
+                            remarkPlugins={[remarkGfm, remarkMath]}
+                            rehypePlugins={[rehypeKatex]}
+                          >
+                            {questionPrompt}
+                          </ReactMarkdown>
+                        </div>
+                      </CardHeader>
+                      <CardContent className="space-y-3">
+                        {/* MCQ Choices */}
+                        {question.type === 'mcq' && questionChoices && (
+                          <div className="space-y-2">
+                            {questionChoices.map((choice, choiceIndex) => (
+                              <button
+                                key={choiceIndex}
+                                onClick={() => handlePracticeAnswer(question.id, choiceIndex)}
+                                disabled={hasAnswered}
+                                className={`w-full text-left p-3 rounded-lg border transition-colors ${
+                                  hasAnswered
+                                    ? choiceIndex === question.answer
+                                      ? 'bg-success/20 border-success'
+                                      : practiceAnswers[question.id] === choiceIndex
+                                      ? 'bg-destructive/20 border-destructive'
+                                      : 'bg-muted/50'
+                                    : 'hover:bg-muted/50 cursor-pointer'
+                                }`}
+                              >
+                                <div className="flex items-center gap-2">
+                                  <span className="font-medium">
+                                    {String.fromCharCode(65 + choiceIndex)}.
+                                  </span>
+                                  <span>{choice}</span>
+                                </div>
+                              </button>
+                            ))}
+                          </div>
+                        )}
+
+                        {/* Explanation after answering */}
+                        {hasAnswered && questionExplanation && (
+                          <motion.div
+                            initial={{ opacity: 0, y: -10 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            className={`p-4 rounded-lg ${isCorrect ? 'bg-success/10 border border-success/20' : 'bg-destructive/10 border border-destructive/20'}`}
+                          >
+                            <p className="font-medium text-sm mb-2">{t.explanation}</p>
+                            <div className="text-sm prose prose-sm max-w-none dark:prose-invert">
+                              <ReactMarkdown
+                                remarkPlugins={[remarkGfm, remarkMath]}
+                                rehypePlugins={[rehypeKatex]}
+                              >
+                                {questionExplanation}
+                              </ReactMarkdown>
+                            </div>
+                          </motion.div>
+                        )}
+                      </CardContent>
+                    </Card>
+                  );
+                })}
+              </div>
+            )}
+          </div>
+
+          <div className="flex justify-end mt-4">
+            <Button variant="outline" onClick={() => setShowSimilarModal(false)}>
+              {t.close || 'Close'}
+            </Button>
+          </div>
+        </DialogContent>
+      </Dialog>
     </div>
   );
 }
