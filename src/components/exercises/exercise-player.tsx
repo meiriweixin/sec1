@@ -57,6 +57,7 @@ interface ExercisePlayerProps {
   onComplete: (scores: Record<string, number>) => void;
   chapterId: string;
   subjectId: string;
+  gradeLevel?: string;
   previousScores?: Record<string, number>;
 }
 
@@ -65,6 +66,7 @@ export function ExercisePlayer({
   onComplete,
   chapterId,
   subjectId,
+  gradeLevel,
   previousScores = {}
 }: ExercisePlayerProps) {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -79,7 +81,7 @@ export function ExercisePlayer({
   const [attempts, setAttempts] = useState<Record<string, number>>({});
   const [showHint, setShowHint] = useState(false);
   const [showExplanation, setShowExplanation] = useState(false);
-  const { language, gradeLevel, voteExercise, getExerciseVote } = useStore();
+  const { language, voteExercise, getExerciseVote } = useStore();
   const t = useTranslations(language);
 
   // Similar Questions state
@@ -223,6 +225,8 @@ export function ExercisePlayer({
       showExplanation,
       attempts: attempts[exercise.id] || 0,
       previousScore: scores[exercise.id],
+      subjectId,
+      gradeLevel,
     };
 
     switch (exercise.type) {

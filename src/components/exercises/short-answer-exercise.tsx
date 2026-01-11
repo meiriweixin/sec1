@@ -5,7 +5,8 @@ import { Textarea } from "@/components/ui/textarea";
 import { useStore } from "@/lib/store";
 import { useTranslations } from "@/lib/i18n";
 import { motion } from "framer-motion";
-import { CheckCircle, XCircle } from "lucide-react";
+import { CheckCircle, XCircle, Sparkles, Loader2, Lightbulb, TrendingUp } from "lucide-react";
+import { evaluateHumanitiesAnswer, shouldUseAIEvaluation } from "@/lib/azure-humanities-evaluator";
 
 interface ShortAnswerExerciseProps {
   exercise: {
@@ -20,28 +21,44 @@ interface ShortAnswerExerciseProps {
     hint_zh?: string;
     explanation?: string;
     explanation_zh?: string;
+    sampleAnswers?: string[];
+    acceptableAnswers?: string[];
   };
   onAnswer: (isCorrect: boolean, userAnswer: string) => void;
   showHint: boolean;
   showExplanation: boolean;
   attempts: number;
   previousScore?: number;
+  subjectId?: string;
+  gradeLevel?: string;
 }
 
-export function ShortAnswerExercise({ 
-  exercise, 
-  onAnswer, 
-  showHint, 
+export function ShortAnswerExercise({
+  exercise,
+  onAnswer,
+  showHint,
   showExplanation,
   attempts,
-  previousScore
+  previousScore,
+  subjectId,
+  gradeLevel
 }: ShortAnswerExerciseProps) {
   const { language } = useStore();
   const t = useTranslations(language);
-  
+
   const [userAnswer, setUserAnswer] = useState("");
   const [hasSubmitted, setHasSubmitted] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
+  const [isEvaluatingAI, setIsEvaluatingAI] = useState(false);
+  const [aiFeedback, setAIFeedback] = useState<{
+    score: number;
+    isCorrect: boolean;
+    level?: 1 | 2;
+    feedback: string;
+    feedback_zh?: string;
+    strengths?: string[];
+    improvements?: string[];
+  } | null>(null);
 
   const correctAnswer = language === 'zh' && exercise.answer_zh ? exercise.answer_zh : exercise.answer;
 
@@ -229,18 +246,54 @@ export function ShortAnswerExercise({
     }
   };
 
-  const handleSubmit = () => {
-    const isAnswerCorrect = validateAnswer(userAnswer);
-    
-    setIsCorrect(isAnswerCorrect);
-    setHasSubmitted(true);
-    onAnswer(isAnswerCorrect, userAnswer);
+  const handleSubmit = async () => {
+    // Check if this subject should use AI evaluation
+    const useAI = subjectId && shouldUseAIEvaluation(subjectId, 'short');
+
+    if (useAI) {
+      // Use AI evaluation for humanities subjects
+      setIsEvaluatingAI(true);
+      try {
+        const result = await evaluateHumanitiesAnswer({
+          subject: subjectId!,
+          questionType: 'short',
+          prompt: exercise.prompt,
+          prompt_zh: exercise.prompt_zh,
+          studentAnswer: userAnswer,
+          modelAnswer: correctAnswer,
+          sampleAnswers: exercise.sampleAnswers || exercise.acceptableAnswers,
+          gradeLevel: gradeLevel,
+          language: language
+        });
+
+        setAIFeedback(result);
+        setIsCorrect(result.isCorrect);
+        setHasSubmitted(true);
+        setIsEvaluatingAI(false);
+        onAnswer(result.isCorrect, userAnswer);
+      } catch (error) {
+        console.error('AI evaluation failed, falling back to keyword matching:', error);
+        setIsEvaluatingAI(false);
+        // Fallback to traditional validation
+        const isAnswerCorrect = validateAnswer(userAnswer);
+        setIsCorrect(isAnswerCorrect);
+        setHasSubmitted(true);
+        onAnswer(isAnswerCorrect, userAnswer);
+      }
+    } else {
+      // Use traditional validation for STEM subjects
+      const isAnswerCorrect = validateAnswer(userAnswer);
+      setIsCorrect(isAnswerCorrect);
+      setHasSubmitted(true);
+      onAnswer(isAnswerCorrect, userAnswer);
+    }
   };
 
   const handleRetry = () => {
     setUserAnswer("");
     setHasSubmitted(false);
     setIsCorrect(false);
+    setAIFeedback(null);
   };
 
   const handleKeyPress = (e: React.KeyboardEvent) => {
@@ -303,23 +356,92 @@ export function ShortAnswerExercise({
         <motion.div
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
-          className="space-y-2"
+          className="space-y-3"
         >
           <div className="flex items-center space-x-2">
             {isCorrect ? (
               <>
                 <CheckCircle className="h-5 w-5 text-success" />
                 <span className="font-medium text-success">{t.correct}</span>
+                {aiFeedback && (
+                  <span className="text-xs text-muted-foreground ml-2">
+                    ({aiFeedback.score}% • {aiFeedback.level && `Level ${aiFeedback.level}`})
+                  </span>
+                )}
               </>
             ) : (
               <>
                 <XCircle className="h-5 w-5 text-destructive" />
                 <span className="font-medium text-destructive">{t.incorrect}</span>
+                {aiFeedback && (
+                  <span className="text-xs text-muted-foreground ml-2">
+                    ({aiFeedback.score}%)
+                  </span>
+                )}
               </>
             )}
           </div>
-          
-          {!isCorrect && (
+
+          {/* AI Feedback */}
+          {aiFeedback && (
+            <div className="space-y-3">
+              {/* AI Evaluation Badge */}
+              <div className="flex items-center gap-2 text-xs text-purple-600 dark:text-purple-400">
+                <Sparkles className="h-4 w-4" />
+                <span>AI-Powered Evaluation</span>
+              </div>
+
+              {/* Feedback Message */}
+              <div className="p-3 bg-blue-50 dark:bg-blue-950/20 rounded-lg border border-blue-200 dark:border-blue-800">
+                <p className="text-sm text-blue-900 dark:text-blue-100">
+                  {language === 'zh' && aiFeedback.feedback_zh ? aiFeedback.feedback_zh : aiFeedback.feedback}
+                </p>
+              </div>
+
+              {/* Strengths */}
+              {aiFeedback.strengths && aiFeedback.strengths.length > 0 && (
+                <div className="p-3 bg-green-50 dark:bg-green-950/20 rounded-lg border border-green-200 dark:border-green-800">
+                  <div className="flex items-center gap-2 mb-2">
+                    <TrendingUp className="h-4 w-4 text-green-600" />
+                    <p className="text-sm font-medium text-green-900 dark:text-green-100">
+                      {language === 'zh' ? '优点' : 'Strengths'}
+                    </p>
+                  </div>
+                  <ul className="space-y-1 text-sm text-green-800 dark:text-green-200">
+                    {aiFeedback.strengths.map((strength, idx) => (
+                      <li key={idx} className="flex items-start gap-2">
+                        <span className="text-green-600">✓</span>
+                        <span>{strength}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              {/* Improvements */}
+              {aiFeedback.improvements && aiFeedback.improvements.length > 0 && (
+                <div className="p-3 bg-orange-50 dark:bg-orange-950/20 rounded-lg border border-orange-200 dark:border-orange-800">
+                  <div className="flex items-center gap-2 mb-2">
+                    <Lightbulb className="h-4 w-4 text-orange-600" />
+                    <p className="text-sm font-medium text-orange-900 dark:text-orange-100">
+                      {language === 'zh' ? '改进建议' : 'Areas for Improvement'}
+                    </p>
+                  </div>
+                  <ul className="space-y-1 text-sm text-orange-800 dark:text-orange-200">
+                    {aiFeedback.improvements.map((improvement, idx) => (
+                      <li key={idx} className="flex items-start gap-2">
+                        <span className="text-orange-600">•</span>
+                        <span>{improvement}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </div>
+          )}
+
+          {/* Traditional Feedback (for non-AI or when AI fails) */}
+          {!isCorrect && !aiFeedback && (
             <div className="p-3 bg-muted rounded-lg">
               <p className="text-sm font-medium mb-1">Correct answer:</p>
               <p className="text-sm text-foreground font-mono">{correctAnswer}</p>
@@ -339,10 +461,17 @@ export function ShortAnswerExercise({
         {!hasSubmitted ? (
           <Button
             onClick={handleSubmit}
-            disabled={!userAnswer.trim()}
+            disabled={!userAnswer.trim() || isEvaluatingAI}
             className="btn-primary"
           >
-            {t.submit}
+            {isEvaluatingAI ? (
+              <>
+                <Loader2 className="h-4 w-4 mr-2 animate-spin" />
+                {language === 'zh' ? 'AI评估中...' : 'AI Evaluating...'}
+              </>
+            ) : (
+              t.submit
+            )}
           </Button>
         ) : (
           <>

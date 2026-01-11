@@ -1,0 +1,296 @@
+{
+  "categories": [
+    {
+      "id": "historical-concepts",
+      "name": "Historical Concepts",
+      "name_zh": "历史概念",
+      "terms": [
+        {
+          "term": "Chronology",
+          "term_zh": "年代学",
+          "definition": "The arrangement of events in the order they occurred in time. Understanding chronology helps us see how events are connected and how one event leads to another.",
+          "definition_zh": "按事件发生的时间顺序排列事件。理解年代学有助于我们看到事件如何相互联系以及一个事件如何导致另一个事件。",
+          "example": "The chronology of Singapore's founding: Temasek (1299) → British landing (1819) → Treaty signed (1819) → Rapid growth (1820s-1870s)",
+          "example_zh": "新加坡建立的年代：淡马锡（1299年）→ 英国登陆（1819年）→ 条约签署（1819年）→ 快速增长（1820-1870年代）"
+        },
+        {
+          "term": "Evidence",
+          "term_zh": "证据",
+          "definition": "Information from sources (documents, artifacts, photographs, etc.) that historians use to understand the past. Good evidence helps us make accurate conclusions about history.",
+          "definition_zh": "历史学家用来了解过去的来源信息（文件、文物、照片等）。好的证据帮助我们对历史做出准确的结论。",
+          "example": "Archaeological evidence from Fort Canning (Chinese ceramics, Indian glass beads) shows that early Singapore had trade with many countries.",
+          "example_zh": "福康宁山的考古证据（中国陶瓷、印度玻璃珠）表明早期新加坡与许多国家有贸易往来。"
+        },
+        {
+          "term": "Accounts",
+          "term_zh": "记录/叙述",
+          "definition": "Different versions or interpretations of the same historical event. Different people may have different accounts based on their perspective, knowledge, and bias.",
+          "definition_zh": "对同一历史事件的不同版本或解释。不同的人可能根据他们的视角、知识和偏见有不同的记录。",
+          "example": "The Fall of Singapore has different accounts: British officials blamed air superiority and fortress design, while Japanese General Yamashita later said it was a bluff and the British could have won.",
+          "example_zh": "新加坡沦陷有不同的记录：英国官员归咎于空中优势和堡垒设计，而日本将军山下后来说这是虚张声势，英国本可以获胜。"
+        },
+        {
+          "term": "Causation",
+          "term_zh": "因果关系",
+          "definition": "The relationship between causes (reasons why something happened) and effects (what happened as a result). Understanding causation helps us explain WHY events occurred.",
+          "definition_zh": "原因（为什么发生某事）和结果（结果发生了什么）之间的关系。理解因果关系帮助我们解释为什么事件发生。",
+          "example": "CAUSE: Singapore's free trade policy attracted merchants → EFFECT: Population grew from 150 (1819) to 10,900 (1824)",
+          "example_zh": "原因：新加坡的自由贸易政策吸引了商人 → 结果：人口从150人（1819年）增长到10,900人（1824年）"
+        },
+        {
+          "term": "Change and Continuity",
+          "term_zh": "变化与延续",
+          "definition": "Change refers to what is different over time, while continuity refers to what stays the same. Both are important for understanding historical development.",
+          "definition_zh": "变化指随时间变化的东西，而延续指保持不变的东西。两者对理解历史发展都很重要。",
+          "example": "CHANGE: From sailing ships to steamships. CONTINUITY: Singapore remained an entrepôt port from Temasek times to today.",
+          "example_zh": "变化：从帆船到蒸汽船。延续：新加坡从淡马锡时代至今仍然是转口港。"
+        },
+        {
+          "term": "Significance",
+          "term_zh": "重要性/意义",
+          "definition": "How important an event, person, or development was in history. Significance is judged by impact, change caused, number of people affected, and relevance to later events.",
+          "definition_zh": "一个事件、人物或发展在历史上有多重要。重要性通过影响、引起的变化、受影响的人数以及与后来事件的相关性来判断。",
+          "example": "The Fall of Singapore (1942) was SIGNIFICANT because it: (1) destroyed British prestige, (2) caused terrible suffering, (3) led to independence movements, (4) shaped Total Defence policy.",
+          "example_zh": "新加坡沦陷（1942年）很重要，因为它：（1）摧毁了英国的威望，（2）造成了可怕的苦难，（3）导致了独立运动，（4）塑造了全面防卫政策。"
+        },
+        {
+          "term": "Empathy",
+          "term_zh": "同理心",
+          "definition": "Understanding how people in the past thought, felt, and acted based on their own context and values. It does NOT mean agreeing with them, but trying to see things from their perspective.",
+          "definition_zh": "根据过去人们自己的背景和价值观理解他们的思想、感受和行为。它不意味着同意他们，而是试图从他们的角度看问题。",
+          "example": "To understand General Percival's decision to surrender Singapore, we must consider: 1 million civilians at risk, water supply cut off, exhausted troops, and his belief Japanese were much stronger.",
+          "example_zh": "要理解珀西瓦尔将军决定投降新加坡，我们必须考虑：100万平民处于危险中，水供应被切断，疲惫的部队，以及他认为日本人要强大得多。"
+        },
+        {
+          "term": "Diversity",
+          "term_zh": "多样性",
+          "definition": "The variety of different people, cultures, religions, and perspectives in a society. Singapore's diversity has been both a strength (economic vitality, cultural richness) and a challenge (potential for conflict).",
+          "definition_zh": "社会中不同的人、文化、宗教和观点的多样性。新加坡的多样性既是优势（经济活力、文化丰富性）也是挑战（潜在的冲突）。",
+          "example": "By 1871, Singapore had Chinese (56%), Malays (27%), Indians (12%), Europeans (2%), creating a cosmopolitan society with many languages, religions, and customs.",
+          "example_zh": "到1871年，新加坡有华人（56%）、马来人（27%）、印度人（12%）、欧洲人（2%），形成了一个拥有多种语言、宗教和习俗的国际化社会。"
+        }
+      ]
+    },
+    {
+      "id": "source-analysis",
+      "name": "Source Analysis (ONPC)",
+      "name_zh": "来源分析（ONPC）",
+      "terms": [
+        {
+          "term": "Origin",
+          "term_zh": "来源",
+          "definition": "WHO created the source, WHEN it was created, and WHERE it came from. Origin helps us judge if the creator was in a position to know the truth.",
+          "definition_zh": "谁创建了来源，什么时候创建的，以及它来自哪里。来源帮助我们判断创建者是否处于了解真相的位置。",
+          "example": "Origin: Wang Dayuan, a Chinese merchant-traveler, wrote this account in 1349 after visiting Temasek.",
+          "example_zh": "来源：汪大渊，一位中国商人旅行者，在访问淡马锡后于1349年写了这个记录。"
+        },
+        {
+          "term": "Nature",
+          "term_zh": "性质",
+          "definition": "The TYPE or FORMAT of the source (letter, diary, photograph, treaty, speech, etc.). Different types have different strengths and limitations.",
+          "definition_zh": "来源的类型或格式（信件、日记、照片、条约、演讲等）。不同类型有不同的优势和局限性。",
+          "example": "Nature: Travel account. STRENGTH: First-hand observations. LIMITATION: Short visit = shallow understanding.",
+          "example_zh": "性质：旅行记录。优势：第一手观察。局限性：短暂访问=浅显理解。"
+        },
+        {
+          "term": "Purpose",
+          "term_zh": "目的",
+          "definition": "WHY the source was created. The purpose influences what information is included, emphasized, or left out.",
+          "definition_zh": "为什么创建来源。目的影响包含、强调或省略什么信息。",
+          "example": "Purpose: To inform Chinese merchants about trading opportunities in Southeast Asia. Therefore, focuses on practical commercial information (products, location).",
+          "example_zh": "目的：告知中国商人东南亚的贸易机会。因此，关注实用的商业信息（产品、位置）。"
+        },
+        {
+          "term": "Content",
+          "term_zh": "内容",
+          "definition": "WHAT information the source contains. This is the actual facts, descriptions, or events mentioned in the source.",
+          "definition_zh": "来源包含什么信息。这是来源中提到的实际事实、描述或事件。"
+        },
+        {
+          "term": "Primary Source",
+          "term_zh": "主要来源",
+          "definition": "A source created at the time of the event by someone who experienced it directly. Examples: letters, diaries, photographs, artifacts, treaties.",
+          "definition_zh": "由直接经历事件的人在事件发生时创建的来源。例子：信件、日记、照片、文物、条约。",
+          "example": "Wang Dayuan's 1349 account is a PRIMARY source because he visited Temasek and wrote about it in the 14th century.",
+          "example_zh": "汪大渊的1349年记录是主要来源，因为他访问了淡马锡并在14世纪写了关于它的内容。"
+        },
+        {
+          "term": "Secondary Source",
+          "term_zh": "二次来源",
+          "definition": "A source created later by someone who did NOT experience the event directly. Often based on primary sources. Examples: textbooks, history books, documentaries.",
+          "definition_zh": "由没有直接经历事件的人后来创建的来源。通常基于主要来源。例子：教科书、历史书籍、纪录片。",
+          "example": "A modern history textbook about Singapore's founding is a SECONDARY source because it was written centuries after 1819.",
+          "example_zh": "一本关于新加坡建立的现代历史教科书是二次来源，因为它是在1819年之后几个世纪写的。"
+        },
+        {
+          "term": "Inference",
+          "term_zh": "推断",
+          "definition": "A conclusion reached by reading between the lines of a source - what the source SUGGESTS or IMPLIES, not just what it directly states.",
+          "definition_zh": "通过阅读来源的字里行间得出的结论 - 来源暗示或暗含什么，而不仅仅是它直接陈述的内容。",
+          "example": "From 'foreign ships use it as port of call,' we can INFER that Temasek was on major trade routes and attracted international traders.",
+          "example_zh": "从\"外国船只将其用作停靠港\"，我们可以推断淡马锡在主要贸易路线上并吸引了国际商人。"
+        },
+        {
+          "term": "Utility",
+          "term_zh": "实用性",
+          "definition": "How USEFUL or HELPFUL a source is for answering a specific historical question. Depends on relevance, detail, and reliability.",
+          "definition_zh": "来源对回答特定历史问题有多有用或有帮助。取决于相关性、细节和可靠性。",
+          "example": "Wang Dayuan's account is USEFUL for learning about 14th-century trade because it provides first-hand details about products and visitors.",
+          "example_zh": "汪大渊的记录对了解14世纪贸易很有用，因为它提供了关于产品和访客的第一手细节。"
+        },
+        {
+          "term": "Reliability",
+          "term_zh": "可靠性",
+          "definition": "How TRUSTWORTHY or ACCURATE a source is. Depends on: Was the author in a position to know? Did they have a bias? Is it supported by other sources?",
+          "definition_zh": "来源有多值得信赖或准确。取决于：作者是否处于了解的位置？他们有偏见吗？它是否得到其他来源的支持？",
+          "example": "Wang Dayuan is FAIRLY RELIABLE about trade goods (he was there and saw them), but may be LESS RELIABLE about complex politics (short visit, language barrier).",
+          "example_zh": "汪大渊关于贸易商品相当可靠（他在那里看到了它们），但关于复杂的政治可能不太可靠（短暂访问、语言障碍）。"
+        }
+      ]
+    },
+    {
+      "id": "singapore-history-terms",
+      "name": "Singapore History Terms",
+      "name_zh": "新加坡历史术语",
+      "terms": [
+        {
+          "term": "Temasek",
+          "term_zh": "淡马锡",
+          "definition": "The early name for Singapore, meaning 'Sea Town' in Javanese. Mentioned in Chinese and Malay records from the 13th-14th centuries.",
+          "definition_zh": "新加坡的早期名称，在爪哇语中意为'海城'。在13-14世纪的中国和马来记录中提到。"
+        },
+        {
+          "term": "Singapura",
+          "term_zh": "Singapura（狮城）",
+          "definition": "Name given by Sang Nila Utama, meaning 'Lion City' in Sanskrit. According to legend, he named it after seeing an animal he thought was a lion.",
+          "definition_zh": "由Sang Nila Utama给出的名字，在梵语中意为'狮城'。根据传说，他在看到一只他认为是狮子的动物后命名。"
+        },
+        {
+          "term": "Entrepôt",
+          "term_zh": "转口港",
+          "definition": "A port where goods are imported, stored temporarily, and then re-exported to other destinations. Singapore functioned as a middleman in international trade.",
+          "definition_zh": "进口货物、临时储存然后再出口到其他目的地的港口。新加坡在国际贸易中充当中间人。"
+        },
+        {
+          "term": "Free Port",
+          "term_zh": "自由港",
+          "definition": "A port with no taxes or duties on goods traded. Raffles made Singapore a free port in 1819 to attract merchants from all nations.",
+          "definition_zh": "对交易货物不征收税款或关税的港口。莱佛士在1819年将新加坡设为自由港以吸引来自各国的商人。"
+        },
+        {
+          "term": "Monsoon",
+          "term_zh": "季风",
+          "definition": "Seasonal winds that change direction. The Northeast Monsoon (Nov-Mar) and Southwest Monsoon (May-Sep) determined sailing routes and made Singapore a natural stopover.",
+          "definition_zh": "改变方向的季节性风。东北季风（11月至3月）和西南季风（5月至9月）决定了航线并使新加坡成为自然的中转站。"
+        },
+        {
+          "term": "Maritime Silk Road",
+          "term_zh": "海上丝绸之路",
+          "definition": "Ancient sea trade routes connecting China, Southeast Asia, India, Middle East, and Europe. Also called the Spice Route. Singapore was a key stopover point.",
+          "definition_zh": "连接中国、东南亚、印度、中东和欧洲的古代海上贸易路线。也称为香料之路。新加坡是一个关键的中转点。"
+        },
+        {
+          "term": "British East India Company",
+          "term_zh": "英国东印度公司",
+          "definition": "A British trading company that controlled much of Asian trade in the 18th-19th centuries. Stamford Raffles worked for this company when he established British Singapore.",
+          "definition_zh": "一家在18-19世纪控制了亚洲大部分贸易的英国贸易公司。斯坦福·莱佛士在建立英属新加坡时为这家公司工作。"
+        },
+        {
+          "term": "Stamford Raffles",
+          "term_zh": "斯坦福·莱佛士",
+          "definition": "British official who founded modern Singapore in 1819. Established it as a free port and negotiated the treaty with Sultan Hussein and the Temenggong.",
+          "definition_zh": "1819年建立现代新加坡的英国官员。将其建立为自由港并与苏丹胡申和天猛公谈判条约。"
+        },
+        {
+          "term": "William Farquhar",
+          "term_zh": "威廉·法夸尔",
+          "definition": "First British Resident (governor) of Singapore (1819-1823). Focused on practical administration, defense, and maintaining good relations with local leaders.",
+          "definition_zh": "新加坡第一任英国驻扎官（总督）（1819-1823年）。专注于实际管理、国防以及与当地领导人保持良好关系。"
+        },
+        {
+          "term": "Sultan Hussein Shah",
+          "term_zh": "苏丹胡申沙",
+          "definition": "Malay ruler who signed the 1819 treaty with Raffles, allowing the British to establish a trading post. He was passed over for the Johor throne and sought British support.",
+          "definition_zh": "与莱佛士签署1819年条约的马来统治者，允许英国建立贸易站。他被排除在柔佛王位之外并寻求英国支持。"
+        },
+        {
+          "term": "Temenggong Abdul Rahman",
+          "term_zh": "天猛公阿都拉曼",
+          "definition": "Malay chief who controlled the Singapore area and co-signed the 1819 treaty. He and his followers lived in Singapore before the British arrived.",
+          "definition_zh": "控制新加坡地区并共同签署1819年条约的马来酋长。他和他的追随者在英国到来之前住在新加坡。"
+        },
+        {
+          "term": "Clan Association",
+          "term_zh": "宗乡会馆",
+          "definition": "Organizations formed by Chinese immigrants based on dialect or hometown. Provided mutual aid, settled disputes, and helped new arrivals find jobs and housing.",
+          "definition_zh": "中国移民基于方言或家乡成立的组织。提供互助、解决纠纷并帮助新移民找到工作和住房。"
+        },
+        {
+          "term": "Secret Society",
+          "term_zh": "会党/秘密会社",
+          "definition": "Chinese organizations originally formed for mutual protection, but later became involved in crime (gambling, opium, extortion). Created serious law and order problems in 19th century Singapore.",
+          "definition_zh": "最初为互相保护而成立的中国组织，但后来卷入犯罪活动（赌博、鸦片、勒索）。在19世纪新加坡造成了严重的治安问题。"
+        },
+        {
+          "term": "Sook Ching Massacre",
+          "term_zh": "肃清大屠杀",
+          "definition": "Japanese mass killings of Chinese males in Singapore (Feb-Mar 1942) after the Fall of Singapore. Estimated 50,000-100,000 killed. One of the worst atrocities in Singapore's history.",
+          "definition_zh": "新加坡沦陷后（1942年2月至3月）日本对新加坡华人男性的大规模杀戮。估计有5-10万人被杀。新加坡历史上最严重的暴行之一。"
+        },
+        {
+          "term": "Total Defence",
+          "term_zh": "全面防卫",
+          "definition": "Singapore's defense strategy involving 6 pillars: Military, Civil, Economic, Social, Psychological, and Digital Defence. Based on lessons from the Fall of Singapore (1942).",
+          "definition_zh": "新加坡的防御战略，包括6个支柱：军事、民防、经济、社会、心理和数字防卫。基于新加坡沦陷（1942年）的教训。"
+        }
+      ]
+    },
+    {
+      "id": "trade-and-economy",
+      "name": "Trade & Economy",
+      "name_zh": "贸易与经济",
+      "terms": [
+        {
+          "term": "Push Factors",
+          "term_zh": "推力因素",
+          "definition": "Negative conditions in a person's homeland that 'push' them to leave and migrate elsewhere. Examples: poverty, war, famine, persecution.",
+          "definition_zh": "一个人的家乡的负面条件'推动'他们离开并移民到其他地方。例子：贫穷、战争、饥荒、迫害。",
+          "example": "Push factors for Chinese migration: poverty, overpopulation, Taiping Rebellion, natural disasters.",
+          "example_zh": "华人移民的推力因素：贫穷、人口过剩、太平天国起义、自然灾害。"
+        },
+        {
+          "term": "Pull Factors",
+          "term_zh": "拉力因素",
+          "definition": "Positive attractions in a new place that 'pull' migrants to come there. Examples: jobs, better wages, freedom, safety.",
+          "definition_zh": "新地方的积极吸引力'拉'移民到那里。例子：工作、更好的工资、自由、安全。",
+          "example": "Pull factors for Singapore: job opportunities, free trade (no business restrictions), safety from wars, success stories from earlier migrants.",
+          "example_zh": "新加坡的拉力因素：工作机会、自由贸易（没有商业限制）、免受战争的安全、早期移民的成功故事。"
+        },
+        {
+          "term": "Coolie",
+          "term_zh": "苦力",
+          "definition": "Unskilled laborer, often Chinese or Indian, who did hard physical work for low wages. Coolies built roads, worked at docks, and carried heavy loads.",
+          "definition_zh": "非技术劳工，通常是华人或印度人，以低工资从事艰苦的体力劳动。苦力修建道路、在码头工作并搬运重物。"
+        },
+        {
+          "term": "Godown",
+          "term_zh": "货仓",
+          "definition": "A warehouse for storing goods. Singapore had many godowns along the Singapore River where merchants stored spices, tin, rubber, and other trade goods.",
+          "definition_zh": "储存货物的仓库。新加坡河沿岸有许多货仓，商人在那里储存香料、锡、橡胶和其他贸易商品。"
+        },
+        {
+          "term": "Rubber Boom",
+          "term_zh": "橡胶热潮",
+          "definition": "Period of rapid growth in rubber industry (late 1800s - early 1900s) due to demand for car tires. Made Malaya and Singapore very wealthy. Rubber became 50-60% of exports.",
+          "definition_zh": "由于汽车轮胎的需求，橡胶工业快速增长的时期（1800年代末至1900年代初）。使马来亚和新加坡非常富裕。橡胶占出口的50-60%。"
+        },
+        {
+          "term": "Tin Smelting",
+          "term_zh": "锡冶炼",
+          "definition": "The process of refining raw tin ore into pure tin metal. Singapore had major tin smelting works that processed tin mined in Malaya.",
+          "definition_zh": "将原始锡矿石精炼成纯锡金属的过程。新加坡有主要的锡冶炼厂，加工马来亚开采的锡。"
+        }
+      ]
+    }
+  ]
+}

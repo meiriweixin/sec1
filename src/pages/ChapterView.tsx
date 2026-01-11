@@ -19,7 +19,7 @@ export default function ChapterView() {
   const { subjectId, chapterId } = useParams();
   const navigate = useNavigate();
   const [searchParams, setSearchParams] = useSearchParams();
-  const { user, language, getChapterProgress, updateProgress, _hasHydrated, getWrongAnswers } = useStore();
+  const { user, language, gradeLevel, getChapterProgress, updateProgress, _hasHydrated, getWrongAnswers } = useStore();
   const t = useTranslations(language);
   const { toast } = useToast();
 
@@ -303,6 +303,7 @@ export default function ChapterView() {
                   onComplete={handleExerciseComplete}
                   chapterId={chapterId}
                   subjectId={subjectId}
+                  gradeLevel={gradeLevel}
                   previousScores={exerciseScores}
                   isReviewMode={isReviewMode}
                 />
