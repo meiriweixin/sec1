@@ -1,0 +1,1549 @@
+{
+  "subject": "geography",
+  "gradeLevel": "sec1",
+  "chapters": [
+    {
+      "id": "intro-to-geography-sec1",
+      "title": "Introduction to Geography",
+      "title_zh": "地理学导论",
+      "gradeLevel": "sec1",
+      "description": "Understanding key geographical concepts and the geographical inquiry process",
+      "description_zh": "理解关键地理概念和地理探究过程",
+      "objectives": [
+        "Understand what geography is and why it is important",
+        "Explain key geographical concepts: space, place, environment, and scale",
+        "Apply the Geographical Inquiry Process (GIP) to investigate geographical issues",
+        "Develop map reading and data interpretation skills"
+      ],
+      "objectives_zh": [
+        "理解地理学是什么以及为什么重要",
+        "解释关键地理概念：空间、地点、环境和尺度",
+        "应用地理探究过程（GIP）来研究地理问题",
+        "发展地图阅读和数据解释技能"
+      ],
+      "sections": [
+        {
+          "id": "what-is-geography",
+          "type": "text",
+          "title": "What is Geography?",
+          "title_zh": "什么是地理学？",
+          "content": "**Geography** is the study of places and the relationships between people and their environments. It helps us understand where things are, why they are there, and how they change over time.\n\n**Why Study Geography?**\n\n1. **Understanding our world**: Geography helps us make sense of the world around us\n2. **Solving problems**: We can address environmental and social challenges\n3. **Making decisions**: Geography informs policy and planning decisions\n4. **Career opportunities**: Geography skills are valuable in many professions\n\n**Singapore Context**: In Singapore, geography helps us understand issues like:\n- Water supply management (we import water from Malaysia)\n- Urban planning (HDB estates and green spaces)\n- Climate change impacts (rising sea levels)\n- Resource sustainability (limited land and natural resources)",
+          "content_zh": "**地理学**是研究地方以及人与环境之间关系的学科。它帮助我们理解事物在哪里、为什么在那里以及如何随时间变化。\n\n**为什么要学习地理学？**\n\n1. **理解我们的世界**：地理学帮助我们理解周围的世界\n2. **解决问题**：我们可以应对环境和社会挑战\n3. **做出决策**：地理学为政策和规划决策提供信息\n4. **职业机会**：地理技能在许多职业中都很有价值\n\n**新加坡背景**：在新加坡，地理学帮助我们理解以下问题：\n- 水供应管理（我们从马来西亚进口水）\n- 城市规划（组屋区和绿地）\n- 气候变化影响（海平面上升）\n- 资源可持续性（有限的土地和自然资源）"
+        },
+        {
+          "id": "key-concepts",
+          "type": "text",
+          "title": "Four Key Geographical Concepts",
+          "title_zh": "四个关键地理概念",
+          "content": "**1. Space**\n\nSpace refers to the location and distribution of phenomena on Earth's surface. It answers the question \"Where?\"\n\n**Example**: Singapore's location at 1°N, 103°E gives it a strategic position for trade in Southeast Asia.\n\n**2. Place**\n\nPlace refers to the physical and human characteristics that make a location unique. It answers \"What is it like?\"\n\n**Example**: Marina Bay is characterized by iconic buildings (Marina Bay Sands), waterfront promenades, and cultural venues.\n\n**3. Environment**\n\nEnvironment refers to the natural and human-made surroundings. It answers \"How do people and environment interact?\"\n\n**Example**: Singapore has reclaimed land from the sea to expand our territory, showing how we modify our environment.\n\n**4. Scale**\n\nScale refers to the level of detail or extent of area being studied (local, national, regional, global).\n\n**Example**: Water scarcity can be studied at:\n- **Local scale**: Neighborhood water conservation efforts\n- **National scale**: Singapore's Four National Taps strategy\n- **Regional scale**: Water agreements with Malaysia\n- **Global scale**: Worldwide water stress patterns",
+          "content_zh": "**1. 空间**\n\n空间是指地球表面现象的位置和分布。它回答\"在哪里？\"的问题。\n\n**示例**：新加坡位于北纬1°、东经103°，这使其在东南亚贸易中占据战略位置。\n\n**2. 地点**\n\n地点是指使一个位置独特的自然和人文特征。它回答\"是什么样的？\"的问题。\n\n**示例**：滨海湾的特点是标志性建筑（滨海湾金沙）、海滨长廊和文化场所。\n\n**3. 环境**\n\n环境是指自然和人造的周围环境。它回答\"人与环境如何互动？\"的问题。\n\n**示例**：新加坡填海造地以扩大领土，展示了我们如何改造环境。\n\n**4. 尺度**\n\n尺度是指所研究区域的详细程度或范围（地方、国家、区域、全球）。\n\n**示例**：水资源短缺可以在以下尺度研究：\n- **地方尺度**：社区节水努力\n- **国家尺度**：新加坡四大国家水喉战略\n- **区域尺度**：与马来西亚的水协议\n- **全球尺度**：全球水资源紧张模式"
+        },
+        {
+          "id": "geographical-inquiry",
+          "type": "text",
+          "title": "Geographical Inquiry Process (GIP)",
+          "title_zh": "地理探究过程（GIP）",
+          "content": "The **Geographical Inquiry Process (GIP)** is a framework for investigating geographical questions systematically.\n\n**Four Stages of GIP:**\n\n**1. Sparking Curiosity**\n- Ask geographical questions\n- Identify issues to investigate\n- Example: \"Why does Singapore face water scarcity despite high rainfall?\"\n\n**2. Gathering Data**\n- Collect information from various sources\n- Methods: fieldwork, maps, photographs, statistics, interviews\n- Example: Measure rainfall data, study reservoir locations, interview PUB officials\n\n**3. Exercising Reasoning**\n- Analyze and interpret data\n- Identify patterns, relationships, and trends\n- Draw conclusions based on evidence\n- Example: Compare rainfall patterns with water consumption; analyze impact of limited catchment area\n\n**4. Reflective Thinking**\n- Evaluate findings and solutions\n- Consider multiple perspectives\n- Propose informed actions\n- Example: Evaluate effectiveness of NEWater and desalination; suggest water conservation measures\n\n**Geographical Investigation (GI)** takes GIP further with actual fieldwork, following a 5-stage process from planning to communication of findings.",
+          "content_zh": "**地理探究过程（GIP）**是系统地研究地理问题的框架。\n\n**GIP的四个阶段：**\n\n**1. 激发好奇心**\n- 提出地理问题\n- 确定要调查的问题\n- 示例：\"为什么新加坡尽管降雨量高却面临水资源短缺？\"\n\n**2. 收集数据**\n- 从各种来源收集信息\n- 方法：实地考察、地图、照片、统计数据、访谈\n- 示例：测量降雨数据、研究水库位置、采访公用事业局官员\n\n**3. 进行推理**\n- 分析和解释数据\n- 识别模式、关系和趋势\n- 基于证据得出结论\n- 示例：比较降雨模式与用水量；分析有限集水区的影响\n\n**4. 反思性思考**\n- 评估发现和解决方案\n- 考虑多种观点\n- 提出明智的行动\n- 示例：评估新生水和海水淡化的有效性；建议节水措施\n\n**地理调查（GI）**通过实际实地考察进一步深化GIP，遵循从规划到传达发现的5阶段过程。"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "ex1-what-is-geography",
+          "type": "mcq",
+          "difficulty": "easy",
+          "prompt": "What does geography study?",
+          "prompt_zh": "地理学研究什么？",
+          "choices": [
+            "Places and relationships between people and environments",
+            "Only maps and locations",
+            "Only weather patterns",
+            "Only rocks and minerals"
+          ],
+          "choices_zh": [
+            "地方以及人与环境之间的关系",
+            "仅地图和位置",
+            "仅天气模式",
+            "仅岩石和矿物"
+          ],
+          "answer": 0,
+          "explanation": "**Problem**: Identify what geography studies.\n\n**Key Concept**: Geography is the study of places and the relationships between people and their environments.\n\n**Steps**: Geography examines where things are, why they are there, and how they change over time, including both physical and human aspects.\n\n**Answer**: Places and relationships between people and environments.\n\n**Common Mistakes**: Thinking geography only studies maps or only physical features.\n\n**Tip**: Remember: geography = \"geo\" (earth) + \"graphy\" (description/study).",
+          "explanation_zh": "**问题**：确定地理学研究什么。\n\n**关键概念**：地理学是研究地方以及人与环境之间关系的学科。\n\n**步骤**：地理学研究事物在哪里、为什么在那里以及如何随时间变化，包括自然和人文方面。\n\n**答案**：地方以及人与环境之间的关系。\n\n**常见错误**：认为地理学只研究地图或只研究自然特征。\n\n**提示**：记住：geography = \"geo\"（地球）+ \"graphy\"（描述/研究）。",
+          "hint": "Think about what makes geography different from other subjects.",
+          "hint_zh": "想想是什么使地理学与其他学科不同。"
+        },
+        {
+          "id": "ex2-space-concept",
+          "type": "mcq",
+          "difficulty": "easy",
+          "prompt": "Which geographical concept answers the question 'Where?'",
+          "prompt_zh": "哪个地理概念回答\"在哪里？\"的问题？",
+          "choices": [
+            "Space",
+            "Place",
+            "Environment",
+            "Scale"
+          ],
+          "choices_zh": [
+            "空间",
+            "地点",
+            "环境",
+            "尺度"
+          ],
+          "answer": 0,
+          "explanation": "**Problem**: Identify which concept answers 'Where?'\n\n**Key Concept**: Space refers to the location and distribution of phenomena on Earth's surface.\n\n**Steps**: Space deals with absolute location (coordinates) and relative location (in relation to other places).\n\n**Answer**: Space.\n\n**Common Mistakes**: Confusing space with place (which asks 'What is it like?').\n\n**Tip**: Space = Where something is; Place = What it's like.",
+          "explanation_zh": "**问题**：确定哪个概念回答\"在哪里？\"\n\n**关键概念**：空间是指地球表面现象的位置和分布。\n\n**步骤**：空间涉及绝对位置（坐标）和相对位置（与其他地方的关系）。\n\n**答案**：空间。\n\n**常见错误**：将空间与地点混淆（地点回答\"是什么样的？\"）。\n\n**提示**：空间 = 某物在哪里；地点 = 它是什么样的。",
+          "hint": "Think about coordinates like 1°N, 103°E for Singapore.",
+          "hint_zh": "想想新加坡的坐标，如北纬1°、东经103°。"
+        },
+        {
+          "id": "ex3-gip-stages",
+          "type": "short",
+          "difficulty": "easy",
+          "prompt": "Name the FIRST stage of the Geographical Inquiry Process (GIP).",
+          "prompt_zh": "说出地理探究过程（GIP）的第一阶段。",
+          "answer": "Sparking Curiosity",
+          "answer_zh": "激发好奇心",
+          "explanation": "**Problem**: Identify the first stage of GIP.\n\n**Key Concept**: GIP has four stages: Sparking Curiosity → Gathering Data → Exercising Reasoning → Reflective Thinking.\n\n**Steps**: The first stage involves asking geographical questions and identifying issues to investigate.\n\n**Answer**: Sparking Curiosity.\n\n**Common Mistakes**: Confusing with Gathering Data (the second stage).\n\n**Tip**: Remember the sequence: Spark → Gather → Reason → Reflect.",
+          "explanation_zh": "**问题**：确定GIP的第一阶段。\n\n**关键概念**：GIP有四个阶段：激发好奇心 → 收集数据 → 进行推理 → 反思性思考。\n\n**步骤**：第一阶段涉及提出地理问题和确定要调查的问题。\n\n**答案**：激发好奇心。\n\n**常见错误**：与收集数据（第二阶段）混淆。\n\n**提示**：记住顺序：激发 → 收集 → 推理 → 反思。",
+          "hint": "It starts with asking questions.",
+          "hint_zh": "它从提出问题开始。"
+        },
+        {
+          "id": "ex4-singapore-latitude",
+          "type": "mcq",
+          "difficulty": "medium",
+          "prompt": "Singapore's location at 1°N, 103°E illustrates which geographical concept?",
+          "prompt_zh": "新加坡位于北纬1°、东经103°说明了哪个地理概念？",
+          "choices": [
+            "Space",
+            "Place",
+            "Environment",
+            "Scale"
+          ],
+          "choices_zh": [
+            "空间",
+            "地点",
+            "环境",
+            "尺度"
+          ],
+          "answer": 0,
+          "explanation": "**Problem**: Apply geographical concept to Singapore's coordinates.\n\n**Key Concept**: Space refers to location and distribution using coordinates.\n\n**Steps**: Coordinates (1°N, 103°E) show Singapore's absolute position on Earth's surface, which is the concept of space.\n\n**Answer**: Space.\n\n**Common Mistakes**: Choosing 'Place' which refers to characteristics, not location.\n\n**Tip**: Coordinates always relate to the concept of space.",
+          "explanation_zh": "**问题**：将地理概念应用于新加坡的坐标。\n\n**关键概念**：空间是指使用坐标的位置和分布。\n\n**步骤**：坐标（北纬1°、东经103°）显示新加坡在地球表面的绝对位置，这是空间的概念。\n\n**答案**：空间。\n\n**常见错误**：选择\"地点\"，它指的是特征，而非位置。\n\n**提示**：坐标总是与空间概念相关。",
+          "hint": "Coordinates show where something is located.",
+          "hint_zh": "坐标显示某物的位置。"
+        },
+        {
+          "id": "ex5-scale-levels",
+          "type": "mcq",
+          "difficulty": "medium",
+          "prompt": "Studying water scarcity in the entire Southeast Asia region is an example of which scale?",
+          "prompt_zh": "研究整个东南亚地区的水资源短缺是哪个尺度的示例？",
+          "choices": [
+            "Regional scale",
+            "Local scale",
+            "National scale",
+            "Global scale"
+          ],
+          "choices_zh": [
+            "区域尺度",
+            "地方尺度",
+            "国家尺度",
+            "全球尺度"
+          ],
+          "answer": 0,
+          "explanation": "**Problem**: Identify the appropriate scale for studying Southeast Asia.\n\n**Key Concept**: Scale refers to the level of detail or extent of area being studied.\n\n**Steps**: \n- Local scale: neighborhood/community\n- National scale: one country\n- Regional scale: multiple countries in an area\n- Global scale: worldwide\n\nSoutheast Asia includes multiple countries, so it's regional scale.\n\n**Answer**: Regional scale.\n\n**Common Mistakes**: Confusing regional with global scale.\n\n**Tip**: Regional scale = a group of countries in the same geographic area.",
+          "explanation_zh": "**问题**：确定研究东南亚的适当尺度。\n\n**关键概念**：尺度是指所研究区域的详细程度或范围。\n\n**步骤**：\n- 地方尺度：社区\n- 国家尺度：一个国家\n- 区域尺度：一个地区的多个国家\n- 全球尺度：全球\n\n东南亚包括多个国家，所以是区域尺度。\n\n**答案**：区域尺度。\n\n**常见错误**：将区域尺度与全球尺度混淆。\n\n**提示**：区域尺度 = 同一地理区域的一组国家。",
+          "hint": "Think about how many countries are in Southeast Asia.",
+          "hint_zh": "想想东南亚有多少个国家。"
+        },
+        {
+          "id": "ex6-place-characteristics",
+          "type": "short",
+          "difficulty": "medium",
+          "prompt": "Explain what the geographical concept of 'Place' refers to.",
+          "prompt_zh": "解释地理概念\"地点\"指的是什么。",
+          "answer": "Place refers to the physical and human characteristics that make a location unique",
+          "answer_zh": "地点是指使一个位置独特的自然和人文特征",
+          "explanation": "**Problem**: Explain the concept of 'Place'.\n\n**Key Concept**: Place describes what makes a location special and different from other locations.\n\n**Steps**: Place includes both:\n- Physical characteristics (landforms, climate, vegetation)\n- Human characteristics (buildings, culture, activities)\n\nExample: Marina Bay's characteristics include iconic buildings (Marina Bay Sands), waterfront setting, and cultural venues.\n\n**Answer**: Place refers to the physical and human characteristics that make a location unique.\n\n**Common Mistakes**: Confusing place with space (location).\n\n**Tip**: Place answers 'What is it like?' while space answers 'Where is it?'",
+          "explanation_zh": "**问题**：解释\"地点\"的概念。\n\n**关键概念**：地点描述了使一个位置特殊并与其他位置不同的东西。\n\n**步骤**：地点包括：\n- 自然特征（地形、气候、植被）\n- 人文特征（建筑、文化、活动）\n\n示例：滨海湾的特征包括标志性建筑（滨海湾金沙）、海滨环境和文化场所。\n\n**答案**：地点是指使一个位置独特的自然和人文特征。\n\n**常见错误**：将地点与空间（位置）混淆。\n\n**提示**：地点回答\"是什么样的？\"而空间回答\"在哪里？\"",
+          "hint": "Think about what makes Singapore different from other countries.",
+          "hint_zh": "想想是什么使新加坡与其他国家不同。"
+        },
+        {
+          "id": "ex7-environment-interaction",
+          "type": "short",
+          "difficulty": "medium",
+          "prompt": "Give ONE example of how Singapore has modified its environment.",
+          "prompt_zh": "举一个新加坡如何改造其环境的例子。",
+          "answer": "Land reclamation to expand territory",
+          "answer_zh": "填海造地以扩大领土",
+          "explanation": "**Problem**: Provide an example of human-environment interaction in Singapore.\n\n**Key Concept**: Environment concept examines how people interact with and modify their surroundings.\n\n**Steps**: Singapore has modified its environment through:\n- Land reclamation (added 25% to land area)\n- Building reservoirs (Marina Barrage)\n- Creating green spaces (Gardens by the Bay)\n- Constructing underground infrastructure (MRT tunnels)\n\n**Answer**: Land reclamation to expand territory (or any valid example above).\n\n**Common Mistakes**: Describing the environment instead of explaining how humans modified it.\n\n**Tip**: Look for how Singapore overcomes natural limitations through technology.",
+          "explanation_zh": "**问题**：提供新加坡人与环境互动的示例。\n\n**关键概念**：环境概念研究人们如何与周围环境互动和改造。\n\n**步骤**：新加坡通过以下方式改造了环境：\n- 填海造地（增加了25%的土地面积）\n- 建造水库（滨海堤坝）\n- 创建绿色空间（滨海湾花园）\n- 建造地下基础设施（地铁隧道）\n\n**答案**：填海造地以扩大领土（或上述任何有效示例）。\n\n**常见错误**：描述环境而不是解释人类如何改造它。\n\n**提示**：寻找新加坡如何通过技术克服自然限制。",
+          "hint": "Think about how Singapore increased its land area.",
+          "hint_zh": "想想新加坡如何增加其土地面积。"
+        },
+        {
+          "id": "ex8-gip-reasoning",
+          "type": "short",
+          "difficulty": "medium",
+          "prompt": "In the GIP stage of 'Exercising Reasoning', what do geographers do with the data they have collected?",
+          "prompt_zh": "在GIP的\"进行推理\"阶段，地理学家对他们收集的数据做什么？",
+          "answer": "Analyze and interpret data to identify patterns, relationships, and trends",
+          "answer_zh": "分析和解释数据以识别模式、关系和趋势",
+          "explanation": "**Problem**: Explain what happens in the 'Exercising Reasoning' stage.\n\n**Key Concept**: This stage involves making sense of collected data.\n\n**Steps**: In Exercising Reasoning, geographers:\n1. Analyze data systematically\n2. Interpret what the data shows\n3. Identify patterns and relationships\n4. Draw evidence-based conclusions\n\nExample: After collecting rainfall data, analyze whether rainfall varies by season and explain why.\n\n**Answer**: Analyze and interpret data to identify patterns, relationships, and trends.\n\n**Common Mistakes**: Thinking this stage only involves collecting more data.\n\n**Tip**: Reasoning = thinking about what the data means, not just having the data.",
+          "explanation_zh": "**问题**：解释\"进行推理\"阶段发生了什么。\n\n**关键概念**：这个阶段涉及理解收集的数据。\n\n**步骤**：在进行推理中，地理学家：\n1. 系统地分析数据\n2. 解释数据显示的内容\n3. 识别模式和关系\n4. 得出基于证据的结论\n\n示例：收集降雨数据后，分析降雨是否因季节而异并解释原因。\n\n**答案**：分析和解释数据以识别模式、关系和趋势。\n\n**常见错误**：认为这个阶段只涉及收集更多数据。\n\n**提示**：推理 = 思考数据的含义，而不仅仅是拥有数据。",
+          "hint": "Think about what you do after you have collected data.",
+          "hint_zh": "想想你收集数据后做什么。"
+        },
+        {
+          "id": "ex9-why-study-geography",
+          "type": "short",
+          "difficulty": "medium",
+          "prompt": "Explain ONE reason why studying geography is important for Singapore.",
+          "prompt_zh": "解释为什么学习地理学对新加坡很重要的一个原因。",
+          "answer": "It helps us understand and solve challenges like water scarcity and limited land",
+          "answer_zh": "它帮助我们理解和解决水资源短缺和土地有限等挑战",
+          "explanation": "**Problem**: Explain the importance of geography for Singapore.\n\n**Key Concept**: Geography provides tools to understand and address local challenges.\n\n**Steps**: For Singapore, geography is important because it helps us:\n- Manage water resources (we import water and use NEWater)\n- Plan urban development (limited land requires careful planning)\n- Address climate change (rising sea levels threaten low-lying areas)\n- Understand our strategic location for trade\n\n**Answer**: It helps us understand and solve challenges like water scarcity and limited land (or any valid reason above).\n\n**Common Mistakes**: Giving a general reason without linking to Singapore's specific context.\n\n**Tip**: Think about Singapore's unique challenges: small size, limited resources, island nation.",
+          "explanation_zh": "**问题**：解释地理学对新加坡的重要性。\n\n**关键概念**：地理学提供了理解和应对本地挑战的工具。\n\n**步骤**：对于新加坡，地理学很重要，因为它帮助我们：\n- 管理水资源（我们进口水并使用新生水）\n- 规划城市发展（有限的土地需要仔细规划）\n- 应对气候变化（海平面上升威胁低洼地区）\n- 理解我们在贸易中的战略位置\n\n**答案**：它帮助我们理解和解决水资源短缺和土地有限等挑战（或上述任何有效原因）。\n\n**常见错误**：给出一般原因而没有联系到新加坡的具体背景。\n\n**提示**：想想新加坡的独特挑战：小面积、有限资源、岛国。",
+          "hint": "Think about Singapore's limited natural resources.",
+          "hint_zh": "想想新加坡有限的自然资源。"
+        },
+        {
+          "id": "ex10-gi-fieldwork",
+          "type": "short",
+          "difficulty": "hard",
+          "prompt": "What is the difference between Geographical Inquiry Process (GIP) and Geographical Investigation (GI)?",
+          "prompt_zh": "地理探究过程（GIP）和地理调查（GI）有什么区别？",
+          "answer": "GI involves actual fieldwork while GIP is a broader framework that can use secondary data",
+          "answer_zh": "GI涉及实际的实地考察，而GIP是可以使用次要数据的更广泛的框架",
+          "explanation": "**Problem**: Distinguish between GIP and GI.\n\n**Key Concept**: Both are inquiry methods but differ in data collection approach.\n\n**Steps**: \n- **GIP**: 4-stage framework (Spark Curiosity, Gather Data, Exercise Reasoning, Reflect) - can use any data sources\n- **GI**: 5-stage process that specifically requires **fieldwork** - collecting primary data through direct observation and measurement\n\nGI is a specialized application of GIP with emphasis on hands-on data collection.\n\n**Answer**: GI involves actual fieldwork while GIP is a broader framework that can use secondary data.\n\n**Common Mistakes**: Thinking they are the same thing.\n\n**Tip**: GI = GIP + fieldwork requirement.",
+          "explanation_zh": "**问题**：区分GIP和GI。\n\n**关键概念**：两者都是探究方法，但数据收集方法不同。\n\n**步骤**：\n- **GIP**：4阶段框架（激发好奇心、收集数据、进行推理、反思）- 可以使用任何数据来源\n- **GI**：5阶段过程，特别需要**实地考察** - 通过直接观察和测量收集原始数据\n\nGI是GIP的专门应用，强调动手数据收集。\n\n**答案**：GI涉及实际的实地考察，而GIP是可以使用次要数据的更广泛的框架。\n\n**常见错误**：认为它们是同一件事。\n\n**提示**：GI = GIP + 实地考察要求。",
+          "hint": "Think about whether you need to go outside to collect data.",
+          "hint_zh": "想想你是否需要外出收集数据。"
+        },
+        {
+          "id": "ex11-map-scale",
+          "type": "mcq",
+          "difficulty": "medium",
+          "prompt": "A map shows that 1 cm represents 5 km in reality. What type of scale does this represent?",
+          "prompt_zh": "一张地图显示1厘米代表现实中的5公里。这代表什么类型的尺度？",
+          "choices": [
+            "Statement scale",
+            "Local scale",
+            "Regional scale",
+            "Graphical scale"
+          ],
+          "choices_zh": [
+            "文字比例尺",
+            "地方尺度",
+            "区域尺度",
+            "图形比例尺"
+          ],
+          "answer": 0,
+          "explanation": "**Problem**: Identify the type of map scale being used.\n\n**Key Concept**: Maps use different types of scales to show relationship between map distance and actual distance.\n\n**Steps**: \n- **Statement scale**: Words/numbers (e.g., '1 cm = 5 km')\n- **Ratio scale**: Numbers only (e.g., 1:500,000)\n- **Graphical scale**: Visual bar showing distance\n\nThe question describes a statement scale.\n\n**Answer**: Statement scale.\n\n**Common Mistakes**: Confusing map scale with geographical scale (local/regional/global).\n\n**Tip**: If it uses words to explain the scale, it's a statement scale.",
+          "explanation_zh": "**问题**：确定正在使用的地图比例尺类型。\n\n**关键概念**：地图使用不同类型的比例尺来显示地图距离和实际距离之间的关系。\n\n**步骤**：\n- **文字比例尺**：文字/数字（例如，\"1厘米 = 5公里\"）\n- **比率比例尺**：仅数字（例如，1:500,000）\n- **图形比例尺**：显示距离的视觉条\n\n问题描述的是文字比例尺。\n\n**答案**：文字比例尺。\n\n**常见错误**：将地图比例尺与地理尺度（地方/区域/全球）混淆。\n\n**提示**：如果它使用文字来解释比例尺，那就是文字比例尺。",
+          "hint": "Look at how the scale is expressed - in words or just numbers?",
+          "hint_zh": "看比例尺如何表达 - 用文字还是只用数字？"
+        },
+        {
+          "id": "ex12-photo-interpretation",
+          "type": "mcq",
+          "difficulty": "medium",
+          "prompt": "Study the photograph of Marina Bay Sands. Which geographical concept does analyzing this photograph help you understand?",
+          "prompt_zh": "研究滨海湾金沙的照片。分析这张照片有助于你理解哪个地理概念？",
+          "choices": [
+            "Place - what Marina Bay is like",
+            "Space - where Marina Bay is located",
+            "Scale - the size of Marina Bay",
+            "Environment - the climate of Marina Bay"
+          ],
+          "choices_zh": [
+            "地点 - 滨海湾是什么样的",
+            "空间 - 滨海湾在哪里",
+            "尺度 - 滨海湾的大小",
+            "环境 - 滨海湾的气候"
+          ],
+          "answer": 0,
+          "explanation": "**Problem**: Apply geographical concepts to photograph interpretation.\n\n**Key Concept**: Different data sources (photos, maps, statistics) help understand different geographical concepts.\n\n**Steps**: \n- Photographs show **characteristics** and features of a place\n- They answer 'What is it like?' rather than 'Where is it?'\n- Marina Bay Sands photo shows iconic architecture, waterfront, modern development = characteristics of the place\n\n**Answer**: Place - what Marina Bay is like.\n\n**Common Mistakes**: Choosing space because the photo shows a location.\n\n**Tip**: Photos are best for understanding 'Place' (characteristics), while maps are best for 'Space' (location).",
+          "explanation_zh": "**问题**：将地理概念应用于照片解释。\n\n**关键概念**：不同的数据来源（照片、地图、统计数据）有助于理解不同的地理概念。\n\n**步骤**：\n- 照片显示地点的**特征**和特点\n- 它们回答\"是什么样的？\"而不是\"在哪里？\"\n- 滨海湾金沙照片显示标志性建筑、海滨、现代发展 = 地点的特征\n\n**答案**：地点 - 滨海湾是什么样的。\n\n**常见错误**：选择空间，因为照片显示了一个位置。\n\n**提示**：照片最适合理解\"地点\"（特征），而地图最适合\"空间\"（位置）。",
+          "hint": "Think about what information photographs provide best.",
+          "hint_zh": "想想照片最能提供什么信息。"
+        },
+        {
+          "id": "ex13-singapore-coordinates",
+          "type": "short",
+          "difficulty": "medium",
+          "prompt": "Singapore is located at approximately 1°N, 103°E. Based on these coordinates, is Singapore in the Northern or Southern Hemisphere?",
+          "prompt_zh": "新加坡大约位于北纬1°、东经103°。根据这些坐标，新加坡在北半球还是南半球？",
+          "answer": "Northern Hemisphere",
+          "answer_zh": "北半球",
+          "explanation": "**Problem**: Interpret coordinates to determine hemisphere location.\n\n**Key Concept**: Coordinates use latitude (N/S) and longitude (E/W) to pinpoint locations.\n\n**Steps**: \n1. Latitude of 1°N means 1 degree North of the equator\n2. 'N' (North) indicates Northern Hemisphere\n3. 'S' would indicate Southern Hemisphere\n4. Singapore is just north of the equator\n\n**Answer**: Northern Hemisphere.\n\n**Common Mistakes**: Confusing latitude with longitude, or N/S with E/W.\n\n**Tip**: N = Northern Hemisphere, S = Southern Hemisphere. Singapore's N shows it's in Northern Hemisphere.",
+          "explanation_zh": "**问题**：解释坐标以确定半球位置。\n\n**关键概念**：坐标使用纬度（N/S）和经度（E/W）来精确定位。\n\n**步骤**：\n1. 北纬1°意味着在赤道以北1度\n2. \"N\"（北）表示北半球\n3. \"S\"表示南半球\n4. 新加坡在赤道以北\n\n**答案**：北半球。\n\n**常见错误**：将纬度与经度混淆，或将N/S与E/W混淆。\n\n**提示**：N = 北半球，S = 南半球。新加坡的N显示它在北半球。",
+          "hint": "Look at the N in the latitude coordinate.",
+          "hint_zh": "看纬度坐标中的N。"
+        },
+        {
+          "id": "ex14-data-collection",
+          "type": "mcq",
+          "difficulty": "hard",
+          "prompt": "Students are investigating traffic patterns near their school. Which method represents PRIMARY data collection?",
+          "prompt_zh": "学生正在调查学校附近的交通模式。哪种方法代表原始数据收集？",
+          "choices": [
+            "Counting vehicles at different times of day",
+            "Reading transport statistics from LTA website",
+            "Looking at traffic maps online",
+            "Watching videos of the area on YouTube"
+          ],
+          "choices_zh": [
+            "在一天的不同时间计数车辆",
+            "从陆路交通管理局网站阅读交通统计数据",
+            "在线查看交通地图",
+            "在YouTube上观看该地区的视频"
+          ],
+          "answer": 0,
+          "explanation": "**Problem**: Distinguish between primary and secondary data collection.\n\n**Key Concept**: \n- **Primary data**: Collected firsthand by the investigator (observations, surveys, measurements)\n- **Secondary data**: Obtained from existing sources (books, websites, databases)\n\n**Steps**: Analyze each option:\n1. Counting vehicles = direct observation = PRIMARY\n2. LTA statistics = existing data = SECONDARY\n3. Online maps = existing data = SECONDARY\n4. YouTube videos = existing data = SECONDARY\n\n**Answer**: Counting vehicles at different times of day.\n\n**Common Mistakes**: Thinking all methods that use technology are secondary data.\n\n**Tip**: If YOU are the one collecting/measuring/observing, it's primary data.",
+          "explanation_zh": "**问题**：区分原始数据和次要数据收集。\n\n**关键概念**：\n- **原始数据**：由调查者直接收集（观察、调查、测量）\n- **次要数据**：从现有来源获得（书籍、网站、数据库）\n\n**步骤**：分析每个选项：\n1. 计数车辆 = 直接观察 = 原始\n2. 陆路交通管理局统计 = 现有数据 = 次要\n3. 在线地图 = 现有数据 = 次要\n4. YouTube视频 = 现有数据 = 次要\n\n**答案**：在一天的不同时间计数车辆。\n\n**常见错误**：认为所有使用技术的方法都是次要数据。\n\n**提示**：如果你是收集/测量/观察的人，那就是原始数据。",
+          "hint": "Which method involves students doing their own observations?",
+          "hint_zh": "哪种方法涉及学生自己的观察？"
+        },
+        {
+          "id": "ex15-gi-application",
+          "type": "short",
+          "difficulty": "hard",
+          "prompt": "A class plans to investigate plastic pollution at East Coast Park beach. Suggest ONE method they could use to collect PRIMARY data.",
+          "prompt_zh": "一个班级计划调查东海岸公园海滩的塑料污染。建议他们可以使用一种方法来收集原始数据。",
+          "answer": "Count the number of plastic items found along a measured section of beach",
+          "answer_zh": "计算在测量的海滩段发现的塑料物品数量",
+          "explanation": "**Problem**: Apply understanding of primary data collection to a real investigation.\n\n**Key Concept**: Geographical Investigation (GI) requires collecting primary data through fieldwork.\n\n**Steps**: Valid methods for investigating beach plastic pollution include:\n- Counting plastic items along transects\n- Categorizing types of plastic waste\n- Measuring area covered by plastic\n- Surveying beachgoers about littering behavior\n- Taking photographs for visual analysis\n\n**Answer**: Count the number of plastic items found along a measured section of beach (or any valid method above).\n\n**Common Mistakes**: Suggesting secondary data methods like reading LTA reports.\n\n**Tip**: PRIMARY data = go to the location and collect data yourself through observation/measurement.",
+          "explanation_zh": "**问题**：将对原始数据收集的理解应用于真实调查。\n\n**关键概念**：地理调查（GI）需要通过实地考察收集原始数据。\n\n**步骤**：调查海滩塑料污染的有效方法包括：\n- 沿样带计数塑料物品\n- 分类塑料废物类型\n- 测量塑料覆盖的面积\n- 调查海滩游客的丢弃行为\n- 拍照进行视觉分析\n\n**答案**：计算在测量的海滩段发现的塑料物品数量（或上述任何有效方法）。\n\n**常见错误**：建议次要数据方法，如阅读陆路交通管理局报告。\n\n**提示**：原始数据 = 去位置并通过观察/测量自己收集数据。",
+          "hint": "Think about what students can observe or measure at the beach.",
+          "hint_zh": "想想学生可以在海滩观察或测量什么。"
+        }
+      ]
+    },
+    {
+      "id": "sustainable-resource-management-sec1",
+      "title": "How Can We Sustainably Manage Natural Resources?",
+      "title_zh": "我们如何可持续地管理自然资源？",
+      "gradeLevel": "sec1",
+      "description": "Understanding natural resources, sustainability principles, and management frameworks",
+      "description_zh": "理解自然资源、可持续性原则和管理框架",
+      "objectives": [
+        "Define natural resources and classify them as renewable or non-renewable",
+        "Explain the concept of sustainable development",
+        "Understand the relationship between resource use and environmental impact",
+        "Analyze factors affecting resource availability and demand",
+        "Evaluate strategies for sustainable resource management"
+      ],
+      "objectives_zh": [
+        "定义自然资源并将其分类为可再生或不可再生",
+        "解释可持续发展的概念",
+        "理解资源使用与环境影响之间的关系",
+        "分析影响资源可用性和需求的因素",
+        "评估可持续资源管理策略"
+      ],
+      "sections": [
+        {
+          "id": "what-are-natural-resources",
+          "type": "text",
+          "title": "What Are Natural Resources?",
+          "title_zh": "什么是自然资源？",
+          "content": "**Natural resources** are materials or substances found in nature that humans use to meet their needs and wants.\n\n**Types of Natural Resources:**\n\n**1. Renewable Resources**\n- Can be replenished naturally over time\n- Examples: Water (through hydrological cycle), forests (regrow), solar energy, wind energy\n- **Key point**: Renewable does NOT mean unlimited\n- Can be depleted if used faster than replenishment rate\n\n**2. Non-Renewable Resources**\n- Cannot be replaced once used (or take millions of years to form)\n- Examples: Fossil fuels (coal, oil, natural gas), minerals (iron, copper), precious metals (gold, silver)\n- **Limited supply**: Will eventually run out\n\n**Singapore Examples:**\n- **Renewable**: Rainwater (collected in reservoirs), solar energy (solar panels on HDB roofs)\n- **Non-renewable**: We import fossil fuels for energy, limited natural resources on our island\n- **Challenge**: Small land area + no natural resources = must manage carefully and import sustainably",
+          "content_zh": "**自然资源**是在自然界中发现的材料或物质，人类用来满足他们的需求和欲望。\n\n**自然资源的类型：**\n\n**1. 可再生资源**\n- 可以随着时间自然补充\n- 示例：水（通过水文循环）、森林（再生）、太阳能、风能\n- **关键点**：可再生不意味着无限\n- 如果使用速度快于补充速度，可能会耗尽\n\n**2. 不可再生资源**\n- 一旦使用就无法替代（或需要数百万年才能形成）\n- 示例：化石燃料（煤、石油、天然气）、矿物（铁、铜）、贵金属（金、银）\n- **有限供应**：最终会耗尽\n\n**新加坡示例：**\n- **可再生**：雨水（在水库中收集）、太阳能（组屋屋顶的太阳能板）\n- **不可再生**：我们进口化石燃料用于能源，岛上自然资源有限\n- **挑战**：小土地面积 + 无自然资源 = 必须小心管理和可持续进口"
+        },
+        {
+          "id": "what-is-sustainability",
+          "type": "text",
+          "title": "What Is Sustainable Development?",
+          "title_zh": "什么是可持续发展？",
+          "content": "**Sustainable development** means meeting the needs of the present without compromising the ability of future generations to meet their own needs.\n\n**The Three Pillars of Sustainability:**\n\n**1. Environmental Sustainability**\n- Protect ecosystems and biodiversity\n- Minimize pollution and waste\n- Conserve natural resources\n- Example: Protecting Singapore's nature reserves (Bukit Timah, Sungei Buloh)\n\n**2. Economic Sustainability**\n- Ensure economic growth and prosperity\n- Create jobs and livelihoods\n- Efficient resource use\n- Example: Singapore's green economy initiatives, eco-tourism\n\n**3. Social Sustainability**\n- Meet human needs (food, water, shelter, health)\n- Ensure equity and fairness\n- Quality of life for all\n- Example: Universal access to clean water in Singapore\n\n**Balance is Key**: All three pillars must work together. Economic growth cannot destroy the environment. Environmental protection cannot ignore people's needs.\n\n**Singapore's Sustainable Development Approach:**\n- **Vision**: City in a Garden, sustainable and livable\n- **Green Plan 2030**: Targets for sustainability\n- **Examples**:\n  - NEWater: Economic (reduce water imports) + Environmental (recycle wastewater) + Social (water security)\n  - Gardens by the Bay: Environmental (biodiversity) + Economic (tourism) + Social (recreation)\n  - Solar panels on HDB: Environmental (clean energy) + Economic (reduce costs) + Social (affordable electricity)",
+          "content_zh": "**可持续发展**意味着满足当前需求而不损害后代满足自身需求的能力。\n\n**可持续性的三大支柱：**\n\n**1. 环境可持续性**\n- 保护生态系统和生物多样性\n- 最小化污染和废物\n- 保护自然资源\n- 示例：保护新加坡的自然保护区（武吉知马、双溪布洛）\n\n**2. 经济可持续性**\n- 确保经济增长和繁荣\n- 创造就业和生计\n- 高效利用资源\n- 示例：新加坡的绿色经济倡议、生态旅游\n\n**3. 社会可持续性**\n- 满足人类需求（食物、水、住所、健康）\n- 确保公平和公正\n- 所有人的生活质量\n- 示例：新加坡普遍获得清洁水\n\n**平衡是关键**：所有三个支柱必须共同作用。经济增长不能破坏环境。环境保护不能忽视人们的需求。\n\n**新加坡的可持续发展方法：**\n- **愿景**：花园城市，可持续和宜居\n- **绿色计划2030**：可持续性目标\n- **示例**：\n  - 新生水：经济（减少水进口）+ 环境（回收废水）+ 社会（水安全）\n  - 滨海湾花园：环境（生物多样性）+ 经济（旅游）+ 社会（休闲）\n  - 组屋太阳能板：环境（清洁能源）+ 经济（降低成本）+ 社会（负担得起的电力）"
+        },
+        {
+          "id": "resource-management-principles",
+          "type": "text",
+          "title": "Principles of Sustainable Resource Management",
+          "title_zh": "可持续资源管理原则",
+          "content": "**Key Principles for Managing Resources Sustainably:**\n\n**1. Conservation**\n- Use resources efficiently and avoid waste\n- Reduce, Reuse, Recycle (3Rs)\n- Singapore example: Water conservation (10-liter challenge), waste reduction campaigns\n\n**2. Preservation**\n- Protect ecosystems and biodiversity\n- Set aside protected areas\n- Singapore example: Nature reserves (Bukit Timah, Central Catchment) - no development allowed\n\n**3. Substitution**\n- Replace non-renewable with renewable resources\n- Use alternative materials or technologies\n- Singapore example: Solar energy replacing fossil fuels, NEWater reducing imported water dependence\n\n**4. Restoration**\n- Repair damaged ecosystems\n- Reforestation and habitat rehabilitation\n- Singapore example: Mangrove restoration at Pulau Semakau, reforestation programs\n\n**5. Education and Awareness**\n- Teach people about sustainability\n- Change behaviors and attitudes\n- Singapore example: NEWater Visitor Centre, school environmental programs\n\n**6. Regulation and Policy**\n- Laws to protect resources and environment\n- Incentives for sustainable practices\n- Singapore example: Environmental Protection and Management Act, carbon tax, WELS (Water Efficiency Labelling Scheme)\n\n**7. Innovation and Technology**\n- Develop new solutions for resource challenges\n- Improve efficiency through technology\n- Singapore example: Smart water meters, vertical farming, desalination technology\n\n**Applying These Principles:**\n\nThese principles will be applied to specific resources in the following topics:\n- **Water resources**: Conservation (water-saving devices), Substitution (NEWater, desalination), Technology (membrane technology)\n- **Forests**: Preservation (protected reserves), Restoration (reforestation), Regulation (logging bans)\n- **Mangroves**: Preservation (Sungei Buloh), Restoration (replanting), Education (guided walks)",
+          "content_zh": "**可持续管理资源的关键原则：**\n\n**1. 保护**\n- 高效使用资源并避免浪费\n- 减少、再利用、回收（3R）\n- 新加坡示例：节水（10升挑战）、减少废物活动\n\n**2. 保存**\n- 保护生态系统和生物多样性\n- 划出保护区\n- 新加坡示例：自然保护区（武吉知马、中央集水区）- 不允许开发\n\n**3. 替代**\n- 用可再生资源替代不可再生资源\n- 使用替代材料或技术\n- 新加坡示例：太阳能替代化石燃料、新生水减少进口水依赖\n\n**4. 恢复**\n- 修复受损生态系统\n- 重新造林和栖息地恢复\n- 新加坡示例：实马高岛红树林恢复、重新造林计划\n\n**5. 教育和意识**\n- 教育人们关于可持续性\n- 改变行为和态度\n- 新加坡示例：新生水访客中心、学校环境项目\n\n**6. 法规和政策**\n- 保护资源和环境的法律\n- 可持续实践的激励措施\n- 新加坡示例：环境保护和管理法、碳税、WELS（水效标签计划）\n\n**7. 创新和技术**\n- 为资源挑战开发新解决方案\n- 通过技术提高效率\n- 新加坡示例：智能水表、垂直农业、海水淡化技术\n\n**应用这些原则：**\n\n这些原则将应用于以下主题中的特定资源：\n- **水资源**：保护（节水设备）、替代（新生水、淡化）、技术（膜技术）\n- **森林**：保存（保护区）、恢复（重新造林）、法规（伐木禁令）\n- **红树林**：保存（双溪布洛）、恢复（重新种植）、教育（导览）"
+        },
+        {
+          "id": "factors-affecting-resources",
+          "type": "text",
+          "title": "Factors Affecting Resource Use and Availability",
+          "title_zh": "影响资源使用和可用性的因素",
+          "content": "**Why do some places have more/less resources? Why is demand increasing?**\n\n**Factors Affecting Resource AVAILABILITY:**\n\n**1. Physical Geography**\n- Climate: Rainfall affects water availability\n- Location: Proximity to equator affects solar energy potential\n- Landforms: Flat land easier to develop than mountains\n- Soil: Fertile soil supports agriculture\n- Singapore: Small island, no rivers from other countries, limited natural resources\n\n**2. Technology**\n- Technology can access previously unavailable resources\n- Example: Desalination makes seawater usable, deep-sea drilling for oil\n- Singapore: Advanced technology enables NEWater production, land reclamation\n\n**3. Economics**\n- Cost of extraction and transportation\n- Example: Oil extraction expensive in deep water or Arctic\n- Singapore: Must import resources - economically viable due to trade infrastructure\n\n**Factors Affecting Resource DEMAND:**\n\n**1. Population Growth**\n- More people = more resources needed\n- Global population: 8 billion (2023), projected 10 billion (2050)\n- Singapore: 5.6 million people, increasing demand for water, energy, land\n\n**2. Economic Development**\n- Wealthier countries/people consume more resources\n- Industrialization increases energy and water demand\n- Example: Singapore's industries (semiconductors, refineries) use large amounts of water and energy\n\n**3. Lifestyle and Consumption**\n- Modern lifestyles increase resource use (cars, air conditioning, electronics)\n- Higher standards of living = more consumption\n- Singapore: High per capita consumption due to developed economy\n\n**4. Urbanization**\n- Cities concentrate people and activities\n- Urban areas have high resource demands\n- Singapore: 100% urban, intensive resource use in small area\n\n**Resource Challenges:**\n- **Increasing demand** + **Limited/decreasing supply** = **Resource stress**\n- Examples: Water scarcity in dry regions, deforestation for agriculture, fossil fuel depletion\n- **Solution**: Sustainable management to balance supply and demand",
+          "content_zh": "**为什么有些地方拥有更多/更少的资源？为什么需求在增加？**\n\n**影响资源可用性的因素：**\n\n**1. 自然地理**\n- 气候：降雨影响水的可用性\n- 位置：靠近赤道影响太阳能潜力\n- 地形：平地比山地更容易开发\n- 土壤：肥沃土壤支持农业\n- 新加坡：小岛、无来自其他国家的河流、自然资源有限\n\n**2. 技术**\n- 技术可以获取以前无法获得的资源\n- 示例：海水淡化使海水可用、深海石油钻探\n- 新加坡：先进技术使新生水生产、填海造地成为可能\n\n**3. 经济**\n- 提取和运输成本\n- 示例：深水或北极的石油提取昂贵\n- 新加坡：必须进口资源 - 由于贸易基础设施而经济上可行\n\n**影响资源需求的因素：**\n\n**1. 人口增长**\n- 更多人 = 需要更多资源\n- 全球人口：80亿（2023），预计100亿（2050）\n- 新加坡：560万人，对水、能源、土地的需求增加\n\n**2. 经济发展**\n- 更富裕的国家/人民消耗更多资源\n- 工业化增加能源和水需求\n- 示例：新加坡的工业（半导体、炼油厂）使用大量水和能源\n\n**3. 生活方式和消费**\n- 现代生活方式增加资源使用（汽车、空调、电子产品）\n- 更高的生活水平 = 更多消费\n- 新加坡：由于发达经济而人均消费高\n\n**4. 城市化**\n- 城市集中人口和活动\n- 城市地区有高资源需求\n- 新加坡：100%城市、小面积内密集资源使用\n\n**资源挑战：**\n- **需求增加** + **供应有限/减少** = **资源压力**\n- 示例：干旱地区水资源短缺、农业森林砍伐、化石燃料耗尽\n- **解决方案**：可持续管理以平衡供需"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "ex1-renewable",
+          "type": "mcq",
+          "difficulty": "easy",
+          "prompt": "Which is a renewable resource?",
+          "prompt_zh": "哪一项是可再生资源？",
+          "choices": [
+            "Solar energy",
+            "Coal",
+            "Oil",
+            "Gold"
+          ],
+          "choices_zh": [
+            "太阳能",
+            "煤",
+            "石油",
+            "金"
+          ],
+          "answer": 0,
+          "explanation": "Renewable resources can be replenished: solar, wind, water, forests. Non-renewable: fossil fuels (coal, oil, gas), minerals, metals.",
+          "explanation_zh": "可再生资源可以补充：太阳能、风能、水、森林。不可再生：化石燃料（煤、石油、天然气）、矿物、金属。",
+          "hint": "Can it be replenished?",
+          "hint_zh": "它能被补充吗？"
+        },
+        {
+          "id": "ex2-sustainability-pillars",
+          "type": "mcq",
+          "difficulty": "easy",
+          "prompt": "How many pillars of sustainability are there?",
+          "prompt_zh": "可持续性有多少个支柱？",
+          "choices": [
+            "Three",
+            "Two",
+            "Four",
+            "Five"
+          ],
+          "choices_zh": [
+            "三个",
+            "两个",
+            "四个",
+            "五个"
+          ],
+          "answer": 0,
+          "explanation": "Three pillars: 1)Environmental 2)Economic 3)Social. All must work together for true sustainability.",
+          "explanation_zh": "三个支柱：1)环境 2)经济 3)社会。所有支柱必须共同作用以实现真正的可持续性。",
+          "hint": "Remember: environment, economy, society.",
+          "hint_zh": "记住：环境、经济、社会。"
+        },
+        {
+          "id": "ex3-3rs",
+          "type": "short",
+          "difficulty": "easy",
+          "prompt": "What do the 3Rs of sustainability stand for?",
+          "prompt_zh": "可持续性的3R代表什么？",
+          "answer": "Reduce, Reuse, Recycle",
+          "answer_zh": "减少、再利用、回收",
+          "explanation": "3Rs hierarchy: 1)Reduce (use less) - best option 2)Reuse (use again) 3)Recycle (process into new materials). Reduce is most effective.",
+          "explanation_zh": "3R层次：1)减少（使用更少）- 最佳选择 2)再利用（再次使用）3)回收（加工成新材料）。减少最有效。",
+          "hint": "R words for conservation.",
+          "hint_zh": "保护的R词。"
+        },
+        {
+          "id": "ex4-sustainable-development",
+          "type": "short",
+          "difficulty": "medium",
+          "prompt": "Define sustainable development.",
+          "prompt_zh": "定义可持续发展。",
+          "answer": "Meeting present needs without compromising future generations' ability to meet their needs",
+          "answer_zh": "满足当前需求而不损害后代满足需求的能力",
+          "explanation": "Sustainable development balances present and future. Use resources responsibly today so they're available tomorrow. Example: Manage forests so they regrow for future use.",
+          "explanation_zh": "可持续发展平衡现在和未来。今天负责任地使用资源，以便明天可用。示例：管理森林使其重新生长以供未来使用。",
+          "hint": "Present vs future needs.",
+          "hint_zh": "现在vs未来需求。"
+        },
+        {
+          "id": "ex5-population-demand",
+          "type": "mcq",
+          "difficulty": "medium",
+          "prompt": "Why does population growth increase resource demand?",
+          "prompt_zh": "为什么人口增长增加资源需求？",
+          "choices": [
+            "More people need more resources for food, water, energy, shelter",
+            "Population has no effect on resources",
+            "Technology solves all resource problems",
+            "Resources increase with population"
+          ],
+          "choices_zh": [
+            "更多人需要更多资源用于食物、水、能源、住所",
+            "人口对资源没有影响",
+            "技术解决所有资源问题",
+            "资源随人口增加"
+          ],
+          "answer": 0,
+          "explanation": "More people=more consumption. Each person needs food, water, energy, housing, etc. Global population: 8 billion→10 billion (2050) = 25% more demand.",
+          "explanation_zh": "更多人=更多消费。每个人需要食物、水、能源、住房等。全球人口：80亿→100亿（2050）= 需求增加25%。",
+          "hint": "More people consume...",
+          "hint_zh": "更多人消耗..."
+        },
+        {
+          "id": "ex6-renewable-limit",
+          "type": "short",
+          "difficulty": "medium",
+          "prompt": "Explain why renewable resources can still be depleted despite being renewable.",
+          "prompt_zh": "解释为什么可再生资源尽管可再生但仍可能被耗尽。",
+          "answer": "If used faster than natural replenishment rate",
+          "answer_zh": "如果使用速度快于自然补充速度",
+          "explanation": "Renewable≠unlimited. Example: Forests renew but if cut faster than regrowth→deforestation. Fish populations renew but overfishing→depletion. Rate matters!",
+          "explanation_zh": "可再生≠无限。示例：森林更新但如果砍伐快于重新生长→森林砍伐。鱼类种群更新但过度捕捞→耗尽。速度很重要！",
+          "hint": "Speed of use vs speed of renewal.",
+          "hint_zh": "使用速度vs更新速度。"
+        },
+        {
+          "id": "ex7-three-pillars",
+          "type": "short",
+          "difficulty": "medium",
+          "prompt": "Explain why all three pillars of sustainability must work together.",
+          "prompt_zh": "解释为什么可持续性的三个支柱必须共同作用。",
+          "answer": "Balance needed - economic growth cannot destroy environment or ignore social needs",
+          "answer_zh": "需要平衡 - 经济增长不能破坏环境或忽视社会需求",
+          "explanation": "Cannot sacrifice one for another: Pure economic focus→environmental damage. Pure environmental focus→people suffer economically. Need balanced approach. Singapore NEWater example: economic (save money)+environmental (recycle)+social (water security).",
+          "explanation_zh": "不能为另一个牺牲一个：纯经济关注→环境破坏。纯环境关注→人们经济受苦。需要平衡方法。新加坡新生水示例：经济（省钱）+环境（回收）+社会（水安全）。",
+          "hint": "Trade-offs and balance.",
+          "hint_zh": "权衡和平衡。"
+        },
+        {
+          "id": "ex8-substitution",
+          "type": "short",
+          "difficulty": "medium",
+          "prompt": "How does substitution help sustainable resource management?",
+          "prompt_zh": "替代如何帮助可持续资源管理？",
+          "answer": "Replace non-renewable with renewable resources to extend sustainability",
+          "answer_zh": "用可再生资源替代不可再生资源以延长可持续性",
+          "explanation": "Substitution: use alternatives. Examples: Solar→fossil fuels, bamboo→plastic, NEWater→imported water. Reduces dependence on limited non-renewables. Singapore heavily uses substitution due to lack of natural resources.",
+          "explanation_zh": "替代：使用替代品。示例：太阳能→化石燃料、竹子→塑料、新生水→进口水。减少对有限不可再生资源的依赖。新加坡由于缺乏自然资源而大量使用替代。",
+          "hint": "Alternative resources.",
+          "hint_zh": "替代资源。"
+        },
+        {
+          "id": "ex9-urbanization",
+          "type": "short",
+          "difficulty": "hard",
+          "prompt": "Explain how urbanization increases resource demands.",
+          "prompt_zh": "解释城市化如何增加资源需求。",
+          "answer": "Concentration of people and activities in cities creates intensive resource consumption",
+          "answer_zh": "城市中人口和活动的集中创造了密集的资源消耗",
+          "explanation": "Cities concentrate: 1)People (high density) 2)Industries 3)Transport 4)Buildings. All need energy, water, materials. Urban infrastructure needs resources. Singapore: 100% urban, 5.6 million in 728km²=very intensive use.",
+          "explanation_zh": "城市集中：1)人（高密度）2)工业 3)交通 4)建筑。所有都需要能源、水、材料。城市基础设施需要资源。新加坡：100%城市，728km²中560万=非常密集使用。",
+          "hint": "Density and concentration.",
+          "hint_zh": "密度和集中。"
+        },
+        {
+          "id": "ex10-singapore-challenge",
+          "type": "short",
+          "difficulty": "hard",
+          "prompt": "Why is sustainable resource management especially important for Singapore?",
+          "prompt_zh": "为什么可持续资源管理对新加坡特别重要？",
+          "answer": "Small land area and no natural resources mean must manage carefully and rely on imports",
+          "answer_zh": "小土地面积和无自然资源意味着必须小心管理并依赖进口",
+          "explanation": "Singapore challenges: 1)No natural resources 2)Small land (728km²) 3)High population density 4)Dependent on imports 5)Limited catchment for water. MUST be efficient, innovative, sustainable to survive. Examples: NEWater, vertical farming, solar, reclamation.",
+          "explanation_zh": "新加坡挑战：1)无自然资源 2)小土地（728km²）3)高人口密度 4)依赖进口 5)水的集水区有限。必须高效、创新、可持续才能生存。示例：新生水、垂直农业、太阳能、填海。",
+          "hint": "Constraints force innovation.",
+          "hint_zh": "限制促进创新。"
+        },
+        {
+          "id": "ex11-resource-classification",
+          "type": "mcq",
+          "difficulty": "medium",
+          "prompt": "Table shows: Water-renewable, Coal-non-renewable, Gold-non-renewable, Wind-renewable. Which pair is correctly classified?",
+          "prompt_zh": "表格显示：水-可再生，煤-不可再生，金-不可再生，风-可再生。哪对正确分类？",
+          "choices": [
+            "Water & Wind (renewable)",
+            "Coal & Water (non-renewable)",
+            "Gold & Wind (renewable)",
+            "All are non-renewable"
+          ],
+          "choices_zh": [
+            "水和风（可再生）",
+            "煤和水（不可再生）",
+            "金和风（可再生）",
+            "所有都是不可再生"
+          ],
+          "answer": 0,
+          "explanation": "Check each: Water renews (hydrological cycle)✓ Wind renews (continuous)✓ Coal takes millions of years✓ Gold limited supply✓. Water+Wind=renewable correct.",
+          "explanation_zh": "检查每个：水更新（水文循环）✓ 风更新（持续）✓ 煤需要数百万年✓ 金有限供应✓。水+风=可再生正确。",
+          "hint": "Which naturally replenish?",
+          "hint_zh": "哪些自然补充？"
+        },
+        {
+          "id": "ex12-consumption-trend",
+          "type": "short",
+          "difficulty": "medium",
+          "prompt": "Graph shows Singapore's energy consumption doubled from 2000 to 2020. Suggest TWO reasons.",
+          "prompt_zh": "图表显示新加坡能源消耗从2000到2020翻倍。建议两个原因。",
+          "answer": "Population growth and economic development with more industries",
+          "answer_zh": "人口增长和更多工业的经济发展",
+          "explanation": "Rising energy use due to: 1)Population: 4M→5.6M (+40%) 2)Economic growth (more industries, data centers) 3)Higher living standards (more AC, cars, electronics) 4)Urbanization (100% urban=intensive use).",
+          "explanation_zh": "能源使用上升原因：1)人口：400万→560万（+40%）2)经济增长（更多工业、数据中心）3)更高生活水平（更多空调、汽车、电子产品）4)城市化（100%城市=密集使用）。",
+          "hint": "People and economy.",
+          "hint_zh": "人口和经济。"
+        },
+        {
+          "id": "ex13-pillar-balance",
+          "type": "mcq",
+          "difficulty": "hard",
+          "prompt": "A country bans all logging to protect forests. Economy suffers, people lose jobs. Which pillar is neglected?",
+          "prompt_zh": "一个国家禁止所有伐木以保护森林。经济受损，人们失业。哪个支柱被忽视？",
+          "choices": [
+            "Economic & Social",
+            "Environmental",
+            "All three balanced",
+            "Only Economic"
+          ],
+          "choices_zh": [
+            "经济和社会",
+            "环境",
+            "所有三个平衡",
+            "仅经济"
+          ],
+          "answer": 0,
+          "explanation": "Logging ban: Environmental✓ protected. BUT Economic✗ (industry shut down) Social✗ (jobs lost, livelihoods gone). Need balance: selective logging allows jobs+forests. Pure environmental focus harms economy+society.",
+          "explanation_zh": "伐木禁令：环境✓保护。但经济✗（产业关闭）社会✗（失业、生计失去）。需要平衡：选择性伐木允许工作+森林。纯环境关注损害经济+社会。",
+          "hint": "Consider all three pillars.",
+          "hint_zh": "考虑所有三个支柱。"
+        },
+        {
+          "id": "ex14-footprint-data",
+          "type": "short",
+          "difficulty": "hard",
+          "prompt": "Data: Singaporean uses 141L water/day, global average 170L. Despite lower use, why does Singapore face water stress?",
+          "prompt_zh": "数据：新加坡人每天使用141升水，全球平均170升。尽管使用较低，为什么新加坡面临水压力？",
+          "answer": "Small catchment area limits water collection despite high rainfall and efficiency",
+          "answer_zh": "小集水区限制水收集尽管降雨高和效率高",
+          "explanation": "Not just about consumption rate. Singapore water stress factors: 1)Tiny catchment (728km² land) 2)No rivers from neighbors 3)High density (5.6M people) 4)Must import 40% from Malaysia. Efficiency helps but geography constrains supply.",
+          "explanation_zh": "不仅仅是消费率。新加坡水压力因素：1)微小集水区（728km²土地）2)无来自邻国的河流 3)高密度（560万人）4)必须从马来西亚进口40%。效率有帮助但地理限制供应。",
+          "hint": "Supply constraint, not demand.",
+          "hint_zh": "供应限制，非需求。"
+        },
+        {
+          "id": "ex15-strategy-evaluation",
+          "type": "short",
+          "difficulty": "hard",
+          "prompt": "Compare conservation vs substitution for managing non-renewable resources. Which is more effective long-term?",
+          "prompt_zh": "比较保护vs替代来管理不可再生资源。哪个长期更有效？",
+          "answer": "Substitution because eventually non-renewables will run out regardless of conservation",
+          "answer_zh": "替代因为无论如何保护不可再生资源最终都会耗尽",
+          "explanation": "Conservation: use less, extend lifespan. Good but TEMPORARY - non-renewables still finite. Substitution: replace with renewables. PERMANENT solution - shifts to unlimited source. Best approach: BOTH - conserve while transitioning to substitutes. Example: Save fossil fuels (conserve) WHILE developing solar (substitute).",
+          "explanation_zh": "保护：使用更少，延长寿命。好但暂时 - 不可再生仍然有限。替代：用可再生替代。永久解决方案 - 转向无限来源。最佳方法：两者 - 保护同时过渡到替代品。示例：节约化石燃料（保护）同时开发太阳能（替代）。",
+          "hint": "Long-term thinking.",
+          "hint_zh": "长期思考。"
+        }
+      ]
+    },
+    {
+      "id": "water-resources-sec1",
+      "title": "Water: A Precious Resource",
+      "title_zh": "水：珍贵的资源",
+      "gradeLevel": "sec1",
+      "description": "Understanding the hydrological cycle, water uses, and sustainable water management",
+      "description_zh": "理解水文循环、水的用途和可持续水资源管理",
+      "objectives": [
+        "Describe the hydrological cycle and water budget",
+        "Explain different water uses (domestic, industrial, agricultural)",
+        "Analyze causes and effects of water pollution",
+        "Evaluate strategies for sustainable water management",
+        "Apply knowledge to Singapore's water challenges"
+      ],
+      "objectives_zh": [
+        "描述水文循环和水量平衡",
+        "解释不同的水用途（家庭、工业、农业）",
+        "分析水污染的原因和影响",
+        "评估可持续水资源管理策略",
+        "将知识应用于新加坡的水资源挑战"
+      ],
+      "sections": [
+        {
+          "id": "hydrological-cycle",
+          "type": "text",
+          "title": "The Hydrological Cycle",
+          "title_zh": "水文循环",
+          "content": "The **hydrological cycle** (water cycle) is the continuous movement of water on, above, and below Earth's surface.\n\n**Key Processes:**\n\n1. **Evaporation**: Water changes from liquid to gas (water vapor) due to heat from the sun\n2. **Transpiration**: Water vapor released by plants through their leaves\n3. **Evapotranspiration**: Combined evaporation and transpiration\n4. **Condensation**: Water vapor cools and changes back to liquid, forming clouds\n5. **Precipitation**: Water falls from clouds as rain, snow, sleet, or hail\n6. **Infiltration**: Water soaks into the ground\n7. **Runoff**: Water flows over land surface into rivers, lakes, and oceans\n\n**Water Budget**\n\nThe water budget is the balance between water inputs (precipitation) and outputs (evapotranspiration, runoff) in a drainage basin.\n\n**Formula**: $\\text{Water Budget} = \\text{Precipitation} - (\\text{Evapotranspiration} + \\text{Runoff})$\n\n**Singapore Example**: \n- Average annual rainfall: 2,400mm (high)\n- Small land area = limited catchment area\n- High evaporation rates due to tropical climate\n- Result: Water deficit despite high rainfall\n\n**Singapore's Solutions**: Four National Taps\n1. Local catchment water (reservoirs)\n2. Imported water (from Johor, Malaysia)\n3. NEWater (treated wastewater)\n4. Desalinated water (from seawater)",
+          "content_zh": "**水文循环**（水循环）是水在地球表面、上方和下方的连续运动。\n\n**关键过程：**\n\n1. **蒸发**：水因太阳热量从液态变为气态（水蒸气）\n2. **蒸腾**：植物通过叶子释放水蒸气\n3. **蒸散**：蒸发和蒸腾的结合\n4. **凝结**：水蒸气冷却并变回液态，形成云\n5. **降水**：水以雨、雪、雨夹雪或冰雹的形式从云中落下\n6. **渗透**：水渗入地下\n7. **径流**：水在地表流入河流、湖泊和海洋\n\n**水量平衡**\n\n水量平衡是流域中水输入（降水）和输出（蒸散、径流）之间的平衡。\n\n**公式**：$\\text{水量平衡} = \\text{降水} - (\\text{蒸散} + \\text{径流})$\n\n**新加坡示例**：\n- 年平均降雨量：2,400毫米（高）\n- 土地面积小 = 集水区有限\n- 热带气候导致高蒸发率\n- 结果：尽管降雨量高，仍存在水资源短缺\n\n**新加坡的解决方案**：四大国家水喉\n1. 本地集水区水（水库）\n2. 进口水（来自马来西亚柔佛）\n3. 新生水（处理过的废水）\n4. 淡化水（来自海水）"
+        },
+        {
+          "id": "water-uses",
+          "type": "text",
+          "title": "Water Uses and Demand",
+          "title_zh": "水的用途和需求",
+          "content": "Water is essential for various human activities. Understanding water uses helps us manage this precious resource sustainably.\n\n**Types of Water Use:**\n\n**1. Domestic Use** (Household)\n- Drinking and cooking\n- Bathing and washing\n- Toilet flushing\n- Garden watering\n\n**Singapore Data**: Average household uses 141 liters per person per day (2022)\n\n**2. Industrial Use**\n- Manufacturing processes (electronics, chemicals)\n- Cooling systems in factories\n- Cleaning equipment\n\n**Singapore Example**: Semiconductor factories in Woodlands and Tampines use large amounts of ultra-pure water\n\n**3. Agricultural Use**\n- Crop irrigation\n- Livestock drinking water\n- Fish farming\n\n**Singapore Context**: Limited agriculture (only 1% of land), but farms like Bollywood Veggies and fish farms at sea still need water\n\n**4. Commercial Use**\n- Hotels and restaurants\n- Shopping malls\n- Office buildings\n\n**Factors Affecting Water Demand:**\n\n1. **Population growth**: More people = more water needed\n2. **Economic development**: Industries and higher living standards increase demand\n3. **Climate**: Hot weather increases water consumption\n4. **Lifestyle**: Water-intensive activities (long showers, car washing)\n\n**Singapore's Water Conservation Efforts:**\n- Water Efficiency Labelling Scheme (WELS) for taps and appliances\n- NEWater Visitor Centre education\n- Water pricing to encourage conservation\n- ABC Waters Programme (Active, Beautiful, Clean)",
+          "content_zh": "水对各种人类活动至关重要。理解水的用途有助于我们可持续地管理这一珍贵资源。\n\n**水的使用类型：**\n\n**1. 家庭用途**\n- 饮用和烹饪\n- 洗澡和洗涤\n- 冲厕\n- 浇花园\n\n**新加坡数据**：平均每户每人每天使用141升水（2022年）\n\n**2. 工业用途**\n- 制造过程（电子、化学品）\n- 工厂冷却系统\n- 清洁设备\n\n**新加坡示例**：兀兰和淡滨尼的半导体工厂使用大量超纯水\n\n**3. 农业用途**\n- 作物灌溉\n- 牲畜饮用水\n- 养鱼\n\n**新加坡背景**：农业有限（仅占土地的1%），但像Bollywood Veggies等农场和海上鱼场仍需要水\n\n**4. 商业用途**\n- 酒店和餐厅\n- 购物中心\n- 办公楼\n\n**影响水需求的因素：**\n\n1. **人口增长**：人口越多 = 需要更多水\n2. **经济发展**：工业和更高的生活水平增加需求\n3. **气候**：炎热天气增加用水量\n4. **生活方式**：耗水活动（长时间淋浴、洗车）\n\n**新加坡的节水努力：**\n- 水效标签计划（WELS）用于水龙头和电器\n- 新生水访客中心教育\n- 水价定价以鼓励节约\n- ABC水务计划（活跃、美丽、清洁）"
+        },
+        {
+          "id": "water-pollution-management",
+          "type": "text",
+          "title": "Water Pollution and Management",
+          "title_zh": "水污染和管理",
+          "content": "**Water Pollution** occurs when harmful substances contaminate water bodies, making them unsafe for use.\n\n**Causes of Water Pollution:**\n\n1. **Industrial waste**: Chemicals, heavy metals from factories\n2. **Agricultural runoff**: Fertilizers, pesticides washing into rivers\n3. **Sewage**: Untreated human waste\n4. **Plastic pollution**: Bottles, bags, microplastics\n5. **Oil spills**: From ships and offshore platforms\n\n**Effects of Water Pollution:**\n\n**On Environment:**\n- Death of aquatic life (fish, plants)\n- Disruption of food chains\n- Algal blooms (excessive plant growth)\n- Loss of biodiversity\n\n**On Humans:**\n- Waterborne diseases (cholera, typhoid)\n- Health problems from contaminated seafood\n- Economic losses (fishing industry, tourism)\n- Increased water treatment costs\n\n**Singapore's Water Management:**\n\n**1. Pollution Prevention**\n- Strict regulations on industrial discharge\n- Sewage treatment plants (Changi, Ulu Pandan)\n- Marina Barrage to keep seawater out of reservoir\n\n**2. Water Conservation**\n- 10-liter challenge\n- Smart water meters\n- Waterless urinals in public buildings\n- Rainwater harvesting\n\n**3. Technology Solutions**\n- NEWater: Advanced membrane technology\n- Desalination: Reverse osmosis\n- Deep Tunnel Sewerage System (DTSS)\n\n**4. Public Education**\n- Water conservation campaigns\n- School programs\n- Water Rationing Exercise (for awareness)\n\n**Sustainable Water Management** balances current water needs with future availability, ensuring water security for generations to come.",
+          "content_zh": "**水污染**发生在有害物质污染水体，使其不安全使用时。\n\n**水污染的原因：**\n\n1. **工业废物**：工厂排放的化学品、重金属\n2. **农业径流**：肥料、农药流入河流\n3. **污水**：未经处理的人类废物\n4. **塑料污染**：瓶子、袋子、微塑料\n5. **石油泄漏**：来自船只和海上平台\n\n**水污染的影响：**\n\n**对环境：**\n- 水生生物死亡（鱼类、植物）\n- 食物链破坏\n- 藻华（植物过度生长）\n- 生物多样性丧失\n\n**对人类：**\n- 水源性疾病（霍乱、伤寒）\n- 受污染海鲜导致的健康问题\n- 经济损失（渔业、旅游业）\n- 水处理成本增加\n\n**新加坡的水资源管理：**\n\n**1. 污染预防**\n- 严格的工业排放法规\n- 污水处理厂（樟宜、乌鲁班丹）\n- 滨海堤坝防止海水进入水库\n\n**2. 节约用水**\n- 10升挑战\n- 智能水表\n- 公共建筑无水小便池\n- 雨水收集\n\n**3. 技术解决方案**\n- 新生水：先进膜技术\n- 海水淡化：反渗透\n- 深层隧道污水系统（DTSS）\n\n**4. 公众教育**\n- 节水宣传活动\n- 学校项目\n- 水配给演习（提高意识）\n\n**可持续水资源管理**平衡当前用水需求和未来可用性，确保子孙后代的水安全。"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "ex1-evaporation",
+          "type": "mcq",
+          "difficulty": "easy",
+          "prompt": "Which process changes water from liquid to gas?",
+          "prompt_zh": "哪个过程将水从液态变为气态？",
+          "choices": [
+            "Evaporation",
+            "Condensation",
+            "Precipitation",
+            "Infiltration"
+          ],
+          "choices_zh": [
+            "蒸发",
+            "凝结",
+            "降水",
+            "渗透"
+          ],
+          "answer": 0,
+          "explanation": "Evaporation is liquid→gas. Condensation is gas→liquid. Precipitation is falling water. Infiltration is water soaking into ground.",
+          "explanation_zh": "蒸发是液态→气态。凝结是气态→液态。降水是降落的水。渗透是水渗入地下。",
+          "hint": "Think about water on a hot day.",
+          "hint_zh": "想想炎热天气的水。"
+        },
+        {
+          "id": "ex2-four-taps",
+          "type": "mcq",
+          "difficulty": "easy",
+          "prompt": "Which is NOT one of Singapore's Four National Taps?",
+          "prompt_zh": "哪一项不是新加坡的四大国家水喉之一？",
+          "choices": [
+            "Home rainwater harvesting",
+            "Local catchment",
+            "Imported water",
+            "NEWater"
+          ],
+          "choices_zh": [
+            "家庭雨水收集",
+            "本地集水区",
+            "进口水",
+            "新生水"
+          ],
+          "answer": 0,
+          "explanation": "Four Taps: 1)Local catchment 2)Imported 3)NEWater 4)Desalination. Home harvesting encouraged but not official tap.",
+          "explanation_zh": "四大水喉：1)本地集水区 2)进口 3)新生水 4)淡化。家庭收集受鼓励但非官方水喉。",
+          "hint": "Official PUB sources.",
+          "hint_zh": "公用事业局官方来源。"
+        },
+        {
+          "id": "ex3-industrial-use",
+          "type": "mcq",
+          "difficulty": "easy",
+          "prompt": "Semiconductor manufacturing uses water for what purpose?",
+          "prompt_zh": "半导体制造使用水的目的是什么？",
+          "choices": [
+            "Industrial use",
+            "Domestic use",
+            "Agricultural use",
+            "Recreational use"
+          ],
+          "choices_zh": [
+            "工业用途",
+            "家庭用途",
+            "农业用途",
+            "娱乐用途"
+          ],
+          "answer": 0,
+          "explanation": "Manufacturing=industrial. Semiconductors need ultra-pure water for production processes.",
+          "explanation_zh": "制造=工业。半导体需要超纯水用于生产过程。",
+          "hint": "Factories=?",
+          "hint_zh": "工厂=？"
+        },
+        {
+          "id": "ex4-pollution-type",
+          "type": "mcq",
+          "difficulty": "medium",
+          "prompt": "Farm fertilizers washing into rivers is which pollution type?",
+          "prompt_zh": "农场肥料流入河流是哪种污染类型？",
+          "choices": [
+            "Agricultural runoff",
+            "Industrial waste",
+            "Sewage",
+            "Oil spill"
+          ],
+          "choices_zh": [
+            "农业径流",
+            "工业废物",
+            "污水",
+            "石油泄漏"
+          ],
+          "answer": 0,
+          "explanation": "From farms=agricultural. Runoff=washes off land into water. Fertilizers/pesticides from farms pollute waterways.",
+          "explanation_zh": "来自农场=农业。径流=从土地冲入水中。来自农场的肥料/农药污染水道。",
+          "hint": "From farm land.",
+          "hint_zh": "来自农田。"
+        },
+        {
+          "id": "ex5-newater-source",
+          "type": "short",
+          "difficulty": "medium",
+          "prompt": "What is NEWater made from?",
+          "prompt_zh": "新生水是由什么制成的？",
+          "answer": "Treated wastewater",
+          "answer_zh": "处理过的废水",
+          "explanation": "NEWater=NEW water from WASTE water. Uses advanced membrane+UV treatment to recycle wastewater into ultra-clean water.",
+          "explanation_zh": "新生水=来自废水的新水。使用先进膜+紫外线处理将废水回收为超清洁水。",
+          "hint": "Recycled from...",
+          "hint_zh": "从...回收"
+        },
+        {
+          "id": "ex6-water-scarcity",
+          "type": "short",
+          "difficulty": "medium",
+          "prompt": "Explain why Singapore faces water scarcity despite 2400mm annual rainfall.",
+          "prompt_zh": "解释为什么新加坡尽管年降雨量2400毫米仍面临水资源短缺。",
+          "answer": "Small land area limits catchment despite high rainfall",
+          "answer_zh": "小土地面积限制集水区尽管降雨量高",
+          "explanation": "Water availability=rainfall×catchment area. Singapore: high rain BUT small land=limited catchment. Also high evaporation in tropical climate.",
+          "explanation_zh": "水可用性=降雨量×集水区。新加坡：高降雨但小土地=有限集水区。热带气候蒸发率也高。",
+          "hint": "Think about land size.",
+          "hint_zh": "想想土地大小。"
+        },
+        {
+          "id": "ex7-pollution-effect",
+          "type": "short",
+          "difficulty": "medium",
+          "prompt": "Explain ONE environmental effect of water pollution.",
+          "prompt_zh": "解释水污染的一种环境影响。",
+          "answer": "Death of aquatic life due to toxins or oxygen depletion",
+          "answer_zh": "由于毒素或缺氧导致水生生物死亡",
+          "explanation": "Polluted water kills fish/plants through: 1)Toxic chemicals 2)Oxygen depletion from algal blooms 3)Disrupted food chains.",
+          "explanation_zh": "受污染的水通过以下方式杀死鱼/植物：1)有毒化学品 2)藻华导致缺氧 3)食物链破坏。",
+          "hint": "What happens to fish?",
+          "hint_zh": "鱼会怎样？"
+        },
+        {
+          "id": "ex8-marina-barrage",
+          "type": "short",
+          "difficulty": "medium",
+          "prompt": "How does Marina Barrage help Singapore's water supply?",
+          "prompt_zh": "滨海堤坝如何帮助新加坡的水供应？",
+          "answer": "Keeps seawater out creating freshwater reservoir",
+          "answer_zh": "阻止海水形成淡水水库",
+          "explanation": "Marina Barrage=dam at Marina Bay mouth. Closes to keep seawater out. Collects city rainwater creating 15th reservoir covering 1/6 of Singapore.",
+          "explanation_zh": "滨海堤坝=滨海湾口的大坝。关闭以阻止海水。收集城市雨水形成第15个水库，覆盖新加坡1/6。",
+          "hint": "What does a barrage do?",
+          "hint_zh": "堤坝做什么？"
+        },
+        {
+          "id": "ex9-conservation",
+          "type": "short",
+          "difficulty": "hard",
+          "prompt": "Suggest TWO household water conservation methods.",
+          "prompt_zh": "建议两种家庭节水方法。",
+          "answer": "Install water-efficient fittings and take shorter showers",
+          "answer_zh": "安装节水配件并缩短淋浴时间",
+          "explanation": "Valid methods: 1)WELS-rated taps/toilets 2)Shorter showers (5min not 10) 3)Turn off tap while brushing 4)Fix leaks 5)Full loads only in washing machine.",
+          "explanation_zh": "有效方法：1)WELS评级水龙头/马桶 2)缩短淋浴（5分钟非10分钟）3)刷牙时关水龙头 4)修复漏水 5)洗衣机仅满载。",
+          "hint": "Daily home activities.",
+          "hint_zh": "日常家庭活动。"
+        },
+        {
+          "id": "ex10-desalination",
+          "type": "short",
+          "difficulty": "hard",
+          "prompt": "Give ONE advantage and ONE disadvantage of desalination.",
+          "prompt_zh": "给出海水淡化的一个优点和一个缺点。",
+          "answer": "Advantage: weather-independent; Disadvantage: high energy cost",
+          "answer_zh": "优点：不受天气影响；缺点：能源成本高",
+          "explanation": "Advantages: unlimited seawater source, drought-proof, reduces import dependence. Disadvantages: expensive energy use, brine discharge harms marine life, high infrastructure cost.",
+          "explanation_zh": "优点：无限的海水来源、抗旱、减少进口依赖。缺点：昂贵的能源使用、盐水排放损害海洋生物、高基础设施成本。",
+          "hint": "Reliability vs cost.",
+          "hint_zh": "可靠性与成本。"
+        },
+        {
+          "id": "ex11-rainfall-pattern",
+          "type": "mcq",
+          "difficulty": "medium",
+          "prompt": "Graph shows Singapore's highest rainfall in December (300mm), lowest in February (120mm). What pattern?",
+          "prompt_zh": "图表显示新加坡12月降雨最高（300mm），2月最低（120mm）。什么模式？",
+          "choices": [
+            "Seasonal variation with monsoons",
+            "Random pattern",
+            "Yearly increase",
+            "Climate change decrease"
+          ],
+          "choices_zh": [
+            "季风的季节性变化",
+            "随机模式",
+            "年度增加",
+            "气候变化减少"
+          ],
+          "answer": 0,
+          "explanation": "December=NE monsoon (wet). February=drier period. Shows seasonal pattern from monsoon influence.",
+          "explanation_zh": "12月=东北季风（湿）。2月=较干旱时期。显示季风影响的季节模式。",
+          "hint": "Monsoon seasons.",
+          "hint_zh": "季风季节。"
+        },
+        {
+          "id": "ex12-consumption-trend",
+          "type": "short",
+          "difficulty": "medium",
+          "prompt": "Household water use decreased from 165L/person/day (2003) to 141L (2022). Suggest ONE reason.",
+          "prompt_zh": "家庭用水从165升/人/天（2003）降至141升（2022）。建议一个原因。",
+          "answer": "WELS water-efficient fixtures installed",
+          "answer_zh": "安装了WELS节水装置",
+          "explanation": "Decrease due to: 1)Mandatory WELS since 2009 2)Education campaigns 3)Pricing incentives 4)Better technology (dual-flush toilets) 5)Greater awareness.",
+          "explanation_zh": "减少原因：1)2009年起强制WELS 2)教育活动 3)价格激励 4)更好技术（双冲马桶）5)更大意识。",
+          "hint": "Government policies.",
+          "hint_zh": "政府政策。"
+        },
+        {
+          "id": "ex13-water-budget",
+          "type": "short",
+          "difficulty": "hard",
+          "prompt": "Basin gets 200mm rain. 50mm evaporates, 30mm transpires, 100mm runs off. Remaining water (mm)?",
+          "prompt_zh": "流域收到200mm降水。50mm蒸发，30mm蒸腾，100mm径流。剩余水（mm）？",
+          "answer": "20",
+          "answer_zh": "20",
+          "validator": "numeric",
+          "explanation": "Water budget=Input-Outputs. Input:200mm. Outputs:50+30+100=180mm. Remaining:200-180=20mm.",
+          "explanation_zh": "水量平衡=输入-输出。输入：200mm。输出：50+30+100=180mm。剩余：200-180=20mm。",
+          "hint": "Subtract all losses.",
+          "hint_zh": "减去所有损失。"
+        },
+        {
+          "id": "ex14-newater-process",
+          "type": "mcq",
+          "difficulty": "hard",
+          "prompt": "NEWater: Wastewater→Microfiltration→Reverse Osmosis→UV→NEWater. Which removes dissolved salts?",
+          "prompt_zh": "新生水：废水→微滤→反渗透→紫外线→新生水。哪个去除溶解盐？",
+          "choices": [
+            "Reverse Osmosis",
+            "Microfiltration",
+            "UV Disinfection",
+            "All steps"
+          ],
+          "choices_zh": [
+            "反渗透",
+            "微滤",
+            "紫外线消毒",
+            "所有步骤"
+          ],
+          "answer": 0,
+          "explanation": "Microfiltration=removes particles/bacteria. Reverse Osmosis=removes dissolved salts/minerals through membrane. UV=kills microorganisms.",
+          "explanation_zh": "微滤=去除颗粒/细菌。反渗透=通过膜去除溶解盐/矿物质。紫外线=杀死微生物。",
+          "hint": "Membrane removes...",
+          "hint_zh": "膜去除..."
+        },
+        {
+          "id": "ex15-abc-waters",
+          "type": "short",
+          "difficulty": "hard",
+          "prompt": "ABC Waters Programme stands for Active, Beautiful, Clean. How does it help water management?",
+          "prompt_zh": "ABC水务计划代表活跃、美丽、清洁。它如何帮助水管理？",
+          "answer": "Integrates drains/reservoirs with parks managing stormwater while creating recreation",
+          "answer_zh": "将排水渠/水库与公园整合管理雨水同时创建休闲",
+          "explanation": "ABC Waters transforms drains/reservoirs into recreational parks. Benefits: 1)Natural filtration improves water quality 2)Increases catchment 3)Flood management 4)Community awareness. Examples: Bishan Park, Kallang River.",
+          "explanation_zh": "ABC水务将排水渠/水库转变为休闲公园。好处：1)自然过滤改善水质 2)增加集水区 3)洪水管理 4)社区意识。示例：碧山公园、加冷河。",
+          "hint": "Dual purpose.",
+          "hint_zh": "双重目的。"
+        }
+      ]
+    },
+    {
+      "id": "tropical-rainforests-sec1",
+      "title": "Tropical Rainforests",
+      "title_zh": "热带雨林",
+      "gradeLevel": "sec1",
+      "description": "Understanding tropical rainforest ecosystems, their importance, and conservation",
+      "description_zh": "理解热带雨林生态系统、其重要性和保护",
+      "objectives": [
+        "Describe characteristics of tropical rainforests",
+        "Explain plant and animal adaptations in rainforests",
+        "Analyze the distribution of tropical rainforests globally",
+        "Evaluate environmental functions and importance of rainforests",
+        "Assess causes and impacts of deforestation",
+        "Propose sustainable forest management strategies"
+      ],
+      "objectives_zh": [
+        "描述热带雨林的特征",
+        "解释雨林中植物和动物的适应",
+        "分析全球热带雨林的分布",
+        "评估雨林的环境功能和重要性",
+        "评估森林砍伐的原因和影响",
+        "提出可持续森林管理策略"
+      ],
+      "sections": [
+        {
+          "id": "rainforest-characteristics",
+          "type": "text",
+          "title": "Characteristics of Tropical Rainforests",
+          "title_zh": "热带雨林的特征",
+          "content": "**Tropical rainforests** are dense forests found near the equator with high rainfall and warm temperatures year-round.\n\n**Climate Characteristics:**\n\n1. **High Temperature**: 25-28°C throughout the year (no distinct seasons)\n2. **High Rainfall**: Over 2,000mm annually, evenly distributed\n3. **High Humidity**: 75-95% due to constant evapotranspiration\n4. **No Distinct Seasons**: Temperatures and rainfall remain constant\n\n**Vegetation Characteristics:**\n\n**1. Stratification** (Layers)\n\n- **Emergent Layer** (45-55m): Tallest trees, receive most sunlight\n- **Canopy Layer** (30-45m): Dense roof of branches and leaves\n- **Understory Layer** (10-30m): Smaller trees, limited sunlight\n- **Forest Floor** (0-10m): Dark, humid, decomposing matter\n\n**2. Biodiversity**\n- Highest species diversity on Earth\n- Amazon rainforest: over 40,000 plant species\n- Many species still undiscovered\n\n**3. Rapid Nutrient Cycling**\n- Thin, nutrient-poor soil (laterite)\n- Nutrients stored in vegetation, not soil\n- Fast decomposition due to heat and moisture\n- Buttress roots for stability\n\n**Distribution:**\n\nTropical rainforests are found along the **equatorial belt** (between Tropics of Cancer and Capricorn):\n\n**Major Regions:**\n1. **South America**: Amazon Basin (Brazil, Peru, Colombia)\n2. **Central Africa**: Congo Basin (DRC, Gabon, Cameroon)\n3. **Southeast Asia**: Indonesia, Malaysia, Papua New Guinea\n4. **Central America**: Costa Rica, Panama\n\n**Singapore Connection**: Singapore was once covered by tropical rainforest. Today, only **0.25%** remains in nature reserves:\n- Bukit Timah Nature Reserve\n- Central Catchment Nature Reserve\n- Sungei Buloh Wetland Reserve (mangroves)",
+          "content_zh": "**热带雨林**是在赤道附近发现的茂密森林，全年降雨量高、温度温暖。\n\n**气候特征：**\n\n1. **高温**：全年25-28°C（无明显季节）\n2. **高降雨量**：年降雨量超过2,000毫米，分布均匀\n3. **高湿度**：75-95%，因持续蒸散\n4. **无明显季节**：温度和降雨保持恒定\n\n**植被特征：**\n\n**1. 分层**\n\n- **突出层**（45-55米）：最高的树木，接收最多阳光\n- **林冠层**（30-45米）：树枝和树叶的密集屋顶\n- **林下层**（10-30米）：较小的树木，阳光有限\n- **林地层**（0-10米）：黑暗、潮湿、分解物质\n\n**2. 生物多样性**\n- 地球上物种多样性最高\n- 亚马逊雨林：超过40,000种植物\n- 许多物种仍未被发现\n\n**3. 快速养分循环**\n- 薄的、营养贫乏的土壤（砖红壤）\n- 养分储存在植被中，而非土壤\n- 由于热量和湿度的快速分解\n- 板根用于稳定性\n\n**分布：**\n\n热带雨林位于**赤道带**（南北回归线之间）：\n\n**主要区域：**\n1. **南美洲**：亚马逊盆地（巴西、秘鲁、哥伦比亚）\n2. **中非**：刚果盆地（刚果民主共和国、加蓬、喀麦隆）\n3. **东南亚**：印度尼西亚、马来西亚、巴布亚新几内亚\n4. **中美洲**：哥斯达黎加、巴拿马\n\n**新加坡联系**：新加坡曾被热带雨林覆盖。今天，自然保护区仅剩**0.25%**：\n- 武吉知马自然保护区\n- 中央集水区自然保护区\n- 双溪布洛湿地保护区（红树林）"
+        },
+        {
+          "id": "adaptations",
+          "type": "text",
+          "title": "Adaptations in Tropical Rainforests",
+          "title_zh": "热带雨林中的适应",
+          "content": "Plants and animals in tropical rainforests have unique **adaptations** to survive in this environment.\n\n**Plant Adaptations:**\n\n**1. Drip Tips (Pointed Leaf Tips)**\n- Purpose: Channel rainwater off leaves quickly\n- Prevents mold growth and allows photosynthesis\n- Example: Many rainforest trees in Singapore's nature reserves\n\n**2. Buttress Roots**\n- Large, wide roots above ground\n- Purpose: Provide stability in shallow soil\n- Support tall trees against wind\n- Example: Tembusu tree (Singapore's heritage tree)\n\n**3. Lianas (Climbing Vines)**\n- Climb up trees to reach sunlight\n- Use trees for support instead of growing thick trunks\n- Save energy and resources\n\n**4. Broad Leaves**\n- Large surface area to capture limited sunlight in understory\n- Maximize photosynthesis in low-light conditions\n\n**5. Epiphytes (Air Plants)**\n- Grow on tree branches, not in soil\n- Examples: Orchids, ferns\n- Obtain nutrients from air, rain, and debris\n- Access sunlight in canopy layer\n\n**Animal Adaptations:**\n\n**1. Monkeys and Apes**\n- Long limbs and prehensile tails for swinging between trees\n- Live in canopy layer where food is abundant\n- Example: Long-tailed macaques in Singapore\n\n**2. Birds**\n- Bright colors for communication in dense forest\n- Strong beaks to crack nuts and fruits\n- Example: Hornbills in Southeast Asian rainforests\n\n**3. Insects**\n- Camouflage to blend with leaves and bark\n- Wings to move between forest layers\n- Example: Stick insects, leaf insects\n\n**4. Amphibians**\n- Bright colors to warn predators of poison\n- Moist skin suits humid environment\n- Example: Poison dart frogs in Amazon\n\n**5. Large Cats**\n- Spotted coats for camouflage in dappled sunlight\n- Powerful bodies for climbing trees\n- Example: Leopards (formerly in Singapore's forests)",
+          "content_zh": "热带雨林中的植物和动物具有独特的**适应性**以在此环境中生存。\n\n**植物适应：**\n\n**1. 滴水尖（尖叶尖）**\n- 目的：快速引导雨水离开叶子\n- 防止霉菌生长并允许光合作用\n- 示例：新加坡自然保护区的许多雨林树木\n\n**2. 板根**\n- 地面以上的大型、宽根\n- 目的：在浅土中提供稳定性\n- 支撑高大树木抵御风\n- 示例：檀香树（新加坡的遗产树）\n\n**3. 藤蔓（攀爬藤）**\n- 爬上树木以到达阳光\n- 使用树木作为支撑而不是长出粗壮的树干\n- 节省能量和资源\n\n**4. 宽叶**\n- 大表面积以捕获林下层有限的阳光\n- 在低光条件下最大化光合作用\n\n**5. 附生植物（气生植物）**\n- 在树枝上生长，而非土壤中\n- 示例：兰花、蕨类植物\n- 从空气、雨水和碎屑中获取养分\n- 在林冠层获得阳光\n\n**动物适应：**\n\n**1. 猴子和猿**\n- 长肢和可抓握的尾巴用于在树间摆动\n- 生活在食物丰富的林冠层\n- 示例：新加坡的长尾猕猴\n\n**2. 鸟类**\n- 鲜艳的颜色用于在茂密森林中交流\n- 强壮的喙用于裂开坚果和水果\n- 示例：东南亚雨林中的犀鸟\n\n**3. 昆虫**\n- 伪装以融入树叶和树皮\n- 翅膀在森林层之间移动\n- 示例：竹节虫、叶虫\n\n**4. 两栖动物**\n- 鲜艳的颜色警告捕食者有毒\n- 潮湿的皮肤适合潮湿环境\n- 示例：亚马逊的箭毒蛙\n\n**5. 大型猫科动物**\n- 斑点皮毛用于在斑驳阳光中伪装\n- 强壮的身体用于爬树\n- 示例：豹子（曾在新加坡的森林中）"
+        },
+        {
+          "id": "deforestation-management",
+          "type": "text",
+          "title": "Deforestation and Sustainable Management",
+          "title_zh": "森林砍伐和可持续管理",
+          "content": "**Deforestation** is the permanent removal of forests to make way for other land uses.\n\n**Causes of Deforestation:**\n\n**1. Agriculture**\n- Clearing land for crops (palm oil, soybeans)\n- Cattle ranching in Amazon rainforest\n- Example: Indonesia and Malaysia are top palm oil producers\n\n**2. Logging**\n- Timber for furniture, paper, construction\n- Both legal and illegal logging\n- High demand for tropical hardwoods (teak, mahogany)\n\n**3. Mining**\n- Extracting minerals (gold, copper, bauxite)\n- Forest cleared for mining operations\n\n**4. Urbanization**\n- Building cities, roads, dams\n- Population growth increases demand for land\n- Singapore's experience: 95% forest lost to development\n\n**Impacts of Deforestation:**\n\n**Environmental:**\n- **Loss of biodiversity**: Species extinction\n- **Climate change**: Less CO₂ absorbed, more released\n- **Soil erosion**: No tree roots to hold soil\n- **Disrupted water cycle**: Less evapotranspiration\n- **Flooding**: No trees to absorb rainwater\n\n**Social and Economic:**\n- Indigenous communities lose homes and livelihoods\n- Economic benefits from logging and agriculture\n- Loss of future resources (medicines, materials)\n- Tourism impacts (eco-tourism relies on forests)\n\n**Sustainable Forest Management:**\n\n**1. Selective Logging**\n- Cut only certain trees, not entire areas\n- Allow forest to regenerate naturally\n- Example: Malaysia's Sustainable Forest Management program\n\n**2. Reforestation**\n- Planting new trees to replace those cut\n- Example: Singapore's \"One Million Trees\" movement\n\n**3. Agroforestry**\n- Combining agriculture with forest conservation\n- Growing crops under tree canopy\n- Example: Coffee grown under rainforest shade\n\n**4. Protected Areas**\n- National parks and nature reserves\n- Ban logging and development\n- Example: Singapore's 4 nature reserves cover 3,347 hectares\n\n**5. Certification Schemes**\n- Forest Stewardship Council (FSC) certification\n- Ensures timber from sustainably managed forests\n- Consumers choose certified products\n\n**6. Education and Awareness**\n- Teaching communities about forest value\n- Promoting eco-tourism as alternative income\n- Singapore's National Parks Board (NParks) education programs\n\n**Singapore's Efforts:**\n- City in a Garden vision: Integrating green spaces\n- Park Connector Network: 360km of green corridors\n- TreesSG database: Documenting heritage trees\n- Strict penalties for damaging protected trees",
+          "content_zh": "**森林砍伐**是永久性地清除森林以为其他土地用途让路。\n\n**森林砍伐的原因：**\n\n**1. 农业**\n- 为农作物（棕榈油、大豆）清理土地\n- 亚马逊雨林的养牛场\n- 示例：印度尼西亚和马来西亚是顶级棕榈油生产国\n\n**2. 伐木**\n- 用于家具、纸张、建筑的木材\n- 合法和非法伐木\n- 对热带硬木（柚木、桃花心木）的高需求\n\n**3. 采矿**\n- 提取矿物（金、铜、铝土矿）\n- 为采矿作业清除森林\n\n**4. 城市化**\n- 建造城市、道路、水坝\n- 人口增长增加对土地的需求\n- 新加坡的经验：95%的森林因开发而失去\n\n**森林砍伐的影响：**\n\n**环境：**\n- **生物多样性丧失**：物种灭绝\n- **气候变化**：吸收的CO₂减少，释放的增多\n- **土壤侵蚀**：没有树根固定土壤\n- **水循环破坏**：蒸散减少\n- **洪水**：没有树木吸收雨水\n\n**社会和经济：**\n- 原住民社区失去家园和生计\n- 伐木和农业带来的经济利益\n- 未来资源的损失（药物、材料）\n- 旅游影响（生态旅游依赖森林）\n\n**可持续森林管理：**\n\n**1. 选择性伐木**\n- 只砍伐某些树木，而非整个区域\n- 允许森林自然再生\n- 示例：马来西亚的可持续森林管理计划\n\n**2. 重新造林**\n- 种植新树以替代被砍伐的树\n- 示例：新加坡的\"一百万棵树\"运动\n\n**3. 农林业**\n- 将农业与森林保护相结合\n- 在树冠下种植作物\n- 示例：在雨林树荫下种植咖啡\n\n**4. 保护区**\n- 国家公园和自然保护区\n- 禁止伐木和开发\n- 示例：新加坡的4个自然保护区占地3,347公顷\n\n**5. 认证计划**\n- 森林管理委员会（FSC）认证\n- 确保木材来自可持续管理的森林\n- 消费者选择认证产品\n\n**6. 教育和意识**\n- 教育社区了解森林价值\n- 推广生态旅游作为替代收入\n- 新加坡国家公园局（NParks）教育项目\n\n**新加坡的努力：**\n- 花园城市愿景：整合绿色空间\n- 公园连道网络：360公里的绿色走廊\n- TreesSG数据库：记录遗产树木\n- 对损坏受保护树木的严厉处罚"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "ex1-climate",
+          "type": "mcq",
+          "difficulty": "easy",
+          "prompt": "Tropical rainforest climate characteristic?",
+          "prompt_zh": "热带雨林气候特征？",
+          "choices": [
+            "High temp & rain year-round",
+            "Hot summers cold winters",
+            "Low rainfall dry season",
+            "Cold all year"
+          ],
+          "choices_zh": [
+            "全年高温高降雨",
+            "炎热夏季寒冷冬季",
+            "低降雨旱季",
+            "全年寒冷"
+          ],
+          "answer": 0,
+          "explanation": "Equatorial climate: 25-28°C constant, >2000mm rain, 75-95% humidity, NO seasons.",
+          "explanation_zh": "赤道气候：25-28°C恒定，>2000mm降雨，75-95%湿度，无季节。",
+          "hint": "Near equator.",
+          "hint_zh": "赤道附近。"
+        },
+        {
+          "id": "ex2-layers",
+          "type": "mcq",
+          "difficulty": "easy",
+          "prompt": "Which rainforest layer gets MOST sunlight?",
+          "prompt_zh": "哪个雨林层获得最多阳光？",
+          "choices": [
+            "Emergent",
+            "Canopy",
+            "Understory",
+            "Forest floor"
+          ],
+          "choices_zh": [
+            "突出层",
+            "林冠层",
+            "林下层",
+            "林地层"
+          ],
+          "answer": 0,
+          "explanation": "Layers top→bottom: Emergent (45-55m, most sun)→Canopy (30-45m)→Understory (10-30m)→Floor (0-10m, dark).",
+          "explanation_zh": "层次顶→底：突出层（45-55米，最多阳光）→林冠层（30-45米）→林下层（10-30米）→林地层（0-10米，黑暗）。",
+          "hint": "Highest layer?",
+          "hint_zh": "最高层？"
+        },
+        {
+          "id": "ex3-drip-tips",
+          "type": "short",
+          "difficulty": "easy",
+          "prompt": "Purpose of drip tips on leaves?",
+          "prompt_zh": "叶子滴水尖的用途？",
+          "answer": "Channel rainwater off quickly",
+          "answer_zh": "快速引导雨水离开",
+          "explanation": "Constant heavy rain. Pointed tips channel water off→prevents mold, allows photosynthesis to continue.",
+          "explanation_zh": "持续大雨。尖端引导水离开→防止霉菌，允许光合作用继续。",
+          "hint": "Heavy rain problem.",
+          "hint_zh": "大雨问题。"
+        },
+        {
+          "id": "ex4-deforestation",
+          "type": "mcq",
+          "difficulty": "medium",
+          "prompt": "Major deforestation cause in Indonesia/Malaysia?",
+          "prompt_zh": "印尼/马来西亚森林砍伐的主要原因？",
+          "choices": [
+            "Palm oil plantations",
+            "Urban expansion",
+            "Gold mining",
+            "Tourism"
+          ],
+          "choices_zh": [
+            "棕榈油种植园",
+            "城市扩张",
+            "金矿",
+            "旅游"
+          ],
+          "answer": 0,
+          "explanation": "Indonesia+Malaysia=top palm oil producers. Large-scale forest clearing for oil palm. Used in food/cosmetics/biofuels.",
+          "explanation_zh": "印尼+马来西亚=顶级棕榈油生产国。大规模森林清除用于油棕。用于食品/化妆品/生物燃料。",
+          "hint": "Export crop.",
+          "hint_zh": "出口作物。"
+        },
+        {
+          "id": "ex5-sg-forest",
+          "type": "short",
+          "difficulty": "medium",
+          "prompt": "% of Singapore's original rainforest remains?",
+          "prompt_zh": "新加坡原始雨林剩余%？",
+          "answer": "0.25",
+          "answer_zh": "0.25",
+          "validator": "numeric",
+          "explanation": "Was 100% forest. Now only 0.25% in Bukit Timah, Central Catchment reserves. 95%+ lost to development. Current 47% green cover includes parks/planted trees.",
+          "explanation_zh": "曾100%森林。现仅0.25%在武吉知马、中央集水区保护区。95%+因开发而失去。当前47%绿化包括公园/种植树。",
+          "hint": "<1%, very small.",
+          "hint_zh": "<1%，非常小。"
+        },
+        {
+          "id": "ex6-buttress-roots",
+          "type": "short",
+          "difficulty": "medium",
+          "prompt": "Explain how buttress roots help rainforest trees.",
+          "prompt_zh": "解释板根如何帮助雨林树木。",
+          "answer": "Provide stability in shallow nutrient-poor soil",
+          "answer_zh": "在浅层营养贫乏土壤中提供稳定性",
+          "explanation": "Rainforest soil=thin, nutrients in vegetation not soil. Large buttress roots above ground provide stability, support tall trees against wind.",
+          "explanation_zh": "雨林土壤=薄，营养在植被中非在土壤中。地上大板根提供稳定性，支撑高树抵御风。",
+          "hint": "Support function.",
+          "hint_zh": "支撑功能。"
+        },
+        {
+          "id": "ex7-biodiversity",
+          "type": "short",
+          "difficulty": "medium",
+          "prompt": "Why are rainforests called 'biodiversity hotspots'?",
+          "prompt_zh": "为什么雨林被称为'生物多样性热点'？",
+          "answer": "Contain highest species diversity on Earth",
+          "answer_zh": "包含地球上最高的物种多样性",
+          "explanation": "Amazon alone: 40,000+ plant species, millions of insects/animals. Constant warm/wet climate, complex structure (layers), long evolutionary time=maximum diversity.",
+          "explanation_zh": "仅亚马逊：40,000+植物种，数百万昆虫/动物。持续温暖/潮湿气候，复杂结构（层次），长进化时间=最大多样性。",
+          "hint": "Species count.",
+          "hint_zh": "物种数量。"
+        },
+        {
+          "id": "ex8-deforestation-impact",
+          "type": "short",
+          "difficulty": "medium",
+          "prompt": "Explain ONE environmental impact of deforestation.",
+          "prompt_zh": "解释森林砍伐的一种环境影响。",
+          "answer": "Increased CO2 and climate change",
+          "answer_zh": "CO2增加和气候变化",
+          "explanation": "Trees store carbon. Cutting releases CO2. Also less photosynthesis=less CO2 absorbed. Result: more greenhouse gases→climate change. Other impacts: species extinction, soil erosion, floods.",
+          "explanation_zh": "树木储存碳。砍伐释放CO2。也更少光合作用=更少CO2吸收。结果：更多温室气体→气候变化。其他影响：物种灭绝、土壤侵蚀、洪水。",
+          "hint": "Carbon and climate.",
+          "hint_zh": "碳和气候。"
+        },
+        {
+          "id": "ex9-selective-logging",
+          "type": "short",
+          "difficulty": "hard",
+          "prompt": "Explain how selective logging is more sustainable than clear-cutting.",
+          "prompt_zh": "解释选择性伐木如何比皆伐更可持续。",
+          "answer": "Only cuts certain trees allowing forest to regenerate naturally",
+          "answer_zh": "只砍伐某些树木允许森林自然再生",
+          "explanation": "Selective logging: cut only mature/certain trees, leave young trees/seedlings. Forest structure intact, biodiversity maintained, natural regeneration. Clear-cutting: remove ALL trees→complete ecosystem destruction, slow/no recovery.",
+          "explanation_zh": "选择性伐木：只砍伐成熟/某些树木，留下幼树/幼苗。森林结构完整，生物多样性维持，自然再生。皆伐：移除所有树木→完全生态系统破坏，缓慢/无恢复。",
+          "hint": "Partial vs total removal.",
+          "hint_zh": "部分vs全部移除。"
+        },
+        {
+          "id": "ex10-agroforestry",
+          "type": "short",
+          "difficulty": "hard",
+          "prompt": "What is agroforestry and how does it help conservation?",
+          "prompt_zh": "什么是农林业，它如何帮助保护？",
+          "answer": "Growing crops under tree canopy combining agriculture with conservation",
+          "answer_zh": "在树冠下种植作物结合农业与保护",
+          "explanation": "Agroforestry=agriculture+forestry. Grow crops (coffee, cocoa) under forest canopy. Benefits: 1)Trees preserved 2)Shade for crops 3)Farmers earn income 4)Biodiversity maintained 5)Soil protected.",
+          "explanation_zh": "农林业=农业+林业。在森林树冠下种植作物（咖啡、可可）。好处：1)树木保留 2)作物遮荫 3)农民收入 4)生物多样性维持 5)土壤保护。",
+          "hint": "Dual land use.",
+          "hint_zh": "双重土地利用。"
+        },
+        {
+          "id": "ex11-distribution-map",
+          "type": "mcq",
+          "difficulty": "medium",
+          "prompt": "Map shows rainforests mainly between Tropics of Cancer/Capricorn. Why?",
+          "prompt_zh": "地图显示雨林主要在南北回归线之间。为什么？",
+          "choices": [
+            "Equatorial climate with year-round warmth and rain",
+            "Four distinct seasons",
+            "Cold winters",
+            "Low rainfall"
+          ],
+          "choices_zh": [
+            "赤道气候全年温暖和降雨",
+            "四个明显季节",
+            "寒冷冬季",
+            "低降雨"
+          ],
+          "answer": 0,
+          "explanation": "Equatorial belt (23°N-23°S): direct sun year-round→constant warmth. Rising air→high rain. Perfect conditions for rainforests.",
+          "explanation_zh": "赤道带（23°N-23°S）：全年直射阳光→恒定温暖。上升空气→高降雨。雨林的完美条件。",
+          "hint": "Equator location.",
+          "hint_zh": "赤道位置。"
+        },
+        {
+          "id": "ex12-forest-loss",
+          "type": "short",
+          "difficulty": "medium",
+          "prompt": "Graph shows Amazon lost 20% forest in 50 years. Suggest main cause.",
+          "prompt_zh": "图表显示亚马逊50年失去20%森林。建议主要原因。",
+          "answer": "Cattle ranching and soybean farming",
+          "answer_zh": "养牛和大豆种植",
+          "explanation": "Amazon deforestation drivers: 1)Cattle ranching (largest) 2)Soybean farms 3)Logging 4)Mining. Brazil=major beef/soy exporter→forest→farmland conversion.",
+          "explanation_zh": "亚马逊森林砍伐驱动因素：1)养牛（最大）2)大豆农场 3)伐木 4)采矿。巴西=主要牛肉/大豆出口国→森林→农田转换。",
+          "hint": "Agriculture purpose.",
+          "hint_zh": "农业目的。"
+        },
+        {
+          "id": "ex13-temperature-data",
+          "type": "mcq",
+          "difficulty": "hard",
+          "prompt": "Temperature data: rainforest 26°C all months, temperate forest 5°C winter to 20°C summer. What explains difference?",
+          "prompt_zh": "温度数据：雨林全月26°C，温带森林冬5°C夏20°C。什么解释差异？",
+          "choices": [
+            "Rainforest near equator with constant sun angle",
+            "Rainforest higher elevation",
+            "Temperate has more trees",
+            "Temperate has more rain"
+          ],
+          "choices_zh": [
+            "雨林靠近赤道太阳角恒定",
+            "雨林海拔更高",
+            "温带树木更多",
+            "温带降雨更多"
+          ],
+          "answer": 0,
+          "explanation": "Equator: sun overhead year-round→constant temp. Temperate (higher latitudes): sun angle varies→seasons with temp variation.",
+          "explanation_zh": "赤道：太阳全年在头顶→恒定温度。温带（更高纬度）：太阳角变化→季节与温度变化。",
+          "hint": "Latitude and sun.",
+          "hint_zh": "纬度和太阳。"
+        },
+        {
+          "id": "ex14-species-count",
+          "type": "short",
+          "difficulty": "hard",
+          "prompt": "Why does rainforest floor have fewer species than canopy despite more space?",
+          "prompt_zh": "为什么雨林林地层尽管空间更多但物种比林冠层少？",
+          "answer": "Limited sunlight on forest floor reduces photosynthesis and food availability",
+          "answer_zh": "林地层有限阳光减少光合作用和食物可用性",
+          "explanation": "Forest floor: <2% sunlight penetrates. Less photosynthesis→fewer plants→less food→fewer animals. Canopy: abundant light→rich vegetation→insects→birds→biodiversity.",
+          "explanation_zh": "林地层：<2%阳光穿透。光合作用少→植物少→食物少→动物少。林冠层：充足光线→丰富植被→昆虫→鸟类→生物多样性。",
+          "hint": "Light availability.",
+          "hint_zh": "光的可用性。"
+        },
+        {
+          "id": "ex15-conservation-evaluation",
+          "type": "short",
+          "difficulty": "hard",
+          "prompt": "Protected areas conserve rainforests but indigenous people lose access. Is this fair? Explain.",
+          "prompt_zh": "保护区保护雨林但原住民失去进入权。这公平吗？解释。",
+          "answer": "Both valid: conservation important BUT indigenous rights must be respected",
+          "answer_zh": "两者都有效：保护重要但原住民权利必须受尊重",
+          "explanation": "Complex issue. Conservation argument: biodiversity preservation for global good. Indigenous argument: ancestral lands, sustainable traditional use for centuries. Best solution: co-management involving indigenous communities in conservation while respecting rights.",
+          "explanation_zh": "复杂问题。保护论点：为全球利益保护生物多样性。原住民论点：祖先土地，数百年可持续传统使用。最佳解决方案：共同管理让原住民社区参与保护同时尊重权利。",
+          "hint": "Consider both perspectives.",
+          "hint_zh": "考虑双方观点。"
+        }
+      ]
+    },
+    {
+      "id": "mangroves-sec1",
+      "title": "Mangroves: Coastal Guardians",
+      "title_zh": "红树林：海岸守护者",
+      "gradeLevel": "sec1",
+      "description": "Understanding mangrove ecosystems, their ecological importance, and conservation",
+      "description_zh": "理解红树林生态系统、其生态重要性和保护",
+      "objectives": [
+        "Describe characteristics and distribution of mangrove forests",
+        "Explain plant adaptations in mangrove environments",
+        "Analyze environmental functions of mangroves",
+        "Evaluate threats to mangrove ecosystems",
+        "Propose conservation strategies for mangroves"
+      ],
+      "objectives_zh": [
+        "描述红树林的特征和分布",
+        "解释红树林环境中的植物适应",
+        "分析红树林的环境功能",
+        "评估红树林生态系统的威胁",
+        "提出红树林保护策略"
+      ],
+      "sections": [
+        {
+          "id": "mangrove-characteristics",
+          "type": "text",
+          "title": "Characteristics and Distribution of Mangroves",
+          "title_zh": "红树林的特征和分布",
+          "content": "**Mangroves** are unique coastal forests that grow in the intertidal zone where land meets sea.\n\n**Physical Characteristics:**\n\n**1. Location**\n- **Intertidal zone**: Area between high tide and low tide\n- Submerged during high tide, exposed during low tide\n- Roots in saltwater or brackish water (mix of salt and fresh)\n\n**2. Soil Conditions**\n- **Muddy substrate**: Soft, waterlogged soil\n- **Low oxygen**: Anaerobic conditions\n- **High salinity**: Salt content from seawater\n\n**3. Climate**\n- Tropical and subtropical regions\n- Warm temperatures (above 20°C)\n- Protected coastlines (sheltered from strong waves)\n\n**Global Distribution:**\n\nMangroves are found along coastlines in **tropical regions** between 25°N and 25°S:\n\n**Major Regions:**\n1. **Southeast Asia**: Indonesia, Malaysia, Philippines, Thailand (40% of world's mangroves)\n2. **South Asia**: Bangladesh (Sundarbans - largest mangrove forest)\n3. **Africa**: Nigeria, Madagascar\n4. **Americas**: Brazil, Florida, Mexico\n5. **Oceania**: Australia, Papua New Guinea\n\n**Singapore's Mangroves:**\n\nSingapore has **7.37 hectares** of mangroves (down from 13% of land in 1820s):\n\n**Major Sites:**\n1. **Sungei Buloh Wetland Reserve** (130 hectares) - Singapore's first ASEAN Heritage Park\n2. **Pulau Ubin** - Chek Jawa wetlands\n3. **Pasir Ris Park**\n4. **Berlayer Creek** (near Changi)\n\n**Common Mangrove Species in Singapore:**\n- Bakau (Rhizophora) - red mangrove with stilt roots\n- Api-api (Avicennia) - grey mangrove with pneumatophores\n- Tumu (Bruguiera) - knee roots\n\n**Conservation Status**: Protected under Parks and Trees Act; removal requires permit",
+          "content_zh": "**红树林**是生长在陆地与海洋交界的潮间带的独特沿海森林。\n\n**物理特征：**\n\n**1. 位置**\n- **潮间带**：高潮和低潮之间的区域\n- 高潮时被淹没，低潮时暴露\n- 根部在盐水或半咸水（盐和淡水的混合）中\n\n**2. 土壤条件**\n- **泥泞基质**：柔软、水涝土壤\n- **低氧**：缺氧条件\n- **高盐度**：来自海水的盐含量\n\n**3. 气候**\n- 热带和亚热带地区\n- 温暖的温度（高于20°C）\n- 受保护的海岸线（免受强浪）\n\n**全球分布：**\n\n红树林位于北纬25°和南纬25°之间的**热带地区**沿海：\n\n**主要区域：**\n1. **东南亚**：印度尼西亚、马来西亚、菲律宾、泰国（世界红树林的40%）\n2. **南亚**：孟加拉国（孙德尔本斯 - 最大的红树林）\n3. **非洲**：尼日利亚、马达加斯加\n4. **美洲**：巴西、佛罗里达、墨西哥\n5. **大洋洲**：澳大利亚、巴布亚新几内亚\n\n**新加坡的红树林：**\n\n新加坡有**7.37公顷**的红树林（从1820年代的13%土地下降）：\n\n**主要地点：**\n1. **双溪布洛湿地保护区**（130公顷）- 新加坡第一个东盟遗产公园\n2. **乌敏岛** - 仄爪哇湿地\n3. **巴西立公园**\n4. **柏雅溪**（樟宜附近）\n\n**新加坡常见的红树林物种：**\n- 红树（Rhizophora）- 带有高跷根的红树\n- Api-api（Avicennia）- 带有呼吸根的灰树\n- Tumu（Bruguiera）- 膝根\n\n**保护状态**：受公园和树木法保护；移除需要许可证"
+        },
+        {
+          "id": "mangrove-adaptations",
+          "type": "text",
+          "title": "Adaptations of Mangrove Plants",
+          "title_zh": "红树林植物的适应",
+          "content": "Mangrove plants have evolved remarkable **adaptations** to survive in harsh coastal conditions.\n\n**1. Salt Tolerance (Salinity Adaptation)**\n\n**Salt Exclusion:**\n- Special root membranes filter out salt\n- Only freshwater enters the plant\n- Example: Rhizophora species\n\n**Salt Excretion:**\n- Salt glands on leaves secrete excess salt\n- Salt crystals visible on leaf surface\n- Example: Avicennia (api-api) mangroves\n\n**Salt Accumulation:**\n- Store salt in old leaves\n- Leaves turn yellow and drop off\n- Removes salt from the plant\n\n**2. Breathing Roots (Oxygen Adaptation)**\n\nMuddy soil has little oxygen. Mangroves developed specialized roots:\n\n**Pneumatophores (Breathing Roots):**\n- Vertical roots that stick up from mud\n- Covered with pores (lenticels) for gas exchange\n- Absorb oxygen during low tide\n- Example: Avicennia species at Sungei Buloh\n\n**Stilt Roots (Prop Roots):**\n- Aerial roots that grow down from branches\n- Provide stability in soft mud\n- Have lenticels for oxygen absorption\n- Example: Rhizophora (bakau) at Pulau Ubin\n\n**Knee Roots:**\n- Loop-shaped roots that emerge from mud\n- Function similar to pneumatophores\n- Example: Bruguiera species\n\n**3. Reproduction Adaptation (Vivipary)**\n\n**Viviparous Seeds:**\n- Seeds **germinate while still attached to parent tree**\n- Develop into seedlings (propagules) on the tree\n- Drop when mature and stick into mud\n- Advantage: Better survival than ungerminated seeds\n\n**Propagule Features:**\n- Torpedo-shaped for penetrating mud\n- Can float if they miss mud, dispersed by tides\n- Example: Rhizophora propagules are 15-30cm long\n\n**4. Stability Adaptation**\n\n**Extensive Root Systems:**\n- Wide-spreading roots anchor plant in soft substrate\n- Prevent uprooting by tides and waves\n- Buttress roots provide additional support\n\n**Singapore Example**: At Chek Jawa (Pulau Ubin), you can observe all these adaptations during guided walks organized by NParks.",
+          "content_zh": "红树林植物进化出了显著的**适应性**以在恶劣的沿海条件下生存。\n\n**1. 耐盐性（盐度适应）**\n\n**盐排斥：**\n- 特殊的根膜过滤盐\n- 只有淡水进入植物\n- 示例：Rhizophora物种\n\n**盐排泄：**\n- 叶子上的盐腺分泌多余的盐\n- 叶面可见盐晶体\n- 示例：Avicennia（api-api）红树林\n\n**盐积累：**\n- 在老叶中储存盐\n- 叶子变黄并脱落\n- 从植物中移除盐\n\n**2. 呼吸根（氧适应）**\n\n泥泞的土壤氧气很少。红树林发展了专门的根：\n\n**呼吸根（气生根）：**\n- 从泥中伸出的垂直根\n- 覆盖有孔（皮孔）进行气体交换\n- 在低潮时吸收氧气\n- 示例：双溪布洛的Avicennia物种\n\n**高跷根（支柱根）：**\n- 从树枝向下生长的气生根\n- 在软泥中提供稳定性\n- 有皮孔用于吸收氧气\n- 示例：乌敏岛的Rhizophora（bakau）\n\n**膝根：**\n- 从泥中冒出的环形根\n- 功能类似于呼吸根\n- 示例：Bruguiera物种\n\n**3. 繁殖适应（胎生）**\n\n**胎生种子：**\n- 种子**在仍附着在母树上时发芽**\n- 在树上发育成幼苗（繁殖体）\n- 成熟时掉落并插入泥中\n- 优势：比未发芽的种子存活率更高\n\n**繁殖体特征：**\n- 鱼雷形状用于穿透泥\n- 如果错过泥可以漂浮，被潮汐分散\n- 示例：Rhizophora繁殖体长15-30厘米\n\n**4. 稳定性适应**\n\n**广泛的根系统：**\n- 广泛扩散的根将植物固定在软基质中\n- 防止被潮汐和波浪连根拔起\n- 板根提供额外支撑\n\n**新加坡示例**：在仄爪哇（乌敏岛），您可以在NParks组织的导览中观察所有这些适应。"
+        },
+        {
+          "id": "mangrove-functions-conservation",
+          "type": "text",
+          "title": "Environmental Functions and Conservation",
+          "title_zh": "环境功能和保护",
+          "content": "Mangroves provide **crucial environmental services** and support both marine and terrestrial ecosystems.\n\n**Environmental Functions:**\n\n**1. Coastal Protection**\n- **Buffer against storms**: Absorb wave energy, reduce coastal erosion\n- **Tsunami protection**: Roots slow down wave impact\n- **Prevent flooding**: Act as natural barrier during high tides\n- Singapore example: Sungei Buloh mangroves protect inland areas\n\n**2. Nursery for Marine Life**\n- **Breeding ground**: Fish, crabs, prawns lay eggs in mangroves\n- **Shelter**: Tangled roots provide hiding places for young fish\n- **Food source**: Leaf litter and organisms support food chains\n- **Commercial importance**: 80% of global fish catches depend on mangroves\n- Singapore: Chek Jawa supports horseshoe crabs, mudskippers, sea cucumbers\n\n**3. Biodiversity Habitat**\n- **Birds**: Migratory birds rest and feed (over 200 species at Sungei Buloh)\n- **Mammals**: Otters, monitor lizards\n- **Reptiles**: Estuarine crocodiles (rare in Singapore)\n- **Insects**: Bees, butterflies, fireflies\n\n**4. Carbon Storage**\n- Mangroves store **3-5 times more carbon** than rainforests\n- Capture CO₂ from atmosphere (climate change mitigation)\n- Store carbon in roots and soil for centuries\n\n**5. Water Quality**\n- Filter pollutants and sediments from runoff\n- Trap nutrients (nitrogen, phosphorus)\n- Improve water clarity for marine life\n\n**6. Economic Value**\n- Timber and firewood (sustainably harvested)\n- Tourism and education (eco-tourism revenue)\n- Fisheries support (breeding grounds)\n- Coastal protection saves infrastructure costs\n\n**Threats to Mangroves:**\n\n**1. Coastal Development**\n- Land reclamation for ports, industries, housing\n- Singapore lost 90% of mangroves to development\n- Example: Tanjong Pagar container terminal built on former mangroves\n\n**2. Aquaculture**\n- Shrimp and fish farms replace mangroves\n- Pollution from farm waste\n- Common in Southeast Asia (Thailand, Vietnam)\n\n**3. Pollution**\n- Oil spills smother roots\n- Plastic waste entangles plants and animals\n- Chemical runoff from industries\n\n**4. Climate Change**\n- Rising sea levels may drown mangroves\n- Increased storm intensity damages forests\n- Temperature changes affect species distribution\n\n**Conservation Strategies:**\n\n**1. Protected Areas**\n- Designate mangroves as nature reserves\n- Singapore: Sungei Buloh (ASEAN Heritage Park status)\n- Strict regulations against development\n\n**2. Restoration Projects**\n- Replanting mangroves in degraded areas\n- Singapore: NParks restoration at Pulau Semakau\n- Community involvement (school groups, volunteers)\n\n**3. Sustainable Use**\n- Controlled harvesting of mangrove products\n- Certification schemes (like FSC for forests)\n- Alternative livelihoods for communities\n\n**4. Education and Awareness**\n- Guided walks and workshops\n- Sungei Buloh Wetland Reserve visitor center\n- School programs (field trips, citizen science)\n\n**5. International Cooperation**\n- ASEAN Heritage Parks network\n- Ramsar Convention (wetlands protection)\n- Cross-border conservation efforts\n\n**Singapore's Success Story**: Sungei Buloh was a prawn farm in the 1980s, transformed into a nature park in 1993, and designated an ASEAN Heritage Park in 2003. Today, it's a model for urban wetland conservation, showing that development and nature can coexist.",
+          "content_zh": "红树林提供**关键的环境服务**并支持海洋和陆地生态系统。\n\n**环境功能：**\n\n**1. 海岸保护**\n- **抵御风暴**：吸收波浪能量，减少海岸侵蚀\n- **海啸保护**：根减缓波浪冲击\n- **防止洪水**：在高潮时充当天然屏障\n- 新加坡示例：双溪布洛红树林保护内陆地区\n\n**2. 海洋生物的育儿场**\n- **繁殖地**：鱼、螃蟹、对虾在红树林产卵\n- **庇护所**：缠结的根为幼鱼提供藏身之处\n- **食物来源**：落叶和生物支持食物链\n- **商业重要性**：全球80%的渔获依赖红树林\n- 新加坡：仄爪哇支持鲎、弹涂鱼、海参\n\n**3. 生物多样性栖息地**\n- **鸟类**：候鸟休息和觅食（双溪布洛超过200种）\n- **哺乳动物**：水獭、巨蜥\n- **爬行动物**：河口鳄（新加坡罕见）\n- **昆虫**：蜜蜂、蝴蝶、萤火虫\n\n**4. 碳储存**\n- 红树林储存的碳是雨林的**3-5倍**\n- 从大气中捕获CO₂（减缓气候变化）\n- 在根和土壤中储存碳数百年\n\n**5. 水质**\n- 过滤径流中的污染物和沉积物\n- 捕获营养物（氮、磷）\n- 改善海洋生物的水清澈度\n\n**6. 经济价值**\n- 木材和柴火（可持续采伐）\n- 旅游和教育（生态旅游收入）\n- 渔业支持（繁殖地）\n- 海岸保护节省基础设施成本\n\n**红树林的威胁：**\n\n**1. 海岸开发**\n- 为港口、工业、住房填海造地\n- 新加坡因开发失去了90%的红树林\n- 示例：丹戎巴葛集装箱码头建在原红树林上\n\n**2. 水产养殖**\n- 虾和鱼场取代红树林\n- 农场废物污染\n- 在东南亚很常见（泰国、越南）\n\n**3. 污染**\n- 石油泄漏窒息根部\n- 塑料废物缠绕植物和动物\n- 工业化学径流\n\n**4. 气候变化**\n- 海平面上升可能淹没红树林\n- 风暴强度增加破坏森林\n- 温度变化影响物种分布\n\n**保护策略：**\n\n**1. 保护区**\n- 将红树林指定为自然保护区\n- 新加坡：双溪布洛（东盟遗产公园地位）\n- 严格的开发法规\n\n**2. 恢复项目**\n- 在退化地区重新种植红树林\n- 新加坡：NParks在实马高岛的恢复\n- 社区参与（学校团体、志愿者）\n\n**3. 可持续利用**\n- 控制红树林产品采伐\n- 认证计划（如森林的FSC）\n- 社区的替代生计\n\n**4. 教育和意识**\n- 导览和研讨会\n- 双溪布洛湿地保护区游客中心\n- 学校项目（实地考察、公民科学）\n\n**5. 国际合作**\n- 东盟遗产公园网络\n- 拉姆萨尔公约（湿地保护）\n- 跨境保护努力\n\n**新加坡的成功故事**：双溪布洛在1980年代是对虾养殖场，1993年转变为自然公园，2003年被指定为东盟遗产公园。今天，它是城市湿地保护的典范，表明开发和自然可以共存。"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "ex1-location",
+          "type": "mcq",
+          "difficulty": "easy",
+          "prompt": "Where are mangroves found?",
+          "prompt_zh": "红树林在哪里发现？",
+          "choices": [
+            "Intertidal zone (between tides)",
+            "Deep ocean",
+            "Mountain streams",
+            "Desert oases"
+          ],
+          "choices_zh": [
+            "潮间带（潮汐之间）",
+            "深海",
+            "山溪",
+            "沙漠绿洲"
+          ],
+          "answer": 0,
+          "explanation": "Mangroves=coastal forests in INTERTIDAL zone. Area between high/low tide. Submerged at high tide, exposed at low tide. Saltwater/brackish environment.",
+          "explanation_zh": "红树林=潮间带沿海森林。高潮/低潮之间区域。高潮时淹没，低潮时暴露。盐水/半咸水环境。",
+          "hint": "Tide-affected area.",
+          "hint_zh": "潮汐影响区域。"
+        },
+        {
+          "id": "ex2-pneumatophores",
+          "type": "mcq",
+          "difficulty": "easy",
+          "prompt": "What are pneumatophores?",
+          "prompt_zh": "什么是呼吸根？",
+          "choices": [
+            "Breathing roots sticking up from mud",
+            "Floating seeds",
+            "Salt glands",
+            "Fish species"
+          ],
+          "choices_zh": [
+            "从泥中伸出的呼吸根",
+            "漂浮种子",
+            "盐腺",
+            "鱼类"
+          ],
+          "answer": 0,
+          "explanation": "Pneumatophores=specialized breathing roots. Stick up vertically from muddy soil. Covered with pores (lenticels) for gas exchange. Absorb oxygen at low tide. Example: Avicennia mangroves.",
+          "explanation_zh": "呼吸根=专门的呼吸根。从泥泞土壤垂直伸出。覆盖气孔（皮孔）进行气体交换。低潮时吸收氧气。示例：Avicennia红树林。",
+          "hint": "Breathing adaptation.",
+          "hint_zh": "呼吸适应。"
+        },
+        {
+          "id": "ex3-singapore-mangrove",
+          "type": "short",
+          "difficulty": "easy",
+          "prompt": "Name ONE major mangrove site in Singapore.",
+          "prompt_zh": "说出新加坡的一个主要红树林地点。",
+          "answer": "Sungei Buloh Wetland Reserve",
+          "answer_zh": "双溪布洛湿地保护区",
+          "explanation": "Major Singapore mangrove sites: 1)Sungei Buloh (130 ha, ASEAN Heritage Park) 2)Pulau Ubin (Chek Jawa) 3)Pasir Ris Park 4)Berlayer Creek. Total 7.37 ha (down from 13% in 1820s).",
+          "explanation_zh": "新加坡主要红树林地点：1)双溪布洛（130公顷，东盟遗产公园）2)乌敏岛（仄爪哇）3)巴西立公园 4)柏雅溪。总计7.37公顷（从1820年代的13%下降）。",
+          "hint": "ASEAN Heritage Park.",
+          "hint_zh": "东盟遗产公园。"
+        },
+        {
+          "id": "ex4-salt-adaptation",
+          "type": "mcq",
+          "difficulty": "medium",
+          "prompt": "How do some mangroves deal with salt?",
+          "prompt_zh": "一些红树林如何处理盐？",
+          "choices": [
+            "Secrete salt through leaf glands",
+            "Store salt in roots only",
+            "Avoid saltwater completely",
+            "Drink freshwater only"
+          ],
+          "choices_zh": [
+            "通过叶腺分泌盐",
+            "只在根中储存盐",
+            "完全避免盐水",
+            "只喝淡水"
+          ],
+          "answer": 0,
+          "explanation": "Mangrove salt adaptations: 1)Salt exclusion (roots filter) 2)Salt excretion (leaf glands secrete, visible crystals) 3)Salt accumulation (old leaves, then drop). Example: Avicennia has salt glands.",
+          "explanation_zh": "红树林盐适应：1)盐排斥（根过滤）2)盐排泄（叶腺分泌，可见晶体）3)盐积累（老叶，然后脱落）。示例：Avicennia有盐腺。",
+          "hint": "Leaf glands.",
+          "hint_zh": "叶腺。"
+        },
+        {
+          "id": "ex5-vivipary",
+          "type": "short",
+          "difficulty": "medium",
+          "prompt": "What is vivipary in mangroves?",
+          "prompt_zh": "红树林中的胎生是什么？",
+          "answer": "Seeds germinate while still on parent tree",
+          "answer_zh": "种子在仍在母树上时发芽",
+          "explanation": "Vivipary=live birth. Mangrove seeds germinate ON tree (not in soil). Develop into propagules (torpedo-shaped seedlings). When mature, drop and stick into mud. If miss, float to new location. Better survival than ungerminated seeds.",
+          "explanation_zh": "胎生=活产。红树林种子在树上发芽（非土壤中）。发育为繁殖体（鱼雷形幼苗）。成熟时，掉落并插入泥中。如果错过，漂浮到新位置。比未发芽种子存活率更高。",
+          "hint": "Germinate on tree.",
+          "hint_zh": "在树上发芽。"
+        },
+        {
+          "id": "ex6-coastal-protection",
+          "type": "short",
+          "difficulty": "medium",
+          "prompt": "Explain how mangroves protect coastlines.",
+          "prompt_zh": "解释红树林如何保护海岸线。",
+          "answer": "Roots absorb wave energy reducing erosion and storm damage",
+          "answer_zh": "根吸收波浪能量减少侵蚀和风暴破坏",
+          "explanation": "Mangrove protection: 1)Tangled roots slow waves→less erosion 2)Buffer storms/tsunamis 3)Trap sediment→build land 4)Prevent flooding. Example: Sungei Buloh protects inland Singapore areas.",
+          "explanation_zh": "红树林保护：1)缠结根减缓波浪→减少侵蚀 2)缓冲风暴/海啸 3)捕获沉积物→建立土地 4)防止洪水。示例：双溪布洛保护新加坡内陆地区。",
+          "hint": "Wave barrier.",
+          "hint_zh": "波浪屏障。"
+        },
+        {
+          "id": "ex7-nursery-function",
+          "type": "short",
+          "difficulty": "medium",
+          "prompt": "Why are mangroves called 'nurseries of the sea'?",
+          "prompt_zh": "为什么红树林被称为'海洋的育儿场'？",
+          "answer": "Provide shelter and food for young fish and crustaceans to grow",
+          "answer_zh": "为幼鱼和甲壳类动物提供庇护和食物以成长",
+          "explanation": "Mangroves=fish nursery because: 1)Roots provide hiding from predators 2)Calm protected waters 3)Rich food (leaf litter, plankton) 4)Breeding ground for eggs. 80% commercial fish depend on mangroves. Singapore: mudskippers, crabs, prawns breed here.",
+          "explanation_zh": "红树林=鱼育儿场因为：1)根提供躲避捕食者的藏身处 2)平静保护水域 3)丰富食物（落叶、浮游生物）4)卵的繁殖地。80%商业鱼类依赖红树林。新加坡：弹涂鱼、螃蟹、对虾在这里繁殖。",
+          "hint": "Baby fish habitat.",
+          "hint_zh": "幼鱼栖息地。"
+        },
+        {
+          "id": "ex8-carbon-storage",
+          "type": "short",
+          "difficulty": "medium",
+          "prompt": "Why do mangroves store more carbon than rainforests despite being smaller?",
+          "prompt_zh": "为什么红树林尽管更小但比雨林储存更多碳？",
+          "answer": "Store carbon in waterlogged soil where decomposition is very slow",
+          "answer_zh": "在水涝土壤中储存碳，分解非常缓慢",
+          "explanation": "Mangroves store 3-5× more carbon than rainforests because: 1)Waterlogged anaerobic soil=slow decomposition 2)Carbon buried in mud for centuries 3)Both above-ground biomass AND below-ground storage. Climate change mitigation value.",
+          "explanation_zh": "红树林储存的碳是雨林的3-5倍，因为：1)水涝缺氧土壤=缓慢分解 2)碳在泥中埋藏数百年 3)地上生物量和地下储存。气候变化缓解价值。",
+          "hint": "Soil conditions.",
+          "hint_zh": "土壤条件。"
+        },
+        {
+          "id": "ex9-development-threat",
+          "type": "short",
+          "difficulty": "hard",
+          "prompt": "Explain why coastal development is a major threat to mangroves.",
+          "prompt_zh": "解释为什么沿海开发是红树林的主要威胁。",
+          "answer": "Land reclamation for ports, industries, housing replaces mangrove areas",
+          "answer_zh": "为港口、工业、住房填海造地取代红树林区域",
+          "explanation": "Coastal development threats: 1)Land reclamation (Singapore lost 90% mangroves) 2)Port/industrial zones 3)Aquaculture (shrimp farms) 4)Tourism resorts. Economic benefits outweigh conservation→habitat loss. Example: Tanjong Pagar terminal built on former mangroves.",
+          "explanation_zh": "沿海开发威胁：1)填海造地（新加坡失去90%红树林）2)港口/工业区 3)水产养殖（虾场）4)旅游度假村。经济利益超过保护→栖息地丧失。示例：丹戎巴葛码头建在原红树林上。",
+          "hint": "Human land use.",
+          "hint_zh": "人类土地利用。"
+        },
+        {
+          "id": "ex10-restoration",
+          "type": "short",
+          "difficulty": "hard",
+          "prompt": "Suggest TWO strategies to conserve and restore mangroves.",
+          "prompt_zh": "建议两种保护和恢复红树林的策略。",
+          "answer": "Designate protected areas and replant mangroves in degraded areas",
+          "answer_zh": "指定保护区并在退化地区重新种植红树林",
+          "explanation": "Conservation strategies: 1)Protected reserves (Sungei Buloh ASEAN Heritage Park) 2)Restoration/replanting (NParks at Pulau Semakau) 3)Sustainable use regulations 4)Community education 5)International cooperation (Ramsar Convention). Singapore example: prawn farm→Sungei Buloh nature park (1993).",
+          "explanation_zh": "保护策略：1)保护区（双溪布洛东盟遗产公园）2)恢复/重新种植（NParks在实马高岛）3)可持续利用法规 4)社区教育 5)国际合作（拉姆萨尔公约）。新加坡示例：虾场→双溪布洛自然公园（1993）。",
+          "hint": "Protection + restoration.",
+          "hint_zh": "保护+恢复。"
+        },
+        {
+          "id": "ex11-distribution-tropics",
+          "type": "mcq",
+          "difficulty": "medium",
+          "prompt": "Map shows mangroves concentrated 25°N-25°S. Why?",
+          "prompt_zh": "地图显示红树林集中在25°N-25°S。为什么？",
+          "choices": [
+            "Tropical climate with warm temps needed for growth",
+            "Cold water currents",
+            "Deep ocean",
+            "High elevation"
+          ],
+          "choices_zh": [
+            "生长需要的热带气候温暖温度",
+            "寒流",
+            "深海",
+            "高海拔"
+          ],
+          "answer": 0,
+          "explanation": "Mangroves need >20°C water temperature. Found in tropical/subtropical (25°N-25°S) with warm conditions. Cannot survive freezing temps. Also need sheltered coastlines (protected from strong waves).",
+          "explanation_zh": "红树林需要>20°C水温。在热带/亚热带（25°N-25°S）温暖条件下发现。无法在冰冻温度下生存。也需要受保护海岸线（免受强浪）。",
+          "hint": "Temperature requirement.",
+          "hint_zh": "温度要求。"
+        },
+        {
+          "id": "ex12-bird-count",
+          "type": "short",
+          "difficulty": "medium",
+          "prompt": "Data shows 200+ migratory bird species at Sungei Buloh. Why do birds stop here?",
+          "prompt_zh": "数据显示双溪布洛有200+候鸟种。为什么鸟类停在这里？",
+          "answer": "Rest and refuel during migration along East Asian-Australasian Flyway",
+          "answer_zh": "在东亚-澳大拉西亚迁飞路线迁徙期间休息和补充能量",
+          "explanation": "Sungei Buloh on East Asian-Australasian Flyway (migration route). Birds fly from Siberia→Southeast Asia→Australia. Need stopover to: 1)Rest 2)Feed (mudflats rich in crabs/worms) 3)Restore energy for next flight leg. Peak season: Sept-March.",
+          "explanation_zh": "双溪布洛在东亚-澳大拉西亚迁飞路线（迁徙路线）上。鸟类从西伯利亚飞→东南亚→澳大利亚。需要中途停留：1)休息 2)觅食（泥滩富含螃蟹/蠕虫）3)恢复能量用于下一段飞行。高峰季节：9-3月。",
+          "hint": "Migration route.",
+          "hint_zh": "迁徙路线。"
+        },
+        {
+          "id": "ex13-shrimp-farm-impact",
+          "type": "mcq",
+          "difficulty": "hard",
+          "prompt": "Study shows area converted from mangrove to shrimp farm. Likely environmental impact?",
+          "prompt_zh": "研究显示从红树林转变为虾场的区域。可能的环境影响？",
+          "choices": [
+            "Increased coastal erosion and biodiversity loss",
+            "Better water quality",
+            "More fish",
+            "Cooler climate"
+          ],
+          "choices_zh": [
+            "增加沿海侵蚀和生物多样性丧失",
+            "更好水质",
+            "更多鱼",
+            "更凉爽气候"
+          ],
+          "answer": 0,
+          "explanation": "Mangrove→shrimp farm impacts: 1)Loss of coastal protection→erosion 2)Biodiversity loss (no nursery) 3)Pollution from farm waste 4)Less carbon storage 5)Fewer commercial fish. Short-term economic gain, long-term environmental damage.",
+          "explanation_zh": "红树林→虾场影响：1)失去海岸保护→侵蚀 2)生物多样性丧失（无育儿场）3)农场废物污染 4)碳储存减少 5)商业鱼类减少。短期经济收益，长期环境破坏。",
+          "hint": "Lost ecosystem services.",
+          "hint_zh": "失去的生态系统服务。"
+        },
+        {
+          "id": "ex14-sea-level-rise",
+          "type": "short",
+          "difficulty": "hard",
+          "prompt": "Rising sea levels threaten mangroves. How can mangroves adapt if inland space is available?",
+          "prompt_zh": "海平面上升威胁红树林。如果内陆空间可用，红树林如何适应？",
+          "answer": "Migrate landward to higher ground",
+          "answer_zh": "向陆地迁移到更高地面",
+          "explanation": "With sea level rise, mangroves can: 1)Migrate inland (if space available) 2)Colonize new areas at higher elevation 3)Build sediment faster to keep up. BUT barriers: coastal development blocks migration→'coastal squeeze'→mangroves drown. Need migration corridors.",
+          "explanation_zh": "随着海平面上升，红树林可以：1)向内陆迁移（如果空间可用）2)在更高海拔殖民新区域 3)更快建立沉积物以跟上。但障碍：沿海开发阻止迁移→'海岸挤压'→红树林淹没。需要迁移走廊。",
+          "hint": "Move to higher ground.",
+          "hint_zh": "移至更高地面。"
+        },
+        {
+          "id": "ex15-sungei-buloh-history",
+          "type": "short",
+          "difficulty": "hard",
+          "prompt": "Sungei Buloh was a prawn farm (1980s), became nature park (1993), ASEAN Heritage Park (2003). What does this show about Singapore's priorities?",
+          "prompt_zh": "双溪布洛是虾场（1980年代），成为自然公园（1993），东盟遗产公园（2003）。这显示了新加坡的什么优先事项？",
+          "answer": "Shift from economic exploitation to conservation and environmental protection",
+          "answer_zh": "从经济开发转向保护和环境保护",
+          "explanation": "Shows: 1)Evolving priorities: economy→environment 2)Recognition of ecosystem value 3)International conservation commitment 4)Urban-nature integration 5)Education/recreation value. Model showing development and nature can coexist. Singapore balances growth with green spaces.",
+          "explanation_zh": "显示：1)演变的优先事项：经济→环境 2)认识生态系统价值 3)国际保护承诺 4)城市-自然整合 5)教育/休闲价值。显示开发和自然可以共存的模型。新加坡平衡增长与绿地。",
+          "hint": "Priority change over time.",
+          "hint_zh": "随时间优先事项变化。"
+        }
+      ]
+    }
+  ]
+}
