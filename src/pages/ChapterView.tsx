@@ -7,6 +7,16 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Badge } from "@/components/ui/badge";
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+} from "@/components/ui/alert-dialog";
 import { useStore } from "@/lib/store";
 import { useTranslations } from "@/lib/i18n";
 import { ArrowLeft, BookOpen, PenTool, Trophy, Clock, RotateCcw, X, AlertCircle } from "lucide-react";
@@ -27,6 +37,9 @@ export default function ChapterView() {
 
   const [activeTab, setActiveTab] = useState<"lesson" | "exercises">("lesson");
   const [startTime, setStartTime] = useState<number>(Date.now());
+  const [exerciseInProgress, setExerciseInProgress] = useState(false);
+  const [showTabChangeConfirm, setShowTabChangeConfirm] = useState(false);
+  const [pendingTab, setPendingTab] = useState<"lesson" | "exercises" | null>(null);
 
   useEffect(() => {
     // Wait for store to hydrate before checking authentication
@@ -153,6 +166,40 @@ export default function ChapterView() {
     setSearchParams(searchParams);
   };
 
+  const handleTabChange = (newTab: string) => {
+    const targetTab = newTab as "lesson" | "exercises";
+    
+    // If switching FROM exercises TO lesson AND exercises are in progress
+    if (activeTab === "exercises" && targetTab === "lesson" && exerciseInProgress) {
+      setPendingTab(targetTab);
+      setShowTabChangeConfirm(true);
+    } else {
+      setActiveTab(targetTab);
+      // Reset exercise progress state when switching to exercises
+      if (targetTab === "exercises") {
+        setExerciseInProgress(false);
+      }
+    }
+  };
+
+  const handleConfirmTabChange = () => {
+    if (pendingTab) {
+      setActiveTab(pendingTab);
+      setExerciseInProgress(false);
+      setPendingTab(null);
+    }
+    setShowTabChangeConfirm(false);
+  };
+
+  const handleCancelTabChange = () => {
+    setPendingTab(null);
+    setShowTabChangeConfirm(false);
+  };
+
+  const handleExerciseStarted = () => {
+    setExerciseInProgress(true);
+  };
+
   const lessonProgress = (completedSections.length / chapter.sections.length) * 100;
   const exerciseProgress = (completedExercises.length / chapter.exercises.length) * 100;
   const wrongAnswerIds = getWrongAnswers(subjectId, chapterId);
@@ -269,7 +316,7 @@ export default function ChapterView() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          <Tabs value={activeTab} onValueChange={(v) => setActiveTab(v as "lesson" | "exercises")} className="space-y-6">
+          <Tabs value={activeTab} onValueChange={handleTabChange} className="space-y-6">
             <TabsList className="grid w-full max-w-md mx-auto grid-cols-2">
               <TabsTrigger value="lesson" className="flex items-center space-x-2">
                 <BookOpen className="h-4 w-4" />
@@ -301,6 +348,7 @@ export default function ChapterView() {
                 <ExercisePlayer
                   exercises={chapter.exercises}
                   onComplete={handleExerciseComplete}
+                  onExerciseStarted={handleExerciseStarted}
                   chapterId={chapterId}
                   subjectId={subjectId}
                   gradeLevel={gradeLevel}
@@ -325,6 +373,29 @@ export default function ChapterView() {
           </Tabs>
         </motion.div>
       </main>
+
+      {/* Tab Change Confirmation Dialog */}
+      <AlertDialog open={showTabChangeConfirm} onOpenChange={setShowTabChangeConfirm}>
+        <AlertDialogContent>
+          <AlertDialogHeader>
+            <AlertDialogTitle className="flex items-center gap-2">
+              <AlertCircle className="h-5 w-5 text-warning" />
+              {t.switchToLesson}
+            </AlertDialogTitle>
+            <AlertDialogDescription>
+              {t.switchToLessonWarning}
+            </AlertDialogDescription>
+          </AlertDialogHeader>
+          <AlertDialogFooter>
+            <AlertDialogCancel onClick={handleCancelTabChange}>
+              {t.cancel}
+            </AlertDialogCancel>
+            <AlertDialogAction onClick={handleConfirmTabChange} className="bg-warning hover:bg-warning/90">
+              {t.yesSwitchTab}
+            </AlertDialogAction>
+          </AlertDialogFooter>
+        </AlertDialogContent>
+      </AlertDialog>
     </div>
   );
 }

@@ -55,19 +55,23 @@ interface SimilarQuestion {
 interface ExercisePlayerProps {
   exercises: Exercise[];
   onComplete: (scores: Record<string, number>) => void;
+  onExerciseStarted?: () => void;
   chapterId: string;
   subjectId: string;
   gradeLevel?: string;
   previousScores?: Record<string, number>;
+  isReviewMode?: boolean;
 }
 
 export function ExercisePlayer({
   exercises,
   onComplete,
+  onExerciseStarted,
   chapterId,
   subjectId,
   gradeLevel,
-  previousScores = {}
+  previousScores = {},
+  isReviewMode = false
 }: ExercisePlayerProps) {
   const [searchParams, setSearchParams] = useSearchParams();
 
@@ -112,6 +116,11 @@ export function ExercisePlayer({
     const exerciseId = exercise.id;
     const attemptCount = (attempts[exerciseId] || 0) + 1;
     setAttempts({ ...attempts, [exerciseId]: attemptCount });
+
+    // Notify parent that exercise has started (on first attempt of first exercise)
+    if (attemptCount === 1 && Object.keys(attempts).length === 0 && onExerciseStarted) {
+      onExerciseStarted();
+    }
 
     if (isCorrect) {
       // Calculate score based on attempts (100% for first try, 80% for second, 60% for third+)

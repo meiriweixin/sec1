@@ -53,6 +53,10 @@ export const translations = {
     tryAgain: "Try Again",
     score: "Score",
     complete: "Complete",
+    switchToLesson: "Switch to Lesson?",
+    switchToLessonWarning: "You are currently doing exercises. Switching to the lesson may cause you to lose your current progress. Are you sure you want to continue?",
+    cancel: "Cancel",
+    yesSwitchTab: "Yes, Switch",
     
     // Progress
     yourProgress: "Your Progress",
@@ -168,6 +172,9 @@ export const translations = {
     tryAgain: "再试一次",
     score: "分数",
     complete: "完成",
+    switchToLesson: "切换到课程？",
+    switchToLessonWarning: "你正在做练习题。如果切换到课程，当前进度可能会丢失。确定要继续吗？",
+    yesSwitchTab: "确认切换",
     
     // Progress
     yourProgress: "您的进度",
