@@ -1,0 +1,250 @@
+{
+  "id": "sec1-math-wa2",
+  "instructions": [
+    "Write your name, class, and index number on all the work you hand in.",
+    "Write in dark blue or black pen. You may use an HB pencil for diagrams.",
+    "Do not use correction fluid.",
+    "Answer ALL questions.",
+    "Show all working clearly. Marks may be deducted for insufficient working.",
+    "If the degree of accuracy is not specified, give your answer to 3 significant figures.",
+    "Electronic calculators may be used for this paper."
+  ],
+  "instructions_zh": [
+    "在所有答卷上写上你的姓名、班级和学号。",
+    "用深蓝色或黑色笔书写。可以用HB铅笔画图。",
+    "不要使用涂改液。",
+    "回答所有问题。",
+    "清楚地展示所有运算过程。运算过程不足可能会被扣分。",
+    "如未指定精确度，请将答案保留至3位有效数字。",
+    "本试卷允许使用电子计算器。"
+  ],
+  "sections": [
+    {
+      "name": "Section A: Multiple Choice Questions",
+      "name_zh": "第一部分：选择题",
+      "marks": 10,
+      "questions": [
+        {
+          "number": 1,
+          "marks": 2,
+          "type": "mcq",
+          "prompt": "Expand and simplify: $2(3x - 4) - 3(x - 5)$",
+          "prompt_zh": "展开并化简：$2(3x - 4) - 3(x - 5)$",
+          "choices": [
+            { "label": "A", "text": "$3x + 7$" },
+            { "label": "B", "text": "$3x - 23$" },
+            { "label": "C", "text": "$9x + 7$" },
+            { "label": "D", "text": "$3x - 7$" }
+          ]
+        },
+        {
+          "number": 2,
+          "marks": 2,
+          "type": "mcq",
+          "prompt": "Solve: $\\frac{2x - 1}{3} = 5$",
+          "prompt_zh": "解方程：$\\frac{2x - 1}{3} = 5$",
+          "choices": [
+            { "label": "A", "text": "$x = 7$" },
+            { "label": "B", "text": "$x = 8$" },
+            { "label": "C", "text": "$x = 7\\frac{1}{3}$" },
+            { "label": "D", "text": "$x = 2$" }
+          ]
+        },
+        {
+          "number": 3,
+          "marks": 2,
+          "type": "mcq",
+          "prompt": "The ratio of boys to girls in a class is $3 : 5$. If there are 24 students in total, how many girls are there?",
+          "prompt_zh": "班级中男生与女生的比例是$3 : 5$。如果总共有24名学生，有多少名女生？",
+          "choices": [
+            { "label": "A", "text": "9" },
+            { "label": "B", "text": "12" },
+            { "label": "C", "text": "15" },
+            { "label": "D", "text": "18" }
+          ]
+        },
+        {
+          "number": 4,
+          "marks": 2,
+          "type": "mcq",
+          "prompt": "A bag originally costs $\\$80$. During the Great Singapore Sale, it is sold at a 25% discount. What is the sale price?",
+          "prompt_zh": "一个包原价$\\$80$。在新加坡大减价期间，它以25%的折扣出售。售价是多少？",
+          "choices": [
+            { "label": "A", "text": "$\\$20$" },
+            { "label": "B", "text": "$\\$55$" },
+            { "label": "C", "text": "$\\$60$" },
+            { "label": "D", "text": "$\\$100$" }
+          ]
+        },
+        {
+          "number": 5,
+          "marks": 2,
+          "type": "mcq",
+          "prompt": "If $a : b = 2 : 3$ and $b : c = 4 : 5$, find $a : b : c$.",
+          "prompt_zh": "如果 $a : b = 2 : 3$ 且 $b : c = 4 : 5$，求 $a : b : c$。",
+          "choices": [
+            { "label": "A", "text": "$2 : 3 : 5$" },
+            { "label": "B", "text": "$8 : 12 : 15$" },
+            { "label": "C", "text": "$6 : 9 : 10$" },
+            { "label": "D", "text": "$4 : 6 : 5$" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Section B: Short Answer Questions",
+      "name_zh": "第二部分：简答题",
+      "marks": 20,
+      "questions": [
+        {
+          "number": 6,
+          "marks": 4,
+          "type": "structured",
+          "prompt": "Solve the following equations:",
+          "prompt_zh": "解以下方程：",
+          "parts": [
+            { "label": "a", "marks": 2, "prompt": "$5x - 7 = 3x + 9$" },
+            { "label": "b", "marks": 2, "prompt": "$\\frac{x + 2}{4} - \\frac{x - 1}{3} = 1$" }
+          ]
+        },
+        {
+          "number": 7,
+          "marks": 4,
+          "type": "structured",
+          "prompt": "Factorise completely:",
+          "prompt_zh": "完全因式分解：",
+          "parts": [
+            { "label": "a", "marks": 2, "prompt": "$6xy - 9x^2y + 12xy^2$" },
+            { "label": "b", "marks": 2, "prompt": "$4a^2 - 25b^2$" }
+          ]
+        },
+        {
+          "number": 8,
+          "marks": 4,
+          "type": "structured",
+          "prompt": "The price of a laptop is $\\$1200$ before GST. The current GST rate in Singapore is 9%.",
+          "prompt_zh": "一台笔记本电脑税前价格为$\\$1200$。新加坡目前的消费税率为9%。",
+          "parts": [
+            { "label": "a", "marks": 1, "prompt": "Calculate the GST payable." },
+            { "label": "b", "marks": 1, "prompt": "Find the total price including GST." },
+            { "label": "c", "marks": 2, "prompt": "If the price of the laptop increases by 5% next year (before GST), what will be the new total price including GST?" }
+          ]
+        },
+        {
+          "number": 9,
+          "marks": 4,
+          "type": "structured",
+          "prompt": "A car travels from Singapore to Kuala Lumpur at an average speed of 80 km/h and returns at an average speed of 100 km/h. The total distance for the round trip is 700 km.",
+          "prompt_zh": "一辆汽车以平均80公里/小时的速度从新加坡行驶到吉隆坡，并以平均100公里/小时的速度返回。往返总距离为700公里。",
+          "parts": [
+            { "label": "a", "marks": 1, "prompt": "Find the distance from Singapore to Kuala Lumpur." },
+            { "label": "b", "marks": 1, "prompt": "Calculate the time taken for the journey from Singapore to Kuala Lumpur." },
+            { "label": "c", "marks": 1, "prompt": "Calculate the time taken for the return journey." },
+            { "label": "d", "marks": 1, "prompt": "Find the average speed for the entire round trip." }
+          ]
+        },
+        {
+          "number": 10,
+          "marks": 4,
+          "type": "structured",
+          "prompt": "Three friends, Ali, Ben, and Chen, share a sum of money in the ratio $2 : 3 : 5$.",
+          "prompt_zh": "三个朋友Ali、Ben和Chen按$2 : 3 : 5$的比例分享一笔钱。",
+          "parts": [
+            { "label": "a", "marks": 2, "prompt": "If Chen receives $\\$150$ more than Ali, find the total sum of money." },
+            { "label": "b", "marks": 1, "prompt": "How much does Ben receive?" },
+            { "label": "c", "marks": 1, "prompt": "What percentage of the total does Ali receive?" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Section C: Structured Questions",
+      "name_zh": "第三部分：结构化问题",
+      "marks": 20,
+      "questions": [
+        {
+          "number": 11,
+          "marks": 6,
+          "type": "structured",
+          "prompt": "Mr. Tan bought a HDB flat for $\\$450,000$. After 5 years, the value of the flat appreciated by 20%.",
+          "prompt_zh": "陈先生以$\\$450,000$购买了一套组屋。5年后，该组屋升值了20%。",
+          "parts": [
+            { "label": "a", "marks": 1, "prompt": "Find the value of the flat after 5 years." },
+            { "label": "b", "marks": 2, "prompt": "Mr. Tan then sold the flat and made a profit of 15% on the appreciated value. Find the selling price." },
+            { "label": "c", "marks": 2, "prompt": "Calculate Mr. Tan's overall percentage profit based on his original purchase price." },
+            { "label": "d", "marks": 1, "prompt": "If he had sold it at a 10% loss instead, what would the selling price have been?" }
+          ]
+        },
+        {
+          "number": 12,
+          "marks": 7,
+          "type": "structured",
+          "prompt": "A recipe for making 12 curry puffs requires:\n- 300 g of flour\n- 200 g of potatoes\n- 150 g of chicken\n- 4 eggs",
+          "prompt_zh": "制作12个咖喱角的食谱需要：\n- 300克面粉\n- 200克土豆\n- 150克鸡肉\n- 4个鸡蛋",
+          "parts": [
+            { "label": "a", "marks": 1, "prompt": "Find the ratio of flour to potatoes to chicken in its simplest form." },
+            { "label": "b", "marks": 2, "prompt": "Mrs. Lim wants to make 30 curry puffs for a party. Calculate the amount of each ingredient she needs." },
+            { "label": "c", "marks": 2, "prompt": "Flour costs $\\$2.50$ per kg, potatoes cost $\\$1.80$ per kg, chicken costs $\\$8.00$ per kg, and eggs cost $\\$0.30$ each. Find the cost of ingredients to make 30 curry puffs." },
+            { "label": "d", "marks": 2, "prompt": "If Mrs. Lim sells each curry puff for $\\$1.50$, calculate her percentage profit." }
+          ]
+        },
+        {
+          "number": 13,
+          "marks": 7,
+          "type": "structured",
+          "prompt": "A water tank can be filled by Pipe A alone in 6 hours and by Pipe B alone in 4 hours.",
+          "prompt_zh": "一个水箱单独用管道A需要6小时填满，单独用管道B需要4小时填满。",
+          "parts": [
+            { "label": "a", "marks": 1, "prompt": "What fraction of the tank can Pipe A fill in 1 hour?" },
+            { "label": "b", "marks": 1, "prompt": "What fraction of the tank can Pipe B fill in 1 hour?" },
+            { "label": "c", "marks": 1, "prompt": "If both pipes are turned on together, what fraction of the tank is filled in 1 hour?" },
+            { "label": "d", "marks": 2, "prompt": "How long will it take to fill the tank if both pipes are used together?" },
+            { "label": "e", "marks": 2, "prompt": "Pipe C can drain the full tank in 8 hours. If all three pipes are turned on with the tank initially empty, how long will it take to fill the tank?" }
+          ]
+        }
+      ]
+    }
+  ],
+  "answerKey": [
+    {
+      "sectionName": "Section A",
+      "answers": [
+        { "questionNum": "1", "answer": "A (3x + 7)" },
+        { "questionNum": "2", "answer": "B (x = 8)" },
+        { "questionNum": "3", "answer": "C (15)" },
+        { "questionNum": "4", "answer": "C ($60)" },
+        { "questionNum": "5", "answer": "B (8:12:15)" }
+      ]
+    },
+    {
+      "sectionName": "Section B",
+      "answers": [
+        { "questionNum": "6a", "answer": "x = 8" },
+        { "questionNum": "6b", "answer": "x = -1" },
+        { "questionNum": "7a", "answer": "3xy(2 - 3x + 4y)" },
+        { "questionNum": "7b", "answer": "(2a+5b)(2a-5b)" },
+        { "questionNum": "8a", "answer": "$108" },
+        { "questionNum": "8b", "answer": "$1308" },
+        { "questionNum": "8c", "answer": "$1373.40" },
+        { "questionNum": "9a", "answer": "350 km" },
+        { "questionNum": "9d", "answer": "88.9 km/h" },
+        { "questionNum": "10a", "answer": "$500" },
+        { "questionNum": "10b", "answer": "$150" },
+        { "questionNum": "10c", "answer": "20%" }
+      ]
+    },
+    {
+      "sectionName": "Section C",
+      "answers": [
+        { "questionNum": "11a", "answer": "$540,000" },
+        { "questionNum": "11b", "answer": "$621,000" },
+        { "questionNum": "11c", "answer": "38%" },
+        { "questionNum": "12a", "answer": "6:4:3" },
+        { "questionNum": "12c", "answer": "$8.65" },
+        { "questionNum": "13a", "answer": "1/6" },
+        { "questionNum": "13c", "answer": "5/12" },
+        { "questionNum": "13d", "answer": "2h 24min" }
+      ]
+    }
+  ]
+}

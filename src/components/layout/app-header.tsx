@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { useStore } from "@/lib/store";
 import { useTranslations } from "@/lib/i18n";
-import { BookOpen, Sun, Moon, Globe, User, LogOut } from "lucide-react";
+import { BookOpen, Sun, Moon, Globe, User, LogOut, GraduationCap, FileText, Brain } from "lucide-react";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -47,6 +47,39 @@ export function AppHeader() {
             SG Learning
           </span>
         </div>
+
+        {/* Navigation Links */}
+        {user && (
+          <nav className="hidden md:flex items-center space-x-1">
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={() => navigate('/subjects')}
+              className="text-muted-foreground hover:text-foreground"
+            >
+              <GraduationCap className="h-4 w-4 mr-2" />
+              {t.subjects}
+            </Button>
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={() => navigate('/exams')}
+              className="text-muted-foreground hover:text-foreground"
+            >
+              <FileText className="h-4 w-4 mr-2" />
+              {t.exams}
+            </Button>
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={() => navigate('/ai')}
+              className="text-muted-foreground hover:text-foreground"
+            >
+              <Brain className="h-4 w-4 mr-2" />
+              AI
+            </Button>
+          </nav>
+        )}
 
         {/* Right side controls */}
         <div className="flex items-center space-x-2">

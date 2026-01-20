@@ -1,9 +1,9 @@
+/* KaTeX CSS for math rendering - must be first */
+@import 'katex/dist/katex.min.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* KaTeX CSS for math rendering */
-@import 'katex/dist/katex.min.css';
 
 /* Educational Learning App Design System */
 
@@ -202,9 +202,12 @@
 }
 
 @keyframes bounce-gentle {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: translateY(0);
   }
+
   50% {
     transform: translateY(-10px);
   }
@@ -215,6 +218,7 @@
     opacity: 0;
     transform: translateY(20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -226,6 +230,7 @@
     opacity: 0;
     transform: translateY(40px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);

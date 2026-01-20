@@ -1,0 +1,248 @@
+{
+  "id": "sec1-math-eoy-p1",
+  "instructions": [
+    "Write your name, class, and index number on all the work you hand in.",
+    "Write in dark blue or black pen. You may use an HB pencil for diagrams.",
+    "Do not use correction fluid.",
+    "Answer ALL questions.",
+    "Show all working clearly. Marks may be deducted for insufficient working.",
+    "If the degree of accuracy is not specified, give your answer to 3 significant figures.",
+    "Calculators are NOT allowed for this paper."
+  ],
+  "instructions_zh": [
+    "在所有答卷上写上你的姓名、班级和学号。",
+    "用深蓝色或黑色笔书写。可以用HB铅笔画图。",
+    "不要使用涂改液。",
+    "回答所有问题。",
+    "清楚地展示所有运算过程。运算过程不足可能会被扣分。",
+    "如未指定精确度，请将答案保留至3位有效数字。",
+    "本试卷不允许使用计算器。"
+  ],
+  "sections": [
+    {
+      "name": "Section A: Multiple Choice Questions",
+      "name_zh": "第一部分：选择题",
+      "marks": 12,
+      "questions": [
+        {
+          "number": 1,
+          "marks": 2,
+          "type": "mcq",
+          "prompt": "Evaluate: $(-3)^2 - (-2)^3$",
+          "prompt_zh": "计算：$(-3)^2 - (-2)^3$",
+          "choices": [
+            { "label": "A", "text": "1" },
+            { "label": "B", "text": "17" },
+            { "label": "C", "text": "$-1$" },
+            { "label": "D", "text": "$-17$" }
+          ]
+        },
+        {
+          "number": 2,
+          "marks": 2,
+          "type": "mcq",
+          "prompt": "Express $\\frac{7}{9}$ as a recurring decimal.",
+          "prompt_zh": "将$\\frac{7}{9}$表示为循环小数。",
+          "choices": [
+            { "label": "A", "text": "$0.77...$" },
+            { "label": "B", "text": "$0.\\overline{7}$" },
+            { "label": "C", "text": "$0.777$" },
+            { "label": "D", "text": "$0.78$" }
+          ]
+        },
+        {
+          "number": 3,
+          "marks": 2,
+          "type": "mcq",
+          "prompt": "What is the LCM of 12, 18, and 24?",
+          "prompt_zh": "12、18和24的最小公倍数是多少？",
+          "choices": [
+            { "label": "A", "text": "6" },
+            { "label": "B", "text": "36" },
+            { "label": "C", "text": "72" },
+            { "label": "D", "text": "144" }
+          ]
+        },
+        {
+          "number": 4,
+          "marks": 2,
+          "type": "mcq",
+          "prompt": "Simplify: $\\frac{3x^2y}{xy} \\times \\frac{2y}{6x}$",
+          "prompt_zh": "化简：$\\frac{3x^2y}{xy} \\times \\frac{2y}{6x}$",
+          "choices": [
+            { "label": "A", "text": "$xy$" },
+            { "label": "B", "text": "$\\frac{y}{x}$" },
+            { "label": "C", "text": "$y$" },
+            { "label": "D", "text": "$x$" }
+          ]
+        },
+        {
+          "number": 5,
+          "marks": 2,
+          "type": "mcq",
+          "prompt": "The interior angle of a regular polygon is 140°. How many sides does the polygon have?",
+          "prompt_zh": "一个正多边形的内角是140°。这个多边形有多少条边？",
+          "choices": [
+            { "label": "A", "text": "7" },
+            { "label": "B", "text": "8" },
+            { "label": "C", "text": "9" },
+            { "label": "D", "text": "10" }
+          ]
+        },
+        {
+          "number": 6,
+          "marks": 2,
+          "type": "mcq",
+          "prompt": "A cube has a volume of 64 cm³. What is its surface area?",
+          "prompt_zh": "一个正方体的体积是64立方厘米。它的表面积是多少？",
+          "choices": [
+            { "label": "A", "text": "16 cm²" },
+            { "label": "B", "text": "24 cm²" },
+            { "label": "C", "text": "64 cm²" },
+            { "label": "D", "text": "96 cm²" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Section B: Short Answer Questions",
+      "name_zh": "第二部分：简答题",
+      "marks": 18,
+      "questions": [
+        {
+          "number": 7,
+          "marks": 3,
+          "type": "structured",
+          "prompt": "Evaluate without a calculator, showing all working:",
+          "prompt_zh": "不使用计算器计算，展示所有运算过程：",
+          "parts": [
+            { "label": "a", "marks": 2, "prompt": "$\\frac{3}{4} - \\frac{2}{5} + \\frac{1}{2}$" },
+            { "label": "b", "marks": 1, "prompt": "$(-6) \\div \\frac{2}{3} \\times (-\\frac{1}{4})$" }
+          ]
+        },
+        {
+          "number": 8,
+          "marks": 3,
+          "type": "structured",
+          "prompt": "",
+          "parts": [
+            { "label": "a", "marks": 2, "prompt": "Find the HCF of 84 and 126 using prime factorization." },
+            { "label": "b", "marks": 1, "prompt": "Hence, simplify the fraction $\\frac{84}{126}$." }
+          ]
+        },
+        {
+          "number": 9,
+          "marks": 3,
+          "type": "structured",
+          "prompt": "Expand and simplify:",
+          "prompt_zh": "展开并化简：",
+          "parts": [
+            { "label": "a", "marks": 1, "prompt": "$3(2a - 5) - 2(a - 4)$" },
+            { "label": "b", "marks": 2, "prompt": "$(x + 3)(x - 5)$" }
+          ]
+        },
+        {
+          "number": 10,
+          "marks": 3,
+          "type": "short",
+          "prompt": "Solve the equation: $\\frac{x - 3}{2} = \\frac{x + 1}{4} + 2$",
+          "prompt_zh": "解方程：$\\frac{x - 3}{2} = \\frac{x + 1}{4} + 2$"
+        },
+        {
+          "number": 11,
+          "marks": 3,
+          "type": "structured",
+          "prompt": "In the diagram below, $ABC$ is an isosceles triangle where $AB = AC$. $BD$ is parallel to $AC$. Given that $\\angle BAC = 50°$.",
+          "prompt_zh": "在下图中，$ABC$是等腰三角形，其中$AB = AC$。$BD$平行于$AC$。已知$\\angle BAC = 50°$。",
+          "parts": [
+            { "label": "a", "marks": 1, "prompt": "Find $\\angle ABC$." },
+            { "label": "b", "marks": 2, "prompt": "Find $\\angle ABD$ (marked as $x°$)." }
+          ]
+        },
+        {
+          "number": 12,
+          "marks": 3,
+          "type": "structured",
+          "prompt": "The first four terms of a sequence are: $2, 5, 10, 17, ...$",
+          "prompt_zh": "一个数列的前四项是：$2, 5, 10, 17, ...$",
+          "parts": [
+            { "label": "a", "marks": 1, "prompt": "Write down the 5th term." },
+            { "label": "b", "marks": 1, "prompt": "The general term is $T_n = n^2 + 1$. Verify this formula works for the first term." },
+            { "label": "c", "marks": 1, "prompt": "Find the value of $n$ for which $T_n = 170$." }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Section C: Structured Questions",
+      "name_zh": "第三部分：结构化问题",
+      "marks": 10,
+      "questions": [
+        {
+          "number": 13,
+          "marks": 5,
+          "type": "structured",
+          "prompt": "A rectangular garden has length $(2x + 3)$ m and width $(x - 1)$ m.",
+          "prompt_zh": "一个长方形花园的长为$(2x + 3)$米，宽为$(x - 1)$米。",
+          "parts": [
+            { "label": "a", "marks": 2, "prompt": "Write an expression for the perimeter of the garden in terms of $x$. Simplify your answer." },
+            { "label": "b", "marks": 2, "prompt": "If the perimeter is 34 m, find the value of $x$." },
+            { "label": "c", "marks": 1, "prompt": "Hence, find the area of the garden." }
+          ]
+        },
+        {
+          "number": 14,
+          "marks": 5,
+          "type": "structured",
+          "prompt": "The diagram shows a trapezium $ABCD$ where $AB \\parallel DC$.\n\nGiven:\n- $AB = 12$ cm\n- $DC = 8$ cm\n- The perpendicular height from $AB$ to $DC$ is 6 cm\n- $E$ is the midpoint of $AB$",
+          "prompt_zh": "图中显示一个梯形$ABCD$，其中$AB \\parallel DC$。\n\n已知：\n- $AB = 12$厘米\n- $DC = 8$厘米\n- 从$AB$到$DC$的垂直高度是6厘米\n- $E$是$AB$的中点",
+          "parts": [
+            { "label": "a", "marks": 2, "prompt": "Calculate the area of trapezium $ABCD$." },
+            { "label": "b", "marks": 2, "prompt": "A triangle $DEC$ is drawn. Calculate the area of triangle $DEC$." },
+            { "label": "c", "marks": 1, "prompt": "What fraction of the trapezium is triangle $DEC$?" }
+          ]
+        }
+      ]
+    }
+  ],
+  "answerKey": [
+    {
+      "sectionName": "Section A",
+      "answers": [
+        { "questionNum": "1", "answer": "B (17)" },
+        { "questionNum": "2", "answer": "B (0.7̄)" },
+        { "questionNum": "3", "answer": "C (72)" },
+        { "questionNum": "4", "answer": "C (y)" },
+        { "questionNum": "5", "answer": "C (9)" },
+        { "questionNum": "6", "answer": "D (96 cm²)" }
+      ]
+    },
+    {
+      "sectionName": "Section B",
+      "answers": [
+        { "questionNum": "7a", "answer": "17/20" },
+        { "questionNum": "7b", "answer": "9/2 or 4½" },
+        { "questionNum": "8a", "answer": "HCF = 42" },
+        { "questionNum": "8b", "answer": "2/3" },
+        { "questionNum": "9a", "answer": "4a - 7" },
+        { "questionNum": "9b", "answer": "x² - 2x - 15" },
+        { "questionNum": "10", "answer": "x = 9" },
+        { "questionNum": "11a", "answer": "65°" },
+        { "questionNum": "11b", "answer": "115°" },
+        { "questionNum": "12a", "answer": "26" },
+        { "questionNum": "12c", "answer": "n = 13" }
+      ]
+    },
+    {
+      "sectionName": "Section C",
+      "answers": [
+        { "questionNum": "13a", "answer": "P = 6x + 4 m" },
+        { "questionNum": "13b", "answer": "x = 5" },
+        { "questionNum": "13c", "answer": "52 m²" },
+        { "questionNum": "14a", "answer": "60 cm²" },
+        { "questionNum": "14b", "answer": "24 cm²" },
+        { "questionNum": "14c", "answer": "2/5" }
+      ]
+    }
+  ]
+}

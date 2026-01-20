@@ -17,6 +17,8 @@ import AIProgress from "./pages/AIProgress";
 import AISafety from "./pages/AISafety";
 import NotFound from "./pages/NotFound";
 import Review from "./pages/Review";
+import Exams from "./pages/Exams";
+import ExamView from "./pages/ExamView";
 
 const queryClient = new QueryClient();
 
@@ -43,6 +45,8 @@ const App = () => (
               <Route path="/ai/modules/:moduleId" element={<AIModuleDetail />} />
               <Route path="/ai/progress" element={<AIProgress />} />
               <Route path="/ai/safety" element={<AISafety />} />
+              <Route path="/exams" element={<Exams />} />
+              <Route path="/exams/:examId" element={<ExamView />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
             </Routes>

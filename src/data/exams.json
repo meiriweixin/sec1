@@ -1,0 +1,264 @@
+{
+  "exams": [
+    {
+      "id": "sec1-math-wa1",
+      "subject": "math",
+      "subjectName": "Mathematics",
+      "subjectName_zh": "数学",
+      "gradeLevel": "sec1",
+      "assessmentType": "wa1",
+      "title": "Weighted Assessment 1",
+      "title_zh": "阶段测试一",
+      "description": "Term 1 assessment covering Numbers & Basic Algebra",
+      "description_zh": "第一学期测试：数字与基础代数",
+      "duration": 60,
+      "totalMarks": 50,
+      "calculatorAllowed": false,
+      "topics": [
+        "Integers & Rational Numbers",
+        "Factors, Multiples & Prime Numbers",
+        "Approximations & Estimations",
+        "Algebraic Expressions (Introduction)"
+      ],
+      "topics_zh": [
+        "整数与有理数",
+        "因数、倍数与质数",
+        "近似与估算",
+        "代数式（入门）"
+      ],
+      "sections": [
+        {
+          "name": "Section A: Multiple Choice",
+          "name_zh": "第一部分：选择题",
+          "marks": 10,
+          "questions": 5
+        },
+        {
+          "name": "Section B: Short Answer",
+          "name_zh": "第二部分：简答题",
+          "marks": 20,
+          "questions": 5
+        },
+        {
+          "name": "Section C: Structured Questions",
+          "name_zh": "第三部分：结构化问题",
+          "marks": 20,
+          "questions": 3
+        }
+      ],
+      "file": "sec1-math-wa1.md"
+    },
+    {
+      "id": "sec1-math-wa2",
+      "subject": "math",
+      "subjectName": "Mathematics",
+      "subjectName_zh": "数学",
+      "gradeLevel": "sec1",
+      "assessmentType": "wa2",
+      "title": "Weighted Assessment 2",
+      "title_zh": "阶段测试二",
+      "description": "Term 2 assessment covering Algebra & Percentages",
+      "description_zh": "第二学期测试：代数与百分比",
+      "duration": 60,
+      "totalMarks": 50,
+      "calculatorAllowed": true,
+      "topics": [
+        "Algebraic Expressions (Expansion & Factorization)",
+        "Simple Linear Equations",
+        "Ratio, Rate & Proportion",
+        "Percentage Applications"
+      ],
+      "topics_zh": [
+        "代数式（展开与因式分解）",
+        "简单一元一次方程",
+        "比例、速率与比率",
+        "百分比应用"
+      ],
+      "sections": [
+        {
+          "name": "Section A: Multiple Choice",
+          "name_zh": "第一部分：选择题",
+          "marks": 10,
+          "questions": 5
+        },
+        {
+          "name": "Section B: Short Answer",
+          "name_zh": "第二部分：简答题",
+          "marks": 20,
+          "questions": 5
+        },
+        {
+          "name": "Section C: Structured Questions",
+          "name_zh": "第三部分：结构化问题",
+          "marks": 20,
+          "questions": 3
+        }
+      ],
+      "file": "sec1-math-wa2.md"
+    },
+    {
+      "id": "sec1-math-wa3",
+      "subject": "math",
+      "subjectName": "Mathematics",
+      "subjectName_zh": "数学",
+      "gradeLevel": "sec1",
+      "assessmentType": "wa3",
+      "title": "Weighted Assessment 3",
+      "title_zh": "阶段测试三",
+      "description": "Term 3 assessment covering Graphs, Inequalities & Geometry",
+      "description_zh": "第三学期测试：图形、不等式与几何",
+      "duration": 60,
+      "totalMarks": 50,
+      "calculatorAllowed": true,
+      "topics": [
+        "Patterns & Sequences",
+        "Linear Graphs (y = mx + c)",
+        "Simple Inequalities",
+        "Angles & Basic Geometry"
+      ],
+      "topics_zh": [
+        "数列与规律",
+        "一次函数图像 (y = mx + c)",
+        "简单不等式",
+        "角度与基础几何"
+      ],
+      "sections": [
+        {
+          "name": "Section A: Multiple Choice",
+          "name_zh": "第一部分：选择题",
+          "marks": 10,
+          "questions": 5
+        },
+        {
+          "name": "Section B: Short Answer",
+          "name_zh": "第二部分：简答题",
+          "marks": 20,
+          "questions": 5
+        },
+        {
+          "name": "Section C: Structured Questions",
+          "name_zh": "第三部分：结构化问题",
+          "marks": 20,
+          "questions": 3
+        }
+      ],
+      "file": "sec1-math-wa3.md"
+    },
+    {
+      "id": "sec1-math-eoy-p1",
+      "subject": "math",
+      "subjectName": "Mathematics",
+      "subjectName_zh": "数学",
+      "gradeLevel": "sec1",
+      "assessmentType": "eoy",
+      "title": "End-of-Year Paper 1",
+      "title_zh": "年终考试卷一",
+      "description": "Comprehensive exam - No calculator allowed",
+      "description_zh": "综合考试 - 不允许使用计算器",
+      "duration": 60,
+      "totalMarks": 40,
+      "calculatorAllowed": false,
+      "topics": [
+        "All Sec 1 Mathematics Topics",
+        "Focus: Mental calculation and algebraic manipulation"
+      ],
+      "topics_zh": [
+        "中一数学全部课题",
+        "重点：心算和代数运算"
+      ],
+      "sections": [
+        {
+          "name": "Section A: Multiple Choice",
+          "name_zh": "第一部分：选择题",
+          "marks": 12,
+          "questions": 6
+        },
+        {
+          "name": "Section B: Short Answer",
+          "name_zh": "第二部分：简答题",
+          "marks": 18,
+          "questions": 6
+        },
+        {
+          "name": "Section C: Structured Questions",
+          "name_zh": "第三部分：结构化问题",
+          "marks": 10,
+          "questions": 2
+        }
+      ],
+      "file": "sec1-math-eoy-paper1.md"
+    },
+    {
+      "id": "sec1-math-eoy-p2",
+      "subject": "math",
+      "subjectName": "Mathematics",
+      "subjectName_zh": "数学",
+      "gradeLevel": "sec1",
+      "assessmentType": "eoy",
+      "title": "End-of-Year Paper 2",
+      "title_zh": "年终考试卷二",
+      "description": "Comprehensive exam - Calculator allowed",
+      "description_zh": "综合考试 - 允许使用计算器",
+      "duration": 90,
+      "totalMarks": 60,
+      "calculatorAllowed": true,
+      "topics": [
+        "All Sec 1 Mathematics Topics",
+        "Including: Mensuration, Statistics, Complex Problem Solving"
+      ],
+      "topics_zh": [
+        "中一数学全部课题",
+        "包括：面积体积、统计、综合应用题"
+      ],
+      "sections": [
+        {
+          "name": "Section A: Short Answer",
+          "name_zh": "第一部分：简答题",
+          "marks": 30,
+          "questions": 7
+        },
+        {
+          "name": "Section B: Structured Questions",
+          "name_zh": "第二部分：结构化问题",
+          "marks": 30,
+          "questions": 4
+        }
+      ],
+      "file": "sec1-math-eoy-paper2.md"
+    }
+  ],
+  "assessmentTypes": {
+    "wa1": {
+      "name": "Weighted Assessment 1",
+      "name_zh": "阶段测试一",
+      "term": 1,
+      "color": "blue"
+    },
+    "wa2": {
+      "name": "Weighted Assessment 2",
+      "name_zh": "阶段测试二",
+      "term": 2,
+      "color": "green"
+    },
+    "wa3": {
+      "name": "Weighted Assessment 3",
+      "name_zh": "阶段测试三",
+      "term": 3,
+      "color": "orange"
+    },
+    "eoy": {
+      "name": "End-of-Year Examination",
+      "name_zh": "年终考试",
+      "term": 4,
+      "color": "red"
+    }
+  },
+  "gradeLevels": {
+    "sec1": { "name": "Secondary 1", "name_zh": "中一" },
+    "sec2": { "name": "Secondary 2", "name_zh": "中二" },
+    "sec3": { "name": "Secondary 3", "name_zh": "中三" },
+    "sec4": { "name": "Secondary 4", "name_zh": "中四" },
+    "jc1": { "name": "JC 1", "name_zh": "高一" },
+    "jc2": { "name": "JC 2", "name_zh": "高二" }
+  }
+}

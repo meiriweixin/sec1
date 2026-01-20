@@ -1,0 +1,228 @@
+{
+  "id": "sec1-math-eoy-p2",
+  "instructions": [
+    "Write your name, class, and index number on all the work you hand in.",
+    "Write in dark blue or black pen. You may use an HB pencil for diagrams and graphs.",
+    "Do not use correction fluid.",
+    "Answer ALL questions.",
+    "Show all working clearly. Marks may be deducted for insufficient working.",
+    "If the degree of accuracy is not specified, give your answer to 3 significant figures.",
+    "Electronic calculators may be used for this paper."
+  ],
+  "instructions_zh": [
+    "在所有答卷上写上你的姓名、班级和学号。",
+    "用深蓝色或黑色笔书写。可以用HB铅笔画图和画图表。",
+    "不要使用涂改液。",
+    "回答所有问题。",
+    "清楚地展示所有运算过程。运算过程不足可能会被扣分。",
+    "如未指定精确度，请将答案保留至3位有效数字。",
+    "本试卷允许使用电子计算器。"
+  ],
+  "sections": [
+    {
+      "name": "Section A: Short Answer Questions",
+      "name_zh": "第一部分：简答题",
+      "marks": 30,
+      "questions": [
+        {
+          "number": 1,
+          "marks": 4,
+          "type": "structured",
+          "prompt": "",
+          "parts": [
+            { "label": "a", "marks": 1, "prompt": "Express 0.000375 in standard form." },
+            { "label": "b", "marks": 2, "prompt": "Calculate $\\frac{4.5 \\times 10^3}{1.5 \\times 10^{-2}}$, giving your answer in standard form." },
+            { "label": "c", "marks": 1, "prompt": "Estimate $\\frac{82.4 \\times 0.0198}{0.392}$ by rounding each number to 1 significant figure." }
+          ]
+        },
+        {
+          "number": 2,
+          "marks": 4,
+          "type": "structured",
+          "prompt": "Factorise completely:",
+          "prompt_zh": "完全因式分解：",
+          "parts": [
+            { "label": "a", "marks": 2, "prompt": "$15x^2y - 25xy^2$" },
+            { "label": "b", "marks": 1, "prompt": "$x^2 - 9$" },
+            { "label": "c", "marks": 1, "prompt": "$2x^2 + 5x - 3$" }
+          ]
+        },
+        {
+          "number": 3,
+          "marks": 4,
+          "type": "structured",
+          "prompt": "Solve the following:",
+          "prompt_zh": "解以下各题：",
+          "parts": [
+            { "label": "a", "marks": 2, "prompt": "$\\frac{2x - 1}{3} - \\frac{x + 2}{4} = 1$" },
+            { "label": "b", "marks": 2, "prompt": "$3(x - 2) > 5x + 4$" }
+          ]
+        },
+        {
+          "number": 4,
+          "marks": 4,
+          "type": "structured",
+          "prompt": "The line $l$ has equation $y = 3x - 5$.",
+          "prompt_zh": "直线$l$的方程是$y = 3x - 5$。",
+          "parts": [
+            { "label": "a", "marks": 1, "prompt": "State the gradient and y-intercept of line $l$." },
+            { "label": "b", "marks": 1, "prompt": "Find the coordinates of the point where line $l$ crosses the x-axis." },
+            { "label": "c", "marks": 2, "prompt": "Line $m$ is parallel to line $l$ and passes through the point $(2, 7)$. Find the equation of line $m$." }
+          ]
+        },
+        {
+          "number": 5,
+          "marks": 4,
+          "type": "structured",
+          "prompt": "The mean of five numbers is 12. When a sixth number is added, the mean becomes 14.",
+          "prompt_zh": "五个数的平均值是12。当加入第六个数时，平均值变为14。",
+          "parts": [
+            { "label": "a", "marks": 1, "prompt": "Find the sum of the original five numbers." },
+            { "label": "b", "marks": 1, "prompt": "Find the sum of all six numbers." },
+            { "label": "c", "marks": 1, "prompt": "Find the sixth number." },
+            { "label": "d", "marks": 1, "prompt": "If the median of the six numbers is 13.5, and the numbers in ascending order are $8, a, 12, 15, 16, b$, find the values of $a$ and $b$." }
+          ]
+        },
+        {
+          "number": 6,
+          "marks": 5,
+          "type": "structured",
+          "prompt": "The diagram shows a composite solid made of a cylinder and a hemisphere. The radius of both is 7 cm. The height of the cylinder is 12 cm. [Take $\\pi = \\frac{22}{7}$]",
+          "prompt_zh": "图中显示一个由圆柱体和半球组成的组合体。两者的半径都是7厘米。圆柱体的高度是12厘米。[取$\\pi = \\frac{22}{7}$]",
+          "parts": [
+            { "label": "a", "marks": 1, "prompt": "Calculate the volume of the cylinder." },
+            { "label": "b", "marks": 2, "prompt": "Calculate the volume of the hemisphere." },
+            { "label": "c", "marks": 1, "prompt": "Find the total volume of the composite solid." },
+            { "label": "d", "marks": 1, "prompt": "Calculate the total surface area of the composite solid (including the base)." }
+          ]
+        },
+        {
+          "number": 7,
+          "marks": 5,
+          "type": "structured",
+          "prompt": "The following data shows the number of hours 20 students spent studying:\n\n| Hours | 0-2 | 3-5 | 6-8 | 9-11 | 12-14 |\n|-------|-----|-----|-----|------|-------|\n| Frequency | 2 | 5 | 8 | 4 | 1 |",
+          "prompt_zh": "以下数据显示20名学生的学习时间分布：",
+          "parts": [
+            { "label": "a", "marks": 1, "prompt": "State the modal class." },
+            { "label": "b", "marks": 2, "prompt": "Calculate an estimate of the mean number of hours spent studying." },
+            { "label": "c", "marks": 2, "prompt": "Draw a histogram to represent the data." }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Section B: Structured Questions",
+      "name_zh": "第二部分：结构化问题",
+      "marks": 30,
+      "questions": [
+        {
+          "number": 8,
+          "marks": 8,
+          "type": "structured",
+          "prompt": "Mr. Tan is planning a family trip from Singapore to Kuala Lumpur. He has two options:\n\n**Option A: Drive**\n- Distance: 350 km\n- Average speed: 80 km/h\n- Petrol consumption: 12 km per litre\n- Petrol price: $\\$2.50$ per litre\n- Toll fees: $\\$45$\n\n**Option B: Take the bus**\n- Adult ticket: $\\$45$ per person\n- Child ticket (under 12): $\\$25$ per person\n- Journey time: 5 hours\n\nMr. Tan's family consists of 2 adults and 2 children.",
+          "prompt_zh": "陈先生正在计划从新加坡到吉隆坡的家庭旅行。他有两个选择：\n\n**选择A：自驾**\n- 距离：350公里\n- 平均速度：80公里/小时\n- 油耗：12公里/升\n- 油价：每升$\\$2.50$\n- 过路费：$\\$45$\n\n**选择B：乘坐巴士**\n- 成人票：每人$\\$45$\n- 儿童票（12岁以下）：每人$\\$25$\n- 行程时间：5小时\n\n陈先生的家庭由2名成人和2名儿童组成。",
+          "parts": [
+            { "label": "a", "marks": 1, "prompt": "Calculate the total driving time for Option A." },
+            { "label": "b", "marks": 1, "prompt": "Calculate the amount of petrol needed for Option A." },
+            { "label": "c", "marks": 2, "prompt": "Calculate the total cost of Option A (petrol + tolls)." },
+            { "label": "d", "marks": 1, "prompt": "Calculate the total cost of Option B for the family." },
+            { "label": "e", "marks": 1, "prompt": "Which option is cheaper and by how much?" },
+            { "label": "f", "marks": 2, "prompt": "If Mr. Tan drives at 100 km/h instead, how much time would he save compared to the bus?" }
+          ]
+        },
+        {
+          "number": 9,
+          "marks": 8,
+          "type": "structured",
+          "prompt": "A company produces two products, A and B. The monthly production is shown below:\n\n| Month | Product A | Product B |\n|-------|-----------|----------|\n| Jan | 120 | 80 |\n| Feb | 135 | 95 |\n| Mar | 150 | 100 |\n| Apr | 140 | 110 |\n| May | 160 | 105 |\n| Jun | 155 | 120 |",
+          "prompt_zh": "一家公司生产两种产品A和B。每月产量如下表所示：",
+          "parts": [
+            { "label": "a", "marks": 1, "prompt": "Calculate the mean monthly production for Product A." },
+            { "label": "b", "marks": 1, "prompt": "Calculate the mean monthly production for Product B." },
+            { "label": "c", "marks": 3, "prompt": "Draw a line graph showing both products' production over the six months. Use different symbols for each product." },
+            { "label": "d", "marks": 1, "prompt": "In which month was the difference between the two products' production the greatest? What was this difference?" },
+            { "label": "e", "marks": 2, "prompt": "If the trend continues, predict the production for July for both products. Justify your answers." }
+          ]
+        },
+        {
+          "number": 10,
+          "marks": 7,
+          "type": "structured",
+          "prompt": "The diagram shows a garden consisting of a rectangular lawn $ABCD$ with a semi-circular flower bed at one end. The rectangular lawn has length 20 m and width 12 m. The semi-circular flower bed has a diameter equal to the width of the lawn.",
+          "prompt_zh": "图中显示一个花园，由一个长方形草坪$ABCD$和一端的半圆形花坛组成。长方形草坪的长为20米，宽为12米。半圆形花坛的直径等于草坪的宽度。",
+          "parts": [
+            { "label": "a", "marks": 1, "prompt": "Calculate the area of the rectangular lawn." },
+            { "label": "b", "marks": 2, "prompt": "Calculate the area of the semi-circular flower bed." },
+            { "label": "c", "marks": 1, "prompt": "Find the total area of the garden." },
+            { "label": "d", "marks": 2, "prompt": "Mr. Lim wants to fence the entire perimeter of the garden (the three straight sides of the rectangle plus the curved part of the semi-circle). Calculate the total length of fencing needed." },
+            { "label": "e", "marks": 1, "prompt": "If fencing costs $\\$15.50$ per metre, calculate the total cost of fencing the garden." }
+          ]
+        },
+        {
+          "number": 11,
+          "marks": 7,
+          "type": "structured",
+          "prompt": "A water tank in the shape of a rectangular prism has internal dimensions 80 cm by 60 cm by 50 cm.",
+          "prompt_zh": "一个长方体形状的水箱，内部尺寸为80厘米×60厘米×50厘米。",
+          "parts": [
+            { "label": "a", "marks": 2, "prompt": "Calculate the capacity of the tank in litres." },
+            { "label": "b", "marks": 2, "prompt": "Water flows into the empty tank at a rate of 12 litres per minute. How long will it take to fill the tank completely?" },
+            { "label": "c", "marks": 2, "prompt": "Due to a leak, 500 ml of water escapes every minute while the tank is being filled. At this reduced rate, how long will it take to fill the tank? Give your answer in minutes and seconds." },
+            { "label": "d", "marks": 1, "prompt": "Once full, the tank loses 2% of its water through evaporation each day. How many litres of water remain after 3 days? Give your answer to 1 decimal place." }
+          ]
+        }
+      ]
+    }
+  ],
+  "answerKey": [
+    {
+      "sectionName": "Section A",
+      "answers": [
+        { "questionNum": "1a", "answer": "3.75 × 10⁻⁴" },
+        { "questionNum": "1b", "answer": "3 × 10⁵" },
+        { "questionNum": "1c", "answer": "4" },
+        { "questionNum": "2a", "answer": "5xy(3x - 5y)" },
+        { "questionNum": "2b", "answer": "(x+3)(x-3)" },
+        { "questionNum": "2c", "answer": "(2x-1)(x+3)" },
+        { "questionNum": "3a", "answer": "x = 7" },
+        { "questionNum": "3b", "answer": "x < -5" },
+        { "questionNum": "4a", "answer": "Gradient=3, y-int=-5" },
+        { "questionNum": "4b", "answer": "(5/3, 0)" },
+        { "questionNum": "4c", "answer": "y = 3x + 1" },
+        { "questionNum": "5a", "answer": "60" },
+        { "questionNum": "5b", "answer": "84" },
+        { "questionNum": "5c", "answer": "24" },
+        { "questionNum": "5d", "answer": "a=12, b=24" },
+        { "questionNum": "6a", "answer": "1848 cm³" },
+        { "questionNum": "6b", "answer": "718.67 cm³" },
+        { "questionNum": "6c", "answer": "2566.67 cm³" },
+        { "questionNum": "6d", "answer": "990 cm²" },
+        { "questionNum": "7a", "answer": "6-8 hours" },
+        { "questionNum": "7b", "answer": "6.55 hours" }
+      ]
+    },
+    {
+      "sectionName": "Section B",
+      "answers": [
+        { "questionNum": "8a", "answer": "4.375 hours" },
+        { "questionNum": "8b", "answer": "29.17 litres" },
+        { "questionNum": "8c", "answer": "$117.92" },
+        { "questionNum": "8d", "answer": "$140" },
+        { "questionNum": "8e", "answer": "Driving cheaper by $22.08" },
+        { "questionNum": "8f", "answer": "1.5 hours saved" },
+        { "questionNum": "9a", "answer": "143.33" },
+        { "questionNum": "9b", "answer": "101.67" },
+        { "questionNum": "9d", "answer": "May, 55 units" },
+        { "questionNum": "10a", "answer": "240 m²" },
+        { "questionNum": "10b", "answer": "56.55 m²" },
+        { "questionNum": "10c", "answer": "296.55 m²" },
+        { "questionNum": "10d", "answer": "70.85 m" },
+        { "questionNum": "10e", "answer": "$1098.18" },
+        { "questionNum": "11a", "answer": "240 litres" },
+        { "questionNum": "11b", "answer": "20 minutes" },
+        { "questionNum": "11c", "answer": "20 min 52 sec" },
+        { "questionNum": "11d", "answer": "225.9 litres" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "id": "sec1-math-wa1",
+  "instructions": [
+    "Write your name, class, and index number on all the work you hand in.",
+    "Write in dark blue or black pen. You may use an HB pencil for diagrams.",
+    "Do not use correction fluid.",
+    "Answer ALL questions.",
+    "Show all working clearly. Marks may be deducted for insufficient working.",
+    "If the degree of accuracy is not specified, give your answer to 3 significant figures."
+  ],
+  "instructions_zh": [
+    "在所有答卷上写上你的姓名、班级和学号。",
+    "用深蓝色或黑色笔书写。可以用HB铅笔画图。",
+    "不要使用涂改液。",
+    "回答所有问题。",
+    "清楚地展示所有运算过程。运算过程不足可能会被扣分。",
+    "如未指定精确度，请将答案保留至3位有效数字。"
+  ],
+  "sections": [
+    {
+      "name": "Section A: Multiple Choice Questions",
+      "name_zh": "第一部分：选择题",
+      "marks": 10,
+      "questions": [
+        {
+          "number": 1,
+          "marks": 2,
+          "type": "mcq",
+          "prompt": "Evaluate: $(-5) + (-8) - (-3)$",
+          "prompt_zh": "计算：$(-5) + (-8) - (-3)$",
+          "choices": [
+            { "label": "A", "text": "$-16$" },
+            { "label": "B", "text": "$-10$" },
+            { "label": "C", "text": "$-6$" },
+            { "label": "D", "text": "$0$" }
+          ]
+        },
+        {
+          "number": 2,
+          "marks": 2,
+          "type": "mcq",
+          "prompt": "Which of the following shows the numbers arranged in ascending order?",
+          "prompt_zh": "以下哪个选项按升序排列？",
+          "choices": [
+            { "label": "A", "text": "$-\\frac{3}{4}, -0.8, -\\frac{2}{3}, -0.5$" },
+            { "label": "B", "text": "$-0.8, -\\frac{3}{4}, -\\frac{2}{3}, -0.5$" },
+            { "label": "C", "text": "$-0.5, -\\frac{2}{3}, -\\frac{3}{4}, -0.8$" },
+            { "label": "D", "text": "$-\\frac{2}{3}, -\\frac{3}{4}, -0.5, -0.8$" }
+          ]
+        },
+        {
+          "number": 3,
+          "marks": 2,
+          "type": "mcq",
+          "prompt": "Find the HCF of 36 and 84.",
+          "prompt_zh": "求36和84的最高公因数。",
+          "choices": [
+            { "label": "A", "text": "6" },
+            { "label": "B", "text": "12" },
+            { "label": "C", "text": "18" },
+            { "label": "D", "text": "252" }
+          ]
+        },
+        {
+          "number": 4,
+          "marks": 2,
+          "type": "mcq",
+          "prompt": "Express 0.0004567 in standard form.",
+          "prompt_zh": "将0.0004567写成标准式。",
+          "choices": [
+            { "label": "A", "text": "$4.567 \\times 10^{-3}$" },
+            { "label": "B", "text": "$4.567 \\times 10^{-4}$" },
+            { "label": "C", "text": "$45.67 \\times 10^{-5}$" },
+            { "label": "D", "text": "$4.567 \\times 10^{4}$" }
+          ]
+        },
+        {
+          "number": 5,
+          "marks": 2,
+          "type": "mcq",
+          "prompt": "Simplify: $3a - 2b + 5a + 7b$",
+          "prompt_zh": "化简：$3a - 2b + 5a + 7b$",
+          "choices": [
+            { "label": "A", "text": "$8a + 5b$" },
+            { "label": "B", "text": "$8a - 5b$" },
+            { "label": "C", "text": "$2a + 5b$" },
+            { "label": "D", "text": "$8a + 9b$" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Section B: Short Answer Questions",
+      "name_zh": "第二部分：简答题",
+      "marks": 20,
+      "questions": [
+        {
+          "number": 6,
+          "marks": 3,
+          "type": "structured",
+          "prompt": "Evaluate the following, showing all working:",
+          "prompt_zh": "计算以下各题，展示所有运算过程：",
+          "parts": [
+            { "label": "a", "marks": 1, "prompt": "$(-12) \\times 3 \\div (-4)$" },
+            { "label": "b", "marks": 2, "prompt": "$\\frac{(-6)^2 - 4 \\times (-2)}{-7 + 3}$" }
+          ]
+        },
+        {
+          "number": 7,
+          "marks": 4,
+          "type": "structured",
+          "prompt": "",
+          "parts": [
+            { "label": "a", "marks": 2, "prompt": "Find the prime factorization of 180, expressing your answer in index notation." },
+            { "label": "b", "marks": 2, "prompt": "Hence, find the smallest positive integer $k$ such that $180k$ is a perfect cube." }
+          ]
+        },
+        {
+          "number": 8,
+          "marks": 4,
+          "type": "structured",
+          "prompt": "The table shows the temperatures in Singapore and some other cities.\n\n| City | Temperature (°C) |\n|------|------------------|\n| Singapore | 32 |\n| Tokyo | 8 |\n| Moscow | -15 |\n| New York | -3 |",
+          "prompt_zh": "下表显示新加坡和其他城市的温度。",
+          "parts": [
+            { "label": "a", "marks": 1, "prompt": "Find the difference in temperature between Singapore and Moscow." },
+            { "label": "b", "marks": 2, "prompt": "The temperature in Beijing is 5°C lower than Tokyo but 12°C higher than Moscow. Find the temperature in Beijing." },
+            { "label": "c", "marks": 1, "prompt": "Arrange all five cities in order of temperature, starting from the coldest." }
+          ]
+        },
+        {
+          "number": 9,
+          "marks": 4,
+          "type": "structured",
+          "prompt": "",
+          "parts": [
+            { "label": "a", "marks": 1, "prompt": "Round 45678 to 3 significant figures." },
+            { "label": "b", "marks": 1, "prompt": "Round 0.005049 to 2 significant figures." },
+            { "label": "c", "marks": 2, "prompt": "Estimate the value of $\\frac{5.12 \\times 98.7}{0.0489}$ by rounding each number to 1 significant figure first. Show your working." }
+          ]
+        },
+        {
+          "number": 10,
+          "marks": 5,
+          "type": "structured",
+          "prompt": "The LCM of two numbers is 120 and their HCF is 4. One of the numbers is 24.",
+          "parts": [
+            { "label": "a", "marks": 3, "prompt": "Find the other number." },
+            { "label": "b", "marks": 2, "prompt": "Write down two other possible pairs of numbers with the same HCF and LCM." }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Section C: Structured Questions",
+      "name_zh": "第三部分：结构化问题",
+      "marks": 20,
+      "questions": [
+        {
+          "number": 11,
+          "marks": 6,
+          "type": "structured",
+          "prompt": "Simplify the following algebraic expressions:",
+          "prompt_zh": "化简以下代数式：",
+          "parts": [
+            { "label": "a", "marks": 2, "prompt": "$5x - 3(2x - 4)$" },
+            { "label": "b", "marks": 2, "prompt": "$\\frac{6a^2b}{2ab} \\times \\frac{4a}{3b}$" },
+            { "label": "c", "marks": 2, "prompt": "$\\frac{2x + 1}{3} - \\frac{x - 2}{4}$" }
+          ]
+        },
+        {
+          "number": 12,
+          "marks": 6,
+          "type": "structured",
+          "prompt": "A hawker uncle at a Singapore hawker centre sells chicken rice for $\\$x$ per plate and drinks for $\\$y$ each.",
+          "prompt_zh": "新加坡小贩中心的一位大叔卖鸡饭每盘$\\$x$，饮料每杯$\\$y$。",
+          "parts": [
+            { "label": "a", "marks": 1, "prompt": "Write an algebraic expression for the total cost of 3 plates of chicken rice and 5 drinks." },
+            { "label": "b", "marks": 1, "prompt": "If the hawker sells 50 plates of chicken rice and 80 drinks in a day, write an expression for his daily revenue." },
+            { "label": "c", "marks": 2, "prompt": "On Monday, he sold $p$ plates of chicken rice and $(p + 20)$ drinks. On Tuesday, he sold $(p + 15)$ plates of chicken rice and $(p - 5)$ drinks. Write a simplified expression for the total number of items sold over both days." },
+            { "label": "d", "marks": 2, "prompt": "Given that the total items sold was 200, find the value of $p$." }
+          ]
+        },
+        {
+          "number": 13,
+          "marks": 8,
+          "type": "structured",
+          "prompt": "Three MRT trains A, B and C leave Jurong East station at the same time.\n- Train A returns to Jurong East every 8 minutes.\n- Train B returns every 12 minutes.\n- Train C returns every 18 minutes.",
+          "prompt_zh": "三辆MRT列车A、B和C同时从裕廊东站出发。\n- 列车A每8分钟返回裕廊东。\n- 列车B每12分钟返回一次。\n- 列车C每18分钟返回一次。",
+          "parts": [
+            { "label": "a", "marks": 2, "prompt": "Find the LCM of 8, 12 and 18." },
+            { "label": "b", "marks": 1, "prompt": "After how many minutes will all three trains be at Jurong East station together again?" },
+            { "label": "c", "marks": 1, "prompt": "If the first train leaves at 6:00 a.m., at what time will all three trains next be at the station together?" },
+            { "label": "d", "marks": 2, "prompt": "How many times will all three trains be at the station together between 6:00 a.m. and 12:00 noon (inclusive of 6:00 a.m. but not 12:00 noon)?" },
+            { "label": "e", "marks": 2, "prompt": "Train D also starts from Jurong East at 6:00 a.m. All four trains are at the station together at 9:00 a.m. for the first time. How often does Train D return to Jurong East? Give all possible answers." }
+          ]
+        }
+      ]
+    }
+  ],
+  "answerKey": [
+    {
+      "sectionName": "Section A",
+      "answers": [
+        { "questionNum": "1", "answer": "B (-10)" },
+        { "questionNum": "2", "answer": "B" },
+        { "questionNum": "3", "answer": "B (12)" },
+        { "questionNum": "4", "answer": "B" },
+        { "questionNum": "5", "answer": "A (8a + 5b)" }
+      ]
+    },
+    {
+      "sectionName": "Section B",
+      "answers": [
+        { "questionNum": "6a", "answer": "9" },
+        { "questionNum": "6b", "answer": "-11" },
+        { "questionNum": "7a", "answer": "2² × 3² × 5" },
+        { "questionNum": "7b", "answer": "k = 150" },
+        { "questionNum": "8a", "answer": "47°C" },
+        { "questionNum": "8b", "answer": "3°C" },
+        { "questionNum": "9a", "answer": "45700" },
+        { "questionNum": "9b", "answer": "0.0050" },
+        { "questionNum": "9c", "answer": "10000" },
+        { "questionNum": "10a", "answer": "20" }
+      ]
+    },
+    {
+      "sectionName": "Section C",
+      "answers": [
+        { "questionNum": "11a", "answer": "-x + 12" },
+        { "questionNum": "11b", "answer": "4a²/b²" },
+        { "questionNum": "11c", "answer": "(5x + 10)/12" },
+        { "questionNum": "12a", "answer": "3x + 5y" },
+        { "questionNum": "12c", "answer": "4p + 30" },
+        { "questionNum": "12d", "answer": "p = 42.5" },
+        { "questionNum": "13a", "answer": "72" },
+        { "questionNum": "13c", "answer": "7:12 a.m." },
+        { "questionNum": "13d", "answer": "5 times" }
+      ]
+    }
+  ]
+}

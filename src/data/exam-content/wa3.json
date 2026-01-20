@@ -1,0 +1,254 @@
+{
+  "id": "sec1-math-wa3",
+  "instructions": [
+    "Write your name, class, and index number on all the work you hand in.",
+    "Write in dark blue or black pen. You may use an HB pencil for diagrams and graphs.",
+    "Do not use correction fluid.",
+    "Answer ALL questions.",
+    "Show all working clearly. Marks may be deducted for insufficient working.",
+    "If the degree of accuracy is not specified, give your answer to 3 significant figures.",
+    "Electronic calculators may be used for this paper."
+  ],
+  "instructions_zh": [
+    "在所有答卷上写上你的姓名、班级和学号。",
+    "用深蓝色或黑色笔书写。可以用HB铅笔画图和画图表。",
+    "不要使用涂改液。",
+    "回答所有问题。",
+    "清楚地展示所有运算过程。运算过程不足可能会被扣分。",
+    "如未指定精确度，请将答案保留至3位有效数字。",
+    "本试卷允许使用电子计算器。"
+  ],
+  "sections": [
+    {
+      "name": "Section A: Multiple Choice Questions",
+      "name_zh": "第一部分：选择题",
+      "marks": 10,
+      "questions": [
+        {
+          "number": 1,
+          "marks": 2,
+          "type": "mcq",
+          "prompt": "The general term of a sequence is $T_n = 3n + 5$. Find the 10th term.",
+          "prompt_zh": "一个数列的通项公式为$T_n = 3n + 5$。求第10项。",
+          "choices": [
+            { "label": "A", "text": "35" },
+            { "label": "B", "text": "38" },
+            { "label": "C", "text": "32" },
+            { "label": "D", "text": "30" }
+          ]
+        },
+        {
+          "number": 2,
+          "marks": 2,
+          "type": "mcq",
+          "prompt": "What is the gradient of the line $2y = 6x - 4$?",
+          "prompt_zh": "直线$2y = 6x - 4$的斜率是多少？",
+          "choices": [
+            { "label": "A", "text": "2" },
+            { "label": "B", "text": "3" },
+            { "label": "C", "text": "6" },
+            { "label": "D", "text": "$-4$" }
+          ]
+        },
+        {
+          "number": 3,
+          "marks": 2,
+          "type": "mcq",
+          "prompt": "Solve the inequality $3x - 7 < 5$.",
+          "prompt_zh": "解不等式$3x - 7 < 5$。",
+          "choices": [
+            { "label": "A", "text": "$x < 4$" },
+            { "label": "B", "text": "$x < -\\frac{2}{3}$" },
+            { "label": "C", "text": "$x > 4$" },
+            { "label": "D", "text": "$x < \\frac{2}{3}$" }
+          ]
+        },
+        {
+          "number": 4,
+          "marks": 2,
+          "type": "mcq",
+          "prompt": "In the diagram, $AOB$ is a straight line. Find the value of $x$.",
+          "prompt_zh": "在图中，$AOB$是一条直线。求$x$的值。",
+          "diagram": "        C\n       /\n      / 3x°\n     /\nA---O--------B\n     \\\n      \\ (x + 20)°\n       \\\n        D",
+          "choices": [
+            { "label": "A", "text": "30°" },
+            { "label": "B", "text": "35°" },
+            { "label": "C", "text": "40°" },
+            { "label": "D", "text": "45°" }
+          ]
+        },
+        {
+          "number": 5,
+          "marks": 2,
+          "type": "mcq",
+          "prompt": "Which of the following points lies on the line $y = 2x - 3$?",
+          "prompt_zh": "以下哪个点在直线$y = 2x - 3$上？",
+          "choices": [
+            { "label": "A", "text": "$(1, 1)$" },
+            { "label": "B", "text": "$(2, 1)$" },
+            { "label": "C", "text": "$(0, -3)$" },
+            { "label": "D", "text": "$(3, 0)$" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Section B: Short Answer Questions",
+      "name_zh": "第二部分：简答题",
+      "marks": 20,
+      "questions": [
+        {
+          "number": 6,
+          "marks": 4,
+          "type": "structured",
+          "prompt": "Consider the sequence: $5, 9, 13, 17, ...$",
+          "prompt_zh": "考虑数列：$5, 9, 13, 17, ...$",
+          "parts": [
+            { "label": "a", "marks": 1, "prompt": "Write down the next two terms." },
+            { "label": "b", "marks": 2, "prompt": "Find the general term $T_n$ in terms of $n$." },
+            { "label": "c", "marks": 1, "prompt": "Is 101 a term in this sequence? Justify your answer." }
+          ]
+        },
+        {
+          "number": 7,
+          "marks": 4,
+          "type": "structured",
+          "prompt": "Solve the following inequalities and represent each solution on a number line:",
+          "prompt_zh": "解以下不等式并在数轴上表示每个解：",
+          "parts": [
+            { "label": "a", "marks": 2, "prompt": "$2x + 5 \\leq 11$" },
+            { "label": "b", "marks": 2, "prompt": "$-3 < 2x + 1 \\leq 9$" }
+          ]
+        },
+        {
+          "number": 8,
+          "marks": 4,
+          "type": "structured",
+          "prompt": "The line $l$ passes through the points $A(1, 3)$ and $B(4, 9)$.",
+          "prompt_zh": "直线$l$通过点$A(1, 3)$和$B(4, 9)$。",
+          "parts": [
+            { "label": "a", "marks": 1, "prompt": "Find the gradient of line $l$." },
+            { "label": "b", "marks": 2, "prompt": "Find the equation of line $l$ in the form $y = mx + c$." },
+            { "label": "c", "marks": 1, "prompt": "Find the coordinates of the point where line $l$ crosses the x-axis." }
+          ]
+        },
+        {
+          "number": 9,
+          "marks": 4,
+          "type": "structured",
+          "prompt": "In the diagram, $AB$ and $CD$ are parallel lines. $EF$ is a transversal. The angle at the intersection on line $AB$ is 72°.",
+          "prompt_zh": "在图中，$AB$和$CD$是平行线。$EF$是一条横截线。在直线$AB$上的交点处的角是72°。",
+          "parts": [
+            { "label": "a", "marks": 1, "prompt": "Name the angle relationship between the 72° angle and angle $x$." },
+            { "label": "b", "marks": 1, "prompt": "Find the value of $x$." },
+            { "label": "c", "marks": 1, "prompt": "If another angle at the intersection on line $AB$ is $y°$, and $y$ and 72° are supplementary, find $y$." },
+            { "label": "d", "marks": 1, "prompt": "Find the sum of all angles at the intersection point on line $AB$." }
+          ]
+        },
+        {
+          "number": 10,
+          "marks": 4,
+          "type": "structured",
+          "prompt": "In the diagram, $ABC$ is a triangle where $\\angle BAC = x°$, $\\angle ABC = 65°$, and $\\angle ACD = 120°$ (exterior angle).",
+          "prompt_zh": "在图中，$ABC$是一个三角形，其中$\\angle BAC = x°$，$\\angle ABC = 65°$，$\\angle ACD = 120°$（外角）。",
+          "parts": [
+            { "label": "a", "marks": 1, "prompt": "Find the value of $y$ (angle $\\angle BCA$)." },
+            { "label": "b", "marks": 2, "prompt": "Find the value of $x$." },
+            { "label": "c", "marks": 1, "prompt": "What type of triangle is $ABC$?" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Section C: Structured Questions",
+      "name_zh": "第三部分：结构化问题",
+      "marks": 20,
+      "questions": [
+        {
+          "number": 11,
+          "marks": 6,
+          "type": "structured",
+          "prompt": "A taxi company charges according to the following fare structure:\n- Flag-down fare: $\\$3.90$\n- Every 400 m thereafter: $\\$0.25$\n\nLet $d$ be the distance travelled in km (where $d > 0$).",
+          "prompt_zh": "一家出租车公司按以下收费标准收费：\n- 起步价：$\\$3.90$\n- 此后每400米：$\\$0.25$\n\n设$d$为行驶距离（公里），其中$d > 0$。",
+          "parts": [
+            { "label": "a", "marks": 2, "prompt": "Write a formula for the fare $F$ in dollars, in terms of $d$." },
+            { "label": "b", "marks": 1, "prompt": "Calculate the fare for a journey of 8 km." },
+            { "label": "c", "marks": 2, "prompt": "Mr. Lee paid $\\$15.40$ for his taxi ride. How far did he travel?" },
+            { "label": "d", "marks": 1, "prompt": "A rival company charges $\\$5.00$ flag-down and $\\$0.20$ per 400 m. For what distance would both companies charge the same fare?" }
+          ]
+        },
+        {
+          "number": 12,
+          "marks": 7,
+          "type": "structured",
+          "prompt": "The diagram shows a pattern of squares made from matchsticks.",
+          "prompt_zh": "图中显示了用火柴棒制成的正方形图案。",
+          "diagram": "Pattern 1:    Pattern 2:       Pattern 3:\n ___           ___ ___          ___ ___ ___\n|   |         |   |   |        |   |   |   |\n|___|         |___|___|        |___|___|___|",
+          "parts": [
+            { "label": "a", "marks": 2, "prompt": "Complete the table: Pattern 1=4, Pattern 2=7, Pattern 3=?, Pattern 4=?, Pattern 5=?" },
+            { "label": "b", "marks": 2, "prompt": "Find the general term $T_n$ for the number of matchsticks in Pattern $n$." },
+            { "label": "c", "marks": 1, "prompt": "Which pattern number uses exactly 100 matchsticks?" },
+            { "label": "d", "marks": 2, "prompt": "Is it possible to form a pattern using exactly 50 matchsticks? Justify your answer." }
+          ]
+        },
+        {
+          "number": 13,
+          "marks": 7,
+          "type": "structured",
+          "prompt": "The diagram shows a quadrilateral $ABCD$ where $AB \\parallel DC$.\n\nGiven that:\n- $\\angle DAB = 110°$\n- $\\angle ABC = (2x + 10)°$\n- $\\angle BCD = (x + 30)°$\n- $\\angle CDA = y°$",
+          "prompt_zh": "图中显示一个四边形$ABCD$，其中$AB \\parallel DC$。\n\n已知：\n- $\\angle DAB = 110°$\n- $\\angle ABC = (2x + 10)°$\n- $\\angle BCD = (x + 30)°$\n- $\\angle CDA = y°$",
+          "parts": [
+            { "label": "a", "marks": 1, "prompt": "State the name of this type of quadrilateral." },
+            { "label": "b", "marks": 1, "prompt": "Using the property that co-interior angles sum to 180°, form an equation in $x$." },
+            { "label": "c", "marks": 2, "prompt": "Since $AB \\parallel DC$, find the value of $x$ using the relationship between $\\angle DAB$ and $\\angle ABC$." },
+            { "label": "d", "marks": 1, "prompt": "Hence, find the value of $y$." },
+            { "label": "e", "marks": 2, "prompt": "Verify your answer by checking that all interior angles sum to 360°." }
+          ]
+        }
+      ]
+    }
+  ],
+  "answerKey": [
+    {
+      "sectionName": "Section A",
+      "answers": [
+        { "questionNum": "1", "answer": "A (35)" },
+        { "questionNum": "2", "answer": "B (3)" },
+        { "questionNum": "3", "answer": "A (x < 4)" },
+        { "questionNum": "4", "answer": "C (40°)" },
+        { "questionNum": "5", "answer": "C (0, -3)" }
+      ]
+    },
+    {
+      "sectionName": "Section B",
+      "answers": [
+        { "questionNum": "6a", "answer": "21, 25" },
+        { "questionNum": "6b", "answer": "Tₙ = 4n + 1" },
+        { "questionNum": "6c", "answer": "Yes, n=25" },
+        { "questionNum": "7a", "answer": "x ≤ 3" },
+        { "questionNum": "7b", "answer": "-2 < x ≤ 4" },
+        { "questionNum": "8a", "answer": "2" },
+        { "questionNum": "8b", "answer": "y = 2x + 1" },
+        { "questionNum": "8c", "answer": "(-1/2, 0)" },
+        { "questionNum": "9a", "answer": "Alternate angles" },
+        { "questionNum": "9b", "answer": "72°" },
+        { "questionNum": "10a", "answer": "60°" },
+        { "questionNum": "10b", "answer": "55°" }
+      ]
+    },
+    {
+      "sectionName": "Section C",
+      "answers": [
+        { "questionNum": "11a", "answer": "F = 3.90 + 0.625d" },
+        { "questionNum": "11b", "answer": "$8.90" },
+        { "questionNum": "11c", "answer": "18.4 km" },
+        { "questionNum": "12a", "answer": "10, 13, 16" },
+        { "questionNum": "12b", "answer": "Tₙ = 3n + 1" },
+        { "questionNum": "12c", "answer": "Pattern 33" },
+        { "questionNum": "13a", "answer": "Trapezium" },
+        { "questionNum": "13c", "answer": "x = 30" },
+        { "questionNum": "13d", "answer": "y = 120°" }
+      ]
+    }
+  ]
+}

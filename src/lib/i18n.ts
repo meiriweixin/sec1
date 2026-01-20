@@ -31,6 +31,26 @@ export const translations = {
     completed: "Completed",
     inProgress: "In Progress",
     notStarted: "Not Started",
+
+    // Exams
+    exams: "Exams",
+    examPapers: "Exam Papers",
+    examPapersDesc: "Practice with past exam papers and assessments",
+    viewExam: "View Exam",
+    printExam: "Print",
+    showAnswers: "Show Answers",
+    hideAnswers: "Hide Answers",
+    duration: "Duration",
+    totalMarks: "Total Marks",
+    calculatorAllowed: "Calculator Allowed",
+    calculatorNotAllowed: "No Calculator",
+    assessmentCalendar: "Assessment Calendar",
+    allExams: "All Exams",
+    weightedAssessment: "Weighted Assessment",
+    endOfYear: "End of Year",
+    paper: "Paper",
+    section: "Section",
+    marks: "marks",
     
     // Lessons
     lesson: "Lesson",
@@ -55,7 +75,6 @@ export const translations = {
     complete: "Complete",
     switchToLesson: "Switch to Lesson?",
     switchToLessonWarning: "You are currently doing exercises. Switching to the lesson may cause you to lose your current progress. Are you sure you want to continue?",
-    cancel: "Cancel",
     yesSwitchTab: "Yes, Switch",
     
     // Progress
@@ -150,6 +169,26 @@ export const translations = {
     completed: "已完成",
     inProgress: "进行中",
     notStarted: "未开始",
+
+    // Exams
+    exams: "考试",
+    examPapers: "考卷",
+    examPapersDesc: "使用历年考卷和测试进行练习",
+    viewExam: "查看考卷",
+    printExam: "打印",
+    showAnswers: "显示答案",
+    hideAnswers: "隐藏答案",
+    duration: "时长",
+    totalMarks: "总分",
+    calculatorAllowed: "允许使用计算器",
+    calculatorNotAllowed: "不允许使用计算器",
+    assessmentCalendar: "考试日历",
+    allExams: "所有考试",
+    weightedAssessment: "加权测试",
+    endOfYear: "年终考试",
+    paper: "试卷",
+    section: "部分",
+    marks: "分",
     
     // Lessons
     lesson: "课程",
