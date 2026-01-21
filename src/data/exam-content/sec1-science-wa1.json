@@ -1,0 +1,456 @@
+{
+    "id": "sec1-science-wa1",
+    "instructions": [
+        "Write your name, class, and index number on all the work you hand in.",
+        "Write in dark blue or black pen. You may use an HB pencil for diagrams.",
+        "Do not use correction fluid.",
+        "Answer ALL questions.",
+        "Show all working clearly where applicable."
+    ],
+    "instructions_zh": [
+        "在所有答卷上写上你的姓名、班级和学号。",
+        "用深蓝色或黑色笔书写。可以用HB铅笔画图。",
+        "不要使用涂改液。",
+        "回答所有问题。",
+        "在适用的情况下清楚地展示所有运算过程。"
+    ],
+    "sections": [
+        {
+            "name": "Section A: Multiple Choice Questions",
+            "name_zh": "第一部分：选择题",
+            "marks": 10,
+            "questions": [
+                {
+                    "number": 1,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "What is the first step of the scientific method?",
+                    "prompt_zh": "科学方法的第一步是什么？",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Conducting an experiment"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Making observations and asking questions"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Drawing conclusions"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Analyzing data"
+                        }
+                    ]
+                },
+                {
+                    "number": 2,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "Which of the following is the SI unit for mass?",
+                    "prompt_zh": "以下哪个是质量的国际单位？",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Newton (N)"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Gram (g)"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Kilogram (kg)"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Pound (lb)"
+                        }
+                    ]
+                },
+                {
+                    "number": 3,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "A student uses a ruler to measure a pencil and gets readings of 15.2 cm, 15.1 cm, 15.2 cm, and 15.2 cm. These measurements are:",
+                    "prompt_zh": "一位学生用尺子测量铅笔，得到15.2厘米、15.1厘米、15.2厘米和15.2厘米的读数。这些测量结果是：",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Accurate but not precise"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Precise but may not be accurate"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Neither accurate nor precise"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Both accurate and precise"
+                        }
+                    ]
+                },
+                {
+                    "number": 4,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "Which property is a physical property of matter?",
+                    "prompt_zh": "以下哪个是物质的物理性质？",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Flammability"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Reactivity with acids"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Melting point"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Rusting ability"
+                        }
+                    ]
+                },
+                {
+                    "number": 5,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "A block has a mass of 200 g and a volume of $50 \\text{ cm}^3$. What is its density?",
+                    "prompt_zh": "一个物块的质量为200克，体积为$50 \\text{ cm}^3$。它的密度是多少？",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "$0.25 \\text{ g/cm}^3$"
+                        },
+                        {
+                            "label": "B",
+                            "text": "$4 \\text{ g/cm}^3$"
+                        },
+                        {
+                            "label": "C",
+                            "text": "$10000 \\text{ g/cm}^3$"
+                        },
+                        {
+                            "label": "D",
+                            "text": "$250 \\text{ g/cm}^3$"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Section B: Short Answer Questions",
+            "name_zh": "第二部分：简答题",
+            "marks": 20,
+            "questions": [
+                {
+                    "number": 6,
+                    "marks": 4,
+                    "type": "structured",
+                    "prompt": "A student wants to investigate how the length of a pendulum affects its swing time.",
+                    "prompt_zh": "一位学生想研究摆的长度如何影响其摆动时间。",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 1,
+                            "prompt": "State the independent variable in this experiment."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 1,
+                            "prompt": "State the dependent variable in this experiment."
+                        },
+                        {
+                            "label": "c",
+                            "marks": 2,
+                            "prompt": "Name TWO variables that should be kept constant."
+                        }
+                    ]
+                },
+                {
+                    "number": 7,
+                    "marks": 4,
+                    "type": "structured",
+                    "prompt": "Study the diagram of a measuring cylinder below containing water.",
+                    "prompt_zh": "观察下面盛有水的量筒图。",
+                    "diagram": "     |\n  52-|----\n     |  ~~\n  50-|~~~~  <- water level\n     |~~~~\n  48-|----\n     |",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 1,
+                            "prompt": "What is the volume of water shown in the measuring cylinder?"
+                        },
+                        {
+                            "label": "b",
+                            "marks": 1,
+                            "prompt": "What is the precision of this measuring cylinder?"
+                        },
+                        {
+                            "label": "c",
+                            "marks": 2,
+                            "prompt": "Explain how to read the measuring cylinder correctly to avoid parallax error."
+                        }
+                    ]
+                },
+                {
+                    "number": 8,
+                    "marks": 4,
+                    "type": "structured",
+                    "prompt": "Complete the table by converting the following units:",
+                    "prompt_zh": "完成下表，转换以下单位：",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 1,
+                            "prompt": "2.5 km = _______ m"
+                        },
+                        {
+                            "label": "b",
+                            "marks": 1,
+                            "prompt": "350 g = _______ kg"
+                        },
+                        {
+                            "label": "c",
+                            "marks": 1,
+                            "prompt": "1500 ml = _______ L"
+                        },
+                        {
+                            "label": "d",
+                            "marks": 1,
+                            "prompt": "0.05 m = _______ mm"
+                        }
+                    ]
+                },
+                {
+                    "number": 9,
+                    "marks": 4,
+                    "type": "structured",
+                    "prompt": "A copper wire and a plastic straw are both placed in a beaker of hot water.",
+                    "prompt_zh": "将一根铜线和一根塑料吸管都放入装有热水的烧杯中。",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "Which material is a better thermal conductor? Explain your answer."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 2,
+                            "prompt": "Give ONE use of copper that relies on its thermal conductivity. Explain why copper is suitable."
+                        }
+                    ]
+                },
+                {
+                    "number": 10,
+                    "marks": 4,
+                    "type": "structured",
+                    "prompt": "A student measures the mass and volume of three different metals.",
+                    "prompt_zh": "一位学生测量了三种不同金属的质量和体积。",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "Metal X has mass 54 g and volume 20 cm³. Calculate its density."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 2,
+                            "prompt": "Metal Y has density 8.9 g/cm³ and mass 178 g. Calculate its volume."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Section C: Structured Questions",
+            "name_zh": "第三部分：结构化问题",
+            "marks": 20,
+            "questions": [
+                {
+                    "number": 11,
+                    "marks": 7,
+                    "type": "structured",
+                    "prompt": "Maria wants to investigate whether salt dissolves faster in hot water or cold water.",
+                    "prompt_zh": "玛丽亚想研究盐在热水还是冷水中溶解得更快。",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 1,
+                            "prompt": "Write a suitable hypothesis for this investigation."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 2,
+                            "prompt": "Describe how Maria should set up a fair test for this experiment."
+                        },
+                        {
+                            "label": "c",
+                            "marks": 2,
+                            "prompt": "Suggest TWO possible sources of error in this experiment."
+                        },
+                        {
+                            "label": "d",
+                            "marks": 2,
+                            "prompt": "State a suitable conclusion Maria might draw if salt dissolves faster in hot water."
+                        }
+                    ]
+                },
+                {
+                    "number": 12,
+                    "marks": 6,
+                    "type": "structured",
+                    "prompt": "The table shows the densities of some common substances.\n\n| Substance | Density (g/cm³) |\n|-----------|----------------|\n| Water | 1.0 |\n| Cooking oil | 0.9 |\n| Honey | 1.4 |\n| Ice | 0.92 |",
+                    "prompt_zh": "下表显示了一些常见物质的密度。",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "A student pours water, cooking oil, and honey into a beaker. Draw a diagram showing how these liquids will arrange themselves."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 2,
+                            "prompt": "Explain why ice floats on water."
+                        },
+                        {
+                            "label": "c",
+                            "marks": 2,
+                            "prompt": "A student drops an object with density 1.2 g/cm³ into the beaker containing all three liquids. Describe where the object will settle and explain why."
+                        }
+                    ]
+                },
+                {
+                    "number": 13,
+                    "marks": 7,
+                    "type": "structured",
+                    "prompt": "In a science laboratory, safety is very important.",
+                    "prompt_zh": "在科学实验室中，安全非常重要。",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "State TWO safety rules that should be followed when handling chemicals."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 2,
+                            "prompt": "A student accidentally spills acid on her hand. Describe the correct procedure she should follow."
+                        },
+                        {
+                            "label": "c",
+                            "marks": 1,
+                            "prompt": "Why should long hair be tied back during experiments?"
+                        },
+                        {
+                            "label": "d",
+                            "marks": 2,
+                            "prompt": "Explain why food and drinks are not allowed in the laboratory."
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "answerKey": [
+        {
+            "sectionName": "Section A",
+            "answers": [
+                {
+                    "questionNum": "1",
+                    "answer": "B"
+                },
+                {
+                    "questionNum": "2",
+                    "answer": "C"
+                },
+                {
+                    "questionNum": "3",
+                    "answer": "B"
+                },
+                {
+                    "questionNum": "4",
+                    "answer": "C"
+                },
+                {
+                    "questionNum": "5",
+                    "answer": "B (4 g/cm³)"
+                }
+            ]
+        },
+        {
+            "sectionName": "Section B",
+            "answers": [
+                {
+                    "questionNum": "6a",
+                    "answer": "Length of pendulum"
+                },
+                {
+                    "questionNum": "6b",
+                    "answer": "Swing time / period"
+                },
+                {
+                    "questionNum": "6c",
+                    "answer": "Mass of bob, angle of release"
+                },
+                {
+                    "questionNum": "7a",
+                    "answer": "50 ml"
+                },
+                {
+                    "questionNum": "7b",
+                    "answer": "1 ml"
+                },
+                {
+                    "questionNum": "8a",
+                    "answer": "2500 m"
+                },
+                {
+                    "questionNum": "8b",
+                    "answer": "0.35 kg"
+                },
+                {
+                    "questionNum": "8c",
+                    "answer": "1.5 L"
+                },
+                {
+                    "questionNum": "8d",
+                    "answer": "50 mm"
+                },
+                {
+                    "questionNum": "10a",
+                    "answer": "2.7 g/cm³"
+                },
+                {
+                    "questionNum": "10b",
+                    "answer": "20 cm³"
+                }
+            ]
+        },
+        {
+            "sectionName": "Section C",
+            "answers": [
+                {
+                    "questionNum": "11a",
+                    "answer": "Salt dissolves faster in hot water than cold water"
+                },
+                {
+                    "questionNum": "12b",
+                    "answer": "Ice is less dense than water (0.92 < 1.0)"
+                },
+                {
+                    "questionNum": "12c",
+                    "answer": "Between oil and honey layers"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,423 @@
+{
+    "id": "sec1-science-wa3",
+    "instructions": [
+        "Write your name, class, and index number on all the work you hand in.",
+        "Write in dark blue or black pen. You may use an HB pencil for diagrams.",
+        "Do not use correction fluid.",
+        "Answer ALL questions.",
+        "Show all working clearly where applicable."
+    ],
+    "instructions_zh": [
+        "在所有答卷上写上你的姓名、班级和学号。",
+        "用深蓝色或黑色笔书写。可以用HB铅笔画图。",
+        "不要使用涂改液。",
+        "回答所有问题。",
+        "在适用的情况下清楚地展示所有运算过程。"
+    ],
+    "sections": [
+        {
+            "name": "Section A: Multiple Choice Questions",
+            "name_zh": "第一部分：选择题",
+            "marks": 10,
+            "questions": [
+                {
+                    "number": 1,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "Which of the following is NOT a form of energy?",
+                    "prompt_zh": "以下哪个不是能量的形式？",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Kinetic energy"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Sound energy"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Mass energy"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Chemical energy"
+                        }
+                    ]
+                },
+                {
+                    "number": 2,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "A ball is dropped from a height. As it falls, its gravitational potential energy:",
+                    "prompt_zh": "一个球从高处落下。当它下落时，它的重力势能：",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Increases"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Decreases"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Stays the same"
+                        },
+                        {
+                            "label": "D",
+                            "text": "First increases then decreases"
+                        }
+                    ]
+                },
+                {
+                    "number": 3,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "Heat can travel through a vacuum by:",
+                    "prompt_zh": "热量可以通过真空以什么方式传播？",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Conduction"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Convection"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Radiation"
+                        },
+                        {
+                            "label": "D",
+                            "text": "All of the above"
+                        }
+                    ]
+                },
+                {
+                    "number": 4,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "A force of 20 N acts on an object for 5 seconds. The impulse is:",
+                    "prompt_zh": "20牛顿的力作用于一个物体5秒。冲量是：",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "4 N·s"
+                        },
+                        {
+                            "label": "B",
+                            "text": "25 N·s"
+                        },
+                        {
+                            "label": "C",
+                            "text": "100 N·s"
+                        },
+                        {
+                            "label": "D",
+                            "text": "15 N·s"
+                        }
+                    ]
+                },
+                {
+                    "number": 5,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "Which material is the best conductor of heat?",
+                    "prompt_zh": "哪种材料是最好的热导体？",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Plastic"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Wood"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Copper"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Glass"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Section B: Short Answer Questions",
+            "name_zh": "第二部分：简答题",
+            "marks": 20,
+            "questions": [
+                {
+                    "number": 6,
+                    "marks": 4,
+                    "type": "structured",
+                    "prompt": "Study the energy conversion diagram below:",
+                    "prompt_zh": "研究下面的能量转换图：",
+                    "diagram": "Chemical Energy → Electrical Energy → Light Energy + Heat Energy\n    (Battery)          (Wire)           (Light bulb)",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "Name the type of energy stored in the battery."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 2,
+                            "prompt": "State the Law of Conservation of Energy."
+                        }
+                    ]
+                },
+                {
+                    "number": 7,
+                    "marks": 4,
+                    "type": "structured",
+                    "prompt": "A student pushes a box across the floor with a force of 50 N. The box moves 4 m.",
+                    "prompt_zh": "一位学生用50牛顿的力推动一个箱子穿过地板。箱子移动了4米。",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "Calculate the work done on the box."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 2,
+                            "prompt": "If the student takes 8 seconds to push the box, calculate the power used."
+                        }
+                    ]
+                },
+                {
+                    "number": 8,
+                    "marks": 4,
+                    "type": "structured",
+                    "prompt": "Describe how heat is transferred in the following situations:",
+                    "prompt_zh": "描述以下情况中热量是如何传递的：",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "A metal spoon becomes hot when left in a cup of hot water."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 2,
+                            "prompt": "Water in a kettle is heated from below."
+                        }
+                    ]
+                },
+                {
+                    "number": 9,
+                    "marks": 4,
+                    "type": "structured",
+                    "prompt": "A book of mass 2 kg rests on a table.",
+                    "prompt_zh": "一本质量为2千克的书放在桌子上。",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "Calculate the weight of the book. (Take g = 10 m/s²)"
+                        },
+                        {
+                            "label": "b",
+                            "marks": 2,
+                            "prompt": "Explain why the book does not move even though gravity is pulling it down."
+                        }
+                    ]
+                },
+                {
+                    "number": 10,
+                    "marks": 4,
+                    "type": "structured",
+                    "prompt": "Singapore uses solar panels to generate electricity.",
+                    "prompt_zh": "新加坡使用太阳能电池板发电。",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "State the energy conversion that occurs in a solar panel."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 2,
+                            "prompt": "Give ONE advantage and ONE disadvantage of using solar energy in Singapore."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Section C: Structured Questions",
+            "name_zh": "第三部分：结构化问题",
+            "marks": 20,
+            "questions": [
+                {
+                    "number": 11,
+                    "marks": 7,
+                    "type": "structured",
+                    "prompt": "A roller coaster car starts from rest at the top of a hill that is 30 m high.",
+                    "prompt_zh": "一辆过山车从30米高的山顶静止出发。",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "What type of energy does the car have at the top of the hill?"
+                        },
+                        {
+                            "label": "b",
+                            "marks": 2,
+                            "prompt": "As the car goes down, describe how its gravitational potential energy and kinetic energy change."
+                        },
+                        {
+                            "label": "c",
+                            "marks": 3,
+                            "prompt": "The car reaches a second hill that is 25 m high. Will it be able to go over this hill? Explain your answer."
+                        }
+                    ]
+                },
+                {
+                    "number": 12,
+                    "marks": 7,
+                    "type": "structured",
+                    "prompt": "A vacuum flask (thermos) is designed to keep drinks hot or cold.",
+                    "prompt_zh": "保温瓶（热水瓶）旨在保持饮料热或冷。",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "Explain how the vacuum between the walls reduces heat loss."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 2,
+                            "prompt": "The inner walls are silvered (shiny). Explain how this reduces heat loss by radiation."
+                        },
+                        {
+                            "label": "c",
+                            "marks": 1,
+                            "prompt": "The stopper is made of plastic. Explain why plastic is used."
+                        },
+                        {
+                            "label": "d",
+                            "marks": 2,
+                            "prompt": "Suggest why the same flask can keep drinks cold as well as hot."
+                        }
+                    ]
+                },
+                {
+                    "number": 13,
+                    "marks": 6,
+                    "type": "structured",
+                    "prompt": "Forces act on objects in everyday life.",
+                    "prompt_zh": "力在日常生活中作用于物体。",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "A car is moving at constant speed on a straight road. Draw a diagram showing the forces acting on the car and explain why the car moves at constant speed."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 2,
+                            "prompt": "The driver applies the brakes. Explain what happens to the car's motion."
+                        },
+                        {
+                            "label": "c",
+                            "marks": 2,
+                            "prompt": "Friction is sometimes useful and sometimes not. Give ONE example of each."
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "answerKey": [
+        {
+            "sectionName": "Section A",
+            "answers": [
+                {
+                    "questionNum": "1",
+                    "answer": "C (Mass is not energy)"
+                },
+                {
+                    "questionNum": "2",
+                    "answer": "B (Decreases)"
+                },
+                {
+                    "questionNum": "3",
+                    "answer": "C (Radiation)"
+                },
+                {
+                    "questionNum": "4",
+                    "answer": "C (100 N·s)"
+                },
+                {
+                    "questionNum": "5",
+                    "answer": "C (Copper)"
+                }
+            ]
+        },
+        {
+            "sectionName": "Section B",
+            "answers": [
+                {
+                    "questionNum": "6a",
+                    "answer": "Chemical energy"
+                },
+                {
+                    "questionNum": "6b",
+                    "answer": "Energy cannot be created or destroyed, only converted from one form to another"
+                },
+                {
+                    "questionNum": "7a",
+                    "answer": "Work = Force × Distance = 50 × 4 = 200 J"
+                },
+                {
+                    "questionNum": "7b",
+                    "answer": "Power = Work ÷ Time = 200 ÷ 8 = 25 W"
+                },
+                {
+                    "questionNum": "8a",
+                    "answer": "Conduction"
+                },
+                {
+                    "questionNum": "8b",
+                    "answer": "Convection"
+                },
+                {
+                    "questionNum": "9a",
+                    "answer": "Weight = mg = 2 × 10 = 20 N"
+                },
+                {
+                    "questionNum": "10a",
+                    "answer": "Light/Solar energy → Electrical energy"
+                }
+            ]
+        },
+        {
+            "sectionName": "Section C",
+            "answers": [
+                {
+                    "questionNum": "11a",
+                    "answer": "Gravitational potential energy"
+                },
+                {
+                    "questionNum": "11c",
+                    "answer": "Yes, as 30 m > 25 m, enough energy to overcome"
+                },
+                {
+                    "questionNum": "12a",
+                    "answer": "Vacuum prevents conduction and convection"
+                },
+                {
+                    "questionNum": "12b",
+                    "answer": "Silvered surface reflects radiation back"
+                }
+            ]
+        }
+    ]
+}

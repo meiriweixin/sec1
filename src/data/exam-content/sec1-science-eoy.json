@@ -1,0 +1,647 @@
+{
+    "id": "sec1-science-eoy",
+    "instructions": [
+        "Write your name, class, and index number on all the work you hand in.",
+        "Write in dark blue or black pen. You may use an HB pencil for diagrams.",
+        "Do not use correction fluid.",
+        "Answer ALL questions.",
+        "Show all working clearly where applicable.",
+        "If the degree of accuracy is not specified, give your answer to 3 significant figures."
+    ],
+    "instructions_zh": [
+        "在所有答卷上写上你的姓名、班级和学号。",
+        "用深蓝色或黑色笔书写。可以用HB铅笔画图。",
+        "不要使用涂改液。",
+        "回答所有问题。",
+        "在适用的情况下清楚地展示所有运算过程。",
+        "如未指定精确度，请将答案保留至3位有效数字。"
+    ],
+    "sections": [
+        {
+            "name": "Section A: Multiple Choice Questions",
+            "name_zh": "第一部分：选择题",
+            "marks": 20,
+            "questions": [
+                {
+                    "number": 1,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "Which of the following is NOT a step in the scientific method?",
+                    "prompt_zh": "以下哪个不是科学方法的步骤？",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Making observations"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Forming a hypothesis"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Guessing the answer"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Conducting experiments"
+                        }
+                    ]
+                },
+                {
+                    "number": 2,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "Convert 2500 g to kilograms:",
+                    "prompt_zh": "将2500克转换为千克：",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "25 kg"
+                        },
+                        {
+                            "label": "B",
+                            "text": "2.5 kg"
+                        },
+                        {
+                            "label": "C",
+                            "text": "0.25 kg"
+                        },
+                        {
+                            "label": "D",
+                            "text": "250 kg"
+                        }
+                    ]
+                },
+                {
+                    "number": 3,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "Which organelle contains genetic material?",
+                    "prompt_zh": "哪个细胞器含有遗传物质？",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Mitochondria"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Nucleus"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Chloroplast"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Vacuole"
+                        }
+                    ]
+                },
+                {
+                    "number": 4,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "An object floats in water. Its density must be:",
+                    "prompt_zh": "一个物体浮在水上。它的密度必须：",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Greater than 1 g/cm³"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Less than 1 g/cm³"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Equal to 1 g/cm³"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Greater than 10 g/cm³"
+                        }
+                    ]
+                },
+                {
+                    "number": 5,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "Which is NOT a characteristic of all living things?",
+                    "prompt_zh": "以下哪个不是所有生物的特征？",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Movement"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Respiration"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Photosynthesis"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Growth"
+                        }
+                    ]
+                },
+                {
+                    "number": 6,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "Heat travels from the Sun to Earth by:",
+                    "prompt_zh": "热量从太阳传到地球是通过：",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Conduction"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Convection"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Radiation"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Evaporation"
+                        }
+                    ]
+                },
+                {
+                    "number": 7,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "The formula for calculating density is:",
+                    "prompt_zh": "计算密度的公式是：",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Density = Mass + Volume"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Density = Mass × Volume"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Density = Mass ÷ Volume"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Density = Volume ÷ Mass"
+                        }
+                    ]
+                },
+                {
+                    "number": 8,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "Which kingdom includes organisms that are multicellular, cannot make their own food, and absorb nutrients?",
+                    "prompt_zh": "哪个界包括多细胞、不能自己制造食物并吸收养分的生物？",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Animalia"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Plantae"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Fungi"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Protista"
+                        }
+                    ]
+                },
+                {
+                    "number": 9,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "The work done when a 10 N force moves an object 5 m is:",
+                    "prompt_zh": "当10牛顿的力使物体移动5米时所做的功是：",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "2 J"
+                        },
+                        {
+                            "label": "B",
+                            "text": "15 J"
+                        },
+                        {
+                            "label": "C",
+                            "text": "50 J"
+                        },
+                        {
+                            "label": "D",
+                            "text": "0.5 J"
+                        }
+                    ]
+                },
+                {
+                    "number": 10,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "In a plant cell, which process occurs in the chloroplast?",
+                    "prompt_zh": "在植物细胞中，哪个过程发生在叶绿体中？",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Respiration"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Photosynthesis"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Cell division"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Excretion"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Section B: Short Answer Questions",
+            "name_zh": "第二部分：简答题",
+            "marks": 30,
+            "questions": [
+                {
+                    "number": 11,
+                    "marks": 5,
+                    "type": "structured",
+                    "prompt": "A student measures the density of a metal block.",
+                    "prompt_zh": "一位学生测量金属块的密度。",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 1,
+                            "prompt": "The block has a mass of 270 g and a volume of 100 cm³. Calculate its density."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 2,
+                            "prompt": "The student uses a measuring cylinder to find the volume by water displacement. Describe this method."
+                        },
+                        {
+                            "label": "c",
+                            "marks": 2,
+                            "prompt": "If the metal block is placed in water, will it float or sink? Explain your answer."
+                        }
+                    ]
+                },
+                {
+                    "number": 12,
+                    "marks": 5,
+                    "type": "structured",
+                    "prompt": "The diagram shows an animal cell and a plant cell.",
+                    "prompt_zh": "下图显示了动物细胞和植物细胞。",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "Name TWO structures found in both animal and plant cells."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 2,
+                            "prompt": "Name TWO structures found only in plant cells."
+                        },
+                        {
+                            "label": "c",
+                            "marks": 1,
+                            "prompt": "State ONE function of the cell membrane."
+                        }
+                    ]
+                },
+                {
+                    "number": 13,
+                    "marks": 5,
+                    "type": "structured",
+                    "prompt": "Energy can be converted from one form to another.",
+                    "prompt_zh": "能量可以从一种形式转换为另一种形式。",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "State the Law of Conservation of Energy."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 3,
+                            "prompt": "Describe the energy conversions that occur when a person uses a hand-held torch (flashlight)."
+                        }
+                    ]
+                },
+                {
+                    "number": 14,
+                    "marks": 5,
+                    "type": "structured",
+                    "prompt": "Heat can be transferred in three ways.",
+                    "prompt_zh": "热量可以以三种方式传递。",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 3,
+                            "prompt": "Name and briefly explain the three methods of heat transfer."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 2,
+                            "prompt": "A cooking pot has a metal body and a plastic handle. Explain why these materials are used."
+                        }
+                    ]
+                },
+                {
+                    "number": 15,
+                    "marks": 5,
+                    "type": "structured",
+                    "prompt": "Living organisms are classified into five kingdoms.",
+                    "prompt_zh": "生物被分为五个界。",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "Name the five kingdoms."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 3,
+                            "prompt": "Classify each organism into its correct kingdom: (i) mushroom, (ii) fern, (iii) cat"
+                        }
+                    ]
+                },
+                {
+                    "number": 16,
+                    "marks": 5,
+                    "type": "structured",
+                    "prompt": "A student pushes a 20 kg box across the floor.",
+                    "prompt_zh": "一位学生推动一个20千克的箱子穿过地板。",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "Calculate the weight of the box. (Take g = 10 m/s²)"
+                        },
+                        {
+                            "label": "b",
+                            "marks": 2,
+                            "prompt": "The student pushes with a force of 80 N and moves the box 5 m. Calculate the work done."
+                        },
+                        {
+                            "label": "c",
+                            "marks": 1,
+                            "prompt": "Name the type of friction that opposes the motion of the box."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Section C: Structured Questions",
+            "name_zh": "第三部分：结构化问题",
+            "marks": 30,
+            "questions": [
+                {
+                    "number": 17,
+                    "marks": 8,
+                    "type": "structured",
+                    "prompt": "A student investigates the effect of temperature on the rate of diffusion.",
+                    "prompt_zh": "一位学生研究温度对扩散速率的影响。",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 1,
+                            "prompt": "Define diffusion."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 2,
+                            "prompt": "State a suitable hypothesis for this investigation."
+                        },
+                        {
+                            "label": "c",
+                            "marks": 2,
+                            "prompt": "Describe how the student should set up a fair test."
+                        },
+                        {
+                            "label": "d",
+                            "marks": 2,
+                            "prompt": "Predict the results. Explain your prediction using the kinetic theory of matter."
+                        },
+                        {
+                            "label": "e",
+                            "marks": 1,
+                            "prompt": "State ONE safety precaution the student should take."
+                        }
+                    ]
+                },
+                {
+                    "number": 18,
+                    "marks": 8,
+                    "type": "structured",
+                    "prompt": "Singapore is developing renewable energy sources.",
+                    "prompt_zh": "新加坡正在开发可再生能源。",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "Name TWO renewable energy sources that Singapore could use."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 3,
+                            "prompt": "For each source you named, describe the energy conversion that occurs."
+                        },
+                        {
+                            "label": "c",
+                            "marks": 3,
+                            "prompt": "Discuss ONE advantage and ONE disadvantage of using renewable energy in Singapore."
+                        }
+                    ]
+                },
+                {
+                    "number": 19,
+                    "marks": 7,
+                    "type": "structured",
+                    "prompt": "The diagram shows a simple food chain in a Singapore garden.",
+                    "prompt_zh": "下图显示了新加坡花园中的简单食物链。",
+                    "diagram": "Grass → Caterpillar → Bird → Snake",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 1,
+                            "prompt": "Name the producer in this food chain."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 2,
+                            "prompt": "Explain why the number of snakes is less than the number of caterpillars."
+                        },
+                        {
+                            "label": "c",
+                            "marks": 2,
+                            "prompt": "What would happen to the bird population if all the caterpillars died? Explain your answer."
+                        },
+                        {
+                            "label": "d",
+                            "marks": 2,
+                            "prompt": "Suggest TWO ways to conserve the biodiversity of Singapore's gardens."
+                        }
+                    ]
+                },
+                {
+                    "number": 20,
+                    "marks": 7,
+                    "type": "structured",
+                    "prompt": "A thermos flask is designed to reduce heat transfer.",
+                    "prompt_zh": "保温瓶旨在减少热量传递。",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "Explain how the vacuum between the double walls reduces heat loss."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 2,
+                            "prompt": "The inner surfaces are silvered. Explain how this helps keep drinks hot."
+                        },
+                        {
+                            "label": "c",
+                            "marks": 2,
+                            "prompt": "The stopper is made of cork or plastic. Explain why metal is not used."
+                        },
+                        {
+                            "label": "d",
+                            "marks": 1,
+                            "prompt": "Can the same thermos keep cold drinks cold? Briefly explain."
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "answerKey": [
+        {
+            "sectionName": "Section A",
+            "answers": [
+                {
+                    "questionNum": "1",
+                    "answer": "C"
+                },
+                {
+                    "questionNum": "2",
+                    "answer": "B (2.5 kg)"
+                },
+                {
+                    "questionNum": "3",
+                    "answer": "B (Nucleus)"
+                },
+                {
+                    "questionNum": "4",
+                    "answer": "B"
+                },
+                {
+                    "questionNum": "5",
+                    "answer": "C (Photosynthesis)"
+                },
+                {
+                    "questionNum": "6",
+                    "answer": "C (Radiation)"
+                },
+                {
+                    "questionNum": "7",
+                    "answer": "C"
+                },
+                {
+                    "questionNum": "8",
+                    "answer": "C (Fungi)"
+                },
+                {
+                    "questionNum": "9",
+                    "answer": "C (50 J)"
+                },
+                {
+                    "questionNum": "10",
+                    "answer": "B (Photosynthesis)"
+                }
+            ]
+        },
+        {
+            "sectionName": "Section B",
+            "answers": [
+                {
+                    "questionNum": "11a",
+                    "answer": "2.7 g/cm³"
+                },
+                {
+                    "questionNum": "11c",
+                    "answer": "Sink, density > 1 g/cm³"
+                },
+                {
+                    "questionNum": "12a",
+                    "answer": "Nucleus, cytoplasm, cell membrane, mitochondria"
+                },
+                {
+                    "questionNum": "12b",
+                    "answer": "Cell wall, chloroplast, large vacuole"
+                },
+                {
+                    "questionNum": "13a",
+                    "answer": "Energy cannot be created or destroyed, only converted"
+                },
+                {
+                    "questionNum": "14a",
+                    "answer": "Conduction, convection, radiation"
+                },
+                {
+                    "questionNum": "15a",
+                    "answer": "Monera, Protista, Fungi, Plantae, Animalia"
+                },
+                {
+                    "questionNum": "16a",
+                    "answer": "200 N"
+                },
+                {
+                    "questionNum": "16b",
+                    "answer": "400 J"
+                }
+            ]
+        },
+        {
+            "sectionName": "Section C",
+            "answers": [
+                {
+                    "questionNum": "17a",
+                    "answer": "Movement of particles from high to low concentration"
+                },
+                {
+                    "questionNum": "18a",
+                    "answer": "Solar energy, wind energy"
+                },
+                {
+                    "questionNum": "19a",
+                    "answer": "Grass"
+                },
+                {
+                    "questionNum": "20a",
+                    "answer": "Vacuum prevents conduction and convection"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,322 @@
+{
+    "id": "sec1-history-wa2",
+    "instructions": [
+        "Write your name, class, and index number on all the work you hand in.",
+        "Write in dark blue or black pen.",
+        "Do not use correction fluid.",
+        "Answer ALL questions.",
+        "For source-based questions, refer closely to the sources provided."
+    ],
+    "instructions_zh": [
+        "在所有答卷上写上你的姓名、班级和学号。",
+        "用深蓝色或黑色笔书写。",
+        "不要使用涂改液。",
+        "回答所有问题。",
+        "对于史料分析题，请仔细参考所提供的史料。"
+    ],
+    "sections": [
+        {
+            "name": "Section A: Multiple Choice Questions",
+            "name_zh": "第一部分：选择题",
+            "marks": 10,
+            "questions": [
+                {
+                    "number": 1,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "In 1826, Singapore was grouped together with Malacca and Penang to form:",
+                    "prompt_zh": "1826年，新加坡与马六甲和槟城合并组成：",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "The Federated Malay States"
+                        },
+                        {
+                            "label": "B",
+                            "text": "The Straits Settlements"
+                        },
+                        {
+                            "label": "C",
+                            "text": "British Malaya"
+                        },
+                        {
+                            "label": "D",
+                            "text": "The Crown Colony"
+                        }
+                    ]
+                },
+                {
+                    "number": 2,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "Which immigrant group came to Singapore mainly to work as coolies and labourers?",
+                    "prompt_zh": "哪个移民群体主要来新加坡做苦力和劳工？",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Indians"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Arabs"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Chinese"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Europeans"
+                        }
+                    ]
+                },
+                {
+                    "number": 3,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "What was the main reason many Chinese immigrants came to Singapore in the 19th century?",
+                    "prompt_zh": "19世纪许多中国移民来新加坡的主要原因是什么？",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Political freedom"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Religious persecution"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Economic hardship and search for better opportunities"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Adventure and exploration"
+                        }
+                    ]
+                },
+                {
+                    "number": 4,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "In what year did Singapore become a Crown Colony under direct British rule?",
+                    "prompt_zh": "新加坡在哪一年成为由英国直接统治的皇家殖民地？",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "1819"
+                        },
+                        {
+                            "label": "B",
+                            "text": "1826"
+                        },
+                        {
+                            "label": "C",
+                            "text": "1867"
+                        },
+                        {
+                            "label": "D",
+                            "text": "1942"
+                        }
+                    ]
+                },
+                {
+                    "number": 5,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "Which commodity made Singapore a major trading hub in the late 19th century?",
+                    "prompt_zh": "哪种商品使新加坡在19世纪后期成为主要贸易中心？",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Gold"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Rubber and tin"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Cotton"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Spices only"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Section B: Source-Based Questions",
+            "name_zh": "第二部分：史料分析题",
+            "marks": 20,
+            "questions": [
+                {
+                    "number": 6,
+                    "marks": 8,
+                    "type": "structured",
+                    "prompt": "Study Source A below and answer the questions that follow.\n\n**Source A: An account of immigrant life in colonial Singapore, 1880s**\n\n*\"Many Chinese immigrants lived in cramped shophouses in Chinatown. Several families often shared a single room. Despite the difficult conditions, they worked hard as traders, coolies, and craftsmen, sending money back to their families in China.\"*",
+                    "prompt_zh": "阅读下面的史料A并回答以下问题。\n\n**史料A：1880年代殖民地新加坡移民生活的描述**",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "According to Source A, describe the living conditions of Chinese immigrants."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 3,
+                            "prompt": "What does Source A tell us about the motivations of Chinese immigrants?"
+                        },
+                        {
+                            "label": "c",
+                            "marks": 3,
+                            "prompt": "How reliable is Source A for understanding immigrant life in colonial Singapore? Explain your answer."
+                        }
+                    ]
+                },
+                {
+                    "number": 7,
+                    "marks": 6,
+                    "type": "structured",
+                    "prompt": "Study Source B below and answer the questions that follow.\n\n**Source B: Population statistics of Singapore**\n\n| Year | Total Population | Chinese | Malays | Indians |\n|------|-----------------|---------|--------|--------|\n| 1824 | 10,683 | 3,317 | 4,580 | 756 |\n| 1860 | 81,734 | 50,043 | 11,906 | 12,973 |\n| 1901 | 228,555 | 164,041 | 36,080 | 17,823 |",
+                    "prompt_zh": "阅读下面的史料B并回答以下问题。\n\n**史料B：新加坡人口统计数据**",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "What trend does Source B show about Singapore's population from 1824 to 1901?"
+                        },
+                        {
+                            "label": "b",
+                            "marks": 4,
+                            "prompt": "Using Source B and your own knowledge, explain why Singapore's population changed so dramatically."
+                        }
+                    ]
+                },
+                {
+                    "number": 8,
+                    "marks": 6,
+                    "type": "structured",
+                    "prompt": "Study Source C below and answer the questions that follow.\n\n**Source C: Description of Singapore's ethnic quarters, 1890s**\n\n*\"The town was divided into distinct areas. The Chinese lived around Chinatown, the Indians near Serangoon Road, and the Malays in Kampong Glam. Each community maintained its own customs, temples, and way of life.\"*",
+                    "prompt_zh": "阅读下面的史料C并回答以下问题。\n\n**史料C：1890年代新加坡族群聚居区的描述**",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "According to Source C, how was Singapore's population organized?"
+                        },
+                        {
+                            "label": "b",
+                            "marks": 4,
+                            "prompt": "What were the advantages and disadvantages of this arrangement for colonial Singapore?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Section C: Structured Essay Questions",
+            "name_zh": "第三部分：结构化论述题",
+            "marks": 20,
+            "questions": [
+                {
+                    "number": 9,
+                    "marks": 10,
+                    "type": "structured",
+                    "prompt": "Immigration played a crucial role in shaping colonial Singapore.",
+                    "prompt_zh": "移民在塑造殖民地新加坡方面发挥了关键作用。",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 4,
+                            "prompt": "Describe the push and pull factors that led to immigration to Singapore in the 19th century."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 6,
+                            "prompt": "Explain how immigrants contributed to Singapore's development as a trading port."
+                        }
+                    ]
+                },
+                {
+                    "number": 10,
+                    "marks": 10,
+                    "type": "structured",
+                    "prompt": "Life in colonial Singapore was shaped by British policies and trade.",
+                    "prompt_zh": "殖民地新加坡的生活受到英国政策和贸易的影响。",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 4,
+                            "prompt": "Describe TWO features of British colonial administration in Singapore."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 6,
+                            "prompt": "Explain how trade transformed Singapore's economy and society by 1900."
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "answerKey": [
+        {
+            "sectionName": "Section A",
+            "answers": [
+                {
+                    "questionNum": "1",
+                    "answer": "B (The Straits Settlements)"
+                },
+                {
+                    "questionNum": "2",
+                    "answer": "C (Chinese)"
+                },
+                {
+                    "questionNum": "3",
+                    "answer": "C (Economic hardship)"
+                },
+                {
+                    "questionNum": "4",
+                    "answer": "C (1867)"
+                },
+                {
+                    "questionNum": "5",
+                    "answer": "B (Rubber and tin)"
+                }
+            ]
+        },
+        {
+            "sectionName": "Section B",
+            "answers": [
+                {
+                    "questionNum": "6a",
+                    "answer": "Cramped shophouses, shared rooms, difficult conditions"
+                },
+                {
+                    "questionNum": "6b",
+                    "answer": "Economic motivation, sending money to families in China"
+                },
+                {
+                    "questionNum": "7a",
+                    "answer": "Rapid population growth, especially Chinese immigrants"
+                }
+            ]
+        },
+        {
+            "sectionName": "Section C",
+            "answers": [
+                {
+                    "questionNum": "9a",
+                    "answer": "Push: poverty, war in home countries. Pull: free port, job opportunities"
+                },
+                {
+                    "questionNum": "10b",
+                    "answer": "Entrepot trade, shipping industry, financial services developed"
+                }
+            ]
+        }
+    ]
+}

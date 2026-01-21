@@ -1,7 +1,8 @@
+import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { useStore } from "@/lib/store";
 import { useTranslations } from "@/lib/i18n";
-import { BookOpen, Sun, Moon, Globe, User, LogOut, GraduationCap, FileText, Brain } from "lucide-react";
+import { BookOpen, Sun, Moon, Globe, User, LogOut, GraduationCap, FileText, Brain, Settings } from "lucide-react";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -11,11 +12,21 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { useNavigate } from "react-router-dom";
 import GradeLevelSelector from "@/components/ui/grade-level-selector";
+import { isUserAdmin } from "@/lib/auth";
 
 export function AppHeader() {
   const { user, language, theme, setLanguage, setTheme, logout } = useStore();
   const t = useTranslations(language);
   const navigate = useNavigate();
+  const [isAdmin, setIsAdmin] = useState(false);
+
+  useEffect(() => {
+    if (user) {
+      isUserAdmin(user.id).then(setIsAdmin);
+    } else {
+      setIsAdmin(false);
+    }
+  }, [user]);
 
   const toggleTheme = () => {
     if (theme === 'light') setTheme('dark');
@@ -78,6 +89,17 @@ export function AppHeader() {
               <Brain className="h-4 w-4 mr-2" />
               AI
             </Button>
+            {isAdmin && (
+              <Button
+                variant="ghost"
+                size="sm"
+                onClick={() => navigate('/admin')}
+                className="text-muted-foreground hover:text-foreground"
+              >
+                <Settings className="h-4 w-4 mr-2" />
+                Admin
+              </Button>
+            )}
           </nav>
         )}
 

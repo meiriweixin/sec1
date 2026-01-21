@@ -19,6 +19,8 @@ import NotFound from "./pages/NotFound";
 import Review from "./pages/Review";
 import Exams from "./pages/Exams";
 import ExamView from "./pages/ExamView";
+import Admin from "./pages/Admin";
+import { ProtectedRoute } from "./components/layout/ProtectedRoute";
 
 const queryClient = new QueryClient();
 
@@ -47,6 +49,14 @@ const App = () => (
               <Route path="/ai/safety" element={<AISafety />} />
               <Route path="/exams" element={<Exams />} />
               <Route path="/exams/:examId" element={<ExamView />} />
+              <Route
+                path="/admin"
+                element={
+                  <ProtectedRoute adminOnly>
+                    <Admin />
+                  </ProtectedRoute>
+                }
+              />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
             </Routes>

@@ -1,0 +1,512 @@
+{
+    "id": "sec1-history-eoy",
+    "instructions": [
+        "Write your name, class, and index number on all the work you hand in.",
+        "Write in dark blue or black pen.",
+        "Do not use correction fluid.",
+        "Answer ALL questions.",
+        "For source-based questions, refer closely to the sources provided.",
+        "Plan your time carefully - this is a comprehensive examination."
+    ],
+    "instructions_zh": [
+        "在所有答卷上写上你的姓名、班级和学号。",
+        "用深蓝色或黑色笔书写。",
+        "不要使用涂改液。",
+        "回答所有问题。",
+        "对于史料分析题，请仔细参考所提供的史料。",
+        "合理安排时间 - 这是综合考试。"
+    ],
+    "sections": [
+        {
+            "name": "Section A: Multiple Choice Questions",
+            "name_zh": "第一部分：选择题",
+            "marks": 20,
+            "questions": [
+                {
+                    "number": 1,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "What was Singapore called before the arrival of Stamford Raffles?",
+                    "prompt_zh": "在史丹福·莱佛士到来之前，新加坡被称为什么？",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Malacca"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Temasek / Singapura"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Johor"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Penang"
+                        }
+                    ]
+                },
+                {
+                    "number": 2,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "Who signed the treaty with Raffles in 1819 to allow the British to establish a trading post?",
+                    "prompt_zh": "1819年谁与莱佛士签署条约，允许英国建立贸易站？",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Sultan Hussein Shah and Temenggong Abdul Rahman"
+                        },
+                        {
+                            "label": "B",
+                            "text": "William Farquhar only"
+                        },
+                        {
+                            "label": "C",
+                            "text": "The Dutch Governor"
+                        },
+                        {
+                            "label": "D",
+                            "text": "The Orang Laut chiefs"
+                        }
+                    ]
+                },
+                {
+                    "number": 3,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "What was the significance of the Straits Settlements in 1826?",
+                    "prompt_zh": "1826年海峡殖民地的重要性是什么？",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "It marked Singapore's independence"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Singapore, Malacca and Penang were grouped under one administration"
+                        },
+                        {
+                            "label": "C",
+                            "text": "The Dutch took control of Singapore"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Free trade was abolished"
+                        }
+                    ]
+                },
+                {
+                    "number": 4,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "Why did many Chinese immigrants come to Singapore in the 19th century?",
+                    "prompt_zh": "19世纪许多中国移民为什么来新加坡？",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Better weather"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Economic opportunities and escape from hardship"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Religious persecution"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Political asylum"
+                        }
+                    ]
+                },
+                {
+                    "number": 5,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "What major commodities made Singapore an important trading hub by 1900?",
+                    "prompt_zh": "到1900年，哪些主要商品使新加坡成为重要的贸易中心？",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Gold and silver"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Rubber and tin"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Cotton and silk"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Oil and gas"
+                        }
+                    ]
+                },
+                {
+                    "number": 6,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "When did Singapore become a Crown Colony?",
+                    "prompt_zh": "新加坡何时成为皇家殖民地？",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "1819"
+                        },
+                        {
+                            "label": "B",
+                            "text": "1826"
+                        },
+                        {
+                            "label": "C",
+                            "text": "1867"
+                        },
+                        {
+                            "label": "D",
+                            "text": "1942"
+                        }
+                    ]
+                },
+                {
+                    "number": 7,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "What was the Japanese name for Singapore during the occupation?",
+                    "prompt_zh": "日占时期新加坡的日本名称是什么？",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Nippon"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Syonan-to"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Malaya"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Singapore-shi"
+                        }
+                    ]
+                },
+                {
+                    "number": 8,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "What was the Sook Ching operation?",
+                    "prompt_zh": "肃清行动是什么？",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "A food distribution program"
+                        },
+                        {
+                            "label": "B",
+                            "text": "A Japanese screening operation targeting anti-Japanese elements"
+                        },
+                        {
+                            "label": "C",
+                            "text": "A British counter-attack"
+                        },
+                        {
+                            "label": "D",
+                            "text": "A school curriculum"
+                        }
+                    ]
+                },
+                {
+                    "number": 9,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "What was 'banana money'?",
+                    "prompt_zh": "香蕉钱是什么？",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Money used to buy bananas"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Japanese occupation currency that became worthless"
+                        },
+                        {
+                            "label": "C",
+                            "text": "British colonial currency"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Money made from banana leaves"
+                        }
+                    ]
+                },
+                {
+                    "number": 10,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "When did Japanese rule in Singapore end?",
+                    "prompt_zh": "日本对新加坡的统治何时结束？",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "15 February 1942"
+                        },
+                        {
+                            "label": "B",
+                            "text": "15 August 1945"
+                        },
+                        {
+                            "label": "C",
+                            "text": "12 September 1945"
+                        },
+                        {
+                            "label": "D",
+                            "text": "9 August 1965"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Section B: Source-Based Questions",
+            "name_zh": "第二部分：史料分析题",
+            "marks": 30,
+            "questions": [
+                {
+                    "number": 11,
+                    "marks": 8,
+                    "type": "structured",
+                    "prompt": "Study Source A and Source B below and answer the questions that follow.\n\n**Source A: Raffles' letter to the Governor-General, 1819**\n\n*\"Singapore possesses the advantages of an excellent harbour... and is at the entrance of the Straits of Malacca. These advantages make it the ideal location for a British trading station in this region.\"*\n\n**Source B: Population growth of Singapore 1819-1860**\n\n| Year | Population |\n|------|------------|\n| 1819 | 1,000 |\n| 1824 | 10,683 |\n| 1860 | 81,734 |",
+                    "prompt_zh": "阅读下面的史料A和史料B并回答以下问题。",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "According to Source A, why did Raffles think Singapore was ideal for a trading station?"
+                        },
+                        {
+                            "label": "b",
+                            "marks": 3,
+                            "prompt": "What does Source B show about Singapore's growth after the British arrived?"
+                        },
+                        {
+                            "label": "c",
+                            "marks": 3,
+                            "prompt": "Using both sources and your own knowledge, explain why Singapore developed so rapidly after 1819."
+                        }
+                    ]
+                },
+                {
+                    "number": 12,
+                    "marks": 8,
+                    "type": "structured",
+                    "prompt": "Study Source C below and answer the questions that follow.\n\n**Source C: Account of life in colonial Singapore, 1890s**\n\n*\"The different races lived in separate quarters of the town. The Chinese dominated trade in Chinatown, the Indians worked as laborers and money-changers, while the Malays lived in kampongs near the sea. Despite living separately, all communities contributed to making Singapore a successful port.\"*",
+                    "prompt_zh": "阅读下面的史料C并回答以下问题。\n\n**史料C：1890年代殖民地新加坡生活的描述**",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "According to Source C, how was Singapore's society organized?"
+                        },
+                        {
+                            "label": "b",
+                            "marks": 3,
+                            "prompt": "What roles did different ethnic groups play in Singapore's economy?"
+                        },
+                        {
+                            "label": "c",
+                            "marks": 3,
+                            "prompt": "What were the advantages and disadvantages of this system of ethnic quarters?"
+                        }
+                    ]
+                },
+                {
+                    "number": 13,
+                    "marks": 8,
+                    "type": "structured",
+                    "prompt": "Study Source D below and answer the questions that follow.\n\n**Source D: A survivor's account of the Japanese Occupation**\n\n*\"We never had enough to eat. Rice was rationed and we had to queue for hours. Many people grew tapioca and sweet potatoes wherever they could find space. The fear of the Kempeitai was constant. Anyone could be taken away for questioning.\"*",
+                    "prompt_zh": "阅读下面的史料D并回答以下问题。\n\n**史料D：日占时期幸存者的叙述**",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "According to Source D, what hardships did people face during the Japanese Occupation?"
+                        },
+                        {
+                            "label": "b",
+                            "marks": 3,
+                            "prompt": "How reliable is this source for understanding life during the Occupation? Explain."
+                        },
+                        {
+                            "label": "c",
+                            "marks": 3,
+                            "prompt": "What long-term effects did the Japanese Occupation have on Singaporeans?"
+                        }
+                    ]
+                },
+                {
+                    "number": 14,
+                    "marks": 6,
+                    "type": "structured",
+                    "prompt": "Study Source E below and answer the questions that follow.\n\n**Source E: Japanese propaganda poster, 1943**\n\n*['Asia for Asians' - The poster shows Asian peoples united under Japanese leadership, free from Western colonial rule.]*",
+                    "prompt_zh": "阅读下面的史料E并回答以下问题。\n\n**史料E：日本宣传海报，1943年**",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "What message was this propaganda trying to convey?"
+                        },
+                        {
+                            "label": "b",
+                            "marks": 4,
+                            "prompt": "How did the reality of Japanese rule differ from this propaganda message?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Section C: Structured Essay Questions",
+            "name_zh": "第三部分：结构化论述题",
+            "marks": 30,
+            "questions": [
+                {
+                    "number": 15,
+                    "marks": 15,
+                    "type": "structured",
+                    "prompt": "Singapore's development from a small fishing village to a major trading port was a remarkable transformation.",
+                    "prompt_zh": "新加坡从一个小渔村发展成为主要贸易港口是一次非凡的转变。",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 5,
+                            "prompt": "Describe the key factors that made Singapore an attractive location for a trading post."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 5,
+                            "prompt": "Explain how immigration contributed to Singapore's growth in the 19th century."
+                        },
+                        {
+                            "label": "c",
+                            "marks": 5,
+                            "prompt": "Assess the impact of British colonial rule on Singapore's development up to 1942."
+                        }
+                    ]
+                },
+                {
+                    "number": 16,
+                    "marks": 15,
+                    "type": "structured",
+                    "prompt": "The Japanese Occupation was a turning point in Singapore's history.",
+                    "prompt_zh": "日本占领是新加坡历史的转折点。",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 5,
+                            "prompt": "Describe the events leading to the fall of Singapore to the Japanese in 1942."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 5,
+                            "prompt": "Explain how the Japanese controlled and governed Singapore during the occupation."
+                        },
+                        {
+                            "label": "c",
+                            "marks": 5,
+                            "prompt": "Assess how the Japanese Occupation changed Singaporeans' attitudes towards self-governance and independence."
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "answerKey": [
+        {
+            "sectionName": "Section A",
+            "answers": [
+                {
+                    "questionNum": "1",
+                    "answer": "B"
+                },
+                {
+                    "questionNum": "2",
+                    "answer": "A"
+                },
+                {
+                    "questionNum": "3",
+                    "answer": "B"
+                },
+                {
+                    "questionNum": "4",
+                    "answer": "B"
+                },
+                {
+                    "questionNum": "5",
+                    "answer": "B"
+                },
+                {
+                    "questionNum": "6",
+                    "answer": "C"
+                },
+                {
+                    "questionNum": "7",
+                    "answer": "B"
+                },
+                {
+                    "questionNum": "8",
+                    "answer": "B"
+                },
+                {
+                    "questionNum": "9",
+                    "answer": "B"
+                },
+                {
+                    "questionNum": "10",
+                    "answer": "C"
+                }
+            ]
+        },
+        {
+            "sectionName": "Section B",
+            "answers": [
+                {
+                    "questionNum": "11a",
+                    "answer": "Excellent harbour, strategic location at Straits of Malacca"
+                },
+                {
+                    "questionNum": "11b",
+                    "answer": "Rapid population growth from 1,000 to over 80,000"
+                },
+                {
+                    "questionNum": "12a",
+                    "answer": "Organized by ethnic quarters - Chinatown, Little India, Kampong Glam"
+                },
+                {
+                    "questionNum": "13a",
+                    "answer": "Food shortage, rationing, fear of Kempeitai"
+                }
+            ]
+        },
+        {
+            "sectionName": "Section C",
+            "answers": [
+                {
+                    "questionNum": "15a",
+                    "answer": "Strategic location, natural harbor, free port policy"
+                },
+                {
+                    "questionNum": "16c",
+                    "answer": "British failed to protect, nationalism grew, desire for self-rule intensified"
+                }
+            ]
+        }
+    ]
+}

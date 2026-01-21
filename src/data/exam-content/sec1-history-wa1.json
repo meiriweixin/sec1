@@ -1,0 +1,322 @@
+{
+    "id": "sec1-history-wa1",
+    "instructions": [
+        "Write your name, class, and index number on all the work you hand in.",
+        "Write in dark blue or black pen.",
+        "Do not use correction fluid.",
+        "Answer ALL questions.",
+        "For source-based questions, refer closely to the sources provided."
+    ],
+    "instructions_zh": [
+        "在所有答卷上写上你的姓名、班级和学号。",
+        "用深蓝色或黑色笔书写。",
+        "不要使用涂改液。",
+        "回答所有问题。",
+        "对于史料分析题，请仔细参考所提供的史料。"
+    ],
+    "sections": [
+        {
+            "name": "Section A: Multiple Choice Questions",
+            "name_zh": "第一部分：选择题",
+            "marks": 10,
+            "questions": [
+                {
+                    "number": 1,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "What was the original name of Singapore before Stamford Raffles arrived?",
+                    "prompt_zh": "在史丹福·莱佛士到来之前，新加坡的原名是什么？",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Malacca"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Temasek"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Singapura"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Both B and C"
+                        }
+                    ]
+                },
+                {
+                    "number": 2,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "In what year did Sir Stamford Raffles first land in Singapore?",
+                    "prompt_zh": "史丹福·莱佛士是在哪一年首次登陆新加坡的？",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "1789"
+                        },
+                        {
+                            "label": "B",
+                            "text": "1819"
+                        },
+                        {
+                            "label": "C",
+                            "text": "1826"
+                        },
+                        {
+                            "label": "D",
+                            "text": "1867"
+                        }
+                    ]
+                },
+                {
+                    "number": 3,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "Which European power controlled the Malay Archipelago before the British arrived?",
+                    "prompt_zh": "在英国人到来之前，哪个欧洲国家控制着马来群岛？",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Portuguese"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Dutch"
+                        },
+                        {
+                            "label": "C",
+                            "text": "French"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Spanish"
+                        }
+                    ]
+                },
+                {
+                    "number": 4,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "Why was Singapore's location strategically important for trade?",
+                    "prompt_zh": "为什么新加坡的地理位置对贸易具有战略重要性？",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "It had rich natural resources"
+                        },
+                        {
+                            "label": "B",
+                            "text": "It was located along major shipping routes between India and China"
+                        },
+                        {
+                            "label": "C",
+                            "text": "It had a large population"
+                        },
+                        {
+                            "label": "D",
+                            "text": "It was close to Europe"
+                        }
+                    ]
+                },
+                {
+                    "number": 5,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "Who was the Temenggong that signed the treaty with Raffles in 1819?",
+                    "prompt_zh": "1819年与莱佛士签署条约的天猛公是谁？",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Sultan Hussein Shah"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Temenggong Abdul Rahman"
+                        },
+                        {
+                            "label": "C",
+                            "text": "William Farquhar"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Munshi Abdullah"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Section B: Source-Based Questions",
+            "name_zh": "第二部分：史料分析题",
+            "marks": 20,
+            "questions": [
+                {
+                    "number": 6,
+                    "marks": 8,
+                    "type": "structured",
+                    "prompt": "Study Source A below and answer the questions that follow.\n\n**Source A: Letter from Stamford Raffles, 1819**\n\n*'I have just landed in Singapore... The port is excellent, and it commands the southern entrance of the Straits of Malacca. I am confident that this will become a great commercial emporium and provide Britain with an advantage over our Dutch rivals.'*",
+                    "prompt_zh": "阅读下面的史料A并回答以下问题。\n\n**史料A：史丹福·莱佛士1819年的信件**\n\n*'我刚刚登陆新加坡……这个港口非常优越，它控制着马六甲海峡的南部入口。我相信这里将成为一个伟大的商业中心，并为英国提供对荷兰对手的优势。'*",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "According to Source A, what was Raffles' impression of Singapore's port?"
+                        },
+                        {
+                            "label": "b",
+                            "marks": 3,
+                            "prompt": "What does Source A tell us about British motivations for establishing a trading post in Singapore?"
+                        },
+                        {
+                            "label": "c",
+                            "marks": 3,
+                            "prompt": "How useful is Source A for understanding why the British wanted Singapore? Explain your answer."
+                        }
+                    ]
+                },
+                {
+                    "number": 7,
+                    "marks": 6,
+                    "type": "structured",
+                    "prompt": "Study Source B below and answer the questions that follow.\n\n**Source B: A map showing trade routes in Southeast Asia, 1820**\n\n*[The map shows Singapore positioned at the crossroads of trade routes connecting India, China, and the Malay Archipelago.]*",
+                    "prompt_zh": "阅读下面的史料B并回答以下问题。\n\n**史料B：1820年东南亚贸易路线图**\n\n*[地图显示新加坡位于连接印度、中国和马来群岛的贸易路线的十字路口。]*",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "What does Source B show about Singapore's geographical position?"
+                        },
+                        {
+                            "label": "b",
+                            "marks": 4,
+                            "prompt": "Using Source B and your own knowledge, explain why Singapore's location made it ideal for trade."
+                        }
+                    ]
+                },
+                {
+                    "number": 8,
+                    "marks": 6,
+                    "type": "structured",
+                    "prompt": "Study Source C below and answer the questions that follow.\n\n**Source C: Description of Singapore before British arrival**\n\n*'Before Raffles arrived, Singapura was a small fishing village with only about 150 Malays and some Orang Laut (sea people). The settlement was ruled by the Temenggong, who owed allegiance to the Sultan of Johor.'*",
+                    "prompt_zh": "阅读下面的史料C并回答以下问题。\n\n**史料C：英国人到来前新加坡的描述**",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "According to Source C, what was Singapore like before the British arrived?"
+                        },
+                        {
+                            "label": "b",
+                            "marks": 4,
+                            "prompt": "Compare Singapore before and after the arrival of Raffles. What changes occurred?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Section C: Structured Essay Questions",
+            "name_zh": "第三部分：结构化论述题",
+            "marks": 20,
+            "questions": [
+                {
+                    "number": 9,
+                    "marks": 10,
+                    "type": "structured",
+                    "prompt": "Stamford Raffles played an important role in the founding of modern Singapore.",
+                    "prompt_zh": "史丹福·莱佛士在现代新加坡的建立中发挥了重要作用。",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 4,
+                            "prompt": "Describe TWO actions Raffles took to establish Singapore as a trading post."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 6,
+                            "prompt": "Explain why Singapore grew rapidly after 1819. Give at least THREE reasons."
+                        }
+                    ]
+                },
+                {
+                    "number": 10,
+                    "marks": 10,
+                    "type": "structured",
+                    "prompt": "The establishment of Singapore as a British trading post had significant consequences.",
+                    "prompt_zh": "新加坡作为英国贸易港口的建立产生了重大影响。",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 4,
+                            "prompt": "Explain why the British East India Company wanted a trading post in Southeast Asia."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 6,
+                            "prompt": "Describe the impact of Singapore's founding on the local population and economy."
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "answerKey": [
+        {
+            "sectionName": "Section A",
+            "answers": [
+                {
+                    "questionNum": "1",
+                    "answer": "D (Both Temasek and Singapura)"
+                },
+                {
+                    "questionNum": "2",
+                    "answer": "B (1819)"
+                },
+                {
+                    "questionNum": "3",
+                    "answer": "B (Dutch)"
+                },
+                {
+                    "questionNum": "4",
+                    "answer": "B (Located along major shipping routes)"
+                },
+                {
+                    "questionNum": "5",
+                    "answer": "B (Temenggong Abdul Rahman)"
+                }
+            ]
+        },
+        {
+            "sectionName": "Section B",
+            "answers": [
+                {
+                    "questionNum": "6a",
+                    "answer": "Raffles described the port as excellent and strategically positioned"
+                },
+                {
+                    "questionNum": "6b",
+                    "answer": "Commercial interests, competition with Dutch, strategic advantage"
+                },
+                {
+                    "questionNum": "7b",
+                    "answer": "Crossroads between India-China trade, natural harbor, monsoon winds"
+                }
+            ]
+        },
+        {
+            "sectionName": "Section C",
+            "answers": [
+                {
+                    "questionNum": "9a",
+                    "answer": "Signed treaty with Temenggong, established free port policy"
+                },
+                {
+                    "questionNum": "9b",
+                    "answer": "Free port status, strategic location, British protection, immigrant labor"
+                }
+            ]
+        }
+    ]
+}

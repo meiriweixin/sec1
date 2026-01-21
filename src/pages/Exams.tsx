@@ -9,6 +9,13 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import {
   FileText,
   Clock,
   Calculator,
@@ -16,7 +23,8 @@ import {
   BookOpen,
   Eye,
   Download,
-  Printer
+  Printer,
+  Filter
 } from "lucide-react";
 import examsData from "@/data/exams.json";
 
@@ -52,6 +60,7 @@ export default function Exams() {
   const t = useTranslations(language);
   const navigate = useNavigate();
   const [selectedTab, setSelectedTab] = useState<string>("all");
+  const [selectedSubject, setSelectedSubject] = useState<string>("all");
 
   useEffect(() => {
     if (_hasHydrated && !user) {
@@ -74,9 +83,26 @@ export default function Exams() {
   if (!user) return null;
 
   // Filter exams by current grade level
-  const filteredExams = (examsData.exams as Exam[]).filter(
+  const gradeFilteredExams = (examsData.exams as Exam[]).filter(
     exam => exam.gradeLevel === gradeLevel
   );
+
+  // Get unique subjects for the dropdown
+  const uniqueSubjects = Array.from(
+    new Set(gradeFilteredExams.map(exam => exam.subject))
+  ).map(subject => {
+    const exam = gradeFilteredExams.find(e => e.subject === subject);
+    return {
+      id: subject,
+      name: exam?.subjectName || subject,
+      name_zh: exam?.subjectName_zh || subject
+    };
+  });
+
+  // Filter exams by selected subject
+  const filteredExams = selectedSubject === "all"
+    ? gradeFilteredExams
+    : gradeFilteredExams.filter(exam => exam.subject === selectedSubject);
 
   // Group exams by assessment type
   const examsByType = filteredExams.reduce((acc, exam) => {
@@ -239,6 +265,48 @@ export default function Exams() {
             }
           </p>
         </motion.div>
+
+        {/* Subject Filter */}
+        {uniqueSubjects.length > 1 && (
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.3, delay: 0.1 }}
+            className="mb-6"
+          >
+            <div className="flex items-center gap-3">
+              <Filter className="h-4 w-4 text-muted-foreground" />
+              <span className="text-sm font-medium text-muted-foreground">
+                {language === 'zh' ? '按科目筛选' : 'Filter by Subject'}
+              </span>
+              <Select value={selectedSubject} onValueChange={setSelectedSubject}>
+                <SelectTrigger className="w-[200px]">
+                  <SelectValue placeholder={language === 'zh' ? '选择科目' : 'Select subject'} />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="all">
+                    {language === 'zh' ? '全部科目' : 'All Subjects'}
+                  </SelectItem>
+                  {uniqueSubjects.map(subject => (
+                    <SelectItem key={subject.id} value={subject.id}>
+                      {language === 'zh' ? subject.name_zh : subject.name}
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
+              {selectedSubject !== "all" && (
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  onClick={() => setSelectedSubject("all")}
+                  className="text-xs"
+                >
+                  {language === 'zh' ? '清除筛选' : 'Clear filter'}
+                </Button>
+              )}
+            </div>
+          </motion.div>
+        )}
 
         {filteredExams.length === 0 ? (
           <Card className="p-8 text-center">

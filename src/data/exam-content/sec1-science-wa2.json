@@ -1,0 +1,434 @@
+{
+    "id": "sec1-science-wa2",
+    "instructions": [
+        "Write your name, class, and index number on all the work you hand in.",
+        "Write in dark blue or black pen. You may use an HB pencil for diagrams.",
+        "Do not use correction fluid.",
+        "Answer ALL questions.",
+        "Show all working clearly where applicable."
+    ],
+    "instructions_zh": [
+        "在所有答卷上写上你的姓名、班级和学号。",
+        "用深蓝色或黑色笔书写。可以用HB铅笔画图。",
+        "不要使用涂改液。",
+        "回答所有问题。",
+        "在适用的情况下清楚地展示所有运算过程。"
+    ],
+    "sections": [
+        {
+            "name": "Section A: Multiple Choice Questions",
+            "name_zh": "第一部分：选择题",
+            "marks": 10,
+            "questions": [
+                {
+                    "number": 1,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "Which organelle is responsible for releasing energy from food in a cell?",
+                    "prompt_zh": "哪个细胞器负责从食物中释放能量？",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Nucleus"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Chloroplast"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Mitochondria"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Ribosome"
+                        }
+                    ]
+                },
+                {
+                    "number": 2,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "Which of the following is found in plant cells but NOT in animal cells?",
+                    "prompt_zh": "以下哪个存在于植物细胞中但不存在于动物细胞中？",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Nucleus"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Cell membrane"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Cell wall"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Cytoplasm"
+                        }
+                    ]
+                },
+                {
+                    "number": 3,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "Which kingdom includes organisms that are single-celled and have no nucleus?",
+                    "prompt_zh": "哪个界包括单细胞且没有细胞核的生物？",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Animalia"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Plantae"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Fungi"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Monera (Bacteria)"
+                        }
+                    ]
+                },
+                {
+                    "number": 4,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "Which process allows water to move into a plant root?",
+                    "prompt_zh": "哪个过程使水进入植物根部？",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Photosynthesis"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Osmosis"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Respiration"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Evaporation"
+                        }
+                    ]
+                },
+                {
+                    "number": 5,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "An organism is warm-blooded, has feathers, and lays eggs. Which class does it belong to?",
+                    "prompt_zh": "一个生物是温血动物，有羽毛，并产卵。它属于哪个纲？",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Mammals"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Birds (Aves)"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Reptiles"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Amphibians"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Section B: Short Answer Questions",
+            "name_zh": "第二部分：简答题",
+            "marks": 20,
+            "questions": [
+                {
+                    "number": 6,
+                    "marks": 4,
+                    "type": "structured",
+                    "prompt": "The diagram shows a plant cell.",
+                    "prompt_zh": "下图显示了一个植物细胞。",
+                    "diagram": "    +-----------------+\n    |  [   Vacuole   ]|\n    |  +---+          |\n    |  |Nuc|   Chloro |\n    |  +---+    [][]  |\n    +-----------------+",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 1,
+                            "prompt": "Name the structure that controls all activities in the cell."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 1,
+                            "prompt": "Name the structure where photosynthesis occurs."
+                        },
+                        {
+                            "label": "c",
+                            "marks": 2,
+                            "prompt": "State TWO functions of the vacuole in a plant cell."
+                        }
+                    ]
+                },
+                {
+                    "number": 7,
+                    "marks": 4,
+                    "type": "structured",
+                    "prompt": "Compare animal cells and plant cells.",
+                    "prompt_zh": "比较动物细胞和植物细胞。",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "State TWO similarities between animal cells and plant cells."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 2,
+                            "prompt": "State TWO differences between animal cells and plant cells."
+                        }
+                    ]
+                },
+                {
+                    "number": 8,
+                    "marks": 4,
+                    "type": "structured",
+                    "prompt": "A red blood cell is placed in three different solutions.",
+                    "prompt_zh": "将红细胞放入三种不同的溶液中。",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "Describe what happens to the cell when placed in distilled water (hypotonic solution)."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 2,
+                            "prompt": "Describe what happens to the cell when placed in concentrated salt solution (hypertonic solution)."
+                        }
+                    ]
+                },
+                {
+                    "number": 9,
+                    "marks": 4,
+                    "type": "structured",
+                    "prompt": "Classify the following organisms into their correct kingdom:",
+                    "prompt_zh": "将以下生物分类到正确的界：",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 1,
+                            "prompt": "Mushroom: ___________"
+                        },
+                        {
+                            "label": "b",
+                            "marks": 1,
+                            "prompt": "Fern: ___________"
+                        },
+                        {
+                            "label": "c",
+                            "marks": 1,
+                            "prompt": "Amoeba: ___________"
+                        },
+                        {
+                            "label": "d",
+                            "marks": 1,
+                            "prompt": "E. coli bacteria: ___________"
+                        }
+                    ]
+                },
+                {
+                    "number": 10,
+                    "marks": 4,
+                    "type": "structured",
+                    "prompt": "Singapore has a rich biodiversity.",
+                    "prompt_zh": "新加坡拥有丰富的生物多样性。",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "Name TWO natural habitats found in Singapore."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 2,
+                            "prompt": "Explain ONE reason why it is important to conserve biodiversity in Singapore."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Section C: Structured Questions",
+            "name_zh": "第三部分：结构化问题",
+            "marks": 20,
+            "questions": [
+                {
+                    "number": 11,
+                    "marks": 7,
+                    "type": "structured",
+                    "prompt": "The cell is the basic unit of life.",
+                    "prompt_zh": "细胞是生命的基本单位。",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "Define the term 'cell'."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 3,
+                            "prompt": "Describe the functions of the following organelles: (i) nucleus, (ii) mitochondria, (iii) cell membrane."
+                        },
+                        {
+                            "label": "c",
+                            "marks": 2,
+                            "prompt": "Explain why cells need to divide."
+                        }
+                    ]
+                },
+                {
+                    "number": 12,
+                    "marks": 7,
+                    "type": "structured",
+                    "prompt": "A student investigates osmosis using potato cylinders.",
+                    "prompt_zh": "一位学生使用马铃薯圆柱体研究渗透作用。",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 1,
+                            "prompt": "Define osmosis."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 2,
+                            "prompt": "The student places potato cylinders in distilled water. Predict what will happen to the mass of the potato cylinders after 30 minutes. Explain your answer."
+                        },
+                        {
+                            "label": "c",
+                            "marks": 2,
+                            "prompt": "The student places potato cylinders in concentrated sugar solution. Predict what will happen. Explain your answer."
+                        },
+                        {
+                            "label": "d",
+                            "marks": 2,
+                            "prompt": "State TWO variables that should be kept constant in this experiment."
+                        }
+                    ]
+                },
+                {
+                    "number": 13,
+                    "marks": 6,
+                    "type": "structured",
+                    "prompt": "Living organisms are classified into different groups.",
+                    "prompt_zh": "生物被分类到不同的群体中。",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "State TWO reasons why scientists classify living organisms."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 2,
+                            "prompt": "What are the five kingdoms of living organisms?"
+                        },
+                        {
+                            "label": "c",
+                            "marks": 2,
+                            "prompt": "A student finds an organism that is multicellular, cannot move, makes its own food, and has a cell wall. Which kingdom does it belong to? Explain your answer."
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "answerKey": [
+        {
+            "sectionName": "Section A",
+            "answers": [
+                {
+                    "questionNum": "1",
+                    "answer": "C (Mitochondria)"
+                },
+                {
+                    "questionNum": "2",
+                    "answer": "C (Cell wall)"
+                },
+                {
+                    "questionNum": "3",
+                    "answer": "D (Monera)"
+                },
+                {
+                    "questionNum": "4",
+                    "answer": "B (Osmosis)"
+                },
+                {
+                    "questionNum": "5",
+                    "answer": "B (Birds)"
+                }
+            ]
+        },
+        {
+            "sectionName": "Section B",
+            "answers": [
+                {
+                    "questionNum": "6a",
+                    "answer": "Nucleus"
+                },
+                {
+                    "questionNum": "6b",
+                    "answer": "Chloroplast"
+                },
+                {
+                    "questionNum": "6c",
+                    "answer": "Storage of water, provides turgidity"
+                },
+                {
+                    "questionNum": "9a",
+                    "answer": "Fungi"
+                },
+                {
+                    "questionNum": "9b",
+                    "answer": "Plantae"
+                },
+                {
+                    "questionNum": "9c",
+                    "answer": "Protista"
+                },
+                {
+                    "questionNum": "9d",
+                    "answer": "Monera"
+                }
+            ]
+        },
+        {
+            "sectionName": "Section C",
+            "answers": [
+                {
+                    "questionNum": "11a",
+                    "answer": "Basic unit of life"
+                },
+                {
+                    "questionNum": "12a",
+                    "answer": "Movement of water from high to low concentration through semi-permeable membrane"
+                },
+                {
+                    "questionNum": "13b",
+                    "answer": "Monera, Protista, Fungi, Plantae, Animalia"
+                },
+                {
+                    "questionNum": "13c",
+                    "answer": "Plantae - multicellular, autotrophic, has cell wall"
+                }
+            ]
+        }
+    ]
+}

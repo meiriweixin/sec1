@@ -1,0 +1,322 @@
+{
+    "id": "sec1-history-wa3",
+    "instructions": [
+        "Write your name, class, and index number on all the work you hand in.",
+        "Write in dark blue or black pen.",
+        "Do not use correction fluid.",
+        "Answer ALL questions.",
+        "For source-based questions, refer closely to the sources provided."
+    ],
+    "instructions_zh": [
+        "在所有答卷上写上你的姓名、班级和学号。",
+        "用深蓝色或黑色笔书写。",
+        "不要使用涂改液。",
+        "回答所有问题。",
+        "对于史料分析题，请仔细参考所提供的史料。"
+    ],
+    "sections": [
+        {
+            "name": "Section A: Multiple Choice Questions",
+            "name_zh": "第一部分：选择题",
+            "marks": 10,
+            "questions": [
+                {
+                    "number": 1,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "When did the Japanese occupation of Singapore begin?",
+                    "prompt_zh": "日本占领新加坡是从什么时候开始的？",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "7 December 1941"
+                        },
+                        {
+                            "label": "B",
+                            "text": "15 February 1942"
+                        },
+                        {
+                            "label": "C",
+                            "text": "8 September 1945"
+                        },
+                        {
+                            "label": "D",
+                            "text": "31 August 1957"
+                        }
+                    ]
+                },
+                {
+                    "number": 2,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "What was the Japanese name for Singapore during the occupation?",
+                    "prompt_zh": "日占时期新加坡的日文名称是什么？",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Malaya"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Syonan-to"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Greater East Asia"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Nippon"
+                        }
+                    ]
+                },
+                {
+                    "number": 3,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "What was the Sook Ching operation?",
+                    "prompt_zh": "肃清行动是什么？",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "A Japanese education program"
+                        },
+                        {
+                            "label": "B",
+                            "text": "A screening operation to identify anti-Japanese elements"
+                        },
+                        {
+                            "label": "C",
+                            "text": "A propaganda campaign"
+                        },
+                        {
+                            "label": "D",
+                            "text": "A food distribution system"
+                        }
+                    ]
+                },
+                {
+                    "number": 4,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "Which of the following was a challenge faced by people during the Japanese Occupation?",
+                    "prompt_zh": "以下哪项是日占时期人民面临的挑战？",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Economic prosperity"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Food shortages and use of 'banana money'"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Increased trade"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Better healthcare"
+                        }
+                    ]
+                },
+                {
+                    "number": 5,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "When did the Japanese surrender Singapore?",
+                    "prompt_zh": "日本是什么时候投降新加坡的？",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "15 August 1945"
+                        },
+                        {
+                            "label": "B",
+                            "text": "12 September 1945"
+                        },
+                        {
+                            "label": "C",
+                            "text": "31 August 1957"
+                        },
+                        {
+                            "label": "D",
+                            "text": "9 August 1965"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Section B: Source-Based Questions",
+            "name_zh": "第二部分：史料分析题",
+            "marks": 20,
+            "questions": [
+                {
+                    "number": 6,
+                    "marks": 8,
+                    "type": "structured",
+                    "prompt": "Study Source A below and answer the questions that follow.\n\n**Source A: An account from a survivor of the Japanese Occupation**\n\n*\"Those three and a half years were the darkest period of my life. We lived in constant fear. Food was scarce, and we had to grow tapioca in any space we could find. The Japanese military police, the Kempeitai, were everywhere. Anyone suspected of being anti-Japanese could be arrested.\"*",
+                    "prompt_zh": "阅读下面的史料A并回答以下问题。\n\n**史料A：日占时期幸存者的叙述**",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "According to Source A, what were TWO hardships faced during the Japanese Occupation?"
+                        },
+                        {
+                            "label": "b",
+                            "marks": 3,
+                            "prompt": "How did the Japanese Occupation affect the daily lives of Singaporeans?"
+                        },
+                        {
+                            "label": "c",
+                            "marks": 3,
+                            "prompt": "How useful is this source for understanding life during the Japanese Occupation? Explain your answer."
+                        }
+                    ]
+                },
+                {
+                    "number": 7,
+                    "marks": 6,
+                    "type": "structured",
+                    "prompt": "Study Source B below and answer the questions that follow.\n\n**Source B: Japanese propaganda poster, 1942-1945**\n\n*[The poster shows the slogan 'Asia for Asians' with imagery of Asian peoples working together under Japanese leadership.]*",
+                    "prompt_zh": "阅读下面的史料B并回答以下问题。\n\n**史料B：日本宣传海报，1942-1945年**",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "What message was the Japanese propaganda trying to convey?"
+                        },
+                        {
+                            "label": "b",
+                            "marks": 4,
+                            "prompt": "How reliable is this source for understanding Japanese intentions in Southeast Asia? Explain your answer."
+                        }
+                    ]
+                },
+                {
+                    "number": 8,
+                    "marks": 6,
+                    "type": "structured",
+                    "prompt": "Study Source C below and answer the questions that follow.\n\n**Source C: A photograph showing people queuing for food rations during the Japanese Occupation**\n\n*[The image shows long queues of people waiting for basic food supplies.]*",
+                    "prompt_zh": "阅读下面的史料C并回答以下问题。\n\n**史料C：日占时期人们排队领取食物配给的照片**",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "What does Source C show about life during the Japanese Occupation?"
+                        },
+                        {
+                            "label": "b",
+                            "marks": 4,
+                            "prompt": "Why was there a shortage of food during the Japanese Occupation?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Section C: Structured Essay Questions",
+            "name_zh": "第三部分：结构化论述题",
+            "marks": 20,
+            "questions": [
+                {
+                    "number": 9,
+                    "marks": 10,
+                    "type": "structured",
+                    "prompt": "The Japanese Occupation had a lasting impact on Singapore and its people.",
+                    "prompt_zh": "日本占领对新加坡及其人民产生了持久的影响。",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 4,
+                            "prompt": "Describe TWO ways in which the Japanese controlled the population of Singapore."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 6,
+                            "prompt": "Explain how the Japanese Occupation changed Singaporeans' attitudes towards British colonial rule."
+                        }
+                    ]
+                },
+                {
+                    "number": 10,
+                    "marks": 10,
+                    "type": "structured",
+                    "prompt": "After World War II, Singapore began its journey towards self-government.",
+                    "prompt_zh": "二战后，新加坡开始了走向自治的历程。",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 4,
+                            "prompt": "Describe the political situation in Singapore immediately after the Japanese surrender in 1945."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 6,
+                            "prompt": "Explain why the experience of the Japanese Occupation contributed to the desire for independence."
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "answerKey": [
+        {
+            "sectionName": "Section A",
+            "answers": [
+                {
+                    "questionNum": "1",
+                    "answer": "B (15 February 1942)"
+                },
+                {
+                    "questionNum": "2",
+                    "answer": "B (Syonan-to)"
+                },
+                {
+                    "questionNum": "3",
+                    "answer": "B (Screening operation)"
+                },
+                {
+                    "questionNum": "4",
+                    "answer": "B (Food shortages and 'banana money')"
+                },
+                {
+                    "questionNum": "5",
+                    "answer": "B (12 September 1945)"
+                }
+            ]
+        },
+        {
+            "sectionName": "Section B",
+            "answers": [
+                {
+                    "questionNum": "6a",
+                    "answer": "Fear, food scarcity, threat of arrest by Kempeitai"
+                },
+                {
+                    "questionNum": "7a",
+                    "answer": "Asia for Asians - Japanese leadership would liberate Asia from Western colonialism"
+                },
+                {
+                    "questionNum": "8b",
+                    "answer": "Trade disrupted, supply routes cut off, resources taken by Japan"
+                }
+            ]
+        },
+        {
+            "sectionName": "Section C",
+            "answers": [
+                {
+                    "questionNum": "9a",
+                    "answer": "Kempeitai surveillance, Sook Ching, food rationing, propaganda"
+                },
+                {
+                    "questionNum": "10b",
+                    "answer": "British failed to protect, promoted nationalism, self-reliance developed"
+                }
+            ]
+        }
+    ]
+}

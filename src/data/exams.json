@@ -225,6 +225,382 @@
         }
       ],
       "file": "sec1-math-eoy-paper2.md"
+    },
+    {
+      "id": "sec1-science-wa1",
+      "subject": "science",
+      "subjectName": "Science",
+      "subjectName_zh": "科学",
+      "gradeLevel": "sec1",
+      "assessmentType": "wa1",
+      "title": "Weighted Assessment 1",
+      "title_zh": "阶段测试一",
+      "description": "Term 1 assessment covering Scientific Methods, Measurement & Physical Properties",
+      "description_zh": "第一学期测试：科学方法、测量与物质的物理性质",
+      "duration": 60,
+      "totalMarks": 50,
+      "calculatorAllowed": true,
+      "topics": [
+        "Scientific Method",
+        "SI Units & Measurement",
+        "Physical Properties of Matter",
+        "Density"
+      ],
+      "topics_zh": [
+        "科学方法",
+        "国际单位制与测量",
+        "物质的物理性质",
+        "密度"
+      ],
+      "sections": [
+        {
+          "name": "Section A: Multiple Choice",
+          "name_zh": "第一部分：选择题",
+          "marks": 10,
+          "questions": 5
+        },
+        {
+          "name": "Section B: Short Answer",
+          "name_zh": "第二部分：简答题",
+          "marks": 20,
+          "questions": 5
+        },
+        {
+          "name": "Section C: Structured Questions",
+          "name_zh": "第三部分：结构化问题",
+          "marks": 20,
+          "questions": 3
+        }
+      ],
+      "file": "sec1-science-wa1.json"
+    },
+    {
+      "id": "sec1-science-wa2",
+      "subject": "science",
+      "subjectName": "Science",
+      "subjectName_zh": "科学",
+      "gradeLevel": "sec1",
+      "assessmentType": "wa2",
+      "title": "Weighted Assessment 2",
+      "title_zh": "阶段测试二",
+      "description": "Term 2 assessment covering Cells, Classification & Diversity of Life",
+      "description_zh": "第二学期测试：细胞、分类与生物多样性",
+      "duration": 60,
+      "totalMarks": 50,
+      "calculatorAllowed": true,
+      "topics": [
+        "Cells & Cell Processes",
+        "Classification of Living Things",
+        "Diversity of Life",
+        "Osmosis & Diffusion"
+      ],
+      "topics_zh": [
+        "细胞与细胞过程",
+        "生物分类",
+        "生物多样性",
+        "渗透与扩散"
+      ],
+      "sections": [
+        {
+          "name": "Section A: Multiple Choice",
+          "name_zh": "第一部分：选择题",
+          "marks": 10,
+          "questions": 5
+        },
+        {
+          "name": "Section B: Short Answer",
+          "name_zh": "第二部分：简答题",
+          "marks": 20,
+          "questions": 5
+        },
+        {
+          "name": "Section C: Structured Questions",
+          "name_zh": "第三部分：结构化问题",
+          "marks": 20,
+          "questions": 3
+        }
+      ],
+      "file": "sec1-science-wa2.json"
+    },
+    {
+      "id": "sec1-science-wa3",
+      "subject": "science",
+      "subjectName": "Science",
+      "subjectName_zh": "科学",
+      "gradeLevel": "sec1",
+      "assessmentType": "wa3",
+      "title": "Weighted Assessment 3",
+      "title_zh": "阶段测试三",
+      "description": "Term 3 assessment covering Energy, Forces & Heat Transfer",
+      "description_zh": "第三学期测试：能量、力与热传递",
+      "duration": 60,
+      "totalMarks": 50,
+      "calculatorAllowed": true,
+      "topics": [
+        "Energy Forms & Conversion",
+        "Forces & Motion",
+        "Heat Transfer",
+        "Work & Power"
+      ],
+      "topics_zh": [
+        "能量形式与转换",
+        "力与运动",
+        "热传递",
+        "功与功率"
+      ],
+      "sections": [
+        {
+          "name": "Section A: Multiple Choice",
+          "name_zh": "第一部分：选择题",
+          "marks": 10,
+          "questions": 5
+        },
+        {
+          "name": "Section B: Short Answer",
+          "name_zh": "第二部分：简答题",
+          "marks": 20,
+          "questions": 5
+        },
+        {
+          "name": "Section C: Structured Questions",
+          "name_zh": "第三部分：结构化问题",
+          "marks": 20,
+          "questions": 3
+        }
+      ],
+      "file": "sec1-science-wa3.json"
+    },
+    {
+      "id": "sec1-science-eoy",
+      "subject": "science",
+      "subjectName": "Science",
+      "subjectName_zh": "科学",
+      "gradeLevel": "sec1",
+      "assessmentType": "eoy",
+      "title": "End-of-Year Examination",
+      "title_zh": "年终考试",
+      "description": "Comprehensive exam covering all Sec 1 Science topics",
+      "description_zh": "涵盖中一科学全部课题的综合考试",
+      "duration": 90,
+      "totalMarks": 80,
+      "calculatorAllowed": true,
+      "topics": [
+        "All Sec 1 Science Topics",
+        "Scientific Method, Cells, Energy, Forces"
+      ],
+      "topics_zh": [
+        "中一科学全部课题",
+        "科学方法、细胞、能量、力"
+      ],
+      "sections": [
+        {
+          "name": "Section A: Multiple Choice",
+          "name_zh": "第一部分：选择题",
+          "marks": 20,
+          "questions": 10
+        },
+        {
+          "name": "Section B: Short Answer",
+          "name_zh": "第二部分：简答题",
+          "marks": 30,
+          "questions": 6
+        },
+        {
+          "name": "Section C: Structured Questions",
+          "name_zh": "第三部分：结构化问题",
+          "marks": 30,
+          "questions": 4
+        }
+      ],
+      "file": "sec1-science-eoy.json"
+    },
+    {
+      "id": "sec1-history-wa1",
+      "subject": "history",
+      "subjectName": "History",
+      "subjectName_zh": "历史",
+      "gradeLevel": "sec1",
+      "assessmentType": "wa1",
+      "title": "Weighted Assessment 1",
+      "title_zh": "阶段测试一",
+      "description": "Term 1 assessment covering Early Singapore & Founding of Modern Singapore",
+      "description_zh": "第一学期测试：早期新加坡与现代新加坡的建立",
+      "duration": 60,
+      "totalMarks": 50,
+      "calculatorAllowed": false,
+      "topics": [
+        "Early Singapore (Temasek)",
+        "Arrival of Stamford Raffles",
+        "Treaty of 1819",
+        "Strategic Importance"
+      ],
+      "topics_zh": [
+        "早期新加坡（淡马锡）",
+        "史丹福·莱佛士的到来",
+        "1819年条约",
+        "战略重要性"
+      ],
+      "sections": [
+        {
+          "name": "Section A: Multiple Choice",
+          "name_zh": "第一部分：选择题",
+          "marks": 10,
+          "questions": 5
+        },
+        {
+          "name": "Section B: Source-Based Questions",
+          "name_zh": "第二部分：史料分析题",
+          "marks": 20,
+          "questions": 3
+        },
+        {
+          "name": "Section C: Structured Essays",
+          "name_zh": "第三部分：结构化论述题",
+          "marks": 20,
+          "questions": 2
+        }
+      ],
+      "file": "sec1-history-wa1.json"
+    },
+    {
+      "id": "sec1-history-wa2",
+      "subject": "history",
+      "subjectName": "History",
+      "subjectName_zh": "历史",
+      "gradeLevel": "sec1",
+      "assessmentType": "wa2",
+      "title": "Weighted Assessment 2",
+      "title_zh": "阶段测试二",
+      "description": "Term 2 assessment covering Colonial Singapore & Immigration",
+      "description_zh": "第二学期测试：殖民地新加坡与移民",
+      "duration": 60,
+      "totalMarks": 50,
+      "calculatorAllowed": false,
+      "topics": [
+        "Straits Settlements",
+        "Crown Colony",
+        "Immigration & Society",
+        "Trade & Economy"
+      ],
+      "topics_zh": [
+        "海峡殖民地",
+        "皇家殖民地",
+        "移民与社会",
+        "贸易与经济"
+      ],
+      "sections": [
+        {
+          "name": "Section A: Multiple Choice",
+          "name_zh": "第一部分：选择题",
+          "marks": 10,
+          "questions": 5
+        },
+        {
+          "name": "Section B: Source-Based Questions",
+          "name_zh": "第二部分：史料分析题",
+          "marks": 20,
+          "questions": 3
+        },
+        {
+          "name": "Section C: Structured Essays",
+          "name_zh": "第三部分：结构化论述题",
+          "marks": 20,
+          "questions": 2
+        }
+      ],
+      "file": "sec1-history-wa2.json"
+    },
+    {
+      "id": "sec1-history-wa3",
+      "subject": "history",
+      "subjectName": "History",
+      "subjectName_zh": "历史",
+      "gradeLevel": "sec1",
+      "assessmentType": "wa3",
+      "title": "Weighted Assessment 3",
+      "title_zh": "阶段测试三",
+      "description": "Term 3 assessment covering Japanese Occupation & Road to Independence",
+      "description_zh": "第三学期测试：日本占领与走向独立之路",
+      "duration": 60,
+      "totalMarks": 50,
+      "calculatorAllowed": false,
+      "topics": [
+        "Fall of Singapore",
+        "Japanese Occupation (Syonan-to)",
+        "Sook Ching & Hardships",
+        "Post-War Singapore"
+      ],
+      "topics_zh": [
+        "新加坡沦陷",
+        "日本占领时期（昭南岛）",
+        "肃清与艰难时期",
+        "战后新加坡"
+      ],
+      "sections": [
+        {
+          "name": "Section A: Multiple Choice",
+          "name_zh": "第一部分：选择题",
+          "marks": 10,
+          "questions": 5
+        },
+        {
+          "name": "Section B: Source-Based Questions",
+          "name_zh": "第二部分：史料分析题",
+          "marks": 20,
+          "questions": 3
+        },
+        {
+          "name": "Section C: Structured Essays",
+          "name_zh": "第三部分：结构化论述题",
+          "marks": 20,
+          "questions": 2
+        }
+      ],
+      "file": "sec1-history-wa3.json"
+    },
+    {
+      "id": "sec1-history-eoy",
+      "subject": "history",
+      "subjectName": "History",
+      "subjectName_zh": "历史",
+      "gradeLevel": "sec1",
+      "assessmentType": "eoy",
+      "title": "End-of-Year Examination",
+      "title_zh": "年终考试",
+      "description": "Comprehensive exam covering all Sec 1 History topics",
+      "description_zh": "涵盖中一历史全部课题的综合考试",
+      "duration": 90,
+      "totalMarks": 80,
+      "calculatorAllowed": false,
+      "topics": [
+        "All Sec 1 History Topics",
+        "From Temasek to Japanese Occupation"
+      ],
+      "topics_zh": [
+        "中一历史全部课题",
+        "从淡马锡到日本占领"
+      ],
+      "sections": [
+        {
+          "name": "Section A: Multiple Choice",
+          "name_zh": "第一部分：选择题",
+          "marks": 20,
+          "questions": 10
+        },
+        {
+          "name": "Section B: Source-Based Questions",
+          "name_zh": "第二部分：史料分析题",
+          "marks": 30,
+          "questions": 4
+        },
+        {
+          "name": "Section C: Structured Essays",
+          "name_zh": "第三部分：结构化论述题",
+          "marks": 30,
+          "questions": 2
+        }
+      ],
+      "file": "sec1-history-eoy.json"
     }
   ],
   "assessmentTypes": {
@@ -254,11 +630,29 @@
     }
   },
   "gradeLevels": {
-    "sec1": { "name": "Secondary 1", "name_zh": "中一" },
-    "sec2": { "name": "Secondary 2", "name_zh": "中二" },
-    "sec3": { "name": "Secondary 3", "name_zh": "中三" },
-    "sec4": { "name": "Secondary 4", "name_zh": "中四" },
-    "jc1": { "name": "JC 1", "name_zh": "高一" },
-    "jc2": { "name": "JC 2", "name_zh": "高二" }
+    "sec1": {
+      "name": "Secondary 1",
+      "name_zh": "中一"
+    },
+    "sec2": {
+      "name": "Secondary 2",
+      "name_zh": "中二"
+    },
+    "sec3": {
+      "name": "Secondary 3",
+      "name_zh": "中三"
+    },
+    "sec4": {
+      "name": "Secondary 4",
+      "name_zh": "中四"
+    },
+    "jc1": {
+      "name": "JC 1",
+      "name_zh": "高一"
+    },
+    "jc2": {
+      "name": "JC 2",
+      "name_zh": "高二"
+    }
   }
 }

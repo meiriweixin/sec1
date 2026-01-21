@@ -32,6 +32,18 @@ import wa3Content from "@/data/exam-content/wa3.json";
 import eoyP1Content from "@/data/exam-content/eoy-p1.json";
 import eoyP2Content from "@/data/exam-content/eoy-p2.json";
 
+// Import Science exam content
+import scienceWa1Content from "@/data/exam-content/sec1-science-wa1.json";
+import scienceWa2Content from "@/data/exam-content/sec1-science-wa2.json";
+import scienceWa3Content from "@/data/exam-content/sec1-science-wa3.json";
+import scienceEoyContent from "@/data/exam-content/sec1-science-eoy.json";
+
+// Import History exam content
+import historyWa1Content from "@/data/exam-content/sec1-history-wa1.json";
+import historyWa2Content from "@/data/exam-content/sec1-history-wa2.json";
+import historyWa3Content from "@/data/exam-content/sec1-history-wa3.json";
+import historyEoyContent from "@/data/exam-content/sec1-history-eoy.json";
+
 interface ExamContent {
   id: string;
   instructions: string[];
@@ -65,6 +77,16 @@ const examContents: Record<string, ExamContent> = {
   'sec1-math-wa3': wa3Content as ExamContent,
   'sec1-math-eoy-p1': eoyP1Content as ExamContent,
   'sec1-math-eoy-p2': eoyP2Content as ExamContent,
+  // Science exams
+  'sec1-science-wa1': scienceWa1Content as ExamContent,
+  'sec1-science-wa2': scienceWa2Content as ExamContent,
+  'sec1-science-wa3': scienceWa3Content as ExamContent,
+  'sec1-science-eoy': scienceEoyContent as ExamContent,
+  // History exams
+  'sec1-history-wa1': historyWa1Content as ExamContent,
+  'sec1-history-wa2': historyWa2Content as ExamContent,
+  'sec1-history-wa3': historyWa3Content as ExamContent,
+  'sec1-history-eoy': historyEoyContent as ExamContent,
 };
 
 export default function ExamView() {
