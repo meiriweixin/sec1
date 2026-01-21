@@ -1,0 +1,345 @@
+{
+    "id": "sec1-geography-wa3",
+    "instructions": [
+        "Write your name, class, and index number on all the work you hand in.",
+        "Write in dark blue or black pen.",
+        "Do not use correction fluid.",
+        "Answer ALL questions.",
+        "Where the question requires a diagram, it must be drawn clearly.",
+        "Calculators may be used for this paper."
+    ],
+    "sections": [
+        {
+            "name": "Section A: Multiple Choice Questions",
+            "marks": 10,
+            "questions": [
+                {
+                    "number": 1,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "Where are tropical rainforests mainly found?",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Near the North and South Poles"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Near the Equator between the Tropics of Cancer and Capricorn"
+                        },
+                        {
+                            "label": "C",
+                            "text": "In desert regions"
+                        },
+                        {
+                            "label": "D",
+                            "text": "In temperate regions"
+                        }
+                    ]
+                },
+                {
+                    "number": 2,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "Which of the following is a characteristic of tropical rainforests?",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Low rainfall throughout the year"
+                        },
+                        {
+                            "label": "B",
+                            "text": "High temperatures and high rainfall"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Four distinct seasons"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Low biodiversity"
+                        }
+                    ]
+                },
+                {
+                    "number": 3,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "What is the name of the top layer of the rainforest where the tallest trees are found?",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Canopy"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Understory"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Emergent layer"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Forest floor"
+                        }
+                    ]
+                },
+                {
+                    "number": 4,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "What adaptation helps rainforest trees support themselves in shallow, nutrient-poor soil?",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Drip tips"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Buttress roots"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Thick bark"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Small leaves"
+                        }
+                    ]
+                },
+                {
+                    "number": 5,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "Where are mangroves typically found?",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "On mountain tops"
+                        },
+                        {
+                            "label": "B",
+                            "text": "In coastal areas, estuaries, and tidal zones"
+                        },
+                        {
+                            "label": "C",
+                            "text": "In the middle of deserts"
+                        },
+                        {
+                            "label": "D",
+                            "text": "In deep ocean waters"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Section B: Data Response Questions",
+            "marks": 20,
+            "questions": [
+                {
+                    "number": 6,
+                    "marks": 6,
+                    "type": "structured",
+                    "prompt": "Study the diagram showing the layers (structure) of a tropical rainforest.",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "Name the FOUR layers of the tropical rainforest."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 4,
+                            "prompt": "Explain why the forest floor receives very little sunlight."
+                        }
+                    ]
+                },
+                {
+                    "number": 7,
+                    "marks": 8,
+                    "type": "structured",
+                    "prompt": "Study the photograph of a mangrove tree showing its root system.",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "Identify the type of roots shown in the photograph."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 3,
+                            "prompt": "Explain how these roots help the mangrove tree survive in its environment."
+                        },
+                        {
+                            "label": "c",
+                            "marks": 3,
+                            "prompt": "Describe ONE other adaptation of mangrove trees."
+                        }
+                    ]
+                },
+                {
+                    "number": 8,
+                    "marks": 6,
+                    "type": "structured",
+                    "prompt": "Study the map showing the global distribution of tropical rainforests.",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "Name TWO countries where tropical rainforests are found."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 4,
+                            "prompt": "Explain why tropical rainforests are found in these locations."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Section C: Structured Questions",
+            "marks": 20,
+            "questions": [
+                {
+                    "number": 9,
+                    "marks": 10,
+                    "type": "structured",
+                    "prompt": "Tropical rainforests have unique characteristics and high biodiversity.",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 4,
+                            "prompt": "Describe THREE characteristics of the climate in tropical rainforests."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 3,
+                            "prompt": "Explain why tropical rainforests have high biodiversity."
+                        },
+                        {
+                            "label": "c",
+                            "marks": 3,
+                            "prompt": "Describe TWO plant adaptations to life in the tropical rainforest."
+                        }
+                    ]
+                },
+                {
+                    "number": 10,
+                    "marks": 10,
+                    "type": "structured",
+                    "prompt": "Mangroves play an important role in the environment.",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 4,
+                            "prompt": "Describe TWO characteristics of mangrove ecosystems."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 3,
+                            "prompt": "Explain how mangroves protect coastal areas from natural hazards."
+                        },
+                        {
+                            "label": "c",
+                            "marks": 3,
+                            "prompt": "State TWO reasons why mangroves are important for biodiversity."
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "answerKey": [
+        {
+            "sectionName": "Section A",
+            "answers": [
+                {
+                    "questionNum": "1",
+                    "answer": "B (Near the Equator between the Tropics of Cancer and Capricorn)"
+                },
+                {
+                    "questionNum": "2",
+                    "answer": "B (High temperatures and high rainfall)"
+                },
+                {
+                    "questionNum": "3",
+                    "answer": "C (Emergent layer)"
+                },
+                {
+                    "questionNum": "4",
+                    "answer": "B (Buttress roots)"
+                },
+                {
+                    "questionNum": "5",
+                    "answer": "B (In coastal areas, estuaries, and tidal zones)"
+                }
+            ]
+        },
+        {
+            "sectionName": "Section B",
+            "answers": [
+                {
+                    "questionNum": "6a",
+                    "answer": "Emergent layer, Canopy, Understory, Forest floor"
+                },
+                {
+                    "questionNum": "6b",
+                    "answer": "The dense canopy formed by tall trees blocks most sunlight from reaching the forest floor. Leaves at the top layers absorb sunlight for photosynthesis."
+                },
+                {
+                    "questionNum": "7a",
+                    "answer": "Prop roots / Stilt roots / Aerial roots"
+                },
+                {
+                    "questionNum": "7b",
+                    "answer": "Prop roots anchor the tree in soft, waterlogged mud; they also help with gas exchange (obtaining oxygen) in oxygen-poor soil."
+                },
+                {
+                    "questionNum": "7c",
+                    "answer": "Salt-excreting leaves, vivipary (seeds germinate while still attached to parent), waxy leaves to reduce water loss, pneumatophores (breathing roots)."
+                },
+                {
+                    "questionNum": "8a",
+                    "answer": "Brazil, Indonesia, Democratic Republic of Congo, Malaysia, Peru (any two)."
+                },
+                {
+                    "questionNum": "8b",
+                    "answer": "Located near the Equator with consistent high temperatures (25-30C) and high rainfall (over 2000mm annually); no dry season."
+                }
+            ]
+        },
+        {
+            "sectionName": "Section C",
+            "answers": [
+                {
+                    "questionNum": "9a",
+                    "answer": "1) High temperatures (25-30C) year-round. 2) High rainfall (2000-4000mm yearly). 3) High humidity (over 80%). 4) No distinct seasons."
+                },
+                {
+                    "questionNum": "9b",
+                    "answer": "Constant warm temperatures and abundant water provide ideal conditions for many species; stable climate allows species to evolve and specialize; layered structure provides many habitats."
+                },
+                {
+                    "questionNum": "9c",
+                    "answer": "Drip tips (to shed excess water), buttress roots (for support), thick waxy leaves (to prevent water loss), lianas/vines (to reach sunlight)."
+                },
+                {
+                    "questionNum": "10a",
+                    "answer": "1) Found in intertidal zones with brackish water. 2) Trees adapted to saline conditions. 3) Rich in nutrients from organic matter. 4) Complex root systems."
+                },
+                {
+                    "questionNum": "10b",
+                    "answer": "Mangrove roots absorb wave energy, reducing the impact of storms and tsunamis; they prevent coastal erosion by stabilizing sediments; act as a buffer against strong winds."
+                },
+                {
+                    "questionNum": "10c",
+                    "answer": "1) Provide nursery habitat for fish and crustaceans. 2) Home to many bird species. 3) Support food web for marine and terrestrial organisms."
+                }
+            ]
+        }
+    ]
+}

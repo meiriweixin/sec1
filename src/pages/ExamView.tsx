@@ -44,13 +44,31 @@ import historyWa2Content from "@/data/exam-content/sec1-history-wa2.json";
 import historyWa3Content from "@/data/exam-content/sec1-history-wa3.json";
 import historyEoyContent from "@/data/exam-content/sec1-history-eoy.json";
 
+// Import Geography exam content
+import geographyWa1Content from "@/data/exam-content/sec1-geography-wa1.json";
+import geographyWa2Content from "@/data/exam-content/sec1-geography-wa2.json";
+import geographyWa3Content from "@/data/exam-content/sec1-geography-wa3.json";
+import geographyEoyContent from "@/data/exam-content/sec1-geography-eoy.json";
+
+// Import English exam content
+import englishWa1Content from "@/data/exam-content/sec1-english-wa1.json";
+import englishWa2Content from "@/data/exam-content/sec1-english-wa2.json";
+import englishWa3Content from "@/data/exam-content/sec1-english-wa3.json";
+import englishEoyContent from "@/data/exam-content/sec1-english-eoy.json";
+
+// Import Chinese exam content
+import chineseWa1Content from "@/data/exam-content/sec1-chinese-wa1.json";
+import chineseWa2Content from "@/data/exam-content/sec1-chinese-wa2.json";
+import chineseWa3Content from "@/data/exam-content/sec1-chinese-wa3.json";
+import chineseEoyContent from "@/data/exam-content/sec1-chinese-eoy.json";
+
 interface ExamContent {
   id: string;
   instructions: string[];
-  instructions_zh: string[];
+  instructions_zh?: string[];
   sections: {
     name: string;
-    name_zh: string;
+    name_zh?: string;
     marks: number;
     questions: Question[];
   }[];
@@ -65,10 +83,11 @@ interface Question {
   marks: number;
   prompt: string;
   prompt_zh?: string;
-  type: 'mcq' | 'short' | 'structured';
+  type: 'mcq' | 'short' | 'structured' | 'short_answer' | 'composition' | 'mcq_group';
   choices?: { label: string; text: string; text_zh?: string }[];
   parts?: { label: string; marks: number; prompt: string; prompt_zh?: string }[];
   diagram?: string;
+  passage?: string;
 }
 
 const examContents: Record<string, ExamContent> = {
@@ -87,6 +106,21 @@ const examContents: Record<string, ExamContent> = {
   'sec1-history-wa2': historyWa2Content as ExamContent,
   'sec1-history-wa3': historyWa3Content as ExamContent,
   'sec1-history-eoy': historyEoyContent as ExamContent,
+  // Geography exams
+  'sec1-geography-wa1': geographyWa1Content as ExamContent,
+  'sec1-geography-wa2': geographyWa2Content as ExamContent,
+  'sec1-geography-wa3': geographyWa3Content as ExamContent,
+  'sec1-geography-eoy': geographyEoyContent as ExamContent,
+  // English exams
+  'sec1-english-wa1': englishWa1Content as ExamContent,
+  'sec1-english-wa2': englishWa2Content as ExamContent,
+  'sec1-english-wa3': englishWa3Content as ExamContent,
+  'sec1-english-eoy': englishEoyContent as ExamContent,
+  // Chinese exams
+  'sec1-chinese-wa1': chineseWa1Content as ExamContent,
+  'sec1-chinese-wa2': chineseWa2Content as ExamContent,
+  'sec1-chinese-wa3': chineseWa3Content as ExamContent,
+  'sec1-chinese-eoy': chineseEoyContent as ExamContent,
 };
 
 export default function ExamView() {
@@ -170,7 +204,7 @@ export default function ExamView() {
         >
           <Button
             variant="ghost"
-            onClick={() => navigate('/exams')}
+            onClick={() => navigate(`/exams?subject=${exam?.subject || ''}`)}
             className="mb-4"
           >
             <ArrowLeft className="h-4 w-4 mr-2" />
@@ -309,6 +343,13 @@ export default function ExamView() {
                       <div className="prose prose-sm max-w-none dark:prose-invert mb-3">
                         {renderMath(language === 'zh' && question.prompt_zh ? question.prompt_zh : question.prompt)}
                       </div>
+
+                      {/* Passage for Editing questions */}
+                      {(question as any).passage && (
+                        <div className="my-4 p-4 border rounded bg-muted/30">
+                          <pre className="text-sm whitespace-pre-wrap font-sans leading-relaxed">{(question as any).passage}</pre>
+                        </div>
+                      )}
 
                       {/* Diagram placeholder */}
                       {question.diagram && (

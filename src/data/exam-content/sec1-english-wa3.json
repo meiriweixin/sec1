@@ -1,0 +1,249 @@
+{
+    "id": "sec1-english-wa3",
+    "instructions": [
+        "Write your name, class, and index number on all the work you hand in.",
+        "Write in dark blue or black pen.",
+        "Do not use correction fluid.",
+        "Answer ALL questions.",
+        "Write your answers in the spaces provided.",
+        "The number of marks is given at the end of each question."
+    ],
+    "sections": [
+        {
+            "name": "Section A: Editing",
+            "marks": 10,
+            "questions": [
+                {
+                    "number": 1,
+                    "marks": 10,
+                    "type": "structured",
+                    "prompt": "The following passage contains 10 grammatical errors. Each line has ONE error. Identify and correct each error.",
+                    "passage": "Line 1: Environmental pollution have become a major concern worldwide.\nLine 2: Many factors contributes to the worsening air quality in cities.\nLine 3: Vehicles emits harmful gases that pollute the atmosphere.\nLine 4: The government is working hardly to address this issue.\nLine 5: New policies has been introduced to reduce carbon emissions.\nLine 6: Citizens are encourage to use public transportation more often.\nLine 7: Planting more trees are one way to improve air quality.\nLine 8: This is because trees absorbs carbon dioxide from the air.\nLine 9: Everyone should do their part to protect the environments.\nLine 10: Together, we can made a difference for future generations.",
+                    "parts": [
+                        {
+                            "label": "1",
+                            "marks": 1,
+                            "prompt": "Line 1 correction:"
+                        },
+                        {
+                            "label": "2",
+                            "marks": 1,
+                            "prompt": "Line 2 correction:"
+                        },
+                        {
+                            "label": "3",
+                            "marks": 1,
+                            "prompt": "Line 3 correction:"
+                        },
+                        {
+                            "label": "4",
+                            "marks": 1,
+                            "prompt": "Line 4 correction:"
+                        },
+                        {
+                            "label": "5",
+                            "marks": 1,
+                            "prompt": "Line 5 correction:"
+                        },
+                        {
+                            "label": "6",
+                            "marks": 1,
+                            "prompt": "Line 6 correction:"
+                        },
+                        {
+                            "label": "7",
+                            "marks": 1,
+                            "prompt": "Line 7 correction:"
+                        },
+                        {
+                            "label": "8",
+                            "marks": 1,
+                            "prompt": "Line 8 correction:"
+                        },
+                        {
+                            "label": "9",
+                            "marks": 1,
+                            "prompt": "Line 9 correction:"
+                        },
+                        {
+                            "label": "10",
+                            "marks": 1,
+                            "prompt": "Line 10 correction:"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Section B: Reading Comprehension - Literary Text",
+            "marks": 20,
+            "questions": [
+                {
+                    "number": 2,
+                    "marks": 20,
+                    "type": "structured",
+                    "prompt": "Read the passage carefully and answer the questions that follow.\n\n**THE OLD LIGHTHOUSE**\n\nThe lighthouse had stood on the cliff for over a hundred years, a silent sentinel guarding the rocky coastline. Its white walls, once pristine, were now weathered and stained by decades of salt spray and storms. Yet to young Emma, it was the most beautiful building in the world.\n\nEvery summer, Emma would visit her grandfather, the lighthouse keeper, spending long days exploring the rugged shore and listening to his tales of the sea. Grandfather would tell her about the ships he had guided safely through treacherous waters, the fierce storms he had weathered, and the quiet nights when the ocean lay as still as glass beneath a canopy of stars.\n\n\"A lighthouse keeper's job is simple,\" Grandfather would say, his weathered hands wrapped around a cup of hot tea. \"We keep the light burning. No matter what happens, the light must never go out. Sailors depend on it to find their way home.\"\n\nThis summer was different. When Emma arrived, she noticed that Grandfather moved more slowly, his once-strong shoulders now slightly stooped. The stairs to the lamp room, which he used to climb with ease, now left him breathless. Yet his eyes still sparkled when he spoke of his beloved lighthouse.\n\nOne stormy night, the power failed. Emma watched as Grandfather struggled to his feet, determination etched on his face. \"The light,\" he whispered urgently. \"We must keep the light burning.\"\n\nTogether, they climbed the spiral staircase, Grandfather leaning heavily on Emma's shoulder. With trembling hands, he showed her how to light the backup oil lamp, how to adjust the lens so that its beam would reach far out to sea. As the golden light pierced through the darkness, Grandfather smiled, and Emma understood. Some duties transcend age and weakness. Some lights must never be allowed to go out.\n\nYears later, when Emma became the lighthouse's new keeper, she would often think of that night and her grandfather's unwavering dedication. The lighthouse still stands, its beam sweeping across the dark waters, a symbol of hope and guidance for all who sail past.",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "What does the phrase 'silent sentinel' (paragraph 1) tell us about the lighthouse?"
+                        },
+                        {
+                            "label": "b",
+                            "marks": 2,
+                            "prompt": "What kind of stories did Grandfather tell Emma during her visits?"
+                        },
+                        {
+                            "label": "c",
+                            "marks": 3,
+                            "prompt": "What changes did Emma notice in her grandfather this summer? Give TWO examples from the passage."
+                        },
+                        {
+                            "label": "d",
+                            "marks": 2,
+                            "prompt": "Explain what Grandfather meant when he said, 'the light must never go out' (paragraph 3)."
+                        },
+                        {
+                            "label": "e",
+                            "marks": 3,
+                            "prompt": "How did Emma help her grandfather during the power failure? Describe what happened."
+                        },
+                        {
+                            "label": "f",
+                            "marks": 2,
+                            "prompt": "What lesson did Emma learn from her grandfather that night?"
+                        },
+                        {
+                            "label": "g",
+                            "marks": 6,
+                            "prompt": "SUMMARY: In about 60 words, summarize the relationship between Emma and her grandfather and what the lighthouse symbolizes in the story."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Section C: Situational Writing",
+            "marks": 15,
+            "questions": [
+                {
+                    "number": 3,
+                    "marks": 15,
+                    "type": "composition",
+                    "prompt": "Your school is organizing an Environment Week to raise awareness about environmental issues.\n\nAs the Environment Club President, write an announcement to be read during morning assembly.\n\nYour announcement should include:\n• The purpose of Environment Week\n• The dates and key activities planned\n• How students can participate\n• Why students should get involved\n\nWrite your announcement in about 150-200 words. Use an appropriate tone for a school announcement."
+                }
+            ]
+        },
+        {
+            "name": "Section D: Continuous Writing (Descriptive/Reflective)",
+            "marks": 25,
+            "questions": [
+                {
+                    "number": 4,
+                    "marks": 25,
+                    "type": "composition",
+                    "prompt": "Write a composition of about 250-300 words on ONE of the following topics.\n\nTopic A: Describe a place that is special to you and explain why it is meaningful.\n\nTopic B: Write about a person who has influenced you greatly.\n\nTopic C: Reflect on an event that changed the way you see the world.\n\nYour composition should:\n• Use vivid descriptive language\n• Include sensory details (sight, sound, smell, touch, taste)\n• Explain the significance or meaning clearly\n• Engage the reader with your personal voice"
+                }
+            ]
+        }
+    ],
+    "answerKey": [
+        {
+            "sectionName": "Section A",
+            "answers": [
+                {
+                    "questionNum": "1.1",
+                    "answer": "have → has"
+                },
+                {
+                    "questionNum": "1.2",
+                    "answer": "contributes → contribute"
+                },
+                {
+                    "questionNum": "1.3",
+                    "answer": "emits → emit"
+                },
+                {
+                    "questionNum": "1.4",
+                    "answer": "hardly → hard"
+                },
+                {
+                    "questionNum": "1.5",
+                    "answer": "has → have"
+                },
+                {
+                    "questionNum": "1.6",
+                    "answer": "encourage → encouraged"
+                },
+                {
+                    "questionNum": "1.7",
+                    "answer": "are → is"
+                },
+                {
+                    "questionNum": "1.8",
+                    "answer": "absorbs → absorb"
+                },
+                {
+                    "questionNum": "1.9",
+                    "answer": "environments → environment"
+                },
+                {
+                    "questionNum": "1.10",
+                    "answer": "made → make"
+                }
+            ]
+        },
+        {
+            "sectionName": "Section B",
+            "answers": [
+                {
+                    "questionNum": "2a",
+                    "answer": "It suggests the lighthouse stands watch over the coastline like a guard or protector, silently keeping ships safe without making a sound."
+                },
+                {
+                    "questionNum": "2b",
+                    "answer": "He told stories about ships he guided safely through dangerous waters, fierce storms he survived, and quiet peaceful nights at sea."
+                },
+                {
+                    "questionNum": "2c",
+                    "answer": "1) He moved more slowly. 2) His shoulders were slightly stooped. 3) Climbing the stairs left him breathless."
+                },
+                {
+                    "questionNum": "2d",
+                    "answer": "It means the lighthouse must always remain lit because sailors depend on it for navigation and to find their way home safely. Metaphorically, it also means some responsibilities must never be abandoned."
+                },
+                {
+                    "questionNum": "2e",
+                    "answer": "Emma helped her grandfather climb the spiral staircase by letting him lean on her shoulder. Together they reached the lamp room, where Grandfather showed her how to light the backup oil lamp and adjust the lens."
+                },
+                {
+                    "questionNum": "2f",
+                    "answer": "She learned that some duties are more important than personal difficulties, and that dedication to one's responsibilities transcends age and physical weakness."
+                },
+                {
+                    "questionNum": "2g",
+                    "answer": "Emma shares a close bond with her grandfather, spending summers listening to his sea tales and helping at the lighthouse. The lighthouse symbolizes duty, dedication, and guidance. When Grandfather passes on his knowledge during a storm, Emma learns that some responsibilities must never be abandoned, inspiring her to become the next keeper."
+                }
+            ]
+        },
+        {
+            "sectionName": "Section C",
+            "answers": [
+                {
+                    "questionNum": "3",
+                    "answer": "Marking criteria: Format (3 marks) - appropriate announcement format. Content (8 marks) - all required points addressed clearly. Language (4 marks) - appropriate tone, clear expression, correct grammar."
+                }
+            ]
+        },
+        {
+            "sectionName": "Section D",
+            "answers": [
+                {
+                    "questionNum": "4",
+                    "answer": "Marking criteria: Content (10 marks) - meaningful description, clear significance. Language (8 marks) - vivid vocabulary, sensory details, varied sentences. Organization (7 marks) - logical structure, effective paragraphing, engaging opening and closing."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,369 @@
+{
+    "id": "sec1-english-eoy",
+    "instructions": [
+        "Write your name, class, and index number on all the work you hand in.",
+        "Write in dark blue or black pen.",
+        "Do not use correction fluid.",
+        "Answer ALL questions.",
+        "Write your answers in the spaces provided.",
+        "The number of marks is given at the end of each question.",
+        "This is a comprehensive examination covering all Sec 1 English Language skills."
+    ],
+    "sections": [
+        {
+            "name": "Section A: Editing",
+            "marks": 10,
+            "questions": [
+                {
+                    "number": 1,
+                    "marks": 10,
+                    "type": "structured",
+                    "prompt": "The following passage contains 10 grammatical errors. Each line has ONE error. Identify and correct each error.",
+                    "passage": "Line 1: Singapore is a small island nation who has achieved great success.\nLine 2: Despite it's limited land area, the country has prospered remarkably.\nLine 3: The government have invested heavily in education and technology.\nLine 4: This investments have helped Singapore become a global hub for business.\nLine 5: Many international companies has set up their headquarters here.\nLine 6: The workforce is high educated and skilled in various industries.\nLine 7: Tourism also plays an important role in the countries economy.\nLine 8: Visitors are attract by the blend of cultures and modern attractions.\nLine 9: The famous Marina Bay Sands hotel has became an iconic landmark.\nLine 10: Singapore continues to grew and develop as a world-class city.",
+                    "parts": [
+                        {
+                            "label": "1",
+                            "marks": 1,
+                            "prompt": "Line 1 correction:"
+                        },
+                        {
+                            "label": "2",
+                            "marks": 1,
+                            "prompt": "Line 2 correction:"
+                        },
+                        {
+                            "label": "3",
+                            "marks": 1,
+                            "prompt": "Line 3 correction:"
+                        },
+                        {
+                            "label": "4",
+                            "marks": 1,
+                            "prompt": "Line 4 correction:"
+                        },
+                        {
+                            "label": "5",
+                            "marks": 1,
+                            "prompt": "Line 5 correction:"
+                        },
+                        {
+                            "label": "6",
+                            "marks": 1,
+                            "prompt": "Line 6 correction:"
+                        },
+                        {
+                            "label": "7",
+                            "marks": 1,
+                            "prompt": "Line 7 correction:"
+                        },
+                        {
+                            "label": "8",
+                            "marks": 1,
+                            "prompt": "Line 8 correction:"
+                        },
+                        {
+                            "label": "9",
+                            "marks": 1,
+                            "prompt": "Line 9 correction:"
+                        },
+                        {
+                            "label": "10",
+                            "marks": 1,
+                            "prompt": "Line 10 correction:"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Section B: Visual Text Comprehension",
+            "marks": 5,
+            "questions": [
+                {
+                    "number": 2,
+                    "marks": 5,
+                    "type": "structured",
+                    "prompt": "Study the poster below and answer the questions that follow.\n\n[POSTER]\n**YOUTH VOLUNTEER PROGRAMME**\n**Making a Difference Together**\n\nJoin us this December holiday!\n\nProgramme Details:\n• Duration: 5 days (16-20 December 2024)\n• Time: 9:00 AM - 3:00 PM daily\n• Location: Various community centres across Singapore\n\nActivities Include:\n✓ Befriending elderly residents\n✓ Teaching basic digital skills to seniors\n✓ Organizing games and activities\n✓ Helping with meal preparation\n\nBenefits:\n★ Certificate of Participation\n★ CCA points (up to 10 hours)\n★ Free meals provided\n★ Make new friends!\n\nLimited to 50 participants. Open to all secondary school students.\n\nRegister by 1 December at www.youthvolunteer.sg\nEnquiries: volunteer@youthsg.org",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 1,
+                            "prompt": "How many days does the volunteer programme last?"
+                        },
+                        {
+                            "label": "b",
+                            "marks": 1,
+                            "prompt": "What is ONE activity that volunteers will do with the elderly?"
+                        },
+                        {
+                            "label": "c",
+                            "marks": 1,
+                            "prompt": "What is the deadline for registration?"
+                        },
+                        {
+                            "label": "d",
+                            "marks": 2,
+                            "prompt": "Give TWO reasons why a student might want to join this programme."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Section C: Reading Comprehension - Passage 1 (Narrative)",
+            "marks": 20,
+            "questions": [
+                {
+                    "number": 3,
+                    "marks": 20,
+                    "type": "structured",
+                    "prompt": "Read the passage carefully and answer the questions that follow.\n\n**THE COMPETITION**\n\nMei Ling's fingers trembled as she took her seat at the piano. The auditorium was packed with hundreds of spectators, their expectant faces blurring into a sea of anonymity under the harsh stage lights. This was the National Youth Piano Competition, and she was the last performer of the day.\n\nFor months, she had practiced relentlessly, sacrificing weekends with friends and countless hours of sleep. Her mother had sat beside her every evening, patiently turning pages and offering words of encouragement. Even her younger brother, usually a noisy disturbance, had learned to tiptoe past her room during practice sessions.\n\nAs Mei Ling positioned her hands over the keys, a wave of memories washed over her. She remembered the day she first touched a piano at age five, the magical sound that had captivated her young heart. She recalled the frustration of learning difficult pieces, the tears she had shed over seemingly impossible passages, and the joy of finally mastering them.\n\nThe opening notes of Chopin's Ballade No. 1 flowed from her fingertips. At first, her playing was tentative, each note carefully placed. But as the music swelled, something miraculous happened. Mei Ling forgot about the audience, the judges, and the competition. She became one with the music, pouring her soul into every phrase.\n\nWhen the final chord faded into silence, there was a moment of stunned quiet before the auditorium erupted in thunderous applause. Mei Ling stood and bowed, tears streaming down her face. Whether she won or lost no longer mattered. She had overcome her greatest fear and discovered that true victory lies not in defeating others, but in conquering oneself.",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "How did Mei Ling feel at the beginning of the competition? Use evidence from the passage."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 2,
+                            "prompt": "What does the phrase 'a sea of anonymity' (paragraph 1) suggest about how Mei Ling viewed the audience?"
+                        },
+                        {
+                            "label": "c",
+                            "marks": 3,
+                            "prompt": "How did Mei Ling's family support her preparation for the competition? Give TWO examples."
+                        },
+                        {
+                            "label": "d",
+                            "marks": 3,
+                            "prompt": "Describe how Mei Ling's performance changed as she played. What caused this change?"
+                        },
+                        {
+                            "label": "e",
+                            "marks": 2,
+                            "prompt": "What does the author mean by 'true victory lies not in defeating others, but in conquering oneself'?"
+                        },
+                        {
+                            "label": "f",
+                            "marks": 8,
+                            "prompt": "SUMMARY: In about 80 words, summarize Mei Ling's journey from preparation to her performance at the competition."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Section D: Reading Comprehension - Passage 2 (Non-Narrative)",
+            "marks": 20,
+            "questions": [
+                {
+                    "number": 4,
+                    "marks": 20,
+                    "type": "structured",
+                    "prompt": "Read the passage carefully and answer the questions that follow.\n\n**THE RISE OF E-SPORTS**\n\nOnce dismissed as mere child's play, competitive video gaming has evolved into a global phenomenon that rivals traditional sports in popularity and revenue. E-sports, short for electronic sports, refers to organized, competitive video gaming where professional players and teams compete for substantial prize pools, sometimes reaching millions of dollars.\n\nThe e-sports industry has experienced explosive growth in recent years. In 2023, the global e-sports audience reached over 500 million viewers, with major tournaments broadcast on television and streaming platforms worldwide. The industry generates billions of dollars annually through sponsorships, advertising, media rights, and merchandise sales.\n\nProfessional e-sports players undergo rigorous training regimens that would surprise many skeptics. Top players practice for 10 to 12 hours daily, focusing on reflexes, strategy, teamwork, and mental endurance. Many professional teams employ coaches, analysts, nutritionists, and sports psychologists, mirroring the support systems of traditional athletic organizations.\n\nHowever, the rise of e-sports has not been without controversy. Critics argue that excessive gaming can lead to health problems, including eye strain, repetitive stress injuries, and sedentary lifestyle issues. There are also concerns about gaming addiction, particularly among young people. In response, many e-sports organizations have implemented health and wellness programs for their players.\n\nDespite these challenges, the future of e-sports looks promising. The International Olympic Committee has considered including e-sports in future Olympic Games, and universities worldwide now offer scholarships for talented gamers. As technology continues to advance, e-sports will likely become an even more significant part of the global entertainment landscape.",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "What does 'e-sports' stand for and what does it involve?"
+                        },
+                        {
+                            "label": "b",
+                            "marks": 2,
+                            "prompt": "Give TWO statistics from the passage that show the growth of e-sports."
+                        },
+                        {
+                            "label": "c",
+                            "marks": 3,
+                            "prompt": "How is the training of professional e-sports players similar to traditional athletes? Give TWO examples."
+                        },
+                        {
+                            "label": "d",
+                            "marks": 3,
+                            "prompt": "What are THREE concerns that critics have about e-sports, according to the passage?"
+                        },
+                        {
+                            "label": "e",
+                            "marks": 2,
+                            "prompt": "What evidence does the author provide that e-sports is gaining acceptance?"
+                        },
+                        {
+                            "label": "f",
+                            "marks": 8,
+                            "prompt": "SUMMARY: In about 80 words, summarize both the benefits and drawbacks of e-sports discussed in the passage."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Section E: Situational Writing",
+            "marks": 15,
+            "questions": [
+                {
+                    "number": 5,
+                    "marks": 15,
+                    "type": "composition",
+                    "prompt": "You recently attended a community event and want to share your experience.\n\nWrite a letter to your friend describing the event and encouraging them to attend similar events in the future.\n\nYour letter should include:\n• What the event was and when it took place\n• What activities you participated in\n• What you enjoyed most about the event\n• Why your friend should attend similar events\n\nWrite your letter in about 200-250 words. Use an appropriate informal letter format."
+                }
+            ]
+        },
+        {
+            "name": "Section F: Continuous Writing",
+            "marks": 30,
+            "questions": [
+                {
+                    "number": 6,
+                    "marks": 30,
+                    "type": "composition",
+                    "prompt": "Write a composition of about 300-350 words on ONE of the following topics.\n\nTopic A (Narrative): Write a story about a character who faces a difficult choice between doing what is easy and doing what is right.\n\nTopic B (Descriptive): Describe a festival or celebration in your culture and explain its significance.\n\nTopic C (Argumentative/Expository): 'Technology has made our lives better.' Do you agree? Explain your views.\n\nTopic D (Personal Recount): Write about an experience that taught you the value of friendship.\n\nYour composition should:\n• Have a clear structure with introduction, body paragraphs, and conclusion\n• Use appropriate language and style for your chosen genre\n• Include relevant details and examples\n• Demonstrate varied sentence structures and vocabulary"
+                }
+            ]
+        }
+    ],
+    "answerKey": [
+        {
+            "sectionName": "Section A",
+            "answers": [
+                {
+                    "questionNum": "1.1",
+                    "answer": "who → that/which"
+                },
+                {
+                    "questionNum": "1.2",
+                    "answer": "it's → its"
+                },
+                {
+                    "questionNum": "1.3",
+                    "answer": "have → has"
+                },
+                {
+                    "questionNum": "1.4",
+                    "answer": "This → These"
+                },
+                {
+                    "questionNum": "1.5",
+                    "answer": "has → have"
+                },
+                {
+                    "questionNum": "1.6",
+                    "answer": "high → highly"
+                },
+                {
+                    "questionNum": "1.7",
+                    "answer": "countries → country's"
+                },
+                {
+                    "questionNum": "1.8",
+                    "answer": "attract → attracted"
+                },
+                {
+                    "questionNum": "1.9",
+                    "answer": "became → become"
+                },
+                {
+                    "questionNum": "1.10",
+                    "answer": "grew → grow"
+                }
+            ]
+        },
+        {
+            "sectionName": "Section B",
+            "answers": [
+                {
+                    "questionNum": "2a",
+                    "answer": "5 days"
+                },
+                {
+                    "questionNum": "2b",
+                    "answer": "Any one: Befriending elderly residents / Teaching basic digital skills to seniors / Organizing games and activities / Helping with meal preparation"
+                },
+                {
+                    "questionNum": "2c",
+                    "answer": "1 December"
+                },
+                {
+                    "questionNum": "2d",
+                    "answer": "Any two: Certificate of participation / CCA points / Free meals / Making new friends / Helping the community / Learning new skills / Holiday activity"
+                }
+            ]
+        },
+        {
+            "sectionName": "Section C",
+            "answers": [
+                {
+                    "questionNum": "3a",
+                    "answer": "She felt nervous and anxious. Evidence: 'fingers trembled' as she took her seat."
+                },
+                {
+                    "questionNum": "3b",
+                    "answer": "It suggests the audience appeared as an undifferentiated mass where she could not distinguish individual faces - they seemed unfamiliar and overwhelming."
+                },
+                {
+                    "questionNum": "3c",
+                    "answer": "1) Her mother sat beside her every evening, turning pages and encouraging her. 2) Her younger brother learned to be quiet and tiptoe past her room during practice."
+                },
+                {
+                    "questionNum": "3d",
+                    "answer": "At first, her playing was tentative and careful. But as the music swelled, she forgot about the audience and competition, becoming one with the music. The change happened when she lost herself in the performance."
+                },
+                {
+                    "questionNum": "3e",
+                    "answer": "It means that real success comes from overcoming your own fears and limitations, rather than simply being better than other competitors."
+                },
+                {
+                    "questionNum": "3f",
+                    "answer": "Mei Ling practiced for months, sacrificing time with friends and sleep, supported by her patient mother and quiet brother. At the National Youth Piano Competition, she initially felt nervous, her fingers trembling. As she played Chopin's Ballade, she overcame her fear and became one with the music. The audience's applause confirmed her triumph over herself."
+                }
+            ]
+        },
+        {
+            "sectionName": "Section D",
+            "answers": [
+                {
+                    "questionNum": "4a",
+                    "answer": "E-sports stands for 'electronic sports'. It refers to organized, competitive video gaming where professional players and teams compete for prizes."
+                },
+                {
+                    "questionNum": "4b",
+                    "answer": "1) Global audience reached over 500 million viewers in 2023. 2) The industry generates billions of dollars annually. 3) Prize pools can reach millions of dollars."
+                },
+                {
+                    "questionNum": "4c",
+                    "answer": "1) Top players practice 10-12 hours daily. 2) Teams employ coaches, analysts, nutritionists, and sports psychologists."
+                },
+                {
+                    "questionNum": "4d",
+                    "answer": "1) Health problems like eye strain and repetitive stress injuries. 2) Sedentary lifestyle issues. 3) Gaming addiction, especially among young people."
+                },
+                {
+                    "questionNum": "4e",
+                    "answer": "The International Olympic Committee has considered including e-sports in future Olympics, and universities now offer scholarships for talented gamers."
+                },
+                {
+                    "questionNum": "4f",
+                    "answer": "E-sports has become a global phenomenon with 500 million viewers and billions in revenue. Professional players train rigorously with support teams similar to traditional athletes. However, critics raise concerns about health problems including eye strain, repetitive stress injuries, and sedentary lifestyles. Gaming addiction among youth is also a worry. Despite these issues, e-sports gains recognition through Olympic consideration and university scholarships."
+                }
+            ]
+        },
+        {
+            "sectionName": "Section E",
+            "answers": [
+                {
+                    "questionNum": "5",
+                    "answer": "Marking criteria: Format (3 marks) - correct informal letter format. Content (8 marks) - all required points covered with detail. Language (4 marks) - appropriate informal tone, correct grammar, varied vocabulary."
+                }
+            ]
+        },
+        {
+            "sectionName": "Section F",
+            "answers": [
+                {
+                    "questionNum": "6",
+                    "answer": "Marking criteria: Content (12 marks) - relevant, engaging content with clear focus. Language (10 marks) - varied vocabulary, correct grammar, appropriate style. Organization (8 marks) - clear structure, logical flow, effective paragraphing."
+                }
+            ]
+        }
+    ]
+}

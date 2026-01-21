@@ -1,0 +1,345 @@
+{
+    "id": "sec1-geography-wa2",
+    "instructions": [
+        "Write your name, class, and index number on all the work you hand in.",
+        "Write in dark blue or black pen.",
+        "Do not use correction fluid.",
+        "Answer ALL questions.",
+        "Where the question requires a diagram, it must be drawn clearly.",
+        "Calculators may be used for this paper."
+    ],
+    "sections": [
+        {
+            "name": "Section A: Multiple Choice Questions",
+            "marks": 10,
+            "questions": [
+                {
+                    "number": 1,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "Which of the following is a cause of water scarcity?",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "High rainfall"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Overpopulation"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Water recycling"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Reforestation"
+                        }
+                    ]
+                },
+                {
+                    "number": 2,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "What is the term for water that is not suitable for human consumption due to contamination?",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Freshwater"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Potable water"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Polluted water"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Groundwater"
+                        }
+                    ]
+                },
+                {
+                    "number": 3,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "Which of Singapore's 'Four National Taps' involves treating used water?",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Local catchment"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Imported water"
+                        },
+                        {
+                            "label": "C",
+                            "text": "NEWater"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Desalination"
+                        }
+                    ]
+                },
+                {
+                    "number": 4,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "What is the main source of water pollution in industrial areas?",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Agricultural runoff"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Factory discharge"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Sewage from homes"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Natural erosion"
+                        }
+                    ]
+                },
+                {
+                    "number": 5,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "Which country does Singapore import water from?",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Indonesia"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Malaysia"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Thailand"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Brunei"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Section B: Data Response Questions",
+            "marks": 20,
+            "questions": [
+                {
+                    "number": 6,
+                    "marks": 6,
+                    "type": "structured",
+                    "prompt": "Study the graph below showing water consumption in Singapore from 2000 to 2020.",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "Describe the trend in water consumption shown in the graph."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 4,
+                            "prompt": "Suggest TWO reasons for the trend you have described."
+                        }
+                    ]
+                },
+                {
+                    "number": 7,
+                    "marks": 8,
+                    "type": "structured",
+                    "prompt": "Study the map showing areas affected by water scarcity in the world.",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "Identify ONE region that experiences high water scarcity."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 3,
+                            "prompt": "Explain why this region faces water scarcity."
+                        },
+                        {
+                            "label": "c",
+                            "marks": 3,
+                            "prompt": "Describe ONE way this region can manage its water resources."
+                        }
+                    ]
+                },
+                {
+                    "number": 8,
+                    "marks": 6,
+                    "type": "structured",
+                    "prompt": "Study the table showing sources of water pollution.",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "Which source of pollution contributes the most to water contamination?"
+                        },
+                        {
+                            "label": "b",
+                            "marks": 4,
+                            "prompt": "Explain the effects of water pollution on human health and the environment."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Section C: Structured Questions",
+            "marks": 20,
+            "questions": [
+                {
+                    "number": 9,
+                    "marks": 10,
+                    "type": "structured",
+                    "prompt": "Water scarcity is a growing global concern.",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 4,
+                            "prompt": "Explain TWO causes of water scarcity."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 3,
+                            "prompt": "Describe the impacts of water scarcity on people's lives."
+                        },
+                        {
+                            "label": "c",
+                            "marks": 3,
+                            "prompt": "Suggest ONE way individuals can conserve water."
+                        }
+                    ]
+                },
+                {
+                    "number": 10,
+                    "marks": 10,
+                    "type": "structured",
+                    "prompt": "Singapore has developed innovative water management strategies.",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 4,
+                            "prompt": "Describe Singapore's 'Four National Taps' strategy."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 3,
+                            "prompt": "Explain how NEWater helps Singapore achieve water security."
+                        },
+                        {
+                            "label": "c",
+                            "marks": 3,
+                            "prompt": "What are the advantages and disadvantages of desalination?"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "answerKey": [
+        {
+            "sectionName": "Section A",
+            "answers": [
+                {
+                    "questionNum": "1",
+                    "answer": "B (Overpopulation)"
+                },
+                {
+                    "questionNum": "2",
+                    "answer": "C (Polluted water)"
+                },
+                {
+                    "questionNum": "3",
+                    "answer": "C (NEWater)"
+                },
+                {
+                    "questionNum": "4",
+                    "answer": "B (Factory discharge)"
+                },
+                {
+                    "questionNum": "5",
+                    "answer": "B (Malaysia)"
+                }
+            ]
+        },
+        {
+            "sectionName": "Section B",
+            "answers": [
+                {
+                    "questionNum": "6a",
+                    "answer": "Water consumption has been increasing steadily / has remained stable / decreased slightly (depending on actual data)."
+                },
+                {
+                    "questionNum": "6b",
+                    "answer": "Population growth, increased industrialization, more household usage, economic development."
+                },
+                {
+                    "questionNum": "7a",
+                    "answer": "Middle East, North Africa, Sub-Saharan Africa, Central Asia (any one)."
+                },
+                {
+                    "questionNum": "7b",
+                    "answer": "Low rainfall, high evaporation rates, over-extraction of groundwater, climate change."
+                },
+                {
+                    "questionNum": "7c",
+                    "answer": "Building dams, desalination plants, water recycling, drip irrigation, rainwater harvesting."
+                },
+                {
+                    "questionNum": "8a",
+                    "answer": "Industrial waste, agricultural runoff, sewage discharge (depends on data given)."
+                },
+                {
+                    "questionNum": "8b",
+                    "answer": "Health effects: diseases like cholera, diarrhea. Environmental effects: death of aquatic life, eutrophication, loss of biodiversity."
+                }
+            ]
+        },
+        {
+            "sectionName": "Section C",
+            "answers": [
+                {
+                    "questionNum": "9a",
+                    "answer": "Climate change causing droughts, population growth increasing demand, pollution reducing usable water, over-extraction of groundwater."
+                },
+                {
+                    "questionNum": "9b",
+                    "answer": "Lack of drinking water, poor sanitation, food shortages due to failed crops, conflict over water resources."
+                },
+                {
+                    "questionNum": "9c",
+                    "answer": "Taking shorter showers, fixing leaky taps, using water-efficient appliances, rainwater collection."
+                },
+                {
+                    "questionNum": "10a",
+                    "answer": "1) Local catchment - collecting rainwater in reservoirs. 2) Imported water - from Malaysia via agreements. 3) NEWater - treated reclaimed water. 4) Desalinated water - from seawater."
+                },
+                {
+                    "questionNum": "10b",
+                    "answer": "NEWater provides a reliable, weather-independent source; reduces reliance on imported water; meets industrial and potable needs."
+                },
+                {
+                    "questionNum": "10c",
+                    "answer": "Advantages: Unlimited supply of seawater, high-quality water. Disadvantages: High energy cost, expensive to build and maintain, environmental concerns (brine disposal)."
+                }
+            ]
+        }
+    ]
+}

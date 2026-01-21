@@ -1,0 +1,283 @@
+{
+    "id": "sec1-english-wa1",
+    "instructions": [
+        "Write your name, class, and index number on all the work you hand in.",
+        "Write in dark blue or black pen.",
+        "Do not use correction fluid.",
+        "Answer ALL questions.",
+        "Write your answers in the spaces provided.",
+        "The number of marks is given at the end of each question."
+    ],
+    "sections": [
+        {
+            "name": "Section A: Editing",
+            "marks": 10,
+            "questions": [
+                {
+                    "number": 1,
+                    "marks": 10,
+                    "type": "structured",
+                    "prompt": "The following passage contains 10 grammatical errors. Each line has ONE error. Identify and correct each error. Write your corrections in the spaces provided.",
+                    "passage": "Line 1: The students was excited about their first day at secondary school.\nLine 2: They has packed their bags the night before with all the necessary items.\nLine 3: Maria, along with her friends, were waiting at the bus stop eagerly.\nLine 4: The principle gave an inspiring speech during the morning assembly.\nLine 5: Everyone listen attentively to the instructions given by the teachers.\nLine 6: The canteen food smelled deliciously and made everyone hungry.\nLine 7: Ahmad run quickly to his classroom when he heard the bell ring.\nLine 8: The library is more bigger than the one in their primary school.\nLine 9: She putted her books on the desk and sat down quietly.\nLine 10: The teacher asked the students to raised their hands before speaking.",
+                    "parts": [
+                        {
+                            "label": "1",
+                            "marks": 1,
+                            "prompt": "Line 1 correction:"
+                        },
+                        {
+                            "label": "2",
+                            "marks": 1,
+                            "prompt": "Line 2 correction:"
+                        },
+                        {
+                            "label": "3",
+                            "marks": 1,
+                            "prompt": "Line 3 correction:"
+                        },
+                        {
+                            "label": "4",
+                            "marks": 1,
+                            "prompt": "Line 4 correction:"
+                        },
+                        {
+                            "label": "5",
+                            "marks": 1,
+                            "prompt": "Line 5 correction:"
+                        },
+                        {
+                            "label": "6",
+                            "marks": 1,
+                            "prompt": "Line 6 correction:"
+                        },
+                        {
+                            "label": "7",
+                            "marks": 1,
+                            "prompt": "Line 7 correction:"
+                        },
+                        {
+                            "label": "8",
+                            "marks": 1,
+                            "prompt": "Line 8 correction:"
+                        },
+                        {
+                            "label": "9",
+                            "marks": 1,
+                            "prompt": "Line 9 correction:"
+                        },
+                        {
+                            "label": "10",
+                            "marks": 1,
+                            "prompt": "Line 10 correction:"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Section B: Visual Text Comprehension",
+            "marks": 5,
+            "questions": [
+                {
+                    "number": 2,
+                    "marks": 5,
+                    "type": "structured",
+                    "prompt": "Study the advertisement below and answer the questions that follow.\n\n[ADVERTISEMENT]\n**RIVERSIDE SECONDARY SCHOOL**\n**CCA FAIR 2024**\n\nDate: 15 January 2024 (Monday)\nTime: 2:00 PM - 5:00 PM\nVenue: School Hall\n\nDiscover your passion! Join us for an exciting showcase of:\n• Sports CCAs (Basketball, Badminton, Swimming, Track & Field)\n• Performing Arts (Choir, Band, Drama, Dance)\n• Uniformed Groups (NCC, NPCC, Scouts, Girl Guides)\n• Clubs & Societies (Debate, Robotics, Photography, Art Club)\n\nSpecial Performances at 3:00 PM!\nFree refreshments for all participants!\n\nFor enquiries: cca@riversidess.edu.sg",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 1,
+                            "prompt": "When is the CCA Fair taking place?"
+                        },
+                        {
+                            "label": "b",
+                            "marks": 1,
+                            "prompt": "How long is the event?"
+                        },
+                        {
+                            "label": "c",
+                            "marks": 1,
+                            "prompt": "Name TWO performing arts CCAs mentioned in the advertisement."
+                        },
+                        {
+                            "label": "d",
+                            "marks": 2,
+                            "prompt": "Why do you think the school is organizing this CCA Fair? Give TWO reasons."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Section C: Reading Comprehension",
+            "marks": 20,
+            "questions": [
+                {
+                    "number": 3,
+                    "marks": 20,
+                    "type": "structured",
+                    "prompt": "Read the passage carefully and answer the questions that follow.\n\n**THE NEW STUDENT**\n\nSarah Chen clutched her bag tightly as she walked through the school gates on her first day at Westwood Secondary. The unfamiliar surroundings made her heart pound with anxiety. Back in her old school, she had been popular and confident, but here, she felt like a small fish in a vast ocean.\n\nThe morning assembly was overwhelming. Hundreds of students filled the hall, their voices creating a deafening buzz. Sarah spotted an empty seat near the back and quickly slipped into it, hoping to remain invisible.\n\n\"Hey, you're the new student, right?\" A cheerful voice startled her. Sarah turned to see a girl with bright eyes and a friendly smile. \"I'm Maya. Don't worry, everyone feels lost on their first day. I remember being terrified when I started here last year.\"\n\nSarah felt a wave of relief wash over her. \"I'm Sarah. Is it really that obvious that I'm new?\"\n\nMaya laughed. \"Well, you have that 'deer in headlights' look that all new students have. But trust me, by next week, you'll feel right at home.\" She paused and then added, \"Why don't you sit with me and my friends during recess? We can show you around the school.\"\n\nAs the day progressed, Sarah discovered that Westwood Secondary was not as intimidating as she had imagined. The teachers were welcoming, and several classmates made efforts to include her in conversations. During recess, Maya introduced her to a group of friendly students who bombarded her with questions about her previous school and hobbies.\n\nBy the end of the day, Sarah realized that her initial fears had been unfounded. She had made her first friends and was beginning to appreciate the unique opportunities that her new school offered. As she walked home, a smile played on her lips. Perhaps this new chapter in her life would turn out to be an exciting adventure after all.",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "How did Sarah feel when she first entered Westwood Secondary? Use evidence from the passage to support your answer."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 2,
+                            "prompt": "What does the phrase 'small fish in a vast ocean' (paragraph 1) suggest about Sarah's feelings?"
+                        },
+                        {
+                            "label": "c",
+                            "marks": 2,
+                            "prompt": "How did Maya try to make Sarah feel comfortable? Give TWO ways."
+                        },
+                        {
+                            "label": "d",
+                            "marks": 2,
+                            "prompt": "What does 'deer in headlights' look (paragraph 5) mean in this context?"
+                        },
+                        {
+                            "label": "e",
+                            "marks": 3,
+                            "prompt": "How did Sarah's view of Westwood Secondary change by the end of the day? Explain with reference to the passage."
+                        },
+                        {
+                            "label": "f",
+                            "marks": 3,
+                            "prompt": "What lesson can readers learn from Sarah's experience on her first day?"
+                        },
+                        {
+                            "label": "g",
+                            "marks": 6,
+                            "prompt": "SUMMARY: In about 60 words, summarize how Sarah's feelings changed throughout her first day at Westwood Secondary."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Section D: Situational Writing",
+            "marks": 15,
+            "questions": [
+                {
+                    "number": 4,
+                    "marks": 15,
+                    "type": "composition",
+                    "prompt": "You are a Secondary 1 student at Greendale Secondary School. Your class teacher, Ms. Tan, has asked students to recommend a CCA for new students.\n\nWrite an email to Ms. Tan recommending ONE CCA that you think new students should join.\n\nIn your email, you should:\n• State which CCA you are recommending\n• Explain why you think it is suitable for new students\n• Describe what students can learn or gain from this CCA\n\nWrite your email in about 150-200 words. You should use the formal email format.\n\nYour email address is student@greendaless.edu.sg\nMs. Tan's email address is mstan@greendaless.edu.sg"
+                }
+            ]
+        }
+    ],
+    "answerKey": [
+        {
+            "sectionName": "Section A",
+            "answers": [
+                {
+                    "questionNum": "1.1",
+                    "answer": "was → were"
+                },
+                {
+                    "questionNum": "1.2",
+                    "answer": "has → had"
+                },
+                {
+                    "questionNum": "1.3",
+                    "answer": "were → was"
+                },
+                {
+                    "questionNum": "1.4",
+                    "answer": "principle → principal"
+                },
+                {
+                    "questionNum": "1.5",
+                    "answer": "listen → listened"
+                },
+                {
+                    "questionNum": "1.6",
+                    "answer": "deliciously → delicious"
+                },
+                {
+                    "questionNum": "1.7",
+                    "answer": "run → ran"
+                },
+                {
+                    "questionNum": "1.8",
+                    "answer": "more bigger → bigger"
+                },
+                {
+                    "questionNum": "1.9",
+                    "answer": "putted → put"
+                },
+                {
+                    "questionNum": "1.10",
+                    "answer": "raised → raise"
+                }
+            ]
+        },
+        {
+            "sectionName": "Section B",
+            "answers": [
+                {
+                    "questionNum": "2a",
+                    "answer": "15 January 2024 (Monday)"
+                },
+                {
+                    "questionNum": "2b",
+                    "answer": "3 hours (from 2:00 PM to 5:00 PM)"
+                },
+                {
+                    "questionNum": "2c",
+                    "answer": "Any two from: Choir, Band, Drama, Dance"
+                },
+                {
+                    "questionNum": "2d",
+                    "answer": "1) To help students discover their interests/passions. 2) To provide information about available CCAs. 3) To help new students choose a suitable CCA. 4) To showcase what each CCA offers."
+                }
+            ]
+        },
+        {
+            "sectionName": "Section C",
+            "answers": [
+                {
+                    "questionNum": "3a",
+                    "answer": "Sarah felt anxious and nervous. Evidence: 'her heart pound with anxiety' and she 'felt like a small fish in a vast ocean'."
+                },
+                {
+                    "questionNum": "3b",
+                    "answer": "It suggests she felt insignificant, overwhelmed, and out of place in the new environment."
+                },
+                {
+                    "questionNum": "3c",
+                    "answer": "1) Maya introduced herself and spoke cheerfully to Sarah. 2) She shared her own experience of being new. 3) She invited Sarah to sit with her friends during recess."
+                },
+                {
+                    "questionNum": "3d",
+                    "answer": "It means looking scared, confused, or frozen with fear - the way someone looks when they are startled or don't know what to do."
+                },
+                {
+                    "questionNum": "3e",
+                    "answer": "By the end of the day, Sarah realized her fears were unfounded. She found the teachers welcoming, made friends, and began to see her new school as an exciting adventure rather than an intimidating place."
+                },
+                {
+                    "questionNum": "3f",
+                    "answer": "Accept answers like: Don't let fear stop you from trying new things / First impressions can be wrong / Being open to new friendships can help in new situations / Things often turn out better than expected."
+                },
+                {
+                    "questionNum": "3g",
+                    "answer": "Sarah initially felt anxious and overwhelmed when she arrived at her new school, feeling like a small fish in a vast ocean. However, after Maya befriended her and invited her to join her group, Sarah began to feel welcomed. By the end of the day, she was optimistic and excited about her new school."
+                }
+            ]
+        },
+        {
+            "sectionName": "Section D",
+            "answers": [
+                {
+                    "questionNum": "4",
+                    "answer": "Marking criteria: Format (3 marks) - correct email format with To, From, Subject, greeting, sign-off. Content (8 marks) - clear recommendation, valid reasons, benefits explained. Language (4 marks) - appropriate formal tone, grammar, vocabulary."
+                }
+            ]
+        }
+    ]
+}

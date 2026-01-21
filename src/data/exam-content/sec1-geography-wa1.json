@@ -1,0 +1,330 @@
+{
+    "id": "sec1-geography-wa1",
+    "instructions": [
+        "Write your name, class, and index number on all the work you hand in.",
+        "Write in dark blue or black pen.",
+        "Do not use correction fluid.",
+        "Answer ALL questions.",
+        "Where the question requires a diagram, it must be drawn clearly.",
+        "Calculators may be used for this paper."
+    ],
+    "sections": [
+        {
+            "name": "Section A: Multiple Choice Questions",
+            "marks": 10,
+            "questions": [
+                {
+                    "number": 1,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "Which of the following is NOT a branch of Geography?",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Physical Geography"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Human Geography"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Biological Geography"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Environmental Geography"
+                        }
+                    ]
+                },
+                {
+                    "number": 2,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "What percentage of the Earth's water is freshwater?",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "About 97%"
+                        },
+                        {
+                            "label": "B",
+                            "text": "About 3%"
+                        },
+                        {
+                            "label": "C",
+                            "text": "About 50%"
+                        },
+                        {
+                            "label": "D",
+                            "text": "About 25%"
+                        }
+                    ]
+                },
+                {
+                    "number": 3,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "Which process in the hydrological cycle involves water changing from a liquid to water vapour?",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Condensation"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Precipitation"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Evaporation"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Infiltration"
+                        }
+                    ]
+                },
+                {
+                    "number": 4,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "What is the term for water released from plants into the atmosphere?",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Evaporation"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Transpiration"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Respiration"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Percolation"
+                        }
+                    ]
+                },
+                {
+                    "number": 5,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "Which of the following stores the largest amount of freshwater on Earth?",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Rivers"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Lakes"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Ice caps and glaciers"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Atmosphere"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Section B: Short Answer Questions",
+            "marks": 20,
+            "questions": [
+                {
+                    "number": 6,
+                    "marks": 4,
+                    "type": "short_answer",
+                    "prompt": "Define the term 'environment' in Geography."
+                },
+                {
+                    "number": 7,
+                    "marks": 4,
+                    "type": "short_answer",
+                    "prompt": "Explain the difference between 'space' and 'place' in geographical terms."
+                },
+                {
+                    "number": 8,
+                    "marks": 6,
+                    "type": "structured",
+                    "prompt": "Study the diagram of the hydrological cycle below and answer the questions.",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "Identify TWO processes shown in the hydrological cycle diagram."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 4,
+                            "prompt": "Explain how water moves from the ocean to the land in the hydrological cycle."
+                        }
+                    ]
+                },
+                {
+                    "number": 9,
+                    "marks": 6,
+                    "type": "structured",
+                    "prompt": "Look at the pie chart showing the distribution of water on Earth.",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "What percentage of Earth's water is saltwater?"
+                        },
+                        {
+                            "label": "b",
+                            "marks": 4,
+                            "prompt": "Explain why only a small amount of freshwater is accessible for human use."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Section C: Structured Questions",
+            "marks": 20,
+            "questions": [
+                {
+                    "number": 10,
+                    "marks": 10,
+                    "type": "structured",
+                    "prompt": "The hydrological cycle is essential for maintaining water supply on Earth.",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 4,
+                            "prompt": "Describe THREE processes involved in the hydrological cycle."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 3,
+                            "prompt": "Explain why the hydrological cycle is described as a 'closed system'."
+                        },
+                        {
+                            "label": "c",
+                            "marks": 3,
+                            "prompt": "Describe ONE human activity that can affect the hydrological cycle."
+                        }
+                    ]
+                },
+                {
+                    "number": 11,
+                    "marks": 10,
+                    "type": "structured",
+                    "prompt": "Geography helps us understand the relationship between humans and the environment.",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 4,
+                            "prompt": "Explain the difference between Physical Geography and Human Geography. Give ONE example of each."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 3,
+                            "prompt": "What is meant by the term 'scale' in Geography? Give an example."
+                        },
+                        {
+                            "label": "c",
+                            "marks": 3,
+                            "prompt": "Explain why it is important to study Geography in today's world."
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "answerKey": [
+        {
+            "sectionName": "Section A",
+            "answers": [
+                {
+                    "questionNum": "1",
+                    "answer": "C (Biological Geography is not a standard branch)"
+                },
+                {
+                    "questionNum": "2",
+                    "answer": "B (About 3%)"
+                },
+                {
+                    "questionNum": "3",
+                    "answer": "C (Evaporation)"
+                },
+                {
+                    "questionNum": "4",
+                    "answer": "B (Transpiration)"
+                },
+                {
+                    "questionNum": "5",
+                    "answer": "C (Ice caps and glaciers)"
+                }
+            ]
+        },
+        {
+            "sectionName": "Section B",
+            "answers": [
+                {
+                    "questionNum": "6",
+                    "answer": "Environment refers to the surroundings or conditions in which a person, animal, or plant lives or operates. In Geography, it includes both natural (physical) and human-made elements."
+                },
+                {
+                    "questionNum": "7",
+                    "answer": "Space refers to the physical area or location in abstract terms, while Place refers to a location with meaning and identity attached to it by people."
+                },
+                {
+                    "questionNum": "8a",
+                    "answer": "Evaporation, Condensation, Precipitation, Transpiration, Infiltration, Surface runoff (any two)"
+                },
+                {
+                    "questionNum": "8b",
+                    "answer": "Water evaporates from the ocean, rises and cools to form clouds (condensation), then falls as precipitation over land."
+                },
+                {
+                    "questionNum": "9a",
+                    "answer": "About 97%"
+                },
+                {
+                    "questionNum": "9b",
+                    "answer": "Most freshwater is locked in ice caps and glaciers or deep underground, making it inaccessible for human use."
+                }
+            ]
+        },
+        {
+            "sectionName": "Section C",
+            "answers": [
+                {
+                    "questionNum": "10a",
+                    "answer": "Evaporation (water changes from liquid to vapour), Condensation (water vapour cools to form clouds), Precipitation (water falls as rain/snow)"
+                },
+                {
+                    "questionNum": "10b",
+                    "answer": "It is a closed system because no water is added or lost; water is continuously recycled between the atmosphere, land, and oceans."
+                },
+                {
+                    "questionNum": "10c",
+                    "answer": "Deforestation reduces transpiration, urbanization increases surface runoff, damming rivers alters water flow."
+                },
+                {
+                    "questionNum": "11a",
+                    "answer": "Physical Geography studies natural features (e.g., rivers, mountains, climate). Human Geography studies human activities and their relationship with the environment (e.g., cities, migration, trade)."
+                },
+                {
+                    "questionNum": "11b",
+                    "answer": "Scale refers to the level of detail or size of the area being studied (e.g., local scale = a neighborhood, global scale = the whole world)."
+                },
+                {
+                    "questionNum": "11c",
+                    "answer": "Geography helps us understand environmental issues, natural disasters, climate change, resource management, and sustainable development."
+                }
+            ]
+        }
+    ]
+}

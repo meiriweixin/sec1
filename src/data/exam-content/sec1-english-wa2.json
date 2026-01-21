@@ -1,0 +1,228 @@
+{
+    "id": "sec1-english-wa2",
+    "instructions": [
+        "Write your name, class, and index number on all the work you hand in.",
+        "Write in dark blue or black pen.",
+        "Do not use correction fluid.",
+        "Answer ALL questions.",
+        "Write your answers in the spaces provided.",
+        "The number of marks is given at the end of each question."
+    ],
+    "sections": [
+        {
+            "name": "Section A: Editing",
+            "marks": 10,
+            "questions": [
+                {
+                    "number": 1,
+                    "marks": 10,
+                    "type": "structured",
+                    "prompt": "The following passage contains 10 grammatical errors. Each line has ONE error. Identify and correct each error.",
+                    "passage": "Line 1: Last weekend, my family and I goes to the zoo for a day trip.\nLine 2: We arrives at the zoo early in the morning to avoid the crowd.\nLine 3: The weather was perfectly for our outdoor adventure.\nLine 4: My younger sister were especially excited to see the pandas.\nLine 5: She has always been fascinate by these adorable creatures.\nLine 6: The zookeeper gave us informations about the animals' habitats.\nLine 7: We learned that pandas eats mostly bamboo shoots and leaves.\nLine 8: After lunch, we watched a show featuring trained sealions.\nLine 9: The seals performed amazing tricks that leaved everyone amazed.\nLine 10: We returned home tired but happily after a wonderful day.",
+                    "parts": [
+                        {
+                            "label": "1",
+                            "marks": 1,
+                            "prompt": "Line 1 correction:"
+                        },
+                        {
+                            "label": "2",
+                            "marks": 1,
+                            "prompt": "Line 2 correction:"
+                        },
+                        {
+                            "label": "3",
+                            "marks": 1,
+                            "prompt": "Line 3 correction:"
+                        },
+                        {
+                            "label": "4",
+                            "marks": 1,
+                            "prompt": "Line 4 correction:"
+                        },
+                        {
+                            "label": "5",
+                            "marks": 1,
+                            "prompt": "Line 5 correction:"
+                        },
+                        {
+                            "label": "6",
+                            "marks": 1,
+                            "prompt": "Line 6 correction:"
+                        },
+                        {
+                            "label": "7",
+                            "marks": 1,
+                            "prompt": "Line 7 correction:"
+                        },
+                        {
+                            "label": "8",
+                            "marks": 1,
+                            "prompt": "Line 8 correction:"
+                        },
+                        {
+                            "label": "9",
+                            "marks": 1,
+                            "prompt": "Line 9 correction:"
+                        },
+                        {
+                            "label": "10",
+                            "marks": 1,
+                            "prompt": "Line 10 correction:"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Section B: Reading Comprehension - Non-Narrative",
+            "marks": 20,
+            "questions": [
+                {
+                    "number": 2,
+                    "marks": 20,
+                    "type": "structured",
+                    "prompt": "Read the passage carefully and answer the questions that follow.\n\n**THE IMPORTANCE OF SLEEP FOR TEENAGERS**\n\nSleep is often undervalued in today's fast-paced world, yet it plays a crucial role in the physical and mental development of teenagers. Research shows that adolescents need between eight to ten hours of sleep per night, yet most teenagers get significantly less. This sleep deficit can have far-reaching consequences on their health, academic performance, and emotional well-being.\n\nDuring sleep, the body undergoes essential repair processes. Growth hormones are released, helping teenagers develop physically. The brain also uses this time to consolidate memories and process information learned during the day. Without adequate sleep, students may struggle to retain what they have studied, leading to poorer academic results.\n\nThe advent of smartphones and social media has exacerbated the sleep crisis among teenagers. Many young people spend hours scrolling through their feeds or playing games late into the night. The blue light emitted by these devices suppresses the production of melatonin, a hormone that regulates sleep, making it harder to fall asleep. Furthermore, the constant notifications create a fear of missing out, compelling teenagers to stay connected at the expense of their rest.\n\nLack of sleep also affects mood and mental health. Sleep-deprived teenagers are more likely to experience irritability, mood swings, and symptoms of anxiety and depression. They may find it difficult to concentrate in class and are more prone to making poor decisions. Studies have even linked chronic sleep deprivation to increased risk of obesity, as tired individuals tend to crave high-calorie foods.\n\nTo combat this issue, experts recommend establishing a consistent sleep schedule, even on weekends. Creating a relaxing bedtime routine, such as reading a book or taking a warm shower, can signal to the body that it is time to wind down. Most importantly, teenagers should limit screen time before bed and keep electronic devices out of the bedroom.\n\nBy prioritizing sleep, teenagers can improve their overall health, enhance their learning capabilities, and maintain better emotional balance. It is time for both parents and young people to recognize sleep as a non-negotiable component of a healthy lifestyle.",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "According to the passage, how many hours of sleep do teenagers need per night?"
+                        },
+                        {
+                            "label": "b",
+                            "marks": 2,
+                            "prompt": "What happens to the body and brain during sleep? Give TWO examples."
+                        },
+                        {
+                            "label": "c",
+                            "marks": 3,
+                            "prompt": "Explain how smartphones contribute to the sleep crisis among teenagers. Give TWO ways mentioned in the passage."
+                        },
+                        {
+                            "label": "d",
+                            "marks": 2,
+                            "prompt": "What does 'fear of missing out' (paragraph 3) mean in this context?"
+                        },
+                        {
+                            "label": "e",
+                            "marks": 3,
+                            "prompt": "According to the passage, what are THREE effects of sleep deprivation on teenagers?"
+                        },
+                        {
+                            "label": "f",
+                            "marks": 2,
+                            "prompt": "What does the author mean by calling sleep 'a non-negotiable component of a healthy lifestyle' (last paragraph)?"
+                        },
+                        {
+                            "label": "g",
+                            "marks": 6,
+                            "prompt": "SUMMARY: In about 60 words, summarize the problems caused by lack of sleep and the solutions suggested in the passage."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Section C: Continuous Writing (Narrative)",
+            "marks": 30,
+            "questions": [
+                {
+                    "number": 3,
+                    "marks": 30,
+                    "type": "composition",
+                    "prompt": "Write a composition of about 250-300 words on ONE of the following topics.\n\nTopic A: Write about a time when you learned an important lesson from a mistake.\n\nTopic B: Describe a memorable journey you have taken.\n\nTopic C: Write a story that begins with: 'I never expected that day to turn out the way it did...'\n\nYour composition should:\n• Have a clear beginning, middle, and end\n• Include descriptive details to engage the reader\n• Use varied sentence structures\n• Show, not just tell, the emotions and events"
+                }
+            ]
+        }
+    ],
+    "answerKey": [
+        {
+            "sectionName": "Section A",
+            "answers": [
+                {
+                    "questionNum": "1.1",
+                    "answer": "goes → went"
+                },
+                {
+                    "questionNum": "1.2",
+                    "answer": "arrives → arrived"
+                },
+                {
+                    "questionNum": "1.3",
+                    "answer": "perfectly → perfect"
+                },
+                {
+                    "questionNum": "1.4",
+                    "answer": "were → was"
+                },
+                {
+                    "questionNum": "1.5",
+                    "answer": "fascinate → fascinated"
+                },
+                {
+                    "questionNum": "1.6",
+                    "answer": "informations → information"
+                },
+                {
+                    "questionNum": "1.7",
+                    "answer": "eats → eat"
+                },
+                {
+                    "questionNum": "1.8",
+                    "answer": "sealions → sea lions"
+                },
+                {
+                    "questionNum": "1.9",
+                    "answer": "leaved → left"
+                },
+                {
+                    "questionNum": "1.10",
+                    "answer": "happily → happy"
+                }
+            ]
+        },
+        {
+            "sectionName": "Section B",
+            "answers": [
+                {
+                    "questionNum": "2a",
+                    "answer": "Between eight to ten hours per night."
+                },
+                {
+                    "questionNum": "2b",
+                    "answer": "1) Growth hormones are released for physical development. 2) The brain consolidates memories and processes information learned during the day."
+                },
+                {
+                    "questionNum": "2c",
+                    "answer": "1) Blue light from devices suppresses melatonin production, making it harder to fall asleep. 2) Constant notifications create a fear of missing out, keeping teenagers connected late at night."
+                },
+                {
+                    "questionNum": "2d",
+                    "answer": "It means the anxiety or worry that others are having fun or experiencing something interesting without you, making you feel compelled to stay connected."
+                },
+                {
+                    "questionNum": "2e",
+                    "answer": "1) Irritability and mood swings. 2) Symptoms of anxiety and depression. 3) Difficulty concentrating in class. 4) Poor decision-making. 5) Increased risk of obesity."
+                },
+                {
+                    "questionNum": "2f",
+                    "answer": "It means that sleep is absolutely essential and cannot be compromised or traded for other activities - it is a fundamental requirement for good health."
+                },
+                {
+                    "questionNum": "2g",
+                    "answer": "Lack of sleep causes poor academic performance, mood problems, difficulty concentrating, and increased obesity risk in teenagers. Smartphones worsen this by suppressing melatonin and creating fear of missing out. Solutions include maintaining a consistent sleep schedule, creating bedtime routines, and limiting screen time before bed."
+                }
+            ]
+        },
+        {
+            "sectionName": "Section C",
+            "answers": [
+                {
+                    "questionNum": "3",
+                    "answer": "Marking criteria: Content (12 marks) - engaging story, clear plot, relevant details. Language (10 marks) - varied vocabulary, correct grammar, appropriate tone. Organization (8 marks) - clear structure, logical flow, effective paragraphing."
+                }
+            ]
+        }
+    ]
+}

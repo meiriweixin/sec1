@@ -1,0 +1,565 @@
+{
+    "id": "sec1-geography-eoy",
+    "instructions": [
+        "Write your name, class, and index number on all the work you hand in.",
+        "Write in dark blue or black pen.",
+        "Do not use correction fluid.",
+        "Answer ALL questions.",
+        "Where the question requires a diagram, it must be drawn clearly.",
+        "Calculators may be used for this paper.",
+        "This is a comprehensive examination covering all Sec 1 Geography topics."
+    ],
+    "sections": [
+        {
+            "name": "Section A: Multiple Choice Questions",
+            "marks": 20,
+            "questions": [
+                {
+                    "number": 1,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "Which of the following best describes Geography?",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "The study of rocks and minerals only"
+                        },
+                        {
+                            "label": "B",
+                            "text": "The study of the relationship between humans and their environment"
+                        },
+                        {
+                            "label": "C",
+                            "text": "The study of ancient civilizations"
+                        },
+                        {
+                            "label": "D",
+                            "text": "The study of chemical reactions"
+                        }
+                    ]
+                },
+                {
+                    "number": 2,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "What process causes water vapour in the atmosphere to form clouds?",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Evaporation"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Condensation"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Precipitation"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Infiltration"
+                        }
+                    ]
+                },
+                {
+                    "number": 3,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "Which of Singapore's 'Four National Taps' turns seawater into freshwater?",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Local catchment"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Imported water"
+                        },
+                        {
+                            "label": "C",
+                            "text": "NEWater"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Desalination"
+                        }
+                    ]
+                },
+                {
+                    "number": 4,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "What is the main cause of water pollution from agriculture?",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Industrial waste"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Fertilizer and pesticide runoff"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Oil spills"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Household sewage"
+                        }
+                    ]
+                },
+                {
+                    "number": 5,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "Which layer of the tropical rainforest receives the most sunlight?",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Forest floor"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Understory"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Canopy"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Emergent layer"
+                        }
+                    ]
+                },
+                {
+                    "number": 6,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "What is the main function of buttress roots in rainforest trees?",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "To absorb more water"
+                        },
+                        {
+                            "label": "B",
+                            "text": "To provide support and stability in shallow soil"
+                        },
+                        {
+                            "label": "C",
+                            "text": "To reproduce asexually"
+                        },
+                        {
+                            "label": "D",
+                            "text": "To produce fruits"
+                        }
+                    ]
+                },
+                {
+                    "number": 7,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "Which adaptation helps mangrove trees survive in saline (salty) water?",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Deep tap roots"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Salt-excreting leaves"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Large flowers"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Broad leaves"
+                        }
+                    ]
+                },
+                {
+                    "number": 8,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "What is the main cause of deforestation in tropical rainforests?",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Natural forest fires"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Agricultural expansion and logging"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Flooding"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Volcanic eruptions"
+                        }
+                    ]
+                },
+                {
+                    "number": 9,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "How do mangroves help protect coastal communities?",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "By producing oxygen"
+                        },
+                        {
+                            "label": "B",
+                            "text": "By acting as a barrier against storms, waves, and erosion"
+                        },
+                        {
+                            "label": "C",
+                            "text": "By attracting tourists"
+                        },
+                        {
+                            "label": "D",
+                            "text": "By providing building materials"
+                        }
+                    ]
+                },
+                {
+                    "number": 10,
+                    "marks": 2,
+                    "type": "mcq",
+                    "prompt": "Which of the following is a sustainable management practice for tropical rainforests?",
+                    "choices": [
+                        {
+                            "label": "A",
+                            "text": "Clear-cutting for agriculture"
+                        },
+                        {
+                            "label": "B",
+                            "text": "Selective logging and reforestation"
+                        },
+                        {
+                            "label": "C",
+                            "text": "Building dams in rivers"
+                        },
+                        {
+                            "label": "D",
+                            "text": "Mining for minerals"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Section B: Data Response Questions",
+            "marks": 30,
+            "questions": [
+                {
+                    "number": 11,
+                    "marks": 8,
+                    "type": "structured",
+                    "prompt": "Study the diagram of the hydrological cycle below.",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "Label the processes marked A, B, and C on the diagram."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 3,
+                            "prompt": "Explain how human activities can disrupt the hydrological cycle."
+                        },
+                        {
+                            "label": "c",
+                            "marks": 3,
+                            "prompt": "Describe ONE consequence of disrupting the hydrological cycle."
+                        }
+                    ]
+                },
+                {
+                    "number": 12,
+                    "marks": 8,
+                    "type": "structured",
+                    "prompt": "Study the bar graph showing the sources of Singapore's water supply.",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "Which source contributes the most to Singapore's water supply?"
+                        },
+                        {
+                            "label": "b",
+                            "marks": 3,
+                            "prompt": "Explain why Singapore is investing heavily in NEWater and desalination."
+                        },
+                        {
+                            "label": "c",
+                            "marks": 3,
+                            "prompt": "Suggest TWO ways Singapore can further reduce its dependence on imported water."
+                        }
+                    ]
+                },
+                {
+                    "number": 13,
+                    "marks": 8,
+                    "type": "structured",
+                    "prompt": "Study the map showing the global distribution of tropical rainforests.",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "Describe the distribution pattern of tropical rainforests."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 3,
+                            "prompt": "Explain why tropical rainforests are found in regions with high rainfall."
+                        },
+                        {
+                            "label": "c",
+                            "marks": 3,
+                            "prompt": "Describe TWO threats to tropical rainforests."
+                        }
+                    ]
+                },
+                {
+                    "number": 14,
+                    "marks": 6,
+                    "type": "structured",
+                    "prompt": "Study the photograph of a deforested area in a tropical rainforest.",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 2,
+                            "prompt": "Describe what you observe in the photograph."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 4,
+                            "prompt": "Explain TWO environmental impacts of deforestation."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Section C: Structured Essay Questions",
+            "marks": 30,
+            "questions": [
+                {
+                    "number": 15,
+                    "marks": 10,
+                    "type": "structured",
+                    "prompt": "Water is essential for life, but many regions face water scarcity.",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 4,
+                            "prompt": "Explain THREE causes of water scarcity."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 3,
+                            "prompt": "Describe the impacts of water scarcity on human health and the economy."
+                        },
+                        {
+                            "label": "c",
+                            "marks": 3,
+                            "prompt": "Suggest how countries can manage water resources sustainably."
+                        }
+                    ]
+                },
+                {
+                    "number": 16,
+                    "marks": 10,
+                    "type": "structured",
+                    "prompt": "Tropical rainforests are vital ecosystems that are under threat.",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 4,
+                            "prompt": "Describe THREE reasons why tropical rainforests are important for the global environment."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 3,
+                            "prompt": "Explain the causes and effects of deforestation in tropical rainforests."
+                        },
+                        {
+                            "label": "c",
+                            "marks": 3,
+                            "prompt": "Describe TWO sustainable management strategies to protect tropical rainforests."
+                        }
+                    ]
+                },
+                {
+                    "number": 17,
+                    "marks": 10,
+                    "type": "structured",
+                    "prompt": "Mangroves provide important ecosystem services.",
+                    "parts": [
+                        {
+                            "label": "a",
+                            "marks": 4,
+                            "prompt": "Describe the characteristics of mangrove ecosystems."
+                        },
+                        {
+                            "label": "b",
+                            "marks": 3,
+                            "prompt": "Explain how mangroves help mitigate the effects of climate change."
+                        },
+                        {
+                            "label": "c",
+                            "marks": 3,
+                            "prompt": "What are the threats to mangroves and how can they be conserved?"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "answerKey": [
+        {
+            "sectionName": "Section A",
+            "answers": [
+                {
+                    "questionNum": "1",
+                    "answer": "B (The study of the relationship between humans and their environment)"
+                },
+                {
+                    "questionNum": "2",
+                    "answer": "B (Condensation)"
+                },
+                {
+                    "questionNum": "3",
+                    "answer": "D (Desalination)"
+                },
+                {
+                    "questionNum": "4",
+                    "answer": "B (Fertilizer and pesticide runoff)"
+                },
+                {
+                    "questionNum": "5",
+                    "answer": "D (Emergent layer)"
+                },
+                {
+                    "questionNum": "6",
+                    "answer": "B (To provide support and stability in shallow soil)"
+                },
+                {
+                    "questionNum": "7",
+                    "answer": "B (Salt-excreting leaves)"
+                },
+                {
+                    "questionNum": "8",
+                    "answer": "B (Agricultural expansion and logging)"
+                },
+                {
+                    "questionNum": "9",
+                    "answer": "B (By acting as a barrier against storms, waves, and erosion)"
+                },
+                {
+                    "questionNum": "10",
+                    "answer": "B (Selective logging and reforestation)"
+                }
+            ]
+        },
+        {
+            "sectionName": "Section B",
+            "answers": [
+                {
+                    "questionNum": "11a",
+                    "answer": "A: Evaporation, B: Condensation, C: Precipitation (or other processes depending on diagram)"
+                },
+                {
+                    "questionNum": "11b",
+                    "answer": "Deforestation reduces transpiration; urbanization increases surface runoff; damming rivers alters water flow; pollution contaminates water sources."
+                },
+                {
+                    "questionNum": "11c",
+                    "answer": "Increased flooding, drought, reduced groundwater levels, loss of clean water sources."
+                },
+                {
+                    "questionNum": "12a",
+                    "answer": "Depends on the data provided (e.g., imported water or local catchment)."
+                },
+                {
+                    "questionNum": "12b",
+                    "answer": "To ensure water security; reduce reliance on imported water from Malaysia; prepare for climate change impacts; develop weather-independent sources."
+                },
+                {
+                    "questionNum": "12c",
+                    "answer": "Expand local reservoirs, increase water recycling, encourage water conservation, develop more desalination plants."
+                },
+                {
+                    "questionNum": "13a",
+                    "answer": "Found near the Equator, between the Tropics of Cancer and Capricorn; mainly in South America (Amazon), Central Africa (Congo), Southeast Asia."
+                },
+                {
+                    "questionNum": "13b",
+                    "answer": "High rainfall supports dense vegetation growth; consistent moisture throughout the year allows evergreen trees to thrive."
+                },
+                {
+                    "questionNum": "13c",
+                    "answer": "Deforestation, agricultural expansion, logging, mining, infrastructure development, climate change."
+                },
+                {
+                    "questionNum": "14a",
+                    "answer": "Cleared land with tree stumps, barren soil, machinery or roads, lack of vegetation."
+                },
+                {
+                    "questionNum": "14b",
+                    "answer": "1) Loss of biodiversity - many species lose their habitat. 2) Soil erosion - without tree roots, soil washes away. 3) Climate change - fewer trees means less CO2 absorbed."
+                }
+            ]
+        },
+        {
+            "sectionName": "Section C",
+            "answers": [
+                {
+                    "questionNum": "15a",
+                    "answer": "1) Population growth increasing demand. 2) Climate change causing droughts. 3) Pollution making water unusable. 4) Over-extraction of groundwater."
+                },
+                {
+                    "questionNum": "15b",
+                    "answer": "Health: waterborne diseases, dehydration. Economy: reduced agricultural output, factory shutdowns, need to import water."
+                },
+                {
+                    "questionNum": "15c",
+                    "answer": "Water recycling, rainwater harvesting, desalination, water pricing, public education, efficient irrigation."
+                },
+                {
+                    "questionNum": "16a",
+                    "answer": "1) Absorb CO2 and produce oxygen. 2) Home to 50% of world's species. 3) Regulate global climate. 4) Protect watersheds."
+                },
+                {
+                    "questionNum": "16b",
+                    "answer": "Causes: Agricultural expansion, logging, mining, infrastructure. Effects: Loss of biodiversity, soil erosion, climate change, displacement of indigenous peoples."
+                },
+                {
+                    "questionNum": "16c",
+                    "answer": "1) Protected areas and national parks. 2) Selective logging with replanting. 3) Ecotourism. 4) International agreements."
+                },
+                {
+                    "questionNum": "17a",
+                    "answer": "Found in coastal intertidal zones; tolerate brackish water; complex root systems (prop roots, pneumatophores); adapted to saline conditions."
+                },
+                {
+                    "questionNum": "17b",
+                    "answer": "Store carbon (blue carbon); protect coasts from storm surges linked to climate change; reduce erosion."
+                },
+                {
+                    "questionNum": "17c",
+                    "answer": "Threats: Coastal development, aquaculture, pollution, climate change. Conservation: Protected areas, replanting programs, sustainable aquaculture, community involvement."
+                }
+            ]
+        }
+    ]
+}

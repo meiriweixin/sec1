@@ -3,7 +3,7 @@ import { useStore } from "@/lib/store";
 import { useTranslations } from "@/lib/i18n";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -59,8 +59,11 @@ export default function Exams() {
   const { user, language, gradeLevel, _hasHydrated } = useStore();
   const t = useTranslations(language);
   const navigate = useNavigate();
+  const [searchParams] = useSearchParams();
   const [selectedTab, setSelectedTab] = useState<string>("all");
-  const [selectedSubject, setSelectedSubject] = useState<string>("all");
+  const [selectedSubject, setSelectedSubject] = useState<string>(
+    searchParams.get('subject') || "all"
+  );
 
   useEffect(() => {
     if (_hasHydrated && !user) {
