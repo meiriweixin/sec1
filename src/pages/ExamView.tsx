@@ -19,6 +19,7 @@ import {
   EyeOff,
   CheckCircle
 } from "lucide-react";
+import html2pdf from "html2pdf.js";
 import examsData from "@/data/exams.json";
 import ReactMarkdown from 'react-markdown';
 import remarkMath from 'remark-math';
@@ -178,6 +179,27 @@ export default function ExamView() {
     window.print();
   };
 
+  const [isDownloading, setIsDownloading] = useState(false);
+
+  const handleDownloadPDF = async () => {
+    if (!printRef.current || isDownloading) return;
+    setIsDownloading(true);
+    try {
+      const filename = `${exam.id}_${language === 'zh' ? exam.title_zh : exam.title}.pdf`.replace(/\s+/g, '_');
+      const opt = {
+        margin: [10, 10, 10, 10],
+        filename,
+        image: { type: 'jpeg', quality: 0.95 },
+        html2canvas: { scale: 2, useCORS: true, logging: false },
+        jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' as const },
+        pagebreak: { mode: ['avoid-all', 'css', 'legacy'] },
+      };
+      await html2pdf().set(opt).from(printRef.current).save();
+    } finally {
+      setIsDownloading(false);
+    }
+  };
+
   const renderMath = (text: string) => (
     <ReactMarkdown
       remarkPlugins={[remarkMath, remarkGfm]}
@@ -236,6 +258,13 @@ export default function ExamView() {
                     {language === 'zh' ? '显示答案' : 'Show Answers'}
                   </>
                 )}
+              </Button>
+              <Button variant="outline" onClick={handleDownloadPDF} disabled={isDownloading}>
+                <Download className="h-4 w-4 mr-2" />
+                {isDownloading
+                  ? (language === 'zh' ? '生成中...' : 'Generating...')
+                  : (language === 'zh' ? '下载PDF' : 'Download PDF')
+                }
               </Button>
               <Button variant="outline" onClick={handlePrint}>
                 <Printer className="h-4 w-4 mr-2" />

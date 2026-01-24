@@ -21,7 +21,7 @@ import { useStore } from "@/lib/store";
 import { useTranslations } from "@/lib/i18n";
 import { ArrowLeft, BookOpen, PenTool, Trophy, Clock, RotateCcw, X, AlertCircle } from "lucide-react";
 import { motion } from "framer-motion";
-import contentData from "@/data/content.json";
+import contentData from "@/data";
 import { useToast } from "@/hooks/use-toast";
 import { aiContentStore } from "@/lib/ai-content-store";
 
@@ -83,7 +83,7 @@ export default function ChapterView() {
   const completedSections = progress?.sectionsCompleted || [];
   const completedExercises = progress?.exercisesCompleted || [];
   const exerciseScores = progress?.exerciseScores || {};
-  
+
   const title = language === 'zh' && chapter.title_zh ? chapter.title_zh : chapter.title;
   const description = language === 'zh' && chapter.description_zh ? chapter.description_zh : chapter.description;
   const objectives = language === 'zh' && chapter.objectives_zh ? chapter.objectives_zh : chapter.objectives;
@@ -168,7 +168,7 @@ export default function ChapterView() {
 
   const handleTabChange = (newTab: string) => {
     const targetTab = newTab as "lesson" | "exercises";
-    
+
     // If switching FROM exercises TO lesson AND exercises are in progress
     if (activeTab === "exercises" && targetTab === "lesson" && exerciseInProgress) {
       setPendingTab(targetTab);
@@ -260,7 +260,7 @@ export default function ChapterView() {
                 <div>
                   <CardTitle className="text-2xl font-bold mb-2">{title}</CardTitle>
                   <CardDescription className="text-base">{description}</CardDescription>
-                  
+
                   {/* Learning Objectives */}
                   <div className="mt-4">
                     <h4 className="text-sm font-medium text-foreground mb-2">{t.objectives}:</h4>
@@ -274,7 +274,7 @@ export default function ChapterView() {
                     </ul>
                   </div>
                 </div>
-                
+
                 {/* Progress Stats */}
                 <div className="text-right space-y-2">
                   <Badge variant="outline" className="text-sm">

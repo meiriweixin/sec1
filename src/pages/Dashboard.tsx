@@ -8,7 +8,7 @@ import { TrendingUp, Clock, Award, ArrowRight } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useEffect } from "react";
-import contentData from "@/data/content.json";
+import contentData from "@/data";
 
 export default function Dashboard() {
   const { user, language, gradeLevel, allUsersProgress, _hasHydrated } = useStore();
@@ -77,7 +77,7 @@ export default function Dashboard() {
   return (
     <div className="min-h-screen bg-background">
       <AppHeader />
-      
+
       <main className="container mx-auto px-4 py-8">
         {/* Welcome Section */}
         <motion.div
@@ -122,7 +122,7 @@ export default function Dashboard() {
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </div>
-              
+
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {subjects.map((subject, index) => (
                   <motion.div
@@ -145,12 +145,12 @@ export default function Dashboard() {
                   {recentActivity.map((activity) => {
                     const subject = subjects.find(s => s.id === activity.subjectId);
                     const chapter = subject?.chapters.find(c => c.id === activity.chapterId);
-                    
+
                     if (!subject || !chapter) return null;
-                    
+
                     const title = language === 'zh' && chapter.title_zh ? chapter.title_zh : chapter.title;
                     const subjectTitle = language === 'zh' && subject.title_zh ? subject.title_zh : subject.title;
-                    
+
                     return (
                       <motion.div
                         key={`${activity.subjectId}-${activity.chapterId}`}
@@ -269,7 +269,7 @@ export default function Dashboard() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm">
-                    {language === 'zh' 
+                    {language === 'zh'
                       ? "每天学习20-30分钟比一次性学习几个小时更有效。保持一致性是成功的关键！"
                       : "Studying 20-30 minutes daily is more effective than cramming for hours. Consistency is key to success!"
                     }

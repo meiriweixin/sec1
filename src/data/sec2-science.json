@@ -1,0 +1,1826 @@
+{
+    "subjects": [
+        {
+            "id": "sec2-physics",
+            "title": "Physics",
+            "title_zh": "物理",
+            "description": "Explore electrical systems, circuits, and energy transfer",
+            "description_zh": "探索电路系统和能量传递",
+            "color": "from-blue-500 to-cyan-500",
+            "chapters": [
+                {
+                    "id": "electrical-systems",
+                    "title": "Electrical Systems",
+                    "title_zh": "电路系统",
+                    "description": "Understand circuits, current, voltage, and resistance",
+                    "description_zh": "理解电路、电流、电压和电阻",
+                    "gradeLevel": "sec2",
+                    "objectives": [
+                        "Draw and interpret circuit diagrams using standard symbols",
+                        "Explain the relationship between current, voltage, and resistance (Ohm's Law)",
+                        "Compare series and parallel circuits",
+                        "Calculate electrical power and energy consumption"
+                    ],
+                    "objectives_zh": [
+                        "使用标准符号绘制和解读电路图",
+                        "解释电流、电压和电阻之间的关系（欧姆定律）",
+                        "比较串联和并联电路",
+                        "计算电功率和能耗"
+                    ],
+                    "sections": [
+                        {
+                            "id": "circuit-basics",
+                            "type": "text",
+                            "title": "Circuit Components and Symbols",
+                            "title_zh": "电路元件和符号",
+                            "content": "An **electrical circuit** is a closed path through which electric current flows.\n\n**Essential Components:**\n\n**1. Power Source** - Provides electrical energy\n- Cell (single line for positive, short line for negative)\n- Battery (multiple cells connected)\n\n**2. Conductors** - Allow current to flow\n- Wires (straight lines in diagrams)\n\n**3. Load** - Uses electrical energy\n- Bulbs, motors, resistors\n\n**4. Switch** - Controls the flow\n- Open switch = circuit broken, no current\n- Closed switch = circuit complete, current flows\n\n**Standard Circuit Symbols:**\n\n| Component | Symbol Description |\n|-----------|--------------------|\n| Cell | Long line (positive) and short line (negative) |\n| Battery | Multiple cell symbols |\n| Bulb | Circle with X inside |\n| Switch | Line with gap and dot |\n| Resistor | Rectangle or zigzag line |\n| Ammeter | Circle with A inside |\n| Voltmeter | Circle with V inside |\n\n**Singapore Context:**\nSP Group manages Singapore's electrical grid. Home circuits typically use 230V AC supply.",
+                            "content_zh": "**电路**是电流流动的闭合路径。\n\n**基本元件：**\n\n**1. 电源** - 提供电能\n- 电池（单个长线为正极，短线为负极）\n\n**2. 导体** - 允许电流流动\n- 导线（电路图中的直线）\n\n**3. 负载** - 使用电能\n- 灯泡、电动机、电阻器\n\n**4. 开关** - 控制电流\n- 断开开关 = 电路断开，无电流\n- 闭合开关 = 电路完整，电流流动"
+                        },
+                        {
+                            "id": "current-voltage-resistance",
+                            "type": "text",
+                            "title": "Current, Voltage, and Resistance",
+                            "title_zh": "电流、电压和电阻",
+                            "content": "**Electric Current (I)**\n- Flow of electric charge through a conductor\n- Measured in **Amperes (A)** using an **ammeter**\n- Ammeter connected in **series**\n\n**Voltage / Potential Difference (V)**\n- Energy transferred per unit charge\n- Measured in **Volts (V)** using a **voltmeter**\n- Voltmeter connected in **parallel**\n\n**Resistance (R)**\n- Opposition to current flow\n- Measured in **Ohms (Ω)**\n- Factors affecting resistance:\n  - Length (longer = more resistance)\n  - Cross-sectional area (thinner = more resistance)\n  - Material (conductors vs insulators)\n  - Temperature\n\n**Ohm's Law:**\n$$V = I \\times R$$\n\nWhere:\n- V = Voltage (Volts)\n- I = Current (Amperes)\n- R = Resistance (Ohms)\n\n**Examples:**\n1. If R = 10Ω and I = 2A, then V = 2 × 10 = **20V**\n2. If V = 12V and R = 4Ω, then I = 12 ÷ 4 = **3A**",
+                            "content_zh": "**电流 (I)**\n- 电荷通过导体的流动\n- 用**安培 (A)** 测量，使用**安培计**\n- 安培计**串联**连接\n\n**电压/电势差 (V)**\n- 每单位电荷传递的能量\n- 用**伏特 (V)** 测量，使用**伏特计**\n- 伏特计**并联**连接\n\n**电阻 (R)**\n- 对电流流动的阻碍\n- 用**欧姆 (Ω)** 测量\n\n**欧姆定律：**\n$$V = I \\times R$$"
+                        },
+                        {
+                            "id": "series-parallel",
+                            "type": "text",
+                            "title": "Series and Parallel Circuits",
+                            "title_zh": "串联和并联电路",
+                            "content": "**Series Circuits:**\n- Components connected end-to-end in a single path\n- Current is the **same** through all components\n- Voltage is **shared** (splits across components)\n- Total resistance: R_total = R₁ + R₂ + R₃...\n\n**If one component fails, the whole circuit breaks!**\n\n**Parallel Circuits:**\n- Components connected across common points\n- Voltage is the **same** across all branches\n- Current is **shared** (splits into branches)\n- Total resistance: 1/R_total = 1/R₁ + 1/R₂...\n\n**If one component fails, others still work!**\n\n**Comparison Table:**\n\n| Feature | Series | Parallel |\n|---------|--------|----------|\n| Current | Same everywhere | Splits at junctions |\n| Voltage | Splits across components | Same across branches |\n| Resistance | Adds up | Less than smallest |\n| Failure | Whole circuit stops | Only branch stops |\n\n**Singapore Home Wiring:**\nHome appliances are wired in **parallel** so each can be controlled independently and if one fails, others continue working.",
+                            "content_zh": "**串联电路：**\n- 元件首尾相连形成单一路径\n- 电流在所有元件中**相同**\n- 电压被**分配**\n- 总电阻：R总 = R₁ + R₂ + R₃...\n\n**如果一个元件故障，整个电路断开！**\n\n**并联电路：**\n- 元件连接在公共点上\n- 所有分支的电压**相同**\n- 电流被**分配**\n- 总电阻：1/R总 = 1/R₁ + 1/R₂...\n\n**如果一个元件故障，其他仍正常工作！**"
+                        },
+                        {
+                            "id": "electrical-power-safety",
+                            "type": "text",
+                            "title": "Electrical Power and Safety",
+                            "title_zh": "电功率和安全",
+                            "content": "**Electrical Power (P)**\n- Rate of energy transfer\n- Measured in **Watts (W)** or **kilowatts (kW)**\n\n**Power Formula:**\n$$P = V \\times I$$\n$$P = I^2 \\times R$$\n$$P = \\frac{V^2}{R}$$\n\n**Electrical Energy:**\n- Energy = Power × Time\n- Measured in **kilowatt-hours (kWh)** for billing\n- 1 kWh = 1 unit of electricity\n\n**Example:**\nA 1000W heater used for 3 hours:\nEnergy = 1 kW × 3 h = 3 kWh = 3 units\n\n**Electrical Safety:**\n\n**1. Fuses and Circuit Breakers**\n- Protect circuits from excessive current\n- Fuse wire melts when current exceeds rating\n\n**2. Earth Wire**\n- Provides safe path for fault current\n- Connected to metal casing of appliances\n\n**3. Double Insulation**\n- Two layers of insulation\n- No earth wire needed\n\n**Singapore Safety:**\n- Standard voltage: 230V AC, 50Hz\n- 3-pin plugs with earth connection\n- Never overload power sockets!",
+                            "content_zh": "**电功率 (P)**\n- 能量传递的速率\n- 用**瓦特 (W)** 或 **千瓦 (kW)** 测量\n\n**功率公式：**\n$$P = V \\times I$$\n\n**电能：**\n- 能量 = 功率 × 时间\n- 用**千瓦时 (kWh)** 计费\n- 1 kWh = 1度电\n\n**电气安全：**\n\n**1. 保险丝和断路器**\n- 保护电路免受过大电流\n\n**2. 接地线**\n- 为故障电流提供安全路径\n\n**3. 双重绝缘**\n- 两层绝缘保护"
+                        }
+                    ],
+                    "exercises": [
+                        {
+                            "id": "phys-ex1",
+                            "type": "mcq",
+                            "difficulty": "easy",
+                            "prompt": "What instrument is used to measure electric current?",
+                            "prompt_zh": "什么仪器用来测量电流？",
+                            "choices": [
+                                "Voltmeter",
+                                "Ammeter",
+                                "Ohmmeter",
+                                "Thermometer"
+                            ],
+                            "choices_zh": [
+                                "伏特计",
+                                "安培计",
+                                "欧姆计",
+                                "温度计"
+                            ],
+                            "answer": 1,
+                            "explanation": "**Problem:** What instrument is used to measure electric current?\n\n**Key Concept:**\nAn ammeter measures current in Amperes and is connected in series with the circuit.\n\n✔ **Final Answer:** Ammeter",
+                            "explanation_zh": "安培计用于测量电流（单位：安培），串联在电路中。"
+                        },
+                        {
+                            "id": "phys-ex2",
+                            "type": "mcq",
+                            "difficulty": "medium",
+                            "prompt": "A resistor has a resistance of 20Ω. If the current through it is 0.5A, what is the voltage across it?",
+                            "prompt_zh": "一个电阻器的电阻为20Ω。如果通过它的电流是0.5A，电压是多少？",
+                            "choices": [
+                                "5V",
+                                "10V",
+                                "40V",
+                                "0.025V"
+                            ],
+                            "choices_zh": [
+                                "5V",
+                                "10V",
+                                "40V",
+                                "0.025V"
+                            ],
+                            "answer": 1,
+                            "explanation": "**Problem:** Calculate voltage using Ohm's Law.\n\n**Solution:**\nUsing V = I × R:\nV = 0.5A × 20Ω = **10V**\n\n✔ **Final Answer:** 10V",
+                            "explanation_zh": "使用欧姆定律 V = I × R：\nV = 0.5A × 20Ω = **10V**"
+                        },
+                        {
+                            "id": "phys-ex3",
+                            "type": "mcq",
+                            "difficulty": "medium",
+                            "prompt": "In a series circuit with two identical bulbs, what happens to the brightness if one bulb is removed?",
+                            "prompt_zh": "在一个有两个相同灯泡的串联电路中，如果移除一个灯泡会发生什么？",
+                            "choices": [
+                                "Other bulb becomes brighter",
+                                "Other bulb dims",
+                                "Other bulb stays the same",
+                                "Other bulb goes off"
+                            ],
+                            "choices_zh": [
+                                "另一个灯泡变亮",
+                                "另一个灯泡变暗",
+                                "另一个灯泡不变",
+                                "另一个灯泡熄灭"
+                            ],
+                            "answer": 3,
+                            "explanation": "**Problem:** What happens in a series circuit when one component is removed?\n\n**Key Concept:**\nIn a series circuit, there is only one path for current. Removing a bulb breaks the circuit completely.\n\n✔ **Final Answer:** Other bulb goes off",
+                            "explanation_zh": "在串联电路中只有一条电流路径。移除一个灯泡会完全断开电路，所以另一个灯泡会熄灭。"
+                        },
+                        {
+                            "id": "phys-ex4",
+                            "type": "mcq",
+                            "difficulty": "hard",
+                            "prompt": "A 2kW electric kettle is used for 30 minutes. How much electrical energy (in kWh) does it consume?",
+                            "prompt_zh": "一个2kW的电热水壶使用30分钟。它消耗多少电能（kWh）？",
+                            "choices": [
+                                "0.5 kWh",
+                                "1 kWh",
+                                "2 kWh",
+                                "60 kWh"
+                            ],
+                            "choices_zh": [
+                                "0.5 kWh",
+                                "1 kWh",
+                                "2 kWh",
+                                "60 kWh"
+                            ],
+                            "answer": 1,
+                            "explanation": "**Problem:** Calculate electrical energy consumption.\n\n**Solution:**\nEnergy = Power × Time\n30 minutes = 0.5 hours\nEnergy = 2 kW × 0.5 h = **1 kWh**\n\n✔ **Final Answer:** 1 kWh",
+                            "explanation_zh": "能量 = 功率 × 时间\n30分钟 = 0.5小时\n能量 = 2 kW × 0.5 h = **1 kWh**"
+                        },
+                        {
+                            "id": "phys-ex5",
+                            "type": "short",
+                            "difficulty": "medium",
+                            "prompt": "State one advantage of connecting home appliances in parallel rather than in series.",
+                            "prompt_zh": "说明将家用电器并联而不是串联连接的一个优点。",
+                            "answer": "Each appliance can be controlled independently",
+                            "explanation": "**Key Advantages of Parallel Circuits:**\n1. Each appliance can be switched on/off independently\n2. If one appliance fails, others continue working\n3. Each appliance receives full supply voltage\n\n✔ **Final Answer:** Each appliance can be controlled independently",
+                            "explanation_zh": "并联电路的优点：每个电器可以独立控制开关；一个故障不影响其他电器；每个电器获得完整电压。"
+                        }
+                    ]
+                },
+                {
+                    "id": "heat-transfer",
+                    "title": "Transfer of Heat Energy",
+                    "title_zh": "热能传递",
+                    "description": "Understand conduction, convection, and radiation",
+                    "description_zh": "理解传导、对流和辐射",
+                    "gradeLevel": "sec2",
+                    "objectives": [
+                        "Explain how heat is transferred by conduction, convection, and radiation",
+                        "Describe factors affecting the rate of heat transfer",
+                        "Apply knowledge of heat transfer to everyday situations"
+                    ],
+                    "objectives_zh": [
+                        "解释热量如何通过传导、对流和辐射传递",
+                        "描述影响热传递速率的因素",
+                        "将热传递知识应用于日常情况"
+                    ],
+                    "sections": [
+                        {
+                            "id": "conduction",
+                            "type": "text",
+                            "title": "Conduction",
+                            "title_zh": "传导",
+                            "content": "**Conduction** is the transfer of heat through a material without the material itself moving.\n\n**How it works:**\n- Particles vibrate and pass on kinetic energy to neighboring particles\n- Heat flows from hot region to cold region\n- Requires physical contact\n\n**Good Conductors:** Metals (copper, aluminum, iron) - have free electrons\n\n**Poor Conductors (Insulators):** Wood, plastic, glass, air, cloth\n\n**Applications:**\n- Metal pots conduct heat to food\n- Wooden/plastic handles stay cool\n- Double-glazed windows trap air (insulator)",
+                            "content_zh": "**传导**是热量通过物质传递而物质本身不移动。\n\n**工作原理：**\n- 粒子振动并将动能传递给相邻粒子\n- 热量从热区流向冷区\n\n**良导体：**金属（铜、铝、铁）\n\n**不良导体：**木材、塑料、玻璃、空气"
+                        },
+                        {
+                            "id": "convection",
+                            "type": "text",
+                            "title": "Convection",
+                            "title_zh": "对流",
+                            "content": "**Convection** is the transfer of heat through the movement of fluids (liquids and gases).\n\n**How it works:**\n1. Fluid near heat source is heated\n2. Heated fluid expands and becomes less dense\n3. Less dense fluid rises\n4. Cooler, denser fluid sinks to replace it\n5. This creates a **convection current**\n\n**Convection only occurs in fluids, not solids!**\n\n**Examples:**\n- Boiling water (bubbles rise)\n- Sea breeze and land breeze\n- Air conditioning (cool air sinks, warm air rises)",
+                            "content_zh": "**对流**是热量通过流体（液体和气体）的移动传递。\n\n**工作原理：**\n1. 热源附近的流体被加热\n2. 加热的流体膨胀变得密度较小\n3. 密度较小的流体上升\n4. 较冷、密度较大的流体下沉替代"
+                        },
+                        {
+                            "id": "radiation",
+                            "type": "text",
+                            "title": "Radiation",
+                            "title_zh": "辐射",
+                            "content": "**Radiation** is the transfer of heat through electromagnetic waves. No medium required!\n\n**Key Points:**\n- Can travel through vacuum (how Sun's heat reaches Earth)\n- Travels at the speed of light\n\n**Good Absorbers/Emitters:** Dark, dull, rough surfaces\n\n**Poor Absorbers (Good Reflectors):** Light, shiny, smooth surfaces\n\n**Applications:**\n- Black car gets hotter in sun\n- White clothes keep you cooler\n- Thermos flask uses vacuum and shiny surfaces",
+                            "content_zh": "**辐射**是通过电磁波传递热量。不需要介质！\n\n**关键点：**\n- 可以穿过真空\n- 以光速传播\n\n**良好吸收体：**深色、暗淡的表面\n\n**良好反射体：**浅色、光亮的表面"
+                        }
+                    ],
+                    "exercises": [
+                        {
+                            "id": "heat-ex1",
+                            "type": "mcq",
+                            "difficulty": "easy",
+                            "prompt": "Which method of heat transfer does NOT require a medium?",
+                            "prompt_zh": "哪种热传递方式不需要介质？",
+                            "choices": [
+                                "Conduction",
+                                "Convection",
+                                "Radiation",
+                                "All require a medium"
+                            ],
+                            "choices_zh": [
+                                "传导",
+                                "对流",
+                                "辐射",
+                                "都需要介质"
+                            ],
+                            "answer": 2,
+                            "explanation": "**Key Concept:**\nRadiation travels through electromagnetic waves and can pass through a vacuum.\n\n✔ **Final Answer:** Radiation",
+                            "explanation_zh": "辐射通过电磁波传播，可以穿过真空。"
+                        },
+                        {
+                            "id": "heat-ex2",
+                            "type": "mcq",
+                            "difficulty": "medium",
+                            "prompt": "Why are cooking pots often made of metal with plastic handles?",
+                            "prompt_zh": "为什么炒锅通常由金属制成但有塑料手柄？",
+                            "choices": [
+                                "Metal is cheaper",
+                                "Metal conducts heat well, plastic is an insulator",
+                                "Plastic looks better",
+                                "Metal is lighter"
+                            ],
+                            "choices_zh": [
+                                "金属更便宜",
+                                "金属导热好，塑料是绝缘体",
+                                "塑料更好看",
+                                "金属更轻"
+                            ],
+                            "answer": 1,
+                            "explanation": "Metal is a good conductor - heat transfers quickly to the food. Plastic is a poor conductor (insulator) - the handle stays cool.\n\n✔ **Final Answer:** Metal conducts heat well, plastic is an insulator",
+                            "explanation_zh": "金属是良导体，热量快速传递。塑料是绝缘体，保持凉爽。"
+                        },
+                        {
+                            "id": "heat-ex3",
+                            "type": "mcq",
+                            "difficulty": "medium",
+                            "prompt": "In convection, what happens to heated fluid?",
+                            "prompt_zh": "在对流中，加热的流体会怎样？",
+                            "choices": [
+                                "It sinks",
+                                "It rises",
+                                "It stays in place",
+                                "It solidifies"
+                            ],
+                            "choices_zh": [
+                                "下沉",
+                                "上升",
+                                "原地不动",
+                                "凝固"
+                            ],
+                            "answer": 1,
+                            "explanation": "When fluid is heated, it expands and becomes less dense. Less dense fluid rises.\n\n✔ **Final Answer:** It rises",
+                            "explanation_zh": "当流体被加热时，它膨胀变得密度较小，上升。"
+                        },
+                        {
+                            "id": "heat-ex4",
+                            "type": "short",
+                            "difficulty": "hard",
+                            "prompt": "Explain why wearing white clothes keeps you cooler in sunny weather.",
+                            "prompt_zh": "解释为什么穿白色衣服在阳光下更凉快。",
+                            "answer": "White surfaces reflect radiation and absorb less heat",
+                            "explanation": "Light-colored surfaces are poor absorbers of radiation. They reflect most of the Sun's radiation.\n\n✔ **Final Answer:** White surfaces reflect radiation and absorb less heat",
+                            "explanation_zh": "浅色表面是辐射的不良吸收体，反射大部分太阳辐射。"
+                        }
+                    ]
+                },
+                {
+                    "id": "forces-pressure",
+                    "title": "Forces and Pressure",
+                    "title_zh": "力和压强",
+                    "description": "Understand forces, their effects, and pressure in solids and fluids",
+                    "description_zh": "理解力、力的效果以及固体和流体中的压强",
+                    "gradeLevel": "sec2",
+                    "objectives": [
+                        "Describe the effects of forces on objects",
+                        "Calculate pressure in solids",
+                        "Explain pressure in liquids and gases",
+                        "Apply knowledge of pressure to everyday situations"
+                    ],
+                    "objectives_zh": [
+                        "描述力对物体的影响",
+                        "计算固体中的压强",
+                        "解释液体和气体中的压强",
+                        "将压强知识应用于日常情况"
+                    ],
+                    "sections": [
+                        {
+                            "id": "forces-effects",
+                            "type": "text",
+                            "title": "Forces and Their Effects",
+                            "title_zh": "力及其效果",
+                            "content": "A **force** is a push or pull that can change an object's motion or shape.\n\n**Effects of Forces:**\n1. Change speed (speed up or slow down)\n2. Change direction of motion\n3. Change shape (deform)\n4. Start or stop motion\n\n**Types of Forces:**\n- **Gravitational force** (weight) - pulls objects toward Earth\n- **Friction** - opposes motion between surfaces\n- **Normal force** - support force from surfaces\n- **Air resistance** - friction from air\n- **Magnetic force** - between magnets\n- **Electrostatic force** - between charged objects\n\n**Balanced vs Unbalanced Forces:**\n- Balanced: Forces cancel out, no change in motion\n- Unbalanced: Net force causes acceleration\n\n**Force is measured in Newtons (N)**",
+                            "content_zh": "**力**是可以改变物体运动或形状的推或拉。\n\n**力的效果：**\n1. 改变速度\n2. 改变运动方向\n3. 改变形状\n4. 开始或停止运动\n\n**力的类型：**\n- 重力 - 将物体拉向地球\n- 摩擦力 - 抵抗表面间的运动\n- 支持力\n- 空气阻力\n\n**力的单位是牛顿（N）**"
+                        },
+                        {
+                            "id": "pressure-solids",
+                            "type": "text",
+                            "title": "Pressure in Solids",
+                            "title_zh": "固体中的压强",
+                            "content": "**Pressure** is force per unit area.\n\n**Formula:**\n$$Pressure = \\frac{Force}{Area}$$\n$$P = \\frac{F}{A}$$\n\n**Units:** Pascal (Pa) or N/m²\n1 Pa = 1 N/m²\n\n**Key Concepts:**\n- Same force over smaller area = higher pressure\n- Same force over larger area = lower pressure\n\n**Examples:**\n- Sharp knife (small area) cuts easily\n- Wide shoes distribute weight, less sinking in sand\n- Elephant's large feet reduce pressure on ground\n- Stiletto heels have very high pressure\n\n**Calculation Example:**\nA box weighs 500N and has base area 0.5m².\nPressure = 500 ÷ 0.5 = 1000 Pa",
+                            "content_zh": "**压强**是单位面积上的力。\n\n**公式：**\n$$压强 = \\frac{力}{面积}$$\n\n**单位：**帕斯卡（Pa）或 N/m²\n\n**关键概念：**\n- 相同的力作用在较小面积上 = 较高压强\n- 相同的力作用在较大面积上 = 较低压强\n\n**例子：**\n- 锋利的刀（小面积）容易切割\n- 宽的鞋子分散重量"
+                        },
+                        {
+                            "id": "pressure-fluids",
+                            "type": "text",
+                            "title": "Pressure in Liquids and Gases",
+                            "title_zh": "液体和气体中的压强",
+                            "content": "**Liquid Pressure:**\n- Increases with depth\n- Acts in all directions\n- Depends on density of liquid\n\n$$P = \\rho g h$$\nWhere: ρ = density, g = gravity (10 m/s²), h = depth\n\n**Examples:**\n- Dam walls are thicker at bottom\n- Deep sea divers need special equipment\n- Water spurts further from lower hole in bottle\n\n**Atmospheric Pressure:**\n- Air has weight and exerts pressure\n- At sea level: ~101,000 Pa (1 atm)\n- Decreases with altitude\n\n**Applications:**\n- Drinking straw (atmospheric pressure pushes liquid up)\n- Suction cups\n- Barometers measure atmospheric pressure\n\n**Singapore Context:**\nAtmospheric pressure in Singapore is relatively constant due to low altitude, typically around 1013 hPa.",
+                            "content_zh": "**液体压强：**\n- 随深度增加\n- 向各方向作用\n- 取决于液体密度\n\n**例子：**\n- 大坝墙底部较厚\n- 深海潜水员需要特殊装备\n\n**大气压强：**\n- 空气有重量并产生压强\n- 海平面：约101,000 Pa\n- 随海拔降低"
+                        }
+                    ],
+                    "exercises": [
+                        {
+                            "id": "force-ex1",
+                            "type": "mcq",
+                            "difficulty": "easy",
+                            "prompt": "What is the unit of pressure?",
+                            "prompt_zh": "压强的单位是什么？",
+                            "choices": [
+                                "Newton",
+                                "Pascal",
+                                "Kilogram",
+                                "Meter"
+                            ],
+                            "choices_zh": [
+                                "牛顿",
+                                "帕斯卡",
+                                "千克",
+                                "米"
+                            ],
+                            "answer": 1,
+                            "explanation": "Pressure is measured in Pascal (Pa), which equals N/m². Force is measured in Newtons.\n\n✔ **Final Answer:** Pascal",
+                            "explanation_zh": "压强用帕斯卡（Pa）测量，等于N/m²。力用牛顿测量。"
+                        },
+                        {
+                            "id": "force-ex2",
+                            "type": "mcq",
+                            "difficulty": "medium",
+                            "prompt": "A force of 200N acts on an area of 0.4m². What is the pressure?",
+                            "prompt_zh": "200N的力作用在0.4m²的面积上。压强是多少？",
+                            "choices": [
+                                "80 Pa",
+                                "500 Pa",
+                                "200 Pa",
+                                "0.002 Pa"
+                            ],
+                            "choices_zh": [
+                                "80 Pa",
+                                "500 Pa",
+                                "200 Pa",
+                                "0.002 Pa"
+                            ],
+                            "answer": 1,
+                            "explanation": "P = F/A = 200N ÷ 0.4m² = 500 Pa\n\n✔ **Final Answer:** 500 Pa",
+                            "explanation_zh": "P = F/A = 200N ÷ 0.4m² = 500 Pa"
+                        },
+                        {
+                            "id": "force-ex3",
+                            "type": "mcq",
+                            "difficulty": "medium",
+                            "prompt": "Why does liquid pressure increase with depth?",
+                            "prompt_zh": "为什么液体压强随深度增加？",
+                            "choices": [
+                                "Temperature increases",
+                                "More liquid above pushes down",
+                                "Liquid becomes denser",
+                                "Gravity decreases"
+                            ],
+                            "choices_zh": [
+                                "温度增加",
+                                "上方更多液体向下压",
+                                "液体变得更密",
+                                "重力降低"
+                            ],
+                            "answer": 1,
+                            "explanation": "At greater depth, there is more liquid above, which has more weight pressing down, creating higher pressure.\n\n✔ **Final Answer:** More liquid above pushes down",
+                            "explanation_zh": "在更深处，上方有更多液体，重量更大向下压，产生更高压强。"
+                        },
+                        {
+                            "id": "force-ex4",
+                            "type": "short",
+                            "difficulty": "hard",
+                            "prompt": "Explain why a sharp knife cuts better than a blunt knife.",
+                            "prompt_zh": "解释为什么锋利的刀比钝刀切得更好。",
+                            "answer": "Sharp knife has smaller contact area, creating higher pressure",
+                            "explanation": "With the same force applied, a sharp knife has a much smaller contact area than a blunt knife. Using P = F/A, smaller area means higher pressure, which cuts through materials more easily.\n\n✔ **Final Answer:** Sharp knife has smaller contact area, creating higher pressure",
+                            "explanation_zh": "相同的力作用下，锋利的刀接触面积比钝刀小得多。使用P = F/A，面积越小压强越高，更容易切穿材料。"
+                        }
+                    ]
+                },
+                {
+                    "id": "light",
+                    "title": "Light and Optics",
+                    "title_zh": "光和光学",
+                    "description": "Understand reflection, refraction, and properties of light",
+                    "description_zh": "理解光的反射、折射和性质",
+                    "gradeLevel": "sec2",
+                    "objectives": [
+                        "Describe properties and sources of light",
+                        "Explain reflection and draw ray diagrams",
+                        "Explain refraction of light",
+                        "Describe applications of light in daily life"
+                    ],
+                    "objectives_zh": [
+                        "描述光的性质和来源",
+                        "解释反射并绘制光线图",
+                        "解释光的折射",
+                        "描述光在日常生活中的应用"
+                    ],
+                    "sections": [
+                        {
+                            "id": "light-properties",
+                            "type": "text",
+                            "title": "Properties of Light",
+                            "title_zh": "光的性质",
+                            "content": "**Light:**\n- Form of energy\n- Travels in straight lines (rectilinear propagation)\n- Travels at 300,000 km/s in vacuum\n- Does not need a medium (can travel through vacuum)\n\n**Sources of Light:**\n- **Luminous objects**: Produce own light (Sun, fire, bulbs)\n- **Non-luminous objects**: Reflect light (Moon, books, people)\n\n**Shadows:**\n- Formed because light travels in straight lines\n- **Umbra**: Total shadow (no direct light)\n- **Penumbra**: Partial shadow (some light reaches)\n\n**Ray Diagrams:**\n- Light represented as straight arrows (rays)\n- Show direction of light travel\n- Used to explain reflection and refraction",
+                            "content_zh": "**光：**\n- 能量的形式\n- 沿直线传播\n- 在真空中以300,000 km/s传播\n- 不需要介质\n\n**光源：**\n- 发光体：产生自己的光（太阳、火、灯泡）\n- 非发光体：反射光（月亮、书本）\n\n**影子：**\n- 因为光沿直线传播而形成\n- 本影：完全阴影\n- 半影：部分阴影"
+                        },
+                        {
+                            "id": "reflection",
+                            "type": "text",
+                            "title": "Reflection of Light",
+                            "title_zh": "光的反射",
+                            "content": "**Reflection** occurs when light bounces off a surface.\n\n**Laws of Reflection:**\n1. Angle of incidence = Angle of reflection\n2. Incident ray, reflected ray, and normal are in same plane\n\n**Key Terms:**\n- **Incident ray**: Light ray hitting the surface\n- **Reflected ray**: Light ray bouncing off\n- **Normal**: Imaginary line perpendicular to surface\n- **Angle of incidence (i)**: Angle between incident ray and normal\n- **Angle of reflection (r)**: Angle between reflected ray and normal\n\n**Types of Reflection:**\n- **Regular reflection**: Smooth surface, clear image (mirror)\n- **Diffuse reflection**: Rough surface, scattered light (paper)\n\n**Plane Mirror Images:**\n- Same size as object\n- Same distance behind mirror as object is in front\n- Laterally inverted (left-right reversed)\n- Virtual (cannot be projected on screen)",
+                            "content_zh": "**反射**发生在光从表面弹回时。\n\n**反射定律：**\n1. 入射角 = 反射角\n2. 入射线、反射线和法线在同一平面\n\n**关键术语：**\n- 入射线：照射到表面的光线\n- 反射线：弹回的光线\n- 法线：垂直于表面的虚线\n- 入射角：入射线和法线之间的角度\n- 反射角：反射线和法线之间的角度\n\n**平面镜成像：**\n- 与物体大小相同\n- 左右颠倒\n- 虚像"
+                        },
+                        {
+                            "id": "refraction",
+                            "type": "text",
+                            "title": "Refraction of Light",
+                            "title_zh": "光的折射",
+                            "content": "**Refraction** is the bending of light when it passes from one medium to another.\n\n**Why it happens:**\n- Light changes speed in different media\n- Faster in less dense media (air)\n- Slower in denser media (glass, water)\n\n**Rules:**\n- Light bends TOWARD normal when entering denser medium (slowing down)\n- Light bends AWAY from normal when entering less dense medium (speeding up)\n- No bending if light hits at 90° (along normal)\n\n**Examples:**\n- Straw appears bent in water\n- Pool appears shallower than it is\n- Coins in water appear raised\n- Mirages on hot roads\n\n**Applications:**\n- Lenses in spectacles, cameras, microscopes\n- Optical fibers for internet\n- Prisms separate white light into spectrum",
+                            "content_zh": "**折射**是光从一种介质进入另一种介质时发生的弯曲。\n\n**原因：**\n- 光在不同介质中速度改变\n- 在密度较小的介质中较快（空气）\n- 在密度较大的介质中较慢（玻璃、水）\n\n**规则：**\n- 进入密度较大介质时向法线弯曲\n- 进入密度较小介质时远离法线弯曲\n\n**例子：**\n- 吸管在水中看起来弯曲\n- 泳池看起来比实际浅"
+                        }
+                    ],
+                    "exercises": [
+                        {
+                            "id": "light-ex1",
+                            "type": "mcq",
+                            "difficulty": "easy",
+                            "prompt": "What is the relationship between angle of incidence and angle of reflection?",
+                            "prompt_zh": "入射角和反射角之间的关系是什么？",
+                            "choices": [
+                                "They add up to 90°",
+                                "They are equal",
+                                "Incidence is always larger",
+                                "Reflection is always larger"
+                            ],
+                            "choices_zh": [
+                                "它们加起来等于90°",
+                                "它们相等",
+                                "入射角总是更大",
+                                "反射角总是更大"
+                            ],
+                            "answer": 1,
+                            "explanation": "According to the Law of Reflection, angle of incidence equals angle of reflection (i = r).\n\n✔ **Final Answer:** They are equal",
+                            "explanation_zh": "根据反射定律，入射角等于反射角（i = r）。"
+                        },
+                        {
+                            "id": "light-ex2",
+                            "type": "mcq",
+                            "difficulty": "medium",
+                            "prompt": "When light travels from air into water, it:",
+                            "prompt_zh": "当光从空气进入水中时：",
+                            "choices": [
+                                "Bends away from normal",
+                                "Bends toward normal",
+                                "Does not bend",
+                                "Stops completely"
+                            ],
+                            "choices_zh": [
+                                "远离法线弯曲",
+                                "向法线弯曲",
+                                "不弯曲",
+                                "完全停止"
+                            ],
+                            "answer": 1,
+                            "explanation": "Water is denser than air. When light enters a denser medium, it slows down and bends TOWARD the normal.\n\n✔ **Final Answer:** Bends toward normal",
+                            "explanation_zh": "水比空气密度大。当光进入密度较大的介质时，它减速并向法线弯曲。"
+                        },
+                        {
+                            "id": "light-ex3",
+                            "type": "mcq",
+                            "difficulty": "medium",
+                            "prompt": "Why does a straw appear bent when placed in a glass of water?",
+                            "prompt_zh": "为什么吸管放在水杯中看起来是弯曲的？",
+                            "choices": [
+                                "The straw actually bends",
+                                "Reflection of light",
+                                "Refraction of light",
+                                "Absorption of light"
+                            ],
+                            "choices_zh": [
+                                "吸管实际上弯曲了",
+                                "光的反射",
+                                "光的折射",
+                                "光的吸收"
+                            ],
+                            "answer": 2,
+                            "explanation": "Light from the underwater part of the straw bends (refracts) when leaving water and entering air, making the straw appear bent at the water surface.\n\n✔ **Final Answer:** Refraction of light",
+                            "explanation_zh": "来自水下部分吸管的光在离开水进入空气时弯曲（折射），使吸管在水面看起来弯曲。"
+                        },
+                        {
+                            "id": "light-ex4",
+                            "type": "short",
+                            "difficulty": "hard",
+                            "prompt": "State two characteristics of an image formed by a plane mirror.",
+                            "prompt_zh": "说明平面镜成像的两个特点。",
+                            "answer": "Same size as object and laterally inverted",
+                            "explanation": "Plane mirror image characteristics:\n1. Same size as object\n2. Same distance behind mirror\n3. Laterally inverted (left-right reversed)\n4. Virtual image\n\n✔ **Final Answer:** Same size as object and laterally inverted",
+                            "explanation_zh": "平面镜成像特点：大小相同、左右颠倒、虚像、距离相等。"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "sec2-chemistry",
+            "title": "Chemistry",
+            "title_zh": "化学",
+            "description": "Explore chemical reactions, acids, alkalis, and the periodic table",
+            "description_zh": "探索化学反应、酸、碱和元素周期表",
+            "color": "from-purple-500 to-pink-500",
+            "chapters": [
+                {
+                    "id": "chemical-changes",
+                    "title": "Chemical Changes",
+                    "title_zh": "化学变化",
+                    "description": "Understand chemical reactions, acids, alkalis, and indicators",
+                    "description_zh": "理解化学反应、酸、碱和指示剂",
+                    "gradeLevel": "sec2",
+                    "objectives": [
+                        "Distinguish between physical and chemical changes",
+                        "Describe the properties of acids and alkalis",
+                        "Use indicators to identify acids and alkalis",
+                        "Write word equations for chemical reactions"
+                    ],
+                    "objectives_zh": [
+                        "区分物理变化和化学变化",
+                        "描述酸和碱的性质",
+                        "使用指示剂识别酸和碱",
+                        "写出化学反应的文字方程式"
+                    ],
+                    "sections": [
+                        {
+                            "id": "physical-vs-chemical",
+                            "type": "text",
+                            "title": "Physical vs Chemical Changes",
+                            "title_zh": "物理变化与化学变化",
+                            "content": "**Physical Changes:**\n- No new substances formed\n- Usually reversible\n- Only physical properties change\n\n**Examples:**\n- Ice melting to water\n- Sugar dissolving in water\n- Cutting paper\n- Mixing sand and salt\n\n**Chemical Changes:**\n- New substances formed\n- Usually irreversible\n- Chemical properties change\n\n**Signs of Chemical Change:**\n1. **Color change** (not from mixing)\n2. **Gas produced** (bubbles, fizzing)\n3. **Heat/light released or absorbed**\n4. **Precipitate formed** (solid appears in liquid)\n5. **Smell produced**\n\n**Examples:**\n- Burning wood (produces ash, CO₂)\n- Rusting of iron\n- Cooking an egg\n- Digesting food\n\n**Singapore Context:**\nThe flame at the Eternal Flame Memorial is a continuous chemical reaction (combustion) of natural gas.",
+                            "content_zh": "**物理变化：**\n- 没有新物质生成\n- 通常可逆\n- 只有物理性质改变\n\n**例子：**\n- 冰融化成水\n- 糖溶解在水中\n\n**化学变化：**\n- 有新物质生成\n- 通常不可逆\n- 化学性质改变\n\n**化学变化的迹象：**\n1. 颜色变化\n2. 产生气体\n3. 释放或吸收热/光\n4. 形成沉淀\n5. 产生气味"
+                        },
+                        {
+                            "id": "acids-alkalis",
+                            "type": "text",
+                            "title": "Acids and Alkalis",
+                            "title_zh": "酸和碱",
+                            "content": "**Acids:**\n- Taste sour (do NOT taste in lab!)\n- pH less than 7\n- Turn blue litmus paper red\n- React with metals to produce hydrogen gas\n- React with carbonates to produce carbon dioxide\n\n**Common Acids:**\n- Hydrochloric acid (HCl) - in stomach\n- Sulfuric acid (H₂SO₄) - in car batteries\n- Citric acid - in citrus fruits\n- Vinegar (acetic acid) - in cooking\n\n**Alkalis (Bases that dissolve in water):**\n- Taste bitter, feel soapy/slippery\n- pH greater than 7\n- Turn red litmus paper blue\n\n**Common Alkalis:**\n- Sodium hydroxide (NaOH) - in soap making\n- Calcium hydroxide - lime water\n- Ammonia solution - cleaning products\n- Baking soda solution\n\n**Neutralization:**\nAcid + Alkali → Salt + Water\n\nExample:\nHydrochloric acid + Sodium hydroxide → Sodium chloride + Water\n\n**Singapore Context:**\nAntacids (like Eno or Gaviscon) neutralize excess stomach acid using alkalis like magnesium hydroxide.",
+                            "content_zh": "**酸：**\n- 味道酸（实验室不要品尝！）\n- pH小于7\n- 使蓝色石蕊试纸变红\n- 与金属反应产生氢气\n\n**常见酸：**\n- 盐酸 - 胃中\n- 硫酸 - 汽车电池中\n- 柠檬酸 - 柑橘类水果中\n\n**碱：**\n- 味道苦，手感滑腻\n- pH大于7\n- 使红色石蕊试纸变蓝\n\n**中和反应：**\n酸 + 碱 → 盐 + 水"
+                        },
+                        {
+                            "id": "indicators-ph",
+                            "type": "text",
+                            "title": "Indicators and pH Scale",
+                            "title_zh": "指示剂和pH值",
+                            "content": "**Indicators** are substances that change color depending on whether a solution is acidic or alkaline.\n\n**Litmus Paper:**\n- Blue litmus → Red = Acid\n- Red litmus → Blue = Alkali\n- No change = Neutral\n\n**Universal Indicator:**\nShows a range of colors based on pH:\n\n| pH | Color | Type |\n|----|-------|------|\n| 1-3 | Red | Strong acid |\n| 4-6 | Orange/Yellow | Weak acid |\n| 7 | Green | Neutral |\n| 8-10 | Blue | Weak alkali |\n| 11-14 | Purple | Strong alkali |\n\n**The pH Scale:**\n- Ranges from 0 to 14\n- pH 7 = Neutral (pure water)\n- Below 7 = Acidic (lower = stronger acid)\n- Above 7 = Alkaline (higher = stronger alkali)\n\n**Common pH Values:**\n- Lemon juice: pH 2\n- Vinegar: pH 3\n- Pure water: pH 7\n- Blood: pH 7.4\n- Soap: pH 10\n- Bleach: pH 13\n\n**Singapore Context:**\nNEA monitors the pH of water sources. Drinking water should be around pH 7 (neutral).",
+                            "content_zh": "**指示剂**是根据溶液是酸性还是碱性而改变颜色的物质。\n\n**石蕊试纸：**\n- 蓝色石蕊 → 红色 = 酸\n- 红色石蕊 → 蓝色 = 碱\n- 无变化 = 中性\n\n**pH值范围：**\n- 0到14\n- pH 7 = 中性\n- 小于7 = 酸性\n- 大于7 = 碱性"
+                        },
+                        {
+                            "id": "chemical-reactions",
+                            "type": "text",
+                            "title": "Types of Chemical Reactions",
+                            "title_zh": "化学反应类型",
+                            "content": "**1. Acid + Metal → Salt + Hydrogen**\nExample: Zinc + Hydrochloric acid → Zinc chloride + Hydrogen\n\nTest for hydrogen: **Pop test** (burns with a squeaky pop)\n\n**2. Acid + Carbonate → Salt + Water + Carbon dioxide**\nExample: Calcium carbonate + Hydrochloric acid → Calcium chloride + Water + Carbon dioxide\n\nTest for CO₂: Turns **limewater milky/cloudy**\n\n**3. Acid + Alkali → Salt + Water (Neutralization)**\nExample: Sulfuric acid + Sodium hydroxide → Sodium sulfate + Water\n\n**4. Combustion (Burning)**\nFuel + Oxygen → Carbon dioxide + Water + Energy\n\nExample: Methane + Oxygen → Carbon dioxide + Water\n\n**5. Oxidation and Rusting**\nIron + Oxygen + Water → Hydrated iron(III) oxide (rust)\n\nConditions for rusting: Both oxygen AND water needed\n\n**Prevention of Rusting:**\n- Painting or oiling\n- Galvanizing (zinc coating)\n- Stainless steel (alloy)\n\n**Singapore Context:**\nShips in Singapore's port are painted and use sacrificial zinc blocks to prevent rusting in the marine environment.",
+                            "content_zh": "**1. 酸 + 金属 → 盐 + 氢气**\n氢气检验：点燃发出爆鸣声\n\n**2. 酸 + 碳酸盐 → 盐 + 水 + 二氧化碳**\nCO₂检验：使石灰水变浑浊\n\n**3. 酸 + 碱 → 盐 + 水（中和反应）**\n\n**4. 燃烧**\n燃料 + 氧气 → 二氧化碳 + 水 + 能量\n\n**5. 氧化和生锈**\n铁 + 氧气 + 水 → 氧化铁（锈）"
+                        }
+                    ],
+                    "exercises": [
+                        {
+                            "id": "chem-ex1",
+                            "type": "mcq",
+                            "difficulty": "easy",
+                            "prompt": "Which of the following is a chemical change?",
+                            "prompt_zh": "以下哪项是化学变化？",
+                            "choices": [
+                                "Ice melting",
+                                "Sugar dissolving",
+                                "Iron rusting",
+                                "Cutting paper"
+                            ],
+                            "choices_zh": [
+                                "冰融化",
+                                "糖溶解",
+                                "铁生锈",
+                                "剪纸"
+                            ],
+                            "answer": 2,
+                            "explanation": "**Problem:** Identify the chemical change.\n\n**Key Concept:**\nRusting is a chemical change because a new substance (iron oxide) is formed. The others are physical changes - no new substances are formed.\n\n✔ **Final Answer:** Iron rusting",
+                            "explanation_zh": "生锈是化学变化，因为产生了新物质（氧化铁）。其他都是物理变化。"
+                        },
+                        {
+                            "id": "chem-ex2",
+                            "type": "mcq",
+                            "difficulty": "medium",
+                            "prompt": "What is the pH of a neutral solution?",
+                            "prompt_zh": "中性溶液的pH值是多少？",
+                            "choices": [
+                                "0",
+                                "7",
+                                "14",
+                                "1"
+                            ],
+                            "choices_zh": [
+                                "0",
+                                "7",
+                                "14",
+                                "1"
+                            ],
+                            "answer": 1,
+                            "explanation": "**Problem:** What is the pH of a neutral solution?\n\n**Key Concept:**\nThe pH scale ranges from 0-14. pH 7 is neutral (like pure water). Below 7 is acidic, above 7 is alkaline.\n\n✔ **Final Answer:** 7",
+                            "explanation_zh": "pH 7是中性（如纯水）。7以下是酸性，7以上是碱性。"
+                        },
+                        {
+                            "id": "chem-ex3",
+                            "type": "mcq",
+                            "difficulty": "medium",
+                            "prompt": "What gas is produced when an acid reacts with a carbonate?",
+                            "prompt_zh": "酸与碳酸盐反应会产生什么气体？",
+                            "choices": [
+                                "Oxygen",
+                                "Hydrogen",
+                                "Carbon dioxide",
+                                "Nitrogen"
+                            ],
+                            "choices_zh": [
+                                "氧气",
+                                "氢气",
+                                "二氧化碳",
+                                "氮气"
+                            ],
+                            "answer": 2,
+                            "explanation": "**Problem:** Identify gas from acid + carbonate reaction.\n\n**Key Concept:**\nAcid + Carbonate → Salt + Water + Carbon dioxide\nCO₂ can be tested using limewater (turns milky).\n\n✔ **Final Answer:** Carbon dioxide",
+                            "explanation_zh": "酸 + 碳酸盐 → 盐 + 水 + 二氧化碳\n可用石灰水检验（变浑浊）。"
+                        },
+                        {
+                            "id": "chem-ex4",
+                            "type": "mcq",
+                            "difficulty": "hard",
+                            "prompt": "Blue litmus paper turns red when dipped in a solution. What can you conclude about the solution?",
+                            "prompt_zh": "蓝色石蕊试纸浸入溶液后变红。你能得出什么结论？",
+                            "choices": [
+                                "It is neutral",
+                                "It is an alkali",
+                                "It is an acid",
+                                "It is water"
+                            ],
+                            "choices_zh": [
+                                "它是中性的",
+                                "它是碱",
+                                "它是酸",
+                                "它是水"
+                            ],
+                            "answer": 2,
+                            "explanation": "**Problem:** Interpret litmus paper test result.\n\n**Key Concept:**\nBlue litmus turning red indicates an acid. Red litmus turning blue indicates an alkali. No change means neutral.\n\n✔ **Final Answer:** It is an acid",
+                            "explanation_zh": "蓝色石蕊变红表示酸性。红色石蕊变蓝表示碱性。无变化表示中性。"
+                        },
+                        {
+                            "id": "chem-ex5",
+                            "type": "short",
+                            "difficulty": "medium",
+                            "prompt": "What are the two conditions required for iron to rust?",
+                            "prompt_zh": "铁生锈需要哪两个条件？",
+                            "answer": "Oxygen and water",
+                            "explanation": "**Key Concept:**\nRusting requires both:\n1. Oxygen (from air)\n2. Water (moisture)\n\nRemoving either condition prevents rusting.\n\n✔ **Final Answer:** Oxygen and water",
+                            "explanation_zh": "生锈需要：1. 氧气  2. 水\n去除任一条件可防止生锈。"
+                        }
+                    ]
+                },
+                {
+                    "id": "atoms-molecules",
+                    "title": "Atoms and Molecules",
+                    "title_zh": "原子和分子",
+                    "description": "Understand the structure of atoms and how they form molecules",
+                    "description_zh": "理解原子的结构及其如何形成分子",
+                    "gradeLevel": "sec2",
+                    "objectives": [
+                        "Describe the structure of an atom",
+                        "Explain how atoms form molecules through bonding",
+                        "Use chemical symbols and formulae",
+                        "Understand the periodic table organization"
+                    ],
+                    "objectives_zh": [
+                        "描述原子的结构",
+                        "解释原子如何通过成键形成分子",
+                        "使用化学符号和分子式",
+                        "理解元素周期表的组织"
+                    ],
+                    "sections": [
+                        {
+                            "id": "atomic-structure",
+                            "type": "text",
+                            "title": "Structure of an Atom",
+                            "title_zh": "原子结构",
+                            "content": "**Atoms** are the smallest particles of an element that retain its properties.\n\n**Structure:**\n\n**Nucleus (center):**\n- Contains protons (+) and neutrons (0)\n- Very small but contains most of the mass\n- Positively charged\n\n**Electron shells (orbits):**\n- Electrons (-) orbit the nucleus\n- Arranged in shells/energy levels\n- First shell: max 2 electrons\n- Second shell: max 8 electrons\n- Third shell: max 8 electrons (for first 20 elements)\n\n**Key Numbers:**\n- **Atomic number** = Number of protons\n- **Mass number** = Protons + Neutrons\n- In a neutral atom: Protons = Electrons\n\n**Example: Carbon (C)**\n- Atomic number: 6\n- Mass number: 12\n- Protons: 6, Neutrons: 6, Electrons: 6\n- Electron arrangement: 2,4",
+                            "content_zh": "**原子**是保持元素性质的最小粒子。\n\n**结构：**\n\n**原子核（中心）：**\n- 包含质子(+)和中子(0)\n- 很小但包含大部分质量\n\n**电子壳层：**\n- 电子(-)绕原子核运动\n- 第一层：最多2个电子\n- 第二层：最多8个电子\n- 第三层：最多8个电子\n\n**关键数字：**\n- 原子序数 = 质子数\n- 质量数 = 质子 + 中子"
+                        },
+                        {
+                            "id": "elements-compounds",
+                            "type": "text",
+                            "title": "Elements, Compounds, and Mixtures",
+                            "title_zh": "元素、化合物和混合物",
+                            "content": "**Elements:**\n- Made of only one type of atom\n- Cannot be broken down chemically\n- Examples: Oxygen (O), Carbon (C), Iron (Fe)\n\n**Compounds:**\n- Two or more different elements chemically bonded\n- Fixed ratio of atoms\n- Properties different from constituent elements\n- Examples: Water (H₂O), Carbon dioxide (CO₂)\n\n**Mixtures:**\n- Two or more substances NOT chemically bonded\n- Can be separated by physical methods\n- Examples: Air, salt water, sand and iron filings\n\n**Chemical Formulae:**\n- H₂O = 2 hydrogen atoms + 1 oxygen atom\n- CO₂ = 1 carbon atom + 2 oxygen atoms\n- NaCl = 1 sodium atom + 1 chlorine atom\n\n**Writing Formulae:**\n- Subscript shows number of atoms\n- No subscript means 1 atom\n- Coefficient before formula shows number of molecules",
+                            "content_zh": "**元素：**\n- 只由一种原子组成\n- 不能化学分解\n\n**化合物：**\n- 两种或多种不同元素化学结合\n- 原子比例固定\n\n**混合物：**\n- 两种或多种物质未化学结合\n- 可用物理方法分离\n\n**化学式：**\n- H₂O = 2个氢原子 + 1个氧原子\n- CO₂ = 1个碳原子 + 2个氧原子"
+                        },
+                        {
+                            "id": "periodic-table",
+                            "type": "text",
+                            "title": "The Periodic Table",
+                            "title_zh": "元素周期表",
+                            "content": "The **Periodic Table** organizes elements by their properties.\n\n**Organization:**\n- **Periods** (rows): Same number of electron shells\n- **Groups** (columns): Same number of outer electrons\n\n**Key Groups:**\n- **Group 1 (Alkali metals):** Li, Na, K - Very reactive metals\n- **Group 7 (Halogens):** F, Cl, Br - Reactive non-metals\n- **Group 0/8 (Noble gases):** He, Ne, Ar - Unreactive gases\n\n**Metals vs Non-metals:**\n\n**Metals (left side):**\n- Shiny, conduct electricity and heat\n- Malleable and ductile\n- Form positive ions\n\n**Non-metals (right side):**\n- Dull, poor conductors\n- Brittle (solids)\n- Form negative ions or share electrons\n\n**Trends:**\n- Reactivity of metals increases down a group\n- Reactivity of non-metals decreases down a group",
+                            "content_zh": "**元素周期表**按元素性质组织。\n\n**组织：**\n- **周期**（行）：相同数量的电子壳层\n- **族**（列）：相同数量的外层电子\n\n**关键族：**\n- 第1族（碱金属）：Li, Na, K - 非常活泼的金属\n- 第7族（卤素）：F, Cl, Br - 活泼的非金属\n- 第0/8族（惰性气体）：He, Ne, Ar - 不活泼的气体"
+                        }
+                    ],
+                    "exercises": [
+                        {
+                            "id": "atom-ex1",
+                            "type": "mcq",
+                            "difficulty": "easy",
+                            "prompt": "What particles are found in the nucleus of an atom?",
+                            "prompt_zh": "原子核中有哪些粒子？",
+                            "choices": [
+                                "Electrons only",
+                                "Protons and electrons",
+                                "Protons and neutrons",
+                                "Neutrons only"
+                            ],
+                            "choices_zh": [
+                                "只有电子",
+                                "质子和电子",
+                                "质子和中子",
+                                "只有中子"
+                            ],
+                            "answer": 2,
+                            "explanation": "The nucleus contains protons (positive charge) and neutrons (no charge). Electrons orbit outside the nucleus.\n\n✔ **Final Answer:** Protons and neutrons",
+                            "explanation_zh": "原子核包含质子（正电荷）和中子（无电荷）。电子在原子核外运动。"
+                        },
+                        {
+                            "id": "atom-ex2",
+                            "type": "mcq",
+                            "difficulty": "medium",
+                            "prompt": "How many atoms are there in one molecule of H₂O?",
+                            "prompt_zh": "一个H₂O分子中有多少个原子？",
+                            "choices": [
+                                "2",
+                                "3",
+                                "4",
+                                "5"
+                            ],
+                            "choices_zh": [
+                                "2",
+                                "3",
+                                "4",
+                                "5"
+                            ],
+                            "answer": 1,
+                            "explanation": "H₂O has 2 hydrogen atoms + 1 oxygen atom = 3 atoms total.\n\n✔ **Final Answer:** 3",
+                            "explanation_zh": "H₂O有2个氢原子 + 1个氧原子 = 共3个原子。"
+                        },
+                        {
+                            "id": "atom-ex3",
+                            "type": "mcq",
+                            "difficulty": "medium",
+                            "prompt": "What does the atomic number of an element represent?",
+                            "prompt_zh": "元素的原子序数代表什么？",
+                            "choices": [
+                                "Number of neutrons",
+                                "Number of protons",
+                                "Total mass",
+                                "Number of electrons + protons"
+                            ],
+                            "choices_zh": [
+                                "中子数",
+                                "质子数",
+                                "总质量",
+                                "电子数+质子数"
+                            ],
+                            "answer": 1,
+                            "explanation": "The atomic number equals the number of protons in the nucleus. It defines which element it is.\n\n✔ **Final Answer:** Number of protons",
+                            "explanation_zh": "原子序数等于原子核中质子的数量。它定义了是哪种元素。"
+                        },
+                        {
+                            "id": "atom-ex4",
+                            "type": "short",
+                            "difficulty": "hard",
+                            "prompt": "State one difference between a compound and a mixture.",
+                            "prompt_zh": "说明化合物和混合物的一个区别。",
+                            "answer": "A compound is chemically bonded while a mixture is not",
+                            "explanation": "Key differences:\n- Compound: Elements are chemically bonded in fixed ratio\n- Mixture: Substances are NOT chemically bonded, can be separated physically\n\n✔ **Final Answer:** A compound is chemically bonded while a mixture is not",
+                            "explanation_zh": "化合物中元素化学结合，混合物中物质未化学结合。"
+                        }
+                    ]
+                },
+                {
+                    "id": "separation-techniques",
+                    "title": "Separation Techniques",
+                    "title_zh": "分离技术",
+                    "description": "Learn methods to separate mixtures",
+                    "description_zh": "学习分离混合物的方法",
+                    "gradeLevel": "sec2",
+                    "objectives": [
+                        "Describe various separation techniques",
+                        "Choose appropriate methods for different mixtures",
+                        "Explain the principles behind each technique"
+                    ],
+                    "objectives_zh": [
+                        "描述各种分离技术",
+                        "为不同混合物选择适当的方法",
+                        "解释每种技术背后的原理"
+                    ],
+                    "sections": [
+                        {
+                            "id": "filtration-evaporation",
+                            "type": "text",
+                            "title": "Filtration and Evaporation",
+                            "title_zh": "过滤和蒸发",
+                            "content": "**Filtration:**\n- Separates insoluble solid from liquid\n- Uses filter paper with tiny holes\n- Solid stays on paper (residue)\n- Liquid passes through (filtrate)\n\n**Example:** Separating sand from water\n\n**Evaporation:**\n- Separates dissolved solid from liquid\n- Heat the solution until liquid evaporates\n- Solid remains behind\n\n**Example:** Getting salt from salt water\n\n**Crystallization:**\n- Similar to evaporation but slower\n- Heat solution until saturated\n- Allow to cool slowly\n- Pure crystals form",
+                            "content_zh": "**过滤：**\n- 将不溶性固体与液体分离\n- 使用有小孔的滤纸\n- 固体留在纸上（残渣）\n- 液体通过（滤液）\n\n**蒸发：**\n- 将溶解的固体与液体分离\n- 加热溶液直到液体蒸发\n- 固体留下"
+                        },
+                        {
+                            "id": "distillation",
+                            "type": "text",
+                            "title": "Distillation",
+                            "title_zh": "蒸馏",
+                            "content": "**Simple Distillation:**\n- Separates liquid from dissolved solid\n- OR liquids with VERY different boiling points\n- Heat solution → liquid evaporates → condenses → collects\n\n**Equipment:**\n- Round bottom flask\n- Condenser (with cold water flowing)\n- Collecting flask\n- Thermometer\n\n**Fractional Distillation:**\n- Separates liquids with SIMILAR boiling points\n- Uses fractionating column\n- Liquid with lower boiling point rises first\n\n**Examples:**\n- Distilling water from salt water (simple)\n- Separating crude oil into fractions (fractional)\n- Making spirits from fermented drinks (fractional)\n\n**Singapore Context:**\nNEWater production uses distillation along with other methods to purify water.",
+                            "content_zh": "**简单蒸馏：**\n- 将液体与溶解固体分离\n- 或沸点相差很大的液体\n\n**分馏：**\n- 分离沸点相近的液体\n- 使用分馏柱\n- 沸点较低的液体先上升\n\n**新加坡背景：**\nNEWater生产使用蒸馏和其他方法来净化水。"
+                        },
+                        {
+                            "id": "chromatography",
+                            "type": "text",
+                            "title": "Chromatography and Other Methods",
+                            "title_zh": "色谱法和其他方法",
+                            "content": "**Chromatography:**\n- Separates substances based on how fast they travel\n- Paper chromatography uses absorbent paper\n- Different substances travel different distances\n- Used for dyes, inks, food colorings\n\n**Magnetic Separation:**\n- Separates magnetic from non-magnetic materials\n- Use a magnet\n- Example: Iron filings from sand\n\n**Decanting:**\n- Pour off liquid, leaving heavy solid behind\n- Example: Pouring water from rice\n\n**Using a Separating Funnel:**\n- Separates immiscible liquids (don't mix)\n- Denser liquid sinks to bottom\n- Open tap to release bottom liquid\n- Example: Oil and water",
+                            "content_zh": "**色谱法：**\n- 根据物质移动速度分离\n- 纸色谱法使用吸水纸\n- 不同物质移动不同距离\n\n**磁性分离：**\n- 分离磁性和非磁性材料\n- 使用磁铁\n\n**分液漏斗：**\n- 分离不互溶液体\n- 较重液体沉到底部"
+                        }
+                    ],
+                    "exercises": [
+                        {
+                            "id": "sep-ex1",
+                            "type": "mcq",
+                            "difficulty": "easy",
+                            "prompt": "Which technique separates an insoluble solid from a liquid?",
+                            "prompt_zh": "哪种技术将不溶性固体与液体分离？",
+                            "choices": [
+                                "Evaporation",
+                                "Distillation",
+                                "Filtration",
+                                "Chromatography"
+                            ],
+                            "choices_zh": [
+                                "蒸发",
+                                "蒸馏",
+                                "过滤",
+                                "色谱法"
+                            ],
+                            "answer": 2,
+                            "explanation": "Filtration uses filter paper to trap insoluble solids while liquid passes through.\n\n✔ **Final Answer:** Filtration",
+                            "explanation_zh": "过滤使用滤纸截留不溶性固体，液体通过。"
+                        },
+                        {
+                            "id": "sep-ex2",
+                            "type": "mcq",
+                            "difficulty": "medium",
+                            "prompt": "How would you separate iron filings from sand?",
+                            "prompt_zh": "如何将铁屑与沙子分离？",
+                            "choices": [
+                                "Filtration",
+                                "Evaporation",
+                                "Magnetic separation",
+                                "Distillation"
+                            ],
+                            "choices_zh": [
+                                "过滤",
+                                "蒸发",
+                                "磁性分离",
+                                "蒸馏"
+                            ],
+                            "answer": 2,
+                            "explanation": "Iron is magnetic while sand is not. A magnet will attract the iron filings, leaving the sand behind.\n\n✔ **Final Answer:** Magnetic separation",
+                            "explanation_zh": "铁是磁性的，沙子不是。磁铁会吸引铁屑，留下沙子。"
+                        },
+                        {
+                            "id": "sep-ex3",
+                            "type": "mcq",
+                            "difficulty": "medium",
+                            "prompt": "Which technique would you use to get pure water from salt water?",
+                            "prompt_zh": "你会用哪种技术从盐水中获得纯净水？",
+                            "choices": [
+                                "Filtration",
+                                "Evaporation",
+                                "Distillation",
+                                "Chromatography"
+                            ],
+                            "choices_zh": [
+                                "过滤",
+                                "蒸发",
+                                "蒸馏",
+                                "色谱法"
+                            ],
+                            "answer": 2,
+                            "explanation": "Distillation evaporates the water (leaving salt behind) then condenses it to collect pure water. Evaporation would only give you the salt.\n\n✔ **Final Answer:** Distillation",
+                            "explanation_zh": "蒸馏将水蒸发（留下盐）然后冷凝收集纯净水。蒸发只会得到盐。"
+                        },
+                        {
+                            "id": "sep-ex4",
+                            "type": "short",
+                            "difficulty": "hard",
+                            "prompt": "Name one use of chromatography.",
+                            "prompt_zh": "说出色谱法的一个用途。",
+                            "answer": "Separating dyes or inks",
+                            "explanation": "Chromatography is used to:\n- Analyze food colorings\n- Separate dyes and inks\n- Identify substances in forensic science\n\n✔ **Final Answer:** Separating dyes or inks",
+                            "explanation_zh": "色谱法用于分离染料和墨水、分析食品色素、法医鉴定。"
+                        }
+                    ]
+                },
+                {
+                    "id": "metals-nonmetals",
+                    "title": "Metals and Non-metals",
+                    "title_zh": "金属和非金属",
+                    "description": "Compare properties and reactions of metals and non-metals",
+                    "description_zh": "比较金属和非金属的性质和反应",
+                    "gradeLevel": "sec2",
+                    "objectives": [
+                        "Compare physical properties of metals and non-metals",
+                        "Describe reactions of metals with oxygen, water, and acids",
+                        "Understand the reactivity series",
+                        "Explain uses of metals based on their properties"
+                    ],
+                    "objectives_zh": [
+                        "比较金属和非金属的物理性质",
+                        "描述金属与氧气、水和酸的反应",
+                        "理解金属活动性顺序",
+                        "根据金属性质解释其用途"
+                    ],
+                    "sections": [
+                        {
+                            "id": "metal-properties",
+                            "type": "text",
+                            "title": "Properties of Metals",
+                            "title_zh": "金属的性质",
+                            "content": "**Physical Properties of Metals:**\n\n1. **Lustrous** (shiny when polished)\n2. **Good conductors** of heat and electricity\n3. **Malleable** (can be hammered into sheets)\n4. **Ductile** (can be drawn into wires)\n5. **High melting/boiling points** (usually)\n6. **High density** (usually)\n7. **Sonorous** (make ringing sound when struck)\n\n**Common Metals:**\n- Iron (Fe) - construction, making steel\n- Copper (Cu) - electrical wiring\n- Aluminum (Al) - aircraft, drink cans\n- Gold (Au) - jewelry\n- Silver (Ag) - jewelry, electronics\n\n**Exceptions:**\n- Mercury is liquid at room temperature\n- Sodium and potassium are soft and have low density",
+                            "content_zh": "**金属的物理性质：**\n\n1. 有光泽（抛光后闪亮）\n2. 良好的热和电导体\n3. 可锻造（可锤成薄片）\n4. 可延展（可拉成丝）\n5. 高熔点/沸点\n6. 高密度\n7. 声音悦耳"
+                        },
+                        {
+                            "id": "nonmetal-properties",
+                            "type": "text",
+                            "title": "Properties of Non-metals",
+                            "title_zh": "非金属的性质",
+                            "content": "**Physical Properties of Non-metals:**\n\n1. **Dull** (not shiny)\n2. **Poor conductors** of heat and electricity (insulators)\n3. **Brittle** (solids shatter when hammered)\n4. **Low melting/boiling points** (many are gases)\n5. **Low density**\n\n**Common Non-metals:**\n- Carbon (C) - diamond, graphite, fuels\n- Oxygen (O) - respiration, combustion\n- Nitrogen (N) - 78% of air, fertilizers\n- Sulfur (S) - sulfuric acid production\n- Chlorine (Cl) - water treatment\n\n**Exceptions:**\n- Graphite (carbon) conducts electricity\n- Diamond has very high melting point\n\n**Comparison Table:**\n\n| Property | Metals | Non-metals |\n|----------|--------|------------|\n| Appearance | Shiny | Dull |\n| Conductivity | Good | Poor |\n| Malleability | Yes | Brittle |\n| State | Solid (mostly) | Solid/liquid/gas |",
+                            "content_zh": "**非金属的物理性质：**\n\n1. 暗淡（不闪亮）\n2. 热和电的不良导体\n3. 脆（固体敲打会碎裂）\n4. 低熔点/沸点\n5. 低密度\n\n**常见非金属：**\n- 碳 - 钻石、石墨\n- 氧气 - 呼吸、燃烧\n- 氮气 - 空气的78%"
+                        },
+                        {
+                            "id": "reactivity-series",
+                            "type": "text",
+                            "title": "Reactivity Series of Metals",
+                            "title_zh": "金属活动性顺序",
+                            "content": "The **reactivity series** ranks metals by how readily they react.\n\n**Most reactive to least reactive:**\n\nPotassium (K) ← Most reactive\nSodium (Na)\nCalcium (Ca)\nMagnesium (Mg)\nAluminum (Al)\nZinc (Zn)\nIron (Fe)\nLead (Pb)\nCopper (Cu)\nSilver (Ag)\nGold (Au) ← Least reactive\n\n**Memory aid:** Please Stop Calling Me A Zebra, I Like Catching Some Gold\n\n**Reactions with water:**\n- K, Na, Ca react vigorously with cold water\n- Mg reacts slowly with cold water, faster with steam\n- Below Mg react only with steam or not at all\n\n**Reactions with acids:**\n- More reactive metals react faster\n- Metals above hydrogen react with dilute acids\n- Produce salt + hydrogen gas\n\n**Displacement reactions:**\n- More reactive metal displaces less reactive metal from solution\n- Example: Zn + CuSO₄ → ZnSO₄ + Cu",
+                            "content_zh": "**活动性顺序**按金属反应能力排列。\n\n**从最活泼到最不活泼：**\n钾 > 钠 > 钙 > 镁 > 铝 > 锌 > 铁 > 铅 > 铜 > 银 > 金\n\n**与水的反应：**\n- K、Na、Ca与冷水剧烈反应\n- Mg与冷水缓慢反应\n\n**与酸的反应：**\n- 更活泼的金属反应更快\n- 产生盐 + 氢气\n\n**置换反应：**\n- 更活泼金属置换不那么活泼的金属"
+                        }
+                    ],
+                    "exercises": [
+                        {
+                            "id": "metal-ex1",
+                            "type": "mcq",
+                            "difficulty": "easy",
+                            "prompt": "Which property is characteristic of metals?",
+                            "prompt_zh": "哪种性质是金属的特征？",
+                            "choices": [
+                                "Brittle",
+                                "Poor conductor",
+                                "Shiny/lustrous",
+                                "Low density"
+                            ],
+                            "choices_zh": [
+                                "脆",
+                                "不良导体",
+                                "有光泽",
+                                "低密度"
+                            ],
+                            "answer": 2,
+                            "explanation": "Metals are typically shiny (lustrous) when polished. They are good conductors, malleable, and usually have high density.\n\n✔ **Final Answer:** Shiny/lustrous",
+                            "explanation_zh": "金属抛光后通常有光泽。它们是良导体、可锻造，通常密度高。"
+                        },
+                        {
+                            "id": "metal-ex2",
+                            "type": "mcq",
+                            "difficulty": "medium",
+                            "prompt": "Which metal is MORE reactive than iron?",
+                            "prompt_zh": "哪种金属比铁更活泼？",
+                            "choices": [
+                                "Copper",
+                                "Gold",
+                                "Silver",
+                                "Magnesium"
+                            ],
+                            "choices_zh": [
+                                "铜",
+                                "金",
+                                "银",
+                                "镁"
+                            ],
+                            "answer": 3,
+                            "explanation": "In the reactivity series: Mg > Zn > Fe > Cu > Ag > Au. Magnesium is above iron, so it's more reactive.\n\n✔ **Final Answer:** Magnesium",
+                            "explanation_zh": "活动性顺序：Mg > Zn > Fe > Cu > Ag > Au。镁在铁上面，所以更活泼。"
+                        },
+                        {
+                            "id": "metal-ex3",
+                            "type": "mcq",
+                            "difficulty": "hard",
+                            "prompt": "What happens when zinc is placed in copper sulfate solution?",
+                            "prompt_zh": "当锌放入硫酸铜溶液中会发生什么？",
+                            "choices": [
+                                "Nothing happens",
+                                "Zinc dissolves, copper forms",
+                                "Copper dissolves",
+                                "Gas is produced"
+                            ],
+                            "choices_zh": [
+                                "没有反应",
+                                "锌溶解，铜形成",
+                                "铜溶解",
+                                "产生气体"
+                            ],
+                            "answer": 1,
+                            "explanation": "Zinc is more reactive than copper. It displaces copper from the solution: Zn + CuSO₄ → ZnSO₄ + Cu. Copper metal deposits out.\n\n✔ **Final Answer:** Zinc dissolves, copper forms",
+                            "explanation_zh": "锌比铜更活泼。它将铜从溶液中置换出来：Zn + CuSO₄ → ZnSO₄ + Cu"
+                        },
+                        {
+                            "id": "metal-ex4",
+                            "type": "short",
+                            "difficulty": "medium",
+                            "prompt": "Why is copper used for electrical wiring?",
+                            "prompt_zh": "为什么铜用于电线？",
+                            "answer": "Copper is a good conductor of electricity and is ductile",
+                            "explanation": "Copper is used for wiring because:\n1. Excellent conductor of electricity\n2. Ductile (can be drawn into thin wires)\n3. Doesn't corrode easily\n\n✔ **Final Answer:** Copper is a good conductor of electricity and is ductile",
+                            "explanation_zh": "铜用于电线因为：良好的电导体、可延展成细丝、不易腐蚀。"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "sec2-biology",
+            "title": "Biology",
+            "title_zh": "生物",
+            "description": "Explore human body systems, ecosystems, and life processes",
+            "description_zh": "探索人体系统、生态系统和生命过程",
+            "color": "from-green-500 to-emerald-500",
+            "chapters": [
+                {
+                    "id": "digestive-system",
+                    "title": "Human Digestive System",
+                    "title_zh": "人体消化系统",
+                    "description": "Understand how food is digested and absorbed in the body",
+                    "description_zh": "理解食物如何在体内被消化和吸收",
+                    "gradeLevel": "sec2",
+                    "objectives": [
+                        "Describe the structure and function of digestive organs",
+                        "Explain physical and chemical digestion",
+                        "Describe the role of enzymes in digestion",
+                        "Explain how nutrients are absorbed in the small intestine"
+                    ],
+                    "objectives_zh": [
+                        "描述消化器官的结构和功能",
+                        "解释物理消化和化学消化",
+                        "描述酶在消化中的作用",
+                        "解释营养物质如何在小肠中被吸收"
+                    ],
+                    "sections": [
+                        {
+                            "id": "digestive-organs",
+                            "type": "text",
+                            "title": "Digestive Organs and Their Functions",
+                            "title_zh": "消化器官及其功能",
+                            "content": "The **digestive system** breaks down food into nutrients that can be absorbed into the blood.\n\n**Alimentary Canal (Digestive Tract):**\n\n**1. Mouth**\n- Physical digestion: Teeth chew food into smaller pieces\n- Chemical digestion: Salivary amylase breaks down starch\n\n**2. Oesophagus (Gullet)**\n- Tube connecting mouth to stomach\n- Peristalsis pushes food down\n\n**3. Stomach**\n- Physical: Churning action\n- Chemical: Gastric juice (HCl + pepsin)\n- Pepsin digests proteins\n- Acidic environment (pH 2)\n\n**4. Small Intestine**\n- Main site of digestion and absorption\n- Receives bile from liver (emulsifies fats)\n- Receives pancreatic juice (enzymes)\n- Villi increase surface area for absorption\n\n**5. Large Intestine**\n- Absorbs water and minerals\n- Forms faeces\n\n**6. Rectum and Anus**\n- Storage and elimination of faeces\n\n**Associated Organs:**\n- **Liver**: Produces bile\n- **Gallbladder**: Stores bile\n- **Pancreas**: Produces digestive enzymes",
+                            "content_zh": "**消化系统**将食物分解成可被血液吸收的营养物质。\n\n**消化道：**\n\n**1. 口腔**\n- 物理消化：牙齿咀嚼\n- 化学消化：唾液淀粉酶分解淀粉\n\n**2. 食道**\n- 连接口腔和胃的管道\n- 蠕动推动食物向下\n\n**3. 胃**\n- 物理：搅拌作用\n- 化学：胃液（盐酸+胃蛋白酶）\n\n**4. 小肠**\n- 消化和吸收的主要场所\n- 绒毛增加吸收表面积\n\n**5. 大肠**\n- 吸收水分和矿物质"
+                        },
+                        {
+                            "id": "enzymes",
+                            "type": "text",
+                            "title": "Enzymes in Digestion",
+                            "title_zh": "消化中的酶",
+                            "content": "**Enzymes** are biological catalysts that speed up chemical reactions without being used up.\n\n**Properties of Enzymes:**\n- Specific: Each enzyme acts on one substrate\n- Affected by temperature and pH\n- Reusable: Not changed by the reaction\n\n**Digestive Enzymes:**\n\n| Enzyme | Location | Substrate | Product |\n|--------|----------|-----------|----------|\n| Amylase | Mouth, Small intestine | Starch | Maltose |\n| Protease/Pepsin | Stomach | Proteins | Peptides |\n| Lipase | Small intestine | Fats | Fatty acids + Glycerol |\n| Maltase | Small intestine | Maltose | Glucose |\n\n**End Products of Digestion:**\n- Carbohydrates → **Glucose** (simple sugar)\n- Proteins → **Amino acids**\n- Fats → **Fatty acids + Glycerol**\n\n**Factors Affecting Enzyme Activity:**\n\n**Temperature:**\n- Too low: Slow reaction\n- Optimum (around 37°C): Fastest rate\n- Too high: Enzyme denatured (shape changes permanently)\n\n**pH:**\n- Pepsin works best at pH 2 (acidic)\n- Amylase works best at pH 7 (neutral)\n- Each enzyme has an optimum pH",
+                            "content_zh": "**酶**是加速化学反应而不被消耗的生物催化剂。\n\n**酶的特性：**\n- 专一性：每种酶只作用于一种底物\n- 受温度和pH影响\n- 可重复使用\n\n**消化终产物：**\n- 碳水化合物 → **葡萄糖**\n- 蛋白质 → **氨基酸**\n- 脂肪 → **脂肪酸 + 甘油**\n\n**影响酶活性的因素：**\n- 温度：最适温度约37°C\n- pH值：不同酶有不同最适pH"
+                        },
+                        {
+                            "id": "absorption",
+                            "type": "text",
+                            "title": "Absorption of Nutrients",
+                            "title_zh": "营养物质的吸收",
+                            "content": "**Absorption** occurs mainly in the **small intestine**.\n\n**Villi (singular: villus):**\nFinger-like projections that increase surface area for absorption.\n\n**Adaptations of Villi for Absorption:**\n1. **Large surface area** - many villi increase contact\n2. **Thin wall** (one cell thick) - short diffusion distance\n3. **Rich blood supply** - maintains concentration gradient\n4. **Lacteals** - absorb fatty acids and glycerol\n\n**Transport of Absorbed Nutrients:**\n\n**Via Blood:**\n- Glucose → Blood capillaries → Liver → Body cells\n- Amino acids → Blood capillaries → Liver → Body cells\n\n**Via Lymph:**\n- Fatty acids + Glycerol → Lacteals → Lymphatic system → Blood\n\n**Uses of Absorbed Nutrients:**\n\n**Glucose:**\n- Respiration (energy release)\n- Stored as glycogen in liver/muscles\n\n**Amino acids:**\n- Building proteins (growth, repair)\n- Making enzymes and hormones\n\n**Fatty acids & Glycerol:**\n- Energy storage\n- Cell membrane formation\n- Insulation",
+                            "content_zh": "**吸收**主要发生在**小肠**。\n\n**绒毛：**\n手指状突起，增加吸收表面积。\n\n**绒毛对吸收的适应性：**\n1. 大表面积\n2. 薄壁（一层细胞）\n3. 丰富的血液供应\n4. 乳糜管吸收脂肪酸\n\n**吸收营养物质的用途：**\n\n**葡萄糖：**用于呼吸作用释放能量\n\n**氨基酸：**构建蛋白质用于生长和修复\n\n**脂肪酸和甘油：**储存能量，形成细胞膜"
+                        }
+                    ],
+                    "exercises": [
+                        {
+                            "id": "bio-dig-ex1",
+                            "type": "mcq",
+                            "difficulty": "easy",
+                            "prompt": "Where does most absorption of nutrients occur?",
+                            "prompt_zh": "营养物质的吸收主要发生在哪里？",
+                            "choices": [
+                                "Mouth",
+                                "Stomach",
+                                "Small intestine",
+                                "Large intestine"
+                            ],
+                            "choices_zh": [
+                                "口腔",
+                                "胃",
+                                "小肠",
+                                "大肠"
+                            ],
+                            "answer": 2,
+                            "explanation": "**Problem:** Where does most absorption occur?\n\n**Key Concept:**\nThe small intestine is the main site of absorption due to its villi which provide a large surface area.\n\n✔ **Final Answer:** Small intestine",
+                            "explanation_zh": "小肠是吸收的主要场所，因为绒毛提供了大的表面积。"
+                        },
+                        {
+                            "id": "bio-dig-ex2",
+                            "type": "mcq",
+                            "difficulty": "medium",
+                            "prompt": "What is the end product of protein digestion?",
+                            "prompt_zh": "蛋白质消化的最终产物是什么？",
+                            "choices": [
+                                "Glucose",
+                                "Fatty acids",
+                                "Amino acids",
+                                "Glycerol"
+                            ],
+                            "choices_zh": [
+                                "葡萄糖",
+                                "脂肪酸",
+                                "氨基酸",
+                                "甘油"
+                            ],
+                            "answer": 2,
+                            "explanation": "**Problem:** What are proteins broken down into?\n\n**Key Concept:**\nProteins → Amino acids (by protease enzymes)\nCarbohydrates → Glucose\nFats → Fatty acids + Glycerol\n\n✔ **Final Answer:** Amino acids",
+                            "explanation_zh": "蛋白质 → 氨基酸\n碳水化合物 → 葡萄糖\n脂肪 → 脂肪酸 + 甘油"
+                        },
+                        {
+                            "id": "bio-dig-ex3",
+                            "type": "mcq",
+                            "difficulty": "medium",
+                            "prompt": "Which enzyme in the mouth begins the digestion of starch?",
+                            "prompt_zh": "口腔中哪种酶开始消化淀粉？",
+                            "choices": [
+                                "Pepsin",
+                                "Lipase",
+                                "Amylase",
+                                "Maltase"
+                            ],
+                            "choices_zh": [
+                                "胃蛋白酶",
+                                "脂肪酶",
+                                "淀粉酶",
+                                "麦芽糖酶"
+                            ],
+                            "answer": 2,
+                            "explanation": "**Problem:** Identify the enzyme that digests starch in mouth.\n\n**Key Concept:**\nSalivary amylase in saliva begins breaking down starch into maltose. Digestion of starch continues in the small intestine.\n\n✔ **Final Answer:** Amylase",
+                            "explanation_zh": "唾液中的淀粉酶开始将淀粉分解成麦芽糖。淀粉的消化在小肠继续进行。"
+                        },
+                        {
+                            "id": "bio-dig-ex4",
+                            "type": "short",
+                            "difficulty": "hard",
+                            "prompt": "State two ways villi are adapted for efficient absorption.",
+                            "prompt_zh": "说明绒毛适应高效吸收的两种方式。",
+                            "answer": "Large surface area and thin walls",
+                            "explanation": "**Adaptations of villi:**\n1. Large surface area (many villi)\n2. Thin walls (one cell thick)\n3. Rich blood supply\n4. Presence of lacteals\n\n✔ **Final Answer:** Large surface area and thin walls",
+                            "explanation_zh": "绒毛的适应性：\n1. 大表面积\n2. 薄壁（一层细胞）\n3. 丰富血液供应\n4. 存在乳糜管"
+                        }
+                    ]
+                },
+                {
+                    "id": "ecosystems",
+                    "title": "Interactions within Ecosystems",
+                    "title_zh": "生态系统中的相互作用",
+                    "description": "Understand food chains, food webs, and energy flow in ecosystems",
+                    "description_zh": "理解食物链、食物网和生态系统中的能量流动",
+                    "gradeLevel": "sec2",
+                    "objectives": [
+                        "Describe the components of an ecosystem",
+                        "Construct and interpret food chains and food webs",
+                        "Explain the flow of energy through an ecosystem",
+                        "Discuss the importance of biodiversity"
+                    ],
+                    "objectives_zh": [
+                        "描述生态系统的组成部分",
+                        "构建和解读食物链和食物网",
+                        "解释能量在生态系统中的流动",
+                        "讨论生物多样性的重要性"
+                    ],
+                    "sections": [
+                        {
+                            "id": "ecosystem-components",
+                            "type": "text",
+                            "title": "Components of an Ecosystem",
+                            "title_zh": "生态系统的组成部分",
+                            "content": "An **ecosystem** is a community of living organisms interacting with their physical environment.\n\n**Biotic Factors (Living):**\n- Producers (plants, algae)\n- Consumers (animals)\n- Decomposers (bacteria, fungi)\n- Predators and prey\n- Competition\n\n**Abiotic Factors (Non-living):**\n- Temperature\n- Light intensity\n- Water availability\n- Soil type and nutrients\n- pH levels\n\n**Key Terms:**\n\n**Population:** All organisms of one species in an area\n**Community:** All populations in an area\n**Habitat:** Place where an organism lives\n**Niche:** Role of an organism in its ecosystem\n\n**Organisms in an Ecosystem:**\n\n**Producers:**\n- Make their own food through photosynthesis\n- Plants, algae, some bacteria\n- First trophic level\n\n**Consumers:**\n- Primary (herbivores) - eat producers\n- Secondary (carnivores) - eat primary consumers\n- Tertiary - eat secondary consumers\n\n**Decomposers:**\n- Break down dead organisms\n- Recycle nutrients back to soil\n- Bacteria and fungi\n\n**Singapore Context:**\nSungei Buloh Wetland Reserve is an example of a mangrove ecosystem with diverse biotic and abiotic factors.",
+                            "content_zh": "**生态系统**是生物群落与其物理环境相互作用的整体。\n\n**生物因素：**\n- 生产者（植物、藻类）\n- 消费者（动物）\n- 分解者（细菌、真菌）\n\n**非生物因素：**\n- 温度\n- 光照强度\n- 水分\n- 土壤类型\n\n**关键术语：**\n- 种群：一个区域内同一物种的所有生物\n- 群落：一个区域内所有种群\n- 栖息地：生物生活的地方\n- 生态位：生物在生态系统中的角色"
+                        },
+                        {
+                            "id": "food-chains-webs",
+                            "type": "text",
+                            "title": "Food Chains and Food Webs",
+                            "title_zh": "食物链和食物网",
+                            "content": "**Food Chain:**\nA linear sequence showing transfer of energy from one organism to another.\n\nExample:\nGrass → Grasshopper → Frog → Snake → Eagle\n\n**Trophic Levels:**\n- Level 1: Producers\n- Level 2: Primary consumers (herbivores)\n- Level 3: Secondary consumers\n- Level 4: Tertiary consumers\n\n**Food Web:**\nInterconnected food chains showing multiple feeding relationships.\n\n**Arrows show direction of energy flow (→ means \"is eaten by\")**\n\n**Energy Transfer:**\n- Only about 10% of energy passes to the next level\n- Rest is lost as heat during respiration\n- This limits food chain length (usually 4-5 levels)\n\n**Pyramid of Numbers:**\nShows quantity of organisms at each trophic level.\nUsually more organisms at lower levels.\n\n**Pyramid of Energy:**\nShows energy at each trophic level.\nAlways decreases going up (pyramid shape).\n\n**Impact of Removing an Organism:**\nIf one organism is removed:\n- Its prey may increase (no predator)\n- Its predator may decrease (no food)\n- Affects entire food web\n\n**Singapore Example:**\nIn Singapore's nature reserves, if we removed all snakes, the rat population might explode, affecting crops and spreading disease.",
+                            "content_zh": "**食物链：**\n显示能量从一个生物传递到另一个生物的线性序列。\n\n例如：\n草 → 蚱蜢 → 青蛙 → 蛇 → 老鹰\n\n**营养级：**\n- 第1级：生产者\n- 第2级：初级消费者\n- 第3级：次级消费者\n- 第4级：三级消费者\n\n**食物网：**\n相互连接的食物链，显示多种捕食关系。\n\n**能量传递：**\n- 只有约10%的能量传递到下一级\n- 其余作为热能在呼吸中损失\n- 这限制了食物链长度"
+                        },
+                        {
+                            "id": "biodiversity",
+                            "type": "text",
+                            "title": "Biodiversity and Conservation",
+                            "title_zh": "生物多样性和保护",
+                            "content": "**Biodiversity** is the variety of life in an ecosystem.\n\n**Importance of Biodiversity:**\n\n**1. Ecological Importance:**\n- Maintains ecosystem stability\n- Food web complexity\n- Pollination and seed dispersal\n\n**2. Economic Importance:**\n- Food sources\n- Medicines from plants\n- Raw materials\n- Ecotourism\n\n**3. Aesthetic/Cultural:**\n- Natural beauty\n- Cultural significance\n- Recreation\n\n**Threats to Biodiversity:**\n1. Habitat destruction (deforestation)\n2. Pollution\n3. Climate change\n4. Overexploitation\n5. Invasive species\n\n**Conservation Efforts:**\n\n**In-situ (on-site):**\n- Nature reserves\n- National parks\n- Protected areas\n\n**Ex-situ (off-site):**\n- Zoos\n- Seed banks\n- Botanical gardens\n\n**Singapore's Conservation:**\n- Nature reserves (Bukit Timah, Central Catchment)\n- Singapore Botanic Gardens\n- Wildlife parks (Night Safari, Mandai)\n- Laws protecting endangered species\n- Tree planting initiatives (Garden City)",
+                            "content_zh": "**生物多样性**是生态系统中生命的多样性。\n\n**生物多样性的重要性：**\n\n**1. 生态重要性：**\n- 维持生态系统稳定\n- 食物网复杂性\n- 授粉和种子传播\n\n**2. 经济重要性：**\n- 食物来源\n- 植物药物\n- 生态旅游\n\n**威胁：**\n- 栖息地破坏\n- 污染\n- 气候变化\n- 过度开发\n- 外来物种入侵\n\n**保护措施：**\n- 就地保护：自然保护区\n- 迁地保护：动物园、种子库"
+                        }
+                    ],
+                    "exercises": [
+                        {
+                            "id": "bio-eco-ex1",
+                            "type": "mcq",
+                            "difficulty": "easy",
+                            "prompt": "In a food chain, what do arrows represent?",
+                            "prompt_zh": "在食物链中，箭头代表什么？",
+                            "choices": [
+                                "Direction of movement",
+                                "Flow of energy",
+                                "Size of organism",
+                                "Speed of growth"
+                            ],
+                            "choices_zh": [
+                                "移动方向",
+                                "能量流动",
+                                "生物大小",
+                                "生长速度"
+                            ],
+                            "answer": 1,
+                            "explanation": "**Problem:** What do arrows represent in food chains?\n\n**Key Concept:**\nArrows show the direction of energy flow from one organism to the next. The arrow points toward the organism that receives the energy.\n\n✔ **Final Answer:** Flow of energy",
+                            "explanation_zh": "箭头显示能量从一个生物流向下一个生物的方向。"
+                        },
+                        {
+                            "id": "bio-eco-ex2",
+                            "type": "mcq",
+                            "difficulty": "medium",
+                            "prompt": "Which organisms are at the first trophic level?",
+                            "prompt_zh": "哪些生物位于第一营养级？",
+                            "choices": [
+                                "Herbivores",
+                                "Carnivores",
+                                "Decomposers",
+                                "Producers"
+                            ],
+                            "choices_zh": [
+                                "草食动物",
+                                "肉食动物",
+                                "分解者",
+                                "生产者"
+                            ],
+                            "answer": 3,
+                            "explanation": "**Problem:** Which organisms are at the first trophic level?\n\n**Key Concept:**\nProducers (plants) are always at the first trophic level as they convert sunlight into food through photosynthesis.\n\n✔ **Final Answer:** Producers",
+                            "explanation_zh": "生产者（植物）始终位于第一营养级，因为它们通过光合作用将阳光转化为食物。"
+                        },
+                        {
+                            "id": "bio-eco-ex3",
+                            "type": "mcq",
+                            "difficulty": "hard",
+                            "prompt": "Approximately what percentage of energy is transferred from one trophic level to the next?",
+                            "prompt_zh": "从一个营养级传递到下一个营养级的能量大约占多少百分比？",
+                            "choices": [
+                                "1%",
+                                "10%",
+                                "50%",
+                                "90%"
+                            ],
+                            "choices_zh": [
+                                "1%",
+                                "10%",
+                                "50%",
+                                "90%"
+                            ],
+                            "answer": 1,
+                            "explanation": "**Problem:** How much energy transfers between trophic levels?\n\n**Key Concept:**\nOnly about 10% of energy is passed on to the next level. The rest (90%) is lost as heat during respiration.\n\n✔ **Final Answer:** 10%",
+                            "explanation_zh": "只有约10%的能量传递到下一级。其余90%在呼吸过程中作为热能损失。"
+                        },
+                        {
+                            "id": "bio-eco-ex4",
+                            "type": "short",
+                            "difficulty": "medium",
+                            "prompt": "What is the role of decomposers in an ecosystem?",
+                            "prompt_zh": "分解者在生态系统中的作用是什么？",
+                            "answer": "Break down dead organisms and recycle nutrients",
+                            "explanation": "**Key Concept:**\nDecomposers (bacteria and fungi) break down dead organisms and waste materials, releasing nutrients back into the soil for producers to use.\n\n✔ **Final Answer:** Break down dead organisms and recycle nutrients",
+                            "explanation_zh": "分解者（细菌和真菌）分解死亡生物和废物，将营养物质释放回土壤供生产者使用。"
+                        }
+                    ]
+                },
+                {
+                    "id": "transport-systems",
+                    "title": "Transport Systems in Living Things",
+                    "title_zh": "生物体的运输系统",
+                    "description": "Understand circulatory system in humans and transport in plants",
+                    "description_zh": "理解人体循环系统和植物运输",
+                    "gradeLevel": "sec2",
+                    "objectives": [
+                        "Describe the structure and function of the human circulatory system",
+                        "Explain the composition and functions of blood",
+                        "Describe transport in plants (xylem and phloem)",
+                        "Explain diffusion and osmosis"
+                    ],
+                    "objectives_zh": [
+                        "描述人体循环系统的结构和功能",
+                        "解释血液的组成和功能",
+                        "描述植物运输（木质部和韧皮部）",
+                        "解释扩散和渗透"
+                    ],
+                    "sections": [
+                        {
+                            "id": "circulatory-system",
+                            "type": "text",
+                            "title": "Human Circulatory System",
+                            "title_zh": "人体循环系统",
+                            "content": "The **circulatory system** transports substances around the body.\n\n**Components:**\n\n**1. Heart**\n- Muscular pump with 4 chambers\n- Right side: pumps deoxygenated blood to lungs\n- Left side: pumps oxygenated blood to body\n- Double circulation: blood passes through heart twice per circuit\n\n**2. Blood Vessels:**\n- **Arteries**: Carry blood AWAY from heart (thick walls, high pressure)\n- **Veins**: Carry blood TO heart (thin walls, contain valves)\n- **Capillaries**: Tiny vessels for exchange (one cell thick)\n\n**3. Blood:**\n- Red blood cells: Carry oxygen (contain hemoglobin)\n- White blood cells: Fight infection\n- Platelets: Blood clotting\n- Plasma: Liquid carrying dissolved substances",
+                            "content_zh": "**循环系统**在体内运输物质。\n\n**组成：**\n\n**1. 心脏**\n- 有4个腔室的肌肉泵\n- 右侧：将缺氧血液泵到肺\n- 左侧：将含氧血液泵到身体\n\n**2. 血管：**\n- 动脉：将血液从心脏运走\n- 静脉：将血液运回心脏\n- 毛细血管：交换物质\n\n**3. 血液：**\n- 红细胞：携带氧气\n- 白细胞：对抗感染\n- 血小板：凝血"
+                        },
+                        {
+                            "id": "plant-transport",
+                            "type": "text",
+                            "title": "Transport in Plants",
+                            "title_zh": "植物运输",
+                            "content": "Plants have two transport tissues:\n\n**Xylem:**\n- Transports water and minerals\n- From roots UP to leaves\n- Dead, hollow cells\n- One-way transport\n- Driven by transpiration (water loss from leaves)\n\n**Phloem:**\n- Transports sugars (from photosynthesis)\n- From leaves to all parts\n- Living cells\n- Two-way transport\n- Called translocation\n\n**Transpiration:**\n- Water evaporates from leaves through stomata\n- Creates \"pull\" that draws water up xylem\n- Factors affecting rate: temperature, humidity, wind, light",
+                            "content_zh": "植物有两种运输组织：\n\n**木质部：**\n- 运输水分和矿物质\n- 从根向上到叶\n- 死亡的中空细胞\n- 单向运输\n\n**韧皮部：**\n- 运输糖类\n- 从叶到各部分\n- 活细胞\n- 双向运输"
+                        },
+                        {
+                            "id": "diffusion-osmosis",
+                            "type": "text",
+                            "title": "Diffusion and Osmosis",
+                            "title_zh": "扩散和渗透",
+                            "content": "**Diffusion:**\n- Movement of particles from HIGH to LOW concentration\n- No energy required (passive)\n- Occurs in gases and liquids\n- Examples: Oxygen entering blood in lungs, CO₂ leaving cells\n\n**Osmosis:**\n- Movement of WATER molecules from HIGH water concentration to LOW water concentration through a semi-permeable membrane\n- Special type of diffusion for water only\n- Examples: Water entering root hair cells, water absorption in intestines\n\n**Key Terms:**\n- **Concentration gradient**: Difference in concentration between two areas\n- **Semi-permeable membrane**: Only allows some molecules through",
+                            "content_zh": "**扩散：**\n- 粒子从高浓度向低浓度移动\n- 不需要能量（被动）\n- 发生在气体和液体中\n\n**渗透：**\n- 水分子通过半透膜从高水浓度向低水浓度移动\n- 只针对水的特殊扩散"
+                        }
+                    ],
+                    "exercises": [
+                        {
+                            "id": "trans-ex1",
+                            "type": "mcq",
+                            "difficulty": "easy",
+                            "prompt": "Which blood vessels carry blood AWAY from the heart?",
+                            "prompt_zh": "哪种血管将血液从心脏运走？",
+                            "choices": [
+                                "Veins",
+                                "Arteries",
+                                "Capillaries",
+                                "Lymph vessels"
+                            ],
+                            "choices_zh": [
+                                "静脉",
+                                "动脉",
+                                "毛细血管",
+                                "淋巴管"
+                            ],
+                            "answer": 1,
+                            "explanation": "Arteries carry blood AWAY from the heart. Remember: A for Arteries, A for Away.\n\n✔ **Final Answer:** Arteries",
+                            "explanation_zh": "动脉将血液从心脏运走。"
+                        },
+                        {
+                            "id": "trans-ex2",
+                            "type": "mcq",
+                            "difficulty": "medium",
+                            "prompt": "What does xylem transport in plants?",
+                            "prompt_zh": "木质部在植物中运输什么？",
+                            "choices": [
+                                "Sugars",
+                                "Water and minerals",
+                                "Oxygen only",
+                                "Carbon dioxide"
+                            ],
+                            "choices_zh": [
+                                "糖类",
+                                "水分和矿物质",
+                                "仅氧气",
+                                "二氧化碳"
+                            ],
+                            "answer": 1,
+                            "explanation": "Xylem transports water and minerals from roots upward. Phloem transports sugars.\n\n✔ **Final Answer:** Water and minerals",
+                            "explanation_zh": "木质部从根向上运输水分和矿物质。韧皮部运输糖类。"
+                        },
+                        {
+                            "id": "trans-ex3",
+                            "type": "mcq",
+                            "difficulty": "medium",
+                            "prompt": "What is osmosis?",
+                            "prompt_zh": "什么是渗透？",
+                            "choices": [
+                                "Movement of any particles",
+                                "Movement of water through a semi-permeable membrane",
+                                "Movement of oxygen",
+                                "Active transport"
+                            ],
+                            "choices_zh": [
+                                "任何粒子的移动",
+                                "水通过半透膜的移动",
+                                "氧气的移动",
+                                "主动运输"
+                            ],
+                            "answer": 1,
+                            "explanation": "Osmosis is specifically the movement of water molecules through a semi-permeable membrane from high to low water concentration.\n\n✔ **Final Answer:** Movement of water through a semi-permeable membrane",
+                            "explanation_zh": "渗透是水分子通过半透膜从高浓度向低浓度移动。"
+                        },
+                        {
+                            "id": "trans-ex4",
+                            "type": "short",
+                            "difficulty": "hard",
+                            "prompt": "State one function of red blood cells.",
+                            "prompt_zh": "说明红细胞的一个功能。",
+                            "answer": "Transport oxygen",
+                            "explanation": "Red blood cells contain hemoglobin which binds to oxygen in the lungs and releases it to body tissues.\n\n✔ **Final Answer:** Transport oxygen",
+                            "explanation_zh": "红细胞含有血红蛋白，在肺部与氧气结合并释放给身体组织。"
+                        }
+                    ]
+                },
+                {
+                    "id": "reproductive-system",
+                    "title": "Human Sexual Reproductive System",
+                    "title_zh": "人类生殖系统",
+                    "description": "Understand human reproduction, puberty, and development",
+                    "description_zh": "理解人类生殖、青春期和发育",
+                    "gradeLevel": "sec2",
+                    "objectives": [
+                        "Describe the structure of male and female reproductive systems",
+                        "Explain the changes during puberty",
+                        "Describe fertilization and development",
+                        "Discuss responsible sexual behavior"
+                    ],
+                    "objectives_zh": [
+                        "描述男性和女性生殖系统的结构",
+                        "解释青春期的变化",
+                        "描述受精和发育",
+                        "讨论负责任的性行为"
+                    ],
+                    "sections": [
+                        {
+                            "id": "puberty",
+                            "type": "text",
+                            "title": "Puberty and Adolescence",
+                            "title_zh": "青春期和青少年时期",
+                            "content": "**Puberty** is the stage when the body matures and becomes capable of reproduction.\n\n**Changes in Males:**\n- Voice deepens\n- Growth of facial and body hair\n- Muscle development\n- Growth spurt\n- Testes produce sperm\n\n**Changes in Females:**\n- Breast development\n- Widening of hips\n- Menstruation begins\n- Ovaries release eggs\n\n**Common to Both:**\n- Growth of pubic and underarm hair\n- Skin becomes oily (may cause acne)\n- Emotional changes\n- Increased sweating\n\n**Hormones:**\n- Testosterone (males)\n- Estrogen and progesterone (females)",
+                            "content_zh": "**青春期**是身体成熟并具备生殖能力的阶段。\n\n**男性变化：**\n- 声音变低\n- 面部和体毛生长\n- 肌肉发育\n- 睾丸产生精子\n\n**女性变化：**\n- 乳房发育\n- 臀部变宽\n- 月经开始\n- 卵巢释放卵子"
+                        },
+                        {
+                            "id": "reproductive-organs",
+                            "type": "text",
+                            "title": "Reproductive Organs",
+                            "title_zh": "生殖器官",
+                            "content": "**Male Reproductive System:**\n- **Testes**: Produce sperm and testosterone\n- **Epididymis**: Stores mature sperm\n- **Vas deferens**: Tube carrying sperm\n- **Urethra**: Passage for sperm and urine\n- **Penis**: Delivers sperm\n\n**Female Reproductive System:**\n- **Ovaries**: Produce eggs and hormones\n- **Fallopian tubes (Oviducts)**: Site of fertilization\n- **Uterus**: Where fetus develops\n- **Cervix**: Opening of uterus\n- **Vagina**: Birth canal\n\n**Menstrual Cycle:**\n- Approximately 28 days\n- Day 1-5: Menstruation\n- Day 14 (approx): Ovulation (egg released)\n- If no fertilization: cycle repeats",
+                            "content_zh": "**男性生殖系统：**\n- 睾丸：产生精子和睾酮\n- 附睾：储存成熟精子\n- 输精管：运送精子\n\n**女性生殖系统：**\n- 卵巢：产生卵子和激素\n- 输卵管：受精场所\n- 子宫：胎儿发育的地方\n\n**月经周期：**\n- 大约28天\n- 第14天左右：排卵"
+                        },
+                        {
+                            "id": "fertilization-development",
+                            "type": "text",
+                            "title": "Fertilization and Development",
+                            "title_zh": "受精和发育",
+                            "content": "**Fertilization:**\n- Sperm meets egg in fallopian tube\n- One sperm enters egg\n- Nuclei fuse to form zygote\n- Zygote has 46 chromosomes (23 from each parent)\n\n**Development:**\n1. Zygote divides (cell division)\n2. Forms ball of cells (embryo)\n3. Implants in uterus wall\n4. Placenta forms for nutrient/gas exchange\n5. After 8 weeks, called fetus\n6. Birth after ~40 weeks (9 months)\n\n**Placenta Functions:**\n- Exchange of oxygen and carbon dioxide\n- Provides nutrients to fetus\n- Removes waste products\n- Acts as barrier (but some substances can cross)\n\n**Health Note:**\nAlcohol, tobacco, and drugs can cross the placenta and harm the developing fetus.",
+                            "content_zh": "**受精：**\n- 精子和卵子在输卵管相遇\n- 一个精子进入卵子\n- 细胞核融合形成受精卵\n- 受精卵有46条染色体\n\n**发育：**\n1. 受精卵分裂\n2. 形成胚胎\n3. 植入子宫壁\n4. 形成胎盘\n5. 8周后称为胎儿\n6. 约40周后出生"
+                        }
+                    ],
+                    "exercises": [
+                        {
+                            "id": "repro-ex1",
+                            "type": "mcq",
+                            "difficulty": "easy",
+                            "prompt": "Where does fertilization normally occur?",
+                            "prompt_zh": "受精通常发生在哪里？",
+                            "choices": [
+                                "Uterus",
+                                "Ovary",
+                                "Fallopian tube",
+                                "Vagina"
+                            ],
+                            "choices_zh": [
+                                "子宫",
+                                "卵巢",
+                                "输卵管",
+                                "阴道"
+                            ],
+                            "answer": 2,
+                            "explanation": "Fertilization (sperm meeting egg) normally occurs in the fallopian tube. The fertilized egg then travels to the uterus.\n\n✔ **Final Answer:** Fallopian tube",
+                            "explanation_zh": "受精（精子与卵子相遇）通常发生在输卵管。受精卵然后移动到子宫。"
+                        },
+                        {
+                            "id": "repro-ex2",
+                            "type": "mcq",
+                            "difficulty": "medium",
+                            "prompt": "What is the function of the placenta?",
+                            "prompt_zh": "胎盘的功能是什么？",
+                            "choices": [
+                                "Produce eggs",
+                                "Exchange nutrients and gases between mother and fetus",
+                                "Store sperm",
+                                "Produce hormones only"
+                            ],
+                            "choices_zh": [
+                                "产生卵子",
+                                "在母亲和胎儿之间交换营养物质和气体",
+                                "储存精子",
+                                "只产生激素"
+                            ],
+                            "answer": 1,
+                            "explanation": "The placenta allows exchange of oxygen, nutrients, and waste between mother and fetus without mixing their blood.\n\n✔ **Final Answer:** Exchange nutrients and gases between mother and fetus",
+                            "explanation_zh": "胎盘允许母亲和胎儿之间交换氧气、营养物质和废物，而不混合血液。"
+                        },
+                        {
+                            "id": "repro-ex3",
+                            "type": "mcq",
+                            "difficulty": "medium",
+                            "prompt": "Which hormone is primarily responsible for male secondary sexual characteristics?",
+                            "prompt_zh": "哪种激素主要负责男性第二性征？",
+                            "choices": [
+                                "Estrogen",
+                                "Progesterone",
+                                "Testosterone",
+                                "Insulin"
+                            ],
+                            "choices_zh": [
+                                "雌激素",
+                                "孕激素",
+                                "睾酮",
+                                "胰岛素"
+                            ],
+                            "answer": 2,
+                            "explanation": "Testosterone is the main male sex hormone responsible for characteristics like voice deepening and facial hair growth.\n\n✔ **Final Answer:** Testosterone",
+                            "explanation_zh": "睾酮是主要的男性性激素，负责声音变低和面部毛发生长等特征。"
+                        },
+                        {
+                            "id": "repro-ex4",
+                            "type": "short",
+                            "difficulty": "hard",
+                            "prompt": "State one physical change that occurs in females during puberty.",
+                            "prompt_zh": "说明女性在青春期发生的一个身体变化。",
+                            "answer": "Menstruation begins",
+                            "explanation": "Physical changes in females during puberty include: breast development, widening of hips, menstruation, growth of pubic hair.\n\n✔ **Final Answer:** Menstruation begins (or breast development, widening of hips)",
+                            "explanation_zh": "女性青春期的身体变化包括：乳房发育、臀部变宽、月经开始、阴毛生长。"
+                        }
+                    ]
+                },
+                {
+                    "id": "cells",
+                    "title": "Cells - The Basic Unit of Life",
+                    "title_zh": "细胞 - 生命的基本单位",
+                    "description": "Understand cell structure, function, and organization",
+                    "description_zh": "理解细胞结构、功能和组织",
+                    "gradeLevel": "sec2",
+                    "objectives": [
+                        "Describe the structure of plant and animal cells",
+                        "Explain the functions of cell organelles",
+                        "Compare plant and animal cells",
+                        "Describe levels of organization in organisms"
+                    ],
+                    "objectives_zh": [
+                        "描述植物和动物细胞的结构",
+                        "解释细胞器的功能",
+                        "比较植物和动物细胞",
+                        "描述生物体的组织层次"
+                    ],
+                    "sections": [
+                        {
+                            "id": "cell-structure",
+                            "type": "text",
+                            "title": "Cell Structure and Organelles",
+                            "title_zh": "细胞结构和细胞器",
+                            "content": "**Cells** are the basic structural and functional units of all living things.\n\n**Common to Both Plant and Animal Cells:**\n\n**Cell membrane**\n- Controls what enters and leaves cell\n- Partially permeable\n\n**Cytoplasm**\n- Jelly-like fluid\n- Where chemical reactions occur\n\n**Nucleus**\n- Contains genetic material (DNA)\n- Controls cell activities\n\n**Mitochondria**\n- Site of aerobic respiration\n- Releases energy from glucose\n- 'Powerhouse of the cell'\n\n**Ribosomes**\n- Site of protein synthesis",
+                            "content_zh": "**细胞**是所有生物的基本结构和功能单位。\n\n**植物和动物细胞共有：**\n\n**细胞膜**\n- 控制进出细胞的物质\n- 半透性\n\n**细胞质**\n- 果冻状液体\n- 化学反应发生的地方\n\n**细胞核**\n- 包含遗传物质（DNA）\n- 控制细胞活动\n\n**线粒体**\n- 有氧呼吸的场所\n- 从葡萄糖释放能量"
+                        },
+                        {
+                            "id": "plant-animal-cells",
+                            "type": "text",
+                            "title": "Plant vs Animal Cells",
+                            "title_zh": "植物细胞与动物细胞",
+                            "content": "**Only in Plant Cells:**\n\n**Cell wall**\n- Made of cellulose\n- Provides support and protection\n- Fully permeable\n\n**Chloroplasts**\n- Contain chlorophyll (green pigment)\n- Site of photosynthesis\n\n**Large central vacuole**\n- Contains cell sap\n- Maintains turgor pressure\n- Storage\n\n**Comparison Table:**\n\n| Feature | Plant Cell | Animal Cell |\n|---------|------------|-------------|\n| Cell wall | Yes | No |\n| Chloroplasts | Yes | No |\n| Large vacuole | Yes | Small/none |\n| Shape | Fixed/rectangular | Variable |\n| Centrioles | No | Yes |",
+                            "content_zh": "**仅植物细胞有：**\n\n**细胞壁**\n- 由纤维素组成\n- 提供支持和保护\n\n**叶绿体**\n- 包含叶绿素\n- 光合作用的场所\n\n**大液泡**\n- 包含细胞液\n- 维持膨压"
+                        },
+                        {
+                            "id": "cell-organization",
+                            "type": "text",
+                            "title": "Levels of Organization",
+                            "title_zh": "组织层次",
+                            "content": "Living things are organized from simple to complex:\n\n**Cell → Tissue → Organ → Organ System → Organism**\n\n**Cell:**\nBasic unit of life (e.g., muscle cell, nerve cell)\n\n**Tissue:**\nGroup of similar cells doing same function\n- Muscle tissue\n- Nerve tissue\n- Epithelial tissue\n\n**Organ:**\nDifferent tissues working together\n- Heart (muscle + nerve + blood tissue)\n- Leaf (epidermis + mesophyll + vascular tissue)\n\n**Organ System:**\nOrgans working together\n- Digestive system\n- Circulatory system\n- Respiratory system\n\n**Organism:**\nComplete living thing",
+                            "content_zh": "生物从简单到复杂组织：\n\n**细胞 → 组织 → 器官 → 器官系统 → 生物体**\n\n**细胞：**生命的基本单位\n\n**组织：**相似细胞的群体\n\n**器官：**不同组织协同工作\n\n**器官系统：**器官协同工作\n\n**生物体：**完整的生物"
+                        }
+                    ],
+                    "exercises": [
+                        {
+                            "id": "cell-ex1",
+                            "type": "mcq",
+                            "difficulty": "easy",
+                            "prompt": "Which organelle is the 'powerhouse of the cell'?",
+                            "prompt_zh": "哪个细胞器是'细胞的动力工厂'？",
+                            "choices": [
+                                "Nucleus",
+                                "Mitochondria",
+                                "Chloroplast",
+                                "Ribosome"
+                            ],
+                            "choices_zh": [
+                                "细胞核",
+                                "线粒体",
+                                "叶绿体",
+                                "核糖体"
+                            ],
+                            "answer": 1,
+                            "explanation": "Mitochondria release energy through aerobic respiration, earning them the nickname 'powerhouse of the cell'.\n\n✔ **Final Answer:** Mitochondria",
+                            "explanation_zh": "线粒体通过有氧呼吸释放能量，被称为'细胞的动力工厂'。"
+                        },
+                        {
+                            "id": "cell-ex2",
+                            "type": "mcq",
+                            "difficulty": "medium",
+                            "prompt": "Which structure is found in plant cells but NOT in animal cells?",
+                            "prompt_zh": "哪种结构存在于植物细胞但不存在于动物细胞？",
+                            "choices": [
+                                "Nucleus",
+                                "Cell membrane",
+                                "Cell wall",
+                                "Mitochondria"
+                            ],
+                            "choices_zh": [
+                                "细胞核",
+                                "细胞膜",
+                                "细胞壁",
+                                "线粒体"
+                            ],
+                            "answer": 2,
+                            "explanation": "Cell wall (made of cellulose) is only found in plant cells. It provides support and protection.\n\n✔ **Final Answer:** Cell wall",
+                            "explanation_zh": "细胞壁（由纤维素组成）仅存在于植物细胞。它提供支持和保护。"
+                        },
+                        {
+                            "id": "cell-ex3",
+                            "type": "mcq",
+                            "difficulty": "medium",
+                            "prompt": "What is the correct order of organization from simplest to most complex?",
+                            "prompt_zh": "从最简单到最复杂的正确组织顺序是什么？",
+                            "choices": [
+                                "Organ → Cell → Tissue → System",
+                                "Cell → Tissue → Organ → System",
+                                "Tissue → Cell → Organ → System",
+                                "System → Organ → Tissue → Cell"
+                            ],
+                            "choices_zh": [
+                                "器官→细胞→组织→系统",
+                                "细胞→组织→器官→系统",
+                                "组织→细胞→器官→系统",
+                                "系统→器官→组织→细胞"
+                            ],
+                            "answer": 1,
+                            "explanation": "The correct order is: Cell → Tissue → Organ → Organ System → Organism\n\n✔ **Final Answer:** Cell → Tissue → Organ → System",
+                            "explanation_zh": "正确的顺序是：细胞 → 组织 → 器官 → 器官系统 → 生物体"
+                        },
+                        {
+                            "id": "cell-ex4",
+                            "type": "short",
+                            "difficulty": "hard",
+                            "prompt": "State one function of the cell membrane.",
+                            "prompt_zh": "说明细胞膜的一个功能。",
+                            "answer": "Controls what enters and leaves the cell",
+                            "explanation": "The cell membrane is partially permeable and controls the movement of substances into and out of the cell.\n\n✔ **Final Answer:** Controls what enters and leaves the cell",
+                            "explanation_zh": "细胞膜是半透性的，控制物质进出细胞。"
+                        }
+                    ]
+                },
+                {
+                    "id": "respiration",
+                    "title": "Respiration and Energy",
+                    "title_zh": "呼吸作用和能量",
+                    "description": "Understand how organisms release energy from food",
+                    "description_zh": "理解生物如何从食物中释放能量",
+                    "gradeLevel": "sec2",
+                    "objectives": [
+                        "Explain the purpose of respiration",
+                        "Compare aerobic and anaerobic respiration",
+                        "Write word equations for respiration",
+                        "Describe the uses of energy in organisms"
+                    ],
+                    "objectives_zh": [
+                        "解释呼吸作用的目的",
+                        "比较有氧呼吸和无氧呼吸",
+                        "写出呼吸作用的文字方程式",
+                        "描述能量在生物体中的用途"
+                    ],
+                    "sections": [
+                        {
+                            "id": "aerobic-respiration",
+                            "type": "text",
+                            "title": "Aerobic Respiration",
+                            "title_zh": "有氧呼吸",
+                            "content": "**Respiration** is the process of releasing energy from glucose. It happens in ALL living cells, ALL the time.\n\n**Aerobic Respiration** (with oxygen):\n\n**Word Equation:**\nGlucose + Oxygen → Carbon dioxide + Water + Energy\n\n**Chemical Equation:**\nC₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + Energy\n\n**Location:** Mainly in mitochondria\n\n**Key Points:**\n- Requires oxygen\n- Releases MORE energy than anaerobic\n- Produces CO₂ and water as waste\n- Occurs in plants AND animals\n\n**Note:** Respiration is NOT the same as breathing!\n- Breathing = gas exchange (physical)\n- Respiration = energy release (chemical)",
+                            "content_zh": "**呼吸作用**是从葡萄糖释放能量的过程。它在所有活细胞中持续发生。\n\n**有氧呼吸**（需要氧气）：\n\n**文字方程式：**\n葡萄糖 + 氧气 → 二氧化碳 + 水 + 能量\n\n**位置：**主要在线粒体\n\n**要点：**\n- 需要氧气\n- 比无氧呼吸释放更多能量\n- 产生CO₂和水作为废物"
+                        },
+                        {
+                            "id": "anaerobic-respiration",
+                            "type": "text",
+                            "title": "Anaerobic Respiration",
+                            "title_zh": "无氧呼吸",
+                            "content": "**Anaerobic Respiration** (without oxygen):\n\n**In Animals (muscles):**\nGlucose → Lactic acid + Energy (less)\n- Happens during intense exercise\n- Causes muscle fatigue and cramp\n- Lactic acid builds up\n- Creates 'oxygen debt'\n\n**In Yeast and Plants:**\nGlucose → Ethanol + Carbon dioxide + Energy (less)\n- Called fermentation\n- Used in bread making (CO₂ makes bread rise)\n- Used in alcohol production\n\n**Comparison:**\n\n| Feature | Aerobic | Anaerobic |\n|---------|---------|----------|\n| Oxygen | Needed | Not needed |\n| Energy | More | Less |\n| Products | CO₂ + H₂O | Lactic acid OR Ethanol + CO₂ |\n| Complete breakdown | Yes | No |",
+                            "content_zh": "**无氧呼吸**（不需要氧气）：\n\n**在动物中（肌肉）：**\n葡萄糖 → 乳酸 + 能量（较少）\n- 在剧烈运动时发生\n- 造成肌肉疲劳和抽筋\n\n**在酵母和植物中：**\n葡萄糖 → 乙醇 + 二氧化碳 + 能量（较少）\n- 称为发酵\n- 用于面包制作\n- 用于酒精生产"
+                        },
+                        {
+                            "id": "energy-uses",
+                            "type": "text",
+                            "title": "Uses of Energy",
+                            "title_zh": "能量的用途",
+                            "content": "Energy from respiration is used for:\n\n**1. Growth and Repair**\n- Making new cells\n- Repairing damaged tissues\n- Protein synthesis\n\n**2. Active Transport**\n- Moving substances against concentration gradient\n- Requires energy\n\n**3. Movement**\n- Muscle contraction\n- Movement of cilia/flagella\n\n**4. Maintaining Body Temperature**\n- Warm-blooded animals\n- Keeping constant temperature\n\n**5. Chemical Reactions**\n- Building complex molecules\n- Breaking down substances\n\n**6. Nerve Impulses**\n- Transmitting signals\n- Brain function",
+                            "content_zh": "呼吸作用释放的能量用于：\n\n**1. 生长和修复**\n- 制造新细胞\n- 修复受损组织\n\n**2. 主动运输**\n- 逆浓度梯度移动物质\n\n**3. 运动**\n- 肌肉收缩\n\n**4. 维持体温**\n- 恒温动物\n\n**5. 化学反应**\n- 构建复杂分子\n\n**6. 神经冲动**\n- 传递信号"
+                        }
+                    ],
+                    "exercises": [
+                        {
+                            "id": "resp-ex1",
+                            "type": "mcq",
+                            "difficulty": "easy",
+                            "prompt": "What are the products of aerobic respiration?",
+                            "prompt_zh": "有氧呼吸的产物是什么？",
+                            "choices": [
+                                "Glucose and oxygen",
+                                "Carbon dioxide and water",
+                                "Lactic acid only",
+                                "Ethanol and carbon dioxide"
+                            ],
+                            "choices_zh": [
+                                "葡萄糖和氧气",
+                                "二氧化碳和水",
+                                "仅乳酸",
+                                "乙醇和二氧化碳"
+                            ],
+                            "answer": 1,
+                            "explanation": "Aerobic respiration: Glucose + Oxygen → Carbon dioxide + Water + Energy\n\n✔ **Final Answer:** Carbon dioxide and water",
+                            "explanation_zh": "有氧呼吸：葡萄糖 + 氧气 → 二氧化碳 + 水 + 能量"
+                        },
+                        {
+                            "id": "resp-ex2",
+                            "type": "mcq",
+                            "difficulty": "medium",
+                            "prompt": "What is produced during anaerobic respiration in muscles?",
+                            "prompt_zh": "肌肉中无氧呼吸会产生什么？",
+                            "choices": [
+                                "Ethanol",
+                                "Carbon dioxide",
+                                "Lactic acid",
+                                "Oxygen"
+                            ],
+                            "choices_zh": [
+                                "乙醇",
+                                "二氧化碳",
+                                "乳酸",
+                                "氧气"
+                            ],
+                            "answer": 2,
+                            "explanation": "In animal muscles: Glucose → Lactic acid + Energy. This causes muscle fatigue.\n\n✔ **Final Answer:** Lactic acid",
+                            "explanation_zh": "在动物肌肉中：葡萄糖 → 乳酸 + 能量。这会导致肌肉疲劳。"
+                        },
+                        {
+                            "id": "resp-ex3",
+                            "type": "mcq",
+                            "difficulty": "hard",
+                            "prompt": "Why does aerobic respiration release more energy than anaerobic respiration?",
+                            "prompt_zh": "为什么有氧呼吸比无氧呼吸释放更多能量？",
+                            "choices": [
+                                "It uses more glucose",
+                                "Glucose is completely broken down",
+                                "It happens faster",
+                                "It produces more waste"
+                            ],
+                            "choices_zh": [
+                                "它使用更多葡萄糖",
+                                "葡萄糖被完全分解",
+                                "它发生得更快",
+                                "它产生更多废物"
+                            ],
+                            "answer": 1,
+                            "explanation": "In aerobic respiration, glucose is completely broken down to CO₂ and H₂O, releasing all stored energy. In anaerobic, glucose is only partially broken down.\n\n✔ **Final Answer:** Glucose is completely broken down",
+                            "explanation_zh": "在有氧呼吸中，葡萄糖被完全分解成CO₂和H₂O，释放所有储存的能量。在无氧呼吸中，葡萄糖只被部分分解。"
+                        },
+                        {
+                            "id": "resp-ex4",
+                            "type": "short",
+                            "difficulty": "medium",
+                            "prompt": "State one use of energy released from respiration.",
+                            "prompt_zh": "说明呼吸作用释放能量的一个用途。",
+                            "answer": "Muscle contraction (or growth, active transport, maintaining body temperature)",
+                            "explanation": "Energy is used for: muscle contraction, growth and repair, active transport, maintaining temperature, nerve impulses.\n\n✔ **Final Answer:** Muscle contraction",
+                            "explanation_zh": "能量用于：肌肉收缩、生长和修复、主动运输、维持体温、神经冲动。"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

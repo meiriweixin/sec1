@@ -5,7 +5,7 @@ import { useTranslations } from "@/lib/i18n";
 import { motion } from "framer-motion";
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import contentData from "@/data/content.json";
+import contentData from "@/data";
 
 export default function Subjects() {
   const { user, language, gradeLevel, _hasHydrated } = useStore();
@@ -44,7 +44,7 @@ export default function Subjects() {
   return (
     <div className="min-h-screen bg-background">
       <AppHeader />
-      
+
       <main className="container mx-auto px-4 py-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

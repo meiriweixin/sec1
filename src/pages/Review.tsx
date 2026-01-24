@@ -14,7 +14,7 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
-import contentData from "@/data/content.json";
+import contentData from "@/data";
 
 interface Exercise {
   id: string;
@@ -423,15 +423,14 @@ export default function Review() {
                                 key={choiceIndex}
                                 onClick={() => handlePracticeAnswer(question.id, choiceIndex)}
                                 disabled={hasAnswered}
-                                className={`w-full text-left p-3 rounded-lg border transition-colors ${
-                                  hasAnswered
+                                className={`w-full text-left p-3 rounded-lg border transition-colors ${hasAnswered
                                     ? choiceIndex === question.answer
                                       ? 'bg-success/20 border-success'
                                       : practiceAnswers[question.id] === choiceIndex
-                                      ? 'bg-destructive/20 border-destructive'
-                                      : 'bg-muted/50'
+                                        ? 'bg-destructive/20 border-destructive'
+                                        : 'bg-muted/50'
                                     : 'hover:bg-muted/50 cursor-pointer'
-                                }`}
+                                  }`}
                               >
                                 <div className="flex items-center gap-2">
                                   <span className="font-medium">
