@@ -449,9 +449,9 @@ export default function ExamView() {
           {/* Answer Key (shown only when toggled) */}
           {showAnswers && content?.answerKey && (
             <motion.div
-              initial={{ opacity: 0, height: 0 }}
-              animate={{ opacity: 1, height: 'auto' }}
-              exit={{ opacity: 0, height: 0 }}
+              initial={{ opacity: 0, y: -10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.3 }}
             >
               <Card className="mb-6 border-green-500 print:hidden">
                 <CardHeader className="bg-green-50 dark:bg-green-950">
